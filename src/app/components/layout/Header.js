@@ -20,7 +20,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-gray-800 text-white p-4">
+    <header className="bg-customBlue text-white p-4">
       <nav>
         <ul className="flex space-x-4">
           {navItems.map((item, index) => (

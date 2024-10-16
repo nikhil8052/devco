@@ -6,7 +6,11 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx}", // Specifically includes all JS and TS files in the pages directory
   ],
   theme: {
-    extend: {},
+    extend: {
+            colors: {
+        customBlue: '#1E90FF', // Define your custom blue color
+      },
+    },
   },
   plugins: [],
 };
