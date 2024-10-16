@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.site_header {
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+.banner_content {
+    width: 100%;
+    max-width: 770px;
+}
+button.bg-white {
+    color: #000000;
+}
+.btn_wrapper {
+    display: flex;
+    gap: 10px;
+}
+.banner_content p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+

@@ -1,11 +1,9 @@
-
+import HeroBanner from "./components/layout/HeroBanner"
 
 export default function Home() {
   return (
     <>
-
-
-      <h1> THis is my design man </h1>
+    <HeroBanner />
     </>
 
 
