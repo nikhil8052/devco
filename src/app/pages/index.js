@@ -1,5 +1,5 @@
 // pages/index.js
-import Header from '../src/app/components/layout/Header';
+import Header from '../components/layout/Header';
 
 export default function Home() {
   return (
