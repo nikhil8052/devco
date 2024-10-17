@@ -6,7 +6,15 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx}", // Specifically includes all JS and TS files in the pages directory
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+       'sf-pro': ['SF Pro Display', 'sans-serif'],
+      },
+      
+      colors: {
+        'custom-white': '#F7F8F8', // Custom color definition
+      },
+    },
   },
   plugins: [],
 };

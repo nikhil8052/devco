@@ -20,7 +20,7 @@ const Header = () => {
   ];
 
   return (
-    <header className=" text-white p-4 z-10 absolute top-0 left-0 site_header">
+    <header className="w-full text-white p-4 z-10 absolute top-0 left-0 site_header">
      <div className='container mx-auto'>
       <nav>
           <ul className="flex space-x-4">
