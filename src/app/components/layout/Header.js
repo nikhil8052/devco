@@ -5,18 +5,24 @@ import Link from 'next/link';
 const Header = () => {
   // Define your navigation items with optional dropdown items
   const navItems = [
-    { label: 'Home', path: '/' },
+    { label: 'Services', path: '/services' },
     { 
-      label: 'About', 
-      path: '/about',
+      label: 'Skills', 
+      path: '/skills',
       dropdown: [
         { label: 'Team', path: '/about/team' },
         { label: 'Company', path: '/about/company' },
       ],
     },
-    { label: 'Contact', path: '/contact' },
+    { label: 'Technologies', path: '/technologies' },
     
-    { label: 'Services', path: '/services' },
+    { label: 'Industries', path: '/industries' },
+    { label: 'Our Work', path: '/our-work' },
+    { label: 'About', path: '/about' },
+    { label: 'Contact', path: '/contact' },
+
+
+
   ];
 
   return (
