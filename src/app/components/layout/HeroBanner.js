@@ -8,7 +8,7 @@ const HeroBanner = () => {
   return (
     <div className="hero_banner relative w-full pt-20">
       <div className="absolute inset-0 bg-cover bg-center" />
-      <div className="container mx-auto">
+      <div className="container mx-auto mx-auto pl-4 pr-4">
         <motion.div
           className="relative z-2 banner_content max-w-2xl"
           initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
@@ -24,7 +24,7 @@ const HeroBanner = () => {
             Software Development Company
           </motion.h1>
           <motion.p
-            className="text-lg md:text-xl mb-8 text-[#F7F8F8]" 
+            className="text-lg md:text-xl mb-8 text-customwhite" 
             initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}
@@ -38,7 +38,7 @@ const HeroBanner = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            <button className="bg-white text-black px-6 py-3 rounded-md shadow-md hover:bg-gray-200 transition flex items-center hover:bg-[#4353FF] hover:text-white">
+            <button className="bg-white text-black px-6 py-3 rounded-md  shadow-md transition flex items-center">
               Contact Us
             </button>
             <button className="trans_button flex items-center text-[#F7F8F8] px-6 py-3 rounded-md transition hover:bg-[#4353FF] hover:text-white">
