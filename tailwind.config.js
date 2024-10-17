@@ -7,8 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+       'sf-pro': ['SF Pro Display', 'sans-serif'],
+      },
+      
       colors: {
-        customBlue: '#4253FF', // Define your custom blue color
+        'custom-white': '#F7F8F8', // Custom color definition
+
       },
     },
   },
