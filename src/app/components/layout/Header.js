@@ -31,7 +31,7 @@ const Header = () => {
         </button>
 
         {/* Top Links Centered */}
-        <div className="hidden w-full md:flex md:order-1 justify-center border p-2 rounded-md border-indigo-500/100">
+        <div className="hidden w-full md:flex md:order-1 justify-center border p-2 rounded-md border-lightBlue">
           <ul className="flex space-x-8">
             <li
               onMouseEnter={() => handleMouseEnter('home')}

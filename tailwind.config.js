@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       colors: {
         customBlue: '#4253FF', // Define your custom blue color
+        lightBlue:'#4444441'
+      },
+      borderColor: {
+        lightBlue:'#4444441'
       },
     },
   },
