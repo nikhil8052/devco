@@ -7,7 +7,7 @@ export default function Home() {
     <>
 
 
-    <div className="home_page bg-black relative text-custom-white items-center pt-20" style={{
+    <div className="home_page bg-black relative text-customwhite items-center pt-20" style={{
           backgroundImage: "url('/images/banner_bg.png')",
           backgroundRepeat: "no-repeat",
         }}>

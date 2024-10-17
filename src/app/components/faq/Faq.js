@@ -8,7 +8,7 @@ export default function Faq() {
   // Array of FAQs to dynamically render
   const faqs = [
     {
-      question: "It's me Nikhil?",
+      question: "It's me kjjkjkjk?",
       answer: "Why are we working here, man?"
     },
     {
