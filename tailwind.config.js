@@ -13,7 +13,12 @@ module.exports = {
       },
       
       colors: {
-        'custom-white': '#F7F8F8', // Custom color definition
+
+        customBlue: '#4253FF', // Define your custom blue color
+        lightBlue:'#4444441'
+      },
+      borderColor: {
+        lightBlue:'#4444441'
 
       },
     },

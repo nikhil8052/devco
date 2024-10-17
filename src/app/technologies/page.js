@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-  
-    <h1> THis is the servidce page man </h1>
+    <div>Technology page man this is the page of the techniloigy </div>
   )
 }

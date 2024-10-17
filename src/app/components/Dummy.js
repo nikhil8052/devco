@@ -15,7 +15,6 @@ const Header = () => {
   };
 
   return (
-
     <nav className="bg-white w-full border-gray-200 dark:border-gray-600 dark:bg-gray-900">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <button
@@ -32,7 +31,7 @@ const Header = () => {
         </button>
 
         {/* Top Links Centered */}
-        <div className="hidden w-full md:flex md:order-1 justify-center border p-2 rounded-md border-lightBlue">
+        <div className="hidden w-full md:flex md:order-1 justify-center border p-2 rounded-md border-indigo-500/100">
           <ul className="flex space-x-8">
             <li
               onMouseEnter={() => handleMouseEnter('home')}
