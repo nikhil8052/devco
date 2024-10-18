@@ -1,6 +1,7 @@
 
 import HeroBanner from "./components/layout/HeroBanner";
 import Faq from "./components/faq/Faq";
+import DesignSection from './components/Services/DesignSection';
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}>
       <HeroBanner />
-        <Faq /> 
+      <DesignSection/>
+      <Faq /> 
     </div>
     
 

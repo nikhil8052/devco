@@ -17,7 +17,7 @@ const Header = () => {
   return (
 
     <nav className="absolute z-40 w-full border-gray-200 dark:border-gray-600 dark:bg-gray-900 text-customwhite pt-5 pb-5 site_header">
-      <div className='container mx-auto pl-4 pr-4'>
+      <div className='container mx-auto'>
       <div className="flex flex-wrap justify-between items-center ">
         <button
           data-collapse-toggle="mega-menu-full"

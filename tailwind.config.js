@@ -7,11 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-
       fontFamily: {
        'sf-pro': ['SF Pro Display', 'sans-serif'],
       },
-      
       colors: {
 
         customBlue: '#4253FF', // Define your custom blue color
@@ -22,6 +20,20 @@ module.exports = {
       borderColor: {
         lightBlue:'rgba(255, 255, 255, 0.1)'
 
+      },
+      fontSize: {
+        '64px': '64px',
+        '22px': '22px',
+      },
+      container: {
+        center: true,
+        padding: '2rem',
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1440px',
+        },
       },
     },
   },
