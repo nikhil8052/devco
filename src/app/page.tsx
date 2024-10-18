@@ -1,17 +1,10 @@
 import HeroBanner from "./components/layout/HeroBanner";
 import Faq from "./components/faq/Faq";
 import DesignSection from './components/Services/DesignSection';
+import { service1, service2, service3 } from "./data/home";
 
 
 export default function Home() {
-
-  const clientCountData = {
-    imageSrc: '/images/cc1.svg',
-    imageWidth: 180,
-    imageHeight: 74,
-    title: 'Website Development',
-    description: 'Our web development team builds dozens of websites monthly, integrating the right technology stack with cross platform applications for the best possible user experience to your web apps.',
-  };
 
 
   return (
@@ -25,7 +18,11 @@ export default function Home() {
       >
         
       <HeroBanner />
-      <DesignSection/>
+        <DesignSection title={service1.title} description={service1.description} servicesProps={service1.serviceProps} backgroundImage={service1.backgroundImage} sideImage={service1.sideImage} />
+        <DesignSection title={service2.title} description={service2.description} servicesProps={service2.serviceProps} backgroundImage={service2.backgroundImage} sideImage={service2.sideImage} />
+        <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps} backgroundImage={service3.backgroundImage} sideImage={service3.sideImage} />
+
+
       <Faq /> 
 
 

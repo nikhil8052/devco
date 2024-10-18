@@ -8,17 +8,31 @@ export default function Faq() {
   // Array of FAQs to dynamically render
   const faqs = [
     {
-      question: "It's me kjjkjkjk?",
+      question: "What is Software Development?",
       answer: "Why are we working here, man?"
     },
     {
-      question: "Is there a Figma file available?",
+      question: "How Do You Choose the Best Software Development Company?",
       answer: "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file."
     },
     {
-      question: "What are the differences between Flowbite and Tailwind UI?",
+      question: "What is Agile Software Development?",
       answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
-    }
+    },
+    {
+      question: "How Much Do Your Custom Software Engineering Services Cost?",
+      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+    },
+    {
+      question: "What Are the Benefits of Custom Software Development?",
+      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+    },
+    {
+      question: "How Long Does it Take to Create and Build Custom Software?",
+      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+    },
+   
+    
   ];
 
   // Function to handle clicking the accordion item
@@ -32,8 +46,12 @@ export default function Faq() {
 
   return (
     <div className="bg-black w-full"> 
-      <div className="container mx-auto p-4"> {/* Container for centering and padding */}
-        <h1 className="text-white h1 "> This is the fqs section man </h1>
+      <div className="container mx-auto p-4"> 
+        <div className="flex " > 
+            <h1 className="text-white text-5xl mb-4 "> Frequently Asked Questions</h1>
+            <p>Here are some of the most common questions regarding our software dev services </p>
+
+        </div>
         <div id="accordion-collapse" className="bg-black rounded-lg shadow-lg"> {/* Added rounded corners and shadow */}
           {faqs.map((faq, index) => (
             <div key={index}>
