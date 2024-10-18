@@ -1,11 +1,9 @@
 import HeroBanner from "./components/layout/HeroBanner";
 import Faq from "./components/faq/Faq";
-<<<<<<< HEAD
 import BasicCard from "./components/cards/BasicCard";
 import { homeCard1 } from "./data/home.js";
-=======
 import DesignSection from './components/Services/DesignSection';
->>>>>>> Rajeev
+
 
 export default function Home() {
   return (
@@ -15,24 +13,17 @@ export default function Home() {
         style={{
           backgroundImage: "url('/images/banner_bg.png')",
           backgroundRepeat: "no-repeat",
-<<<<<<< HEAD
         }}
       >
-        <HeroBanner />
-        {homeCard1.map((cardData, index) => (
-          <BasicCard key={index} cardData={cardData} />
-        ))}
-        <Faq />
-      </div>
-=======
-        }}>
+        
       <HeroBanner />
       <DesignSection/>
       <Faq /> 
+      {homeCard1.map((cardData, index) => (
+          <BasicCard key={index} cardData={cardData} />
+        ))}
     </div>
     
-
->>>>>>> Rajeev
     </>
   );
 }
