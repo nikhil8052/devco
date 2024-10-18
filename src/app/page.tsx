@@ -1,6 +1,8 @@
 import HeroBanner from "./components/layout/HeroBanner";
 import Faq from "./components/faq/Faq";
+
 import DesignSection from './components/Services/DesignSection';
+import ClientCount from './components/homepage/ClientCount';
 import { service1, service2, service3 } from "./data/home";
 
 
@@ -10,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="home_page bg-black relative text-customwhite items-center pt-20"
+        className="home_page overflow-x-hidden bg-black relative text-customwhite items-center pt-20"
         style={{
           backgroundImage: "url('/images/banner_bg.png')",
           backgroundRepeat: "no-repeat",
@@ -22,6 +24,7 @@ export default function Home() {
         <DesignSection title={service2.title} description={service2.description} servicesProps={service2.serviceProps} backgroundImage={service2.backgroundImage} sideImage={service2.sideImage} />
         <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps} backgroundImage={service3.backgroundImage} sideImage={service3.sideImage} />
 
+<ClientCount/>
 
       <Faq /> 
 

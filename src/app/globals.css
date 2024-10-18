@@ -131,4 +131,17 @@ h1,h2,h3,h4,h5,h6{
     width: 100% !important;
     height: 40px !important;
 }
+.Footer_links_col:nth-child(2) .flex-col {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Footer_links_col:nth-child(2) .flex-col a {
+    width: 50%;
+}
+.section_head .right_text_col p {
+    width: 100%;
+    max-width: 392px;
+    margin-left: auto;
+}
+
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BasicCard({ cardData }) {
     return (
-        <div className="w-full h-100 rounded overflow-hidden shadow-lg border-lightBlue border p-8 data_card bg-white/5 backdrop-blur-lg"> 
+        <div className="w-full h-full rounded overflow-hidden shadow-lg border-lightBlue border p-8 data_card bg-white/5 backdrop-blur-lg"> 
             <div className="mb-4 flex items-center justify-center rounded-md p-2 border-lightBlue border icon_box w-[50px] h-[50px] bg-[rgba(67,83,255,0.04)] border-[rgba(67,83,255,0.12)]">
                 <Image src={cardData.iconSrc} width={20} height={22} alt="Card Icon" />
             </div>

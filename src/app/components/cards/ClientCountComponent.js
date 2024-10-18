@@ -4,15 +4,15 @@ import Image from 'next/image';
 export default function ClientCount({ imageSrc, imageWidth, imageHeight, title, description }) {
   return (
     <>
-      <div className="w-[300px] p-8 border-2 border-lightBlue rounded-md">
+      <div className="w-full p-10 border-2 border-lightBlue rounded-md bg-white/5 backdrop-blur-lg h-full">
         {/* Dynamic Image */}
-        <div className="mb-3">
+        <div className="mb-8">
           <Image src={imageSrc} width={imageWidth} height={imageHeight} alt="Image not found" />
         </div>
 
         {/* Dynamic Title */}
         <div>
-          <h5 className="text-customWhite font-bold mb-1">
+          <h5 className="text-customWhite font-semibold mb-5">
             {title}
           </h5>
 

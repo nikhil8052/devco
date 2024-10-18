@@ -45,20 +45,26 @@ export default function Faq() {
   };
 
   return (
-    <div className="bg-black w-full"> 
-      <div className="container mx-auto p-4"> 
-        <div className="flex " > 
-            <h1 className="text-white text-5xl mb-4 "> Frequently Asked Questions</h1>
-            <p>Here are some of the most common questions regarding our software dev services </p>
-
+    <div className=" faz_section bg-black w-full py-20"  style={{
+      backgroundImage: "url('/images/faz_bg.png')",
+      backgroundRepeat: "no-repeat",
+    }}> 
+      <div className="container mx-auto"> 
+        <div className="section_head grid grid-cols-2 gap-20 mb-20"> 
+          <div className='left_text_col'>
+          <h2 className="text-white text-5xl mb-0 "> Frequently Asked <br></br>Questions</h2>
+          </div>
+          <div className='right_text_col'>
+            <p className='text-[24px] font-normal text-customwhite'>Here are some of the most common questions regarding our software dev services </p>
+          </div>
         </div>
-        <div id="accordion-collapse" className="bg-black rounded-lg shadow-lg"> {/* Added rounded corners and shadow */}
+        <div id="accordion-collapse" className=""> {/* Added rounded corners and shadow */}
           {faqs.map((faq, index) => (
             <div key={index}>
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full p-5 font-medium text-white gap-3 bg-black" // Button background
+                  className="flex items-center justify-between w-full p-5 font-medium text-white gap-3" // Button background
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}
