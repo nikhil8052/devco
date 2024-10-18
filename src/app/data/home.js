@@ -1,7 +1,5 @@
 
 
-
-
 export const homeCard1 = [
     {
         title: "Services",
@@ -276,3 +274,25 @@ export const service3={
     serviceProps:homeCard3,
     backgroundImage:'/images/right_circle.svg'
 }
+
+
+
+// Client count section data 
+ export  const clientCountData1 = {
+    imageSrc: '/images/cc1.svg',
+    imageWidth: 180,
+    imageHeight: 74,
+    title: 'Website Development',
+    description: 'Our web development team builds dozens of websites monthly, integrating the right technology stack with cross platform applications for the best possible user experience to your web apps.',
+  };
+
+export const clientCountData2 = {
+    imageSrc: '/images/cc1.svg',
+    imageWidth: 180,
+    imageHeight: 74,
+    title: 'Website Development',
+    description: 'Our web development team builds dozens of websites monthly, integrating the right technology stack with cross platform applications for the best possible user experience to your web apps.',
+  };
+
+
+// End client count section 

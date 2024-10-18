@@ -21,8 +21,6 @@ export default function Home() {
         <DesignSection title={service1.title} description={service1.description} servicesProps={service1.serviceProps} backgroundImage={service1.backgroundImage} sideImage={service1.sideImage} />
         <DesignSection title={service2.title} description={service2.description} servicesProps={service2.serviceProps} backgroundImage={service2.backgroundImage} sideImage={service2.sideImage} />
         <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps} backgroundImage={service3.backgroundImage} sideImage={service3.sideImage} />
-
-
       <Faq /> 
 
 
