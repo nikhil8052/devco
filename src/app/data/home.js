@@ -20,7 +20,7 @@ export const homeCard1 = [
     },
 
     {
-        title: "Our Services",
+        title: "Our Services kjk",
         description: "We provide support for all of your custom software development projects.",
         iconSrc: "/images/3d.png", // Dynamic icon source
         services: [
@@ -39,7 +39,7 @@ export const homeCard1 = [
         ],
     },
     {
-        title: "Our Services",
+        title: "Our Services 123",
         description: "We provide support for all of your custom software development projects.",
         iconSrc: "/images/3d.png", // Dynamic icon source
         services: [

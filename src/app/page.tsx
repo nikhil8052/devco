@@ -1,7 +1,6 @@
 import HeroBanner from "./components/layout/HeroBanner";
 import Faq from "./components/faq/Faq";
-import BasicCard from "./components/cards/BasicCard";
-import { homeCard1 } from "./data/home.js";
+
 import DesignSection from './components/Services/DesignSection';
 
 
@@ -19,9 +18,7 @@ export default function Home() {
       <HeroBanner />
       <DesignSection/>
       <Faq /> 
-      {homeCard1.map((cardData, index) => (
-          <BasicCard key={index} cardData={cardData} />
-        ))}
+
     </div>
     
     </>

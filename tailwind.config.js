@@ -19,7 +19,7 @@ module.exports = {
         black: '#000000',
       },
       borderColor: {
-        lightBlue:'rgba(255, 255, 255, 0.1)'
+        lightBlue:'rgba(255, 255, 255, 0.1)',
 
       },
       fontSize: {

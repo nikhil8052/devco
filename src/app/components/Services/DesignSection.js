@@ -1,9 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
+import BasicCard from '../cards/BasicCard';
+import { homeCard1 } from "../../data/home";
 
 const DesignSection = () => {
   return (
-    <div className='service_section py-20 relative' style={{
+    <div className='service_section py-20 relative bg-right' style={{
       backgroundImage: "url('/images/right_circle.svg')",
       backgroundRepeat: "no-repeat",
     }}>
@@ -23,7 +25,7 @@ const DesignSection = () => {
                   </div>
                   <div class="media_col">
                   <Image
-                      className='service_frame absolute top-0 right-0 px-20 w-1/2'
+                      className='service_frame absolute top-0 z-1 right-0 px-20 w-1/2'
                       src="/images/design_frame.png"
                       alt="Banner Image"
                       width={1920}
@@ -33,19 +35,25 @@ const DesignSection = () => {
                 </div>
             </div>
           </div>
-          <div className='service_cards_wrapper'>
+          <div className='service_cards_wrapper mt-16 relative z-10'>
             <div className='container mx-auto'>
               <div className='card_col_flex flex flex-wrap w-full'>
                   <div className='w-3/5 card_col'>
                     <div className='card_grid grid grid-cols-2 gap-4'>
-                      <div className='card_box_col'>1</div>
-                      <div className='card_box_col'>2</div>
-                      <div className='card_box_col'>3</div>
+                    {homeCard1.map((cardData, index) => (
+                      <div className='card_box_col'><BasicCard key={index} cardData={cardData} /></div>
+                    ))}
                     </div>
+                     
                   </div>
                   <div className='w-2/5 card_col'>
                   
                   </div>
+                  
+
+                  
+                  
+                 
               </div>
             </div>
           </div>
