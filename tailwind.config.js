@@ -16,7 +16,8 @@ module.exports = {
 
         customBlue: '#4253FF', // Define your custom blue color
         lightBlue:'#4444441',
-        customwhite: '#F7F8F8'
+        customwhite: '#F7F8F8',
+        black: '#000000',
       },
       borderColor: {
         lightBlue:'rgba(255, 255, 255, 0.1)'
