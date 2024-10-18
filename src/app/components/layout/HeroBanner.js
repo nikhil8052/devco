@@ -8,7 +8,7 @@ const HeroBanner = () => {
   return (
     <div className="hero_banner relative w-full pt-20">
       <div className="absolute inset-0 bg-cover bg-center" />
-      <div className="container mx-auto mx-auto pl-4 pr-4">
+      <div className="container mx-auto mx-auto ">
         <motion.div
           className="relative z-2 banner_content max-w-2xl"
           initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
@@ -24,7 +24,7 @@ const HeroBanner = () => {
             Software Development Company
           </motion.h1>
           <motion.p
-            className="text-lg md:text-xl mb-8 text-customwhite" 
+            className="text-[22px] font-normal text-customwhite mb-8" 
             initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}
