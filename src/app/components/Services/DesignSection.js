@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import BasicCard from '../cards/BasicCard';
-import { homeCard1 } from "../../data/home";
 
 const DesignSection = ({title, description, servicesProps, backgroundImage , sideImage  }) => {
   return (
