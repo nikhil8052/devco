@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   // Define your footer categories with subcategories
+  //
   const footerCategories = [
     {
       label: 'Services',
