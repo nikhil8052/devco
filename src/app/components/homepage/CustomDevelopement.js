@@ -33,28 +33,25 @@ export default function Faq() {
   };
 
   return (
-    <div className=" faz_section bg-black w-full py-20"  style={{
-      backgroundImage: "url('/images/faz_bg.png')",
-      backgroundRepeat: "no-repeat",
-    }}> 
+    <div className=" faz_section w-full py-20" > 
       <div className="container mx-auto"> 
        
        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 "> 
 
         <div id="accordion-collapse" className=""> {/* Added rounded corners and shadow */}
           {faqs.map((faq, index) => (
-            <div key={index}>
+            <div key={index} className='acc_tab border-b border-lightBlue'>
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full p-5 font-medium text-white gap-3" // Button background
+                  className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3" // Button background
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}
                 >
                   <span className="text-left ">{faq.question}</span>
                   <svg
-                    className={`w-3 h-3 ${activeIndex === index ? 'rotate-180' : ''} shrink-0`}
+                    className={`w-3 h-3 ${activeIndex === index ? 'rotate-0' : ''} shrink-180`}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 10 6"
@@ -71,9 +68,9 @@ export default function Faq() {
               </h2>
               <div
                 id={`accordion-collapse-body-${index}`}
-                className={`${activeIndex === index ? '' : 'hidden'} p-5 `}
+                className={`${activeIndex === index ? '' : 'hidden'} py-5 `}
               >
-                <p className="mb-2 text-gray-500">
+                <p className="mb-2 text-gray-500 text-[18px] ">
                   {faq.answer}
                 </p>
               </div>

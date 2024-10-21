@@ -8,6 +8,8 @@ import StartUps from './components/homepage/StartUps';
 import Innovative from './components/homepage/Innovative';
 import Development from './components/homepage/Development';
 import CustomDevelopement from './components/homepage/CustomDevelopement';
+import CustomsofSection from './components/homepage/CustomsofSection';
+
 
 
 
@@ -33,8 +35,10 @@ export default function Home() {
         <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps}  sideImage={service3.sideImage} />
         <Innovative />
         <Development/>
-        <CustomDevelopement/>
+        
         <ClientCount/>
+        <CustomsofSection/>
+        <CustomDevelopement/>
          <Faq /> 
 
 
