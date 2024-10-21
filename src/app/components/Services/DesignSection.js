@@ -18,13 +18,13 @@ const DesignSection = ({title, description, servicesProps, backgroundImage , sid
                   <p className='section_head_para text-[22px] font-normal text-customwhite'>{description}</p>
                   </div>
                   <div class="media_col">
-                  {/* <Image
+                  <Image
                       className='service_frame absolute top-0 z-1 right-0 px-20 w-1/2'
                       src={sideImage}
                       alt="Banner Image"
                       width={1920}
                       height={300}
-                    /> */}
+                    />
 
                     
                   </div>
