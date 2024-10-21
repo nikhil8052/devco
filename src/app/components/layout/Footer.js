@@ -96,9 +96,9 @@ const Footer = () => {
                 <p className='text-[18px] font-normal text-customwhite'>© 2024 Nead, LLC. All Rights Reserved</p>
               </div>
               <div className='footer_col basis-4/5'>
-                <div className="footer__links_grid grid grid-cols-4 gap-4">
+                <div className="footer__links_grid  flex">
                   {footerCategories.map((category, index) => (
-                    <div key={index} className="Footer_links_col">
+                    <div key={index} className="basis-[22%] Footer_links_col">
                       <h3 className="font-semibold text-[24px] mb-2 font-normal text-customwhite">{category.label}</h3>
                       <div className="flex flex-col">
                         {category.subCategories.map((subCategory, subIndex) => (

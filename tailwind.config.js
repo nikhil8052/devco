@@ -33,7 +33,11 @@ module.exports = {
         screens: {
           sm: '640px',
           md: '768px',
+<<<<<<< Updated upstream
           lg: '1024px',
+=======
+          lg: '1170px',
+>>>>>>> Stashed changes
           xl: '1504px',
         },
       },
