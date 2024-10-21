@@ -7,6 +7,8 @@ import { service1, service2, service3 } from "./data/home";
 import StartUps from './components/homepage/StartUps';
 import Innovative from './components/homepage/Innovative';
 import Development from './components/homepage/Development';
+import CustomDevelopement from './components/homepage/CustomDevelopement';
+
 
 
 
@@ -31,6 +33,7 @@ export default function Home() {
         <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps} backgroundImage={service3.backgroundImage} sideImage={service3.sideImage} />
         <Innovative />
         <Development/>
+        <CustomDevelopement/>
         <ClientCount/>
          <Faq /> 
 
