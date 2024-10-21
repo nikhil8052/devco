@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import BasicCard from '../cards/BasicCard';
-const DesignSection = ({title, description, servicesProps, backgroundImage , sideImage  }) => {
+const DesignSection = ({title, description, servicesProps , sideImage  }) => {
   return (
     <div className='service_section py-20 relative bg-right'>
         <div className='services_grid_wrapper'>
@@ -37,7 +37,7 @@ const DesignSection = ({title, description, servicesProps, backgroundImage , sid
                   <div className='w-3/5 card_col'>
                     <div className='card_grid grid grid-cols-2 gap-4'>
                     {servicesProps.map((cardData, index) => (
-                      <div className='card_box_col'><BasicCard key={index} cardData={cardData} /></div>
+                      <div className='card_box_col' key={index} ><BasicCard key={index} cardData={cardData} /></div>
                     ))}
                     </div>
                   </div>
