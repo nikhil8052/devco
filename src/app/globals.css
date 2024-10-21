@@ -27,19 +27,6 @@
     font-style: normal;
 }
 
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('/fonts/SFProDisplay-Thin.eot');
-    src: local('/fonts/SF Pro Display Thin'), local('SFProDisplay-Thin'),
-        url('/fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/SFProDisplay-Thin.woff2') format('woff2'),
-        url('/fonts/SFProDisplay-Thin.woff') format('woff'),
-        url('/fonts/SFProDisplay-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'SF Pro Display';
     src: url('/fonts/SFProDisplay-Light.eot');
@@ -142,6 +129,9 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     max-width: 392px;
     margin-left: auto;
+}
+.footer__links_grid .Footer_links_col:nth-child(2) {
+    flex-basis: 34%;
 }
 
 
