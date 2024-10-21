@@ -137,7 +137,7 @@ const Header = () => {
               
               {/* Login Button (White background) */}
               <button className="px-4 py-2 bg-white text-gray-800 rounded hover:bg-gray-200 transition">
-                Login
+                Watch Viedo
               </button>
             </div>
 

@@ -15,11 +15,11 @@ export default function StartUps() {
 
   const imagesSet2 = [
     '/images/unity.svg',
-    '/images/unity.svg',
-    '/images/unity.svg',
-    '/images/unity.svg',
-    '/images/unity.svg',
-    '/images/unity.svg',
+    '/images/reactjs1.svg',
+    '/images/nodejs1.svg',
+    '/images/php.svg',
+    '/images/python.svg',
+    '/images/java1.svg',
   ];
 
   // State to manage current image set and animation trigger
