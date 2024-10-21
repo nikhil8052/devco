@@ -9,7 +9,7 @@ export default function ClientCount() {
       <div className='container mx-auto'>
       <div className="section_head grid grid-cols-2 gap-20 mb-20"> 
           <div className='left_text_col'>
-          <h2 className="text-white text-5xl mb-0 "> Our Web <br></br> Development Clients</h2>
+          <h2 className="text-white text-5xl mb-0 "> Our Web <br></br> Development <span className='text-headingBlue'>Clients</span></h2>
           </div>
           <div className='right_text_col'>
             <p className='text-[24px] font-normal text-customwhite'>Our custom dev services are trusted software companies, small businesses and Fortune 500 companies alike </p>

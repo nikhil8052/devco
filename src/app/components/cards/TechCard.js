@@ -7,19 +7,19 @@ export default function TechCard({ title, description, imageSrc, imageWidth, ima
       <div className="w-[500px]">
         {/* Title and description */}
         <div>
-          <h3 className="text-headingBlue text-[24px]">{title}</h3>
+          <h3 className="text-headingBlue font-semibold text-[24px]">{title}</h3>
           <p className="text-customWhite text-[20px]">{description}</p>
         </div>
 
         {/* Image */}
         <div>
-          <Image src={imageSrc} width={imageWidth} height={imageHeight} alt="Not found" />
+          <Image src={imageSrc} width={imageWidth} height={imageHeight} alt="Not found" className='my-8' />
         </div>
 
         {/* SubTitle and details */}
         <div>
-          <h5 className="text-customWhite font-bold">{subTitle}</h5>
-          <p className="text-customWhite">{details}</p>
+          <h5 className="text-customWhite font-semibold text-[20px] mb-2">{subTitle}</h5>
+          <p className="text-customWhite text-[18px]">{details}</p>
         </div>
       </div>
     </>

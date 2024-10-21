@@ -92,12 +92,12 @@ export default function Faq() {
               <div
                 id={`accordion-collapse-body-${index}`}
                 ref={el => contentRefs.current[index] = el}
-                className={`${activeIndex === index ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}
+                className={`${activeIndex === index ? 'py-5 max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}
                 style={{
                   transitionProperty: 'max-height, opacity',
                 }}
               >
-                <p className="mb-2 text-gray-500 text-[18px] py-5">
+                <p className="mb-2 text-gray-500 text-[18px]">
                   {faq.answer}
                 </p>
               </div>
