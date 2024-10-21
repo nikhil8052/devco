@@ -40,7 +40,7 @@ const DesignSection = ({title, description, servicesProps, backgroundImage , sid
                   <div className='w-3/5 card_col'>
                     <div className='card_grid grid grid-cols-2 gap-4'>
                     {servicesProps.map((cardData, index) => (
-                      <div className='card_box_col'><BasicCard key={index} cardData={cardData} /></div>
+                      <div className='card_box_col' key={index}><BasicCard key={index} cardData={cardData} /></div>
                     ))}
                     </div>
                   </div>
