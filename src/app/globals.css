@@ -143,5 +143,8 @@ h1,h2,h3,h4,h5,h6{
     max-width: 392px;
     margin-left: auto;
 }
+.footer__links_grid .Footer_links_col:nth-child(2) {
+    flex-basis: 34%;
+}
 
 
