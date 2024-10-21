@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Header = () => {
   // State to track which dropdown is open
@@ -34,6 +35,7 @@ const Header = () => {
 
         {/* Top Links Centered */}
         <div className="hidden w-full md:flex md:order-1 justify-center border p-2 rounded-md border-lightBlue">
+          <Image className="text-left " src="/images/header_logo.svg" height={32} width={50} />
           <ul className="flex space-x-8">
             <li
               onMouseEnter={() => handleMouseEnter('home')}
@@ -124,6 +126,23 @@ const Header = () => {
               <a href="#" className="block py-2 px-3 text-customwhite rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
             </li>
           </ul>
+            <div className="flex items-center justify-between space-x-4">
+              {/* GitHub Button (Transparent with white border) */}
+              <button className="flex items-center px-4 py-2 border border-white text-white rounded bg-transparent hover:bg-white hover:text-gray-800 transition">
+                GitHub
+                <span className="ml-2">
+                  <Image src="/images/github_icon.svg" height={30} width={30} alt="GitHub Icon" />
+                </span>
+              </button>
+              
+              {/* Login Button (White background) */}
+              <button className="px-4 py-2 bg-white text-gray-800 rounded hover:bg-gray-200 transition">
+                Login
+              </button>
+            </div>
+
+
+
         </div>
       </div>
       </div>
