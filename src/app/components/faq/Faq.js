@@ -1,9 +1,9 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 export default function Faq() {
-  // React state to keep track of which item is open
   const [activeIndex, setActiveIndex] = useState(null);
+  const contentRefs = useRef([]);
 
   // Array of FAQs to dynamically render
   const faqs = [
@@ -31,47 +31,50 @@ export default function Faq() {
       question: "How Long Does it Take to Create and Build Custom Software?",
       answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
     },
-   
-    
   ];
 
-  // Function to handle clicking the accordion item
   const toggleAccordion = (index) => {
     if (activeIndex === index) {
-      setActiveIndex(null); // Close if the same item is clicked
+      setActiveIndex(null);
     } else {
-      setActiveIndex(index); // Open the clicked item
+      setActiveIndex(index);
     }
   };
 
   return (
-    <div className=" faz_section bg-black w-full py-20"  style={{
+    <div className="faz_section bg-black w-full py-20" style={{
       backgroundImage: "url('/images/faz_bg.png')",
       backgroundRepeat: "no-repeat",
-    }}> 
-      <div className="container mx-auto"> 
-        <div className="section_head grid grid-cols-2 gap-20 mb-20"> 
+    }}>
+      <div className="container mx-auto">
+        <div className="section_head grid grid-cols-2 gap-20 mb-20">
           <div className='left_text_col'>
-          <h2 className="text-white text-5xl mb-0 "> Frequently Asked <br></br>Questions</h2>
+          <div className="blue_subhead flex items-center gap-2 mb-5">
+              <span
+                className="inline-block bg-[#4353FF] w-[14px] h-[6px] rounded-[7px]"
+              ></span>
+              <h6 className="text-customBlue text-[22px] font-semibold">FAQs</h6>
+            </div>
+            <h2 className="text-white text-5xl mb-0"> Frequently Asked <br />Questions</h2>
           </div>
           <div className='right_text_col'>
-            <p className='text-[24px] font-normal text-customwhite'>Here are some of the most common questions regarding our software dev services </p>
+            <p className='text-[24px] font-normal text-customwhite'>Here are some of the most common questions regarding our software dev services</p>
           </div>
         </div>
-        <div id="accordion-collapse" className=""> {/* Added rounded corners and shadow */}
+        <div id="accordion-collapse" className='accordian max-w-[1064px] mx-auto pb-16'>
           {faqs.map((faq, index) => (
-            <div key={index}>
+            <div key={index} className='acc_tab border-b border-lightBlue'>
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full p-5 font-medium text-white gap-3" // Button background
+                  className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3"
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}
                 >
                   <span>{faq.question}</span>
                   <svg
-                    className={`w-3 h-3 ${activeIndex === index ? 'rotate-180' : ''} shrink-0`}
+                    className={`w-3 h-3 transform ${activeIndex === index ? 'rotate-0' : 'rotate-180'} transition-transform duration-300`}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 10 6"
@@ -88,9 +91,13 @@ export default function Faq() {
               </h2>
               <div
                 id={`accordion-collapse-body-${index}`}
-                className={`${activeIndex === index ? '' : 'hidden'} p-5 `}
+                ref={el => contentRefs.current[index] = el}
+                className={`${activeIndex === index ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}
+                style={{
+                  transitionProperty: 'max-height, opacity',
+                }}
               >
-                <p className="mb-2 text-gray-500">
+                <p className="mb-2 text-gray-500 text-[18px] py-5">
                   {faq.answer}
                 </p>
               </div>
