@@ -4,7 +4,7 @@ import { techCard1 , techCard2 } from '../../data/home';
 
 export default function Development() {
   return (
-    <div className='tech_card_section py-5'>
+    <div className='tech_card_section pt-5 pb-20'>
       <div className="container mx-auto">
       {/* Grid layout for two columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 relative border-t border-b border-lightBlue py-12">

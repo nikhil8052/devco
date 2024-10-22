@@ -239,7 +239,7 @@ export const techCard2 = {
     title: "Strategic software development support",
     description:
         "As an end-to-end service provider, we deliver in-depth strategic support and custom software developer services to corporations, government entities and small/medium businesses across the globe, ensuring your digital success.",
-    imageSrc: "/images/application_development.svg",
+    imageSrc: "/images/strategicpic.svg",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "We aim to deliver on time and under budget",

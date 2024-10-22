@@ -5,7 +5,11 @@ import { clientCountData1 , clientCountData2,clientCountData3  } from '../../dat
 export default function ClientCount() {
   return (
 
-    <div className='clint_count_section py-20'>
+    <div className='clint_count_section py-20' style={{
+      backgroundImage: "url('/images/clients_bg.png')",
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover'  // Add backgroundSize if you want it to cover the area properly
+    }}>
       <div className='container mx-auto'>
       <div className="section_head grid grid-cols-2 gap-20 mb-20"> 
           <div className='left_text_col'>
