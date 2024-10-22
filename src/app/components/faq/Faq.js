@@ -2,34 +2,34 @@
 import React, { useState, useRef } from 'react';
 
 export default function Faq() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0); // Set default to 0 for the first item
   const contentRefs = useRef([]);
 
   // Array of FAQs to dynamically render
   const faqs = [
     {
       question: "What is Software Development?",
-      answer: "Why are we working here, man?"
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
     {
       question: "How Do You Choose the Best Software Development Company?",
-      answer: "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
     {
       question: "What is Agile Software Development?",
-      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
     {
       question: "How Much Do Your Custom Software Engineering Services Cost?",
-      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
     {
       question: "What Are the Benefits of Custom Software Development?",
-      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
     {
       question: "How Long Does it Take to Create and Build Custom Software?",
-      answer: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
     },
   ];
 
@@ -42,14 +42,14 @@ export default function Faq() {
   };
 
   return (
-    <div className="faz_section bg-black w-full py-20" style={{
+    <div className="faz_section w-full py-20 relative z-10" style={{
       backgroundImage: "url('/images/faz_bg.png')",
       backgroundRepeat: "no-repeat",
     }}>
       <div className="container mx-auto">
         <div className="section_head grid grid-cols-2 gap-20 mb-20">
           <div className='left_text_col'>
-          <div className="blue_subhead flex items-center gap-2 mb-5">
+            <div className="blue_subhead flex items-center gap-2 mb-5">
               <span
                 className="inline-block bg-[#4353FF] w-[14px] h-[6px] rounded-[7px]"
               ></span>
@@ -92,12 +92,12 @@ export default function Faq() {
               <div
                 id={`accordion-collapse-body-${index}`}
                 ref={el => contentRefs.current[index] = el}
-                className={`${activeIndex === index ? 'py-5 max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}
+                className={`${activeIndex === index ? 'pb-5 max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-500 ease-in-out`}
                 style={{
                   transitionProperty: 'max-height, opacity',
                 }}
               >
-                <p className="mb-2 text-gray-500 text-[18px]">
+                <p className="mb-2 text-customwhite text-[16px]">
                   {faq.answer}
                 </p>
               </div>

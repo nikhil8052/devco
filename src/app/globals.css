@@ -110,16 +110,6 @@ img{
 h1,h2,h3,h4,h5,h6{
     line-height: 1.1;
 }
-/* .skill_line .image_icon {
-    min-width: 40px;
-    max-width: 40px;
-    display: flex;
-    align-items: center;
-}
-.skill_line .image_icon img {
-    width: 100% !important;
-    height: 40px !important;
-} */
 .Footer_links_col:nth-child(2) .flex-col {
     flex-wrap: wrap;
     flex-direction: row;
@@ -142,6 +132,14 @@ h1,h2,h3,h4,h5,h6{
     left: 0px;
     right: 0px;
     margin: auto;
+}
+
+@media(max-width:1500px){
+    .site_header .container {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 

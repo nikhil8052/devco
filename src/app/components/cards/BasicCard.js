@@ -15,9 +15,9 @@ export default function BasicCard({ cardData }) {
             <div>
                 <div className="flex flex-col space-y-4 mb-2">
                     {cardData.services.map((service, index) => (
-                        <div key={index} className="flex skill_line space-x-4">
-                            <div className="image_icon"><Image src={service.imageSrc} width={50} height={40} alt={`${service.name} Icon`} /></div>
-                            <p className="w-full border-b border-lightBlue text-customwhite leading-normal text-[18px]">{service.name}</p>
+                        <div key={index} className="flex items-center skill_line space-x-4">
+                            <div className="image_icon"><Image src={service.imageSrc} width={50} height={40} alt={`${service.name} Icon`} className=" w-full min-w[30px] h-[50px] max-w-[30px]" /></div>
+                            <p className="w-full border-b border-lightBlue text-customwhite leading-normal pb-4 text-[18px]">{service.name}</p>
                         </div>
                     ))}
                 </div>

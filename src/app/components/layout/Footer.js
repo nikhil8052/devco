@@ -100,9 +100,9 @@ const Footer = () => {
                   {footerCategories.map((category, index) => (
                     <div key={index} className="basis-[22%] Footer_links_col">
                       <h3 className="font-semibold text-[24px] mb-2 font-normal text-customwhite">{category.label}</h3>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col pr-2">
                         {category.subCategories.map((subCategory, subIndex) => (
-                          <Link key={subIndex} href={subCategory.path} className="hover:text-blue-400 text-[18px] mb-2 font-normal text-customwhite">
+                          <Link key={subIndex} href={subCategory.path} className="hover:text-customBlue xl:text-[18px] lg:text-[15px] mb-2 font-normal text-customwhite">
                             {subCategory.label}
                           </Link>
                         ))}
@@ -119,17 +119,17 @@ const Footer = () => {
       <div className='bottom_footer'>
         <div className='container mx-auto'>
           <div className='footer_copy_right text-center py-10 mt-20 border-t border-lightBlue' >
-            <ul class="flex justify-center w-full space-x-10">
-              <Link href="#" class="text-[18px] font-normal text-customwhit">About Us</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Our Work</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Locations</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Web Design</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Dev Blog</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Careers</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Contact Us</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Privacy Policy</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Privacy Policy</Link>
-              <Link href="#" class="text-[18px] font-normal text-customwhit">Terms of Service</Link>
+            <ul class="flex justify-center w-full gap-x-6">
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
+              <Link href="#" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
+              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Privacy Policy</Link>
+              <Link href="#" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
             </ul>
           </div>
         </div>

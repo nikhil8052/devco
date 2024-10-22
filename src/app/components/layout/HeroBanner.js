@@ -33,19 +33,19 @@ const HeroBanner = () => {
           </motion.p>
 
           <motion.div
-            className="btn_wrapper flex space-x-4"
+            className="btn_wrapper flex gap-x-4"
             initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            <button className="bg-white text-black px-6 py-3 rounded-md  shadow-md transition flex items-center">
+            <button className="bg-white text-black px-6 py-3 rounded-md  shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
               Contact Us
             </button>
-            <button className="trans_button flex items-center text-[#F7F8F8] px-6 py-3 rounded-md transition hover:bg-[#4353FF] hover:text-white">
+            <button className="trans_button flex items-center text-[#F7F8F8] px-6 py-3 rounded-md transition hover:text-white">
               Learn More
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
-                className="ml-2 w-5 h-5" 
+                className="ml-1 w-5 h-5" 
                 fill="none" 
                 viewBox="0 0 24 24" 
                 stroke="currentColor"
