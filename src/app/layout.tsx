@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css'; // Import FontAwesome CSS
+config.autoAddCss = false; // Prevent FontAwesome from automatically adding CSS
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",

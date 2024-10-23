@@ -119,7 +119,7 @@ const Footer = () => {
       <div className='bottom_footer'>
         <div className='container mx-auto'>
           <div className='footer_copy_right text-center py-10 mt-20 border-t border-lightBlue' >
-            <ul class="flex justify-center w-full gap-x-6">
+            <ul className="flex justify-center w-full gap-x-6">
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
