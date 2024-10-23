@@ -22,7 +22,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import { 
-  faAtom,   // Electron
   faFlask,  // LabVIEW (placeholder)
   faGlobe,  // Webflow and Sitefinity (generic globe)
   faCogs,   // SolidWorks (generic gear icon)
