@@ -9,19 +9,20 @@ const Footer = () => {
   const footerCategories = [
     {
       label: 'Services',
-      subCategories: [
-        { label: 'Web development', path: '/services/python' },
-        { label: 'Mobile Development', path: '/services/css' },
-        { label: 'UX/UI Design', path: '/services/javascript' },
-        { label: 'Technology Architecture', path: '/services/frontend' },
-        { label: 'Software/IT Staffing', path: '/services/backend' },
-        { label: 'DevOps Services', path: '/services/uiux' },
-        { label: 'Quality Assurance Testing', path: '/services/graphic' },
-        { label: 'MVP Development', path: '/services/graphic' },
-        { label: 'SaaS Development', path: '/services/graphic' },
-        { label: 'API Development', path: '/services/graphic' },
-        { label: 'Project Management', path: '/services/graphic' },
-      ],
+subCategories: [
+  { label: 'Web Development', path: '/services/web-development' },
+  { label: 'Mobile Development', path: '/services/mobile-development' },
+  { label: 'UX/UI Design', path: '/services/ux-ui-design' },
+  { label: 'Technology Architecture', path: '/services/technology-architecture' },
+  { label: 'Software/IT Staffing', path: '/services/software-it-staffing' },
+  { label: 'DevOps Services', path: '/services/devops' },
+  { label: 'Quality Assurance Testing', path: '/services/quality-assurance' },
+  { label: 'MVP Development', path: '/services/mvp-development' },
+  { label: 'SaaS Development', path: '/services/saas-development' },
+  { label: 'API Development', path: '/services/api-development' },
+  { label: 'Project Management', path: '/services/project-management' },
+]
+,
     },
     {
       label: 'Skills',
@@ -102,7 +103,7 @@ const Footer = () => {
                       <h3 className="font-semibold text-[24px] mb-2 font-normal text-customwhite">{category.label}</h3>
                       <div className="flex flex-col pr-2">
                         {category.subCategories.map((subCategory, subIndex) => (
-                          <Link key={subIndex} href={subCategory.path} className="hover:text-customBlue xl:text-[18px] lg:text-[15px] mb-2 font-normal text-customwhite">
+                          <Link key={subIndex} lable={subCategory.label} href={subCategory.path} className="hover:text-customBlue xl:text-[18px] lg:text-[15px] mb-2 font-normal text-customwhite">
                             {subCategory.label}
                           </Link>
                         ))}

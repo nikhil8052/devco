@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const HeroBanner = () => {
+const HeroBanner = ({title="", description=""}) => {
   return (
     <div className="hero_banner relative w-full pt-20">
       <div className="absolute inset-0 bg-cover bg-center" />
@@ -20,7 +20,7 @@ const HeroBanner = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Software Development Staffing Company
+            {title}
           </motion.h1>
 
           <motion.p
@@ -29,7 +29,7 @@ const HeroBanner = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}
           >
-            One of the biggest challenges in software development (and IT) experienced professionals necessary to see your project to completion.
+           {description}
    
           </motion.p>
 
