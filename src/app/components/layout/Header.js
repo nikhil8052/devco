@@ -3,7 +3,39 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faNodeJs, faPython, faCss3Alt, faHtml5 } from '@fortawesome/free-brands-svg-icons'; 
+import { 
+  faJava, 
+  faJs, 
+  faNodeJs, 
+  faReact, 
+  faLaravel, 
+  faHtml5, 
+  faPhp, 
+  faPython, 
+  faUnity, 
+  faAndroid, 
+  faApple, 
+  faShopify, 
+  faWordpress, 
+  faAws, 
+  faSalesforce 
+} from '@fortawesome/free-brands-svg-icons';
+
+import { 
+  faAtom,   // Electron
+  faFlask,  // LabVIEW (placeholder)
+  faGlobe,  // Webflow and Sitefinity (generic globe)
+  faCogs,   // SolidWorks (generic gear icon)
+  faCloud,  // Azure and Nextcloud
+  faDatabase,  // Oracle and SQL
+  faMoneyCheckAlt,  // NetSuite (placeholder)
+  faServer,  // SQL Server
+  faChartBar,  // Tableau
+  faIndustry,  // SAP (placeholder)
+  faCubes,   // Kubernetes
+  faSearch,  // ElasticSearch
+  faRobot   // OpenCV (placeholder)
+} from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -54,79 +86,190 @@ const Header = () => {
                         <div className='menu_icons_div basis-[70%]'>
                           <ul className='icon_list w-full flex flex-wrap gap-y-1'>
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
-                            </li>
-                            <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> 
-                                <FontAwesomeIcon icon={faNodeJs} className="text-customwhite text-[16px]" /> 
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faJava} className="text-customwhite text-[16px]" />
                               </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> 
-                                <FontAwesomeIcon icon={faPython} className="text-customwhite text-[16px]" /> 
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faJs} className="text-customwhite text-[16px]" />
                               </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> 
-                                <FontAwesomeIcon icon={faCss3Alt} className="text-customwhite text-[16px]" /> 
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faNodeJs} className="text-customwhite text-[16px]" />
                               </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> 
-                                <FontAwesomeIcon icon={faHtml5} className="text-customwhite text-[16px]" /> 
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" />
                               </Link>
                             </li>
+
+                        
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faLaravel} className="text-customwhite text-[16px]" />
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faHtml5} className="text-customwhite text-[16px]" />
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faPhp} className="text-customwhite text-[16px]" />
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faPython} className="text-customwhite text-[16px]" /> {/* Python */}
+                              </Link>
                             </li>
+
+                         
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faFlask} className="text-customwhite text-[16px]" /> {/* LabView (using Flask as alternative) */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faUnity} className="text-customwhite text-[16px]" /> {/* Unity */}
+                              </Link>
                             </li>
-                            <li className='p-1 basis-[16%]' >
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
-                            </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faGlobe} className="text-customwhite text-[16px]" /> {/* Webflow (generic globe icon) */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faShopify} className="text-customwhite text-[16px]" /> {/* Shopify */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faAndroid} className="text-customwhite text-[16px]" /> {/* Android */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faApple} className="text-customwhite text-[16px]" /> {/* iOS */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faCogs} className="text-customwhite text-[16px]" /> {/* SolidWorks (generic gear icon) */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faCloud} className="text-customwhite text-[16px]" /> {/* Azure (cloud icon) */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faAws} className="text-customwhite text-[16px]" /> {/* AWS */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faGlobe} className="text-customwhite text-[16px]" /> {/* Sitefinity (generic globe icon) */}
+                              </Link>
                             </li>
+
                             <li className='p-1 basis-[16%]'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faWordpress} className="text-customwhite text-[16px]" /> {/* WordPress */}
+                              </Link>
                             </li>
-                            <li className='p-1'>
-                              <Link href="/" className='text-customwhite text-[20px]'> <FontAwesomeIcon icon={faReact} className="text-customwhite text-[16px]" /> </Link>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faRobot} className="text-customwhite text-[16px]" /> {/* OpenCV (using robot icon) */}
+                              </Link>
                             </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faSalesforce} className="text-customwhite text-[16px]" /> {/* Salesforce */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faDatabase} className="text-customwhite text-[16px]" /> {/* Oracle */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faCloud} className="text-customwhite text-[16px]" /> {/* Nextcloud (generic cloud icon) */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faMoneyCheckAlt} className="text-customwhite text-[16px]" /> {/* NetSuite (using money check as alternative) */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faDatabase} className="text-customwhite text-[16px]" /> {/* SQL */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faServer} className="text-customwhite text-[16px]" /> {/* SQL Server */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faChartBar} className="text-customwhite text-[16px]" /> {/* Tableau */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faIndustry} className="text-customwhite text-[16px]" /> {/* SAP (using industry as alternative) */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faCubes} className="text-customwhite text-[16px]" /> {/* Kubernetes */}
+                              </Link>
+                            </li>
+
+                            <li className='p-1 basis-[16%]'>
+                              <Link href="/" className='text-customwhite text-[20px]'>
+                                <FontAwesomeIcon icon={faSearch} className="text-customwhite text-[16px]" /> {/* ElasticSearch */}
+                              </Link>
+                            </li>
+
+
                           </ul>
                         </div>
                       </div>
