@@ -47,7 +47,7 @@ export default function Faq() {
       backgroundRepeat: "no-repeat",
     }}>
       <div className="container mx-auto">
-        <div className="section_head grid grid-cols-2 gap-20 mb-20">
+        <div className="section_head grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-5 lg:gap-20 mb-20">
           <div className='left_text_col'>
             <div className="blue_subhead flex items-center gap-2 mb-5">
               <span
@@ -55,10 +55,10 @@ export default function Faq() {
               ></span>
               <h6 className="text-customBlue text-[22px] font-semibold">FAQs</h6>
             </div>
-            <h2 className="text-white text-5xl mb-0"> Frequently Asked <br />Questions</h2>
+            <h2 className="text-white text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-0"> Frequently Asked <br />Questions</h2>
           </div>
           <div className='right_text_col'>
-            <p className='text-[24px] font-normal text-customwhite'>Here are some of the most common questions regarding our software dev services</p>
+            <p className='text-[14px] 2xl:text-[24px] xl:text-[22px] md:text-[16px] sm:text-[14px] font-normal text-customwhite'>Here are some of the most common questions regarding our software dev services</p>
           </div>
         </div>
         <div id="accordion-collapse" className='accordian max-w-[1064px] mx-auto pb-16'>
@@ -67,7 +67,7 @@ export default function Faq() {
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3"
+                  className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3 text-left"
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}

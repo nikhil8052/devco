@@ -41,7 +41,7 @@ export default function Faq() {
                 <h2>
                   <button
                     type="button"
-                    className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3"
+                    className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3 text-left"
                     onClick={() => toggleAccordion(index)}
                     aria-expanded={activeIndex === index}
                     aria-controls={`accordion-collapse-body-${index}`}

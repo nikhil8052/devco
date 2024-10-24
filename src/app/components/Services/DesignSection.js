@@ -1,55 +1,61 @@
+"use client"; 
 import React from 'react';
 import Image from 'next/image';
 import BasicCard from '../cards/BasicCard';
-const DesignSection = ({title, description, servicesProps , sideImage  }) => {
-  return (
-    <div className='service_section py-20 relative bg-right'>
-        <div className='services_grid_wrapper'>
-          <div className="section_head ">
-            <div className='container mx-auto'>
-                <h2 className='section_head_title font-semibold text-[64px] mb-5 text-customwhite'>{title}</h2>
-            </div>
-          </div>
-          <div className="section_head_description relative ">
-            <div className='container mx-auto mx-auto'>
-               
-                <div class="grid grid-cols-2 gap-6 w-full">
-                  <div class="text_col">
-                  <p className='section_head_para text-[22px] font-normal text-customwhite'>{description}</p>
-                  </div>
-                  <div class="media_col">
-                  <Image
-                      className='service_frame absolute top-0 z-1 right-0 px-20 w-1/2'
-                      src={sideImage}
-                      alt="Banner Image"
-                      width={1920}
-                      height={300}
-                    />
 
-                    
+const DesignSection = ({ title, description, servicesProps, sideImage }) => {
+  return (
+    <div className='service_section py-10 lg:py-20 md:py-5 relative bg-right'>
+      <div className='services_grid_wrapper'>
+        <div className='service_cards_wrapper relative z-10'>
+          <div className='container mx-auto'>
+            <div className='card_col_flex flex w-full gap-y-10'>
+              
+              {/* Left Side Content */}
+              <div className='left_side lg:pb-20 md:pb-5 min-w-[65%] relative z-10'>
+                <div className="grid-head w-full">
+                  <h2 className='section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite'>{title}</h2>
+                  <div className='w-full max-w-[590px]'>
+                    <p className='section_head_para 2xl:text-[22px] xl:text-[18px] md:text[14px] sm:text[14px]  font-normal text-customwhite'>{description}</p>
                   </div>
                 </div>
-            </div>
-          </div>
-          <div className='service_cards_wrapper mt-16 relative z-10'>
-            <div className='container mx-auto'>
-              <div className='card_col_flex flex flex-wrap w-full'>
-                  <div className='w-3/5 card_col'>
-                    <div className='card_grid grid grid-cols-2 gap-4'>
-                    {servicesProps.map((cardData, index) => (
-                      <div className='card_box_col' key={index} ><BasicCard key={index} cardData={cardData} /></div>
-                    ))}
-                    </div>
-                  </div>
-                  <div className='w-2/5 card_col'>
-                  
-                  </div>
+                <div className='animated_frame_wrap my-5 2xl:hidden xl:hidden md:block sm:block'>
+                <Image
+                  className='service_frame w-full'
+                  src={sideImage}
+                  alt="Banner Image"
+                  width={879}
+                  height={500}
+                />
               </div>
+                <div className='w-full mt-10 card_col relative z-10'>
+                  <div className='card_grid grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-[25px]'>
+                    {servicesProps.map((cardData, index) => (
+                      <div className='card_box_col max-w-[456px]' key={index}>
+                        <BasicCard key={index} cardData={cardData} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Sticky Image Section */}
+              <div className='animated_frame_wrap lg-mr-[-4rem] md:mr-[0px] sticky top-[50px] self-start md:hidden lg:block show_desktop  '>
+                <Image
+                  className='service_frame w-full xl:scale-[1.3] lg:scale-[1.3] md:scale-[1] origin-top-right lg:max-w-[800px]'
+                  src={sideImage}
+                  alt="Banner Image"
+                  width={879}
+                  height={500}
+                />
+              </div>
+
             </div>
           </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default DesignSection;

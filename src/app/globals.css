@@ -134,12 +134,32 @@ h1,h2,h3,h4,h5,h6{
     margin: auto;
 }
 
+
 @media(max-width:1500px){
     .site_header .container {
         max-width: 100%;
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+@media(max-width:1279px){
+.animated_frame_wrap.show_desktop {
+    display: none;
+}
+}
+
+
+@media(max-width:1199px){
+.footer__links_grid .Footer_links_col {
+    flex-basis: 50%;
+}
+.footer__links_grid .Footer_links_col:nth-child(2) {
+    flex-basis: 50%;
+}
+.Footer_links_col:nth-child(2) .flex-col a {
+    WIDTH: 100%;
+}
 }
 
 
