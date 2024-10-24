@@ -12,12 +12,12 @@ export default function ClientCount({ imageSrc, imageWidth, imageHeight,  title,
 
         {/* Dynamic Title */}
         <div>
-          <h5 className="text-customWhite font-semibold text-[25px] mb-5">
+          <h5 className="text-customWhite font-semibold xl:text-[25px] lg:text-20px] md:text-[18px] sm:text-[18px]  mb-5">
             {title}
           </h5>
 
           {/* Dynamic Description */}
-          <p className="text-customWhite font-normal text-[20px]">
+          <p className="text-customWhite font-normal xl:text-[20px] lg:text-[18px] md:text-[14px] sm:text-[14px] ">
             {description}
           </p>
         </div>

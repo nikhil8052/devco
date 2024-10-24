@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 const HeroBanner = () => {
   return (
-    <div className="hero_banner relative w-full pt-20">
+    <div className="hero_banner relative w-full pt-20 overflow-x-hidden">
       <div className="absolute inset-0 bg-cover bg-center" />
-      <div className="container mx-auto mx-auto ">
+      <div className="container mx-auto mx-auto relative z-10 ">
         <motion.div
           className="relative z-2 banner_content max-w-2xl"
           initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
@@ -64,13 +64,13 @@ const HeroBanner = () => {
 
       {/* Banner Image Animation - coming from top-right */}
       <motion.div
-        className="banner_image pl-20"
+        className="banner_image mt-[-10rem] xl:mt-[-20rem] lg:mt-[-10rem] relative z-1"
         initial={{ opacity: 0, x: 200, y: -300 }} 
         animate={{ opacity: 1, x: 0, y: 0 }}    
         transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}   
       >
         <Image
-          src="/images/bannerimg.png"
+          src="/images/banner_incl_screen.svg"
           alt="Banner Image"
           width={1920}
           height={300}
