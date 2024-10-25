@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React, { useState, useRef } from 'react';
 
 export default function Faq() {
@@ -9,27 +9,36 @@ export default function Faq() {
   const faqs = [
     {
       question: "What is Software Development?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      is_ui_li: true,  // Indicates that this answer will include list items
+      items: ["Point 1", "Point 2", "Point 3"] // The items to be listed
     },
     {
       question: "How Do You Choose the Best Software Development Company?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "Some points to consider:",
+      is_ui_li: true,
+      items: ["Experience", "Portfolio", "Client Reviews"]
     },
     {
       question: "What is Agile Software Development?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "Agile development is a method.",
+      is_ui_li: false,
     },
     {
       question: "How Much Do Your Custom Software Engineering Services Cost?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "Our pricing varies depending on the project requirements.",
+      is_ui_li: false,
     },
     {
       question: "What Are the Benefits of Custom Software Development?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "Custom software provides tailored solutions to specific needs.",
+      is_ui_li: true,
+      items: ["Increased Efficiency", "Scalability", "Enhanced Security"]
     },
     {
       question: "How Long Does it Take to Create and Build Custom Software?",
-      answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      answer: "The timeline depends on project complexity.",
+      is_ui_li: false,
     },
   ];
 
@@ -98,7 +107,18 @@ export default function Faq() {
                 }}
               >
                 <p className="mb-2 text-customwhite text-[16px]">
-                  {faq.answer}
+                  {faq.is_ui_li ? (
+                    <>
+                      {faq.answer}
+                      <ul className="list-disc pl-5">
+                        {faq.items.map((item, itemIndex) => (
+                          <li key={itemIndex} className="text-customwhite">{item}</li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    faq.answer
+                  )}
                 </p>
               </div>
             </div>
