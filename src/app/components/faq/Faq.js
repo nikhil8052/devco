@@ -42,7 +42,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="faz_section w-full py-20 relative z-10" style={{
+    <div className="faz_section w-full lg:py-20 md:py-10 sm:py-5 relative z-10" style={{
       backgroundImage: "url('/images/faz_bg.png')",
       backgroundRepeat: "no-repeat",
     }}>
@@ -67,7 +67,7 @@ export default function Faq() {
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3 text-left"
+                  className="flex items-center justify-between w-full py-5 font-semibold text-[18px] md:text[25px] sm:text-[20px] text-white gap-3 text-left"
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}

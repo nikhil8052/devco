@@ -9,8 +9,7 @@ import Innovative from './components/homepage/Innovative';
 import Development from './components/homepage/Development';
 import CustomDevelopement from './components/homepage/CustomDevelopement';
 import CustomsofSection from './components/homepage/CustomsofSection';
-
-
+import CombiningCode from './components/homepage/CombiningCode';
 
 
 
@@ -39,8 +38,8 @@ export default function Home() {
         <ClientCount/>
         <CustomsofSection/>
         <CustomDevelopement/>
+        <CombiningCode />
          <Faq /> 
-
 
     </div>
     

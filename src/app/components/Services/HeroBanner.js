@@ -24,7 +24,7 @@ const HeroBanner = ({title="", description=""}) => {
           </motion.h1>
 
           <motion.p
-            className="xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8 text-center" // Ensure text-center
+            className="text-[14px ]xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8 text-center" // Ensure text-center
             initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}

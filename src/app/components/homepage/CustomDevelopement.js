@@ -14,11 +14,11 @@ export default function Faq() {
     },
     {
       question: "Dev Staff Augmentation",
-      answer: "We only engage the top 1% of vetted software engineering talent. Our software engineers and custom software project developers come fully-vetted from years of active project-based experience, including deliverables and glowing reviews from past client engagements. We also utilize a proven candidate filtration process for sifting through thousands of active software developers worldwide, solidifying on those with the ample experience across the tech stack using live projects, engineering exams, coding challenge reports and pre-hire interviews providing you best talent available. In this way, we work as a software development partner and not just a vendor."
+      answer: "Whether you need temporary staffing support for a small project or a complete, dedicated team managed by senior developers for a dedicated, long-term engagement with cross platform applications, our IT and software development staffing solutions are there to assist throughout the process. We use sophisticated artificial intelligence (AI) in sourcing the best software engineering talent for your custom development projects, ensuring a precise match between the engineering candidates' industry experience and previous performance and your unique project requirements."
     },
     {
       question: "Dedicated Dev Teams",
-      answer: "We only engage the top 1% of vetted software engineering talent. Our software engineers and custom software project developers come fully-vetted from years of active project-based experience, including deliverables and glowing reviews from past client engagements. We also utilize a proven candidate filtration process for sifting through thousands of active software developers worldwide, solidifying on those with the ample experience across the tech stack using live projects, engineering exams, coding challenge reports and pre-hire interviews providing you best talent available. In this way, we work as a software development partner and not just a vendor."
+      answer: "Depending on the nature and complexity of your project, when you work with a dev team, you engage with the right software development team for your project or staffing needs. Regardless of your software project's complexity, our engineering professionals will seamlessly integrate with your in-house team to provide a custom roadmap and delivery timeline for your project's ultimate success. This value-added approach ensures you are set up for ultimate software development success from day one and that you receive the support you need for your custom product, ensuring you deliver on your project goals."
     },
   ];
 
@@ -32,7 +32,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="faz_section w-full py-20 relative z-10">
+    <div className="faz_section w-full py-10 md:py-20 relative z-10">
       <div className="container mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div id="accordion-collapse">
@@ -41,7 +41,7 @@ export default function Faq() {
                 <h2>
                   <button
                     type="button"
-                    className="flex items-center justify-between w-full py-5 font-semibold text-[25px] text-white gap-3 text-left"
+                    className="flex items-center justify-between w-full py-5 font-semibold text-[18px] md:text[25px] sm:text-[20px] text-white gap-3 text-left"
                     onClick={() => toggleAccordion(index)}
                     aria-expanded={activeIndex === index}
                     aria-controls={`accordion-collapse-body-${index}`}
