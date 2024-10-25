@@ -16,7 +16,7 @@ const HeroBanner = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <motion.h1
-            className="text-5xl md:text-6xl font-semibold mb-4" 
+            className="text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold mb-4" 
             initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -24,7 +24,7 @@ const HeroBanner = () => {
             Software Development Company
           </motion.h1>
           <motion.p
-            className="text-[22px] font-normal text-customwhite mb-8" 
+            className="text-[14px ]xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8" 
             initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}
@@ -38,10 +38,10 @@ const HeroBanner = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            <button className="bg-white text-black px-6 py-3 rounded-md  shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
+            <button className="bg-white text-black px-3 md:px-6 text-[14px] py-2 rounded-md  shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
               Contact Us
             </button>
-            <button className="trans_button flex items-center text-[#F7F8F8] px-6 py-3 rounded-md transition hover:text-white">
+            <button className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[14px] py-2 rounded-md transition hover:text-white">
               Learn More
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
