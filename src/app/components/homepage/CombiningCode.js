@@ -30,7 +30,8 @@ export default function CombiningCode() {
                                     Software Developers Combining Code + Creativity
                                     </h2>
                                     <p className="text-[14px] lg:text-[22px] md:text-[16px] font-normal text-customwhite mb-5">
-                                    View our company's portfolio and engage with our sales team. With our white label program, we offer our engineering consulting and software dev solutions to other top software development companies.
+                                        {`View our company's portfolio and engage with our sales team. With our white label program, we offer our engineering consulting and software dev solutions to other top software development companies.`}
+
                                     </p>
                                     <div className="btn_wrapper flex gap-x-4">
                                         <button className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
