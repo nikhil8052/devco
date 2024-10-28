@@ -2,11 +2,14 @@ export const skills = [
     {
         id: 1,
         slug: "software-development-staffing",
+        sub_title:"services",
         top_title: "Software Development Staffing Company",
-        top_description: "One of the biggest challenges in software development (and IT) is finding experienced professionals necessary to see your project to completion.",
+        top_description: `One of the biggest challenges in software development (and IT) is finding the skilled, experienced professionals necessary to see your project to completion. There’s a talent shortage in the tech world, and recruiting takes both time and money. </br></br>
+
+        That’s why many organizations are turning to software development staffing companies to fulfill their staffing needs.`,
         startups: {
             title: "Web Development & Software Engineering",
-            description: "From next-gen startups to established enterprises, we cover a wide range of development needs.",
+            description: "From next-gen startups to established enterprises.",
             imageHeight: 100,
             imageWidth: 100,
             images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],

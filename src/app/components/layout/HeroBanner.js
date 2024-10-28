@@ -41,7 +41,7 @@ const HeroBanner = () => {
             <button className="bg-white text-black px-3 md:px-6 text-[14px] py-2 rounded-md  shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
               Contact Us
             </button>
-            <button className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[14px] py-2 rounded-md transition hover:text-white">
+            <button className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white">
               Learn More
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 

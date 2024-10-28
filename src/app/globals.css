@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 @font-face {
@@ -139,6 +141,13 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
+.logos_slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+
+
 @media(min-width:1024px){
 .nav_div {
     background-color: transparent !important;
@@ -187,6 +196,9 @@ h1,h2,h3,h4,h5,h6{
 
 .header_wrapper .button_col {
     flex-basis: calc(100% - 50px);
+}
+.header_wrapper .button_col {
+    flex-basis: calc(100% - 48px);
 }
 }
 

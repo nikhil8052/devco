@@ -34,7 +34,6 @@ export default function Home() {
         <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps}  sideImage={service3.sideImage} />
         <Innovative />
         <Development/>
-        
         <ClientCount/>
         <CustomsofSection/>
         <CustomDevelopement/>

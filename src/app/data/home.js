@@ -300,5 +300,14 @@ export const clientCountData2 = {
     description: 'Custom developed corporate and customer-facing platform projects, including custom integrated analytics for analyzing site usage for big data consulting.',
   };
 
+  export const CombiningCodedata = {
+    backgroundImage : "/images/code_crbg.svg",
+    mainImage : "/images/code_creative.svg",
+    heading : "Software Developers Combining Code + Creativity",
+    description : "View our company's portfolio and engage with our sales team. With our white label program, we offer our engineering consulting and software dev solutions to other top software development companies.",
+    buttonText : "Tell Us About Your Next Project",
+    onButtonClick : () => {},
+  }
+
 
 // End client count section 

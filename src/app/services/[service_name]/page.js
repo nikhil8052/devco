@@ -3,6 +3,7 @@ import HeroBanner from "@/app/components/Services/HeroBanner";
 import Benefits from "@/app/components/Services/Benefits";
 import Processess from "@/app/components/Services/Processess";
 import { skills } from "@/app/data/skills";
+import CombiningCode from '../../components/homepage/CombiningCode';
 
 
 
@@ -22,10 +23,11 @@ const skill = skills.find((item) => item.slug === slug) || skills[0];
   return (
     <>
   
-      <HeroBanner title={skill.top_title}  description={skill.top_description}  />
-      <StartUps title={skill.startups.title}  description={skill.startups.title}  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
+      <HeroBanner subtitle={skill.sub_title} title={skill.top_title}  description={skill.top_description}  />
+      <StartUps title={skill.startups.title}  description={skill.startups.description}  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
       <Benefits  benefits={skill.benefits.benefits} />
       <Processess  title={skill.processes.title }  processes={skill.processes.processes}  />
+      <CombiningCode/>
     
     </>
   );
