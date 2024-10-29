@@ -4,7 +4,7 @@ import Benefits from "@/app/components/Services/Benefits";
 import Processess from "@/app/components/Services/Processess";
 import { skills } from "@/app/data/skills";
 import CombiningCode from '../../components/homepage/CombiningCode';
-
+import Chooseservice from "@/app/components/Services/Chooseservice";
 
 
 
@@ -25,10 +25,10 @@ const skill = skills.find((item) => item.slug === slug) || skills[0];
   
       <HeroBanner subtitle={skill.sub_title} title={skill.top_title}  description={skill.top_description}  />
       <StartUps title={skill.startups.title}  description={skill.startups.description}  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
-      <Benefits  benefits={skill.benefits.benefits} />
+      <Benefits  title={skill.benefits.title}  description={skill.benefits.description}  benefits={skill.benefits.benefits} />
+      <Chooseservice/>
       <Processess  title={skill.processes.title }  processes={skill.processes.processes}  />
       <CombiningCode/>
-    
     </>
   );
 }

@@ -105,7 +105,9 @@ body {
     -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
   }
-
+p{
+    opacity: 70%;
+}
 img{
     max-width: 100%;
 }
@@ -144,6 +146,18 @@ h1,h2,h3,h4,h5,h6{
 .logos_slider .slick-track {
     display: flex;
     align-items: center;
+}
+.dev_process-container .process_col:nth-of-type(1), .dev_process-container .process_col:nth-of-type(2) {
+    border-top-width: 0px;
+}
+.dev_process-container .process_col {
+    border-top-width: 1px;
+}
+.process_col .process_grid {
+    border-left-width: 1px;
+}
+.process_col:nth-child(odd) .process_grid {
+    border-left-width: 0px;
 }
 
 

@@ -89,7 +89,6 @@ const HeroBanner = ({title="", description="", subtitle=""}) => {
       </div>
       <div className='divider flex items-center content-center h-[150px] w-[100%] max-w-2xl mx-auto'>
         <div className='divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10'>
-
         </div>
       </div>
 
