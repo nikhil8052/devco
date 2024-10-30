@@ -1,17 +1,14 @@
 export const skills = [
     {
         id: 1,
-        slug: "javascript",
-        sub_title:"Skills",
-        top_title: "JavaScript Development Services",
-        top_description: `JavaScript is a dynamic programming language that creates an interactive user experience online. JavaScript brings webpages to life with interactive elements that engage users and make your brand stand out.<br></br>
+        slug: "software-development-staffing",
+        sub_title:"services",
+        top_title: "Software Development Staffing Company",
+        top_description: `One of the biggest challenges in software development (and IT) is finding the skilled, experienced professionals necessary to see your project to completion. There’s a talent shortage in the tech world, and recruiting takes both time and money. </br></br>
 
-            Interactive elements can even be used to tell a dynamic story, like the New York Times did with their All Birds article. Impressed? That’s the power of JavaScript.<br></br>
+        That’s why many organizations are turning to software development staffing companies to fulfill their staffing needs.`,
 
-            At Dev.co, we provide world-class JavaScript planning, development, and testing according to industry best practices. We use leading-edge technologies to build JavaScript applications that website visitors love.<br></br>
-
-            As experts in our industry, we continually deepen our knowledge in the latest JavaScript libraries and frameworks to provide our partners with cutting-edge customizations.`,
-
+        
         startups: {
             title: "Web Development & Software Engineering",
             description: "From next-gen startups to established enterprises.",

@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const HeroBanner = ({title="", description="", subtitle=""}) => {
+const HeroBanner = ({title="", description="", subtitle="", bannertop_icon=""}) => {
   return (
     <div className="hero_banner relative w-full pt-20">
       <div className="absolute inset-0 bg-cover bg-center" />
@@ -41,7 +41,7 @@ const HeroBanner = ({title="", description="", subtitle=""}) => {
             transition={{ duration: 1, delay: 0.9 }}>
               <Image
               className='mx-auto block my-10 md:my-[50px] xl:my-[80px] 2xl:my-[110px]'
-              src="/images/threeusuer.svg"
+              src={"/images/threeusuer.svg"}
               alt="Banner Image"
               width={170}
               height={170}
