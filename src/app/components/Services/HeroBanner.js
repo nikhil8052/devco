@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const HeroBanner = ({title="", description="", subtitle="", bannertop_icon=""}) => {
+const HeroBanner = ({title="", description="", subtitle=""}) => {
   return (
     <div className="hero_banner relative w-full pt-20">
       <div className="absolute inset-0 bg-cover bg-center" />
