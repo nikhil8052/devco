@@ -8,61 +8,60 @@ import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 const cardData = [
   {
     title: "Experience",
-    description:
-      "Valuable IT and software development staffing companies have plenty of experience. They understand the core needs of most of their clientele and can anticipate the usual barriers to success.",
+    description: "Valuable IT and software development staffing companies have plenty of experience. They understand the core needs of most of their clientele and can anticipate the usual barriers to success.",
     imgSrc: "/images/card_1.svg",
   },
   {
     title: "Speed",
-    description:
-      "Even if your project isn’t time-sensitive, you’ll still want a partner who can get you the staff members you need as quickly as possible. That way, you can get results faster—and potentially start generating revenue faster.",
+    description: "Even if your project isn’t time-sensitive, you’ll still want a partner who can get you the staff members you need as quickly as possible. That way, you can get results faster—and potentially start generating revenue faster.",
     imgSrc: "/images/card_real.svg",
   },
   {
     title: "Access",
-    description:
-      "What kinds of talent is this staffing agency able to secure? Do they have access to people in a variety of different niches? What are your needs?",
+    description: "What kinds of talent is this staffing agency able to secure? Do they have access to people in a variety of different niches? What are your needs?",
     imgSrc: "/images/accessimg.svg",
   },
   {
     title: "Communication",
-    description:
-      "A good staffing partner will collaborate with you, and collaboration demands effective communication. Is it easy to talk with this partner and discuss your vision?",
+    description: "A good staffing partner will collaborate with you, and collaboration demands effective communication. Is it easy to talk with this partner and discuss your vision?",
     imgSrc: "/images/comminuctn.svg",
   },
 ];
 
 export default function ChooseService() {
   useEffect(() => {
-    // Initialize Slick Slider after the component mounts
-    const $devCardRow = $('.dev_card_row');
-    
-    if ($devCardRow.length) {
-      $devCardRow.slick({
-        dots: true, // Show navigation dots
-        infinite: true, // Loop the slides
-        speed: 300, // Transition speed in ms
-        slidesToShow: 3, // Number of slides to show at once
-        slidesToScroll: 1, // Number of slides to scroll at once
-        responsive: [
-          {
-            breakpoint: 1024, // For tablet screens
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
+    // Import the Slick JS file dynamically after mounting
+    import('slick-carousel').then(() => {
+      const devCardRow = $('.dev_card_row');
+
+      if (devCardRow.length) {
+        devCardRow.slick({
+          dots: false,
+          arrows:false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
             },
-          },
-          {
-            breakpoint: 768, // For mobile screens
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
             },
-          },
-        ],
-      });
-    }
-  }, []); // Empty dependency array to run only once after component mounts
+          ],
+        });
+      }
+    }).catch(error => console.error("Slick Carousel could not be initialized:", error));
+  }, []);
 
   return (
     <div className="choose-section py-20 relative">
@@ -77,7 +76,7 @@ export default function ChooseService() {
             </p>
           </div>
         </div>
-        
+
         <div className="dev_card_row flex gap-6">
           {cardData.map((card, index) => (
             <div key={index} className="dev_card_col w-full max-w-[456px]">
