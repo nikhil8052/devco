@@ -1,5 +1,9 @@
-import React from 'react';
+"use client";
+import React, { useEffect } from 'react';
 import Image from 'next/image';
+import $ from 'jquery';  // Import jQuery
+import 'slick-carousel/slick/slick.css';  // Import Slick CSS
+import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 
 const cardData = [
   {
@@ -29,6 +33,37 @@ const cardData = [
 ];
 
 export default function ChooseService() {
+  useEffect(() => {
+    // Initialize Slick Slider after the component mounts
+    const $devCardRow = $('.dev_card_row');
+    
+    if ($devCardRow.length) {
+      $devCardRow.slick({
+        dots: true, // Show navigation dots
+        infinite: true, // Loop the slides
+        speed: 300, // Transition speed in ms
+        slidesToShow: 3, // Number of slides to show at once
+        slidesToScroll: 1, // Number of slides to scroll at once
+        responsive: [
+          {
+            breakpoint: 1024, // For tablet screens
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 768, // For mobile screens
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    }
+  }, []); // Empty dependency array to run only once after component mounts
+
   return (
     <div className="choose-section py-20 relative">
       <div className="container relative z-10">
@@ -42,6 +77,7 @@ export default function ChooseService() {
             </p>
           </div>
         </div>
+        
         <div className="dev_card_row flex gap-6">
           {cardData.map((card, index) => (
             <div key={index} className="dev_card_col w-full max-w-[456px]">
