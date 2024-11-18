@@ -50,7 +50,7 @@ export default function StartUps() {
           <p className='lg:text-[24px] md:text-[18px] sm:text[14px] font-normal text-customwhite'>From next-gen startups to established enterprises.</p>
         </div>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 min-h-[240px]">
           {currentImages.map((image, index) => (
             <div
               key={index}

@@ -53,33 +53,32 @@ export const skills = [
                 },
             ],
         },
-        chooservices: {
+        Benefitslider: {
             title: "How to Choose a Software Development Staffing Company",
-            description: `Of course, not all software development staffing companies are created equal.
-                When searching for a potential staffing partner, make sure you consider:`,
-            cardData: [
+            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            card_datas: [
                 {
-                    title: "Experience",
-                    description: "Valuable IT and software development staffing companies have plenty of experience. They understand the core needs of most of their clientele and can anticipate the usual barriers to success.",
-                    imgSrc: "/images/card_1.svg",
+                    title: "Discovery & brainstorming",
+                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
+                    imgSrc: "/images/Benefits1.svg",
                 },
                 {
-                    title: "Speed",
-                    description: "Even if your project isn’t time-sensitive, you’ll still want a partner who can get you the staff members you need as quickly as possible. That way, you can get results faster—and potentially start generating revenue faster.",
-                    imgSrc: "/images/card_real.svg",
+                    title: "Planning",
+                    description:
+                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
+                    imgSrc: "/images/Benefits2.svg",
                 },
                 {
-                    title: "Access",
-                    description: "What kinds of talent is this staffing agency able to secure? Do they have access to people in a variety of different niches? What are your needs?",
-                    imgSrc: "/images/accessimg.svg",
+                    title: "Design & development",
+                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
+                    imgSrc: "/images/Benefits3.svg",
                 },
                 {
-                    title: "Communication",
-                    description: "A good staffing partner will collaborate with you, and collaboration demands effective communication. Is it easy to talk with this partner and discuss your vision?",
-                    imgSrc: "/images/comminuctn.svg",
+                    title: "Testing",
+                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
+                    imgSrc: "/images/Benefits4.svg",
                 },
-                ]
-
+            ],
         },
         processes: {
             title: "Our Development <br> Process",
@@ -169,6 +168,33 @@ export const skills = [
                 },
             ],
         },
+        Benefitslider: {
+            title: "How to Choose a Software Development Staffing Company",
+            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            card_datas: [
+                {
+                    title: "Discovery & brainstorming",
+                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Planning",
+                    description:
+                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Design & development",
+                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Testing",
+                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
         processes: {
             title: "Our Web Development Process",
             description: "",
@@ -226,6 +252,33 @@ export const skills = [
                     imageSrc: "/images/rotation_mug.svg",
                     imageHeight: 25,
                     imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "How to Choose a Software Development Staffing Company",
+            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            card_datas: [
+                {
+                    title: "Discovery & brainstorming",
+                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Planning",
+                    description:
+                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Design & development",
+                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Testing",
+                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
+                    imgSrc: "/images/Benefits4.svg",
                 },
             ],
         },
@@ -289,6 +342,33 @@ export const skills = [
                 },
             ],
         },
+        Benefitslider: {
+            title: "How to Choose a Software Development Staffing Company",
+            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            card_datas: [
+                {
+                    title: "Discovery & brainstorming",
+                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Planning",
+                    description:
+                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Design & development",
+                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Testing",
+                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
         processes: {
             title: "Our UX/UI Design Process",
             description: "",
@@ -349,6 +429,33 @@ export const skills = [
                 },
             ],
         },
+        Benefitslider: {
+            title: "How to Choose a Software Development Staffing Company",
+            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            card_datas: [
+                {
+                    title: "Discovery & brainstorming",
+                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Planning",
+                    description:
+                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Design & development",
+                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Testing",
+                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
         processes: {
             title: "Our Technology Architecture Process",
             description: "",
@@ -371,3 +478,28 @@ export const skills = [
         },
     },
 ];
+
+// Data for the tech cards
+
+export const Whyusecard1 = {
+    // title: "Mobile Application w/3M+ downloads",
+    // description: "Built for Android & Apple iOS",
+    imageSrc: "/images/application_development.svg",
+    imageWidth: 226,
+    imageHeight: 232,
+    subTitle: "Interactive navigation",
+    details:
+        "Make your navigation elements fun with JavaScript. Popular elements include panels that slide out when clicked, custom dialog boxes, and tabbed navigation with special effects.",
+};
+
+export const Whyusecard2 = {
+    // title: "Strategic software development support",
+    // description:
+    //     "As an end-to-end service provider, we deliver in-depth strategic support and custom software developer services to corporations, government entities and small/medium businesses across the globe, ensuring your digital success.",
+    imageSrc: "/images/strategicpic.svg",
+    imageWidth: 230,
+    imageHeight: 232,
+    subTitle: "Animations",
+    details:
+        "Animations are a powerful way to capture and hold a visitor’s attention. Custom JavaScript animations will also help you achieve your conversion goals.",
+};

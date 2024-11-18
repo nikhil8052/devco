@@ -172,6 +172,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .dev_card_row.flex .slick-track .slick-slide > div .dev_card_col {
     height: 100%;
+    padding: 0 10px;
 }
 .dev_card_row.flex .slick-list.draggable {
     overflow: visible;

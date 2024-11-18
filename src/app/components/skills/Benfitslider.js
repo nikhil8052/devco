@@ -28,7 +28,7 @@ import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 //   },
 // ];
 
-export default function ChooseService({ chooseData=[] }) {
+export default function Benefitslider({ chooseData=[] }) {
   // Object.values()
 
 
@@ -72,12 +72,12 @@ export default function ChooseService({ chooseData=[] }) {
     <div className="choose-section py-20 relative">
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
-          <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
-            How to Choose a Software Development Staffing Company
+          <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
+          The Benefits of Hiring a Software Development Staffing Company
           </h2>
           <div className="w-full">
             <p className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">
-              Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:
+            Hiring a software development staffing company yields multiple benefits simultaneously:
             </p>
           </div>
         </div>
@@ -86,13 +86,13 @@ export default function ChooseService({ chooseData=[] }) {
           { chooseData.map((card, index) => (
             <div key={index} className="dev_card_col w-full max-w-[456px]">
               <div className="dev_card rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 data_card bg-white/5 backdrop-blur-lg h-full">
-                <div className="thumb relative mb-2 md:mb-5 h-[175px] flex flex-col">
+                <div className="thumb relative mb-2 md:mb-5 flex flex-col">
                   <Image
-                    className="w-full block mt-auto"
+                    className=" block mt-auto min-h-[50px]"
                     src={card.imgSrc}
                     alt={card.title}
-                    width={500}
-                    height={300}
+                    width={30}                    
+                    height={50}
                   />
                 </div>
                 <div className="text-section w-full max-w-[514px]">
