@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect  } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import sideImage from '/public/images/get-in-touch.svg'; // Update with the correct path to your image
 

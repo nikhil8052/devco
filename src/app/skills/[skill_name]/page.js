@@ -1,7 +1,7 @@
 import StartUps from "@/app/components/Services/StartUps";
 import HeroBanner from "@/app/components/Services/HeroBanner";
 import Benefits from "@/app/components/Services/Benefits";
-import Processess from "@/app/components/Services/Processess";
+// import Processess from "@/app/components/Services/Processess";
 import { skills } from "@/app/data/skills";
 import CombiningCode from '../../components/homepage/CombiningCode';
 import Chooseservice from "@/app/components/Services/Chooseservice";
