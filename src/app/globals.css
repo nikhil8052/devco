@@ -179,6 +179,12 @@ h1,h2,h3,h4,h5,h6{
     left: 100%;
 }
 
+ul.section_ulli li {
+    margin-bottom: 20px;
+}
+.heading-opacity{
+    opacity: 30%;
+}
 
 
 @media(min-width:1024px){
@@ -235,5 +241,24 @@ h1,h2,h3,h4,h5,h6{
 }
 }
 
+@media(max-width:1024px){
+.header_wrapper .nav_div .submenu_flex {
+    flex-direction: column;
+}
+.benefits-section .dev_process-container .process_col .process_card {
+    flex-direction: column;
+    padding-left: 20px;
+}
 
+}
 
+@media(max-width:575px){
+.startup_section img {
+    max-width: 60px;
+    width: 100%;
+}
+.footer_wrapper .footer_links_wrapper .footer_logo_col {
+    flex-direction: column;
+}
+
+}

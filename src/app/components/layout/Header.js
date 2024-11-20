@@ -76,8 +76,10 @@ const Header = () => {
         <div className="header_wrapper">
           <div className="w-full flex md:order-1 justify-between items-center border p-2 rounded-md border-lightBlue">
             {/* Logo */}
-            <div className='logo_div basis-1/5'>
+            <div className='logo_div basis-1/5'> 
+            <Link href="/">             
               <Image className="text-left" src="/images/header_logo.svg" height={32} width={50} alt="Logo" />
+              </Link>
             </div>
             
 
@@ -324,7 +326,7 @@ const Header = () => {
                    className="header_submenu p-4 static lg:absolute w-full lg:w-[500px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible"
                    style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', backdropFilter: 'blur(48px)' }}
                  >
-                      <div className='submenu_flex w-full flex gap-2'>
+                      <div className='submenu_flex w-full flex gap-2 '>
                         <div className='links_div basis-[30%]'>
                           <ul className=" submenu_ul">
                             <li className="p-1 submenu_item"><Link href="/" className='text-customwhite text-[16px]'>Design </Link></li>

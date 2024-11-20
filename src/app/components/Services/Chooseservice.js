@@ -69,11 +69,11 @@ export default function ChooseService({ chooseData=[] }) {
   }, []);
 
   return (
-    <div className="choose-section py-20 relative">
+    <div className="choose-section py-10 md:py-20 relative">
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
-          <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
-            How to Choose a Software Development Staffing Company
+          <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
+            How to Choose a Software <span className='heading-opacity inline-block max-w-[400px]'>Development Staffing Company</span>
           </h2>
           <div className="w-full">
             <p className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">

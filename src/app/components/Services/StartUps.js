@@ -10,15 +10,33 @@ export default function StartUps({ title = "", description = "", images = [], im
     infinite: true,
     speed: 3000, // Smooth speed
     slidesToShow: Math.min(images.length, 5),
+    // slidesToShow:5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1, // For smoother continuous motion
     cssEase: 'linear',
-    pauseOnHover: false,// Allow each image to maintain its natural width
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768, // For tablets and smaller screens
+        settings: {
+          slidesToShow: 3, // Show 2 slides on mobile
+          slidesToScroll: 1,
+          speed: 1000, // Smooth speed
+        },
+      },
+      {
+        breakpoint: 480, // For smaller mobile screens
+        settings: {
+          slidesToShow: 2, // Adjust as necessary for smaller screens
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="startup_section pb-20 relative z-2">
+    <div className="startup_section pb-10 md:pb-20 relative z-2">
       <div className="container mx-auto">
         <div className="text-center mb-6">
           <h2 className="text-[20px] md:text-[24px] sm:text-[22px] text-customwhite font-semibold mb-1">

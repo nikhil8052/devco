@@ -5,11 +5,11 @@ import sideImage from '/public/images/develop-do.png'; // Update with the correc
 
 const DeveloperDo = () => {
   return (
-    <div className="Developerdo-sec py-20">
+    <div className="Developerdo-sec py-10 md:py-20">
         <div className='container max-auto'>
         <div className="Developerdo-container grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10">
             <div className="Developerdo-box flex flex-col gap-5">
-            <div className="Developerdo-col max-w-[520px] mt-10">
+            <div className="Developerdo-col max-w-[520px] md:mt-10">
                 <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[40px] xl:text-[30px] md:text-[28px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
                 What does a JavaScript Developer do
                 </h2>

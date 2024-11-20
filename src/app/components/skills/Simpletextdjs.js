@@ -8,7 +8,7 @@ const Simpletextdjs = () => {
     <div className='simple-text-sec'>
       <div className='container'>
       <div className='simple-text text-center'>
-      <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[54px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
+      <h2 className="section_head_title font-semibold text-[26px] 2xl:text-[54px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
       End-To-End JavaScript Development <br/> <span class="text-headingBlue">Services to Match Your Business Needs</span>
           </h2>
           <div className="w-full">

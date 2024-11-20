@@ -69,10 +69,10 @@ export default function Benefitslider({ chooseData=[] }) {
   }, []);
 
   return (
-    <div className="choose-section py-20 relative">
+    <div className="choose-section py-10 md:py-20 relative">
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
-          <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
+          <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
           The Benefits of Hiring a Software Development Staffing Company
           </h2>
           <div className="w-full">
@@ -96,7 +96,7 @@ export default function Benefitslider({ chooseData=[] }) {
                   />
                 </div>
                 <div className="text-section w-full max-w-[514px]">
-                  <h4 className="text-[22px] md:text-[25px] font-semibold mb-2">{card.title}</h4>
+                  <h4 className="text-[20px] md:text-[25px] font-semibold mb-2">{card.title}</h4>
                   <p className="text-sm md:text-base text-customwhite">
                     {card.description}
                   </p>

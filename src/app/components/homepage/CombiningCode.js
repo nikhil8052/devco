@@ -29,7 +29,7 @@ export default function CombiningCode() {
                         <div className="code_col basis-[100%] md:basis-[60%]">
                             <div className="code_content">
                                 <div className="relative w-full max-w-[650px]">
-                                    <h2 className="text-[34px] 2xl:text-[54px] xl:text-[36px] md:text-[34px] sm:text-[34px] font-semibold mb-2">
+                                    <h2 className="text-[26px] 2xl:text-[54px] xl:text-[36px] md:text-[34px] sm:text-[34px] font-semibold mb-2">
                                         {CombiningCodedata.heading}
                                     </h2>
                                     <p className="text-[14px] lg:text-[22px] md:text-[16px] font-normal text-customwhite mb-5">
