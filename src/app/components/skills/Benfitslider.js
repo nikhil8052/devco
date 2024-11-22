@@ -69,7 +69,7 @@ export default function Benefitslider({ chooseData=[] }) {
   }, []);
 
   return (
-    <div className="choose-section py-10 md:py-20 relative">
+    <div className="benefits-section py-10 md:py-20 relative">
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
           <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
@@ -84,7 +84,7 @@ export default function Benefitslider({ chooseData=[] }) {
 
         <div className="dev_card_row flex gap-6">
           { chooseData.map((card, index) => (
-            <div key={index} className="dev_card_col w-full max-w-[456px]">
+            <div key={index} className="dev_card_col w-full">
               <div className="dev_card rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 data_card bg-white/5 backdrop-blur-lg h-full">
                 <div className="thumb relative mb-2 md:mb-5 flex flex-col">
                   <Image
@@ -95,9 +95,9 @@ export default function Benefitslider({ chooseData=[] }) {
                     height={50}
                   />
                 </div>
-                <div className="text-section w-full max-w-[514px]">
+                <div className="text-section w-full ">
                   <h4 className="text-[20px] md:text-[25px] font-semibold mb-2">{card.title}</h4>
-                  <p className="text-sm md:text-base text-customwhite">
+                  <p className="text-sm md:text-base text-customwhite max-w-[514px]">
                     {card.description}
                   </p>
                 </div>

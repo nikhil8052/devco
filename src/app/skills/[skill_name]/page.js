@@ -1,5 +1,6 @@
 import StartUps from "@/app/components/Services/StartUps";
-import HeroBanner from "@/app/components/Services/HeroBanner";
+// import HeroBanner from "@/app/components/Services/HeroBanner";
+import SkillBanner from "@/app/components/skills/SkillBanner"
 import Benefits from "@/app/components/Services/Benefits";
 // import Processess from "@/app/components/Services/Processess";
 import { skills } from "@/app/data/skills";
@@ -16,6 +17,7 @@ import Benefitslider from "@/app/components/skills/Benfitslider";
 import Textbuttonimg from "@/app/components/skills/Textbuttonimg";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Dividercontainer from "@/app/components/skills/Dividercontainer";
+import Checkedulimage from "@/app/components/cards/Checkedulimage";
 
 
 
@@ -23,7 +25,7 @@ import Dividercontainer from "@/app/components/skills/Dividercontainer";
 
 export default function Home(content) {
 
-const slug = content.params.service_name;
+const slug = content.params.skill_name ;
 
 // Find the skill based on the slug or return the first skill if not found
 const skill = skills.find((item) => item.slug === slug) || skills[0];
@@ -35,9 +37,9 @@ const skill = skills.find((item) => item.slug === slug) || skills[0];
   return (
     <>
   
-      <HeroBanner subtitle={skill.sub_title} title={skill.top_title}  description={skill.top_description} bannericon={skills.bannericon} />
+      <SkillBanner bannericon={skills.bannericon} subtitle={skill.sub_title} title={skill.top_title}  description={skill.top_description}  />
       <StartUps title={skill.startups.title}  description={skill.startups.description}  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
-      <Benefits  title={skill.benefits.title}  description={skill.benefits.description}  benefits={skill.benefits.benefits} />
+      <Benefits  title={skill.benefits.title}  />
       <Chooseservice/>
       <Whyusecard/>
       <Ultextgrid/>
@@ -54,7 +56,8 @@ const skill = skills.find((item) => item.slug === slug) || skills[0];
       <Subheadingtext/>
       <Dividercontainer/>
       <Chooseservice/>
-      <Simpletextdjs/>
+      <Checkedulimage/>      
+      <Simpletextdjs/>      
       {/* <Processess  title={skill.processes.title }  processes={skill.processes.processes}  /> */}
       <CombiningCode/>
           

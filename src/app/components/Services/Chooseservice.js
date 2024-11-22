@@ -84,7 +84,7 @@ export default function ChooseService({ chooseData=[] }) {
 
         <div className="dev_card_row flex gap-6">
           { chooseData.map((card, index) => (
-            <div key={index} className="dev_card_col w-full max-w-[456px]">
+            <div key={index} className="dev_card_col w-full ">
               <div className="dev_card rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 data_card bg-white/5 backdrop-blur-lg h-full">
                 <div className="thumb relative mb-2 md:mb-5 h-[175px] flex flex-col">
                   <Image
@@ -95,7 +95,7 @@ export default function ChooseService({ chooseData=[] }) {
                     height={300}
                   />
                 </div>
-                <div className="text-section w-full max-w-[514px]">
+                <div className="text-section w-full max-w-[514px] relative">
                   <h4 className="text-[22px] md:text-[25px] font-semibold mb-2">{card.title}</h4>
                   <p className="text-sm md:text-base text-customwhite">
                     {card.description}
