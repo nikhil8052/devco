@@ -23,7 +23,7 @@ const Textbuttonimg = () => {
                             <div className="btn_wrapper flex justify-center gap-x-4">
                                 <button
                                     className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
-                                    Let's talk About Your Project
+                                   {` Let's talk About Your Project`}
                                 </button>
                             </div>
                         </div>
