@@ -16,9 +16,9 @@ const Textbuttonimg = () => {
                                 Get in touch with us
                             </h2>
                             <p className="text-[14px] lg:text-[22px] md:text-[16px] font-semibold text-customwhite mb-10">
-                                If you’re ready to add more value to your website through dynamic visitor interaction,
+                                {`If you’re ready to add more value to your website through dynamic visitor interaction,
                                 choose Dev.co for your JavaScript development partner.
-                                Connect with us today and let us know how we can help bring your ideas to life.
+                                Connect with us today and let us know how we can help bring your ideas to life.`}
                             </p>
                             <div className="btn_wrapper flex justify-center gap-x-4">
                                 <button
