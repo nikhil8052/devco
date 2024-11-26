@@ -196,22 +196,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our Web Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "Requirement Gathering",
-                    description: "We work closely with you to understand your business goals and technical needs.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Agile Development",
-                    description: "Our agile development process ensures fast delivery and flexibility.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -283,22 +311,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our Mobile Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "Cross-Platform Development",
-                    description: "We specialize in cross-platform development for efficient and cost-effective solutions.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Native App Optimization",
-                    description: "We build native apps that leverage platform-specific features.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -370,22 +426,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our UX/UI Design Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "User Research",
-                    description: "We conduct thorough user research to understand user behavior and needs.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Prototyping & Testing",
-                    description: "We develop prototypes and conduct user testing to ensure optimal design.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -457,22 +541,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our Technology Architecture Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "System Design",
-                    description: "We design scalable, secure, and flexible technology systems.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Implementation Support",
-                    description: "We offer support throughout the implementation process.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -544,22 +656,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The DEV.co Node.js Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "System Design",
-                    description: "We design scalable, secure, and flexible technology systems.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Implementation Support",
-                    description: "We offer support throughout the implementation process.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -631,22 +771,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The DEV.co Node.js Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "System Design",
-                    description: "We design scalable, secure, and flexible technology systems.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Implementation Support",
-                    description: "We offer support throughout the implementation process.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -725,22 +893,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
                     title: "Understanding",
-                    description: "Background details vision & values target personas Stakeholder insights",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Research & Discovery",
-                    description: "Customer research Competitive analysis Expert audits & insights Current market Positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -817,22 +1013,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "Our Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
                     title: "Understanding",
-                    description: "Background details vision & values target personas Stakeholder insights",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Research & Discovery",
-                    description: "Customer research Competitive analysis Expert audits & insights Current market Positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -918,22 +1142,50 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The DEV.co Electron.js Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
-                    title: "Discovery",
-                    description: "It’s impossible to develop a useful application without first analyzing wants, needs, expectations, and outcomes. That’s why we begin every process with a detailed discovery phase.",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Planning",
-                    description: "Customer research Competitive analysis Expert audits & insights Current market Positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -1012,43 +1264,47 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
                     title: "Understanding",
                     description: "Background details Vision values Target personas Stakeholder insights",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Research & Discovery",
-                    description: "Customer research Competitive analysis Expert audits insights Current market positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Strategy",
-                    description: "Story personality Market opportunities Positioning messaging Creative brief development",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Creative",
-                    description: "Naming Logo development Graphics standards Verify function Messaging framework",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Deliver & integrate",
-                    description: "Brand book styleguide Print integration Online mobile Further brand extension",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -1127,43 +1383,47 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
                     title: "Understanding",
                     description: "Background details Vision values Target personas Stakeholder insights",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Research & Discovery",
-                    description: "Customer research Competitive analysis Expert audits insights Current market positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Strategy",
-                    description: "Story personality Market opportunities Positioning messaging Creative brief development",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Creative",
-                    description: "Naming Logo development Graphics standards Verify function Messaging framework",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Deliver & integrate",
-                    description: "Brand book styleguide Print integration Online mobile Further brand extension",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
@@ -1249,47 +1509,787 @@ export const skills = [
             ],
         },
         processes: {
-            title: "The Development Process",
+            title: "Our Development <br> Process",
             description: "",
             processes: [
                 {
                     title: "Understanding",
                     description: "Background details Vision values Target personas Stakeholder insights",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Research & Discovery",
-                    description: "Customer research Competitive analysis Expert audits insights Current market positioning",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Strategy",
-                    description: "Story personality Market opportunities Positioning messaging Creative brief development",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
                     title: "Creative",
-                    description: "Naming Logo development Graphics standards Verify function Messaging framework",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
                 {
-                    title: "Deliver & integrate",
-                    description: "Brand book styleguide Print integration Online mobile Further brand extension",
-                    imageSrc: "/images/rotation_mug.svg",
-                    imageHeight: 20,
-                    imageWidth: 20,
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
                 },
             ],
         },
     },
+    {
+        id: 14,
+        slug: "opencv",
+        top_title: "OpenCV Development Services",
+        top_description: "OpenCV is basically a library of programming functions that you can use in real-time for common image processing. It’s an open source platform that’s equipped with hundreds of powerful features that make it perfect for versatile projects. From simple image processing to complex machine learning, OpenCV is optimized for performance. And if you’re looking to hit your next project out of the proverbial ballpark, we’re here to help.",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose OpenCV?",
+            description: "OpenCV was designed for image processing. Every single function, feature, and data structure is built on this foundation. With that in mind, you can expect an array of benefits, including:",
+            benefits: [
+                {
+                    title: "Speed",
+                    description: "OpenCV is written in optimized C/C++. Sounds great, but what does that mean in practical terms? Well, one key benefit is speed. Machine language code is provided directly to the computer and is immediately executed. This results in faster image processing (as opposed to a platform like Matlab, which requires lots of interpretation prior to processing).",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Efficiency",
+                    description: "OpenCV is incredibly lean. In fact, it’s so efficient that it’s possible to get away with as little as 10mb RAM for a real-time application. RAM isn’t really a factor these days, but the fact that you can run it in such a restrictive environment says a lot.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Supportive community",
+                    description: "The open source nature of OpenCV means there’s far more versatility than most image processing platforms. The result is a more robust and updated option that’s continually evolving over time.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Simple integration",
+                    description: "As is the case with most open source solutions, OpenCV is backed by a very supportive community that’s always standing by to answer questions, offer solutions, and help.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co OpenCV Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Every OpenCV development process begins with a discovery phase where we dive in and get to know your business. These insights allow us to develop solutions that satisfy all core objectives and goals.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Once we unearth your goals, we begin developing a strategic plan that allows us to take you from where you are to where you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "The development phase is where we get to work. Our team of OpenCV developers work together to create solutions that are both functional and aesthetically pleasing.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No development process is complete without first testing and optimizing. We’ll iterate as many times as necessary to get the result you need",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 15,
+        slug: "laravel",
+        top_title: "Laravel Development Services",
+        top_description: "When it comes to custom software development, Laravel is a very popular option. It’s by far one of the most starred PHP frameworks on Github, with nearly 60,000 developers from around the world using it to build faster websites and more efficient web apps. And at Dev.co, we’re proud to offer custom Laravel development services to help you meet and surpass your goals. As the best Laravel development company, we provide expert Laravel developers who are dedicated to driving your business growth. Whether you’re looking to enhance web applications or streamline your development process, our team is here to deliver exceptional results.",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 16,
+        slug: "html5",
+        top_title: "HTML5 Development Services",
+        top_description: "The technology that powers the world wide web is changing rapidly. Is your website up-to-date or is it falling behind?<br>Experts agree that you’ve got about 15 seconds to capture a visitor’s attention before they’ll bounce. If you want your web page to stand out from your competition and actively engage your visitors, it’s time to harness the power of HTML5.",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why people choose Dev.co for HTML5 development",
+            description: "At Dev.co, our innovative front end developers are experienced in creating dynamic, feature-rich HTML5 applications for the web including mobile devices. We build secure, sustainable HTML5 solutions that will easily scale to meet your growing needs. All HTML5 applications built by Dev.co are created to the highest security and industry standards. When you choose Dev.co as your HTML5 developer, our experts have a proficient understanding of dynamic custom web applications that engage users across any device or operating system.<br>At Dev.co, we pride ourselves on our ability to deliver custom web development projects that meet your specific needs. Before we begin development, we’ll conduct an in-depth analysis of your goals and IT requirements/restraints to make sure your HTML5 project is cost-effective and completed on time.",
+            benefits: [
+                {
+                    title: "We prioritize communication and client satisfaction",
+                    description: "We want our clients to participate in the development of their projects. At Dev.co, we take a collaborative approach to HTML5 development and prioritize client satisfaction.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "We prioritize communication",
+                    description: "Communication is crucial for the success of your project. We’ll keep you in the loop throughout the entire development process so you can provide feedback along the way.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                // {
+                //     title: "High-level email integration",
+                //     description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                //     imageSrc: "/images/rotation_mug.svg",
+                //     imageHeight: 25,
+                //     imageWidth: 25,
+                // },
+                // {
+                //     title: "Faster delivery",
+                //     description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                //     imageSrc: "/images/rotation_mug.svg",
+                //     imageHeight: 25,
+                //     imageWidth: 25,
+                // },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 17,
+        slug: "aws",
+        top_title: "AWS Development Services",
+        top_description: "When it comes to current application infrastructure needs, Amazon Web Services (AWS) is one of the most popular and powerful options on the market. It’s leveraged by more than 1 million customers across more than 190 countries – numbers that continue to grow on a monthly basis. And with companies like Netflix, SAP, Pinterest, Expedia, and Dow Jones relying on it, you can rest assured that it’ll perform up to your standards.<br>Amazon Web Services (AWS) is a cloud computing platform that offers a broad set of global compute, storage, database, analytics, application services, and deployment options. AWS is designed to make it easy for you to run your business on the cloud. You can use AWS services to power your distributed applications, store and manage your data, or extend your enterprise IT infrastructure.<br>We offer a customized AWS developer or development team to each project, giving you the firepower you need to complete the most complex and interesting projects in the cloud.",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose AWS Development?",
+            description: "AWS is a preferred platform for a variety of reasons. Our core AWS services and AWS certified developer team will work with you every step of the way. AWS is a place where you can go to develop custom applications. Amazon Web Services’ (AWS) cloud computing platform offers an extensive amount of worldwide compute, storage, database, analytics and deployment options. AWS is designed to make it easy for you to operate your business on the cloud. You can use AWS services to power your applications store data or manage enterprise IT infrastructure. You can use AWS to create a custom application for your business. And while every company has its own unique needs, here’s a look at some of the most common benefits",
+            benefits: [
+                {
+                    title: "Intuitive",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and cloud native applications developed with Laravel are known for being aesthetically pleasing and highly intuitive. AWS is designed in such a way that application providers and vendors can easily host applications without having to go through some of the complex processes that other web service providers require.<br>For instance, AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet. OpsWorks lets you use Chef and Puppet to automate how you install, operate, and manage applications on AWS, including AWS CLI (command line interface). When you hire an in-house or contract AWS DevOps engineer, you will get the technical skills you need to offload your AWS cloud computing needs to someone who talks the AWS talk.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Reliable",
+                    description: "Consider, for a moment, that AWS serves as the backbone for the entire Amazon.com business - a multi-billion dollar operation that’s experienced tremendous year-over-year growth for more than a decade. When you leverage AWS, it’s that same reliability that you get.<br>AWS is reliable because it has a number of features that help ensure your applications are always up and running. These features include: <ul><li>AWS is fault-tolerant, meaning your applications will stay up even if individual servers or components fail.</li></ul>",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Flexible",
+                    description: "AWS is a versatile web environment that allows you freedom of choice in the operating system, web application platform, programming language, server environment, etc.<br>AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Scalable",
+                    description: "Features and tools like Elastic Load Balancing and Auto Scaling make AWS highly scalable for businesses and teams of any size. AWS can automatically adjust how much compute power and storage you need based on how busy your site is. This happens with something called Elastic Load Balancing (ELB) and Auto Scaling.<br>AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java , .NET, PHP, Node.js, Python, Ruby, and Docker on familiar servers such as Apache, Nginx, passenger, and IIS.<br>AWS CloudFormation gives developers and businesses an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable way across a distributed systems architecture.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Cost-effective",
+                    description: "Only pay for the computing power, storage, and resources that you use. And with no up-front commitments or long-term contracts, you can save money today and in the future.<br>AWS is cost effective because it offers a pay-as-you-go pricing model. With this model, you only pay for the resources you use, so you can scale your applications up and down as needed. AWS also offers a wide range of services and features that help you keep your costs down.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Secure",
+                    description: "AWS security is renowned for implementing industry-leading security best practices. This allows you to rest easy knowing that your applications and data are protected from would-be hackers.<br>Amazon Web Services (AWS) provides a highly secure platform with multiple layers of protection. AWS is compliant with the most stringent security and privacy requirements, including the Health Insurance Portability and Accountability Act (HIPAA), the Payment Card Industry Data Security Standard (PCI DSS), and the Federal Information Security Management Act (FISMA).<br>AWS has a comprehensive security program that includes features such as firewalls, intrusion detection systems, and multi-factor authentication. AWS also undergoes regular audits by independent third parties to ensure that its security controls meet or exceed industry standards. To learn more about Amazon Web Services security, visit the Amazon Web Services Security website.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "Our AWS Developer Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Our AWS development process begins with a discovery phase where your AWS developer and project manager get a better understanding of your business, your goals, and the specific expectations for your software, application, or service.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "With all of the necessary insights, we begin planning your AWS development project so that we’re able to meet (and exceed) your expectations. During this phase, your AWS developer--experienced in a serverless application model-- will come up with lots of ideas, filter them through your desired outcomes, and only move forward with the best structure that fits in complex or basic AWS architecture scenarios.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Because of the rigorous discovery and planning, we’re typically able to execute the development phase with minimal friction. During this part of the process, we bring your ideas to fruition in the form of a functional and high-performing solution that’s ready to be implemented right away.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "Your AWS developer or AWS certified developer associate will follow up by careful testing and optimization to ensure all of the wrinkles are ironed out before they have a chance to cause any issues. This leads to superior results immediately at launch!",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 18,
+        slug: "php",
+        top_title: "PHP Development Services",
+        top_description: "Thanks to powerful server-side scripting capabilities, PHP has officially become the world’s most popular programming language. Thousands of highly successful websites are built with PHP, including Facebook, Yahoo!, Wikipedia, and MailChimp. PHP also runs the top content management systems like Joomla, WordPress, and Drupal and the top two eCommerce platforms Magento and WooCommerce.<br>Clients love PHP because applications are easy to use and update. Developers love PHP because it’s easy to learn, is well-supported, and can be used to create complex features quickly for clients.",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why use PHP over languages like Python or Ruby?",
+            description: "While every programming language has its strengths, there are countless reasons to use PHP.<br>Here are just some ways you’ll benefit from custom PHP web development with Dev.co (PHP Developers) ",
+            benefits: [
+                {
+                    title: "Customizations",
+                    description: "Our professional PHP developer can do just about anything with PHP, including customizing an existing PHP application. For instance, if your website runs on WordPress, our PHP developer team can customize your existing installation to add or remove features as you wish.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Easy edits",
+                    description: "We’ll make sure your site has a user-friendly back-end administration area where you can edit your content with ease by expert PHP Developer. If your site utilizes a Popular content management systems (CMS) platform like WordPress and Joomla, Our PHP Developer can customize the existing back-end as required.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Custom WordPress themes",
+                    description: "Our PHP Developer/programmers can create custom WordPress themes from scratch that function as more than simple websites or blogs. For example, several popular internet marketing tools have been created as WordPress themes to deliver high-level marketing strategies impossible to achieve with standard themes",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Fast delivery time",
+                    description: "If you’re in a rush to get your application to market, our web developer can use existing PHP framework to get a head start on your project. We’ll still need adequate time to build your project, but building in PHP will be faster than other languages.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Cross-platform compatibility",
+                    description: "With PHP, you don’t have to build additional applications in different languages to satisfy all possible users. PHP is supported by every major operating system including iOS, Windows, Linux, and Unix.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 19,
+        slug: "wordpress",
+        top_title: "WordPress Development Company",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    
 ];
 
 // Data for the tech cards

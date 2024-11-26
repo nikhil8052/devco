@@ -18,6 +18,7 @@ import Textbuttonimg from "@/app/components/skills/Textbuttonimg";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Dividercontainer from "@/app/components/skills/Dividercontainer";
 import Checkedulimage from "@/app/components/cards/Checkedulimage";
+import Processess from "@/app/components/Services/Processess";
 
 
 
@@ -52,6 +53,7 @@ const skill = skills.find((item) => item.slug === slug) || skills[0];
       <CombiningCode/>
       {/* <Chooseservice chooseData={skill.chooseServices.card_data  } /> */}
       <Benefitslider chooseData={skill.Benefitslider.card_datas  }/>
+      <Processess  title={skill.processes.title }  processes={skill.processes.processes}  />
       <Textbuttonimg/>
       <Subheadingtext/>
       <Dividercontainer/>
