@@ -101,8 +101,11 @@ export const industries = [
     {
         id: 2,
         slug: "government",
-        top_title: "Industries",
-        top_description: "Delivering robust and scalable web solutions tailored to your business needs.",
+        sub_title: "Industries",
+        top_title: "Software Development for Government",
+        top_description: `Over the past few years, the notion that government entities are slow, bogged down, and unresponsive has quickly been replaced with a new reality. It’s a reality where agileness and modernity are now the operative words. </br></br>
+
+        What caused this sudden shift? Growth and adoption of new software is certainly one relevant factor. And if you want your department or organization to continue improving, it’s imperative that you contract with the right custom software engineering company – one that can satisfy each of your civic, state, or federal requirements.`,
         startups: {
             title: "Custom Web Solutions",
             description: "From websites to full-scale web applications, we develop high-quality web-based products.",
