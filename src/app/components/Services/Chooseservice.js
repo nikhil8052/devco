@@ -5,28 +5,6 @@ import $ from 'jquery';  // Import jQuery
 import 'slick-carousel/slick/slick.css';  // Import Slick CSS
 import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 
-// const data = [
-//   {
-//     title: "Experience",
-//     description: "Valuable IT and software development staffing companies have plenty of experience. They understand the core needs of most of their clientele and can anticipate the usual barriers to success.",
-//     imgSrc: "/images/card_1.svg",
-//   },
-//   {
-//     title: "Speed",
-//     description: "Even if your project isn’t time-sensitive, you’ll still want a partner who can get you the staff members you need as quickly as possible. That way, you can get results faster—and potentially start generating revenue faster.",
-//     imgSrc: "/images/card_real.svg",
-//   },
-//   {
-//     title: "Access",
-//     description: "What kinds of talent is this staffing agency able to secure? Do they have access to people in a variety of different niches? What are your needs?",
-//     imgSrc: "/images/accessimg.svg",
-//   },
-//   {
-//     title: "Communication",
-//     description: "A good staffing partner will collaborate with you, and collaboration demands effective communication. Is it easy to talk with this partner and discuss your vision?",
-//     imgSrc: "/images/comminuctn.svg",
-//   },
-// ];
 
 export default function ChooseService({ chooseData=[] }) {
   // Object.values()
