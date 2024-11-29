@@ -25,44 +25,64 @@ import Processess from "@/app/components/Services/Processess";
 
 
 export default function Home(content) {
+  const slug = content.params.skill_name;
 
-const slug = content.params.skill_name ;
+  // Find the skill based on the slug or return the first skill if not found
+  const skill = skills.find((item) => item.slug === slug) || skills[0];
 
-// Find the skill based on the slug or return the first skill if not found
-const skill = skills.find((item) => item.slug === slug) || skills[0];
-
-// Now 'skill' will either be the matching skill or the first item in the array
-
-
+  // Verify the skill object
+  if (!skill) {
+    return <div>Error: Skill not found</div>;
+  }
 
   return (
     <>
-  
-      <SkillBanner bannericon={skills.bannericon} subtitle={skill.sub_title} title={skill.top_title}  description={skill.top_description}  />
-      <StartUps title={skill.startups.title}  description={skill.startups.description}  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
-      <Benefits  title={skill.benefits.title}  />
-      <Chooseservice/>
-      <Whyusecard/>
-      <Ultextgrid/>
-      <CustomsofSection/>
-      <DeveloperDo/>
-      <Simpleimage/>
-      <Simpletextdjs/>
-      <Chooseservice/>
-      <StartUps  images={skill.startups.images} imageHeight={skill.startups.imageHeight}   imageWidth={skill.startups.imageWidth}   />
-      <CombiningCode/>
-      {/* <Chooseservice chooseData={skill.chooseServices.card_data  } /> */}
-      <Benefitslider chooseData={skill.Benefitslider.card_datas  }/>
-      <Processess  title={skill.processes.title }  processes={skill.processes.processes}  />
-      <Textbuttonimg/>
-      <Subheadingtext/>
-      <Dividercontainer/>
-      <Chooseservice/>
-      <Checkedulimage/>      
-      <Simpletextdjs/>      
-      {/* <Processess  title={skill.processes.title }  processes={skill.processes.processes}  /> */}
-      <CombiningCode/>
-          
+      <SkillBanner
+        bannericon={skill.bannericon}
+        subtitle={skill.sub_title}
+        title={skill.top_title}
+        description={skill.top_description}
+      />
+      <StartUps
+        title={skill.startups?.title}
+        description={skill.startups?.description}
+        images={skill.startups?.images}
+        imageHeight={skill.startups?.imageHeight}
+        imageWidth={skill.startups?.imageWidth}
+      />
+      <Benefits title={skill.benefits?.title} />
+      <Chooseservice />
+      <Whyusecard />
+      <Ultextgrid />
+      <CustomsofSection />
+      <DeveloperDo />
+      <Simpleimage />
+      <Simpletextdjs />
+      <Chooseservice />
+      <StartUps
+        images={skill.startups?.images}
+        imageHeight={skill.startups?.imageHeight}
+        imageWidth={skill.startups?.imageWidth}
+      />
+      <CombiningCode />
+      <Benefitslider chooseData={skill.Benefitslider?.card_datas} />
+      <Processess
+        title={skill.processes?.title}
+        processes={skill.processes?.processes}
+      />
+      <Textbuttonimg />
+      <Subheadingtext
+        heading={skill.Subheadingtext?.heading || "Default Heading"}
+        subText={skill.Subheadingtext?.subText || "Default SubText"}
+        list1={skill.Subheadingtext?.list1 || []}
+        list2={skill.Subheadingtext?.list2 || []}
+      />
+      <Dividercontainer />
+      <Chooseservice />
+      <Checkedulimage />
+      <Simpletextdjs />
+      <CombiningCode />
     </>
   );
 }
+

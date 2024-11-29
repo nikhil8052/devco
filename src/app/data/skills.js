@@ -128,6 +128,23 @@ export const skills = [
                 },
             ],
         },
+        Subheadingtext:{
+            heading: "Interesting Facts About JavaScript",
+            subText:
+                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            list1: [
+                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
+                "JavaScript powers 20% of WordPress’ core code",
+                "JS is the only programming language that can be used on the front-end of a website",
+                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+            ],
+            list2: [
+                "69.7% of web developers prefer JavaScript",
+                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
+                "There are 24+ JS frameworks and 83+ libraries available for developers",
+                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+            ],
+        }
     },
     {
         id: 2,

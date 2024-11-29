@@ -29,12 +29,14 @@ export default function CombiningCode() {
                         <div className="code_col basis-[100%] md:basis-[60%]">
                             <div className="code_content">
                                 <div className="relative w-full max-w-[650px]">
-                                    <h2 className="text-[26px] 2xl:text-[54px] xl:text-[36px] md:text-[34px] sm:text-[34px] font-semibold mb-2">
-                                        {CombiningCodedata.heading}
-                                    </h2>
-                                    <p className="text-[14px] lg:text-[22px] md:text-[16px] font-normal text-customwhite mb-5">
-                                        {CombiningCodedata.description}
-                                    </p>
+                                    <h2 
+                                        className="text-[26px] 2xl:text-[54px] xl:text-[36px] md:text-[34px] sm:text-[34px] font-semibold mb-2"
+                                        dangerouslySetInnerHTML={{ __html: CombiningCodedata.heading }}
+                                    />
+                                    <p 
+                                        className="text-[14px] lg:text-[22px] md:text-[16px] font-normal text-customwhite mb-5"
+                                        dangerouslySetInnerHTML={{ __html: CombiningCodedata.description }}
+                                    />
                                     <div className="btn_wrapper flex gap-x-4">
                                         <button 
                                             className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
