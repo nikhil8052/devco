@@ -670,77 +670,92 @@ Here are some of the different education software development services we freque
     },
     {
         id: 6,
-        slug: "devops",
-        top_title: "DevOps Services",
-        top_description: "DevOps, a combination of “development” and “operations,” is a set of philosophies and processes meant to make it faster and more efficient to develop software. Unfortunately, implementing DevOps practices is a challenge for many existing businesses.<br> At DEV.co, we offer DevOps as a service, providing you the DevOps tools, operations teams and a logistical gateway that allows you to achieve your software development goals.",
-        startups: {
-            title: "Technology Strategy",
-            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
-            imageHeight: 100,
-            imageWidth: 100,
-            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
-        },
-        benefits: {
-            title: "The Benefits of Hiring a Software Development Staffing Company",
-            description: "Hiring a software development staffing company yields multiple benefits:",
+        slug: "Finance",
+        top_title: "Software Development for Finance",
+        top_description: `The value of the FinTech industry now reaches tens of billions! And guess what? More growth is coming with advancements in data analytics, blockchain, and cloud computing!
+        <br></br>
+        If you own a finance business today – here’s your wake-up call: adapt to new tech faster than ever before! But remember this too – finding reliable partners that offer proper solutions matters as much.
+        <br></br>
+        Here’s where hiring a financial software development company comes in handy. They can provide custom-made best-fit solutions crucially required by different “financial institutions”. No more trying to jam square pegs in round holes when our needs are unique after all!
+        <br></br>
+         Bespoke custom financial software development services have another edge – efficiency gains from smart management of large volumes of financial data.
+        <br></br>
+         Ultimately these wise choices will help keep any entity secure its place within an increasingly digital-oriented financial Industry.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Why Outsource Software Development?",
+                description: `Financial tech firms with hefty resources have a key decision to make. They can either bring on board software developers and pump cash into in-house development, or they could team up with an experienced software development company for customized services. Typically, most sway towards the second option.`,
+                
+            },
+            {
+                title: "",
+            description: `
+        Why is that so? The financial sector has its own unique hurdles – regulatory compliance being one of them. Customized financial software solutions aid in streamlining these complex regulations easily while managing day-to-day financial operations smoothly.
+        <br></br>
+        Dealing effectively with customer relationship management also becomes less challenging when having such tailored tools at your disposal from an expert developer’s lens.
+        <br></br>
+        The benefits of financial software are clear: optimized processes lead to more proficiency and allow companies to stay competitive within their industry.`,
+            }
+            ]
+           
+           
+          },
+
+          benefits: {
+            title: ``,
+            description: "",
             benefits: [
                 {
-                    title: "Save Time",
-                    description: "First, a staffing agency will save you time. Rather than investing countless hours into a recruiting strategy that may or may not pay off, you can develop a recruiting strategy with a staffing firm and let them take care of most of the grunt work. Instead, you can focus your efforts where they’re needed most.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    title: "Access to the best",
+                    description: "You can easily find regular software developers. But it's not the same with top-tier ones - they're rare gems! By partnering for your financial software development needs, these skilled experts become attainable cost-effectively. We provide emerging technologies and innovative solutions in custom financial software. We excel at creating secure financial software that improve both portfolio management and expense management control tools. As a software development partner for developing such unique platforms, we are committed to enhancing your business' standards of financial reporting.",
+                    imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Save Money",
-                    description: "It may seem counterintuitive, since you’ll typically need to pay for staffing services, but a software development staffing company can help you save money. You’ll face less overhead, since you’ll be able to thrive with fewer full-time, onsite software engineers, and you can reduce overall labor costs dramatically.",
-                    imageSrc: "/images/save_money.svg",
+                    title: "Frees up resources",
+                    description: "When investment firms try to build financial software in-house, it's like lugging a heavy backpack. It slows you down and tires everyone out. Productivity dips as attention is split. Choosing to outsource? That's lightening the load! Your team can focus purely on what they're good at - managing personal finance management apps or improving financial processes for instance. Everyone continues pulling their weight without overstretching themselves or limiting the firm’s abilities to deliver results effectively within the finance industry.",
+                    imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Get access to top talent",
-                    description: "At the same time, a software development staffing company helps you get access to some of the best talent in the industry. Whatever skill sets you’re looking for, you’ll be able to find worthy candidates who give you what you need. Depending on the complexity of the project you’re working on, this may be the best way to find the talent you require.",
-                    imageSrc: "/images/top_talent.svg",
+                    title: "Lower cost",
+                    description: "Hiring financial software developers for FinTech projects is a smart money move over time. It even offers you solid support and assurance, so it's like having a safety net beneath your high-flying finance apps. Besides, using cloud computing in personal finance software can totally revamp how we handle our bucks. Deep learning networks are also worth the hype! They help optimize financial performance massively - think big gains with little pains! At the end of the day, an outsourced development team takes care of building as well maintaining these advanced systems. Imagine that—you get top-notch service without breaking a sweat or burnout from handling tech problems yourself!",
+                    imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 40,
                 },
-                {
-                    title: "Cover all your skilled needs",
-                    description: "A software development staffing company will have access to people with complex skills and experience in fields like ML, IoT, the blockchain, AR, VR, and more. You’ll also get access to candidates with specific experience in various industries, like healthcare, manufacturing, and real estate.",
-                    imageSrc: "/images/coding.svg",
-                    imageHeight: 30,
-                    imageWidth: 35,
-                },
+
             ],
         },
-        chooseServices: {
-            title: "How to Choose a Software Development Staffing Company",
-            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
-            card_data: [
+        Benefitslider: {
+            title: "Why Dev.co?",
+            description: `At Dev.co, we take pride in developing custom software for financial services companies.
+            <br></br>
+            Whether you have a specific idea for a targeted piece of software, or you want our team to brainstorm appropriate applications that will allow you to grow and become more competitive, we can help. When you work with us, we guarantee:`,
+            card_datas: [
                 {
-                    title: "Experience",
-                    description: "Valuable IT and software development staffing companies have plenty of experience. They understand the core needs of most of their clientele and can anticipate the usual barriers to success.",
-                    imgSrc: "/images/card_1.svg",
+                    title: "Security",
+                    description: "Few industries have data security requirements as strict as the financial world. We understand these regulations and will work closely with you to develop software that counters all major threats and keeps your private data safe and secure.",
+                    imgSrc: "",
                 },
                 {
-                    title: "Speed",
+                    title: "Reliability",
                     description:
-                        "Even if your project isn’t time-sensitive, you’ll still want a partner who can get you the staff members you need as quickly as possible. That way, you can get results faster—and potentially start generating revenue faster.",
-                    imgSrc: "/images/card_real.svg",
+                        "Our software is precisely developed and put through rigorous testing to ensure a positive user experience and optimum value. This enhances reliability and sets your team up to be successful in as many areas as possible.",
+                    imgSrc: "",
                 },
                 {
-                    title: "Access",
-                    description: "What kinds of talent is this staffing agency able to secure? Do they have access to people in a variety of different niches? What are your needs?",
-                    imgSrc: "/images/accessimg.svg",
-                },
-                {
-                    title: "Communication",
-                    description: "A good staffing partner will collaborate with you, and collaboration demands effective communication. Is it easy to talk with this partner and discuss your vision?",
-                    imgSrc: "/images/comminuctn.svg",
+                    title: "Maintainability",
+                    description: "We develop all software with the golden rules of coding in mind. This makes it easy to modify code in the future and keep your solutions nimble and modern",
+                    imgSrc: "",
                 },
             ],
         },
+
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -790,4 +805,477 @@ Here are some of the different education software development services we freque
             ],
         },
     },
+    {
+        id: 7,
+        slug: "Healthcare",
+        top_title: "Software Development for Healthcare",
+        top_description: `Healthcare firms rely on technology every day to save lives. That life-saving technology includes the software that runs everything behind the scenes. From websites and data storage to invoices and patient health records, healthcare firms rely on healthcare software development services to provide optimal patient care.
+        <br></br>
+       As a custom healthcare software development company, we understand the critical role that technology plays in the healthcare industry. Our expertise lies in creating innovative solutions like hospital management software that streamline healthcare services and enhance patient care.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "We help medical firms improve patient care with custom software development",
+                description: `At Dev.co, we build secure software applications for healthcare and medical firms to maintain operations, compliance, and cybersecurity.`,
+                
+            },
+            {
+                title: "",
+            description: `
+      Our full-stack development services are perfect for enterprise firms that require reliable, secure healthcare applications.
+        <br></br>
+        We collaborate closely with healthcare professionals to develop tailored software solutions that meet the unique needs and challenges of the healthcare industry. Our goal is to empower healthcare providers with efficient and effective tools that improve patient outcomes and overall healthcare delivery.`,
+            }
+            ]
+           
+           
+          },
+
+          benefits: {
+            title: `The benefits of custom software development`,
+            description: `Custom software development benefits your firm and your clients. Better software facilitates better patient care, especially when it comes to healthcare systems, healthcare data, and healthcare regulations.
+            <br></br>
+            Better patient care translates to a positive brand reputation. When you’re an enterprise healthcare firm, brand reputation is everything.`,
+            benefits: [
+                {
+                    title: "Improved patient care",
+                    description: "The right software facilitates fast access to medical records, legal documents, chart notes, and more.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Improved care coordination",
+                    description: "With software designed to facilitate quick communications between patients, providers, caregivers, and employees, care coordination improves.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Cost reduction",
+                    description: "Using software to automate certain tasks saves time, money, and resources.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Reach patients wherever they are",
+                    description: "With proprietary mobile app development, providers can securely reach patients wherever they are. Patients can also reach their providers at any time.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+
+        Subheadingtext:{
+            heading: "Dev.co developers are pros at building the following custom applications:",
+            subText:"",
+            list1: [
+                "Medical appointment booking software",
+                "Laboratory management solutions",
+                "communication portals/company intranets",
+                "Organized invoicing systems",
+                "Mobile apps for clients to access their medical records",
+                "And more!",
+            ],
+            list2: [
+                "Applications for patients to review, sign, and return forms",
+                "Client-provider communication portals Employee-employer",
+                "Self-help reference software",
+                "Mobile apps for educating clients (nutrition, exercise, etc.)",
+                "Systems for storing, tagging, and organizing medical data",
+
+            ],
+        },
+        Subheadingtext2:{
+            heading: "Healthcare firms must adopt telemedicine to thrive",
+            subText:"Today’s patients want to connect with their provider via email and video conferencing. It’s no longer an option of convenience to offer online services. Statistics show a majority of patients prefer a virtual visit in non-emergency situations. With custom telemedicine apps by medical software development, patients will have more control over their care. When we build your custom app, patients will have access to:",
+            list1: [
+                "Their personal medical records",
+                "Online prescriptions that don’t require an appointment",
+                "Appointment reminders",
+                "Quick appointment scheduling",
+                "Online payments",
+            ],
+            list2: [
+                "Online consultations with their provider(s)",
+                "Self-education materials including articles, glossaries, and videos",
+                "Directions to medical facilities",
+                "Printable treatment plans",
+                "And more",
+
+            ],
+        },
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 8,
+        slug: "Agriculture",
+        top_title: "Custom Software Development for Agriculture",
+        top_description: `From the outside looking in, people often assume the agricultural industry is old, archaic, and stubborn. But as you know, it’s actually one of the more sophisticated and technologically-advanced sectors of the American economy.
+        <br></br>
+      And if you want to remain competitive in this crowded industry, you have to continually improve and iterate. Custom agriculture software can help you grow.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Why Agriculture Companies Need Custom Software Development",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `There are plenty of software solutions you can purchase “off the shelf,” but custom solutions can take you to the next level.
+        <br></br>
+       That’s where our AgTech software developer services come in. We help AgTech firms with internal and external software development teams to help them scale their product, obtain funding or penetrate their market.`,
+            }
+            ]
+           
+           
+          },
+          BorderTextbox2:{
+            BorderTextdata:[
+                {
+                title: "What Does Farm Management Software do?",
+                description: `Farm management software helps farmers track their crops, soil conditions, and irrigation schedules. It can also help with planning for planting and harvesting times and keeping track of livestock. In some cases, agricultural software devolep can even be used to control machinery remotely.
+Farm management apps (farm accounting software) is an essential tool for any farmer, big or small. It can help save time and money by keeping track of all the critical aspects of running a farm. With so many different features and options available, there is sure to be a farm management software package that is right for you.`,
+                
+            },
+            {
+                title: "What Makes Agriculture Software so Important? Agriculture Software Developer",
+            description: `The agricultural field has long relied on custom software solutions to help manage their businesses. Today, farm management apps is an essential tool for any agriculturist, large or small. Crop management software technologies helps farmers track planting, irrigation, and yield data, as well as forecast production and sales. It can also monitor field conditions, weather patterns, and market prices. Custom software development company like Dev. co software architecture specialize in creating tailored farm management and crop management software solutions that meet each client’s unique needs. With the right farm management software in your local area, farmers can optimize their operations for maximum efficiency and profitability.
+        <br></br>
+      All of our agriculture software solutions are designed to comply with USDA, FSIS, FDA, EPA, NPDES, and GHGRP requirements.
+Don’t see what you’re looking for?
+These are just examples. If you have a vision, we can develop it for you.`,
+            }
+            ]
+           
+           
+          },
+
+          benefits: {
+            title: `Here are some of the reasons that leading agriculture companies pursue custom software development services:`,
+            description: ``,
+            benefits: [
+                {
+                    title: "Flexible",
+                    description: "When you purchase a product off the shelf, it’s designed with everyone in mind. So while it may provide useful functionality in some areas, it’s often far too generic to add widespread value. Custom software is tailored to your business, which makes it flexible and applicable across the board.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Scalable",
+                    description: "Rigid software is frustrating and expensive. As you grow, it requires you to continually reevaluate the solutions you need to expand - often necessitating a switch to a new solution and/or vendor. Custom agriculture software development is entirely scalable, which allows you to grow without worrying about the consequences",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Proprietary",
+                    description: "Any time you can develop intellectual property for your business, you’re adding value. The proprietary nature of custom software development gives you an intelligent advantage that can’t be easily replicated by the competition",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Secure",
+                    description: "When you’re in control of software development, you can engineer solutions that carefully protect your data and privacy at every touchpoint along the way.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+
+        
+        Benefitslider: {
+            title: "Common Types of Agriculture Softwares",
+            description: `We understand that no two agriculture companies or farmers require the same solution.
+That’s why we work closely with you, the client, to tailor software to your specific wants, needs, objectives, and pain points.
+Here are some of the common types of software we develop for our clients:`,
+            card_datas: [
+                {
+                    title: "Precision agriculture software solutionss",
+                    description: "Precision agriculture software solutionss that help you analyze and manage your farm with precision technology (including scale precision smart farming apps, done solutions, precision data management, and soil sensors).",
+                    imgSrc: "",
+                },
+                {
+                    title: "Planning and workshopping",
+                    description:
+                        "Together, we’ll begin to plan and workshop various ideas.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Livestock management software solutions",
+                    description: "Livestock management software solution's that offer advanced analytics and suggestions for finances, breeding, and herd management.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Agriculture farm management solutions",
+                    description: "Agriculture farm management solutions and ERP solutions to help with accounting, crop planning, inventory, reporting, and equipment maintenance.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Aquaculture software solutions",
+                    description: "Aquaculture software solutionst that track your entire population for optimum breeding and harvesting. This includes aquaculture workflow and ERP integrations, sensor technology, fish farm management systems, data analysis, and more.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Dispensary software solutions",
+                    description: "Dispensary software solution's for cannabis farming. This includes seed to sale software, CRM solutions, tracking software, and even ecommerce solutions.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 9,
+        slug: "eCommerce",
+        top_title: "Website Development for eCommerce",
+        top_description: `Ecommerce development is a complex process, but it doesn’t have to be. With the help of a professional ecommerce developer and ecommerce development services, you can create a streamlined and efficient shopping experience for your customers that meets all their needs. At DEV.co, we provide premier e-commerce development services that are tailored to your unique business requirements. We have years of experience in the ecommerce industry, and our team of experts will work with you every step of the way to ensure that your online store is everything you want it to be.
+        <br></br>
+     We build sophisticated software applications that help enterprise brands run successful eCommerce businesses. Successful eCommerce requires beautiful design, continual optimization, feature development, and testing. We’ll develop the software you need to keep your sales engine running.
+     <br></br>
+     We can customize ERP, CRM, and other solutions that fit within existing eCommerce platforms or we’ll create them from the ground up.
+     <br></br>
+     Contact us today to learn more about our e-commerce development services!`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Make Dev.co your e-Commerce development partner",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `Our developers will utilize the latest industry standards and requirements to deliver a secure, powerful e-Commerce solution that truly represents your brand. Our expertise in UX/UI design along with JavaScript and HTML5 translates to a well-structured, engaging, beautiful e-Commerce site that represents your brand image and culture`,
+            }
+            ]
+           
+           
+          },
+
+
+          Subheadingtext:{
+            heading: " The latest industry standards and requirements to deliver a secure,powerful e-Commerce solutions",
+            subText:"",
+            list1: [
+                "Shopify",
+                "Amazon Seller Central",
+                "WordPress",
+                "Big Commerce",
+                "Squarespace",
+            ],
+            list2: [
+                "Shopify Plus",
+                "WooCommerce",
+                "Magento",
+                "Drupal Commerce",
+                "And more",
+
+            ],
+        },
+        Subheadingtext2:{
+            heading: "Back-end customizations and administrative software development",
+            subText:"Whether you need to customize an existing eCommerce installation or you need custom web development or software to run and manage your eCommerce business, we’ve got you covered. At DEV.co, we build custom modules and web applications to help enterprise brands organize and manage an eCommerce business including:",
+            list1: [
+                "Custom, proprietary eCommerce platform development",
+                "Custom dashboards with real-time data insights",
+                "Custom software integrations for a-la-carte applications used to run your store",
+                "And more!",
+     
+            ],
+            list2: [
+                "Custom theme development for proprietary and popular platforms",
+                "Cross-platform or native mobile app development to allow in-app sales and communication",
+                "Loyalty and rewards programs",
+
+            ],
+        },
+                  benefits: {
+            title: ``,
+            description: ``,
+            benefits: [
+                {
+                    title: "eCommerce software development for enterprise brands",
+                    description: "Need a full time e-Commerce developer to create a website that represents your brand? Our e-commerce developer team will build your store on the platform of your choice. We can work with virtually any platform including Magento, Joomla, WordPress, Shopify, BigCommerce, and more. If you prefer to have your own proprietary e-commerce solution, we’ll build a custom eCommerce platform for your specifications.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "e-Commerce software that supports your marketing strategy",
+                    description: "We understand the importance of setting up an eCommerce store to support marketing strategies. Our full time e-commerce developer team works closely with marketing and design teams to ensure our eCommerce solutions support our clients’ digital marketing and requirements.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        
+
+        
+    },
+
+    
 ];
