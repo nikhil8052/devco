@@ -1,72 +1,112 @@
-export const industries = [
+export const technologies = [
     {
         id: 1,
-        slug: "enterprise",
-        bannericon: "/images/Enterprise.svg",
-        sub_title: "Industries",
-        top_title: "Enterprise Software Development",
-        top_description: `For startups and small businesses, generic software can be useful and cost-effective. There are plenty of low-cost, cookie-cutter solutions that provide valuable features and benefits. </br></br>
+        slug: "ai",
+        bannericon: "/images/Artificial Intelligence.svg",
+        sub_title: "Techonology",
+        top_title: "AI Development Services",
+        top_description: `Artificial intelligence (AI) is changing how we work, how we communicate, and how we live our lives. </br></br>
 
-        But as businesses grow, so does the list of needs. And it’s at this point that enterprise software development project becomes an attraction option.`,
+        With unlimited applications and practically infinite room for growth, machine learning, artificial intelligence, and similar cognitive computing technologies can completely transform your organization.`,
 
-        startups: {
-            title: "Web Development & Software Engineering",
-            description: "From next-gen startups to established enterprises.",
-            imageHeight: 100,
-            imageWidth: 100,
-            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
-        },
 
          BorderTextbox:{
             BorderTextdata:[
                 {
-                title: "Key Characteristics of Enterprise Software",
+                title: "Software Development Services in Artificial Intelligence",
                 description: ""
                 
             },
             {
                 title: "",
-            description: `Enterprise software is custom software that’s designed to benefit, aid, and assist the needs of an organization, as opposed to solely focusing on one or two individual users. <br></br>
-            And because it’s intended for a specific organization, it’s built in the context for which it’ll be used. Building custom enterprise software limits the number of wasted features and options, which so often slow down teams and create unnecessary confusion.`,
+            description: `At DEV.co, some of our cognitive computing development services by Ai developer include: <br></br>
+            ML/AI software development<br>
+            ML/AI big data analytics solutions<br>
+            Cognitive computing consultations<br>
+            Automation and productivity optimization<br>
+            Artificial intelligence lifecycle management<br>
+            ML/Artificial intelligence DevOps integration<br>
+            Image and video processing<br>
+            Natural language processing<br>
+            Predictive analytics`,
             }
             ]
            
            
           },
+          benefits: {
+            title: `Working With the Right AI Developer`,
+            description: "If you want the best possible cognitive computing product, you’ll need to choose the right ML/AI developer or Ai engineers, prioritizing these criteria:",
+            benefits: [
+                {
+                    title: "Areas of expertise",
+                    description: "There are many subfields of machine learning and artificial intelligence to consider. Does this develop specialize in something like image processing, natural language processing, or deep learning? Or are they considered a generalist?",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Experience and skill",
+                    description: "Cognitive computing talent is hard to come by. Does this partner have access to the resources they need to produce the highest-quality product? Can they adhere to your desired timeline?",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Collaborative potential",
+                    description: "The best cognitive computing products are the result of a collaborative partnership. How easily can you communicate and collaborate with this partner?",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
 
 
 
         Benefitslider: {
-            title: "When it comes to enterprise software, there are some different characteristics and features you should consider:",
-            description: `Every enterprise software system has its unique features. Yet, these overarching benefits underscore why businesses should be thrilled! Custom developers bring in serious value through their work on these enterprise systems. Think about it: customer relationship management and business intelligence are crucial parts of any successful enterprise solution package. Not to mention other key aspects of well-rounded enterprise solutions too.`,
+            title: "How We Approach Artificial Intelligence (AI) Development",
+            description: `At DEV.co, our Ai developer team’s approach to cognitive computing unfolds in five major steps:`,
             card_datas: [
                 {
-                    title: "Usability",
-                    description: "Custom enterprise software offers a user-friendly experience. Unlike one-size-fits-all products, these are made for your specific needs. They boost value from investments and optimize business processes using tailor-made 'enterprise apps'. An added benefit is that Enterprise resource planning (ERP) becomes more efficient with custom enterprise app development.",
+                    title: "Onboarding and brainstorming",
+                    description: "We want to get to know you and your project, so we start with a series of brainstorming sessions in our onboarding process for our Ai developer. What are your goals, and how can we achieve them? Next, we help you define a strategy and create your AI project for success. Once the AI project is defined, our AI engineer will provide technical guidance and advice on AI technologies, data scientist/data science methods, and software engineering best practices. Our AI engineer will develop and test the AI algorithms against your data.",
                     
                 },
                 {
-                    title: "Performance",
+                    title: "Drafting and workshopping",
                     description:
-                        "Specifically designed software beats traditional software solutions. They're not vaguely made but have clear goals, improving their performance drastically. This is the heart of enterprise development in cloud solutions; we call them 'enterprise application development'. Their high efficiency makes them a reliable business software solution.",   
+                        "Next, we choose the right team and the right development approach for your cognitive computing project.",   
                                 },
                 {
-                    title: "Scalability",
-                    description: "Enterprise solution shouldn't stunt a firm's pursuit of big business objectives. One major perk is the growth-centric design of these top-tier software platforms. This adaptability lets operations scale without affecting user interface smoothness or overall performance. Standard software development doesn't always provide this level, but enterprise grade software does. Built by an expert enterprise developer with continuity in mind, it mitigates maintenance costs and allows for steady expansion over time.",
+                    title: "Design and architecture",
+                    description: "Building an ML or AI product is time-intensive, so our artificial intelligence developers begin designing and developing as quickly as possible. Artificial intelligence developer use AI design patterns, AI techniques, and other artificial intelligence technology to build AI-based models. We understand that AI projects are dynamic and ever-evolving. AI developers use feedback from AI systems, data scientists, and AI developers to create better versions of AI models.",
                  
                 },
                 {
-                    title: "Integration",
-                    description: "In a nutshell, most companies use 15 to 50 different tools for tasks like supply chain management. For growth, enterprise develop software should integrate well with this tech mix. Hence, custom solutions that focus on interconnectivity and flexible software architecture are necessary in any development project.",
-                    
-                },
-                {
-                    title: "Cost",
-                    description: "Despite the initial cost, enterprise software has a higher return versus regular software development. This isn't just about longevity; using integrated system business apps with existing systems is beneficial long-term. Features like marketing automation ease data integration tasks significantly. However, tying these elements together requires strong project manager with skills!",
+                    title: "Implementation and launch",
+                    description: "From there, we’ll be ready to implement your cognitive computing product and formally launch it. Research scientists, AI engineers, and developers constantly refine AI models to ensure accuracy and reliability. With iterative AI development techniques, we can continually improve our AI models and AI products. Machine learning algorithms & AI design and development is an iterative process that requires AI developers to constantly solving math equations, soft skills, debug AI programs, interpret AI results, and adjust AI algorithms based on AI research by research scientist. Our AI developers go the extra mile to ensure your AI projects succeed!",
                     
                 },
             ],
         },
+
+     Textblockfull:{
+        sectionData:[
+            {
+              title: "What Is Artificial Intelligence?",
+              description: `Cognitive computing is a family of different technologies designed to “think” in ways similar to the human brain; with the right processing models, your app or platform can analyze data, make predictions, automate tasks, and produce ongoing optimizations.
+              <br></br>
+              Artificial intelligence (AI) is a science, much like mathematics or physics, which focuses on the construction of “intelligent” machines that can creatively solve problems/machine learning models. Machine learning (ML data scientists) is a subfield of AI that relies on algorithms that automatically “learn” and make improvements based on past experiences by machine learning engineer.
+              <br></br>
+              For example, an algorithm may gradually learn to identify which images contain cats based on feedback on prior guesses. There’s also deep learning, a type of machine learning, which relies on neural networks that mirror the architecture of the human brain.
+              <br></br>
+              With cognitive computing, you can create better products for your customers, learn more from your organization’s data, improve productivity, and refine how your business operates—it all depends on how you choose to develop it.`,
+            },
+          ],
+        },
+        
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -115,20 +155,6 @@ export const industries = [
                 },
             ],
         },
-        Subheadingtext:{
-            heading: "Outsourcing Enterprise Software Development",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "Speed. Hiring an enterprise software development company ensures you can begin using your software much sooner.",
-                "Support. Enterprise software development comes backed by developer support. This means you have a safety net, should something go wrong. Creativity. It’s helpful to have additional vantage points outside of your organization.",
-                "Cost. Paying salaried software developers is expensive. By outsourcing, you only pay for the projects you need. This is a far more cost-effective approach.S is the only programming language that can be used on the front-end of a website",
-            ],
-            list2: [
-                "Reducing this wait time means you’re able to increase productivity and begin scaling up sooner rather than later.",
-                "This leads to increased creativity and minimizes the risk of blind spots.",
-            ],
-        },
         CombiningCodedatas: {
             CombiningCodedata: [
                 {
@@ -144,90 +170,68 @@ export const industries = [
     },
     {
         id: 2,
-        slug: "government",
-        sub_title: "Industries",
-        bannericon: "/images/Government.svg",
-        top_title: "Software Development for Government",
-        top_description: `Over the past few years, the notion that government entities are slow, bogged down, and unresponsive has quickly been replaced with a new reality. It’s a reality where agileness and modernity are now the operative words. </br></br>
+        slug: "cybersecurity",
+        bannericon: "/images/Cybersecurity.svg",
+        sub_title: "Techonology",
+        top_title: "Cybersecurity Development Services",
+        top_description: `Each day, thousands of small and large businesses are attacked by cybercriminals looking for sensitive data to perform identity theft; some even hold data for ransom, demanding large sums of money for its safe return. In this battle against digital crime, security software developers play a crucial role in protecting these organizations’ assets. </br></br>
 
-        What caused this sudden shift? Growth and adoption of new software is certainly one relevant factor. And if you want your department or organization to continue improving, it’s imperative that you contract with the right custom software engineering company – one that can satisfy each of your civic, state, or federal requirements.`,
+       If you think you’re immune, think again. Shockingly, cybercriminals target small businesses more often than large corporations and a lack of security software developer could leave these establishments vulnerable. By incorporating the use of adequate protection mechanisms in their software development procedures, companies can significantly reduce this risk.`,
 
         BorderTextbox:{
             BorderTextdata:[
                 {
-                title: "Why Government Entities Need Custom Software Development",
-                description: ""
+                title: "Custom Cybersecurity Development",
+                description: `What would happen if a cybercriminal launched a ransomware attack against your company or stole your customers’ private data? Would you rest easy knowing you’ll have a swift recovery? Or would you start worrying about fines?
+                <br></br>
+                The knowledge gained from studying Computer Science is vital when it comes down to such scenarios involving breaches into our coveted spaces. It forms an important part also while setting up protective shells around these often targeted areas – making strong layers using reliable Network Security tools become indispensable.`
                 
             },
             {
                 title: "",
-            description: `Government entities – whether at the civic, state, or federal level – are unique in that they have to account for a myriad of factors that private businesses don’t traditionally have to face. <br></br>
-           Intensive security requirements, extensive bidding processes, and careful vetting mean only a handful of software developers are qualified. And the ones that are must be able to offer a diverse array of solutions.`,
+            description: `Shoring up defenses through advanced Software Systems isn’t just good practice; it’s essential for companies operating today where significant value might lie hidden beneath rows upon rows of digital information – waiting for anyone skilled enough to mine them illegally out without permission ever being granted by us owners & operators! <br></br>
+           Research indicates that a single data breach costs an average of $8.19 million, often devastating businesses which are not adequately protected by robust computer software systems. Many businesses don’t survive a data breach long-term due to the lack of expert input from proficient software developers in their security protocols.
+           <br></br>
+           If you’re not 100% certain you could easily recover from a ransomware attack or any form of critical data infringement with your existing system architecture firmly designed based on best-in-class strategies implemented by experienced software engineers – then remember this harsh reality:`,
             }
             ]
            
            
           },
 
-        Benefitslider: {
-            title: "Common Types of Government Software",
-            description: `Every government entity has its own unique needs and applications.
-Popular technologies used by government entities include Python,Java, C#, Javascript, SQL, HTML, jQuey, sql-server, C++, and CSS.
-State and local governments often need software that’s able to perform functions like:`,
-            card_datas: [
-                {
-                    title: "Collecting and sharing data with the public",
-                    description: "",
-                    imgSrc: "/images/Benefits1.svg",
-                },
-                {
-                    title: "Uncovering opportunities for improving operations",
-                    description:
-                        "",
-                    imgSrc: "/images/Benefits2.svg",
-                },
-                {
-                    title: "Planning and forecasting for budgeting purposes",
-                    description: "",
-                    imgSrc: "/images/Benefits3.svg",
-                },
-                {
-                    title: "Careful financial reporting",
-                    description: "",
-                    imgSrc: "/images/Benefits4.svg",
-                },
-                {
-                    title: "Administrative reporting",
-                    description: "",
-                    imgSrc: "/images/Benefits4.svg",
-                },
-                {
-                    title: "Real-time monitoring of revenue, expenses and transactions",
-                    description: "",
-                    imgSrc: "/images/Benefits4.svg",
-                },
-            ],
-        },
+
         Subheadingtext:{
-            heading: "State agencies and departments that benefit from custom government software include:",
+            heading: "Dev.co custom cybersecurity development servicess",
             subText:
-                "Many of the cookie-cutter software solutions that private companies and organizations use will not work in government settings. They must be tailored to unique and complex requirements. And if the solution can’t be customized to the degree that it’s needed, a proprietary solution must be created from scratch.",
+                "At Dev.co, we offer the following professional cybersecurity development services for businesses of all size, including enterprise:",
             list1: [
-                "Department of Administration",
-                "Department of IT",
-                "Department of Health and Human Resources",
-                "Department of Transportation",
-                "Governor’s and Executive Offices",
-                "State Auditors, Comptrollers, and Treasurers",
+                "Risk assessments",
+                "Cybersecurity strategy creation",
+                "Cybersecurity software solutions",
+                "Cybersecurity support",
             ],
             list2: [
-                "Department of Health",
-                "Department of Health and Social Services",
-                "Department of Health Care",
-                "Economic Development Agencies",
-                "Natural Resource and Environmental Agencies",
+                "Risk audits",
+                "Cybersecurity for data storage solutions",
+                "Managed cybersecurity solutions",
             ],
         },
+
+        Textblockfull:{
+            sectionData:[
+                {
+                  title: "We outsmart cybercriminals",
+                  description: `Our cybersecurity experts, who encompass roles such as cybersecurity professionals and analysts, are trained with deep industry wisdom that fuels all of our project management in the realm of digital forensics along with other varied cybersecurity projects.
+Being security professionals ourselves we understand how cybercriminals think and strategize to outsmart them by staying at least one step ahead at all times. Our team is also adeptly skilled in developing secure software which forms a critical part of our comprehensive approach towards ensuring safe cyberspace for your business environment.
+                  <br></br>
+                 With every new task or challenge arises an opportunity for us to further strengthen your defenses against potential threats – you can trust us because when it comes to protecting what matters most online there’s no room for error or second-guessing.
+We’ll secure your virtual assets first by rigorously testing your cybersecurity defenses with simulated attacks, an effort comparable to electrical engineering where each part of the system is tested for robustness. Our team will maintain a special focus on software components which can often be avenues used in security threats.
+                  <br></br>
+                 The findings from these attempts would then help our expert security developers identify and understand potential vulnerabilities within your infrastructure that may pose as substantial security risks. They’d apply their knowledge gained through years of creating software solutions designed specifically to combat such issues.
+Furthermore, we ensure that computer networking aspects are not overlooked during this process because they form key parts interactively functioning together ensuring seamless operations while also being points susceptible to breaches if neglected. By covering all these bases meticulously, we aim at reinforcing any weak spots effectively thus fortifying overall defense measures against future intrusion efforts.`,
+                },
+              ],
+            },
 
         processes: {
             title: "Our Development <br> Process",
@@ -280,8 +284,7 @@ State and local governments often need software that’s able to perform functio
     },
     {
         id: 3,
-        slug: "education",
-        bannericon: "/images/Education.svg",
+        slug: "Education",
         top_title: "Software Development for Education",
         top_description: "Colleges and universities drive progress worldwide. The quality and reach of education shape all parts of society. As an educational software development company, we craft unique solutions tailored to help these institutions flourish further. Our custom services in education software development pave the way for more students to access top-notch learning experiences crucial for their growth.",
         startups: {
@@ -421,8 +424,7 @@ Here are some of the different education software development services we freque
     },
     {
         id: 4,
-        slug: "small-business",
-        bannericon: "/images/Small Business.svg",
+        slug: "Small-Business",
         top_title: "Small Business Custom Software Development Services",
         top_description: "The small business world is more competitive than it’s ever been. And along with this competition comes the need for rapid technological innovation and adoption.Sometimes canned solutions and off-the-shelf software can do the job. But for businesses that have unique needs, requirements, and objectives, custom software is the way to go.",
 
@@ -541,8 +543,7 @@ Here are some of the different education software development services we freque
     },
     {
         id: 5,
-        slug: "marketing",
-        bannericon: "/images/Marketing.svg",
+        slug: "Marketing",
         top_title: "Software Development for Marketing",
         top_description: `The success of every marketing campaign depends on a number of factors including reaching the right market, using convincing messages, and utilizing advanced marketing strategies. While all of these factors are important, they couldn’t be executed without marketing software
         <br></br>
@@ -673,8 +674,7 @@ Here are some of the different education software development services we freque
     },
     {
         id: 6,
-        slug: "finance",
-        bannericon: "/images/Finance.svg",
+        slug: "Finance",
         top_title: "Software Development for Finance",
         top_description: `The value of the FinTech industry now reaches tens of billions! And guess what? More growth is coming with advancements in data analytics, blockchain, and cloud computing!
         <br></br>
@@ -811,8 +811,7 @@ Here are some of the different education software development services we freque
     },
     {
         id: 7,
-        slug: "healthcare",
-        bannericon: "/images/Healthcare.svg",
+        slug: "Healthcare",
         top_title: "Software Development for Healthcare",
         top_description: `Healthcare firms rely on technology every day to save lives. That life-saving technology includes the software that runs everything behind the scenes. From websites and data storage to invoices and patient health records, healthcare firms rely on healthcare software development services to provide optimal patient care.
         <br></br>
@@ -967,8 +966,7 @@ Here are some of the different education software development services we freque
     },
     {
         id: 8,
-        slug: "agriculture",
-        bannericon: "/images/Agriculture.svg",
+        slug: "Agriculture",
         top_title: "Custom Software Development for Agriculture",
         top_description: `From the outside looking in, people often assume the agricultural industry is old, archaic, and stubborn. But as you know, it’s actually one of the more sophisticated and technologically-advanced sectors of the American economy.
         <br></br>
@@ -1142,7 +1140,6 @@ Here are some of the common types of software we develop for our clients:`,
     {
         id: 9,
         slug: "eCommerce",
-        bannericon: "/images/e Commerce.svg",
         top_title: "Website Development for eCommerce",
         top_description: `Ecommerce development is a complex process, but it doesn’t have to be. With the help of a professional ecommerce developer and ecommerce development services, you can create a streamlined and efficient shopping experience for your customers that meets all their needs. At DEV.co, we provide premier e-commerce development services that are tailored to your unique business requirements. We have years of experience in the ecommerce industry, and our team of experts will work with you every step of the way to ensure that your online store is everything you want it to be.
         <br></br>

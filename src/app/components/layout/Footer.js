@@ -66,31 +66,31 @@ subCategories: [
     {
       label: 'Technology',
       subCategories: [
-        { label: 'Artificial Intelligence', path: '/technology/python' },
-        { label: 'Cybersecurity', path: '/technology/css' },
-        { label: 'Robotic Process Automation', path: '/technology/javascript' },
-        { label: 'Blockchain (DLT)', path: '/technology/javascript' },
-        { label: 'Extended Reality (AR/VR)', path: '/technology/javascript' },
-        { label: 'ERP', path: '/technology/javascript' },
-        { label: 'CRM', path: '/technology/javascript' },
-        { label: 'Online Storage', path: '/technology/javascript' },
-        { label: 'Big Data', path: '/technology/javascript' },
-        { label: 'Business Intelligence', path: '/technology/javascript' },
-        { label: 'Internet of Things (IOT)', path: '/technology/javascript' },
+        { label: 'Artificial Intelligence', path: '/technology/ai' },
+        { label: 'Cybersecurity', path: '/technology/cybersecurity' },
+        { label: 'Robotic Process Automation', path: '/technology/robotic-process-automation' },
+        { label: 'Blockchain (DLT)', path: '/technology/blockchain' },
+        { label: 'Extended Reality (AR/VR)', path: '/technology/extended-reality' },
+        { label: 'ERP', path: '/technology/erp' },
+        { label: 'CRM', path: '/technology/crm' },
+        { label: 'Online Storage', path: '/technology/online-storage' },
+        { label: 'Big Data', path: '/technology/big-data' },
+        { label: 'Business Intelligence', path: '/bi' },
+        { label: 'Internet of Things (IOT)', path: '/technology/iot' },
 
       ],
     },
     {
       label: 'Industries',
       subCategories: [
-        { label: 'Enterprise', path: '/industry/Enterprise' },
-        { label: 'Government', path: '/industry/Government' },
-        { label: 'Education', path: '/industry/Education' },
-        { label: 'Small Business', path: '/industry/Small-Business' },
-        { label: 'Marketing', path: '/industry/Marketing' },
-        { label: 'Finance', path: '/industry/Finance' },
-        { label: 'Healthcare', path: '/industry/Healthcare' },
-        { label: 'Agriculture', path: '/industry/Agriculture' },
+        { label: 'Enterprise', path: '/industry/enterprise' },
+        { label: 'Government', path: '/industry/government' },
+        { label: 'Education', path: '/industry/education' },
+        { label: 'Small Business', path: '/industry/small-business' },
+        { label: 'Marketing', path: '/industry/marketing' },
+        { label: 'Finance', path: '/industry/finance' },
+        { label: 'Healthcare', path: '/industry/healthcare' },
+        { label: 'Agriculture', path: '/industry/agriculture' },
         { label: 'eCommerce', path: '/industry/eCommerce' },
       ],
     },
@@ -151,7 +151,6 @@ subCategories: [
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Privacy Policy</Link>
               <Link href="#" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
             </ul>
           </div>
