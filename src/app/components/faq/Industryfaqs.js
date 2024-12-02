@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useRef } from 'react';
 
-export default function Industryfaqs({ title, description, faqs = []}) {
+export default function Industryfaqs({ faqs = []}) {
   const [activeIndex, setActiveIndex] = useState(0);
   const contentRefs = useRef([]);
 
