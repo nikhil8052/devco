@@ -81,7 +81,7 @@ export default function Home(content) {
 
       <CombiningCode />
 
-     <Industryfaqs faqsdata={selectedindustries.faqs.faqs}/>
+     {/* <Industryfaqs faqsdata={selectedindustries.faqs.faqs}/> */}
 
     </>
   );
