@@ -7,7 +7,7 @@ import Processess from "@/app/components/Services/Processess";
 import CombiningCode from "../../components/homepage/CombiningCode";
 import Benefitslider from "@/app/components/skills/Benfitslider";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
-import Industryfaqs from "@/app/components/faq/Industryfaqs";
+// import Industryfaqs from "@/app/components/faq/Industryfaqs";
 
 export default function Home(content) {
   const slug = content.params.industry_name;
