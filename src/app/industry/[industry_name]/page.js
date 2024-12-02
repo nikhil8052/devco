@@ -81,9 +81,7 @@ export default function Home(content) {
 
       <CombiningCode />
 
-      {selectedindustries && (
-        <Industryfaqs/>
-      )}
+     <Industryfaqs faqsdata={selectedindustries.faqs.faqs}/>
 
     </>
   );
