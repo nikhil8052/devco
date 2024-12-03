@@ -134,8 +134,11 @@ export const industries = [
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Software Developers Combining Code + Creativity",
-                    description: "View our company's portfolio and engage with our sales team. With our white label program, we offer our engineering consulting and software dev solutions to other top software development companies.",
+                    heading: `Contact DEV.co`,
+                    description: `Our DEV.co team specializes in custom enterprise software development, design, and engineering services. Please connect with our corporate software development teams to assist in your company’s next big idea.
+                    <br></br>
+                    
+                    We look forward to helping you develop and optimize for the future!`,
                     buttonText: "Tell Us About Your Next Project",
                     onButtonClick: () => alert("Button clicked!"),
                 }
@@ -275,6 +278,23 @@ State and local governments often need software that’s able to perform functio
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Custom Software Engineering With DEV.co`,
+                    description: `At DEV.co, we’re proud to offer custom software engineering for civic, state and federal requirements.
+Government entities leverage our custom software development services to quickly implement the most advanced technologies for growth, compliance and cybersecurity.
+                    <br></br>
+                    
+                   Interested in learning more? Don’t hesitate to contact us today.
+We’d be happy to walk you through our process and answer any questions you may have.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
             ],
         },
     },
@@ -418,6 +438,19 @@ Here are some of the different education software development services we freque
                 },
             ],
         },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Connect With DEV.co Today`,
+                    description: `At DEV.co, we’re proud to design custom software solutions that empower educational organizations to thrive in today’s dynamic marketplace.
+Please contact us today to find out more about our custom software development services!`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
     },
     {
         id: 4,
@@ -536,6 +569,25 @@ Here are some of the different education software development services we freque
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Contact DEV.co Today`,
+                    description: `There are plenty of freelance software developers online.
+                    <br>
+                    There are also a number of massive corporations that develop software.
+                    <br>
+                    But there isn’t much in between. At Dev.co, we’re happy to fill the gap.
+                    <br>
+                    We understand what small businesses want with custom software development, because we are a small business.
+Contact us today and we’ll be happy to chat about your software development project and provide a quote!`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
             ],
         },
     },
@@ -668,6 +720,19 @@ Here are some of the different education software development services we freque
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Your marketing clients deserve the best – contact us today`,
+                    description: `If you’re ready to build an application your clients will love, contact us to discuss your project in-depth.
+                    We’d love to be your software development partner.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
             ],
         },
     },
@@ -806,6 +871,19 @@ Here are some of the different education software development services we freque
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Contact With DEV.CO`,
+                    description: `There are plenty of software development services, but at Dev.co, we’re proud to be one of the top software development companies for finance.
+                    Our focus on FinTech ensures you get top value and maximum ROI each step of the way. Please connect with us to learn more!`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
             ],
         },
     },
@@ -962,6 +1040,20 @@ Here are some of the different education software development services we freque
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Choose Dev.co as your custom software development partner`,
+                    description: `If you’re an enterprise healthcare firm, we want to be your development partner.
+                    <br>
+                    Contact us today to learn more about how our custom software development services can help.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
             ],
         },
     },
@@ -1138,6 +1230,18 @@ Here are some of the common types of software we develop for our clients:`,
                 },
             ],
         },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Connect With Dev.co`,
+                    description: `For additional information on our custom agriculture software development services, don’t hesitate to reach out and contact us today! We look forward to getting to know you.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
     },
     {
         id: 9,
@@ -1279,8 +1383,32 @@ Here are some of the common types of software we develop for our clients:`,
                 },
             ],
         },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Make our DEV team your web development partner`,
+                    description: `At DEV.co, our developers and web design team have the skill and experience required to build your ideal eCommerce project from scratch or by using an existing eCommerce platform.
+                    <br>
+                    
+                    We understand that a successful eCommerce site requires powerful back-end programming uniquely tailored to your specific needs.
+                    Our developers will utilize the latest industry standards and requirements to deliver a secure, powerful eCommerce solution that truly represents your brand.
+                    <br>
+                    Our web design expertise in UX/UI design along with JavaScript and HTML5 translates to a well-structured, engaging, beautiful eCommerce site that represents your brand image and culture.
+                    <br>
+                    
+                    We’re ready to build the eCommerce site you’ve always dreamed of.
+                        Contact us today to discuss your project with our development specialists.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+
         faqs: {
-            title: "Our Development <br> Process",
+            title: "",
             description: "",
             faqs: [
                 {

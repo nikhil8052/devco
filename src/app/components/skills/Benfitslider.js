@@ -17,6 +17,10 @@ export default function Benefitslider({ title, description, chooseData = [] }) {
             arrows: false,
             infinite: true,
             speed: 300,
+            autoplay: true, // Enables autoplay
+autoplaySpeed: 3000, // Sets the autoplay speed (in milliseconds)
+speed: 500, // Adjusts the transition speed for smoother sliding
+
             slidesToShow: 3,
             slidesToScroll: 1,
             responsive: [

@@ -301,13 +301,12 @@ export const clientCountData2 = {
   };
 
   export const CombiningCodedata = {
-    backgroundImage: "/images/code_crbg.svg",
     mainImage: "/images/code_creative.svg",
     heading: "Software DevelopersCombining Code + Creativity",
     description: "View our company's portfolio and engage with our sales team.<br>With our white label program,we offer our engineering consultingand software dev solutions to other top software development companies.",
     buttonText: "Tell Us About Your Next Project",
     onButtonClick: () => alert("Button clicked!"),
-  }
+  };
 
   
 

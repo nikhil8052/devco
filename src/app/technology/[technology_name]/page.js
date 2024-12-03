@@ -45,6 +45,7 @@ export default function Home(content) {
       />
     )}
 
+
     {Technology.Benefitslider?.title && (
       <Benefitslider
         title={Technology.Benefitslider.title}
@@ -53,10 +54,14 @@ export default function Home(content) {
       />
     )}
 
-
-
+{Technology.benefits2 && (
+      <Benefits
+        title={Technology.benefits2.title}
+        description={Technology.benefits2.description}
+        benefits={Technology.benefits2.benefits}
+      />
+    )}
     
-
     {Technology.BorderTextbox2?.BorderTextdata && (
       <Bordertextsection
         BorderTextdata={Technology.BorderTextbox2.BorderTextdata}
@@ -91,10 +96,13 @@ export default function Home(content) {
       />
     )}
 
-    <CombiningCode />
+{Technology.CombiningCodedatas?.CombiningCodedata && (
+  <CombiningCode CombiningCodedata={Technology.CombiningCodedatas.CombiningCodedata} />
+)}
+
 
 {Technology.faqs?.faqs?.length > 0 && (
-      <Industryfaqs faqs={Technology.faqs.faqs} />
+      <Industryfaqs title={Technology.faqs.title} description={Technology.faqs.description} faqs={Technology.faqs.faqs} />
 )}
 
 

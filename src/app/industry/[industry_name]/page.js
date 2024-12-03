@@ -79,10 +79,12 @@ export default function Home(content) {
         />
       )}
 
-      <CombiningCode />
+{selectedindustries.CombiningCodedatas?.CombiningCodedata && (
+  <CombiningCode CombiningCodedata={selectedindustries.CombiningCodedatas.CombiningCodedata} />
+)}
 
       {selectedindustries.faqs?.faqs?.length > 0 && (
-  <Industryfaqs faqs={selectedindustries.faqs.faqs} />
+  <Industryfaqs title={selectedindustries.faqs.title} description={selectedindustries.faqs.description} faqs={selectedindustries.faqs.faqs} />
 )}
 
 
