@@ -205,6 +205,10 @@ ul.section_ulli li {
     background-color: #4253ff;
     border-radius: 50%;
 }
+.inner_page {
+    background-size: 100%;
+    background-position: center top -480px;
+}
 
 
 @media(min-width:1024px){
