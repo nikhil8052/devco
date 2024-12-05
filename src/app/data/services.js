@@ -1,4 +1,4 @@
-export const skills = [
+export const services = [
     {
         id: 1,
         slug: "software-development-staffing",

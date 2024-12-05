@@ -144,6 +144,28 @@ export const skills = [
                 "There are 24+ JS frameworks and 83+ libraries available for developers",
                 "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
             ],
+        },
+        chooseServices1:{
+            isShow:true, 
+            mainHeading:"How to Choose a Software",
+            subHeading:"Development Staffing Company",
+            subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:",
+            chooseData:[]
+
+        },
+        chooseServices2:{
+            isShow:true, 
+            mainHeading:"How to Choose a Software",
+            subHeading:"Development Staffing Company",
+            subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:"
+
+        },
+        chooseServices3:{
+            isShow:true, 
+            mainHeading:"How to Choose a Software",
+            subHeading:"Development Staffing Company",
+            subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:"
+
         }
     },
     {

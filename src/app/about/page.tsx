@@ -1,11 +1,10 @@
-const About =()=>{
+'use client';
 
-
-    return <>
-    
-      <h1> THis is my work of thekjdsfknj;dsfknj.dsfknj.dsklnj.fsdsknj.fdskjlnfndsjfkdjsf</h1>
-    </>
+export default function AboutPage({ title, description }) {
+  return (
+    <div>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </div>
+  );
 }
-
-
-export default About; 

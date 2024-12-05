@@ -6,7 +6,6 @@ import Image from "next/image";
 
 export default function Home({children}) {
 
-
   return (
     <>
       <div className="skills_page industrypage overflow-x-hidden bg-black relative text-customwhite items-center pt-20">

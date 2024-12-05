@@ -6,11 +6,10 @@ import 'slick-carousel/slick/slick.css';  // Import Slick CSS
 import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 
 
-export default function ChooseService({ chooseData=[] }) {
-  // Object.values()
+export default function ChooseService({ mainHeading="", subHeading ="", subHeading1="", chooseData=[]  }) {
 
 
-
+  console.log( mainHeading , subHeading , " This is the data " )
   useEffect(() => {
  
     // Import the Slick JS file dynamically after mounting
@@ -51,11 +50,11 @@ export default function ChooseService({ chooseData=[] }) {
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
           <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
-            How to Choose a Software <span className='heading-opacity inline-block max-w-[400px]'>Development Staffing Company</span>
+          {mainHeading} <span className='heading-opacity inline-block max-w-[400px]'>{subHeading}</span>
           </h2>
           <div className="w-full">
             <p className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">
-              Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:
+              {subHeading1}
             </p>
           </div>
         </div>
