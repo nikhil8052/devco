@@ -10,7 +10,7 @@ import Industryfaqs from "@/app/components/faq/Industryfaqs";
 
 export default function Home({data}) {
  
-  const selectedindustries = data
+  const selectedindustries = data ?? null 
 
   return (
     <>
