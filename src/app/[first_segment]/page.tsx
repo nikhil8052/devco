@@ -12,7 +12,7 @@ export default function Page({ params }) {
 
   let foundIn = null;
   let data;
-  var Component=null;
+  let Component=null;
   
 
   if ((data = industries.find((item) => item.slug === firstSegment))) {
