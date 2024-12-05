@@ -8,9 +8,9 @@ import Benefitslider from "@/app/components/skills/Benfitslider";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 
-export default function Home({data}) {
+export default function Home({data={}}) {
  
-  const selectedindustries = data ?? null 
+  const selectedindustries = data
 
   return (
     <>
