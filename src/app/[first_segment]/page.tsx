@@ -38,9 +38,13 @@ export default function Page({ params }) {
  }
 
 
-  return (
+ return (
+  foundIn ? (
     <div>
-      <Component data={data}  />
+      <Component data={data} />
     </div>
-  );
+  ) : (
+    <>Not found</>
+  )
+);
 }
