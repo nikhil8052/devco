@@ -1,10 +1,10 @@
 'use client';
 
-export default function AboutPage({ title, description }) {
+export default function AboutPage() {
   return (
     <div>
-      <h2>{title}</h2>
-      <p>{description}</p>
+    
+    This is wifindfs
     </div>
   );
 }
