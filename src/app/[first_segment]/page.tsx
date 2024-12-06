@@ -15,22 +15,22 @@ export default function Page({ params }) {
   let Component=null;
   
 
-  if ((data = industries.find((item) => item.slug === firstSegment))) {
+  if ((data = industries.find((item) => item.slug === firstSegment || industries[0]))) {
      Component = dynamic(() => import("@/app/industry/page"), {
       ssr: false, 
     });
     foundIn = "industry";
-  } else if ((data = skills.find((item) => item.slug === firstSegment))) {
+  } else if ((data = skills.find((item) => item.slug === firstSegment || skills[0] ))) {
      Component = dynamic(() => import("@/app/skills/page"), {
       ssr: false, 
     });
     foundIn = "skills";
-  } else if ((data = services.find((item) => item.slug === firstSegment))) {
+  } else if ((data = services.find((item) => item.slug === firstSegment || services[0]))) {
      Component = dynamic(() => import("@/app/services/page"), {
       ssr: false, 
     });
     foundIn = "services";
-  }else if ((data = technologies.find((item) => item.slug === firstSegment))) {
+  }else if ((data = technologies.find((item) => item.slug === firstSegment || technologies[0]))) {
     Component = dynamic(() => import("@/app/technology/page"), {
      ssr: false, 
    });
