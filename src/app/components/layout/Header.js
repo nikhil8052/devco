@@ -747,10 +747,10 @@ const Header = () => {
 
 
               <li>
-              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/">Our Work </a>
+              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/portfolio">Our Work </a>
               </li>
               <li>
-              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/">About  </a>
+              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/about">About  </a>
               </li>
               <li>
               <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/">Contact</a>
