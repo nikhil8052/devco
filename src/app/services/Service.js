@@ -6,7 +6,7 @@ import Processess from "@/app/components/Services/Processess";
 import CombiningCode from '@/app/components/homepage/CombiningCode';
 import Chooseservice from "@/app/components/Services/Chooseservice";
 
-export default function Home({data}) {
+export default function Service({data}) {
 const skill = data
 
   return (

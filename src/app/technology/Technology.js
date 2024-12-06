@@ -13,7 +13,7 @@ import Textblockfull from '@/app/components/Textblockfull';
 
 
 
-export default function Home({data}) {
+export default function Technology({data}) {
 
 
   const Technology = data

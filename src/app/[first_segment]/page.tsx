@@ -4,7 +4,7 @@ import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
-
+import Industry from "@/app/industry/Industry";
 
 export default function Page({ params }) {
 
@@ -16,24 +16,20 @@ export default function Page({ params }) {
   
 
   if ((data = industries.find((item) => item.slug === firstSegment || industries[0]))) {
-     Component = dynamic(() => import("@/app/industry/page"), {
-      ssr: false, 
-    });
+    
+    Component= < Industry data= {data} /> 
     foundIn = "industry";
   } else if ((data = skills.find((item) => item.slug === firstSegment || skills[0] ))) {
-     Component = dynamic(() => import("@/app/skills/page"), {
-      ssr: false, 
-    });
+    Component= < Skill data= {data} /> 
+     
     foundIn = "skills";
   } else if ((data = services.find((item) => item.slug === firstSegment || services[0]))) {
-     Component = dynamic(() => import("@/app/services/page"), {
-      ssr: false, 
-    });
+    Component= < Service data= {data} /> 
+     
     foundIn = "services";
   }else if ((data = technologies.find((item) => item.slug === firstSegment || technologies[0]))) {
-    Component = dynamic(() => import("@/app/technology/page"), {
-     ssr: false, 
-   });
+    Component= < Technology data= {data} /> 
+  
    foundIn = "technology";
  }
  
@@ -42,7 +38,7 @@ export default function Page({ params }) {
  return (
   foundIn ? (
     <div>
-      { data ? <Component dataProp={data} /> : null  }
+    <Component/> 
       
     </div>
   ) : (
