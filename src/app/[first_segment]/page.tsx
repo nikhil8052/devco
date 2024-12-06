@@ -1,10 +1,14 @@
 'use client';
-import dynamic from "next/dynamic";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
 import Industry from "@/app/industry/Industry";
+import Skill from "@/app/sills/Skill";
+
+import Service from "@/app/services/Service";
+import Technology from "@/app/technology/Technology";
+
 
 export default function Page({ params }) {
 

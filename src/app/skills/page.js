@@ -21,7 +21,7 @@ import Processess from "@/app/components/Services/Processess";
 
 
 
-export default function Home({data}) {
+export default function Skill({data}) {
   const skill = data
   return (
     <>
