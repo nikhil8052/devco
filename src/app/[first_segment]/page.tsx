@@ -4,7 +4,7 @@ import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
 import Industry from "@/app/industry/Industry";
-import Skill from "@/app/sills/Skill";
+import Skill from "@/app/skills/Skill";
 
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
