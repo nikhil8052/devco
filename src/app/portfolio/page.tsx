@@ -1,5 +1,7 @@
 import AnimatedBanner from '../components/portfolio/AnimatedBanner';
 import CombiningCode from "../components/homepage/CombiningCode";
+import Portfoliomain from "../components/portfolio/Portfoliomain";
+
 
 const portfolio =()=>{
 
@@ -12,8 +14,8 @@ return <>
           backgroundRepeat: "no-repeat",
         }}
       >
-
     <AnimatedBanner/>
+    <Portfoliomain />
     <CombiningCode/>
 
     </div>
