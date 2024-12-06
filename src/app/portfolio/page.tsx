@@ -1,10 +1,12 @@
+'use client'
 import AnimatedBanner from '../components/portfolio/AnimatedBanner';
 import CombiningCode from "../components/homepage/CombiningCode";
 import Portfoliomain from "../components/portfolio/Portfoliomain";
+import ClientCount from '../components/homepage/ClientCount';
+import { portfolio } from "@/app/data/portfolio";
 
 
-const portfolio =()=>{
-
+export default function Home() {
     
 return <>
     <div
@@ -16,11 +18,10 @@ return <>
       >
     <AnimatedBanner/>
     <Portfoliomain />
-    <CombiningCode/>
+    <ClientCount/>
+    <CombiningCode CombiningCodedata={portfolio.CombiningCodedata } />
+
 
     </div>
-</>
+    </>
 }
-
-
-export default portfolio; 

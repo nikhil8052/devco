@@ -753,7 +753,7 @@ const Header = () => {
               <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/about">About  </a>
               </li>
               <li>
-              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/">Contact</a>
+              <a class="rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3" data-radix-collection-item="" href="/contact">Contact</a>
               </li>
               </ul>
             </div>

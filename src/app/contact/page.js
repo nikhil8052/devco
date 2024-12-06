@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import FormPage from "../components/siteforms/Formpage";
 
 export default function contact() {
   return (
-    <div>This it the contact page man </div>
+    <div className='form_page bg-black relative text-customwhite pt-20'>
+      <FormPage/>
+    </div>
+
   )
 }
