@@ -9,13 +9,8 @@ import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 
 export default function Home({data}) {
- 
-
 
   const selectedindustries = data
-
-
-
 
   return (
     <>
