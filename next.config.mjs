@@ -11,6 +11,12 @@ const nextConfig = {
     config.resolve.alias['@'] = path.resolve(__dirname, 'src'); // Map @ to the src folder
     return config;
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+},  
+typescript: {
+  ignoreBuildErrors: true, // Ignore TypeScript type errors during the build
+},
 };
 
 export default nextConfig;

@@ -11,7 +11,7 @@ export default function Page({ params }) {
   const firstSegment = params.first_segment;
 
   let foundIn = null;
-  let data;
+  let data={};
   let Component=null;
   
 
@@ -36,12 +36,14 @@ export default function Page({ params }) {
    });
    foundIn = "technology";
  }
+ 
 
 
  return (
   foundIn ? (
     <div>
-      <Component data={data} />
+      { data ? <Component dataProp={data} /> : null  }
+      
     </div>
   ) : (
     <>Not found</>
