@@ -10,8 +10,8 @@ const Footer = () => {
     {
       label: 'Services',
 subCategories: [
-  { label: 'Web Development', path: '/webs' },
-  { label: 'Mobile Development', path: '/mobile-development' },
+  { label: 'Web Development', path: '/web' },
+  { label: 'Mobile Development', path: '/mobile' },
   { label: 'Application Development', path: '/mobile-development' },
   { label: 'UX/UI Design', path: '/ux-ui-design' },
   { label: 'Technology Architecture', path: '/technology-architecture' },
@@ -145,7 +145,7 @@ subCategories: [
             <ul className="flex flex-wrap justify-center w-full xl:gap-6 gap-4">
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
+              <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
               <Link href="#" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
