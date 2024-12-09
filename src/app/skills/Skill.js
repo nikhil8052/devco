@@ -1,23 +1,13 @@
-import StartUps from "@/app/components/Services/StartUps";
-// import HeroBanner from "@/app/components/Services/HeroBanner";
-import SkillBanner from "@/app/components/skills/SkillBanner"
+'use client'
 import Benefits from "@/app/components/Services/Benefits";
-// import Processess from "@/app/components/Services/Processess";
-import CombiningCode from '@/app/components/homepage/CombiningCode';
-import Chooseservice from "@/app/components/Services/Chooseservice";
-import CustomsofSection from "@/app/components/homepage/CustomsofSection";
-import DeveloperDo from "@/app/components/skills/DeveloperDo";
-import Simpleimage from "@/app/components/skills/Simpleimage";
-import Simpletextdjs from "@/app/components/skills/Simpletextdjs";
-import Whyusecard from "@/app/components/cards/Whyusecard";
-import Ultextgrid from "@/app/components/skills/Ultextgrid";
-// import { skills } from "@/app/data/services";
-import Benefitslider from "@/app/components/skills/Benfitslider";
-import Textbuttonimg from "@/app/components/skills/Textbuttonimg";
-import Subheadingtext from "@/app/components/skills/Subheadingtext";
-import Dividercontainer from "@/app/components/skills/Dividercontainer";
-import Checkedulimage from "@/app/components/cards/Checkedulimage";
+import SkillBanner from "@/app/components/skills/SkillBanner";
+import Bordertextsection from "@/app/components/industry/Bordertextsection";
 import Processess from "@/app/components/Services/Processess";
+import CombiningCode from "@/app/components/homepage/CombiningCode";
+import Benefitslider from "@/app/components/skills/Benfitslider";
+import Subheadingtext from "@/app/components/skills/Subheadingtext";
+import Industryfaqs from "@/app/components/faq/Industryfaqs";
+import Textblockfull from '@/app/components/Textblockfull';
 
 
 
@@ -25,51 +15,87 @@ export default function Skill({data}) {
   const skill = data
   return (
     <>
-      <SkillBanner
-        bannericon={skill.bannericon}
-        subtitle={skill.sub_title}
-        title={skill.top_title}
-        description={skill.top_description}
+       <SkillBanner
+      bannericon={skill.bannericon}
+      subtitle={skill.sub_title}
+      title={skill.top_title}
+      description={skill.top_description}
+    />
+
+    {skill.BorderTextbox?.BorderTextdata && (
+      <Bordertextsection
+        BorderTextdata={skill.BorderTextbox.BorderTextdata}
       />
-      <StartUps
-        title={skill.startups?.title}
-        description={skill.startups?.description}
-        images={skill.startups?.images}
-        imageHeight={skill.startups?.imageHeight}
-        imageWidth={skill.startups?.imageWidth}
+    )}
+
+    {skill.benefits && (
+      <Benefits
+        title={skill.benefits.title}
+        description={skill.benefits.description}
+        benefits={skill.benefits.benefits}
       />
-      <Benefits title={skill.benefits?.title} />
-      <Chooseservice {...skill.chooseServices1} />
-      <Whyusecard />
-      <Ultextgrid />
-      <CustomsofSection />
-      <DeveloperDo />
-      <Simpleimage />
-      <Simpletextdjs />
-      <Chooseservice {...skill.chooseServices2} />
-      <StartUps
-        images={skill.startups?.images}
-        imageHeight={skill.startups?.imageHeight}
-        imageWidth={skill.startups?.imageWidth}
+    )}
+
+
+    {skill.Benefitslider?.title && (
+      <Benefitslider
+        title={skill.Benefitslider.title}
+        description={skill.Benefitslider.description}
+        chooseData={skill.Benefitslider.card_datas}
       />
-      <CombiningCode />
-      <Benefitslider chooseData={skill.Benefitslider?.card_datas} />
-      <Processess
-        title={skill.processes?.title}
-        processes={skill.processes?.processes}
+    )}
+
+{skill.benefits2 && (
+      <Benefits
+        title={skill.benefits2.title}
+        description={skill.benefits2.description}
+        benefits={skill.benefits2.benefits}
       />
-      <Textbuttonimg />
+    )}
+    
+    {skill.BorderTextbox2?.BorderTextdata && (
+      <Bordertextsection
+        BorderTextdata={skill.BorderTextbox2.BorderTextdata}
+      />
+    )}
+
+    {skill.Subheadingtext?.heading && (
       <Subheadingtext
-        heading={skill.Subheadingtext?.heading || "Default Heading"}
-        subText={skill.Subheadingtext?.subText || "Default SubText"}
-        list1={skill.Subheadingtext?.list1 || []}
-        list2={skill.Subheadingtext?.list2 || []}
+        heading={skill.Subheadingtext.heading}
+        subText={skill.Subheadingtext.subText}
+        list1={skill.Subheadingtext.list1}
+        list2={skill.Subheadingtext.list2}
       />
-      <Dividercontainer />
-      <Chooseservice {...skill.chooseServices1} />
-      <Checkedulimage />
-      <Simpletextdjs />
-      <CombiningCode />
+    )}
+ {/* Only render Textblockfull if sectionData exists */}
+ {skill.Textblockfull?.sectionData && (
+        <Textblockfull Textblockdata={skill.Textblockfull.sectionData} />
+      )}
+    {skill.processes?.title && (
+      <Processess
+        title={skill.processes.title}
+        processes={skill.processes.processes}
+      />
+    )}
+
+{skill.Subheadingtext2?.heading && (
+      <Subheadingtext
+        heading={skill.Subheadingtext2.heading}
+        subText={skill.Subheadingtext2.subText}
+        list1={skill.Subheadingtext2.list1}
+        list2={skill.Subheadingtext2.list2}
+      />
+    )}
+
+{skill.CombiningCodedatas?.CombiningCodedata && (
+  <CombiningCode CombiningCodedata={skill.CombiningCodedatas.CombiningCodedata} />
+)}
+
+
+{skill.faqs?.faqs?.length > 0 && (
+      <Industryfaqs title={skill.faqs.title} description={skill.faqs.description} faqs={skill.faqs.faqs} />
+)}
+
     </>
   );
 }
