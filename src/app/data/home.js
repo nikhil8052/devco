@@ -22,7 +22,7 @@ export const homeCard1 = [
 
     {
 
-        title: "Frame Works",
+        title: "Frameworks",
         description: "The best software development firms start their web development projects at the design phase.",
         iconSrc: "/images/nodes.svg", // Dynamic icon source
         services: [
@@ -192,7 +192,7 @@ export const homeCard3 = [
 
     {
 
-        title: "Deployment for Web",
+        title: "Deployment for the Web",
         description: "Our full-stack dedicated development team provides the front-end and back-end support your software projects deserve.",
         iconSrc: "/images/nodes.svg", // Dynamic icon source
         services: [
