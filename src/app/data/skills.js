@@ -1,9 +1,8 @@
 export const skills = [
-   
     {
         id: 1,
         slug: "java",
-        bannericon: "/images/cArtifiial Intelligence.svg",
+     
         sub_title:"Skills",
         top_title: "JavaScript Development Services",
         top_description: `JavaScript is a dynamic programming language that creates an interactive user experience online. JavaScript brings webpages to life with interactive elements that engage users and make your brand stand out.<br></br>
@@ -172,7 +171,7 @@ export const skills = [
     },
     {
         id: 2,
-        slug: "web-development",
+        slug: "javascript",
         top_title: "Web Development Services",
         top_description: "Delivering robust and scalable web solutions tailored to your business needs.",
         startups: {
@@ -402,8 +401,7 @@ export const skills = [
     },
     {
         id: 4,
-        slug: "javascript",
-        bannericon: "/images/Artificial Intelligence.svg",
+        slug: "ux-ui-design",
         top_title: "UX/UI Design Services",
         top_description: "Creating intuitive, user-friendly designs that enhance user experience and engagement.",
         startups: {
@@ -420,7 +418,7 @@ export const skills = [
                 {
                     title: "Improved User Engagement",
                     description: "We create designs that are visually appealing and easy to use.",
-                    imageSrc: "",
+                    imageSrc: "/images/rotation_mug.svg",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
