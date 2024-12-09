@@ -1245,7 +1245,7 @@ Here are some of the common types of software we develop for our clients:`,
     },
     {
         id: 9,
-        slug: "eCommerce",
+        slug: "ecommerce",
         bannericon: "/images/e Commerce.svg",
         top_title: "Website Development for eCommerce",
         top_description: `Ecommerce development is a complex process, but it doesn’t have to be. With the help of a professional ecommerce developer and ecommerce development services, you can create a streamlined and efficient shopping experience for your customers that meets all their needs. At DEV.co, we provide premier e-commerce development services that are tailored to your unique business requirements. We have years of experience in the ecommerce industry, and our team of experts will work with you every step of the way to ensure that your online store is everything you want it to be.

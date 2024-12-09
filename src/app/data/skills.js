@@ -1,7 +1,9 @@
 export const skills = [
+   
     {
         id: 1,
-        slug: "javascript",
+        slug: "java",
+        bannericon: "/images/cArtifiial Intelligence.svg",
         sub_title:"Skills",
         top_title: "JavaScript Development Services",
         top_description: `JavaScript is a dynamic programming language that creates an interactive user experience online. JavaScript brings webpages to life with interactive elements that engage users and make your brand stand out.<br></br>
@@ -400,7 +402,8 @@ export const skills = [
     },
     {
         id: 4,
-        slug: "ux-ui-design",
+        slug: "javascript",
+        bannericon: "/images/Artificial Intelligence.svg",
         top_title: "UX/UI Design Services",
         top_description: "Creating intuitive, user-friendly designs that enhance user experience and engagement.",
         startups: {
@@ -417,7 +420,7 @@ export const skills = [
                 {
                     title: "Improved User Engagement",
                     description: "We create designs that are visually appealing and easy to use.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
@@ -630,7 +633,7 @@ export const skills = [
     },
     {
         id: 6,
-        slug: "nextjs",
+        slug: "next-js",
         top_title: "Next Js",
         top_description: "Node.js is one of the newer server-side platforms around. It’s experiencing rapid adoption among large organizations and is renowned for being simple and easy to use. It’s powered by JavaScript and can be utilized in a variety of environments. Contrary to what many assume, Node.js is not a framework or library. It’s actually a runtime environment, based entirely on Chrome’s V8 JavaScript engine. First introduced in 2009 at the annual European JSConf, Node.js was immediately billed as “the most exciting single piece of software in the current JavaScript universe.” And more than a decade later, it’s still living up to the hype.",
         startups: {
@@ -2213,6 +2216,604 @@ export const skills = [
         id: 19,
         slug: "wordpress",
         top_title: "WordPress Development Company",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+
+    
+    {
+        id: 19,
+        slug: "labview",
+        top_title: "LabVIEW Development Services",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    
+    {
+        id: 19,
+        slug: "c-sharp-dot-net",
+        top_title: "C#/.NET Development Services",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 19,
+        slug: "unity",
+        top_title: "Unity Development Services",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 19,
+        slug: "webflow",
+        top_title: "Webflow Development Services",
+        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        startups: {
+            title: "Technology Strategy",
+            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        benefits: {
+            title: "Why Choose Laravel?",
+            description: "It’s designed to be beautiful, engaging, and immersive. If you’re looking for an elegant, feature-rich application, this framework should certainly be at or near the top of your list. Benefits include:",
+            benefits: [
+                {
+                    title: "Gorgeous interfaces",
+                    description: "Appearances aren’t everything, but it’s nice to have a solution that looks good. Software and applications developed with Laravel are known for being aesthetically pleasing and highly intuitive.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Highly secure",
+                    description: "You need to be assured that your web application is safe and secure for users. A failure to do so could create serious financial and legal ramifications. Thankfully, Laravel features high-level security straight “out of the box.” It has a very simple method for sorting out authorization logic and control access. This makes security very easy to monitor and manage.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "High-level email integration",
+                    description: "All Laravel web applications can easily be integrated with any mail service for email notifications. It also provides drivers for Mandrill, SMTP, Mailgun, SparkPost, and Amazon SES. This means any application can get started with a relatively small amount of effort.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Laravel applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application.",
+                    imageSrc: "/images/rotation_mug.svg",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Laravel Development Process",
+            description: `We take the Laravel development process very seriously. Regardless of the industry or intended application, we promise to be thorough and strategic in our approach. This includes a four-part process where we:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "Any developer who tries to create an application or software solution for you without first digging in and uncovering your expectations and goals is doing you a disservice. We believe this is one of the most important steps in the process and work hard to ensure we have all of the information we need to create a solution that adds value.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "Information is only useful if it’s used to create a plan. So in our second step, we develop a formulaic approach to bring your application to life. You can be as involved or hands-off in this process as you want to be.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Develop",
+                    description: "Now it’s time for the actual development to take place. Our Laravel development process involves a system of checks and balances to ensure you get the best possible end product.",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Test",
+                    description: "No web development project is complete without rigorous testing and optimization to work out the bugs and smooth over any friction that may exist.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Wordpress Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: "Background details Vision values Target personas Stakeholder insights",
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+    },
+    {
+        id: 19,
+        slug: "webflow",
+        top_title: "Webflow Development Services",
         top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
         startups: {
             title: "Technology Strategy",

@@ -127,7 +127,7 @@ export const services = [
     },
     {
         id: 2,
-        slug: "web-development",
+        slug: "webs",
         top_title: "Web Development Services",
         top_description: "Delivering robust and scalable web solutions tailored to your business needs.",
         startups: {
