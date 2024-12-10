@@ -1,6 +1,6 @@
 'use client';
 
-import CombiningCode from "../components/homepage/CombiningCode";
+import CombiningCode from "@/app/components/homepage/CombiningCode";
 import { cmbcodedata } from "@/app/data/locations";
 
 const locations = [

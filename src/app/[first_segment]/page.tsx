@@ -22,6 +22,7 @@ export default function Page({params}: PageProps) {
   let data = {};
   let Component = null;
 
+  console.log( services, " All the services ")
   // Find the matching data and set the corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
     Component = Industry;
@@ -42,6 +43,9 @@ export default function Page({params}: PageProps) {
     return <div>Not Found</div>;
   }
 
+
+
+  console.log( data ,foundIn,  " his is he dta we need to take cate ")
   // Render the selected component with the data
   return (
     <div>

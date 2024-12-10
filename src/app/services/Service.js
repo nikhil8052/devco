@@ -8,6 +8,9 @@ import Benefits from "@/app/components/Services/Benefits";
 import Processess from "@/app/components/Services/Processess";
 import CombiningCode from '@/app/components/homepage/CombiningCode';
 import Chooseservice from "@/app/components/Services/Chooseservice";
+import Subheadingtext from "@/app/components/skills/Subheadingtext";
+import Benefitslider from "@/app/components/skills/Benfitslider";
+import Textblockfull from '@/app/components/Textblockfull';
 
 export default function Service({ data }) {
   const skill = data;
@@ -15,13 +18,12 @@ export default function Service({ data }) {
   return (
     <>
       {/* HeroBanner */}
-      {skill.subtitle && skill.top_title && skill.top_description && (
-        <HeroBanner
-          subtitle={skill.subtitle}
-          title={skill.top_title}
-          description={skill.top_description}
-        />
-      )}
+      <HeroBanner
+        subtitle={skill.subtitle}
+        title={skill.top_title}
+        description={skill.top_description}
+        bannericon={skill.bannericon}
+      />
 
       {/* StartUps */}
       {skill.startups?.title && skill.startups?.description && (
@@ -50,9 +52,37 @@ export default function Service({ data }) {
         />
       )}
 
+      {/* SubheadingText */}
+      {skill.Subheadingtext?.heading && (
+        <Subheadingtext
+          heading={skill.Subheadingtext.heading}
+          subText={skill.Subheadingtext.subText}
+          list1={skill.Subheadingtext.list1}
+          list2={skill.Subheadingtext.list2}
+        />
+      )}
+
       {/* Chooseservice */}
       {skill.chooseServices?.card_data && (
-        <Chooseservice chooseData={skill.chooseServices.card_data} />
+        <Chooseservice 
+        title={skill.chooseServices.title}
+        description={skill.chooseServices.description}
+        chooseData={skill.chooseServices.card_data} 
+        />
+      )}
+
+      {/* Benefitslider */}
+      {skill.Benefitslider?.title && (
+        <Benefitslider
+          title={skill.Benefitslider.title}
+          description={skill.Benefitslider.description}
+          chooseData={skill.Benefitslider.card_datas}
+        />
+      )}
+
+      {/* TextblockFull */}
+      {skill.Textblockfull?.sectionData && (
+        <Textblockfull Textblockdata={skill.Textblockfull.sectionData} />
       )}
 
       {/* Processess */}
@@ -60,6 +90,16 @@ export default function Service({ data }) {
         <Processess
           title={skill.processes.title}
           processes={skill.processes.processes}
+        />
+      )}
+
+      {/* SubheadingText 2 */}
+      {skill.Subheadingtext2?.heading && (
+        <Subheadingtext
+          heading={skill.Subheadingtext2.heading}
+          subText={skill.Subheadingtext2.subText}
+          list1={skill.Subheadingtext2.list1}
+          list2={skill.Subheadingtext2.list2}
         />
       )}
 

@@ -9,12 +9,7 @@ import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 import Textblockfull from '@/app/components/Textblockfull';
 
-
-
-
-
 export default function Technology({data}) {
-
 
   const Technology = data
 

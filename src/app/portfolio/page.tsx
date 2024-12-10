@@ -1,8 +1,8 @@
 'use client'
-import AnimatedBanner from '../components/portfolio/AnimatedBanner';
-import CombiningCode from "../components/homepage/CombiningCode";
-import Portfoliomain from "../components/portfolio/Portfoliomain";
-import ClientCount from '../components/homepage/ClientCount';
+import AnimatedBanner from '@/app/components/portfolio/AnimatedBanner';
+import CombiningCode from "@/app/components/homepage/CombiningCode";
+import Portfoliomain from "@/app/components/portfolio/Portfoliomain";
+import ClientCount from '@/app/components/homepage/ClientCount';
 import { portfolio } from "@/app/data/portfolio";
 
 

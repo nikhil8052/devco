@@ -12,10 +12,10 @@ const Footer = () => {
 subCategories: [
   { label: 'Web Development', path: '/web' },
   { label: 'Mobile Development', path: '/mobile' },
-  { label: 'Application Development', path: '/mobile-development' },
-  { label: 'UX/UI Design', path: '/ux-ui-design' },
+  { label: 'Application Development', path: '/apps' },
+  { label: 'UX/UI Design', path: '/ux-ui' },
   { label: 'Technology Architecture', path: '/technology-architecture' },
-  { label: 'Software/IT Staffing', path: '/software-it-staffing' },
+  { label: 'Software/IT Staffing', path: '/staffing' },
   { label: 'DevOps Services', path: '/devops' },
   { label: 'Quality Assurance Testing', path: '/quality-assurance' },
   { label: 'MVP Development', path: '/mvp-development' },
@@ -148,8 +148,8 @@ subCategories: [
               <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
               <Link href="#" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
+              <Link href="/career" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
+              <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
               <Link href="#" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
             </ul>

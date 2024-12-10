@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick.css';  // Import Slick CSS
 import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 
 
-export default function ChooseService({ mainHeading="", subHeading ="", subHeading1="", chooseData=[]  }) {
+export default function ChooseService({title="",description="", mainHeading="", subHeading ="", subHeading1="", chooseData=[]  }) {
 
 
   console.log( mainHeading , subHeading , " This is the data " )
@@ -50,11 +50,11 @@ export default function ChooseService({ mainHeading="", subHeading ="", subHeadi
       <div className="container relative z-10">
         <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
           <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-3 mb-2 text-customwhite">
-          {mainHeading} <span className='heading-opacity inline-block max-w-[400px]'>{subHeading}</span>
+          {mainHeading} <span className='heading-opacity inline-block max-w-[400px]'>{title}</span>
           </h2>
           <div className="w-full">
             <p className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">
-              {subHeading1}
+              {description}
             </p>
           </div>
         </div>
