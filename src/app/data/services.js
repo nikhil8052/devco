@@ -1134,5 +1134,1152 @@ These qualities are some of the most important to consider:`,
             ],
         },
     },
+    {
+        id: 7,
+        slug: "devops",
+        sub_title: "services",
+        bannericon: "/images/Devops.svg",
+        top_title: "DevOps Services",
+        top_description:`DevOps, a combination of “development” and “operations,” is a set of philosophies and processes meant to make it faster and more efficient to develop software. Unfortunately, implementing DevOps practices is a challenge for many existing businesses.<br></br>
+
+        At DEV.co, we offer DevOps as a service, providing you the DevOps tools, operations teams and a logistical gateway that allows you to achieve your software development goals.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "What Is DevOps?",
+                description: `DevOps is a set of practices meant to align the goals of software development and operations teams. It’s admittedly a somewhat nebulous term that’s been used to describe a number of different practices, and different companies may have different philosophies.`,
+                
+            },
+            {
+                title: "",
+            description: `However, all DevOps practices incorporate some form of continuous delivery—in other words, software delivery is streamlined and automated so that it can occur without interruption. DevOps also incorporates agile software development, allowing you to build and adapt new tools on the fly, and encourages collaboration between teams that might otherwise function independently.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "The Benefits of DevOps",
+            description: "DevOps offers several advantages, including:",
+            benefits: [
+                {
+                    title: "Faster time to market",
+                    description: "Faster software development lifecycle means you’ll benefit from continuous delivery and a faster time to market. That means you’ll collect user data and feedback sooner, and you’ll establish a stream of revenue sooner.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Better communication and collaboration",
+                    description: "With an appropriate DevOps model in place, your team will master the arts of collaboration and communication. You’ll be able to communicate ideas more clearly, and implement them more efficiently, ultimately resulting in less strain and more efficiency.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Improved software quality",
+                    description: "Implementing a DevOps culture also tends to produce better-finished products. Your operations teams will become more efficient in the way they manage infrastructure, how to implement configuration management, adapt to new information and communicate clearly between security teams and other stakeholders. With all the right DevOps tools to help with rapid deployment at a higher quality, you can expect DevOps success with each software project.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Efficient software development",
+                    description: "Thanks to agile development processes, your entire development team will better introduce automation, and a variety of tools meant to streamline software development, your IT team will work more efficiently—and you’ll save money in the process.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 35,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co DevOps Process",
+            description: `When we work with organizations, we follow an adaptive process that usually resembles the following:`,
+            card_datas: [
+                {
+                    title: "Analysis",
+                    description: "We start with an initial analysis of complex environments. Which application development tools are you currently using? How do your development and operations teams interact with each other? What are your biggest strengths and weaknesses in how your DevOps model deploy updates? What are your goals when it comes to integration and continuous delivery?",
+                    imgSrc: "",
+                },
+                {
+                    title: "Finding a solution",
+                    description:`Next is execution. We’ll help prepare your DevOps team and make sure all moving parts are functioning as intended, the right programming languages are used, standardized test processes are implemented and the entire DevOps journey is smooth.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Execution",
+                    description: `Next is execution. We’ll help prepare your DevOps team and make sure all moving parts are functioning as intended, the right programming languages are used, standardized test processes are implemented and the entire DevOps journey is smooth.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Ongoing support",
+                    description: "We also provide ongoing support to our clients, ensuring our collaborative plan is working and making changes and improvements as necessary.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Communication",
+                    description: "Finally, how does this agency communicate? Is it easy to get in touch with an agent? Are they transparent and willing to answer all your questions clearly?",
+                    imgSrc: "",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner with Dev.co",
+                    description: `DevOps has the power to transform your organization above traditional software development practices, with faster time to market and more efficient development. Are you ready to embrace CI / CD ? Contact DEV.co today for a free quote, or a free consultation on improving your IT operations!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+    },
+    {
+        id: 8,
+        slug: "testing",
+        sub_title: "services",
+        bannericon: "/images/QA&Testing.svg",
+        top_title: "QA Software Testing Services",
+        top_description:`Before your software launches, you’ll need to comb it carefully for bugs, functional problems, and other technical issues. That’s why quality assurance (QA) testing exists—to make sure your users see the best possible version of your product.<br></br>
+
+        Of course, QA testing isn’t something to take lightly. If you want to be successful, you’ll need to work with a trustworthy, experienced QA testing partner.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "What Is QA Testing?",
+                description: `QA testing is a type of software testing, meant to test your product late in the development cycle. Its basic goal is to test a product to make sure it’s released at the best possible quality.`,
+                
+            },
+            {
+                title: "",
+            description: `QA testing usually employs a consistent set of standards and tools, meant to evaluate the design, functionality, and reliability of a given app. Tools and human testers work together to analyze performance benchmarks, find and document bugs, and identify areas for potential improvement. By this point, the app should be nearly ready for release—and QA testing serves as a form of polishing.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "What to Look for in a QA Software Testing Provider",
+            description: `To find a good QA software testing partner, look for the following:
+            <br></br>
+            Your web application development company will help you achieve these goals.`,
+
+            benefits: [
+                {
+                    title: "Experience",
+                    description: "How long has this company been QA testing? What kinds of clients have they had in the past? Do they specialize in testing a specific type of app, or are they a generalist?",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Reputation",
+                    description: "What kind of reputation does this QA provider have? Look at their online reviews and testimonials.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Documented standards",
+                    description: "Good QA testing requires consistency and ongoing improvement. Accordingly, your QA testing provider should have documented testing standards in place.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Transparency",
+                    description: "Your QA testing services provider should also be transparent. They should make it clear how they operate, and be willing to answer all your questions.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 35,
+                },
+                {
+                    title: "Automation and speed",
+                    description: "Timing matters. Today’s best QA testers use a combination of automation and agile strategies to verify the quality of your app as quickly as possible.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 35,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "Our QA Testing Process",
+            description: `When QA testing a new product, we follow a formal process, with these phases:`,
+            card_datas: [
+                {
+                    title: "Planning",
+                    description: "First, we need to determine your needs and come up with a unique QA testing solution that suits them.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Design and development",
+                    description:`Next, we’ll lay out a course for our QA testing, which may include creating automated tools for the testing process.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Implementation",
+                    description: `Once ready, we’ll implement our testing process and begin studying your app.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Analysis",
+                    description: "Together, we’ll analyze our testing results, which may require follow-up maintenance and further rounds of testing.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Final reporting",
+                    description: "Our final report will provide direction and summarize our findings.",
+                    imgSrc: "",
+                },
+            ],
+        },
+        Subheadingtext:{
+            heading: "Our QA Testing Services",
+            subText:`We practice QA testing at several levels of software development,<br>
+            including API testing, integration testing, and system testing.`,
+            list1: [
+                "Equivalence partitioning.",
+                "Boundary value analysis.",
+                "Cause and effect analysis.",
+                "Bottleneck analysis.",
+                "Multi-level software testing.",
+                "Performance testing.",
+                "Usability testing.",
+                "Configuration testing.",
+
+            ],
+            list2: [
+                "Security testing.",
+                "Installation testing.",
+                "Environmental analysis.",
+                "Requirements testing.",
+                "Risk management.",
+                "Code review.",
+                "Design review.",
+
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact with DEV.CO",
+                    description: `With the right QA testing partner, you can ensure your app is ready for your user base.`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+    },
+        {
+        id: 9,
+        slug: "mvp",
+        sub_title: "services",
+        bannericon: "/images/MVPDevelopment.svg",
+        top_title: "Minimum Viable Product (MVP) Software Development",
+        top_description:`Many software developers and entrepreneurs spend too much time thinking about how big, complex, or comprehensive they can build a product. In reality, it’s often better to focus on building a smaller product—the minimum product that can still be viable to solve a user problem.<br></br>
+
+        At DEV.co, we offer minimum viable product (MVP) software development services, designed to get you the best possible app in the shortest possible timeframe. Let’s look at why this is important.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "What Is a Minimum Viable Product?",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `A minimum viable product (MVP) usually refers to software; it’s a product that has the smallest number of features possible while still addressing a user need. Rather than packing an app full of extra features and impressive performance potential, you’ll focus on cutting out the features you don’t need and keeping your app lean.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "There are many benefits to this approach, including:",
+            description: ``,
+
+            benefits: [
+                {
+                    title: "Launch speed",
+                    description: "Simpler apps launch faster—it’s that simple. If you’re building an MVP, you’ll put together a prototype and go live in a shorter amount of time. That means a faster path to getting funding, generating revenue, and learning about your customers.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "App complexity",
+                    description: "Minimum viable products have fewer moving parts (so to speak), so there’s less room for things to go wrong. MVP development is a way to decrease your risks.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Early testing",
+                    description: "Sometimes, developers don’t realize the issues with an idea until they’re already weeks into development. But with MVP development, you’ll have the opportunity for early testing and reconsidering, so you can end up with a better product.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Cost",
+                    description: "MVP development is faster, and it requires fewer resources, so of course, it costs less; this is ideal if your primary goal is profitability.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 35,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The Core Tenets of MVP Services",
+            description: `High-quality minimum viable product developers will focus on these main priorities:`,
+            card_datas: [
+                {
+                    title: "Problem-solving",
+                    description: "A minimum viable product still must be “viable,” meaning it should effectively solve some kind of problem.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Minimalism",
+                    description:`The app should also be as light and agile as possible, with only the features it truly needs to work. Superfluous or unnecessary features should be cut or saved for later.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Functionality",
+                    description: `Minimalism is no excuse for taking shortcuts. MVP software products still need to be consistently functional, with no bugs or technical issues to stand in the way of their effectiveness.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Flexibility/scalability",
+                    description: "A product may launch with minimalism, but it needs room to grow and evolve over time. MVPs should be developed with flexibility and scalability in mind.",
+                    imgSrc: "",
+                },
+            ],
+        },
+        benefits2: {
+            title: `How We Build Functional Apps Fast`,
+            description: `At DEV.co, we develop MVP apps with the following agile process:`,
+            benefits: [
+                {
+                    title: "Discovery and strategy",
+                    description: "Before we can start developing, we need to know what problems you’re trying to solve. Together, we’ll learn more about your brand, your objectives, and we’ll set a strategy for the future.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Prototyping",
+                    description: "From there, we immediately move into prototyping. We’ll design and develop a framework that accomplishes your goals.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Refinement and testing",
+                    description: "We’ll move directly into refinement and testing, with the goal of launching as quickly as possible.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Launch and ongoing support",
+                    description: "After launch, we’ll provide maintenance and updates as needed, and we can discuss the future possibilities for your app.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact With DEV.CO",
+                    description: `Want to design a minimum viable product (MVP) for your startup?<br>
+                    Or do you need to launch some new software as quickly as possible?<br>
+                    Contact DEV.co today for a free quote, or a free consultation!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+    },
+
+    {
+        id: 10,
+        slug: "saas",
+        sub_title: "services",
+        bannericon: "/images/SaaSDevelopment.svg",
+        top_title: "SaaS Development",
+        top_description:`Software as a service (SaaS) companies have seen an explosion in popularity over the past decade, as entrepreneurs and software developers have realized the benefits of such a model. However, if you’re new to the SaaS world, or if you don’t have the development resources necessary to build your core product, you may not know where to start.<br></br>
+
+       That’s where DEV.co can help.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "What Is SaaS Development?",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `SaaS development is the process of building a core product for a SaaS business model. SaaS provides users with access to a core product, usually an app with desktop, web, and/or mobile accessibility, in exchange for a subscription fee (usually monthly). As long as the user remains a subscriber, they’ll retain access to this app and all their data associated with it.<br></br>
+            With SaaS, developers typically conduct maintenance, issue fixes, and issue updates on a regular basis; this is part of what users are paying for.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "The Benefits of the SaaS Model",
+            description: `SaaS businesses have many advantages over other software-related businesses, including`,
+
+            benefits: [
+                {
+                    title: "Consistent revenue",
+                    description: "Instead of collecting revenue through one-time purchases, SaaS allows you to collect monthly revenue from your users. This often results in both greater revenue overall and more consistency, which you can use to plan your budget.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Scalability",
+                    description: "SaaS products can support practically any number of users, from the handful supporting you initially to the massive quantities you’ll eventually scale to reach.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Faster launch",
+                    description: "Because you can start with a minimum viable product and expand with new features later, SaaS products can be developed and launched faster than their counterparts",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "SaaS Development Services",
+            description: `At DEV.co, we provide SaaS development services, including:`,
+            card_datas: [
+                {
+                    title: "Consulting",
+                    description: "If you’re already working on a software product, or if you aren’t sure where to begin, we can help.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Core product design and developmentg",
+                    description:`We’ll work with you to design, develop, and implement the core product for your SaaS business`,
+                    imgSrc: "",
+                },
+                {
+                    title: "QA testing",
+                    description: `We’ll also provide thorough QA testing, to make sure your product is functional upon launch.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Maintenance and management",
+                    description: "SaaS requires ongoing product support. We can provide that, including maintenance, management, and even the development of new features",
+                    imgSrc: "",
+                },
+            ],
+        },
+        benefits2: {
+            title: `Principles of Effective SaaS Development`,
+            description: `Our SaaS development philosophy follows these important principles:`,
+            benefits: [
+                {
+                    title: "Goal alignment and communication",
+                    description: "Good SaaS products are the result of collaboration. It’s important to work together with our clients to create the best possible product.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Agile development",
+                    description: "Agile development allows us to remain fast and flexible as we learn about your product and evolve.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Ongoing support",
+                    description: "SaaS development should be a long-term partnership. We’re here to help you manage your product well into the future",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Minimalismg",
+                    description: "We prioritize building minimum viable products; if they become too complex or too unwieldy, their launch will be delayed, stifling your revenue and feedback cycle",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Prototyping and testing",
+                    description: "Thorough prototyping and testing allow us to catch mistakes and weaknesses early, long before they run the risk of affecting your business.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact With DEV.CO",
+                    description: `Want to learn more about how DEV.co can help you build your SaaS business?<br>
+                    Contact us today for a free quote, or a free consultation!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+    },
+
+    {
+        id: 11,
+        slug: "project-management",
+        sub_title: "services",
+        bannericon: "/images/ProjectManagement.svg",
+        top_title: "Project Management Services",
+        top_description:`Project management is vital for your organization to succeed. You need project managers who are capable of allocating resources, managing tasks, and supervising your projects through to completion. But if you’re suffering from a lack of project managers, or if your project management team is undertrained or unskilled, your entire organization could be at risk.<br></br>
+
+       With the help of our project management services, we can give your organization the project managers and project management training it needs to thrive.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "How can a project management consultant improve your project management approach?",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `For some clients, this means directly providing senior project managers who can see your projects through to completion. You provide the projects, and we provide the experts who can get those projects done, on time and under budget.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "How a Project Management Consultant Can Help",
+            description: `For other clients, that means providing your existing project managers with the tools they need for success, including:`,
+
+            benefits: [
+                {
+                    title: "Training and workshopping",
+                    description: "Good project managers have years of training and experience in the field. At DEV.co, we’ll work with your project managers to teach them the fundamentals of project management with realistic scenarios and workshops",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Past project analysisn",
+                    description: "Chances are, you’ve seen many projects go wrong, with budgeting issues, delivery delays, and other problems. We’ll take a deep, analytic dive to figure out why these projects went wrong, so you can manage future projects better.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Ongoing education and support",
+                    description: "After our initial consultations, we’ll provide your project managers with ongoing education and support, giving them further training, answering questions, and supporting your business’s latest projects.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "The Goals of Project Management",
+            description: `At DEV.co, we think of successful project management as unfolding with five main goals:`,
+            card_datas: [
+                {
+                    title: "Finish on time",
+                    description: "Adhering to a deadline sometimes means the difference between total success and total failure. Even in less extreme circumstances, your ability to hit a deadline has a massive impact on client trust. It’s imperative you’re able to finish your projects on time",
+                    imgSrc: "",
+                },
+                {
+                    title: "Stay within budget",
+                    description:`Of course, you’ll also have to stay within budget. When projects spiral out of control, demanding more resources and further costs, their profitability is completely jeopardized. Successful project management also means staying well within your allotted budget, or even falling below projected costs`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Meet the project requirements",
+                    description: `Each project should come with its own list of requirements and goals; sometimes that means digging to figure out exactly what the client wants (or what your company needs). In any case, all those core requirements should be met, or should only be compromised to serve a higher goal`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Keep customers happy",
+                    description: "If you finish on time, on budget, and meet the project requirements in full, you should end up with happy customers no matter what. But it’s still important to communicate with clients along the way, and work with them to make sure they stay involved in the process.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Keep workers happy",
+                    description: "Additionally, you should strive to keep morale high among your employees, contractors, and vendors. An unhappy team will lead to an inferior product, and possibly future performance issues.",
+                    imgSrc: "",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact DEV.CO Today!",
+                    description: `Is your project management team in need of extra training or support?<br>
+                    Do you have a mission-critical project that needs an experienced project manager at the helm? Contact DEV.co today for a free quote on our project management consulting services, or to learn more about how we can help!.`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+    },
+
+    {
+        id: 12,
+        slug: "api",
+        sub_title: "services",
+        bannericon: "/images/APIDevelopment.svg",
+        top_title: "API Development and Integration Consulting",
+        top_description:`APIs can instantly make your product more robust and more valuable to your customers.<br></br>
+
+      With the right API (Application Programming Interface) in place, a core software product can become much more useful, drawing data from or providing data to other sources.<br></br>
+      You may also sell a specific API as a standalone product.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Finding an API Development and Integration Consulting Partner",
+                description: `If you want to solve all of these problems simultaneously, the best course of action is to work with a trustworthy and experienced API developer and integration consultant.`,
+                
+            },
+            {
+                title: "",
+            description: `With an expert API developer to help you analyze your API design, needs, and develop an API, you’ll be far more likely to achieve your goals.<br></br>
+            Additionally, not only can they make your product more powerful and versatile, but they also open up diverse ways to earn money. For example, you might sell a specific API as its own standalone product, giving other businesses and developers access to your tech’s features or data. By offering an API to others, you foster innovation and help create a robust API developer community built around your core product.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "What Makes an Effective API?",
+            description: `A solid API necessitates the following qualities, at a minimum:`,
+
+            benefits: [
+                {
+                    title: "Functionality",
+                    description: "Your API needs to work efficiently, making all relevant data available without glitches or interruptions.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Simplicity",
+                    description: "An ideal API is also simple, without wasted lines of code or unnecessary functionality.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Reliability",
+                    description: "Will your API work in complex scenarios, or under pressure? It needs to be reliable.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Scalability",
+                    description: "Your API should support functionality at multiple different scales.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Security",
+                    description: "APIs can be a security vulnerability, so make sure yours is designed with security in mind.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "Our API Development and Integration Process",
+            description: `Every API development project is different, and every team will have unique needs.
+            That’s why we follow this process to maximize our potential value:`,
+            card_datas: [
+                {
+                    title: "Needs assessment",
+                    description: "First, we’ll work with you to evaluate your current needs, which may include an analysis of your core product.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Planning",
+                    description:`Next, we’ll collaborate on a plan for how to develop and implement your desired API. This will also include putting together a timeline.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Development and execution",
+                    description: `Depending on your needs, we can help your team develop an API, or develop one using our own resources, or some combination of the two. In any case, we’ll work hard to make sure you get access to the API product you need as quickly as possible.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Ongoing support",
+                    description: "We also provide all our clients with ongoing support, ensuring your API works as intended and issuing changes or updates wherever necessary to ensure functionality.",
+                    imgSrc: "",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        Textblockfull:{
+            sectionData:[
+                {
+                  title: "Streamline Your Systems With Our Expert API Development and Integration Consulting",
+                  description: `If you’re curious about APIs and how they can help streamline your systems, you’ve come to the right place. Here’s a rundown of just some of the things that APIs can do:<br></br>
+                  – Help different programs “talk” to one another: With APIs, software applications can communicate with each other even if they use different languages or platforms. This means teams across an organization get to have a shared view of what’s going on.<br></br>
+                  – Automate repetitive tasks: With the magic of APIs at play, manual obligations like data entry and reporting become automated, saving time and energy while increasing accuracy.<br></br>
+                  – Boost accessibility to data: By standardizing interaction mechanisms with APIs, API developer find it easier when building new apps – businesses benefit from better access and insights into their own information as well.<br></br>
+                  – Heighten security measures: API-based security controls make sure only authorized people can access sensitive information.<br></br>
+
+                Why use them? Check out these benefits:<br></br>
+
+                – Increased efficiency: Integrating multiple systems together using automation saves work hours leading up to improved operational processes (think inventory management or real-time CRM updates). Modernizing with APIs makes your business operate smoother than ever before.<br></br>
+
+                – Enhanced flexibility: An environment built by integrating several systems together will create greater possibilities across many industries. Smarter inventory management or real-time CRM updates are just a couple of examples of the cool stuff it can do.<br></br>
+
+                – Reduced costs: APIs automate repetitive tasks like data entry and reporting making it more affordable to maintain complex tech infrastructures. It also makes information sharing among different departments easier, which leads to lower operational costs overall.<br></br>
+
+                – Improved security: With hackers on the prowl, data breaches have become an ever-present threat in today’s digital age. But worry not! APIs offer ways to add multiple layers of security controls that safeguard valuable data assets from unauthorized access and cyberattacks.<br></br>
+
+                All-in-all, these advantages add up nicely – increased productivity levels, faster response time when tweaking operations or adapting to market changes, and better team collaboration both inside your organization as well as with external partners/vendors while reducing operating expenses.<br></br>
+
+                If you’re looking for ways to streamline your business operations while keeping performance at its peak level – exploring APIs is definitely worth considering!`,
+                },
+              ],
+            },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `Everything starts with a conversation.<br>
+                    If you’re in need of API-related support,<br>
+                    including API development and integration,<br>
+                    contact DEV.co today for a free quote,<br>
+                    or a free consultation to discuss your needs!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+        faqs: {
+            title: "Frequently Asked Questions (FAQs)",
+            description: "",
+            faqs: [
+                {
+                    question: "What is API development ?",
+                    answer: `API (Application Programming Interface) development refers to the process of creating and maintaining APIs. An API developer is responsible for designing, building, and managing APIs. A REST API is a type of API that uses HTTP requests to access data. An API developer use various tools to create and test APIs. Some common tools include URL, Postman, and Swagger.<br></br>
+                    API developer may also use frameworks such as Laravel or Express to help with development. API & development can be a challenging process, but it is important in order to provide users with access to data. By following good design principles and using the right tools, any API developer can successfully create an API.<br></br>
+                    <strong>Hire Dedicated Developers with Custom API Development Skills & Integration Experience</strong> – If you’re looking for a web API developer, you’ve come to the right place. Our web API developer has extensive experience in building and integrating APIs, and can help you get the most out of your web services API development project. <br></br>
+                    We can help you with everything from designing and building your API to integrating it with third-party applications. And because we’re a full-service agency, we can also handle all of your other web development needs, So if you’re looking for a one-stop shop for all your web development needs and API design, contact us today.<br></br>
+                    We’ll be happy to provide a free consultation and quote for your project.`,
+              
+                  },
+                  {
+                    question: "What skills to look for when hiring an API Developer ?",
+                    answer: `When looking to hire an API Developer, there are a few key API development skills to keep in mind. Firstly, the API developer should have experience with web services and be able to design APIs that are both reliable and scalable. Secondly, the API developer should have a good understanding of security standards and be able to implement them into their API design. Finally, the API developer should be able to work with multiple programming languages and frameworks, as well as have a solid understanding of databases and API documentation. By keeping these skills in mind, you can be sure to find the right API Developer for your needs.`,
+              
+                  },
+                  {
+                    question: "How APIs Work?",
+                    answer: `An API is a set of rules that govern how one piece of software can interact with another. In this post, we’ll take a look at how APIs work and why they’re important for businesses. An API is like a contract that describes how two pieces of software will interact with each other. It’s a set of rules that determine how data will be exchanged between the two systems. APIs can be used to allow two pieces of software to communicate with each other, or to allow one piece of software to access data from another<br></br>
+                    When you make a request to an API, you’re asking the API to do something for you. For example, you might ask the API to give you a list of all the users in a system, or to create a new user. The API will then carry out your request and return the data you asked for.<br></br>
+
+                    APIs are important for businesses because they allow businesses to share data and functionality with other businesses or with customers and partners. For example, an e-commerce company might use an API to allow its customers to check the status of their orders, or to allow partner companies to access product data.<br></br>
+
+                    A good API design can make it easy for API developers to integrate two systems and can make it possible to add new features to a system without needing to make changes to the underlying code. This can make it easier and faster for businesses to innovate and adapt to change.`,
+              
+                  },
+                  {
+                    question: "What are APIs used for?",
+                    answer: `<strong>There are many different uses for APIs, but they all have one common goal: to make it easier for developers to access data or functionality from another system or service.</strong><br>
+
+                    One of the most popular uses for APIs is to allow third-party developers to build tools and applications that work with a given service or platform. For example, the Twitter API allows developers to create apps that can post tweets or show a user’s timeline. The Facebook API lets developers build products that integrate with Facebook in various ways, such as adding a “Like” button to a web services or accessing friends’ data.<br></br>
+
+                    APIs can also be used internally by an organization to make it easier for different parts of the company to communicate with each other. For example, a company might have a customer database that is used by its sales, marketing, and customer service departments. An API can be created to allow each of these departments to access the customer data in a standardized way. This can make it easier to develop new features or integrations, and it can also help ensure that data is consistent across different departments.<br></br>
+
+                    API development skills are becoming increasingly important in the web development industry. as more and more companies make their data and functionality available through APIs. If you’re interested in working with web APIs and web development industry, it’s important to understand how they work and how to design them well.`,
+              
+                  },
+                {
+                    question: "What exactly is API development and integration consulting?",
+                    answer: `Essentially, it’s a service that helps businesses construct and incorporate APIs – the fundamental building blocks of modern software architecture.<br></br>
+                   The scope of these services can be pretty broad, but some examples might include:<br></br>
+                   – Analyzing which APIs would work best for your particular business.<br>
+                    – Developing custom-designed APIs from scratch to suit your needs.<br>
+                    – Seamlessly integrating new APIs with your current systems (no need to start over).<br>
+                    – Testing and tweaking the setup process to eliminate any bugs or glitches.<br>
+                    – Providing you with thorough documentation explaining how everything works.<br></br>
+                    Whether you’re totally new to the world of APIs or just looking for ways to enhance what you’ve already have going on, consulting services like these are designed to help guide you through it all!`,
+              
+                  },
+                  {
+                    question: "Why should you consider using API development and integration consulting?",
+                    answer: `First off, if your company doesn’t have the specialized API development skills or knowledge needed to develop and integrate APIs in-house, outsourcing that work can be a smart move. This applies especially if you want to save on time and resources.<br></br>
+
+                    Another plus of working with an API consultant is getting help figuring out which APIs make the most sense for your particular web services needs. With so many options out there, it can be tough to know where to start – but an expert can steer you in the right direction.<br></br>
+
+                    API consultants can also assist with designing and developing truly secure, scalable & reliable APIs that meet complex technical requirements. From testing/debugging to integrating new functionality with existing systems – their expertise ensures smooth operations every step of the way!<br></br>
+
+                    Last but not least, documentation is crucial when it comes to understanding API implementation details down the road. An expert consultant will take care of this aspect, too, ensuring clear output for future reference!`,
+              
+                  },
+                  {
+                    question: "What advantages can you expect from working with API development and integration consulting?",
+                    answer: `Well, for starters – speed! By partnering with API development and integration consultants, you’ll be able to whip up new APIs or integrate existing ones more quickly than if you were doing it solo.<br></br>
+
+                    Additionally, these experts know the ins and outs of developing secure, scalable, and reliable APIs – so you won’t have to worry about any hiccups along the way. That means greater peace of mind as well as a smoother overall process.<br></br>
+
+                    And when it comes to compliance with industry regulations? You guessed it – API specialists can help ensure that your creations are fully compliant across the board.<br></br>
+
+                    Lastly, documentation. It’s all too easy to let documentation fall by the wayside when an exciting project is underway. Luckily, though, working alongside professional developers means that your APIs will get thorough documentation from start to finish – making them easier for everyone involved (including anyone who uses them down the line) to understand.`,
+                  },
+                  {
+                    question: "What is the cost associated with API development and integration consulting?",
+                    answer: `The good news is that the cost can vary quite a bit depending on what exactly your project entails. But in general, going down this road tends to be pretty wallet-friendly – so don’t let budget concerns hold you back from exploring this option!`,
+                  },
+                  {
+                    question: "What are the challenges that come with API development and integration consulting?",
+                    answer: `Well, one major issue is that this field requires a fair bit of technical know-how. You’ll need to have some serious expertise in order to successfully develop and integrate APIs for your clients.<br></br>
+
+                    Beyond that, data security is also a huge concern. Making sure that any sensitive information stays safe and protected from unauthorized access is absolutely critical – so it’s important to be proactive about implementing effective security measures.<br></br>
+
+                    On top of all that! Compliance can be another thorny area for API developers and consultants. Depending on what industry or sector you’re operating in, there may be specific regulations or requirements you’ll need to navigate as you work with different clients.<br></br>
+
+                    All things considered? There’s definitely a lot to juggle when it comes to API development and integration consulting. But with diligence, attention to detail, and solid problem-solving skills, the rewards can certainly make the effort worthwhile!`,
+                  },
+                  {
+                    question: "What are the ways to find a reliable API development and integration consultant?",
+                    answer: `To start, reach out to people in your network – friends, coworkers, or other businesses that have used similar consultants could offer valuable insights and recommendations.<br></br>
+
+                    You can also hit up the ‘ internet. A simple online search will yield plenty of results for API development and integration consultants who specialize in what you need.<br></br>
+
+                    Finally, heading to industry events and conferences is always a smart move – not only will you be able to attend informative sessions about APIs (along with tons of other topics), but you’ll likely meet lots of knowledgeable folks who can recommend solid consulting options based on your specific needs.`,
+                  },
+                  {
+                    question: "What should be my next step?",
+                    answer: `Here are some steps to take if you want to dive deeper:<br></br>
+                    First off, do your research and educate yourself on all the perks that come with API development and integration consulting. That way, you’ll be able to make more informed choices down the line.<br></br>
+
+                    Once you’ve got a good sense of what this field is all about, it’s time to find the right consultant for your particular needs. Take some time to hunt around for someone who has experience tackling projects similar to yours – that way, they can bring solid expertise to help guide your business forward.<br></br>
+
+                    And finally? Don’t wait around too long before getting started on actually developing and integrating those APIs! With the right consultant at hand (and plenty of enthusiasm), the sky’s the limit when it comes to optimizing your company’s tech stack.`,
+                  },
+                  {
+                    question: "What are the different types of API developers out there?",
+                    answer: `Here are the different kinds of API developers:<br></br>
+
+                    First up, full-stack API developers. These folks are essentially responsible for everything from designing and testing an API to implementing it from start to finish.<br></br>
+
+                    Front-end API developers focus on what users actually see when they use an API. These front-end API Developers focus on crafting intuitive user experiences through well-designed interfaces and features. It’s pretty key for front-end API developers to be able to design front-end interfaces that real people can use with relative ease – no confusing jargon or tricky navigation. On top of that, front-end API developers must build intuitive features for users to stick around and actually engage with what they created.<br></br>
+
+                    Back-end API developers work mostly behind the scenes. Back-end developers ensure the data is flowing smoothly between many different types of back-end applications and systems. The back-end developers often deal with databases and cloud infrastructure to keep track of large amounts of information.<br></br>
+
+                    And finally, integration-focused API developers specialize in making sure different APIs can work together seamlessly. Whether through custom connectors or middleware platforms (which help bridge communication between separate systems), these pros know how to get disparate pieces playing nicely together!`,
+                  },
+            ],
+        },
+    },
 
 ];

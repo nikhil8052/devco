@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick.css';  // Import Slick CSS
 import 'slick-carousel/slick/slick-theme.css';  // Import Slick theme CSS
 
 
-export default function ChooseService({title="",description="", mainHeading="", subHeading ="", subHeading1="", chooseData=[]  }) {
+export default function ChooseService({title="",description="", mainHeading="", subHeading ="",  chooseData=[]  }) {
 
 
   console.log( mainHeading , subHeading , " This is the data " )

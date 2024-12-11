@@ -80,9 +80,11 @@ export default function Industryfaqs({ title, description, faqs = [] }) {
                   transitionProperty: 'max-height, opacity',
                 }}
               >
-                <p className="mb-2 text-customwhite text-[16px]">
-                  {faq.answer}
-                </p>
+                {/* Use faq.answer for dangerouslySetInnerHTML */}
+                <p
+                  className="mb-2 text-customwhite text-[16px]"
+                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                />
                 {faq.lists &&
                   faq.lists.length > 0 &&
                   faq.lists.map((list, listIndex) => (

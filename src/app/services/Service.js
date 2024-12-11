@@ -44,13 +44,14 @@ export default function Service({ data }) {
       )}
 
       {/* Benefits */}
-      {skill.benefits?.title && skill.benefits?.description && skill.benefits?.benefits && (
+      {skill.benefits?.title && skill.benefits?.benefits && (
         <Benefits
           title={skill.benefits.title}
           description={skill.benefits.description}
           benefits={skill.benefits.benefits}
         />
       )}
+
 
       {/* SubheadingText */}
       {skill.Subheadingtext?.heading && (
@@ -80,6 +81,14 @@ export default function Service({ data }) {
         />
       )}
 
+  {skill.benefits2 && (
+        <Benefits
+          title={skill.benefits2.title}
+          description={skill.benefits2.description}
+          benefits={skill.benefits2.benefits}
+        />
+      )}
+
       {/* TextblockFull */}
       {skill.Textblockfull?.sectionData && (
         <Textblockfull Textblockdata={skill.Textblockfull.sectionData} />
@@ -103,6 +112,8 @@ export default function Service({ data }) {
         />
       )}
 
+
+
       {/* CombiningCode */}
       {skill.CombiningCodedatas?.CombiningCodedata && (
         <CombiningCode
@@ -110,14 +121,16 @@ export default function Service({ data }) {
         />
       )}
 
-      {/* Industryfaqs */}
-      {skill.faqs?.faqs?.length > 0 && (
+                  {/* Industryfaqs */}
+                  {skill.faqs?.faqs?.length > 0 && (
         <Industryfaqs
           title={skill.faqs.title}
           description={skill.faqs.description}
           faqs={skill.faqs.faqs}
         />
       )}
+
+
     </>
   );
 }

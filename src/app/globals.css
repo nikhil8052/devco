@@ -411,8 +411,22 @@ ul.section_ulli li {
 .form_row .form_col.w-50 {
     width: 50%;
 }
+/* .servicepage_banner img.bubble_bg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 0px;
+    width: 100%;
+} */
 
-
+img.top_left_blue {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    max-width: 55%;
+}
 @media(min-width:1024px){
 .nav_div {
     background-color: transparent !important;
@@ -495,6 +509,10 @@ ul.section_ulli li {
 }
 
 @media(max-width:767px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .locations_grid {
         gap: 20px 0px;
     }

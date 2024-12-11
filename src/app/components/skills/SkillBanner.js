@@ -7,6 +7,25 @@ import { motion } from 'framer-motion';
 const SkillBanner = ({ title = "", description = "", subtitle = "", bannericon = "" }) => {
   return (
     <div className="Skill_banner relative w-full pt-20 pb-20">
+              <motion.div
+          className="banner_bg_dots absolute top-[180px] left-0 right-0 mx-auto z-1"
+          animate={{
+            y: [0, 20, 0], // Moves up and down
+          }}
+          transition={{
+            duration: 4, // Time for one full cycle
+            repeat: Infinity, // Loop the animation
+            ease: "easeInOut", // Smooth ease in and out
+          }}
+        >
+          <Image
+            className="w-[90%] max-w-[1160px] mx-auto"
+            src="/images/Skillsbg.svg"
+            alt="Image"
+            width={1160}
+            height={440}
+          />
+        </motion.div>
       <div className="absolute inset-0 bg-cover bg-center" />
       <div className="container mx-auto text-left flex flex-col items-center justify-center">
         <motion.div

@@ -4,23 +4,41 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const HeroBanner = ({ title = "", description = "", subtitle = "", bannericon = "" }) => {
+const HeroBanner = ({subtitle = "", title = "", description = "", bannericon = "" }) => {
   return (
-    <div className="hero_banner relative w-full pt-20">
-      <div className="absolute inset-0 bg-cover bg-center" />
-      <div className="container mx-auto text-left flex flex-col items-center justify-center">
+    <div className="hero_banner servicepage_banner relative w-full pt-20">
+        <motion.div
+          className="banner_bg_dots absolute top-[0px] left-0 right-0 mx-auto z-1"
+          animate={{
+            y: [0, 20, 0], // Moves up and down
+          }}
+          transition={{
+            duration: 4, // Time for one full cycle
+            repeat: Infinity, // Loop the animation
+            ease: "easeInOut", // Smooth ease in and out
+          }}
+        >
+          <Image
+            className="w-[90%] max-w-[1160px] mx-auto"
+            src="/images/services_inner_bubbles.svg"
+            alt="Image"
+            width={1160}
+            height={440}
+          />
+        </motion.div>
+
+      <div className="container mx-auto text-left flex flex-col items-center justify-center relative z-2">
         <motion.div
           className="relative z-2 banner_content max-w-2xl"
           initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
           animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          {/* Subtitle */}
-          {subtitle && (
+            {subtitle && (
             <motion.p className='papge_subtitle text-[14px] md:text-[18px] sm:text-[14px] capitalize text-center'>
               {subtitle}
             </motion.p>
-          )}
+            )}
 
           {/* Title */}
           {title && (
