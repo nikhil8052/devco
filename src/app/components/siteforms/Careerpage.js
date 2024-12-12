@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 
 const Careerpage = () => {
-  const [fileName, setFileName] = useState(''); // State to store the file name
+  const [fileName, setFileName] = useState('');
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
-      setFileName(file.name); // Set the file name
+      setFileName(file.name); 
     }
   };
   return (
@@ -133,7 +133,7 @@ const Careerpage = () => {
                           </label>
                         </div>
                         {fileName && (
-                          <p className="mt-2 text-sm text-gray-500">Selected file: {fileName}</p> // Display the selected file name
+                          <p className="mt-2 text-sm text-white-500">Selected file: {fileName}</p> // Display the selected file name
                         )}
                       </div>
                     </div>

@@ -90,12 +90,23 @@ const Newbanner = ({ subtitle = "", title = "", description = "", bannerImage = 
           {/* Description */}
           {description && (
             <motion.p
-              className="banner_text text-[14px] md:text-[18px] sm:text-[14px] opacity-[70%] font-normal text-customwhite mb-8"
-              initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
-              animate={{ opacity: 0.7, y: 0, filter: 'blur(0px)' }}
-              transition={{ duration: 1, delay: 0.7 }}
-              dangerouslySetInnerHTML={{ __html: description }}
-            />
+            className="banner_text text-opacity-70 text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8 p-5 md:p-10 md:pt-[50px] xl:pt-[80px] 2xl:pt-[110px]"
+            style={{
+              backgroundImage: `url('/images/skilltext-bg.svg')`,
+              backgroundColor: 'rgba(0, 0, 0, 0.25)',
+              borderTop: '1px solid',
+              borderImageSlice: 1,
+              borderImageSource: 'linear-gradient(90deg, #000000 0%, #4353FF 50%, #000000 100%)',
+              backgroundSize: 'contain',
+              backgroundPosition: 'top',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '8px',
+            }}
+            initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
+            animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+            transition={{ duration: 1, delay: 0.7 }}
+            dangerouslySetInnerHTML={{ __html: description }}
+          ></motion.p>
           )}
 
           {/* Learn More Button */}

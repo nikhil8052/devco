@@ -486,6 +486,12 @@ img.top_left_blue {
     font-weight: 700;
     opacity: 1;
 }
+.faq_section {
+    background-position: center bottom;
+}
+.form_page {
+    background-position: center bottom;
+}
 
 
 
