@@ -109,13 +109,16 @@ export default function Home() {
             <div className="locations_grid">
                 {locations.map((location, index) => (
                 <div className="location_col" key={index}>
-                    <a href={`/locations/${location.name.toLowerCase()}`} className="location_box">
-                        <div className="location_thumb">
-                            <img src={location.image} alt={location.name} />
-                        </div>
-                        <div className="location_text">
-                            <h3>{location.name}</h3>
-                        </div>
+                    <a
+                      href={`https://web.dev.co/${location.name.toLowerCase().replace(/ /g, "-")}`}
+                      className="location_box" target="_blank"
+                    >
+                      <div className="location_thumb">
+                        <img src={location.image} alt={location.name} />
+                      </div>
+                      <div className="location_text">
+                        <h3>{location.name}</h3>
+                      </div>
                     </a>
                 </div>
                 ))}

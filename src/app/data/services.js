@@ -3,9 +3,10 @@ export const services = [
         id: 1,
         slug: "web",
         subtitle: "Services",
+        bannerImage:"/images/WebDevelopment.png",
         bannericon: "/images/Web Development.svg",
         top_title: "Web Development Company",
-        top_description: `If your current website design is outdated, needs an overhaul, or you'd like to start from scratch, we're here to help. Our professional web development and web design team has decades of experience developing custom websites, web pages and web applications across multiple programming languages. Whether you need front end developers or back end web developers, our our team of full stack software developers has you covered.
+        top_description: `If your current website design is outdated, needs an overhaul, or you’d like to start from scratch, we’re here to help. Our professional web development and web design team has decades of experience developing custom websites, web pages and web applications across multiple programming languages. Whether you need front end developers or back end web developers, our our team of full stack software developers has you covered.
         <br></br>
         Mobile and web development company, DEV.co, offers web development services that include website development, web design, digital marketing, and SEO. Our team of experienced web developers can help you create a website that meets your needs and exceeds your highest expectations.`,
         startups: {
@@ -19,15 +20,17 @@ export const services = [
             BorderTextdata:[
                 {
                 title: "Full-stack web development solutions are more than aesthetics",
-                description: `A successful web developer is very different and more than just a web designer. Your custom web application will also needs user-friendly navigation and well-organized content and an unmatched user flow. Your back end development needs to be as good as your design. In short, you need software programmers with the ability to create dynamic websites. Without these elements your users, and especially your new visitors, won't likely return. As one of the top web development companies, other digital agencies look to our technical expertise in building their own custom web applications.`,
+                description: `A successful web developer is very different and more than just a web designer. Your custom web application will also needs user-friendly navigation and well-organized content and an unmatched user flow. Your back end development needs to be as good as your design. In short, you need software programmers with the ability to create dynamic websites. Without these elements your users, and especially your new visitors, won’t likely return. As one of the top web development companies, other digital agencies look to our technical expertise in building their own custom web applications. `,
                 
             },
             {
                 title: "",
             description: `Consider the following stats on web development agencies regarding the important of a quality web experience:<br>
-            It takes website visitors 50 milliseconds to form an opinion about your company based on your website design.<br>
-            38% of visitors will bounce if your site design is unattractive.<br>
-            44% of visitors will bounce if they can't find your contact information.`,
+            <ul>
+            <li>It takes website visitors 50 milliseconds to form an opinion about your company based on your website design.</li>
+            <li>38% of visitors will bounce if your site design is unattractive.</li>
+            <li>44% of visitors will bounce if they can't find your contact information.</li>
+            </ul>`,
             }
             ]
           },
@@ -37,42 +40,104 @@ export const services = [
             We create websites with a combination of front end development and technical back end support. In doing so, we focus on the following critical elements:`,
             benefits: [
                 {
-                    title: "Save TimeHigh search visibility",
-                    description: "High-performing websites and dynamic web pages come up in search results on the major search platforms like Google, Bing, and Yahoo. Nearly 90% of people use a search engine to find what they're looking for. You're losing money each day you're not visible in the major search engines. When creating a website, it is important to make sure the site is highly visible to your target audience. At DEV.co, we focus on the following from the outset of the web development process: Build with search engine optimization (SEO) in mind in order to make your site more visible in search engine results pages Make sure your site is easy to find and navigate and includes the proper sitemap and is synced with Google Search Consold (GSC Use high-quality (preferably custom) images and videos on your site Create compelling written content that will engage and inform your audience on your products and services",
+                    title: "High search visibility",
+                    description:`High-performing websites and dynamic web pages come up in search results on the major search platforms like Google, Bing, and Yahoo. Nearly 90% of people use a search engine to find what they’re looking for. You’re losing money each day you’re not visible in the major search engines.<br></br>
+                    When creating a website, it is important to make sure the site is highly visible to your target audience.<br></br>
+                    At DEV.co, we focus on the following from the outset of the web development process:
+                    <ul>
+                    <li>Build with search engine optimization (SEO) in mind in order to make your site more visible in search engine results pages.</li>
+                    <li>Make sure your site is easy to find and navigate and includes the proper sitemap and is synced with Google Search Consold (GSC)</li>
+                    <li>Use high-quality (preferably custom) images and videos on your site</li>
+                    <li>Create compelling written content that will engage and inform your audience on your products and services</li>
+                    </ul>`,
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
                     title: "Mobile-friendly design",
-                    description: "More than 57% of people search for content using a mobile device and in 2018, 63% of all paid Google search clicks originated from a mobile device. If your website isn't mobile-friendly and doesn't perform like most mobile apps, you're losing the majority of your leads that come from smaller screen sizes. So, how do web development companies like DEV.co make their clients' websites mobile-friendly? One way is by using responsive design. With responsive design, the layout of a website can change depending on the size of the screen it is being viewed on. This means that no matter what device you are using, you will always have a clear and easy-to-use website. Another way we create mobile-friendly is by using adaptive web design. With adaptive design, the layout of a website changes depending on the type of device it is being viewed on. For example, if a website is being viewed on a phone, the layout will be different than if it is being viewed on a laptop. This ensures that all users have the best possible experience when visiting your website. So, which approach should you use for your website? It really depends on your needs and budget. However, both responsive design and adaptive design are great ways to make your website mobile-friendly. We're not just a custom software development company, but we are one of the best mobile app development companies on the market as well.",
+                    description: `More than 57% of people search for content using a mobile device and in 2018, 63% of all paid Google search clicks originated from a mobile device. If your website isn’t mobile-friendly and doesn't perform like most mobile apps, you’re losing the majority of your leads that come from smaller screen sizes.<br></br>
+
+                    So, how do web development companies like DEV.co make their clients' websites mobile-friendly? One way is by using responsive design. With responsive design, the layout of a website can change depending on the size of the screen it is being viewed on. This means that no matter what device you are using, you will always have a clear and easy-to-use website.<br></br>
+
+                    Another way we create mobile-friendly is by using adaptive web design. With adaptive design, the layout of a website changes depending on the type of device it is being viewed on. For example, if a website is being viewed on a phone, the layout will be different than if it is being viewed on a laptop. This ensures that all users have the best possible experience when visiting your website.<br></br>
+
+                    So, which approach should you use for your website? It really depends on your needs and budget. However, both responsive design and adaptive design are great ways to make your website mobile-friendly. We're not just a custom software development company, but we are one of the best mobile app development companies on the market as well.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
                     title: "Secure data transmission",
-                    description: "Data security is critical, especially for ecommerce websites. High-performing sites use SSL to encrypt data like credit card numbers, email addresses, and personal information to make visitors feel confident and secure. But our cybersecurity in web development is more than just an SSL. We offer government level security encryption, for web apps that require higher security measures. As web developers, we are responsible for ensuring the security of data transmission on our client web projects. We take into account a variety of factors, such as the type of data being transmitted, the level of security required, and the environment in which the data will be used. Data can be classified into two categories: sensitive and nonsensitive. Sensitive data is any information that could potentially cause harm if it were to fall into the wrong hands. Nonsensitive data is less sensitive and doesn't pose as much of a risk if it were to be leaked. When it comes to securing data, we take a layered approach. This means using a variety of security measures to protect data at every stage of its life cycle. Some common security measures include: password protection, encryption, firewalls, antivirus software, and data loss prevention (DLP) software Web developers also need to be aware of the different types of attacks that can be launched against their websites. Some common attacks include: SQL injection Cross-site scripting Phishing attacks Malware attacks DEV.co's web development agency can help secure your web project with an experienced web development services team and comprehensive security solutions.",
+                    description: `Data security is critical, especially for ecommerce websites. High-performing sites use SSL to encrypt data like credit card numbers, email addresses, and personal information to make visitors feel confident and secure. But our cybersecurity in web development is more than just an SSL. We offer government level security encryption, for web apps that require higher security measures.<br></br>
+
+                    As web developers, we are responsible for ensuring the security of data transmission on our client web projects. We take into account a variety of factors, such as the type of data being transmitted, the level of security required, and the environment in which the data will be used.<br></br>
+
+                    Data can be classified into two categories: sensitive and nonsensitive. Sensitive data is any information that could potentially cause harm if it were to fall into the wrong hands. Nonsensitive data is less sensitive and doesn't pose as much of a risk if it were to be leaked.<br></br>
+
+                    When it comes to securing data, we take a layered approach. This means using a variety of security measures to protect data at every stage of its life cycle. Some common security measures include: password protection, encryption, firewalls, antivirus software, and data loss prevention (DLP) software<br></br>
+
+                    Web developers also need to be aware of the different types of attacks that can be launched against their websites. Some common attacks include:<br></br>
+                    <ul>
+                    <li>SQL injection</li>
+                    <li>Cross-site scripting</li>
+                    <li>Phishing attacks</li>
+                    </ul>
+                    DEV.co's web development agency can help secure your web project with an experienced web development services team and comprehensive security solutions.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 40,
                 },
                 {
                     title: "Fast loading speed",
-                    description: "One of the most important aspects of any website is its loading time. A slow-loading website can frustrate users and cause them to leave before they even have a chance to see what your website has to offer. When your conversion rate takes a dive, so does your revenue. Some experts estimate that slow-loading websites cause retailers across the country to lose $2.6 billion in sales every year. We focus on Core Web Vitals (CWV) to ensure your web app loads smoothly without interruption. Here are a few ways we can help make your website load faster: 1. Use a web hosting service provider that is optimized for site speed 2. Use a caching plugin to store a copy of your website's pages in the visitor's browser 3. Minimize the use of images and videos on your website 4. Make sure all of your files are properly compressed 5. Use a content delivery network (CDN) to serve your website's files from multiple servers around the world 6. Optimize your website's code for faster loading times 7. Strip out any unnecessary code or plugins",
+                    description:`One of the most important aspects of any website is its loading time. A slow-loading website can frustrate users and cause them to leave before they even have a chance to see what your website has to offer. When your conversion rate takes a dive, so does your revenue. Some experts estimate that slow-loading websites cause retailers across the country to lose $2.6 billion in sales every year. We focus on Core Web Vitals (CWV) to ensure your web app loads smoothly without interruption.<br></br>
+
+                    Here are a few ways we can help make your website load faster:<br>
+                    <ul>
+                    <li> Use a web hosting service provider that is optimized for site speed</li>
+                    <li>Use a caching plugin to store a copy of your website’s pages in the visitor’s browser</li>
+                    <li> Minimize the use of images and videos on your website</li>
+                    <li>Make sure all of your files are properly compressed</li>
+                    <li>Use a content delivery network (CDN) to serve your website’s files from multiple servers around the world</li>
+                    <li>Optimize your website’s code for faster loading times</li>
+                    <li>Strip out any unnecessary code or plugins</li>
+                    </ul>`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 35,
                 },
                 {
                     title: "Clear calls to action (CTAs)",
-                    description: "A clear CTA tells visitors exactly what to do. For instance, should they call you, sign up for a free demo, or join your email list? A clear CTA including in your website's layout will leave no room for confusion. There are a few things we work with you to implement to create effective CTAs: Use strong, catchy text Make your CTA stand out visually Place your CTA in a prominent location Use color and contrast to draw attention to your CTA Keep your CTA simple and easy to understand Use clear and concise language Use action-oriented verbs Test different CTA designs to see what works best",
+                    description: `A clear CTA tells visitors exactly what to do. For instance, should they call you, sign up for a free demo, or join your email list? A clear CTA including in your website's layout will leave no room for confusion. There are a few things we work with you to implement to create effective CTAs:<br>
+                     <ul>
+                    <li>Use strong, catchy text</li>
+                    <li>Make your CTA stand out visually</li>
+                    <li>Place your CTA in a prominent location</li>
+                    <li>Use color and contrast to draw attention to your CTA</li>
+                    <li>Keep your CTA simple and easy to understand</li>
+                    <li>Use clear and concise language</li>
+                    <li>Use action-oriented verbs</li>
+                    <li>Test different CTA designs to see what works best</li>
+                    </ul>`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 35,
                 },
             ],
         },
+
+        Textblockfull:{
+            sectionData:[
+                {
+                  title: "Get the edge over your competition with a quality website from an experienced custom software development company",
+                  description: `If your website is outdated, needs an overhaul, or you’d like to start from scratch, we’re here to help. Our web professionals have years of experience developing custom websites that serve as profitable digital marketing and operational assets for your business. <br></br>
+
+                    We work with all kinds of businesses in different industries, including small and enterprise organizations. Our expert software developers know precisely how to target your industry and speak to your market with a design that will capture and hold the attention of your users.<br></br>
+
+                    As a top software development company, we have experience across the tech stack when it comes to building your custom online application. Our web development firm can work with a variety of popular platforms and programming languages, including hypertext markup language (HTML), cascading style sheets (CSS), PHP, JavaScript, MySQL, Python, React.js and much more! `,
+                },
+              ],
+            },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -126,10 +191,19 @@ export const services = [
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Software Development Staffing: A Partnership",
-                    description: `At DEV.co, we see software development and IT staffing as a partnership.<br>
-                    It's our job to help you achieve your goals, whatever they may be.<br>
-                    If you're interested in learning more about our staffing process, or if you're ready for a free quote on our IT staffing services, contact us today!`,
+                    heading: "Stand out with a DEV.co custom website",
+                    description: `A custom website from the best web development company will make your company stand out in a sea of template-based designs.<br>
+                    There’s virtually no limit to what we can accomplish for you with a custom design.<br>
+                    Whether you prefer the familiarity of WordPress, the versatility of Drupal, or want<br>
+                    a completely custom content management system (CMS), we can bring your vision to life.<br></br>
+
+                    When you work with DEV.co, your custom website will be attractive,<br>
+                    well-organized, and will draw visitors back like a magnet.<br></br>
+
+                    Let’s talk about your web development project – contact us today to learn more<br>
+                    about how our web developer services can make your business more profitable.<br></br>
+
+                    Or, if you’re one of many experienced, but aspiring professional web developers that is well beyond just learning programming languages or you already know multiple coding languages and are looking for a new career path, get in touch! As one of the best web development companies on the market, there is likely a fit for your dev services and abilities. `,
                     buttonText: "Tell Us About Your Next Project",
                     onButtonClick: () => alert("Button clicked!"),
                 }
@@ -208,7 +282,9 @@ export const services = [
         sub_title: "services",
         bannericon: "/images/Mobile Development.svg",
         top_title: "Mobile Development Company",
-        top_description: `Today’s consumers are relying on mobile apps for nearly all their personal and professional needs. If your business doesn’t yet have a mobile app, or if you’re considering developing a mobile app as part of a new business venture, you’ll need an experienced mobile development company to help you construct the app you need.`,
+        top_description: `Today’s consumers are relying on mobile apps for nearly all their personal and professional needs. If your business doesn’t yet have a mobile app, or if you’re considering developing a mobile app as part of a new business venture, you’ll need an experienced mobile app development company to help you construct the app you need.<br></br>
+
+        With so many mobile app development companies available, it’s crucial to choose the right partner. Skilled mobile app developers can transform your ideas into a fully functional application that meets your unique business requirements. The right app development company will also provide comprehensive app development services to ensure your app is engaging, efficient, and user-friendly.`,
 
         startups: {
             title: "Web Development & Software Engineering",
@@ -238,14 +314,14 @@ export const services = [
             benefits: [
                 {
                     title: "Creativity",
-                    description: "Good mobile apps follow standard best practices, but also incorporate creative new elements. Creativity is present in both the aesthetics and the functionality of the app.",
+                    description: "Good mobile apps follow standard best practices, but also incorporate creative new elements. Whether you’re embarking on a new app development project or enhancing an existing one, collaborating with the right app development companies can make all the difference.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
                     title: "Intuitiveness",
-                    description: "Successful mobile apps are also easy to learn and use. Users should be able to understand how your app works almost immediately, with minimal instruction.",
+                    description: "Successful mobile apps are also easy to learn and use. Users should be able to understand how your app works almost immediately, with minimal instruction. Partnering with experienced mobile app developers ensures that your app is designed intuitively while maintaining high functionality.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -296,17 +372,18 @@ export const services = [
                 "Android app development.",
                 "Windows app development.",
                 "Xamarin app development.",
+                "PhoneGap app development.",
                 "Mobile web app development.",
-                "Mobile platform migration.",
-                "Custom reporting and integrated dashboards",
+                "Progressive web app (PWA) development.",
             ],
             list2: [
                 "Native and cross-platform app testing, maintenance, and support.",
                 "Native and cross-platform app improvement.",
                 "Data migration.",
-                "PhoneGap app development.",
+                "Mobile platform migration.",
                 "Progressive web app (PWA) development.",
                 "App reengineering.",
+                "Custom reporting and integrated dashboards",
 
             ],
         },

@@ -1,7 +1,7 @@
 'use client';
 
 import StartUps from "@/app/components/Services/StartUps";
-import HeroBanner from "@/app/components/Services/HeroBanner";
+import Newbanner from "@/app/components/Services/Newbanner";
 import Bordertextsection from "@/app/components/industry/Bordertextsection";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 import Benefits from "@/app/components/Services/Benefits";
@@ -18,11 +18,11 @@ export default function Service({ data }) {
   return (
     <>
       {/* HeroBanner */}
-      <HeroBanner
+      <Newbanner
         subtitle={skill.subtitle}
         title={skill.top_title}
+        bannerImage={skill.bannerImage}
         description={skill.top_description}
-        bannericon={skill.bannericon}
       />
 
       {/* StartUps */}
