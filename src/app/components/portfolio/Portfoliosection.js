@@ -1,17 +1,23 @@
 import React, { useState } from "react";
-import Image from 'next/image';
 
-const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
-  const [selectedItem, setSelectedItem] = useState(null); // Track selected portfolio item
+const Portfoliosection = ({ portfolioItems, portfoliotabs }) => {
+  const [activeTab, setActiveTab] = useState("All");
+  const [selectedItem, setSelectedItem] = useState(null); // Track the selected portfolio item
   const [showModal, setShowModal] = useState(false); // Control modal visibility
+
+  // Filter items based on activeTab
+  const filteredItems =
+    activeTab === "All"
+      ? portfolioItems
+      : portfolioItems.filter((item) => item.category === activeTab);
 
   // Handle form submission
   const handleFormSubmit = (e) => {
     e.preventDefault();
     // Trigger download of case study PDF
     const link = document.createElement("a");
-    link.href = `/images/${item.title}.pdf`; // Replace with the actual PDF path
-    link.download = `${item.title}-CaseStudy.pdf`;
+    link.href = `/images/${selectedItem.title}.pdf`; // Replace with the actual PDF path
+    link.download = `${selectedItem.title}-CaseStudy.pdf`;
     link.click();
 
     // Close the modal
@@ -26,80 +32,70 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   };
 
   return (
-    <div className="portfolio_section py-10 md:py-20">
+    <div className="portfoliodwn_section py-20">
       <div className="container mx-auto">
-        <div className="portfolio_grid flex justify-between gap-5">
-          {/* Portfolio Column 1 */}
-          <div className="portfolio_col portfolio_col1 md:w-[50%] w-[100%]">
-            {portfolioCol1.map((item, index) => (
-              <div className="portfolio_box" key={index}>
-                <div className="box_inner">
-                  <div className="box_logo">
-                    <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                  </div>
-                  {item.gridLogo && (
-                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-                    </div>
-                  )}
-                  <div className="box_text">
-                    <h3>{item.title}</h3>
-                    <div className="download_div">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          setSelectedItem(item); // Set selected item
-                          setShowModal(true); // Show modal
-                        }}
-                      >
-                        <Image
-                          src="/images/downloadcaseimage.svg"
-                          width={100}
-                          height={100}
-                          alt="Download Case Study"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+        <div className="tab_section">
+          <div className="section_head mb-8 text-center">
+            <h4>Software Development Work Portfolio</h4>
           </div>
-          {/* Portfolio Column 2 */}
-          <div className="portfolio_col portfolio_col2 lg:w-[50%] w-[100%]">
-            {portfolioCol2.map((item, index) => (
-              <div className="portfolio_box" key={index}>
-                <div className="box_inner">
-                  <div className="box_logo">
-                    <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                  </div>
-                  {item.gridLogo && (
-                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-                    </div>
-                  )}
-                  <div className="box_text">
-                    <h3>{item.title}</h3>
-                    <div className="download_div">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          setSelectedItem(item); // Set selected item
-                          setShowModal(true); // Show modal
-                        }}
-                      >
-                        <Image
+          <div className="mb-10 tab_btn_wrapper border-gray-200 dark:border-gray-700">
+            <div className="tab_list_wrapper">
+              <ul className="tab_list flex flex-wrap -mb-px text-sm font-medium text-center">
+                {portfoliotabs.map((tab, index) => (
+                  <li key={index} className="me-2" role="presentation">
+                    <button
+                      className={`inline-block p-4 rounded-t-lg ${
+                        activeTab === tab ? "active" : "inactive"
+                      }`}
+                      onClick={() => setActiveTab(tab)}
+                    >
+                      {tab}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div className="tab_content">
+              <div className="portfolio_tab_box">
+                {filteredItems.map((item, index) => (
+                  <div
+                    key={index}
+                    className="portfolio_tablock cursor-pointer"
+                    onClick={() => {
+                      setSelectedItem(item);
+                      setShowModal(true);
+                    }}
+                  >
+                    <div className="portfolio_tab_row">
+                      <div className="portfol_icon">
+                        <img src={item.icon} alt={item.title} />
+                        <div className="case_name">
+                          <h4>{item.title}</h4>
+                        </div>
+                      </div>
+                      <div className="case_categry">
+                        <h4>{item.category}</h4>
+                      </div>
+                      <div className="case_button">
+                        <img
                           src="/images/downloadcaseimage.svg"
                           width={100}
                           height={100}
                           alt="Download Case Study"
                         />
-                      </a>
+                      </div>
                     </div>
                   </div>
-                </div>
+                ))}
+                {filteredItems.length === 0 && (
+                  <div className="text-center text-gray-500">
+                    No items available for this category.
+                  </div>
+                )}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
@@ -169,4 +165,4 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   );
 };
 
-export default Portfoliomain;
+export default Portfoliosection;

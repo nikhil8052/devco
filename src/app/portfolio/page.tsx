@@ -3,7 +3,8 @@ import AnimatedBanner from '@/app/components/portfolio/AnimatedBanner';
 import CombiningCode from "@/app/components/homepage/CombiningCode";
 import Portfoliomain from "@/app/components/portfolio/Portfoliomain";
 import ClientCount from '@/app/components/homepage/ClientCount';
-import { portfolio } from "@/app/data/portfolio";
+import Portfoliosection from '@/app/components/portfolio/Portfoliosection';
+import { portfolio, portfolioCol1,portfolioCol2,portfolioItems,portfoliotabs } from "@/app/data/portfolio";
 
 
 export default function Home() {
@@ -17,8 +18,9 @@ return <>
         }}
       >
     <AnimatedBanner/>
-    <Portfoliomain />
+    <Portfoliomain portfolioCol1={portfolioCol1.portfolioColdata} portfolioCol2={portfolioCol2.portfolioColdata} />
     <ClientCount/>
+    <Portfoliosection portfolioItems={portfolioItems.portfolioItemsdata} portfoliotabs={portfoliotabs.portfoliotabsdata}/>
     <CombiningCode CombiningCodedata={portfolio.CombiningCodedata } />
 
 

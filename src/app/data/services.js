@@ -3,7 +3,7 @@ export const services = [
         id: 1,
         slug: "web",
         subtitle: "Services",
-        bannerImage:"/images/WebDevelopment.png",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         bannericon: "/images/Web Development.svg",
         top_title: "Web Development Company",
         top_description: `If your current website design is outdated, needs an overhaul, or you’d like to start from scratch, we’re here to help. Our professional web development and web design team has decades of experience developing custom websites, web pages and web applications across multiple programming languages. Whether you need front end developers or back end web developers, our our team of full stack software developers has you covered.
@@ -280,6 +280,7 @@ export const services = [
         id: 2,
         slug: "mobile",
         sub_title: "services",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         bannericon: "/images/Mobile Development.svg",
         top_title: "Mobile Development Company",
         top_description: `Today’s consumers are relying on mobile apps for nearly all their personal and professional needs. If your business doesn’t yet have a mobile app, or if you’re considering developing a mobile app as part of a new business venture, you’ll need an experienced mobile app development company to help you construct the app you need.<br></br>
@@ -526,6 +527,7 @@ We feel agile development lends itself to more innovative mobile apps, while als
         slug: "apps",
         sub_title: "services",
         bannericon: "/images/App Development.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Application Development Company",
         top_description: `Anyone can create a website these days, but most websites simply provide information. A successful web application, on the other hand, helps a visitor solve a problem.<br></br>
         Web applications can be used to address almost any need. You can build web applications for your business, to be used internally, or you can create a web application to help consumers solve problems. They can be simple or expansive<br>—as long as they solve the problem.
@@ -764,6 +766,7 @@ which typically includes these phases:`,
         slug: "ux-ui",
         sub_title: "services",
         bannericon: "/images/Ui & Ux Design.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "UX/UI Design Consulting",
         top_description: "User experience (UX) plays a direct role in retaining and converting website visitors. Users respond best to an effortless, intuitive experience. However, creating a seamless user experience requires more than having a beautifully designed website. An attractive design is only part of the equation. If you want your visitors to convert, you have to take them on a journey. That journey is guided by a strong user interface (UI).",
         startups: {
@@ -927,6 +930,7 @@ which typically includes these phases:`,
         slug: "technology-architecture",
         sub_title: "services",
         bannericon: "/images/TechnologyArchitecture.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Technology Architecture Consulting",
         top_description:`Your business's technology architecture plays a vital role in your productivity, your operational capacity, your security, and practically every other area of your business's operations.
         <br></br>
@@ -1080,6 +1084,7 @@ These qualities are some of the most important to consider:`,
         slug: "staffing",
         sub_title: "services",
         bannericon: "/images/IT Staffing.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Software Development Staffing Company",
         top_description:`One of the biggest challenges in software development (and IT) is finding the skilled, experienced professionals necessary to see your project to completion. There’s a talent shortage in the tech world, and recruiting takes both time and money.<br></br>
 
@@ -1216,6 +1221,7 @@ These qualities are some of the most important to consider:`,
         slug: "devops",
         sub_title: "services",
         bannericon: "/images/Devops.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "DevOps Services",
         top_description:`DevOps, a combination of “development” and “operations,” is a set of philosophies and processes meant to make it faster and more efficient to develop software. Unfortunately, implementing DevOps practices is a challenge for many existing businesses.<br></br>
 
@@ -1365,6 +1371,7 @@ These qualities are some of the most important to consider:`,
         slug: "testing",
         sub_title: "services",
         bannericon: "/images/QA&Testing.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "QA Software Testing Services",
         top_description:`Before your software launches, you’ll need to comb it carefully for bugs, functional problems, and other technical issues. That’s why quality assurance (QA) testing exists—to make sure your users see the best possible version of your product.<br></br>
 
@@ -1550,6 +1557,7 @@ These qualities are some of the most important to consider:`,
         slug: "mvp",
         sub_title: "services",
         bannericon: "/images/MVPDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Minimum Viable Product (MVP) Software Development",
         top_description:`Many software developers and entrepreneurs spend too much time thinking about how big, complex, or comprehensive they can build a product. In reality, it’s often better to focus on building a smaller product—the minimum product that can still be viable to solve a user problem.<br></br>
 
@@ -1733,6 +1741,7 @@ These qualities are some of the most important to consider:`,
         slug: "saas",
         sub_title: "services",
         bannericon: "/images/SaaSDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "SaaS Development",
         top_description:`Software as a service (SaaS) companies have seen an explosion in popularity over the past decade, as entrepreneurs and software developers have realized the benefits of such a model. However, if you’re new to the SaaS world, or if you don’t have the development resources necessary to build your core product, you may not know where to start.<br></br>
 
@@ -1916,6 +1925,7 @@ These qualities are some of the most important to consider:`,
         slug: "project-management",
         sub_title: "services",
         bannericon: "/images/ProjectManagement.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Project Management Services",
         top_description:`Project management is vital for your organization to succeed. You need project managers who are capable of allocating resources, managing tasks, and supervising your projects through to completion. But if you’re suffering from a lack of project managers, or if your project management team is undertrained or unskilled, your entire organization could be at risk.<br></br>
 
@@ -2061,6 +2071,7 @@ These qualities are some of the most important to consider:`,
         slug: "api",
         sub_title: "services",
         bannericon: "/images/APIDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "API Development and Integration Consulting",
         top_description:`APIs can instantly make your product more robust and more valuable to your customers.<br></br>
 
