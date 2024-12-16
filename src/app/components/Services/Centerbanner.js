@@ -1,8 +1,6 @@
 "use client"; // Add this at the top
 
 import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
 
 const Centerbanner = () => {
   return (
