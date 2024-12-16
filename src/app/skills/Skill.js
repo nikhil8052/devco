@@ -1,6 +1,6 @@
 'use client'
 import Benefits from "@/app/components/Services/Benefits";
-import SkillBanner from "@/app/components/skills/SkillBanner";
+import Newbannerskills from "@/app/components/skills/Newbannerskills";
 import Bordertextsection from "@/app/components/industry/Bordertextsection";
 import Processess from "@/app/components/Services/Processess";
 import CombiningCode from "@/app/components/homepage/CombiningCode";
@@ -11,11 +11,13 @@ import Textblockfull from '@/app/components/Textblockfull';
 
 
 
+
+
 export default function Skill({data}) {
   const skill = data
   return (
     <>
-       <SkillBanner
+       <Newbannerskills
       bannericon={skill.bannericon}
       subtitle={skill.sub_title}
       title={skill.top_title}

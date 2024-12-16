@@ -1,5 +1,6 @@
 import React from 'react';
 import Benefit from "@/app/components/Services/Benefit";
+import Image from "next/image";
 
 export default function Benefits({ title = "", description = "", benefits = [] }) {
   // Check if there's any data to render
@@ -8,8 +9,15 @@ export default function Benefits({ title = "", description = "", benefits = [] }
   return (
     <>
       {hasContent && ( // Conditionally render `benefits_section` if there's data
-        <div className="new_section benefits_section pt-20">
-          <div className="container">
+        <div className="new_section benefits_section pt-20 relative">
+       <Image
+        className="right_eclipsebg absolute bottom-0 right-0 w-1/2"
+        src="/images/right_eclopse.svg"
+        alt="Image"
+        width={1160}
+        height={440}
+      />
+          <div className="container relative z-10">
             {(title || description) && (
               <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
                 {title && (

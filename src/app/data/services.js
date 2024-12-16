@@ -2371,3 +2371,36 @@ These qualities are some of the most important to consider:`,
     },
 
 ];
+
+
+export const firstrowimages = {
+    imagesdata: [
+      { src: "/images/rotarte_icon1.svg", alt: "Logo 1" },
+      { src: "/images/rotarte_icon2.svg", alt: "Logo 2" },
+      { src: "/images/rotarte_icon3.svg", alt: "Logo 3" },
+      { src: "/images/rotarte_icon4.svg", alt: "Logo 4" },
+      { src: "/images/rotarte_icon5.svg", alt: "Logo 5" },
+      { src: "/images/rotarte_icon7.svg", alt: "Logo 6" },
+      { src: "/images/rotarte_icon8.svg", alt: "Logo 7" },
+      { src: "/images/rotarte_icon9.svg", alt: "Logo 8" },
+      { src: "/images/rotarte_icon10.svg", alt: "Logo 9" },
+      { src: "/images/rotarte_icon11.svg", alt: "Logo 10" },
+      { src: "/images/rotarte_icon12.svg", alt: "Logo 11" },
+    ],
+  };
+  export const secondrowimages = {
+    imagesdata: [
+      { src: "/images/rotarte_icon1.svg", alt: "Logo 1" },
+      { src: "/images/rotarte_icon2.svg", alt: "Logo 2" },
+      { src: "/images/rotarte_icon3.svg", alt: "Logo 3" },
+      { src: "/images/rotarte_icon4.svg", alt: "Logo 4" },
+      { src: "/images/rotarte_icon5.svg", alt: "Logo 5" },
+      { src: "/images/rotarte_icon7.svg", alt: "Logo 6" },
+      { src: "/images/rotarte_icon8.svg", alt: "Logo 7" },
+      { src: "/images/rotarte_icon9.svg", alt: "Logo 8" },
+      { src: "/images/rotarte_icon10.svg", alt: "Logo 9" },
+      { src: "/images/rotarte_icon11.svg", alt: "Logo 10" },
+      { src: "/images/rotarte_icon12.svg", alt: "Logo 11" },
+    ],
+  };
+  

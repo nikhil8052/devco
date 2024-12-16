@@ -359,6 +359,10 @@ ul.section_ulli li {
     min-width: 580px;
 }
 
+.skills_page_banner .banner_image_col  img{
+    min-width: inherit;
+}
+
 .form_group input, .form_group textarea, .form_group select {
     padding: 10px 20px;
     background-color: #111218;
@@ -623,6 +627,37 @@ img.top_left_blue {
 .pdf-model h3 {
     font-size: 22px;
 }
+.logo_slider_wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.middle_box {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#00000000, #000000e3);
+}
+.slider_outer:before,.slider_outer::after {
+    content: "";
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 10px 0px 180px 165px  #000000;
+    background-color: #000000;
+}
+.slider_outer::after {
+    left: auto;
+    right: 0px;
+}
+
 
 
 
@@ -651,15 +686,7 @@ img.top_left_blue {
     .text_col_left p {
         font-size: 15px;
     }
-.footer__links_grid .Footer_links_col {
-    flex-basis: 50%;
-}
-.footer__links_grid .Footer_links_col:nth-child(2) {
-    flex-basis: 50%;
-}
-.Footer_links_col:nth-child(2) .flex-col a {
-    WIDTH: 100%;
-}
+
 .card_grid {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
@@ -678,6 +705,12 @@ img.top_left_blue {
 }
 
 @media(max-width:1023px){
+    .footer__links_grid .Footer_links_col {
+    flex-basis: 50%;
+}
+.footer__links_grid .Footer_links_col:nth-child(2) {
+    flex-basis: 50%;
+}
     .banner_row.flex {
         flex-direction: column-reverse;
         padding-bottom: 50px;
@@ -798,6 +831,10 @@ img.top_left_blue {
 }
 
 @media(max-width:575px){
+    .footer__links_grid .Footer_links_col:nth-child(1),.footer__links_grid .Footer_links_col:nth-child(2) {
+        width: 100%;
+        flex-basis: 100%;
+    }
 .startup_section img {
     max-width: 60px;
     width: 100%;
