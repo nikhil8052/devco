@@ -250,6 +250,7 @@ Contact DEV.co for more information or a free consultation today!`,
     {
         id: 2,
         slug: "css",
+        sub_title: "Skills",
         bannericon: "/images/Artificial Intelligence.svg",
         sub_title: "Skills",
         top_title: "Python Development Services",
@@ -984,6 +985,7 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
     {
         id: 4,
         slug: "javascript",
+        sub_title: "Skills",
         top_title: "javascript developpment",
         top_description: "Delivering robust and scalable web solutions tailored to your business needs.",
         startups: {
@@ -1101,63 +1103,86 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
         slug: "android",
         bannericon: "/images/Android.svg",
         top_title: "Android Development Services",
-        top_description: "DEV.co is a company that specializes in custom Android dev & engineering. We have a team of talented developers who are experts in the Android platform. We can help you with your next Android app development project, whether you need an application developed from scratch or you need an existing Android application modified to meet your needs. Contact us today to learn more about our custom mobile app development services, to get an estimate for your project, or to find out how we can help you achieve your goals.<br> Our Dev.co team has years of collective experience developing beautiful and functional Android applications that allow our clients to increase exposure, engagement, and revenue. We take a unique approach to Android application development and engineering services, which enables us to serve you with a high degree of quality and responsiveness that’s unparalleled in the industry.",
+        top_description: `DEV.co is a company that specializes in custom Android dev & engineering. We have a team of talented developers who are experts in the Android platform. We can help you with your next Android app development project, whether you need an application developed from scratch or you need an existing Android application modified to meet your needs. Contact us today to learn more about our custom mobile app development services, to get an estimate for your project, or to find out how we can help you achieve your goals.<br></br>
+        Our Dev.co team has years of collective experience developing beautiful and functional Android applications that allow our clients to increase exposure, engagement, and revenue. We take a unique approach to Android application development and engineering services, which enables us to serve you with a high degree of quality and responsiveness that’s unparalleled in the industry.`,
 
         BorderTextbox: {
             BorderTextdata: [
                 {
                     title: "Android Development & Consulting",
-                    description: ``,
+                    description: `Whether you’re looking for a Android consultant or a fully outsourced team, we’re here to serve you in any capacity.`,
 
                 },
                 {
                     title: "",
-                    description: `Whether you're looking for a Android consultant or a fully outsourced team, we're here to serve you in any capacity.<br>
-            Do you need Android development or consulting? Our expert Android app dev team can be deployed to assist, manage, or tackle your project from start to finish, using Android SDK best practices for optimal outcomes.`,
+                    description: `Do you need Android development or consulting? Our expert Android app dev team can be deployed to assist, manage, or tackle your project from start to finish, using Android SDK best practices for optimal outcomes.`,
                 }
             ]
         },
 
         benefits: {
             title: `Why Choose Android?`,
-            description: `Android is an intuitive and open source mobile operating system with a massive user base of millions of satisfied users. Android app development is a process of creating applications for the Android platform.<br>Google provides the Android SDK (Software Development Kit) to allow developers to create these Android applications.
-Android app development services are needed to make sure that your application is created correctly, and that it will work on all devices that run the Android operating system.<br>Android app developers use the Android SDK to create and test their applications.
-The Android SDK includes a number of tools that help developers with the task of creating and testing their applications.
-One of these is the Android Debug Bridge, which allows developers to connect their devices to their computers and debug their applications.
-Another tool included in the Android SDK is the Android emulator, which allows developers to test their applications on a device that does not have the Android operating system installed.<br>Quality Android developers can help you to create and test your application.
-They can also help you to publish your application to the Google Play store, and to make sure that it is compatible with all devices that run the Android operating system.<br>When it comes to developing mobile applications for business, Android is often the first operating system large corporations and small businesses turn to. Here are a few of the primary reasons why:`,
+            description: `Android is an intuitive and open source mobile operating system with a massive user base of millions of satisfied users. Android app development is a process of creating applications for the Android platform. Google provides the Android SDK (Software Development Kit) to allow developers to create these Android applications. Android app development services are needed to make sure that your application is created correctly, and that it will work on all devices that run the Android operating system.<br></br>
+            
+            Android app developers use the Android SDK to create and test their applications. The Android SDK includes a number of tools that help developers with the task of creating and testing their applications. One of these is the Android Debug Bridge, which allows developers to connect their devices to their computers and debug their applications. Another tool included in the Android SDK is the Android emulator, which allows developers to test their applications on a device that does not have the Android operating system installed.<br></br>
+            Quality Android developers can help you to create and test your application. They can also help you to publish your application to the Google Play store, and to make sure that it is compatible with all devices that run the Android operating system.<br></br>
+            When it comes to developing mobile applications for business, Android is often the first operating system large corporations and small businesses turn to. Here are a few of the primary reasons why:`,
             benefits: [
                 {
                     title: "Massive user base",
-                    description: "While Apple's iOS gets a lot of exposure, Android is the most popular operating system in the smartphone market. It has an estimated 75 to 82 percent market share. The Android user base is huge. There are over 1.4 billion Android users worldwide, and that number is growing every day. This makes Android the most popular mobile operating system in the world. If you are an Android developer, then you will have no trouble finding a job or finding users for your applications.",
+                    description: `While Apple’s iOS gets a lot of exposure, Android is the most popular operating system in the smartphone market. It has an estimated 75 to 82 percent market share.<br></br>
+
+                    The Android user base is huge. There are over 1.4 billion Android users worldwide, and that number is growing every day. This makes Android the most popular mobile operating system in the world. If you are an Android developer, then you will have no trouble finding a job or finding users for your applications.`,
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
                     title: "Open source",
-                    description: "Part of the reason Android is so popular is that it has an open source platform that makes it easy and inexpensive to get started. And with more people using it on the developer side of things, the result is a smoother and more efficient platform that benefits all third party users. The open source nature of Google Android has led to its massive success. There are now millions of applications available for Android, and many of them are free. This wide selection of applications is one of the main reasons why Android is so popular. Open source software has many benefits. It allows developers to learn from each other, it encourages collaboration, and it helps to keep the software stable and secure. The open source nature of Google Android has helped to make it the most popular mobile operating system in the world.",
+                    description: `Part of the reason Android is so popular is that it has an open source platform that makes it easy and inexpensive to get started. And with more people using it on the developer side of things, the result is a smoother and more efficient platform that benefits all third party users.<br></br>
+
+The open source nature of Google Android has led to its massive success. There are now millions of applications available for Android, and many of them are free. This wide selection of applications is one of the main reasons why Android is so popular.<br></br>
+
+Open source software has many benefits. It allows developers to learn from each other, it encourages collaboration, and it helps to keep the software stable and secure. The open source nature of Google Android has helped to make it the most popular mobile operating system in the world.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
                     title: "Highly customizable",
-                    description: "One of the main benefits of Android is that it is highly customizable. This allows users and developers to tweak the operating system to suit their needs. For example, Android allows users to choose from a variety of different wallpapers, icons, and launchers. Android also allows developers to create custom applications for the platform. This wide selection of applications is one of the main reasons why Android is so popular. Open source software has many benefits, and the open source nature of Google Android has helped to make it the most popular mobile operating system in the world. If you can dream it up, there's a pretty good chance that Android can accommodate. Customizable UI and other features make it easy to innovate new apps and tweak/redesign existing ones",
+                    description: `One of the main benefits of Android is that it is highly customizable. This allows users and developers to tweak the operating system to suit their needs. For example, Android allows users to choose from a variety of different wallpapers, icons, and launchers.<br></br>
+
+Android also allows developers to create custom applications for the platform. This wide selection of applications is one of the main reasons why Android is so popular. Open source software has many benefits, and the open source nature of Google Android has helped to make it the most popular mobile operating system in the world.<br></br>
+
+If you can dream it up, there’s a pretty good chance that Android can accommodate. Customizable UI and other features make it easy to innovate new apps and tweak/redesign existing ones`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
                     title: "Simple integration",
-                    description: "One of the best things about Android is that it is so simple to integrate. Because Android is based on the Linux kernel, it is very easy to port applications from Linux to Android. This allows developers to reuse code from their existing applications, which can save time and money. Android also supports a wide variety of programming languages. This allows developers to use their favorite programming language when creating applications for Android. The most popular programming languages for Android are Java, C++, and Python. Android also supports a variety of different development frameworks. This allows developers to use the development framework that they are most comfortable with. Some of the most popular development frameworks for Android are React Native, Ionic, and Xamarin. Because the Android platform is so customizable, it's easy to integrate and tweak mobile apps according to very specific business needs",
+                    description: `One of the best things about Android is that it is so simple to integrate. Because Android is based on the Linux kernel, it is very easy to port applications from Linux to Android. This allows developers to reuse code from their existing applications, which can save time and money.<br></br>
+
+Android also supports a wide variety of programming languages. This allows developers to use their favorite programming language when creating applications for Android. The most popular programming languages for Android are Java, C++, and Python.<br></br>
+
+Android also supports a variety of different development frameworks. This allows developers to use the development framework that they are most comfortable with. Some of the most popular development frameworks for Android are React Native, Ionic, and Xamarin.<br></br>
+
+Because the Android platform is so customizable, it’s easy to integrate and tweak mobile apps according to very specific business needs`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
                     title: "Easy approval",
-                    description: "With Android, you don't have to worry about any of the stringent approval processes that other platforms require in order to take an app to market. This speeds up the development cycle and allows you to go from concept to product in a fraction of the time. However, the Android app approval process can sometimes be a challenging one for developers. In order to get an Android app approved in the Google Play Store, you must first create a Google Play Developer account. This account costs $25 per year, and there is also a $100 one-time fee for publishing your application. Once you have created a Google Play Developer account, you must submit your application for review. Your application will be reviewed by Google's team of reviewers, and they will determine whether or not it is approved for publication. The review process can be difficult and time consuming. Google's team of reviewers will check your application for compliance with their guidelines, and they may ask you to make changes to your application before it is approved. If your application does not comply with Google's guidelines, then it may be rejected. The good news is that Google has recently made the review process easier for developers. They have introduced a new program called 'Developer Preview,' which allows developers to release their applications without waiting for approval from Google's team of reviewers. This program is still in beta, so it may have some bugs, but it is a great way to test your application before submitting it for review.",
+                    description: `With Android, you don’t have to worry about any of the stringent approval processes that other platforms require in order to take an app to market. This speeds up the development cycle and allows you to go from concept to product in a fraction of the time.<br></br>
+
+However, the Android app approval process can sometimes be a challenging one for developers. In order to get an Android app approved in the Google Play Store, you must first create a Google Play Developer account. This account costs $25 per year, and there is also a $100 one-time fee for publishing your application.<br></br>
+
+Once you have created a Google Play Developer account, you must submit your application for review. Your application will be reviewed by Google's team of reviewers, and they will determine whether or not it is approved for publication.<br></br>
+
+The review process can be difficult and time consuming. Google's team of reviewers will check your application for compliance with their guidelines, and they may ask you to make changes to your application before it is approved. If your application does not comply with Google's guidelines, then it may be rejected.<br></br>
+
+The good news is that Google has recently made the review process easier for developers. They have introduced a new program called "Developer Preview," which allows developers to release their applications without waiting for approval from Google's team of reviewers. This program is still in beta, so it may have some bugs, but it is a great way to test your application before submitting it for review.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -1175,23 +1200,23 @@ They can also help you to publish your application to the Google Play store, and
                 {
                     title: "Discover",
                     description: "When we first meet with your team, we’ll ask probing questions to understand who you are and what your big-picture business objectives are. This empowers us to develop an Android application that fully supports your business from the ground up",
-                    imgSrc: "/images/Benefits1.svg",
+                    imgSrc: "",
                 },
                 {
                     title: "Plan",
                     description:
                         "We plan out every step of the process to ensure there are no blind spots. This phase is one of the more critical components in the entire equation (and something most developers gloss over).",
-                    imgSrc: "/images/Benefits2.svg",
+                    imgSrc: "",
                 },
                 {
                     title: "Develop",
                     description: "After we discover and plan, we roll up our sleeves and begin the Android app development process. The goal is to create a lean app that’s both functional and aesthetically pleasing.",
-                    imgSrc: "/images/Benefits3.svg",
+                    imgSrc: "",
                 },
                 {
                     title: "Test",
                     description: "Bugs are a natural part of developing an app, but you don’t have to live with them. Count on us to test and iterate until you have an Android app that works with your business to achieve any and all underlying objectives. With our real time agile development framework and process we implement feedback on bugs issues testing quickly and efficiently.",
-                    imgSrc: "/images/Benefits4.svg",
+                    imgSrc: "",
                 },
             ],
         },
@@ -1340,55 +1365,70 @@ DEV.co offers custom Android apps, developed quickly and affordably.
     {
         id: 6,
         slug: "next-js",
+        sub_title: "Skills",
         bannericon: "/images/Next_js.svg",
-        top_title: "Next Js",
-        top_description: "Node.js is one of the newer server-side platforms around. It’s experiencing rapid adoption among large organizations and is renowned for being simple and easy to use. It’s powered by JavaScript and can be utilized in a variety of environments. Contrary to what many assume, Node.js is not a framework or library. It’s actually a runtime environment, based entirely on Chrome’s V8 JavaScript engine. First introduced in 2009 at the annual European JSConf, Node.js was immediately billed as “the most exciting single piece of software in the current JavaScript universe.” And more than a decade later, it’s still living up to the hype.",
+        top_title: "Next.js Development Services",
+        top_description: `Do you want to craft captivating, custom software solutions? Stop right there, because we are your answer!<br></br>
+        Our experience with Next.js enables us to expertly build user-friendly, responsive web apps that can stand the test of time and workloads. We help companies across the world soar into optimal success- creating completely optimized solutions, guaranteed!`,
 
         BorderTextbox: {
             BorderTextdata: [
                 {
-                    title: "Business Intelligence Development Services",
-                    description: ``,
+                    title: "Effortlessly Connect with a Committed Next.js Developer",
+                    description: `Begin your software application venture with us, and differentiate from the competition as you step easily up to the next level.`,
 
                 },
                 {
                     title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
+                    description: `Our knowledgeable development service team brings output by comprehending each aspect of the Next.js architecture – giving confidence that your ideas will come to fruition.<br></br>
+           Our team combines years of experience with cutting-edge tools to not only deliver stellar user experiences- but also make sure that accelerating implementations are straightforward. By collaborating with us, you get more than just a solution- you gain trust that your project will artfully manifest precisely.`,
                 }
             ]
         },
 
         benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
+            title: `Why Choose Dev.co for Hiring Next.js Developers?`,
+            description: `When it comes to hiring Next.js developers, Dev. co offers a unique and advantageous proposition.
+Here are some of the reasons to choose us for your Next.js development needs:`,
             benefits: [
                 {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
+                    title: "Unmatched Expertise",
+                    description: "Our Next.js team offers proven expertise and years of experience deploying projects with quality and precision. With a deep understanding of the latest trends, our developers deliver successful results every time. Let us help bring your vision into reality.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
+                    title: "Tailored Solutions",
+                    description: "We understand project requirements. Our Next.js developers take a personalized approach, understanding business needs to deliver tailored solutions that fulfil our clients' goals and objectives - whether creating custom web applications, scaling e-commerce architecture, or undertaking any other task with Next.js.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
+                    title: "Agile Development Methodology",
+                    description: "With Dev. co, the agile development methodology is essential to our progress and success. We carefully consider collaboration and communication at every stage of development, ensuring your projects are tailored to suit your needs in a timely manner. As part of this process, we have the ability to adapt quickly able to readily address obstacles or concerns with reliable resolutions that deliver outcomes for our partners.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Comprehensive Skill Set",
+                    description: "Our Next.js developers combine their powerful knowledge of Next.js with versatile, complementary expertise in JavaScript, React, HTML and CSS, allowing them to craft scalar and visually exquisite front-end software solutions. Their complete collection of expansive qualifications will accelerate your intricate projects along the way toward a brilliant future creation!",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Quality Assurance",
+                    description: "Here at every project’s beginning, end, and in-between: quality is our north star. That's why our expert Next.js developers have a staunch priority of adhering to rigorous best practices during development cycles, testing diligently, and abiding by tried-and-true coding standards -all to uphold the reputation of trust deemed upon us when ensuring Security, Reliability, and Performance for your Next.js Application exceed general industry expectations and live up its premium powered promise!",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Client Satisfaction",
+                    description: "Dev.co is passionate about helping our clients exceed their goals and achieving high levels of satisfaction. We work diligently to create success, focusing on proactive communication which allows us to meet deadlines and budgets with unparalleled dedication - delivering outstanding value that sets us apart from our peers in this space.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -1397,101 +1437,88 @@ DEV.co offers custom Android apps, developed quickly and affordably.
             ],
         },
         benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
+            title: `Hiring a Next.js developer from Dev.co can be done in just 4 easy steps`,
+            description: `By following these 4 easy steps, you can hire a skilled Next.js developer from Dev.co.
+We streamline the process to ensure efficiency, quality, and client satisfaction.`,
             benefits: [
                 {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
+                    title: "Define Your Project Needs",
+                    description: "Outline your project plan in detail—scope, objectives, and talents wanted from a Next.js developer. Specify what degree of proficiency and experience you are after attaining.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
+                    title: "Contact Dev.co",
+                    description: "Tap into our channels or web-site —give us a short review of the task and needs to go with it. Our squad will show up patiently ready to support and help take you through the complete operation.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
+                    title: "Project Evaluation and Proposal",
+                    description: "Our Team: Expert Evaluators That Provide Innovative Solutions! Leave the project assessment to us - we'll meld our working knowledge and eager curiosity to customize a timeline, cost-efficiency evaluation, and resource ambition that works for you. Detailed proposals are supplied for every concept considered with input from you so your envisioned objective is at the forefront.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
+                    title: "Collaboration and Kick-off",
+                    description: "Having made your selection of a Next.js developer, we ably manage the onboarding formalities and establish a clear contract. At every step, communication and access to handy project management practicalities guarantee an effortless transition into your project team - working cohesively together at every turn.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
+
 
             ],
         },
 
         Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
+            title: `Why Next.js is a top choice for building modern web applications?`,
+            description: ``,
             card_datas: [
                 {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
-                    imgSrc: "",
+                    title: "Formidable Framework",
+                    description: "When it comes to front-end development, Next.js stands out as a formidable framework with a multitude of advantages that set it apart from the rest. Let's explore why Next.js is a top choice for building modern web applications.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
                 },
                 {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
-                    imgSrc: "",
+                    title: "Server-side Rendering (SSR)",
+                    description: "Next.js affords you the comfort of an expedited, website performance improvement with its built-in solution for server-side rendering. Ultra quick page loads and boosted SEO ensure that places like search engine hubs can locate your site much more easily and deliver a superior web experience - for even the most content-packed websites around.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
-                    imgSrc: "",
+                    title: "Static Site Generation (SSG)",
+                    description: "Next.js enables you to create a robust web presence by leveraging its powerful static site generation feature. Pre-generating page content as HTML, you can vastly boost performance due to their direct serving from a CDN and enjoy remarkable uptime even when your site faces massive traffic floods. Security won't wane either - as these hosted sites promise jaw dropping protection against malicious interferences.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
+                    title: "API Routes",
+                    description: "Next.js revolutionizes backend programming by seamlessly integrating API routes. With Next.js you can design custom serverless endpoints directly into your app-- saying goodbye to traditional standalone servers and ushering in efficient workflow between the front-end and back-end sections of your project. Get ready to experience how helpful speedy development truly is!",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
-                    imgSrc: "",
+                    title: "Excellent Developer Experience",
+                    description: "Next.js facilitates remarkable productivity for developers, designed with functions like HMR, fast refresh, and automated compilation. Enabling speedy iteration, the technology minimizes development effort while amazingly accelerating faster delivery of rich applications.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
-            ],
-        },
-
-        Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-            ],
-            list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-            ],
-        },
-
-        Textblockfull: {
-            sectionData: [
                 {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
+                    title: "Vast Ecosystem and Community Support",
+                    description: "Next.js is greatly enriched by a passionate development community that furnishes users with an abundance of plugins, pre-made components, and libraries. This vibrant collective makes your coding journey effortless with frequent updates and helpful support loads, allowing Next.js to remain at the forefront of the modern technology landscape.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
             ],
         },
@@ -1548,10 +1575,9 @@ DEV.co offers custom Android apps, developed quickly and affordably.
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
+                    heading: "Are you ready to learn more about Next.js development?",
+                    description: `Or are you interested in a free quote?<br>
+                    Contact DEV.co for more information or a free consultation today!<br>`,
                     buttonText: "Tell Us About Your Next Project",
                     onButtonClick: () => alert("Button clicked!"),
                 }
@@ -1559,26 +1585,41 @@ DEV.co offers custom Android apps, developed quickly and affordably.
         },
 
         faqs: {
-            title: "Our RPA Service Offerings",
+            title: "Frequently Asked Questions About Next.js",
             description: "",
             faqs: [
                 {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
+                    question: "What is Next.js?",
+                    answer: `Next.js is the go-to React framework for building high-performing, server-side rendered and statically generated web apps with supercharged development experiences. Boasting features such as automated code splitting and direct API routing, Next.js offers a streamlined way to craft powerful web applications.`,
 
                 },
                 {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
+                    question: "Why should I choose Next.js for my project?",
+                    answer: `While there are pros and cons to using Next.js, the pros far outweigh the cons. Discover the power of Next.js and enjoy improved performance from server-side rendering, faster loading facilitated by optimized code splitting capabilities, and get a jumpstart on backend development through readymade API routes. Enjoy the powerful ecosystem comprising an active community that staunchly backs its capabilities to scale effectively for developing vibrant web applications of any size!`,
 
                 },
                 {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
+                    question: "Can I integrate Next.js with my existing React project?",
+                    answer: `Yes, with fast server-side rendering, auto-splitting for optimized page loading times, and hassle-free backend setup that even a novice can do – Next.js provides an ideal platform to wield fast functional applications. Constantly growing with a dynamic support community; you’re provided nothing less than premium scalability befitting of modern web experiences.`,
                 },
                 {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
+                    question: "What is the difference between server-side rendering (SSR) and static site generation (SSG) in Next.js?",
+                    answer: `Next.js delivers faster initial page loads and better SEO through server-side rendering (SSR). Static site generation (SSG) happily beefs up requested content, taking performance and scalability to another level by generating HTML files during the build process which can then be swiftly served from a CDN.`,
+
+                },
+                {
+                    question: "Can I use Next.js for e-commerce applications?",
+                    answer: `Absolutely! With its server-side rendering abilities and effortless merging with backend services, Next.js is primed to get you your store up and ready in next to no time. And there are tons of helpful tools that make it the perfect platform – enjoy automatic code pushing, optimized caching, straightforward user authentication; not to mention efficient control over product catalogues and open access — qualified universal shopping pursuits begin now!`,
+
+                },
+                {
+                    question: "Do I need to have knowledge of React to work with Next.js?",
+                    answer: `Yes, familiarity with React is a must when it comes to wanting to dabble in Next.js! If you’re well-versed in React development, you’ll be able to join the new tech adventure for sure. Don’t know React? No problem! We’ve got experienced developers who can cook up a tasty journey into Next.js code for you and keep your cravings full whilst navigating its mysteries at the same time — just give us a shout-out!`,
+
+                },
+                {
+                    question: "How can I ensure the quality and reliability of my Next.js project?",
+                    answer: `At Dev. co, we take quality and reliability seriously! From rigorous testing and quality assurance procedures to comprehensive code reviews, best practices, and detailed performance tests – we make sure that your Next.js project sparkles beyond expectation. But of course, our commitment doesn’t end there – you can always lean on us for ongoing maintenance support and timely fixes targeting any issues we might come across along the way.`,
 
                 },
             ],
@@ -1588,9 +1629,11 @@ DEV.co offers custom Android apps, developed quickly and affordably.
         id: 7,
         slug: "solidworks",
         bannericon: "/images/Solidworks.svg",
-        
+        sub_title: "Skills",
         top_title: "SolidWorks Development Services",
-        top_description: "The numbers stand on their own merit. More than 2 million users and 200,00 companies and organizations are relying on SolidWorks for their computer-aided design projects and engineering applications. The CAD and CAE software package, which is built for the Windows platform, has been around for more than two decades and has experienced 25 major releases.<br> <br>If you’re looking to add or switch to a new CAD package, SolidWorks should be at or near the top of your list. And at Dev.co, we’d be thrilled to provide SolidWorks development and engineering services for your next custom software development project.",
+        top_description: `The numbers stand on their own merit. More than 2 million users and 200,00 companies and organizations are relying on SolidWorks for their computer-aided design projects and engineering applications. The CAD and CAE software package, which is built for the Windows platform, has been around for more than two decades and has experienced 25 major releases.<br></br>
+
+        If you’re looking to add or switch to a new CAD package, SolidWorks should be at or near the top of your list. And at Dev.co, we’d be thrilled to provide SolidWorks development and engineering services for your next custom software development project.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -1601,8 +1644,8 @@ DEV.co offers custom Android apps, developed quickly and affordably.
                 },
                 {
                     title: "",
-                    description: `At Dev.co, we offer industry-leading SolidWorks development and consulting services to clients across a variety of industries and niches.<br>
-            This includes businesses involved in precision machining, injection molding, sheet metal fabrication, weldments, aluminum and plastic extrusions, and even 3D printing.`,
+                    description: `At Dev.co, we offer industry-leading SolidWorks development and consulting services to clients across a variety of industries and niches.<br></br>
+           This includes businesses involved in precision machining, injection molding, sheet metal fabrication, weldments, aluminum and plastic extrusions, and even 3D printing.`,
                 }
             ]
         },
@@ -1757,66 +1800,102 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
         id: 8,
         slug: "nodejs",
         bannericon: "/images/Node_js.svg",
-        top_title: "Node Js",
-        top_description: "Node.js is one of the newer server-side platforms around. It’s experiencing rapid adoption among large organizations and is renowned for being simple and easy to use. It’s powered by JavaScript and can be utilized in a variety of environments.<br> Contrary to what many assume, Node.js is not a framework or library. It’s actually a runtime environment, based entirely on Chrome’s V8 JavaScript engine. First introduced in 2009 at the annual European JSConf, Node.js was immediately billed as “the most exciting single piece of software in the current JavaScript universe.” And more than a decade later, it’s still living up to the hype.",
-        startups: {
-            title: "Technology Strategy",
-            description: "We create robust and future-proof technology infrastructures tailored to your business goals.",
-            imageHeight: 100,
-            imageWidth: 100,
-            images: ["/images/unity.svg", "/images/java1.svg", "/images/nodejs1.svg"],
-        },
+        sub_title: "Skills",
+        top_title: "Node.Js Development Services",
+        top_description: `Node.js is one of the newer server-side platforms around. It’s experiencing rapid adoption among large organizations and is renowned for being simple and easy to use. It’s powered by JavaScript and can be utilized in a variety of environments.<br></br>
+
+            Contrary to what many assume, Node.js is not a framework or library. It’s actually a runtime environment, based entirely on Chrome’s V8 JavaScript engine. First introduced in 2009 at the annual European JSConf, Node.js was immediately billed as “the most exciting single piece of software in the current JavaScript universe.” And more than a decade later, it’s still living up to the hype.`,
+
+            startups: {
+                title: "Web Development & Software Engineering",
+                description: `The beauty of Node.js is that you don’t have to be a Fortune 500 company to use it.
+The platform works just as well for smaller businesses and ventures.
+But the fact that some of the world’s most successful organizations rely on it
+should tell you something about its features and reliability.`,
+                imageHeight: 100,
+                imageWidth: 100,
+                images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+            },
+
+            BorderTextbox: {
+                BorderTextdata: [
+                    {
+                        title: "Node.js Consulting & Development",
+                        description: `Because of our extensive experience with Node.js, we’re also able to offer consulting, frameworks, and education to guide you through your own journey.`,
+    
+                    },
+                    {
+                        title: "",
+                        description: `At Dev.co, we’re proud to offer industry-leading Node.js planning, development, and deployment. <br></br>
+
+                        Not only do we use the top technologies in the industry, but we also employ rigorous testing and continual optimization and iteration. The result is advanced Node.js applications that your users will extract maximum value from.`,
+                    }
+                ]
+            },
+
         benefits: {
-            title: "Interesting Facts About Node.Js",
-            description: "Our architecture services provide:",
+            title: "Why Choose Node.js?",
+            description: "Node.js might not get talked about as much as some other platforms, but it’s quietly relied on by dozens of tech giants and large enterprises, including Intel, NASA, Walmart, and Twitter. Here are a few of the reasons why they’re choosing Node.js:",
             benefits: [
                 {
                     title: "Scalability",
-                    description: "We design solutions that grow with your business.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    description: "Thanks to powerful features like the Cluster module - which enables load balancing over multiple CPU cores - and tools such as the PM2 process manager - which makes it easy to optimize and deploy Node applications - Node.js is highly scalable. This makes it ideal for growing organizations and environments.",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
                 {
-                    title: "Security",
-                    description: "We ensure your systems are secure and compliant with industry standards.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    title: "Superior support",
+                    description: "It’s difficult for a developer to write an app with confidence if there’s no guarantee that the language will still be relevant in the near future. The beauty of Node.js is that every major release is guaranteed to be actively maintained for at least 18 months (after which it enjoys an additional 12 months in maintenance mode).",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
                 {
-                    title: "Cost Efficiency",
-                    description: "Our architecture ensures efficient use of resources, lowering long-term costs.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    title: "Cross-platform development",
+                    description: "Want to build cross-platform desktop apps? Electron and NW.js let you do just this. As a result, Node.js is one of the more versatile platforms around.",
+                    imageSrc: "",
+                    imageHeight: 25,
+                    imageWidth: 25,
+                },
+                {
+                    title: "Plenty of free tools",
+                    description: "Versatility is always something developers look for in platforms they use. Node.js integrates with lots of free tools, which makes it more useful in a variety of settings and scenarios..",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
             ],
         },
         Benefitslider: {
-            title: "Why Choose Node.js?",
-            description: `Node.js might not get talked about as much as some other platforms, but it’s quietly relied on by dozens of tech giants and large enterprises, including Intel, NASA, Walmart, and Twitter. Here are a few of the reasons why they’re choosing Node.js:`,
+            title: "The DEV.co Node.js Development Process",
+            description: ``,
             card_datas: [
                 {
-                    title: "Discovery & brainstorming",
-                    description: "As your development partner, we’ll dive deep to capture your vision and your business goals so we can create ideas together.",
-                    imgSrc: "/images/Benefits1.svg",
+                    title: "Learn",
+                    description: "We begin every process with discovery. We want to know who you are, what makes you tick, what your strengths are, where you can improve, and what you want to accomplish with this project.",
+                    imgSrc: "",
                 },
                 {
-                    title: "Planning",
+                    title: "Plan",
                     description:
-                        "Once we collaborate on possibilities, we’ll identify the best ideas and create a plan for your development project. You’ll approve the ideas and we’ll figure out the technical feasibility of those ideas.",
-                    imgSrc: "/images/Benefits2.svg",
+                        "The next step is to create a plan that allows us to take you from where you are to where you want to be. If Node.js can help us get there, great! If not, we’ll suggest another platform.",
+                    imgSrc: "",
                 },
                 {
-                    title: "Design & development",
-                    description: "Once you approve the elements to be developed, we’ll start designing your custom JavaScript web applications.",
-                    imgSrc: "/images/Benefits3.svg",
+                    title: "Execute",
+                    description: "Now it’s time for us to roll up our sleeves and get dirty. We’ll get busy executing so that we can quickly provide you with a usable version to gather feedback.",
+                    imgSrc: "",
                 },
                 {
-                    title: "Testing",
-                    description: "Once we begin developing your idea, we’ll send you clickable prototypes for testing and feedback. We’ll apply your feedback to the next round of development to achieve a final result you can be proud of.",
-                    imgSrc: "/images/Benefits4.svg",
+                    title: "Test",
+                    description: "Once the first version of the application is produced, we’ll work with your team to test and gather feedback on what works, what doesn't, and where changes can be made.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Iterate",
+                    description: "With testing and feedback in hand, we’ll iterate until we deliver the best possible application for your end-user.",
+                    imgSrc: "",
                 },
             ],
         },
@@ -1866,6 +1945,43 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
                     imageHeight: 100,
                     imageWidth: 100,
                 },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact Dev.co Today",
+                    description: `Want to learn more about how Dev.co can help<br>
+                    your business leverage Node.js to reach your goals?<br>
+
+                    Contact us today and we’ll be happy to discuss in further detail.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+        Subheadingtext: {
+            heading: "Interesting Facts About Node.Js",
+            subText:
+                "",
+            list1: [
+                "Node.js is a server-side platform. This means JavaScript isn’t limited to only working in the browser.",
+                "Node.js is powered by Google V8 engine, which is the same runtime as Google Chrome uses to execute JavaScript in the front-end.",
+                "Some of the world’s largest businesses use Node.js, including Amazon, Netflix, eBay, LinkedIn, Reddit, and PayPal.",
+                "43% of Node.js developers use it for enterprise applications. 85% use it primarily for web app development.",
+                "PayPal saw a 35% decrease in their average response time after deploying Node.js.",
+                "Node.js is known to increase application performance by 50% and reduce dev costs by 58%.",
+
+            ],
+            list2: [
+                "The United States represents Node.js’ largest custom base – more than 36,000 websites.",
+                "Russia and China each have 10,000+ websites (coming in second and third, respectively).",
+                "Node.js is shown to consistently boost business productivity. (Just 4% of companies say Noe.js has no impact.)",
+                "The typical Node.js user is a male, 31-year-old, college educated, white developer.",
+                "Node.js is used in more than 85 countries across 45 different native languages.",
+                "The most popular industry verticals for Node.js include computers and electronics, law and government, lifestyle, and arts and entertainment.",
             ],
         },
     },

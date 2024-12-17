@@ -650,8 +650,11 @@ img.top_left_blue {
     left: 0px;
     top: 0px;
     z-index: 1;
-    box-shadow: 10px 0px 180px 165px  #000000;
-    background-color: #000000;
+    box-shadow: 10px 0px 180px 165px  #0E1237;
+    background-color: #0E1237;
+}
+.logo_slider .slick-slide {
+    padding: 1rem;
 }
 .slider_outer::after {
     left: auto;
@@ -683,6 +686,9 @@ img.top_left_blue {
 
 
 @media(max-width:1199px){
+    .logo_slider .slick-slide{
+        padding:10px;
+    }
     .text_col_left p {
         font-size: 15px;
     }
