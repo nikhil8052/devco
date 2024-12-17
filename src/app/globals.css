@@ -660,7 +660,22 @@ img.top_left_blue {
     left: auto;
     right: 0px;
 }
-
+.text-card {
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+.text-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+.text-card p {
+    width: 100%;
+    max-width: 450px;
+}
 
 
 

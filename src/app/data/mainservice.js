@@ -66,7 +66,11 @@ export const mainservicedata = [
             ]
         },
 
-        
+    
+        Textcardsection: {
+            top_title:`Design <br> <span class="text-headingBlue">Conceptualization</span>`,
+            top_description: `We start with the goals of your next digital project. Then, as an extension of your team, our developers work with you to prepare detailed documentation, wire-frame mock-ups and concept designs ready for front and back-end development strategy.`,
+        },    
 
     }
   ]

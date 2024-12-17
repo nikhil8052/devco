@@ -2,6 +2,7 @@
 
 import Logofloat from "@/app/components/Logofloat";
 import Centerbanner from "@/app/components/Services/Centerbanner";
+import Textcardsection from "@/app/components/Services/Textcardsection";
 import { mainservicedata } from "@/app/data/mainservice";
 
 export default function Services() {
@@ -32,6 +33,7 @@ export default function Services() {
         title={serviceData.top_title}
         description={serviceData.top_description}
       />
+      <Textcardsection title={serviceData.Textcardsection.top_title} description={serviceData.Textcardsection.top_description}/>
     </div>
   );
 }
