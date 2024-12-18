@@ -9,6 +9,19 @@ export const technologies = [
 
         With unlimited applications and practically infinite room for growth, machine learning, artificial intelligence, and similar cognitive computing technologies can completely transform your organization.`,
 
+        Buitprtfoliosection: {
+            top_title:`Built with CodeAI`,
+            top_description: `Lorem ipsum dolor sit amet consectetur adipiscing tincidunt duis eget amet integer aliquam viverra enim hac cras tempus.`,
+
+           templatesdata: [
+                { image: "/images/temp_thumb1.png", link: "https://nightcapit.com/", alt: "Thumbnail 1" },
+                { image: "/images/temp_thumb2.png", link: "https://law.co/", alt: "Thumbnail 2" },
+                { image: "/images/temp_thumb3.png", link: "https://shave.net/", alt: "Thumbnail 3" },
+                { image: "/images/temp_thumb4.png", link: "https://acquisition.net/", alt: "Thumbnail 4" },
+                { image: "/images/temp_thumb5.png", link: "https://mannyarce.com/", alt: "Thumbnail 5" },
+              ]
+              
+        },
 
          BorderTextbox:{
             BorderTextdata:[

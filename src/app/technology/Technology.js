@@ -3,6 +3,7 @@ import Benefits from "@/app/components/Services/Benefits";
 import SkillBanner from "@/app/components/skills/SkillBanner";
 import Bordertextsection from "@/app/components/industry/Bordertextsection";
 import Processess from "@/app/components/Services/Processess";
+import Buitprtfoliosection from "@/app/components/industry/Buitprtfoliosection";
 import CombiningCode from "@/app/components/homepage/CombiningCode";
 import Benefitslider from "@/app/components/skills/Benfitslider";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
@@ -37,6 +38,14 @@ export default function Technology({data}) {
         benefits={Technology.benefits.benefits}
       />
     )}
+{Technology.Buitprtfoliosection && (
+    <Buitprtfoliosection
+      title={Technology.Buitprtfoliosection.top_title}
+      description={Technology.Buitprtfoliosection.top_description}
+      templatesdata={Technology.Buitprtfoliosection.templatesdata}
+    />
+  )}
+
 
 
     {Technology.Benefitslider?.title && (

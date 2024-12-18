@@ -674,9 +674,81 @@ img.top_left_blue {
 }
 .text-card p {
     width: 100%;
-    max-width: 450px;
+}
+.main_service_page .faq_section {
+    padding-top: 50px;
+    background-position: center bottom -360px;
+    background-size: 100%;
+}
+.icon_text_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    gap: 30px 0px;
 }
 
+.icon_text_row .icon_text_col {
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon_text_grid {
+    margin: 50px 0px;
+}
+
+
+.icon_text_card img {
+    display: block;
+    margin: 0px 0px 20px;
+}
+
+.icon_text_card h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.temp_thumb {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.rotate_grid .slick-track {
+    display: flex;
+}
+
+.rotate_grid .slick-list{
+    overflow: visible;
+}
+
+.rotate_grid  .slick-slide {
+    height: auto !important;
+    padding: 10px;
+}
+
+.rotate_grid .slick-slide > div {
+    height: 100%;
+    width: 100%;
+}
+
+.rotate_grid .rotate_grid_col {
+    height: 100%;
+    width: 100%;
+}
+
+.temp_thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tilt_grid_section {
+    transform: skew(35deg, -10deg);
+}
 
 
 @media(min-width:1024px){
