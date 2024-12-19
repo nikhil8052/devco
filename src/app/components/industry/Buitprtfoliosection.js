@@ -32,10 +32,10 @@ export default function Buitprtfoliosection({ title, description, templatesdata 
   };
 
   return (
-    <div className="new_section text-customwhite builtwidth-section benefits_section pt-20 pb-20 mb-20 relative bg-black">
+    <div className="new_section text-customwhite builtwidth-section benefits_section xl:py-20 lg:py-10 py-10 mb-10 md:mb-20 relative bg-black">
       {/* Content Section */}
       <div className="container relative z-10">
-        <div className="grid-head w-full xl:max-w-[678px] xl:mb-10 mb-5">
+        <div className="grid-head w-full md:max-w-[60%] xl:max-w-[678px] xl:mb-10 mb-5">
           <h2
             className="section_head_title font-semibold text-[28px] 2xl:text-[50px] xl:text-[38px] md:text-[32px] sm:text-[28px] md:mb-3 mb-2 text-customwhite"
             dangerouslySetInnerHTML={{ __html: title }}

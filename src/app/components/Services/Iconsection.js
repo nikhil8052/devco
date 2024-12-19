@@ -9,7 +9,7 @@ export default function Iconsection({ title, description }) {
 
   return (
     <>
-      <div className="new_section text-customwhite Textcardsection benefits_section pt-20 relative bg-black">
+      <div className="new_section text-customwhite Textcardsection benefits_section py-5 xl:py-[20] lg:py-[10] md:py[5] relative bg-black">
         {/* Background Image */}
         <Image
           className="right_eclipsebg absolute bottom-0 right-0 w-1/2"

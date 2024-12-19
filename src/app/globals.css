@@ -664,7 +664,7 @@ img.top_left_blue {
     border: 1px solid rgba(255, 255, 255, 0.11);
     border-radius: 15px;
     overflow: hidden;
-    padding: 40px;
+    padding: 2rem;
     background-color: rgba(255, 255, 255, 0.02);
 }
 .text-card h3 {
@@ -749,6 +749,30 @@ img.top_left_blue {
 .tilt_grid_section {
     transform: skew(35deg, -10deg);
 }
+.middle_box img {
+    width: 100%;
+    max-width: 15vw;
+}
+.main_service_page {
+    background-size: 100vw !important;
+    background-position: center top !important;
+}
+.builtwidth-section {
+    position: relative;
+}
+.builtwidth-section:before {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    bottom: auto;
+    top: 100%;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 10px 0px 10vw 10vh #000000;
+}
+
 
 
 @media(min-width:1024px){
@@ -759,6 +783,12 @@ img.top_left_blue {
 
 
 @media(max-width:1500px){
+    .logo_slider .slick-slide {
+        padding: 0.6rem;
+    }
+    .text-card h3 {
+        font-size: 20px;
+    }
     .site_header .container {
         max-width: 100%;
         padding-left: 20px;
@@ -767,6 +797,9 @@ img.top_left_blue {
     .text_col_left p {
         font-size: 18px;
         margin: 0px 0px 10px;
+    }
+    .icon_text_card h3 {
+        font-size: 20px;
     }
 }
 
@@ -844,6 +877,9 @@ img.top_left_blue {
 .locations_grid .location_col {
     width: 50%;
 }
+.logo_slider .slick-slide {
+    padding: 5px;
+}
 .form_page .page_row {
     flex-direction: column;
     gap: 30px 0px;
@@ -867,11 +903,28 @@ img.top_left_blue {
 .case_name h4, .case_categry h4 {
     font-size: 15px;
 }
+.icon_text_row .icon_text_col {
+    width: 50%;
+}
 
 }
 
 @media(max-width:767px){
     .portfolio_grid {flex-wrap: wrap;}
+    .slider_outer:before, .slider_outer::after {
+        box-shadow: 10px 0px 200px 115px #0e12378f;
+        width: 2px;
+        background-color: #0e1237db;
+    }
+    .middle_box img {
+        max-width: 35vw;
+    }
+    .text-card {
+        padding: 1rem;
+    }
+    .icon_text_card h3 {
+        font-size: 16px;
+    }
 
 .grid_logo {
     height: 150px;

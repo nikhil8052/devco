@@ -10,11 +10,13 @@ import Development from './components/homepage/Development';
 import CustomDevelopement from './components/homepage/CustomDevelopement';
 import CustomsofSection from './components/homepage/CustomsofSection';
 import CombiningCode from './components/homepage/CombiningCode';
-
+import Logofloat from "@/app/components/Logofloat";
+import { mainservicedata } from "@/app/data/mainservice";
 
 
 
 export default function Home() {
+  const serviceData1 = mainservicedata[0]; 
 
 
   return (
@@ -38,6 +40,12 @@ export default function Home() {
         <CustomsofSection/>
         <CustomDevelopement/>
         <CombiningCode />
+        <Logofloat 
+        firstrowimages={serviceData1.firstrowimages.imagesdata} 
+        secondrowimages={serviceData1.secondrowimages.imagesdata} 
+        thirdrowimages={serviceData1.thirdrowimages.imagesdata}
+        fourthrowimages={serviceData1.fourthrowimages.imagesdata}
+      />
          <Faq /> 
 
     </div>

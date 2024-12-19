@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Centerbanner = ({ title = "", description = "", subtitle = ""}) => {
   return (
-    <div className="Skill_banner main-service-banner relative w-full pt-20 pb-20 bg-black text-customwhite">
+    <div className="Skill_banner main-service-banner relative w-full pt-5 xl:pt-20 pb-0 bg-black text-customwhite">
    
 <div className="container mx-auto text-center flex flex-col items-center justify-center">
 <motion.div
@@ -18,7 +18,7 @@ transition={{ duration: 0.8, delay: 0.3 }}
   {subtitle}
 </motion.p>
 <motion.h1
-  className="text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold text-center mb-0"
+  className="text-[34px] 2xl:text-[64px] xl:text-[60px] md:text-[45px] sm:text-[34px] font-semibold text-center mb-0"
   initial={{ opacity: 0, y: 50, filter: 'blur(10px)' }}
   animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
   transition={{ duration: 1, delay: 0.5 }}

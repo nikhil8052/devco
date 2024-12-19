@@ -7,7 +7,7 @@ export default function Textbuttonsection({ title, description }) {
 
   return (
     <>
-      <div className="new_section text-customwhite Textcardsection benefits_section pt-20 relative bg-black">
+      <div className="new_section text-customwhite Textcardsection benefits_section pt-10 lg:pt-20 relative bg-black">
         {/* Conditional Rendering for Content */}
         {hasContent && (
           <div className="container relative z-10">

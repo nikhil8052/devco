@@ -5,8 +5,8 @@ export const mainservicedata = [
         top_title: `Software Development<br> Services`,
         top_description: `Full stack Custom software development Company, teams and services for small businesses and enterprise clients alike.`,
 
-            firstrowimages: {
-                imagesdata: [
+        firstrowimages: {
+            imagesdata: [
                     { src: "/images/ser_icon1.svg", alt: "Logo 1" },
                     { src: "/images/ser_icon2.svg", alt: "Logo 2" },
                     { src: "/images/ser_icon3.svg", alt: "Logo 3" },
@@ -65,7 +65,7 @@ export const mainservicedata = [
                     { src: "/images/ser_ico22.svg", alt: "Logo 11" },
             ]
         },
-        codeheadingsection: {
+   codeheadingsection: {
                 headingContent:`Maintenance
                 <span class="text-headingBlue">24/7 Monitoring</span> Support<br>
                 Regular Backups

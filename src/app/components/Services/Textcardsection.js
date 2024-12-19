@@ -10,7 +10,7 @@ export default function Textcardsection({ title, description, Textcardata }) {
 
   return (
     <>
-      <div className="new_section text-customwhite Textcardsection benefits_section pt-20 relative bg-black">
+      <div className="new_section text-customwhite Textcardsection benefits_section py-5 xl:py-[20] lg:py-[10] md:py[5] relative bg-black">
         {/* Background Image */}
         <Image
           className="right_eclipsebg absolute bottom-0 right-0 w-1/2"
@@ -33,7 +33,7 @@ export default function Textcardsection({ title, description, Textcardata }) {
                   ></h2>
                 )}
                 {hasDescription && (
-                  <div className="w-full xl:max-w-[678px]">
+                  <div className="w-full lg:max-w-[60%] md:max-w-[80%] xl:max-w-[678px]">
                     <p
                       className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite"
                       dangerouslySetInnerHTML={{ __html: description }}
@@ -57,7 +57,7 @@ export default function Textcardsection({ title, description, Textcardata }) {
                   }
 
                   return (
-                    <div key={index} className="text_card_col w-[50%] px-[15px]">
+                    <div key={index} className="text_card_col w-full lg:w-[50%] px-[15px]">
                       <div className="text-card h-full">
                         <div className="text-card_inner">
                           {hasCardImage && (

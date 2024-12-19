@@ -8,7 +8,7 @@ export default function Logofloat({ firstrowimages, secondrowimages,fourthrowima
   // Slider settings for left-to-right scroll
   const leftSliderSettings = {
     infinite: true,
-    slidesToShow: 10, // Adjust the number of logos visible at a time
+    slidesToShow: 10, // Default number of logos visible at a time
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0, // For smooth continuous scroll
@@ -16,6 +16,26 @@ export default function Logofloat({ firstrowimages, secondrowimages,fourthrowima
     cssEase: "linear",
     arrows: false,
     pauseOnHover: false, // Prevent pause on hover
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 8, // Adjust number of logos for tablets
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 8, // Adjust number of logos for mobile
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 5, // Adjust number of logos for smaller screens
+        },
+      },
+    ],
   };
 
   // Slider settings for right-to-left scroll
@@ -25,8 +45,8 @@ export default function Logofloat({ firstrowimages, secondrowimages,fourthrowima
   };
 
   return (
-    <div className="logofloat_section w-full lg:pt-20 md:pt-10 sm:pt-5 relative  z-10">
-      <div className="logo_slider_wrapper pt-20">
+    <div className="logofloat_section w-full pt-20 relative  z-10">
+      <div className="logo_slider_wrapper pt-5 xl:pt-20">
        <div className='slider_outer relative'>
          {/* Left Slider */}
          <div className="logo_slider logo_slider_left">
