@@ -41,70 +41,109 @@ export default function Iconsection({ title, description }) {
                 )}
               </div>
             )}
-            <div className='icon_text_grid text-customwhite'>
-                <div className='icon_text_row'>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/icon_developer.svg"/>
-                                <h3>Developers</h3>
-                            </div>
-                        </div>
+            <div className="icon_text_grid text-customwhite">
+              <div className="icon_text_row">
+                {/* Card Items */}
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/icon_developer.svg"
+                        alt="Developers"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>Developers</h3>
                     </div>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/iconRecruiters.svg"/>
-                                <h3>Recruiters</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/Recruitersicondesigner.svg"/>
-                                <h3>Designers</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/icon-pm.svg"/>
-                                <h3>Project Managers</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/icondevopsenge.svg"/>
-                                <h3>DevOps Engineers</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='icon_text_col'>
-                        <div className='icon_text_card'>
-                            <div className='icon_thmb'>
-                                <img src="/images/icon_securtyexprts.svg"/>
-                                <h3>Security Experts</h3>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <div className='text_content'>
-                <div className="w-full xl:max-w-[60%]">
-                    <p className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">
-                    There is a growing trend of on-demand software development services. This means that you no longer have to wait months for a software developer or engineer to be available. You can find someone who is skilled in the programming language or tools that you need, and hire them for as long as you need them.<br></br>
-
-                    This has several advantages over the traditional model of hiring software developers. First, you don’t have to worry about paying benefits or vacation time. Second, you can get someone with the exact skills that you need, instead of having to settle for someone who is only somewhat familiar with your technology stack. Third, on-demand developers are usually more affordable than full-time employees.
-                    </p>
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/iconRecruiters.svg"
+                        alt="Recruiters"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>Recruiters</h3>
+                    </div>
+                  </div>
                 </div>
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/Recruitersicondesigner.svg"
+                        alt="Designers"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>Designers</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/icon-pm.svg"
+                        alt="Project Managers"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>Project Managers</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/icondevopsenge.svg"
+                        alt="DevOps Engineers"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>DevOps Engineers</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="icon_text_col">
+                  <div className="icon_text_card">
+                    <div className="icon_thmb">
+                      <Image
+                        src="/images/icon_securtyexprts.svg"
+                        alt="Security Experts"
+                        width={64}
+                        height={64}
+                      />
+                      <h3>Security Experts</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            {/* Dynamically Render Cards */}
-
+            <div className="text_content">
+              <div className="w-full xl:max-w-[60%]">
+                <p className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite">
+                  There is a growing trend of on-demand software development
+                  services. This means that you no longer have to wait months
+                  for a software developer or engineer to be available. You can
+                  find someone who is skilled in the programming language or
+                  tools that you need, and hire them for as long as you need
+                  them.
+                  <br></br>
+                  This has several advantages over the traditional model of
+                  hiring software developers. First, you don’t have to worry
+                  about paying benefits or vacation time. Second, you can get
+                  someone with the exact skills that you need, instead of having
+                  to settle for someone who is only somewhat familiar with your
+                  technology stack. Third, on-demand developers are usually more
+                  affordable than full-time employees.
+                </p>
+              </div>
+            </div>
           </div>
         )}
       </div>

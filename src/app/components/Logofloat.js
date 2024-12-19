@@ -1,91 +1,112 @@
 'use client';
-import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-export default function Logofloat({ firstrowimages, secondrowimages,fourthrowimages,thirdrowimages }) {
-  // Slider settings for left-to-right scroll
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
+
+export default function Logofloat({ firstrowimages = [], secondrowimages = [], thirdrowimages = [], fourthrowimages = [] }) {
   const leftSliderSettings = {
     infinite: true,
-    slidesToShow: 10, // Default number of logos visible at a time
+    slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0, // For smooth continuous scroll
-    speed: 8000, // Adjust speed for smoothness
-    cssEase: "linear",
+    autoplaySpeed: 0,
+    speed: 8000,
+    cssEase: 'linear',
     arrows: false,
-    pauseOnHover: false, // Prevent pause on hover
+    pauseOnHover: false,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 8, // Adjust number of logos for tablets
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 8, // Adjust number of logos for mobile
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 5, // Adjust number of logos for smaller screens
-        },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 8 } },
+      { breakpoint: 768, settings: { slidesToShow: 6 } },
+      { breakpoint: 480, settings: { slidesToShow: 4 } },
     ],
   };
 
-  // Slider settings for right-to-left scroll
   const rightSliderSettings = {
     ...leftSliderSettings,
-    rtl: true, // Reverse direction for the second slider
+    rtl: true,
   };
 
   return (
-    <div className="logofloat_section w-full pt-20 relative  z-10">
+    <div className="logofloat_section w-full pt-20 relative z-10">
       <div className="logo_slider_wrapper pt-5 xl:pt-20">
-       <div className='slider_outer relative'>
-         {/* Left Slider */}
-         <div className="logo_slider logo_slider_left">
-          <Slider {...leftSliderSettings}>
-            {firstrowimages.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt} />
-            ))}
-          </Slider>
-        </div>
+        <div className="slider_outer relative">
+          {/* Left Slider: First Row */}
+          {firstrowimages.length > 0 && (
+            <div className="logo_slider logo_slider_left">
+              <Slider {...leftSliderSettings}>
+                {firstrowimages.map((image, index) => (
+                  <Image
+                    key={`firstrow-${index}`}
+                    src={image.src}
+                    alt={image.alt || `Image ${index + 1}`}
+                    width={100} // Adjust based on your layout
+                    height={100} // Adjust based on your layout
+                  />
+                ))}
+              </Slider>
+            </div>
+          )}
 
-        {/* Right Slider */}
-        <div className="logo_slider logo_slider_right">
-          <Slider {...rightSliderSettings}>
-            {secondrowimages.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt} />
-            ))}
-          </Slider>
-        </div>
-        <div className="logo_slider logo_slider_left">
-          <Slider {...leftSliderSettings}>
-            {thirdrowimages.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt} />
-            ))}
-          </Slider>
-        </div>
-           {/* Right Slider */}
-           <div className="logo_slider logo_slider_right">
-          <Slider {...rightSliderSettings}>
-            {fourthrowimages.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt} />
-            ))}
-          </Slider>
-        </div>
-        <div className='middle_box'>
-      <img src="/images/middle_logo_div.svg" alt="Middle Logo" />
-      </div>
-       </div>
-      </div>
+          {/* Right Slider: Second Row */}
+          {secondrowimages.length > 0 && (
+            <div className="logo_slider logo_slider_right">
+              <Slider {...rightSliderSettings}>
+                {secondrowimages.map((image, index) => (
+                  <Image
+                    key={`secondrow-${index}`}
+                    src={image.src}
+                    alt={image.alt || `Image ${index + 1}`}
+                    width={100}
+                    height={100}
+                  />
+                ))}
+              </Slider>
+            </div>
+          )}
 
+          {/* Left Slider: Third Row */}
+          {thirdrowimages.length > 0 && (
+            <div className="logo_slider logo_slider_left">
+              <Slider {...leftSliderSettings}>
+                {thirdrowimages.map((image, index) => (
+                  <Image
+                    key={`thirdrow-${index}`}
+                    src={image.src}
+                    alt={image.alt || `Image ${index + 1}`}
+                    width={100}
+                    height={100}
+                  />
+                ))}
+              </Slider>
+            </div>
+          )}
+
+          {/* Right Slider: Fourth Row */}
+          {fourthrowimages.length > 0 && (
+            <div className="logo_slider logo_slider_right">
+              <Slider {...rightSliderSettings}>
+                {fourthrowimages.map((image, index) => (
+                  <Image
+                    key={`fourthrow-${index}`}
+                    src={image.src}
+                    alt={image.alt || `Image ${index + 1}`}
+                    width={100}
+                    height={100}
+                  />
+                ))}
+              </Slider>
+            </div>
+          )}
+
+          {/* Middle Box */}
+          <div className="middle_box">
+            <Image src="/images/middle_logo_div.svg" alt="Middle Logo" width={200} height={200} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

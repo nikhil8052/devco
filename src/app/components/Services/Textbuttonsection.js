@@ -1,4 +1,5 @@
 import React from 'react';
+
 export default function Textbuttonsection({ title, description }) {
   // Check if there's any data to render
   const hasTitle = title && title.trim() !== "";
@@ -28,10 +29,10 @@ export default function Textbuttonsection({ title, description }) {
                     ></p>
                   </div>
                 )}
-                 <div className="btn_wrapper flex gap-x-4 mt-4 md:mt-10">
-                    <button className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
-                    Let's talk About Your Project
-                    </button>
+                <div className="btn_wrapper flex gap-x-4 mt-4 md:mt-10">
+                  <button className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
+                    Let&apos;s talk About Your Project
+                  </button>
                 </div>
               </div>
             )}
@@ -40,8 +41,8 @@ export default function Textbuttonsection({ title, description }) {
 
         {/* Divider Section */}
         <div className="divider flex items-center content-center h-[70px] mt-10 md:h-[150px] w-[100%] mx-auto md:mt-20">
-          <div className='container mx-auto'>
-          <div className="divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10"></div>
+          <div className="container mx-auto">
+            <div className="divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10"></div>
           </div>
         </div>
       </div>

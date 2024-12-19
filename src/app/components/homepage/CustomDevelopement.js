@@ -76,12 +76,24 @@ export default function Faq() {
           </div>
           <div>
             <div className='pl-10'>
-              <Image src="/images/custom_devkjhk.png" height={400} width={400} className='ml-auto' />
+              <Image
+                src="/images/custom_devkjhk.png"
+                height={400}
+                width={400}
+                alt="Custom Development Illustration"
+                className='ml-auto'
+              />
             </div>
           </div>
         </div>
       </div>
-      <Image src="/images/New-imgm.svg" height={512} width={1920} className='ml-auto w-1/2 dev_bg absolute top-[-300px] max-w-[840px] right-0 z-[-1]' />
+      <Image
+        src="/images/New-imgm.svg"
+        height={512}
+        width={1920}
+        alt=""
+        className='ml-auto w-1/2 dev_bg absolute top-[-300px] max-w-[840px] right-0 z-[-1]'
+      />
     </div>
   );
 }
