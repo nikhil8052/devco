@@ -40,7 +40,6 @@ subCategories: [
         { label: 'Sitefinity', path: '/sitefinity' },
         { label: 'Electron.js', path: '/electron' },
         { label: 'Python', path: '/python' },
-        { label: 'CSS', path: '/css' },
         { label: 'OpenCV', path: '/opencv' },
         { label: 'Laravel', path: '/laravel' },
         { label: 'HTML5', path: '/html5' },

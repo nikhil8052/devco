@@ -11,6 +11,8 @@ import Chooseservice from "@/app/components/Services/Chooseservice";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Benefitslider from "@/app/components/skills/Benfitslider";
 import Textblockfull from '@/app/components/Textblockfull';
+import Logofloat from "@/app/components/Logofloat";
+import { mainservicedata } from "@/app/data/mainservice";
 
 export default function Service({ data }) {
   const skill = data;
@@ -52,7 +54,6 @@ export default function Service({ data }) {
         />
       )}
 
-
       {/* SubheadingText */}
       {skill.Subheadingtext?.heading && (
         <Subheadingtext
@@ -65,10 +66,10 @@ export default function Service({ data }) {
 
       {/* Chooseservice */}
       {skill.chooseServices?.card_data && (
-        <Chooseservice 
-        title={skill.chooseServices.title}
-        description={skill.chooseServices.description}
-        chooseData={skill.chooseServices.card_data} 
+        <Chooseservice
+          title={skill.chooseServices.title}
+          description={skill.chooseServices.description}
+          chooseData={skill.chooseServices.card_data}
         />
       )}
 
@@ -81,7 +82,7 @@ export default function Service({ data }) {
         />
       )}
 
-  {skill.benefits2 && (
+      {skill.benefits2 && (
         <Benefits
           title={skill.benefits2.title}
           description={skill.benefits2.description}
@@ -112,7 +113,18 @@ export default function Service({ data }) {
         />
       )}
 
-
+      {/* Logofloat */}
+      {(skill.firstrowimages?.imagesdata ||
+        skill.secondrowimages?.imagesdata ||
+        skill.thirdrowimages?.imagesdata ||
+        skill.fourthrowimages?.imagesdata) && (
+        <Logofloat
+          firstrowimages={skill.firstrowimages?.imagesdata}
+          secondrowimages={skill.secondrowimages?.imagesdata}
+          thirdrowimages={skill.thirdrowimages?.imagesdata}
+          fourthrowimages={skill.fourthrowimages?.imagesdata}
+        />
+      )}
 
       {/* CombiningCode */}
       {skill.CombiningCodedatas?.CombiningCodedata && (
@@ -121,16 +133,14 @@ export default function Service({ data }) {
         />
       )}
 
-                  {/* Industryfaqs */}
-                  {skill.faqs?.faqs?.length > 0 && (
+      {/* Industryfaqs */}
+      {skill.faqs?.faqs?.length > 0 && (
         <Industryfaqs
           title={skill.faqs.title}
           description={skill.faqs.description}
           faqs={skill.faqs.faqs}
         />
       )}
-
-
     </>
   );
 }

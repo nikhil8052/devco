@@ -7,6 +7,16 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
 export default function Logofloat({ firstrowimages = [], secondrowimages = [], thirdrowimages = [], fourthrowimages = [] }) {
+  // Check if there is data in any of the image arrays
+  const hasImages = 
+    firstrowimages.length > 0 || 
+    secondrowimages.length > 0 || 
+    thirdrowimages.length > 0 || 
+    fourthrowimages.length > 0;
+
+  // If there is no data, return null (no rendering)
+  if (!hasImages) return null;
+
   const leftSliderSettings = {
     infinite: true,
     slidesToShow: 10,
@@ -42,8 +52,8 @@ export default function Logofloat({ firstrowimages = [], secondrowimages = [], t
                     key={`firstrow-${index}`}
                     src={image.src}
                     alt={image.alt || `Image ${index + 1}`}
-                    width={100} // Adjust based on your layout
-                    height={100} // Adjust based on your layout
+                    width={100}
+                    height={100}
                   />
                 ))}
               </Slider>

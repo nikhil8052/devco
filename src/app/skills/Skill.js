@@ -8,7 +8,7 @@ import Benefitslider from "@/app/components/skills/Benfitslider";
 import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 import Textblockfull from '@/app/components/Textblockfull';
-
+import StartUps from "@/app/components/Services/StartUps";
 
 
 
@@ -23,6 +23,16 @@ export default function Skill({data}) {
       title={skill.top_title}
       description={skill.top_description}
     />
+
+{skill.startups?.title && skill.startups?.description && (
+        <StartUps
+          title={skill.startups.title}
+          description={skill.startups.description}
+          images={skill.startups.images}
+          imageHeight={skill.startups.imageHeight}
+          imageWidth={skill.startups.imageWidth}
+        />
+      )}
 
     {skill.BorderTextbox?.BorderTextdata && (
       <Bordertextsection

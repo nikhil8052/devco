@@ -249,9 +249,9 @@ Contact DEV.co for more information or a free consultation today!`,
     },
     {
         id: 2,
-        slug: "css",
+        slug: "",
         sub_title: "Skills",
-        bannericon: "/images/Artificial Intelligence.svg",
+        bannericon: "/images/css.svg",
         sub_title: "Skills",
         top_title: "Python Development Services",
         top_description: `Despite being around for decades, Python remains one of the most versatile and popularly used programming languages in the world.<br></br>
@@ -1987,10 +1987,10 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 9,
-        slug: "Azure",
+        slug: "azure",
         bannericon: "/images/Azure.svg",
         top_title: "Azure Development Services",
-        top_description: "Cloud computing was once a luxury that larger businesses tinkered with to gain a competitive edge. Today, it’s the gold standard for multinational organizations and small businesses alike. <br> And if your company is looking for a powerful platform that enables you to deploy solutions across a variety of languages, our Microsoft Azure cloud development and engineering services have been designed with you in mind.",
+        top_description: `Cloud computing was once a luxury that larger businesses tinkered with to gain a competitive edge. Today, it’s the gold standard for multinational organizations and small businesses alike. And if your company is looking for a powerful platform that enables you to deploy solutions across a variety of languages, our Microsoft Azure cloud development and engineering services have been designed with you in mind.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -2001,8 +2001,7 @@ should tell you something about its features and reliability.`,
                 },
                 {
                     title: "",
-                    description: `At Dev.co, we’re proud to offer industry-leading Azure development services for small businesses and large organizations alike.<br>
-           We also have Azure consultants who are fully prepared to guide and assist you with any needs or pain points you may have.`,
+                    description: `At Dev.co, we’re proud to offer industry-leading Azure development services for small businesses and large organizations alike. We also have Azure consultants who are fully prepared to guide and assist you with any needs or pain points you may have.`,
                 }
             ]
         },
@@ -2043,54 +2042,94 @@ should tell you something about its features and reliability.`,
 
             ],
         },
+        benefits2: {
+            title: `Azure development by DEV.co`,
+            description: ``,
+            benefits: [
+                {
+                    title: " Azure Services",
+                    description: "Azure Services is a cloud programme that provides a variety of services that can be used to develop and deploy applications. Azure Services includes services such as Azure Storage, Azure SQL Database, and Azure Active Directory. Azure Storage is a service that provides storage for applications in the cloud. Azure SQL Database is a relational database service that can be used to store & save data in the cloud. Azure Active Directory is a service that provides authentication and authorization for applications in the cloud.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Azure SQL Database",
+                    description: "Azure Storage is a cloud storage service that provides storage for applications in the cloud. Azure Storage includes blob storage, queue storage, table storage, and file storage. Blob storage is used to store binary data, such as images, video, and audio. Queue storage is used to store messages that can be processed asynchronously. Table storage is used to save data in a structured format. File storage is used to store files in the cloud.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Azure SQL Database",
+                    description: "Azure SQL Database is a relational database service that can be used to store data in the cloud. Azure SQL Database includes a variety of features that make it suitable for storing data in the cloud, such as high availability, scalability, and security. Azure SQL Database is also easy to use, with a variety of tools that make it easy to develop and deploy applications that use Azure SQL Database.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Textblockfull: {
+            sectionData: [
+                {
+                    title: "Benefits of Azure Development Services",
+                    description: `Azure Development Services allow you to implement Azure compute solutions quickly and easily. The Azure portal provides a unified experience for managing all your Azure resources, making it easy to get started with developing in the cloud. <br></br>
+
+                    Azure Development Services provide a comprehensive set of tools and services to help developers implement Azure compute solutions. The portal provides a single, unified experience for managing all your Azure resources, and the ability to implement various features, such as deploying virtual machines, scaling resources, and integrating with other Azure services.`,
+                },
+            ],
+        },
         Benefitslider: {
-            title: "The DEV.co SolidWorks Development Process",
+            title: "The DEV.co Azure Development Process",
             description: ``,
             card_datas: [
                 {
-                    title: "Discovery",
+                    title: "Discover",
                     description: "The discovery phase is arguably the most critical aspect of this entire process - yet it’s one that most other developers ignore. During this stage, we’ll uncover your company’s big picture goals so that we can develop solutions that align with your vision",
-                    imgSrc: "/images/Benefits1.svg",
+                    imgSrc: "",
                 },
                 {
                     title: "Plan",
-                    description:
-                        "This is a pragmatic part of the process where we figure out how we’re going to help you get from where you are to where you want to be. We do so by outlining the rest of the development journey in a step-by-step fashion.",
-                    imgSrc: "/images/Benefits2.svg",
+                    description:"This is a pragmatic part of the process where we figure out how we’re going to help you get from where you are to where you want to be. We do so by outlining the rest of the development journey in a step-by-step fashion.",
+                    imgSrc: "",
                 },
                 {
                     title: "Develop",
                     description: "Our team of world-class Azure developers will take this plan and execute to produce solutions that are functional, beautiful, and intuitive.",
-                    imgSrc: "/images/Benefits3.svg",
+                    imgSrc: "",
                 },
                 {
                     title: "Test",
                     description: "It’s not enough to develop a solution. The real magic happens during testing and optimization. With each new iteration, key improvements lead to enhanced results.",
-                    imgSrc: "/images/Benefits4.svg",
+                    imgSrc: "",
                 },
 
             ],
         },
 
         Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            heading: "Interesting Facts About Azure",
+            subText:"",
             list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
+                "Microsoft Azure is a cloud Based computing service that was created by Microsoft for the purpose of building, testing, deploying, and managing applications via managed data centers.",
+                "Microsoft Azure was released on February 1, 2010. It was originally named Windows Azure before being renamed to Microsoft Azure in 2014.",
                 "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                `The original project for Microsoft Azure was code-named “Project Red Dog.”`,
+                `There are 20,000+ Microsoft Azure customers.`,
+                `85% of Fortune 100 companies are on the Microsoft Cloud.`,
+                `Microsoft Azure has a 15.5% share of the global IaaS market.`,
             ],
             list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "Microsoft Azure enjoys 31% of the entire cloud market.",
+                "There are 6 million Microsoft Azure Government Cloud users.",
+                "More than 300k developers use the Microsoft Azure Bot Service.",
+                "Microsoft Azure is currently in 140 countries and counting.",
+                `The Microsoft Cloud is HUGE. It’s connected by enough fiber to stretch from earth to the moon and back three times!`,
+                `The Microsoft Azure Cloud global infrastructure is 100% carbon neutral.`,
+                `44% of Microsoft Datacenter Energy is derived from wind, solar, and hydropower.`,
             ],
-        },
-
-      
+        },     
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -2200,6 +2239,17 @@ should tell you something about its features and reliability.`,
         bannericon: "/images/React_js.svg",
         top_title: "React Development Services",
         top_description: "JavaScript is renowned for its versatility and popularity. It’s a dynamic programming language that helps bring ideas to life. And out of all the different frameworks and libraries that work with JavaScript developers, React.js is one of the most popular.<br> At Dev.co, we provide React development services that are designed to help businesses like yours implement beautiful and interactive user interfaces that add value to the end-user.",
+
+        startups: {
+            title: "When you aren’t a React developer, it’s easy to be indifferent towards the platform a React developer uses",
+            description: `
+                At the end of the day, you only care about the end product – e.g. the application. But the truth is
+                that it does matter. React empowers your React developers to create a more powerful application
+                in a fraction of the time. This results in a more efficient process and a higher quality product.`,
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
 
         BorderTextbox: {
             BorderTextdata: [
@@ -2399,9 +2449,10 @@ Here’s what our React developer process looks like:`,
     {
         id: 11,
         slug: "sitefinity",
+        sub_title: "Skills",
         bannericon: "/images/Sitefinity.svg",
         top_title: "Sitefinity Development Services",
-        top_description: "Sitefinity isn’t perfect, but it goes toe-to-toe with any other CMS platform on the market.<br> And for businesses willing to pay a premium, it can supply everything they need (and much more).",
+        top_description: "Sitefinity isn’t perfect, but it goes toe-to-toe with any other CMS platform on the market. And for businesses willing to pay a premium, it can supply everything they need (and much more).",
 
         BorderTextbox: {
             BorderTextdata: [
@@ -2412,7 +2463,7 @@ Here’s what our React developer process looks like:`,
                 },
                 {
                     title: "",
-                    description: `Need help developing a website using Sitefinity? Need consulting help to take an existing website and transform it into a conversion-producing machine?<br>
+                    description: `Need help developing a website using Sitefinity? Need consulting help to take an existing website and transform it into a conversion-producing machine?<br></br>
             We have a team of skilled Sitefinity developers and Sitefinity consultants standing by ready to serve you in whatever capacity you need.`,
                 }
             ]
@@ -2488,8 +2539,7 @@ Here’s what our React developer process looks like:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Sitefinity",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            subText:"",
             list1: [
                 "Sitefinity is a content management system and digital marketing tool designed for enterprises. It’s known for being extremely lightweight and user-friendly.",
                 "An estimated 1.28 million websites currently use Sitefinity.",
@@ -2558,11 +2608,10 @@ Here’s what our React developer process looks like:`,
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
                     heading: "Partner With Dev.co",
-                    description: `At Dev.co, we love when clients come to us with requests for Sitefinity websites. We believe it’s one of the best CMS platforms on the market and would love to leverage it to help you achieve your business objectives.
-Contact us to learn more!
-`,
+                    description: `At Dev.co, we love when clients come to us with requests for Sitefinity websites. We believe it’s one of the best CMS platforms on the market and would love to leverage it to help you achieve your business objectives.<br>
+                    Contact us to learn more!
+                    `,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
@@ -2570,9 +2619,14 @@ Contact us to learn more!
     {
         id: 12,
         slug: "electron",
+        sub_title: "Skills",
         bannericon: "/images/Electron_js.svg",
         top_title: "Electron Development Services",
-        top_description: "Electron might sound like a stable subatomic particle with a charge of negative electricity, but it’s also a popular open-source software framework that’s developed and maintained by GitHub.<br> Regularly used to build desktop apps, it’s a strategic combination of Chromium and Node.js technologies. Node.js is used for the back-end operations, while Chromium assumes responsibility for the front-end.<br> Electron enables developers to create cross-platform desktop apps using a variety of web technologies like Javascript, HTML, and CSS. This enables it to be effortlessly deployed to Windows, Mac, or Linux to meet any user need. It also lowers the overall cost of developing the app.",
+        top_description: `Electron might sound like a stable subatomic particle with a charge of negative electricity, but it’s also a popular open-source software framework that’s developed and maintained by GitHub.<br></br>
+
+        Regularly used to build desktop apps, it’s a strategic combination of Chromium and Node.js technologies. Node.js is used for the back-end operations, while Chromium assumes responsibility for the front-end.<br></br>
+
+        Electron enables developers to create cross-platform desktop apps using a variety of web technologies like Javascript, HTML, and CSS. This enables it to be effortlessly deployed to Windows, Mac, or Linux to meet any user need. It also lowers the overall cost of developing the app.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -2583,7 +2637,7 @@ Contact us to learn more!
                 },
                 {
                     title: "",
-                    description: `At Dev.co, we’re proud to be one of the industry leaders in Electron.js planning, development, and testing. We follow all industry best practices and lead the way in terms of innovation and advancement.<br>
+                    description: `At Dev.co, we’re proud to be one of the industry leaders in Electron.js planning, development, and testing. We follow all industry best practices and lead the way in terms of innovation and advancement.<br></br>
             Our team of developers have years of experience and are collectively committed to delivering on a wide range of custom features to satisfy your needs.`,
                 }
             ]
@@ -2599,13 +2653,6 @@ Contact us to learn more!
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
-                },
-                {
-                    title: "Superior support",
-                    description: "It’s difficult for a developer to write an app with confidence if there’s no guarantee that the language will still be relevant in the near future. The beauty of Node.js is that every major release is guaranteed to be actively maintained for at least 18 months (after which it enjoys an additional 12 months in maintenance mode).",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
                 },
                 {
                     title: "Top-notch security",
@@ -2747,6 +2794,7 @@ We do so through world-class development, frictionless communication, and a coll
     {
         id: 13,
         slug: "opencv",
+        sub_title: "Skills",
         bannericon: "/images/OpenCV.svg",
         top_title: "OpenCV Development Services",
         top_description: "OpenCV is basically a library of programming functions that you can use in real-time for common image processing. It’s an open source platform that’s equipped with hundreds of powerful features that make it perfect for versatile projects. <br> From simple image processing to complex machine learning, OpenCV is optimized for performance. And if you’re looking to hit your next project out of the proverbial ballpark, we’re here to help.",
@@ -2917,6 +2965,7 @@ We do so through world-class development, frictionless communication, and a coll
     {
         id: 14,
         slug: "laravel",
+        sub_title: "Skills",
         bannericon: "/images/Laravel.svg",
         top_title: "Laravel Development Services",
         top_description: "When it comes to custom software development, Laravel is a very popular option. It’s by far one of the most starred PHP frameworks on Github, with nearly 60,000 developers from around the world using it to build faster websites and more efficient web apps. And at Dev.co, we’re proud to offer custom Laravel development services to help you meet and surpass your goals.<br> As the best Laravel development company, we provide expert Laravel developers who are dedicated to driving your business growth. Whether you’re looking to enhance web applications or streamline your development process, our team is here to deliver exceptional results.",
@@ -3087,6 +3136,7 @@ We do so through world-class development, frictionless communication, and a coll
     {
         id: 15,
         slug: "html5",
+        sub_title: "Skills",
         bannericon: "/images/Html 5.svg",
         top_title: "HTML5 Development Services",
         top_description: "The technology that powers the world wide web is changing rapidly. Is your website up-to-date or is it falling behind?<br>Experts agree that you’ve got about 15 seconds to capture a visitor’s attention before they’ll bounce. If you want your web page to stand out from your competition and actively engage your visitors, it’s time to harness the power of HTML5.",
@@ -3260,9 +3310,14 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     {
         id: 16,
         slug: "aws",
+        sub_title: "Skills",
         bannericon: "/images/AWS.svg",
         top_title: "AWS Development Services",
-        top_description: "When it comes to current application infrastructure needs, Amazon Web Services (AWS) is one of the most popular and powerful options on the market. It’s leveraged by more than 1 million customers across more than 190 countries – numbers that continue to grow on a monthly basis. And with companies like Netflix, SAP, Pinterest, Expedia, and Dow Jones relying on it, you can rest assured that it’ll perform up to your standards.<br>Amazon Web Services (AWS) is a cloud computing platform that offers a broad set of global compute, storage, database, analytics, application services, and deployment options. AWS is designed to make it easy for you to run your business on the cloud. You can use AWS services to power your distributed applications, store and manage your data, or extend your enterprise IT infrastructure.<br>We offer a customized AWS developer or development team to each project, giving you the firepower you need to complete the most complex and interesting projects in the cloud.",
+        top_description: `When it comes to current application infrastructure needs, Amazon Web Services (AWS) is one of the most popular and powerful options on the market. It’s leveraged by more than 1 million customers across more than 190 countries – numbers that continue to grow on a monthly basis. And with companies like Netflix, SAP, Pinterest, Expedia, and Dow Jones relying on it, you can rest assured that it’ll perform up to your standards.<br></br>
+
+        Amazon Web Services (AWS) is a cloud computing platform that offers a broad set of global compute, storage, database, analytics, application services, and deployment options. AWS is designed to make it easy for you to run your business on the cloud. You can use AWS services to power your distributed applications, store and manage your data, or extend your enterprise IT infrastructure.<br></br>
+
+        We offer a customized AWS developer or development team to each project, giving you the firepower you need to complete the most complex and interesting projects in the cloud.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -3455,9 +3510,12 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     {
         id: 18,
         slug: "php",
+        sub_title: "Skills",
         bannericon: "/images/Php.svg",
         top_title: "PHP Development Services",
-        top_description: "Thanks to powerful server-side scripting capabilities, PHP has officially become the world’s most popular programming language. Thousands of highly successful websites are built with PHP, including Facebook, Yahoo!, Wikipedia, and MailChimp. PHP also runs the top content management systems like Joomla, WordPress, and Drupal and the top two eCommerce platforms Magento and WooCommerce.<br>Clients love PHP because applications are easy to use and update. Developers love PHP because it’s easy to learn, is well-supported, and can be used to create complex features quickly for clients.",
+        top_description: `Thanks to powerful server-side scripting capabilities, PHP has officially become the world’s most popular programming language. Thousands of highly successful websites are built with PHP, including Facebook, Yahoo!, Wikipedia, and MailChimp. PHP also runs the top content management systems like Joomla, WordPress, and Drupal and the top two eCommerce platforms Magento and WooCommerce.<br></br>
+
+        Clients love PHP because applications are easy to use and update. Developers love PHP because it’s easy to learn, is well-supported, and can be used to create complex features quickly for clients.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -3467,7 +3525,7 @@ Contact us today to discuss your project and start using HTML5 to impress and co
 
                 },
                 {
-                    title: "",
+                    title: "Fast, reliable PHP programming",
                     description: `Fast, reliable PHP programming<br>
             At Dev.co, Our PHP developer use the PHP frameworks (like Laravel) that help us work faster to produce high-quality applications our clients can be proud of.`,
                 }
