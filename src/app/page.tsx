@@ -1,15 +1,14 @@
-import HeroBanner from "./components/layout/HeroBanner";
-import Faq from "./components/faq/Faq";
-
-import DesignSection from './components/Services/DesignSection';
-import ClientCount from './components/homepage/ClientCount';
-import { service1, service2, service3 } from "./data/home";
-import StartUps from './components/homepage/StartUps';
-import Innovative from './components/homepage/Innovative';
-import Development from './components/homepage/Development';
-import CustomDevelopement from './components/homepage/CustomDevelopement';
-import CustomsofSection from './components/homepage/CustomsofSection';
-import CombiningCode from './components/homepage/CombiningCode';
+import HeroBanner from "@/app/components/layout/HeroBanner";
+import Faq from "@/app/components/faq/Faq";
+import DesignSection from '@/app/components/Services/DesignSection';
+import ClientCount from '@/app/components/homepage/ClientCount';
+import { service1, service2, service3 } from "@/app/data/home";
+import StartUps from '@/app/components/homepage/StartUps';
+import Innovative from '@/app/components/homepage/Innovative';
+import Development from '@/app/components/homepage/Development';
+import CustomDevelopement from '@/app/components/homepage/CustomDevelopement';
+import CustomsofSection from '@/app/components/homepage/CustomsofSection';
+import CombiningCode from '@/app/components/homepage/CombiningCode';
 import Logofloat from "@/app/components/Logofloat";
 import { mainservicedata } from "@/app/data/mainservice";
 
