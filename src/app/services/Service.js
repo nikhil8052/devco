@@ -12,7 +12,6 @@ import Subheadingtext from "@/app/components/skills/Subheadingtext";
 import Benefitslider from "@/app/components/skills/Benfitslider";
 import Textblockfull from '@/app/components/Textblockfull';
 import Logofloat from "@/app/components/Logofloat";
-import { mainservicedata } from "@/app/data/mainservice";
 
 export default function Service({ data }) {
   const skill = data;
