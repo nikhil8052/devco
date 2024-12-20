@@ -29,7 +29,7 @@ subCategories: [
       label: 'Skills',
       subCategories: [
         { label: 'Java', path: '/java' },
-        { label: 'Ios', path: '/ios' },
+        { label: 'IOS', path: '/ios' },
         { label: 'JavaScript', path: '/javascript' },
         { label: 'Android', path: '/android' },
         { label: 'Next.js', path: '/next-js' },
@@ -144,11 +144,11 @@ subCategories: [
           <div className='footer_copy_right text-center py-10 mt-5 2xl:mt-10 lg:mt-7 border-t border-lightBlue' >
             <ul className="flex flex-wrap justify-center w-full xl:gap-6 gap-4">
               <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
+              <Link href="/portfolio" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
               <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
-              <Link href="#" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
-              <Link href="/career" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
+              <Link href="/blog" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
+              <Link href="/careers" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
               <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
               <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
               <Link href="#" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>

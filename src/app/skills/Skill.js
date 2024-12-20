@@ -40,6 +40,7 @@ export default function Skill({data}) {
       />
     )}
 
+
     {skill.benefits && (
       <Benefits
         title={skill.benefits.title}

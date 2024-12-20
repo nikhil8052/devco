@@ -980,8 +980,6 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
         },
 
     },
-
-
     {
         id: 4,
         slug: "javascript",
@@ -3531,6 +3529,19 @@ Contact us today to discuss your project and start using HTML5 to impress and co
                 }
             ]
         },
+        BorderTextbox2: {
+            BorderTextdata: [
+                {
+                    title: "Need a custom content management system? We can build it!",
+                    description: `PHP is the foundation for the top content management systems like WordPress and Joomla. If you need a custom CMS with similar functions, Our PHP Developer can build it for you.`,
+
+                },
+                {
+                    title: "Need a custom eCommerce website? We can build that, too",
+                    description: `At Dev.co, our PHP developers can build you a custom eCommerce website on any existing PHP platform like Magento or WooCommerce. Our Php developer can create custom themes or edit your existing theme. Or, we can build you a custom eCommerce site from scratch.`,
+                }
+            ]
+        },
 
         benefits: {
             title: `Why use PHP over languages like Python or Ruby?`,
@@ -3575,102 +3586,40 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
             ],
         },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
 
-            ],
-        },
-
-        Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
-            card_datas: [
-                {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
-                    imgSrc: "",
-                },
-                {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
-                    imgSrc: "",
-                },
-                {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
-                    imgSrc: "",
-                },
-            ],
-        },
 
         Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            heading: "Interesting Facts About PHP",
+            subText:"",
             list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                "PHP programming language is open source & used for web development by web developer, but it wasn’t created for the world. The creator, Rasmus Lerdorf, created PHP in 1994 to manage his personal website. PHP wasn’t released to the public until 1997 to any other software developer.h",
+                "PHP has a blue elephant for its official mascot.",
+                `PHP stands for “Hypertext Preprocessor”.`,
+                "PHP has no written standards, but senior php developer have created generally accepted best practices.",
+                `More than 200 million websites are powered by PHP.`,
+                `You can use PHP to power a login form.`,
+                `The most popular PHP frameworks are Laravel, CodeIgniter, and Symfony.`,
+                `Become a PHP developer & PHP Developer Salary: PHP developer positions are well-paying and offer plenty of opportunities for advancement.`,
+                ` A PHP Developer salary in the United States is $74,126 per year on average.`,
             ],
             list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "If your hosting account uses cPanel, you can choose which version of PHP to use on your website.",
+                "If you don’t set the right version of PHP in your web hosting account, web server, your PHP web Development scripts may not work.",
+                "Most PHP vulnerabilities are caused by poorly written PHP code. Vulnerabilities can be prevented with cyber security best practices.",
+                "Securing a PHP website or application is just as important as launching your application.",
+                `Popular websites powered by PHP: Tumblr, Tesla, Cloudflare, WIkipedia, Yahoo, Facebook, Slack, Flickr, and Etsy.`,
+                `More than 80% of all websites or web services use some form of PHP.`,
+                `You Can also Become a PHP developer ( stack developer) because php web frameworks are easy to learn.`,
+                `You can install PHP on your computer to program in a local environment.`,
             ],
         },
 
         Textblockfull: {
             sectionData: [
                 {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
+                    title: "World-class client communications",
+                    description: `We communicate with our clients throughout the entire development process<br>
+                    and Our PHP Developer implement feedback as quickly as possible.`,
                 },
             ],
         },
@@ -3727,37 +3676,48 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
+                    heading: "What custom software application can we help you build?",
+                    description: `If you’re looking for a trusted software developers/particular php developer, web developers/web development partner, look no further.<br></br>
+                    We build custom PHP applications for businesses of all sizes including startups and enterprise.
+                    Contact us today hire php developers and tell us what you’re looking to build. We’d love to work with you, Also on any programming languages. We are Experts.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
 
         faqs: {
-            title: "Our RPA Service Offerings",
+            title: "Frequently Asked Questions (FAQs)",
             description: "",
             faqs: [
                 {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
+                    question: "What are the skills needed to be a PHP developer?",
+                    answer: `There are many ways to become a php developer, Or one way is to attend a coding school and learn how to code from scratch. Another way is to take online courses & having a degree in computer science. Once you have learned the basics, you can find a job as a junior php developer and work your way up the ladder. The daily duties of a php developer or may vary depending on their PHP developer Job Description, but PHP developer resume generally involve coding, testing and debugging software.  independently.`,
 
                 },
                 {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
+                    question: "What is the average salary for a PHP developer?",
+                    answer: `The average salary for a php developer varies depending on location and experience, but php developer salaries are typically between $50,000 and $70,000 per year. To be successful as a php developer, you need to have excellent problem-solving skills, data storage solutions, code versioning tools, php certifications and be able to work.`,
 
                 },
                 {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
+                    question: "How does Dev.co find the best PHP developers for projects?",
+                    answer: `Dev.co uses a number of resources to find the best PHP developers for projects, including job boards and directories. We also ask our friends and colleagues if they know any good developers.<br></br>
+
+                    Once we’ve found a few potential candidates, we test their skills by asking them to complete a task or project that simulates the work that they would do for us. This helps us determine if they are a good fit for our project.`,
                 },
                 {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
+                    question: "Why should I partner with Dev.co?",
+                    answer: `There are a number of reasons why you should partner with Dev.co:<br>
+
+                    – We have an experienced and qualified development team that can help you with your project.<br>
+
+                    – We use a number of resources to find the Top  PHP developers for your project.<br>
+
+                    – We test the developers skills before they start working on your project.<br>
+
+                    – We have a number of satisfied clients who have worked with us in the past.<br></br>
+
+                    If you’re looking for a reliable and experienced PHP developer, then you should consider partnering with Dev.co. We’ll be able to help you with your specific needs and can ensure that your project is completed on time and within budget.`,
 
                 },
             ],
@@ -3766,21 +3726,32 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
     {
         id: 17,
         slug: "wordpress",
+        sub_title: "Skills",
         bannericon: "/images/Wordpress.svg",
         top_title: "WordPress Development Company",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        top_description: `We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br></br>
+
+        Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. `,
 
         BorderTextbox: {
             BorderTextdata: [
                 {
                     title: "Experts in Custom WordPress Development",
-                    description: `Our expert WordPress developers are highly skilled in PHP development and UX/UI design, making DEV.co the best choice for your custom project.<br></br>24/7 Monitoring<br>Maintenance<br>Support<br>Regular Updates<br>Regular Backups<br>Security Checks`,
+                    description: `Our expert WordPress developers are highly skilled in PHP development and UX/UI design, making DEV.co the best choice for your custom project.<br>
+                    <ul>
+                        <li>24/7 Monitoring</li>
+                        <li>Maintenance</li>
+                        <li>Support</li>
+                        <li>Regular Updates</li>
+                        <li>Regular Backups</li>
+                        <li>Security Checks</li>
+                    </ul>`,
 
                 },
                 {
                     title: "",
-                    description: `We specialize in developing custom WordPress themes, plugins, back-end administrative frameworks, and other dynamic website elements that make a complete website (like JavaScript).<br>
-            We create websites for small, medium, and large businesses in addition to enterprise and individuals. Our experienced developers can work with businesses and individuals in virtually any industry to create any type of website required.<br>
+                    description: `We specialize in developing custom WordPress themes, plugins, back-end administrative frameworks, and other dynamic website elements that make a complete website (like JavaScript).<br></br>
+            We create websites for small, medium, and large businesses in addition to enterprise and individuals. Our experienced developers can work with businesses and individuals in virtually any industry to create any type of website required.<br><br></br>
             We offer each client a dedicated web developer with the knowledge, technical skills and earned expertise as a project manager to build websites for your business. Our web developers have gained experience from building thousands of custom sites for clients worldwide. Let us do the same for you!`,
                 }
             ]
@@ -3828,52 +3799,70 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
             ],
         },
-       
-        Benefitslider: {
-            title: "WordPress Maintenance Plans",
+        benefits2: {
+            title: `WordPress Maintenance Plans`,
             description: `Best WordPress Plans For Complete WordPress Maintenance And Ultimate Support`,
-            card_datas: [
+            benefits: [
                 {
                     title: "Best WordPress Developer Plans For Complete Maintenance And Ultimate Support",
-                    description: "Are you looking for an enterprise solution to keep up with the technical maintenance of your site? We offer comprehensive WordPress support services to fix downtime and optimize your experience with WordPress. Whether you want to set up a business website, run an ecommerce store, or a blog, you can do it all with WordPress. We assist you in choosing the right maintenance and support plan to help you ensure a smooth website performance.",
-                    imgSrc: "",
+                    description: `Are you looking for an enterprise solution to keep up with the technical maintenance of your site? We offer comprehensive WordPress support services to fix downtime and optimize your experience with WordPress.<br></br>
+
+                    Whether you want to set up a business website, run an ecommerce store, or a blog, you can do it all with WordPress. We assist you in choosing the right maintenance and support plan to help you ensure a smooth website performance.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
                 },
                 {
                     title: "Do You Need Help To Boost Your WordPress Site’s Speed & Performance?",
-                    description:
-                        "WordPress sites have vigorous performance in terms of power, SEO, support, functionality, and customization. However, regular upkeep, themes, and additional plugins might affect its performance. Whether you are facing technical glitches or have an unestablished site, we can help you vamp it up with the best solutions. We offer exclusive packages according to the varying needs of our clientele, ensuring day-to-day maintenance, expert help, and instant support whenever needed. Our services are ideal for customers who need a website but can’t, or don’t want to deal with the technicalities or security concerns that come with it. We offer the best plans for WordPress support and maintenance – offering our supreme services to deploy experiences that last forever. Our bundles for WordPress maintenance and support offer: 24/7 Monitoring Maintenance Support Regular Updates Regular Backups Security Checks",
-                    imgSrc: "",
+                    description: `WordPress sites have vigorous performance in terms of power, SEO, support, functionality, and customization. However, regular upkeep, themes, and additional plugins might affect its performance.<br></br>
+
+                    Whether you are facing technical glitches or have an unestablished site, we can help you vamp it up with the best solutions. We offer exclusive packages according to the varying needs of our clientele, ensuring day-to-day maintenance, expert help, and instant support whenever needed.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    title: "Our Essential Services Included In Every Plan",
-                    description: "We offer numerous services covering various aspects of WordPress through a wide range of maintenance plans. Consequently, we have grouped some of the essential services and included them in all of our plans.",
-                    imgSrc: "",
+                    title: "",
+                    description: `Our services are ideal for customers who need a website but can’t, or don’t want to deal with the technicalities or security concerns that come with it. We offer the best plans for WordPress support and maintenance – offering our supreme services to deploy experiences that last forever.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    title: "Our WordPress Maintenance Plans",
-                    description: "With expert support and supervision, we let you focus on your business while we take care of your website. Our WordPress maintenance plans are designed to suit the needs of all sizes of companies. However, we offer three different tiers with different pricing and services.",
-                    imgSrc: "",
+                    title: "",
+                    description: `<ul>
+                        <li>24/7 Monitoring</li>
+                        <li>Maintenance</li>
+                        <li>Support</li>
+                        <li>Regular Updates</li>
+                        <li>Regular Backups</li>
+                        <li>Security Checks</li>
+                    </ul>`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
+
             ],
         },
 
-        Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-            ],
-            list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-            ],
-        },
+        // Subheadingtext: {
+        //     heading: "Interesting Facts About WordPress",
+        //     subText:
+        //         ``,
+        //     list1: [
+        //         `“WordPress” is trademarked, but it’s owned by a non-profit company called the WordPress Foundation. This foundation was created by the WP co-founder Matt Mullenweg.`,
+        //         "JavaScript powers 20% of WordPress’ core code",
+        //         "JS is the only programming language that can be used on the front-end of a website",
+        //         "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+        //     ],
+        //     list2: [
+        //         "69.7% of web developers prefer JavaScript",
+        //         "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
+        //         "There are 24+ JS frameworks and 83+ libraries available for developers",
+        //         "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+        //     ],
+        // },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -3927,7 +3916,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
+                    heading: `Maintenance 24/7 Monitoring​ Support<br>
+                    Regular Backups
+                    Security Checks`,
                     description: `Is your business in need of a business intelligence system?<br>
                     Are you ready for a quote for business intelligence software development?<br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
@@ -4442,252 +4433,6 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
         id: 19,
         slug: "unity",
         top_title: "Unity Development Services",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
-
-        BorderTextbox: {
-            BorderTextdata: [
-                {
-                    title: "Business Intelligence Development Services",
-                    description: ``,
-
-                },
-                {
-                    title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
-                }
-            ]
-        },
-
-        benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
-            benefits: [
-                {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-
-            ],
-        },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-
-            ],
-        },
-
-        Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
-            card_datas: [
-                {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
-                    imgSrc: "",
-                },
-                {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
-                    imgSrc: "",
-                },
-                {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
-                    imgSrc: "",
-                },
-            ],
-        },
-
-        Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-            ],
-            list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-            ],
-        },
-
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
-                },
-            ],
-        },
-        processes: {
-            title: "Our Development <br> Process",
-            description: "",
-            processes: [
-                {
-                    title: "Understanding",
-                    description: `Background details<br>
-                                    Vision & values<br>
-                                    Target personas<br>
-                                    Stakeholder insights`,
-                    imageSrc: "/images/num-1.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Research",
-                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
-                    imageSrc: "/images/num-2.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Strategy",
-                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
-                    imageSrc: "/images/num-3.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Creative",
-                    description: `Naming<br>
-                                Logo development<br>
-                                Graphics standards<br>
-                                Verify function<br>
-                                Messaging framework`,
-                    imageSrc: "/images/num-4.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Deliver",
-                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
-                    imageSrc: "/images/num-5.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-            ],
-        },
-        CombiningCodedatas: {
-            CombiningCodedata: [
-                {
-                    backgroundImage: "/images/code_crbg.svg",
-                    mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
-                }
-            ],
-        },
-
-        faqs: {
-            title: "Our RPA Service Offerings",
-            description: "",
-            faqs: [
-                {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
-
-                },
-                {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
-
-                },
-                {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
-                },
-                {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
-
-                },
-            ],
-        },
-    },
-    {
-        id: 19,
-        slug: "webflow",
-        top_title: "Webflow Development Services",
         top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
 
         BorderTextbox: {
