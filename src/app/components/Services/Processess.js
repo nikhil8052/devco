@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Process from '@/app/components/Services/Process';
 
 export default function Benefits({ title = "", description = "", processes = [] }) {

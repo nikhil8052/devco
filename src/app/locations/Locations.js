@@ -1,7 +1,7 @@
 'use client';
 
 import LocationContactSectio from "@/app/components/locations/locationContactsectio";
-import { cmbcodedata, processes,codeheadingsection } from "@/app/data/locations";
+import { cmbcodedata, processes } from "@/app/data/locations"; // Removed codeheadingsection import
 import Processess from "@/app/components/Services/Processess";
 import Locationbanner from "@/app/components/locations/Locationbanner";
 import CodeHeading from "@/app/components/Services/CodeHeading";

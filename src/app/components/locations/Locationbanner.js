@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const Locationbanner = ({ title = "", description = "", subtitle = ""}) => {
+const Locationbanner = ({ title = "", description = "",}) => {
   return (
     <div className="Skill_banner locationbanner relative w-full pt-20 pb-20">
         <div className="banner_bg_earth w-full absolute top-[0px] left-0 right-0 mx-auto z-1 mt-[-5rem]">
