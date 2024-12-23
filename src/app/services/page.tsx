@@ -64,7 +64,8 @@ export default function Services() {
       title={serviceData.Textbuttonsection.top_title} 
       description={serviceData.Textbuttonsection.top_description}
       />
-      <CodeHeading headingContent={serviceData.codeheadingsection.headingContent}/>
+      <CodeHeading headingContent={serviceData.codeheadingsection.headingContent} 
+      paracontent ={serviceData.codeheadingsection.paracontent}/>
 
       <Industryfaqs title={serviceData.faqs.title} description={serviceData.faqs.description} faqs={serviceData.faqs.faqs} />
      

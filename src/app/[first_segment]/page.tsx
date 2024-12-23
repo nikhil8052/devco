@@ -4,10 +4,12 @@ import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
+import { locationsdata } from "@/app/data/locations";
 import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
+import locations from "@/app/locations/Locations";
 
 interface PageProps {
   params: {
@@ -36,6 +38,9 @@ export default function Page({params}: PageProps) {
   } else if ((data = technologies.find((item) => item.slug === first_segment))) {
     Component = Technology;
     foundIn = "technology";
+  }else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
+    Component = locations;
+    foundIn = "locations";
   }
 
   // Fallback case for no match

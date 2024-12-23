@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const CodeHeading = ({ headingContent }) => {
+const CodeHeading = ({ headingContent,paracontent}) => {
   return (
     <div className="custom_section pt-10 md:pt-20 relative pb-0 text-customwhite">
       <div className="container mx-auto">
@@ -16,10 +16,19 @@ const CodeHeading = ({ headingContent }) => {
               className="mx-auto mb-[-50px] inline-block"
             />
           </div>
+          {headingContent && (
           <h2
             className="2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[22px] text-[22px] font-semibold text-white-800 relative top-[-10%] z-10"
             dangerouslySetInnerHTML={{ __html: headingContent }}
           ></h2>
+           )}
+        {paracontent && (
+            <div className='codehead_content text-center w-full md:w-[80%] mx-auto'>
+              <p
+              className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite"
+              dangerouslySetInnerHTML={{ __html: paracontent }}></p>
+            </div>
+          )}
         </div>
       </div>
     </div>

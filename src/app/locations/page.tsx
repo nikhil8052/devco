@@ -1,6 +1,6 @@
 'use client';
 
-import CombiningCode from "@/app/components/homepage/CombiningCode";
+import LocationContactSectio from "@/app/components/locations/locationContactsectio";
 import { cmbcodedata } from "@/app/data/locations";
 
 const locations = [
@@ -80,7 +80,7 @@ const locations = [
   { name: "Jacksonville", image: "/images/Jacksonville.png" },
   { name: "Las Vegas", image: "/images/Las Vegas.png" },
   { name: "Los Angeles", image: "/images/Los Angeles.png" },
-  { name: "Memphis", image: "/images/Memphis.png" }, 
+  { name: "Memphis", image: "/images/Memphis.png" },
   { name: "Minneapolis", image: "/images/Minneapolis.png" },
   { name: "Newark", image: "/images/Newark.png" },
   { name: "Omaha", image: "/images/Omaha.png" },
@@ -110,8 +110,8 @@ export default function Home() {
                 {locations.map((location, index) => (
                 <div className="location_col" key={index}>
                     <a
-                      href={`https://web.dev.co/${location.name.toLowerCase().replace(/ /g, "-")}`}
-                      className="location_box" target="_blank"
+                      href={`/${location.name.toLowerCase().replace(/ /g, "-")}`}
+                      className="location_box"
                     >
                       <div className="location_thumb">
                         <img src={location.image} alt={location.name} />
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
         </div>
 
-        <CombiningCode CombiningCodedata={cmbcodedata.CombiningCodedata} />
+        <LocationContactSectio CombiningCodedata={cmbcodedata.CombiningCodedata} />
       </div>
     </>
   );

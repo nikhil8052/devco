@@ -37,13 +37,13 @@ export default function Benefits({ title = "", description = "", processes = [] 
         </div>
       </div>
 
-      <Image
+      {/* <Image
       className="w-[60%] max-h-[1100px] absolute left-0 top-0 z-1"
           src="/images/develop_bg.svg"
           alt="Banner Image"
           width={1920}
           height={300}
-        />
+        /> */}
     </div>
   );
 }

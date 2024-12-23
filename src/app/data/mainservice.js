@@ -71,6 +71,7 @@ export const mainservicedata = [
                 Regular Backups
                 <span class="text-headingBlue">Regular Backups</span><br>
                 Security Checks`,
+                paracontent:``,
     },
     
         Textcardsection: {

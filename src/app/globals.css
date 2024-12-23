@@ -920,6 +920,46 @@ img.top_left_blue {
 }
 
 
+.banner_bg_earth {
+    box-shadow: 0 194px 470px -152px #000000;
+}
+ul.tick_list {
+    padding: 0px;
+    margin: 20px 0px;
+    list-style: none;
+}
+.location_contentbox:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+ul.tick_list li:not(:last-child) {
+    margin: 0px 0px 12px;
+}
+
+ul.tick_list li {
+    position: relative;
+    padding-left: 45px;
+}
+
+ul.tick_list li:before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    background-image: url(/images/icon_tick.svg);
+    background-size: 10;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/*--------- responsive css start ---------*/
+
+
 
 @media(min-width:1024px){
 .nav_div {
@@ -1043,6 +1083,14 @@ img.top_left_blue {
 }
 }
 @media(max-width:992px){
+    .text-media_wrap {
+        flex-wrap: wrap;
+        gap: 0px 0px;
+    }
+    
+    .text-media_wrap .location-col {
+        width: 100%;
+    }
 .locations_grid .location_col {
     width: 50%;
 }
@@ -1082,6 +1130,15 @@ img.top_left_blue {
 }
 
 @media(max-width:767px){
+    .banner_bg_earth {
+        height: 340px;
+    }
+    
+    .banner_bg_earth img {
+        height: 100% !important;
+        width: 100%;
+        object-fit: cover;
+    }
     .portfolio_grid {flex-wrap: wrap;}
     .slider_outer:before, .slider_outer::after {
         box-shadow: 10px 0px 200px 115px #0e12378f;
