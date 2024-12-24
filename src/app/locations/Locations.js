@@ -7,6 +7,8 @@ import Locationbanner from "@/app/components/locations/Locationbanner";
 import CodeHeading from "@/app/components/Services/CodeHeading";
 import Locationheadtextsection from "@/app/components/locations/Locationheadtextsection";
 import Loctextmedia from "@/app/components/locations/Loctextmedia";
+import Industryfaqs from "@/app/components/faq/Industryfaqs";
+import Textblockfull from '@/app/components/Textblockfull';
 
 export default function Locations({ data }) {
   const Locations = data;
@@ -33,10 +35,20 @@ export default function Locations({ data }) {
         headingContent={Locations.codeheadingsection.headingContent}
         paracontent={Locations.codeheadingsection.paracontent}
       />
+            {Locations.Textblockfull?.sectionData && (
+        <Textblockfull Textblockdata={Locations.Textblockfull.sectionData} />
+      )}
 
       <LocationContactSectio CombiningCodedata={cmbcodedata.CombiningCodedata} />
-
+      
       <Processess title={processes.title} processes={processes.processes} />
+
+      {Locations.faqs?.faqs?.length > 0 && (
+      <Industryfaqs title={Locations.faqs.title} description={Locations.faqs.description} faqs={Locations.faqs.faqs} />
+    )}
+
+
+
     </>
   );
 }

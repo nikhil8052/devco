@@ -90,6 +90,9 @@ const locations = [
 ];
 
 export default function Home() {
+  // Sort the locations alphabetically
+  const sortedLocations = [...locations].sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <>
       <div
@@ -107,7 +110,7 @@ export default function Home() {
         <div className="locations_wrap">
           <div className="container mx-auto">
             <div className="locations_grid">
-                {locations.map((location, index) => (
+                {sortedLocations.map((location, index) => (
                 <div className="location_col" key={index}>
                     <a
                       href={`/${location.name.toLowerCase().replace(/ /g, "-")}`}

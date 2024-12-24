@@ -98,7 +98,7 @@ export default function Industryfaqs({ title, description, faqs = [] }) {
                         {list.items.map((item, itemIndex) => (
                           <li
                             key={itemIndex}
-                            className="text-customwhite text-[16px]"
+                            className="text-customwhite text-[16px] opacity-[0.7]"
                           >
                             {item}
                           </li>
@@ -106,6 +106,10 @@ export default function Industryfaqs({ title, description, faqs = [] }) {
                       </ul>
                     </div>
                   ))}
+                  <p
+                  className="mt-2 mb-2 text-customwhite text-[16px]"
+                  dangerouslySetInnerHTML={{ __html: faq.bottomline }}
+                />
               </div>
             </div>
           ))}

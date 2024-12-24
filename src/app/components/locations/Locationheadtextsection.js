@@ -43,6 +43,14 @@ export default function Locationheadtextsection({ contentData }) {
                           </ul>
                         </div>
                       )}
+                  {content.bottomline && (
+                    <div className="w-full botton_line">
+                      <p
+                        className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite"
+                        dangerouslySetInnerHTML={{ __html: content.bottomline }}
+                      ></p>
+                    </div>
+                  )}
                 </div>
               </div>
               {content.imageSrc && (

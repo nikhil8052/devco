@@ -1402,7 +1402,6 @@ Here are some of the common types of software we develop for our clients:`,
                     We’re ready to build the eCommerce site you’ve always dreamed of.
                         Contact us today to discuss your project with our development specialists.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
@@ -1445,9 +1444,6 @@ Here are some of the common types of software we develop for our clients:`,
                     }
             ],
         },
-        
-
-        
     },
 
     
