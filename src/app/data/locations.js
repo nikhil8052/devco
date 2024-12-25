@@ -916,16 +916,18 @@ export const locationsdata = [
                   Overall, hiring a web development agency in Austin Tx is in your best interest to develop software solutions. Doing so will ensure that the quality of the final product doesn’t suffer and that your website is ready to produce results for your business.`,
                   imageSrc: "",
                   imageAlt: "The Importance of Website Quality",
+                },
+            {
 
-            title: `Superior Website Quality`,
-            paragraph:`A clear website that is easy to navigate is important for all types of businesses. As an owner or part of a company, you want your website to allow your customers and clients the opportunity to get in touch with their questions and concerns. At DEV.co we make sure that the process for communicating with your customers and site visitors is simplified so there is no confusion on the path to making a purchase.<br></br>
+                title: `Superior Website Quality`,
+                paragraph:`A clear website that is easy to navigate is important for all types of businesses. As an owner or part of a company, you want your website to allow your customers and clients the opportunity to get in touch with their questions and concerns. At DEV.co we make sure that the process for communicating with your customers and site visitors is simplified so there is no confusion on the path to making a purchase.<br></br>
 
-            Whether your business needs a new website design or you are planning to redesign your existing website, the highly trained and experienced team of web designers at DEV.co will work with you to develop the best strategy for your project, one that is both cost-effective and visually appealing so that you can increase your sales and generate more leads.<br></br>
+                Whether your business needs a new website design or you are planning to redesign your existing website, the highly trained and experienced team of web designers at DEV.co will work with you to develop the best strategy for your project, one that is both cost-effective and visually appealing so that you can increase your sales and generate more leads.<br></br>
 
-            Our team of creative designers and developers are ready to take your website to the next level with a custom, mobile-friendly website that is built to improve your online visibility, generate more leads, bring in new customers, and build your brand. We provide clean, simple, and effective websites. We understand that designing a website can be very difficult and also very time-consuming. We have taken the guesswork out of designing your website. We have created some template sites which you are able to customize to fit your needs.`,
-            imageSrc: "",
-            imageAlt: "The Importance of Website Quality",
-        },
+                Our team of creative designers and developers are ready to take your website to the next level with a custom, mobile-friendly website that is built to improve your online visibility, generate more leads, bring in new customers, and build your brand. We provide clean, simple, and effective websites. We understand that designing a website can be very difficult and also very time-consuming. We have taken the guesswork out of designing your website. We have created some template sites which you are able to customize to fit your needs.`,
+                imageSrc: "",
+                imageAlt: "The Importance of Website Quality",
+            },
               
           ],
       },
@@ -959,4 +961,423 @@ export const locationsdata = [
         What we bring to the table is a proven expertise in creating websites that will deliver qualified leads to your business.`,
     },
     },
+    {
+        id: 8,
+        slug: "bakersfield",
+        top_title: "Bakersfield Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Software Developer in Bakersfield, California`,
+                    paragraph:`Looking for a software developer / software development company in Bakersfield CA? Need Custom Web Design or Online Store? We create visually stunning, professional-quality Softwares/websites. Our custom, modern and mobile-ready website designs bring a unique touch to your online presence. Our Bakersfield CA company teams up with you to provide custom websites that get more visitors, more leads, and more sales.<br></br>
+
+                    We understand that your website is the foundation for your business efforts online. When you build a website with us, we customize your design based on your brand and identity and our team will work with you to help you reach your goals.`,
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`The right website design makes all the difference. Your bakersfield CA business is unique and deserves a web design that reflects this. Our local bakersfield CA team of experienced website developers ensures that your website is well designed, accessible, and able to instill confidence in customers.<br></br>
+
+                    Our projects are complex and each one different. We can offer you the most comprehensive website development services in Bakersfield CA, Los Angeles County, Kern County, and surrounding communities. We truly listen to our client’s needs to help them meet their goals with advanced technology while keeping a competitive edge.<br></br>
+
+                    Our custom website development company, DEV.Co, provides affordable and quality development for businesses in Bakersfield CA and the surrounding area. Over the past decade, we’ve developed a team of designers and developers with years of experience creating cost-effective web solutions. We pride ourselves on providing top-notch customer support and making sure that clients are happy with their new websites. Our goal is to help businesses grow by developing an effective online presence.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`How would it look if your website worked as hard for your business as you do? Let DEV.co show you how we can help you take your business to the next level with a custom website tailored to your needs. We are a team of driven and talented developers, SEO specialists, designers, and marketing pros that work with locally-based businesses to grow their online presence. At DEV.co we’ve been part of the Bakersfield CA community for over ten years so we understand what it takes to grow in this competitive market.<br></br>
+
+                    At DEV.Co, we don’t believe in contracts–after all, our goal is to build a relationship that will last well past the completion of your project.  We pride ourselves on creating high-quality websites at an affordable price and within a timeline that suits your needs. We maintain this standard by employing only qualified team members and by investing in excellent equipment and processes. Our team of professional website designers, developers, and SEO specialists will handle your every need and ensure that your website design is effective in generating the response you desire. DEV.Co is located in Bakersfield, California, and has been creating custom websites since 2008.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Dev.Co is a website development company based in Bakersfield CA, our team of web professionals will create the perfect website for your business. The industry-leading experts at Dev.Co is comprised of highly experienced and educated individuals from all parts of the world who have taken part in developing some of the largest and most-used websites on the internet today.<br></br>
+
+        DEV.Co is a full-service Bakersfield CA web design & development company offering affordable website design and online marketing for small businesses. With years of experience, we know what it takes to be successful in digital media. We build custom responsive websites that are designed to work on all platforms including desktop, tablet, and mobile devices. Your site will include great content that is optimized for search engines so that you will rank higher in the search engine results. You have one chance to make a first impression and your website must work hard for you 24/7. Our goal is always customer satisfaction, if you are not happy with our`,
+      },
+      },
+      {
+        id: 9,
+        slug: "baltimore",
+        top_title: "Baltimore Custom Software Development Company",
+        top_description: `Major search engines like Google and Bing have a duty to pair search queries with the most accurate results. To give internet users what they want, these companies use complex mathematical and scientific ranking algorithms.<br></br>
+
+            With that said, it takes much more than a beautiful website to catch the attention of major search engines. Instead, fully-functional websites are valued by major search engines.<br></br>
+
+            By hiring a Baltimore website development agency, you can succeed in placing your website directly in front of your target audience. Are you searching for a reputable web design company in Baltimore to develop your website?<br></br>
+
+            If so, then you’ve come to the right place. Dev.co is the perfect place to acquire an exceptional website for your brand.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Baltimore`,
+                    paragraph:`Baltimore is the capital of Maryland, and one of the most well-known cities in the country. There are a suite of different local businesses and corporate headquarters in the city.<br></br>
+
+                    If you are operating any local or corporate business in the area, then you need to establish an online presence. The first step in doing so is creating a fully-functional website for your brand.<br></br>
+
+                    Dev.co has built a strong reputation as one of the best website design companies in Baltimore.`,
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Anyone just can’t create a website. It takes a professional expertise to fully understand how major search engines rank websites and the quality factors they look for and value. Without this knowledge, creating your own website can be difficult.<br></br>
+
+                    While it’s possible, you may waste your hard-earned time and money on a website that won’t deliver meaningful leads and conversions to your company. Therefore, hiring a skilled Baltimore web design company is definitely in your best interest.<br></br>
+
+                    This way, you can get a great return from the amount of money you ultimately spend on building your website.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take immense pride in the websites we create here at Dev.co. No matter what type of website you’re looking for, you can rely on us to deliver remarkable Baltimore website development services for your brand.<br></br>
+
+                    Here are the benefits you can expect when you choose to work with us:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers, promising you that you’ll receive help from a developer that fully knows what it takes to rank a website in your industry.",
+                        "We have both onshore and offshore teams of more than 500 people for website development projects that need large staffing requirements.",
+                        "All of our developers have been properly vetted to maintain quality control here at Dev.co.",
+                        "We have tremendous experience in working with small and large businesses, nearby shops and Fortune 500 companies.",
+                        "You will be assigned a project manager that will spearhead your entire website development project.",
+                        "We have exceptional experience in delivering top-notch results for our clients.",
+                    ],
+                    bottomline:"There are many benefits you can take advantage of when you choose to work with us. Hire us today to receive a website that complements your brand.",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Established in 2008, we have more than 12 years of experience in the web design industry. With our strong attention to detail and remarkable customer satisfaction, we can help take your web presence to the next level.<br></br>
+
+            Over the years, our agency has received critical acclaim not just for the services we provide, but also due to our own growth. We believe that we truly have something to offer your company: first-hand experience in how to grow your business.`,
+         },
+      },
+      {
+        id: 10,
+        slug: "baton-rouge",
+        top_title: "Baton Rouge Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Baton Rouge`,
+                    paragraph:`Sometimes all you need is an answer. Sometimes you need more. We offer the solution when you’re looking for something more creative than just a company website or web application. Our Baton Rouge custom development services help you get the most out of your current technology and brand.<br></br>
+
+                    DEV.Co offers Baton Rouge custom development services that can help you design a functional website for your business, build an application for your mobile device, and provide consultation to present your business in an effective way.`,
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Our custom website development services and project management are second to none. Whether you need a simple website or an entire digital marketing initiative, our team in Baton Rouge delivers with agility, creativity, and expertise. We specialize in small business development and have a wealth of experience designing and creating custom web applications using the latest in open source frameworks.<br></br>
+
+                    When you’re ready to design and develop the ideal website for your business, contact us at DEV.Co. Our custom development services in Baton Rouge help you build the perfect website to encourage your customers to buy. We design a custom solution that combines great art direction, design, and programming that meets the needs of your business.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Taking an idea from the original brief through to stunning reality takes focus and expertise. That’s where our team in Baton Rouge comes in. We’ve helped businesses from around the world communicate with their customers, partners, and communities using the most effective digital channels. Whether you need a simple website or an entire digital marketing initiative, we deliver with agility, creativity, and expertise. No two projects are alike but we make sure they’re all equally awesome. From web design to development, strategy to delivery, let us help solve your communication needs today.<br></br>
+
+                    Our clients ask us for internet solutions, and we bring them results. We blend speed, simplicity and expertise with all of our web and mobile development projects. Our team in Baton Rouge assigns the right people to your project, helps you understand the technology and how it will impact your business, and then delivers results. We work closely with you to design your new website, examine search engine rankings and pricing, determine a plan for digital advertising campaigns and monitor online reviews. DEVCO Website Development can turn visions into a reality!<br></br>
+
+                    Our team creates beautiful custom development for businesses and organizations in Baton Rouge and across the country. From fully responsive mobile sites to eCommerce shopping carts and custom web applications, we break down complex challenges into manageable tasks to help our clients grow their businesses. DEV.Co is located in Bakersfield, California and has been creating custom websites since 2008.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Our team in Baton Rouge will offer the innovation, agility, and expertise you need to meet your goals. <br></br>
+
+                The DEV.Co team in Baton Rouge builds websites that help achieve your organization’s goals. <br></br>
+
+                We understand that every business is unique and that there is no one-size-fits-all solution for your digital marketing needs. You will work with a digital marketing specialist who will guide you through the process to build an effective, strategic plan customized to meet your specific requirements and objectives. From developing a strategy and defining your target audience to advising on the best technical solutions, we’ll be with you every step of the way.<br></br>
+
+                DEV.Co Website Development Baton Rouge is a group of digital marketing specialists specializing in providing website development, SEO services, and social media marketing to a number of small businesses throughout Baton Rouge, Louisiana, and the surrounding areas. Clients will benefit from the outstanding skillset offered by our team of experts who are experienced in their field, passionate about their work, and committed to making a positive impact on our clients’ success.`,
+         },
+      },
+      {
+        id: 11,
+        slug: "boise",
+        top_title: "Boise Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Software Development in Boise`,
+                    paragraph:`The professionals at DEV.co is some of the best in the industry and offers you the best software development in Boise, Idaho. DEV.co is a full-service software development development agency.<br></br>
+
+                    We strive to give our clients the very best in software solutions; development technologies that gets results. No matter your company’s size or needs each client is assured premier, our software development engineer work with attention to detail and focus on project-specific goals & provable functional and technical skills.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Software development & Quality`,
+                    paragraph:`Whether you are a startup looking for affordable software developers in Boise, or a corporation with multiple offices around the country, DEV.co’s software developer knows how to build your Software and grow your business. Developing a Software for your business can be an overwhelming & complex technical concepts task. DEV.co has been creating custom Softwares and making small business dreams come true since 2008 with professional software engineering practices.<br></br>
+
+                    Our software engineer focus on delivering Softwares that are designed to generate traffic, improve online visibility, create brand awareness, and ultimately grow the revenue of small businesses. Our simple unique process is tailored to each client and ensures that you receive the one-of-a-kind Software you deserve.<br></br>
+
+                    Our Idaho Software established company is ready to take your business to the next level with cutting-edge Software Development by senior software developer, mobile-friendly, affordable online marketing, and quality customer care.<br></br>
+
+                    With over 20 years of experience in deliver software solutions, for business processes, internal business systems, build valuable enterprise systems & agile software development and a vast network of web developers, our Boise agency is poised to be your one-stop-shop for all things digital. Tell us about your project and we’ll figure out the best way to make it happen.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`With more than 10 years of experience, our team of experienced web designers and web developers will take the stress and hassle out of designing a website for you. Reaching top rankings for your business is our specialty, and we will create or redesign the perfect website to help your business get where it needs to go.<br></br>
+
+                    We offer a range of services from websites to application development and even graphic design. Development Dimensions offers all services under one roof making us your one-stop-shop for your web needs. Whether you are looking to build your website or looking for help developing software, we have you covered.<br></br>
+
+                    Our web design and graphic design services help us deliver the best in all categories. Our designers don’t just make things look pretty – they’re adept at translating business goals into profitable websites. We’ve been doing this for years, so we have a good handle on how to make your website work for you.<br></br>
+
+                    Our clients have come to trust our design team for clean imagery and a flat color palette. We enjoy working with our clients to build a website that is responsive & built on a fast-loading framework. We want your user experience to be as enjoyable as possible, which is why we use the best web technology for each project. We build beautiful, mobile-friendly websites that perform well and meet your goals. You can expect exceptional client service and experienced developers who understand your business.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `DEV.Co is a Boise, Idaho-based Front End Web Design & Back End Software Development Company. We help Boise area businesses and organizations create a distinctive web presence and establish online visibility. Our web developers deliver top-notch work on time – every time. Professional and responsive, we offer extensive experience with state-of-the-art technology and internet marketing.<br></br>
+
+            Over the years, we have developed websites that look great on all screens. On mobile devices, tablets, and desktops. Our Web development company will create unique designs that allow users to browse your website, find what they are looking for, and convert. We offer search engine optimization, e-commerce solutions, and a host of other services for you to choose from.`,
+         },
+      },
+      {
+        id: 12,
+        slug: "boston",
+        top_title: "Boston Custom Software Development Company",
+        top_description: `Boston is one of the most well-known cities in the United States. The city has an important historical culture as the impetus of the American Revolution. It’s also known to several acclaimed universities, local businesses, and corporate headquarters.<br></br>
+
+        Needless to say, having an online presence is extremely important nowadays. Nowadays, most people use search engines to find businesses and make purchasing decisions.<br></br>
+
+        If your business is nowhere to be found on these search engines, then you’re going to have extreme difficulty attracting qualified leads. Also, your audience may be more compelled to do business with your fiercest competitors instead.<br></br>
+
+        For this reason, you should hire the best website development company in Boston. At Dev.co, Our software engineer can help take your digital presence to the next level.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Software & Web Development in Boston`,
+                    paragraph:`Boston has one of the most competitive markets in the country. Since people don’t use directories and phone books to locate a business, they’re going to turn to a more convenient option: the search engine.<br></br>
+
+                    Major search engines like Google and Bing make it easy for people to find the business they’re looking for. Visibility on these search engines is vitally important. The first step in building your online presence is creating a website that represents your brand.<br></br>
+
+                    Hire a Boston website developer today to improve your online presence and attract more qualified leads back to your website.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Software or Website Quality`,
+                    paragraph:`Having any website design isn’t going to suffice if you’re trying to build a sustainable online presence. Imagine how solidified your competitors already are with their online presence.<br></br>
+
+                    Do you truly believe that your website will surpass theirs with a mediocre website? Of course not. You’ll need to hire a reputable Boston website agency to achieve any results with your website.<br></br>
+
+                    Don’t rely on using a DIY website builder. Not just anyone is capable of building a website that will rank well on major search engines like Google and Bing. You should trust a professional to do the job for you so that your website’s quality doesn’t suffer and it truly delivers remarkable results for your business.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take immense pride in the work we do here at Dev.co. When you choose to work with us, you can easily take advantage of the following benefits we can bring to your company.<br></br>
+
+                    These benefits include:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers to handle all kinds of web development projects.",
+                        "We have access to large, scalable teams that can assist in every aspect of your web development project.",
+                        "All of our developers have been vetted rigorously to ensure they are capable of delivering high-quality web design services in Boston.",
+                        "We work primarily with both local businesses in Boston, as well as corporate enterprises.",
+                        "You will be assigned a dedicated project manager to coordinate the completion and performance of your website development project.",
+                        "Our team is committed to not only building a quality website, but developing one that acquires results on your behalf.",
+                    ],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Founded in 2008, we have more than 12 years of web development experience in Boston. We have a strong commitment to maintaining the highest standards of service and customer satisfaction.<br></br>
+
+            This means that we will work tirelessly on your behalf to create an outstanding website until you are fully satisfied. Don’t settle for hiring a standard Boston web design agency. Choose one that will have your best interest in mind.`,
+         },
+      },
+      {
+        id: 13,
+        slug: "buffalo",
+        top_title: "Buffalo Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Buffalo, New York`,
+                    paragraph:`For more than a decade, DEV.Co has strived to be the Best Web Design and Software Development Company in Buffalo NY. Clients come to us for our creative talent, modern solution design input, and responsive web innovative solutions that fit their unique corporate objectives.<br></br>
+
+                    Our software engineers for Buffalo NY are extremely talented artisans who have gone through a rigorous vetting process before being considered the best of the best. After all, no other design team is going to create your business’ website!`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Website Development`,
+                    paragraph:`Our mobile app development and software engineer team can create for you an exceptional modern website design or a fully functioning mobile apps that would perfectly fit your needs and customer requirements in Buffalo NY.
+
+                    Our various web design packages allow you to fully customize and personalize your new business site with an outstanding professional look. Let our professional software development team members with you to create a new website that effectively promotes your products, services, and employees and generates more online traffic to your website  (which in turn leads to more customers).`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `Mobile Development`,
+                    paragraph:`At the DEV.co web design company, we believe in providing only the best mobile development in Buffalo NY. Our software engineer team are expert at iOS and HTML5 app development and offer the new technologies for your business or organization. We have a team of friendly and helpful customer service representatives who work diligently to ensure you receive fast and accurate results every step of the way.<br></br>
+
+                    The web is not only a way of interacting with people but it has become a tool for various businesses to grow. You will need the right development company that understands the market trends and can adapt to changing technologies. DEV.Co is a well-recognized mobile design and development company in Buffalo NY that has been able to serve businesses of all sizes since its inception in 2007.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `Expert Software Engineer in Computer Science`,
+                    paragraph:`At Buffalo NY Custom Software Development Company, we are proud to have a specialized team of software engineers who have in-depth expertise in computer science. Our software engineers facilitate the building and designing of sophisticated websites with inspiring support  innovative solutions. <br></br>
+
+                    Computer science or related principles are fervently implemented for every project that our brilliant developers are assigned to; they ensure each task has unparalleled levels of excellence and efficiency.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `Why Choose Our Software Engineers?`,
+                    paragraph:`Our senior software engineers in Buffalo NY have strong, deep-seated foundations in the computer science or related field, where they are driven to consistently perform impressively and to take risks that extend beyond expectations. <br></br>
+ 
+                    When you become our partner, you will benefit from finding committed teams responsible for difficult assigned tasks and unraveling convoluted scenarios into customized software packages suitable for your needs.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: ` Elevating Businesses through Custom Software`,
+                    paragraph:`Technology is an integral part of the modern digital landscape. Our software developers have a unique understanding of computer science and software engineer jobs, meaning each project we take on is accomplished with precise attention to detail.<br></br>
+ 
+                    No matter the challenge- whether needing lively software applications, creating intuitive interfaces, or digital technology lines- our team brings together cutting-edge aptitude and creative design in order to bring forth successful results that match your own ideal entity.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `The Fusion of Design and Functionality`,
+                    paragraph:`We ensure that the design and implementation of our custom developing programs marry together perfectly, combining both artistry and technical specifications to maximize user experience.<br></br>
+
+                    Our expert software developers and web designers bring their extensive computer science prowess to bear every time they embark on a new project, here in Buffalo NY; this transforms into software engineer jobs involving innovative website creations with strongly integrated features facilitating impressive performance results.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `Collaboration that Breeds Success`,
+                    paragraph:`At our company in Buffalo NY, fostering strong partnerships is essential to achieving success. We pride ourselves on joining forces and collaborating closely with the software engineer team to leverage your sector’s knowledge in order to deliver distinct automation solutions configured specifically for your requirements.<br></br>
+
+                    Our collaborative approach ensures that when it comes to software engineer jobs, the capabilities realized are only limited by what can be imagined—making the potential of major projects virtually endless.<br></br>
+
+                    Our inventive software engineers will actively monitor and utilize recent technological innovations as well as both computer science and software development techniques to create pioneering software solutions for clients with Buffalo NY Custom Software Development Company.<br></br>
+
+                    Together, we can revolutionize what is achievable in the realm of software service engineering! Don’t miss out – partner up with us to explore a world of unprecedented advantage today.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Our software engineer team are perfectionist web designers & developers in Buffalo NY. We are experts in building and designing the most effective websites for our clients that yield long-term results. We provide professional web marketing services to help your website be found by more people so you can receive more leads. We develop useful, responsive websites using the latest technologies and CMS platforms in modern designs. We create websites that have friendly user interface and are superbly designed, whether it be for mobile devices,  e-commerce solutions, or even applications.<br></br>
+
+                    We specialize in helping small to medium-sized businesses grow their online presence through new web development, search engine optimization (SEO), and social media management. Our software engineering team adheres to a custom-built approach to every new web major projects we take on, working with our clients to identify their needs and goals and creating a strategy tailor-made for them.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Our aim is to create beautiful and functional websites that work across all devices, from desktop computers and tablets to mobile phones. We use design patterns such as responsive web design and mobile-first, which means our websites are coded so they respond to the screen size of your device, implementing software solutions and excellent experience for visitors even on mobile phones.<br></br>
+
+            We are a full-service web design & development company in Buffalo NY offering professional website design services. Our customized websites are developed on-the-fly right here in WNY, guaranteeing we always stay current with the latest Google trends and changes in the Internet marketing industry.<br></br>
+
+            Our company is the most professional and experienced web based development company in Buffalo NY. We focus on delivering top web design services to small businesses and startups. We always keep in touch with our clients from the initial project kick-off to the completion with our dedicated customer support team members and account executives.`,
+         },
+      },
 ];
