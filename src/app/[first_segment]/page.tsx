@@ -10,6 +10,9 @@ import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
 import locations from "@/app/locations/Locations";
+import { blogs } from "@/app/data/blog";
+import BlogPage from "@/app/blog_page/BlogPage";
+
 
 interface PageProps {
   params: {
@@ -41,6 +44,11 @@ export default function Page({params}: PageProps) {
   }else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
     Component = locations;
     foundIn = "locations";
+  }
+  else if ((data = blogs.find((item) => item.slug === first_segment))) {
+    Component = BlogPage;
+    foundIn = "Blog";
+    
   }
 
   // Fallback case for no match

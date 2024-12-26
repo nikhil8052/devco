@@ -19,6 +19,7 @@ export const portfolioCol1 = {
             logo: '/images/pepsi_logo.svg',
             gridLogo: '/images/pepsi_round.svg',
             title: 'Pepsi Case Study',
+            pdf_file_name :'first_pdf'
         },
         {
             logo: '/images/Monumetric1.svg',

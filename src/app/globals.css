@@ -954,6 +954,25 @@ ul.tick_list li:before {
     background-repeat: no-repeat;
     background-position: center;
 }
+.blogs_content h2.post_title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.blogs_content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.blogs_content .blog_cartd_image {
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+
+.blogs_content .blog_cartd_image img {
+    width: 100%;
+}
 
 
 

@@ -17,7 +17,7 @@ export default function BlogGrid({ blogs }) {
                         {blogs.map((blog) => (
                             <div className="blog_col" key={blog.id}>
                                 <div className="blog_card">
-                                    <a className="blog_thumb" href={blog.link}>
+                                    <a className="blog_thumb" href={blog.slug}>
                                         <img src={blog.image} alt="Blog Thumbnail" />
                                     </a>
                                     <div className="blog_card_content">
@@ -29,7 +29,7 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <a href={blog.link} className="post_title_link">{blog.title}</a>
+                                            <a href={blog.slug} className="post_title_link">{blog.title}</a>
                                         </h2>
                                     </div>
                                 </div>

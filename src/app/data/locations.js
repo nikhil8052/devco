@@ -1380,4 +1380,625 @@ export const locationsdata = [
             Our company is the most professional and experienced web based development company in Buffalo NY. We focus on delivering top web design services to small businesses and startups. We always keep in touch with our clients from the initial project kick-off to the completion with our dedicated customer support team members and account executives.`,
          },
       },
+      {
+        id: 13,
+        slug: "chandler",
+        top_title: "Chandler Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Chandler`,
+                    paragraph:`Creating an impact starts with design. Be it a top-notch website or an outstanding business card, we know the drill to make designs that leave a lasting impression. With over 10 years of experience in Chandler, Arizona, and nationwide, we’ve mastered this art.<br></br>
+
+                    We have our agile team ready for you! Our certified designers and engineers are versatile experts who can offer numerous services; they ensure your project is done perfectly.<br></br>
+
+                    Don’t let your website design hold back your business. Kickstart its growth with the right web design and development services today! Based in Chandler, Arizona, our Web Design company ensures that you stand out online and globally. We offer top-notch tech-design documents along with internet marketing strategies to boost your business presence.<br></br>
+
+                    Our aim? To help draw new customers towards what you have on offer – we make it a point to go above and beyond for this.<br></br>
+                    Our agency takes care of all your web design needs. Does your website need a fresh new look? We can handle that! Need an online shop added to increase sales? No problem at all.<br></br>
+
+                    We don’t stop there, though – our services go beyond standard website design projects, including social media integration, blogs, newsletters, press release distribution, building mobile-optimized websites, domain management & search engine optimization.<br></br>
+
+                    We make sure customers find you before anyone else does- always remembering the power search engine optimization holds for getting ahead in today’s digital world.<br></br>
+
+                    In addition to our web design and development services, we also have expertise in the Software Development life cycle. Our team of experienced software engineers can help you with a wide range of software projects, leveraging their professional software development experience to ensure your projects are executed to the highest standards.<br></br>
+
+                    Are you looking for software engineer jobs? We’ve got openings here! If coding excites you and innovation is your thing, we’d love to chat. Shoot us a message; let’s explore how you could fit into our projects.<br></br>
+
+                    With our combined expertise in web design, and software development life cycle, and a dedicated team of professionals, we are ready to take your projects to the next level. Contact us today to discuss how we can assist you in achieving your business goals.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Website Development`,
+                    paragraph:`We’re here in Chandler to give you top-notch website design and development services. We tune into your requirements, crafting sites that are sleek, simple to use, and great-looking too. Our business websites aren’t just pretty faces – they effectively drive new clients your way.<br></br>
+
+                    But we don’t stop at web services! You can also count on us for software engineering prowess. With a mix of imaginative software developers and software engineers on our highly talented team, we love bringing fresh digital new solutions right to the table.<br></br>
+
+                    We provide high-quality web designs for small businesses, non-profit organizations, and individuals. Our website design services include search engine optimization (SEO), mobile-friendly designs, online marketing, and blogging services in the greater Phoenix area.<br></br>
+
+                    Looking for passionate software engineers? Need help with your next digital project? Our team is packed full of talented individuals who can make that happen. We’re experts not only in creating beautiful websites but also in developing your digital goals.<br></br>
+
+                    Ready to see how our know-how could give you an edge? Reach out! Let’s chat about all things web design, development, and software engineering services. You can find out what we can do for your business or project.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                {
+                    title: `Mobile Development`,
+                    paragraph:`Dev.Co is a web design firm based in Buffalo, New York, known for top-notch mobile app development. The best mobile development companies completely transform what their clients’ websites and applications could be.<br></br> 
+
+                    Made up of skilled software life cycle and innovative developers, we produce bang-up-to-date applications suited to all modern devices and operating systems. Our team lives for everything ‘mobile.’<br></br>
+
+                    We’ve gained popularity over time as one of Arizona’s go-to places for digital solutions because we put expertise into every project.<br></br>
+
+                    If you’re looking for software developer jobs or a software engineer to join our team, we welcome those passionate about software development and innovation to connect with us. DEV.Co offers an inspiring environment for software engineers to grow their careers and contribute to cutting-edge projects.<br></br>
+
+                    Our custom app and website development services include native iPhone and Android development, hybrid mobile app development (e.g., PhoneGap/Cordova), CMS Website Development (WordPress), Web Design, SEO Consulting, Social Media Management, and Pay-per-Click (PPC) Management Services. We have built customized solutions with usability in mind, focusing on what makes the most sense for your business to grow.<br></br>
+
+                    Looking for the best in mobile app or software development oppportunities? Look no further! DEV.Co is here to serve you. Please reach out to us right away and discover how our experts help make your digital aspirations a reality.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We’re professional web designers and developers who love getting everything just right. Building top-notch websites for our clients is what we do best – sites that bring great results over time. But it doesn’t stop at building new ones; if you’ve got an existing website, we’re ready to enhance its features too! And guess what else? We offer bespoke software solutions so your online presence stays fresh with the latest other technical disciplines.<br></br>
+
+                    We provide professional web marketing services to help your website be found by more people so you can receive more leads. Our team’s expertise in computer engineering allows us to craft innovative solutions that boost your online visibility and customer engagement.<br></br>
+
+                    We develop useful, responsive websites using the latest technologies and CMS platforms in modern designs. We create websites that are user-friendly and superbly designed, whether it be for mobile devices, e-commerce solutions, or even applications.<br></br>
+
+                    We specialize in helping small to medium-sized businesses grow their online presence through new website development, search engine optimization (SEO), and social media management. Our custom-built approach to every new web project ensures that we develop tailored software solutions to meet your unique needs and goals.<br></br>
+
+                    Are you aiming to boost your online presence? Do you need a hand from computer science gurus and software professionals or just some regular help with upkeep and upgrades for what’s already in place? Either way, we’ve got your back. Get in touch today! Let’s talk about how we can lift up your digital game plan towards enduring success.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `Developing the best Web Design Chandler, AZ has to offer is at the heart of DEV.Co. Our website designers and developers are specialists in creating outstanding, search engine-friendly, modern websites. In addition to our web design and development services, we also have opportunities for talented individuals looking for software engineer jobs. DEV.Co is committed to fostering excellence in software engineering and offers a welcoming environment for creative software developers to thrive.<br></br>
+
+        We have a full-service digital agency that offers design, development, and marketing services. Our custom-designed content management system provides you with complete control over your site – update text, images, social media content, and more. And with our annual IT support package included in every design package, you will always have SaaS (Software as a Service) maintenance for your website.<br></br>
+
+        Make an appointment today to get started on building your own customized website, and if you’re a software engineer or a creative software developer looking for exciting opportunities, we encourage you to reach out to explore the possibilities of joining our team.`,
+         },
+      },
+      {
+        id: 14,
+        slug: "charlotte",
+        top_title: "Charlotte Custom Software Development Company",
+        top_description: `Establishing an online presence is pivotal nowadays. Most consumers use the internet to find a local business, which means that it’s all the more important to have a dynamic website that will properly showcase your products or services.<br></br>
+
+        You shouldn’t look to develop your website on your own or select an inexperienced Charlotte web design agency. Instead, make the effort of vetting your prospective agency before deciding to move forward.<br></br>
+
+        If you have come here searching for more information on why you should hire us, then you’ve come to the right place. At Dev.co, we specialize in building impeccable websites for all kinds of businesses. In addition to our web and cloud solutions, we also have opportunities for talented individuals looking for software engineer jobs. DEV.Co is dedicated to providing top-notch software solutions to enhance your online presence and business.<br></br>
+
+        Feel free to reach out to us to discuss your web design needs, explore software engineer job opportunities, and learn how our web solutions can benefit your business.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Charlotte`,
+                    paragraph:`Charlotte, North Carolina is one of the most vibrant cities in the United States. It’s home to countless local businesses, which make fighting for online positioning very challenging.<br></br>
+
+                    If your website is nowhere to be found online, then you’re at a tremendous disadvantage. In addition, your competitors will flock directly to your competitors if they don’t see your website.<br></br>
+
+                    With a fully-functional website, you can successfully improve your online presence and visibility, while increasing the sales potential of your business. Our web design services in Charlotte are designed to improve the trajectory of your business and overall marketing strategy.<br></br>
+
+                    In addition to web design services, we are well-versed in the software development life cycle and can help you with software solutions that meet your specific needs. Our team of expert software engineer is ready to collaborate with you to build the solutions you need. We also focus on maintaining automated unit testing to ensure your software performs at its best.<br></br>
+
+                    Our dedicated data engineering team is here to assist you in optimizing data management and analysis. We offer comprehensive search engine optimization services to boost your online visibility and help you stand out in the competitive Charlotte market.<br></br>
+
+                    If you’re looking to enhance your online presence, develop software solutions, maintain automated unit testing, work with a senior software engineer , or improve your search engine optimization strategy, we have the expertise you need. Contact us today to discuss how our services, and our team of expert software engineers , can benefit your business in Charlotte.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Having an ordinary website isn’t going to work. The reason why is very simple. Google only ranks the best websites on the internet. This happens because Google tries every day to preserve their reputation as the most dynamic search engine in the world.<br></br>
+
+                    It’s in their best interest to rank websites that will truly provide value to search engine users. If you choose to build your own website without any web development managed services, then the quality of your site will suffer.<br></br>
+
+                    It takes a professional who fully understands Google’s search algorithms to create a website that will align with its standards. Thus, hiring a Charlotte web development agency is in your best interest. Our team of software engineer specializes in creating websites that meet Google’s high standards and enhance your online visibility.<br></br>
+
+                    In addition to web development, we offer services like mobile app development, managed services, technical support, and technical troubleshooting. These comprehensive services ensure that your online presence remains dynamic, secure, and user-friendly.<br></br>
+
+                    So, whether you’re looking to improve your website’s performance, create a mobile app, or need ongoing technical support, we have the expertise to help. Contact us today to discuss how our services can benefit your business in Charlotte.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take pride in providing several amazing benefits to our customers. With that said, here are the advantages of choosing to work with us:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers. No matter what industry you operate in, we have a reliable developer who can help.",
+                        "We have access to onshore and offshore teams when our projects need additional staffing requirements. These teams exceed 500+ highly trained developers and project managers.",
+                        "All of our developers are sent through a rigorous vetting process to ensure we deliver the highest-quality web development services.",
+                        "We have direct experience in working with both local businesses and Fortune 500 companies.",
+                        "We’ll assign you a project manager to help coordinate your web development project and ensure it’s completed both on time and on budget.",
+                        "We have built a commitment to delivering top-notch results for our clients.",
+                    ],
+                    bottomline:"As you can see, there are a bunch of benefits you can take advantage of when you work with us.",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `We have more than a decade of web development experience. Founded in 2008 as a financial and advertising software consulting firm, our team has mastered the art of developing high-performance websites. If you’re a software developer or are looking for software developer jobs or software engineer jobs in a related technical field, we welcome you to explore opportunities with us.<br></br>
+
+            When you work with us, we’ll not only design a website that complements your brand. We’ll also create a website that will rank well on major search engines like Google and Bing. Our commitment to excellence in web development extends to fostering talent in the software development field, making us a dynamic and innovative choice for your web development needs.`,
+         },
+      },
+      {
+        id: 15,
+        slug: "chesapeake",
+        top_title: "Chesapeake Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Chesapeake`,
+                    paragraph:`The best website design company in Chesapeake, Virginia, DEV.Co’s team creates a customized web solution for every one of its clients. We pride ourselves on combining our expertise in software engineering with modern software design.<br></br>
+
+                    Whether you need a start-up agency or established business designers, we strive to offer the most professional services available, adhering to the highest standards of the software engineering life cycle. Our commitment to delivering innovative solutions extends to our approach to software engineering, ensuring that your website design reflects the latest in modern software engineering design.<br></br>
+
+                    Software engineering, software engineer jobs, project management, software testing, ensure project specification, power platform developer – these are the cornerstones of our approach to deliver outstanding web solutions. We integrate software engineering principles to ensure the robustness of your web projects and the satisfaction of your users. Our team of skilled software engineers and project managers is committed to exceeding your expectations, and our rigorous software testing ensures the reliability of your digital assets. We are your trusted partner for all your web development needs, offering top-notch software engineering solutions to drive your business forward.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`When it comes to building a website, we treat every client as if they were our only client. We don’t just develop your website; we will also hold your hand through the process of getting your site online and helping you manage this important part of your business.<br></br>
+
+                    Creating a website design that accurately reflects your brand as well as incorporating all of your unique requests is our specialty. We will create a site that is not only beautiful and functional but also easy to update and edit yourself so you can be sure it stays fresh and up to date. Turning the initial design into a site that is not only visually appealing but is an integral part of your marketing strategy is the ultimate goal. Branding Identity, Web Design & Development Services are our core competencies.<br></br>
+
+                    With a company philosophy of delivering excellence on every project, our team will offer you a fresh approach to harnessing the power of the web. Our reliable processes and dependable solutions ensure your peace of mind and maximum return-on-investment. We are your one-stop-shop for all aspects of web design, development, search engine optimization, and marketing strategies. We will help you grow your business.<br></br>
+
+                    Software engineering, software engineer jobs, project management, software testing, ensure project specification, power platform developer – these are the cornerstones of our approach to deliver outstanding web solutions. We integrate software principles to ensure the robustness of your web projects and the satisfaction of your users. Our team of skilled software engineers and project managers is committed to exceeding your expectations, and our rigorous software testing ensures the reliability of your digital assets. We are your trusted partner for all your web development needs, offering top-notch software engineering solutions to drive your business forward.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Whether you’re a start-up creating an online identity, or an established business looking to enhance your brand experience, DEV.Co can help.<br></br>
+
+                    DEV.Co specializes in a range of web design & development services tailored to fit the needs of businesses searching for cutting-edge solutions. Our full Web Development Platform includes custom web design, responsive mobile sites, and eCommerce shopping carts.<br></br>
+
+                    We combine our expertise in web design, development, and marketing to optimize your bottom line. Our team of web designers, developers, and content strategists has been creating everything from simple brochure sites to large-scale eCommerce platforms for years. We’re dedicated to fostering lasting relationships with our clients so we can deliver exceptional design and development at every stage of the process.<br></br>
+
+                    We are on a mission to grow your business and train the next generation of online entrepreneurs. We can help you start from scratch or purchase an existing website.<br></br>
+
+                    Rest assured, our seasoned designers and developers will help you build a website that reflects your brand’s personality. In addition to the classic HTML website, our team will build custom web applications tailored to your business needs, provide search engine optimization, and generate an online marketing strategy in order to drive site traffic and generate actionable leads.<br></br>
+
+                    We offer a wide range of services to meet all of your needs. From custom WordPress website design to mobile app development, we have you covered!<br></br>
+
+                    Software problem, software engineer, computer science, object-oriented principles, abstract data types, demonstrated experience – these are the factors that define our approach to delivering exceptional web design and development services. We integrate software principles to ensure the robustness of your web projects and the satisfaction of your users. Our team of skilled software engineers, grounded in computer science principles, is committed to exceeding your expectations, and our demonstrated experience ensures the reliability of your digital assets. We are your trusted partner for all your web development needs, offering top-notch solutions to drive your business forward.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `DEV.Co is a full-service custom software and web development company located in Chesapeake, Virginia. We proudly serve both local and online clients with a wide range of services, including custom web development, custom software development, and website design and development.<br></br>
+
+            We are on a mission to grow your business and train the next generation of online entrepreneurs. We can help you start from scratch or purchase an existing website. We offer a wide range of services to meet all of your needs, covering the entire software development lifecycle.<br></br>
+
+            From custom WordPress website design to mobile app development, we have you covered! View a selection of our work here. We help you bring your company online by making sure that your website meets the industry standards, is compatible with all major mobile devices and browsing software, and attracts new visitors daily to further improve your revenue stream.<br></br>
+
+            Our team of skilled software engineers and project managers ensures that your project adheres to the highest standards of project management and that proper project specification is in place from the outset. If you’re looking for software engineer jobs or need assistance with any aspect of your software or web development project, we have the expertise you need. Contact us today to discuss how our services can benefit your business.`,
+         },
+      },
+      {
+        id: 16,
+        slug: "chicago",
+        top_title: "Chicago Custom Software Development Company",
+        top_description: `Chicago, otherwise known as the Windy City, is known for its Midwestern charm and stunning restaurants. Local businesses are common throughout the city’s metro area, making competition tough.<br></br>
+
+        If your business lacks an established online presence, then it will naturally suffer to attract potential online leads. Creating an exceptional website is the first step to boosting the sales and revenue of your business, particularly in the world of software engineering and quality engineering industry trends.<br></br>
+
+        Though, it can be made by just anyone. Hiring a Chicago web design agency is the first step in turning your website into a digital storefront. Dev.co, located in Chicago, IL, can help you make the transition from a local business into an online empire by offering software engineering and software solutions that align with the latest quality engineering trends. So, if you’re looking to establish a strong online presence and enhance your business, consider Dev.co for your web design and software engineering needs.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Designer in Chicago`,
+                    paragraph:`
+                    Both tourists and natives are keen on Chicago’s vibrant business scene in Chicago IL. Standing out amongst the competition is key to growing your business and staying afloat in a tough market in Chicago IL.<br></br>
+
+                    Most likely, all of your competitors in Chicago, IL have a fully-functional website that’s ranking on major search engines like Google and Bing right now. What is your counter for their website? If your website doesn’t hold up to the same quality, then you’re at a disadvantage in Chicago, IL.<br></br>
+
+                    For this reason, hiring a Chicago web design agency is key in Chicago IL. If you’re looking for premium web design services in Chicago IL, then you’ve come to the right place. Dev.co is the perfect place to receive a top-notch website for your brand in Chicago, IL. So, if you want to stand out in the vibrant business scene of Chicago IL, consider Dev.co for your web design needs.<br></br>
+
+                    And if you’re also seeking software engineering jobs in Chicago IL, Dev.co can be an excellent resource to explore opportunities in this field. Whether it’s web design or software engineering, Dev.co has you covered in Chicago IL.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`In earlier times, it wasn’t possible to create a website unless you were a skilled coder. Nowadays, DIY website builders can be used by anyone without any development knowledge. However, there are noticeable disadvantages to building your own website, which include:`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                        "The quality of your website will suffer drastically. It takes knowledge and experience, particularly in computer science, and the expertise of a software engineer to properly build a website.",
+                        "Even if you succeed, there’s a low chance that your website will even appear on major search engines, which is where the technical skills of a software engineer come into play.",
+                        "You’ll ultimately waste your valuable time and money on a website that won’t net you a return on your investment without the guidance of a software engineer.",
+                    ],
+                    bottomline:"Building a website is never a solo job. Allow us to help create the perfect website for your brand today! If you’re interested in software engineering jobs or require the skills of a software engineer who understands computer science, we have the expertise to make your website a success with the help of a skilled software engineer.",
+                },
+                
+            ],
+        },
+
+        benefits: {
+            title: "How We Can Help",
+            description: `At Dev.co, we take immense pride in the work we do. We strive to uphold the highest standards of service and customer satisfaction. With more than 10 years of experience in our field, we can help take your online presence to the next level with the help of experienced software engineers and software development teams.<br></br>
+
+                    Here is everything you can expect when working with us, whether you’re in a related quantitative discipline or need the expertise of a software engineer:`,
+            benefits: [
+                {
+                    title: "Design",
+                    description:`The best websites leverage top-notch user experience. When web visitors are happy, your website grows. At Dev.co, we don't just build excellent websites. We also take the user experience of your audience into account during every phase, thanks to the expertise of our software engineers and our commitment to custom software development. Our team of skilled software engineers ensures that your website is not only visually appealing but also functionally sound. We follow Agile software development methodologies to continuously improve and adapt your website to meet the evolving needs of your users. By prioritizing user experience, software engineering, and Agile software development, we create websites that not only look great but also perform exceptionally, making your online presence a key asset for your business.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Develop",
+                    description: `From QA testing to design mockups, our team, which includes software engineers, software development associates, and full-stack software developers, will streamline the entire development process. We understand the importance of functional specifications and requirements, ensuring that every aspect of your website is carefully considered to guarantee top-quality results. Our experienced software engineers and software development associates work hand-in-hand to ensure that your website not only meets but exceeds your expectations, backed by the expertise of our software engineer jobs. With a focus on functional specifications and requirements, we pay attention to every detail, from the design specific testing strategies to the final product. At Dev.co, we're committed to delivering a website that represents the industry best practices in quality and performance, thanks to the dedication of our skilled software engineer jobs. Our team is here to ensure your online presence aligns with the highest standards of excellence.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Deploy",
+                    description: `During this phase, our team, including custom software experts and a group of skilled software engineer jobs, will make sure that your website is ready to go. Not only will we train you on how to use your website, but we'll even provide maintenance to ensure that it's working at peak performance at all times. Our commitment to custom software solutions means that your website is tailored to your specific needs, providing a unique and optimized user experience. Our custom software solutions extend to web services, ensuring that your online platform is seamlessly integrated into the digital landscape. We leverage an advanced automation tech stack, implemented by our expert software developers, including software engineer jobs, to enhance the functionality and performance of your website. At Dev.co, we combine cutting-edge technology with custom solutions to provide you with a powerful and dynamic online presence, supported by a team of skilled software engineer jobs who excel in their respective roles.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `When you choose to work with us, we’ll sit down and gain a better understanding of the goals you have for your website. Whether you want to receive more leads or physical visits, we’ll design a website that improves your ROI, leveraging our expertise in computer science, and the skills of our software engineer jobs, including full-stack software developers with top-notch coding skills.<br></br>
+
+            Our approach is rooted in a deep understanding of your objectives. At Dev.co, we not only create websites but also tailor them to your specific needs. This involves harnessing the principles of computer science and the collective knowledge of our skilled software engineer jobs, especially our full-stack software developers, who bring their coding skills to the forefront. We’re committed to helping you achieve your website goals and enhance your online presence.`,
+         },
+      },
+      {
+        id: 17,
+        slug: "chula-vista",
+        top_title: "Chula Vista Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Chula Vista`,
+                    paragraph:`Headquartered in Chula Vista, California? That’s us! We’re an experienced digital marketing agency that does it all. Need help with web design or online marketing strategies? You’ve come to the right place – we are your ultimate internet solution.<br></br>
+
+                    Our dedication towards top-tier customer service is unmatchable and our talented software development team creates high-quality websites designed for you. The aim of these designs by our software engineers isn’t just visually appealing sites; they also generate more leads and potential sales effortlessly!<br></br>
+
+                    If there are any budding tech enthusiasts looking for a career pivot, remember: we have ample opportunities available too like rewarding “software engineer jobs” & challenging software developer jobs.<br></br>
+
+                    In brief, if you need anything from sophisticated website design services (thanks to the magic created by our brilliant folks working on Software Engineering or want excellent quality assistance regarding Internet marketing – look no further than us.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Development Quality`,
+                    paragraph:`At DEV.co, we create websites that are both budget-friendly and great quality. They’re simple to navigate with plenty of features you’ll love! Our mission is grounded in our client’s goals – tailoring your online presence towards reaching the right audience. We handle everything from designing logos for defining corporate identities to website building backed by SEO strategies and Google Ads management.<br></br>
+
+                    Choosing a web design company shouldn’t be stressful or complicated – it should feel like gaining a strategic partner committed to helping shape your vision into reality! This philosophy guides us at DEV.Co when collaborating closely with customers during development projects. Each solution is custom-made because every client’s needs differ greatly!<br></br>
+
+                    Our team excels in developing customized software solutions tailored specifically according to individual business requirements; this expertise extends not just within San Diego CA but spans nationwide as well—a testament to why hundreds choose us over others.<br></br>
+
+                    As seasoned professionals rooted deeply within engineering or computer sciences, we provide full-service digital marketing offerings including graphic designs & mobile app developments alongside test automation systems integration—all courtesy of our amazing software QA engineers who ensure top-notch results consistently!<br></br>
+
+                    In Chula Vista CA—the heartland where best-in-class website designs happen—we take pride as DEV.Co continually setting standards high above par due largely thanks part phenomenal teams composed of designers developers plus internet marketers collaboratively crafting organized`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                        "The quality of your website will suffer drastically. It takes knowledge and experience, particularly in computer science, and the expertise of a software engineer to properly build a website.",
+                        "Even if you succeed, there’s a low chance that your website will even appear on major search engines, which is where the technical skills of a software engineer come into play.",
+                        "You’ll ultimately waste your valuable time and money on a website that won’t net you a return on your investment without the guidance of a software engineer.",
+                    ],
+                    bottomline:"Building a website is never a solo job. Allow us to help create the perfect website for your brand today! If you’re interested in software engineering jobs or require the skills of a software engineer who understands computer science, we have the expertise to make your website a success with the help of a skilled software engineer.",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Building the perfect website for your business is a journey. At Dev.Co, we help you bring your vision alive with our cutting-edge web design services! We create stunning and easy-to-use websites that work great on mobile devices too.<br></br>
+
+                    Here’s something cool – we mix engineering or computer science know-how, creativity and software tools to make sites compatible across all gadgets!<br></br>
+
+                    Great news? Our team has an exceptional flair for crafting effective apps which can speed up growing your online presence in no time. Whether it’s creating a fresh site from scratch or giving yours some sprucing-up (or anything between), trust us – job done right!<br></br>
+
+                    Dev.Co offers technical expertise honed by vast experience; rest assured knowing that as part of this dynamic environment, growth awaits just around the corner.<br></br>
+
+                    We’re proud to be associated with select managed partners who will cater flawlessly towards fulfilling any requirement under ‘web needs’. Here at Full-Service Chula Vista Web Design & Development Company, extraordinary talent meets affordable costs.<br></br>
+
+                    Want more jobs like these delivered straight into your inbox? Create jjob alert tailored specifically according to current opportunities offered here!<br></br>
+
+                    Taking both equivalent experience and bachelor’s degree holders onboard , successful candidates should have strong understanding about elements defining good user interface coupled with positive attitude . Check out detailed specifications<br></br>
+
+                    in our job description section. Stay updated, create a job alert, and never miss an opportunity to be part of the constantly evolving world of software design with Dev.Co.<br></br>
+
+                    We are fully committed to evaluating services regularly just so you get nothing but the best! So if being in the midst of technological innovation is what excites you—well, buddy—you’ve arrived at the right place!<br></br>
+
+                    And finally, whether it’s embarking on a quest for new discoveries or simply exploring professional boundaries within the web development space – there’s always something that awaits here!<br></br>
+
+                    So take a leap forward today by joining us; after all as we love saying – “great things happen when people’s power meets technology”.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+  
+        codeheadingsection: {
+          headingContent: `Engage Our  <br><span class="text-headingBlue">Development </span>Services`,
+          paracontent: `DEV.Co specializes in providing our clients with exceptional internet marketing services with the highest level of service. As a website design and marketing firm, we understand the importance of staying ahead of the curve, and that’s why we’re open to all media channels, whether they be online or offline.<br></br>
+
+            Our Chula Vista web design company is a full-service web design and development firm that specializes in custom web development, digital marketing, graphic design, and mobile app development. We offer the best website design in Chula Vista CA, and surrounding areas because we are a team of professional designers, developers, and online marketing specialists who create an organized web presence for your business. Our websites work across all devices so customers can share your information easily using their mobile phones and iPads.<br></br>
+
+            Our goal at DEV.Co is not only to offer top-tier web development services but also to provide opportunities for skilled individuals. Our team includes experts who have emerged from various software engineering jobs and are now using their experience in handling complex projects.<br></br>
+
+            We’re proud that many of our dynamic staff members began with us through the software developer jobs section on our website. With cutting-edge technology, they create user-friendly interfaces across multiple platforms – making navigation a breeze! They bring ideas alive digitally which helps businesses expand beyond boundaries.`,
+         },
+      },
+      {
+        id: 18,
+        slug: "cincinnati",
+        top_title: "Cincinnati Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Cincinnati`,
+                    paragraph:`The online presence of a business is the first step to success. Yet, for a great number of companies, this opportunity remains unrealized. We understand that a powerful project management and effective online presence is a priority for any businessman. With our Cincinnati web design company, your online presence will be your most powerful asset.<br></br>
+
+                    With our help, you can ensure that we will maintain innovative software solutions and more people will be able to take advantage of your goods and services in real-time. Our skilled professionals are among the best website designers in Cincinnati and beyond, and we use only the latest innovations in technology and creativity to make your business truly visible!`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Our software developers create custom websites that provide the quality you expect and deserve. On top of that, our web development staff will use SEO techniques and innovative strategies so your website can start generating sales and leads immediately.<br></br>
+
+                    We offer high-end design and development services using cutting-edge technology to meet the needs of small to medium-sized businesses. Our goal is to help you build a long-lasting relationship with your customers through custom digital solutions that can be easily managed through an intuitive back-end interface. We’ll do everything we can to exceed your expectations in all areas.<br></br>
+
+                    Start with an attractive business website to showcase your products and services. A quality website from DEV.Co Cincinnati web design & development company is a surefire way to increase and measure the performance of your online marketing strategy and achieve better online visibility. We can design a new website for you or work with your existing one to make it the best it can be. We integrate responsive design concepts with innovation and creativity, creating stunning, easy-to-navigate websites that are guaranteed to increase your online revenue!`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We create incredibly engaging, highly optimized web solutions for businesses of all sizes. With a team of highly skilled developers, designers, content writers, and project managers, we offer a full suite of web design and development services. Our responsive website designs make it easy for you to keep your online content fresh and available across all devices. From fully responsive mobile sites, to eCommerce shopping carts and custom web applications, DEV.co has got you covered.<br></br>
+
+                    Our multi-disciplinary team can expertly handle projects from inception to completion, no matter what your needs are. We’re located in Cincinnati and have worked with clients all over the United States.<br></br>
+
+                    From small businesses to non-profits to individuals, DEV.co makes it easy and affordable to get a great new website or maintenance of an existing one. DEV.co also has an amazing staff of programmers, developers, and designers who provide IT support for both businesses and homes, including training, software developer jobs, and consulting for growing corporate clients with multiple locations across the U.S.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+          paracontent: `We are the Web Design and Custom Software Development Company right in Cincinnati, Ohio. We create amazing, affordable custom web designs for any business, industrial systems, technical knowledge, data structures, and digital communications, and offer computer science fundamentals everywhere. We are nationally rated at the top of Google for the best website design. Our award-winning team is comprised of designers and developers who turn ideas into beautiful works of art.<br></br>
+
+        Our many software engineer are here to help you with your website. With years of designing and development experience, DEV.co can guarantee that we can build the right site for you. Our Cincinnati Web Design & Development Company team provides quality services at a great value in an ever-changing web presence. We want to be your leading source for anything web-related from Web Design and development, Search Engine Optimization, Marketing, Social Networking, Traditional Marketing, Web Maintenance.`,
+         },
+      },
+      {
+        id: 19,
+        slug: "cleveland",
+        top_title: "Cleveland Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Cleveland`,
+                    paragraph:`The DEV.co team delivers expert web design and custom software development for small business and non-profit organizations. We offer the best web design in Cleveland, Ohio, while keeping accessibility at the forefront to advance your online presence. Our development team offers a beautiful responsive web design at a cost-effective price. You will find that our Branding and Marketing team sets us apart from other development companies in the Cleveland area.<br></br>
+
+                    DEV.co has provided web design & development services to thousands of small businesses. From our home office in Ohio, we offer a wide range of web design services to help companies connect with their customer base and expand their markets. Our team members have years of experience in the digital media industry, having earned certifications such as Google Analytics, HubSpot Inbound Marketing Certification, and more. When you choose DEV.co for your Cleveland website design & development needs, you’re choosing an agency with unmatched expertise that can help your business reach its full potential online.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`We understand the vital role that good design plays in developing a strong presence on the Internet. That’s why the websites we develop for our clients are our top priority.<br></br>
+
+                    We’ll help grow your business online with more web traffic and sales. We stand out from other web design agencies because we offer our clients the most competitive prices, write software requirements, and deliver features that will help you grow your business.<br></br>
+
+                    We’ve been helping businesses in the Cleveland area and beyond grow and flourish online since 2008. With one “all-encompassing solution for all of your digital needs,” our Cleveland web design company will help you celebrate your brand, whatever its stage of development. From business cards to book covers, mobile-friendly websites to SEO, we offer it all in one place.<br></br>
+
+                    For over a decade, our team at DEV.co has helped businesses across the globe launch new products and build thriving online presences. We work with each client to develop a unique strategy for success, no matter the scope of their project or budget. When it comes to your next website or application, trust your business to the professionals at DEV.co.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Let us help grow your business through targeted internet marketing, including but not limited to:<br></br>
+
+                    Our development team creates flexible, engaging web applications using current technologies and standards. From fully responsive mobile sites to eCommerce shopping carts and custom web applications, everything will be lightweight, fast, secure, and reliable. We can develop on any platform. Our skilled team works closely with you to ensure your vision is delivered effectively.<br></br>
+
+                    Our mission is to get you found on the internet with a top-notch website design & development team focused solely on making you look good, and your business more successful! Your website is not one more of your expenditures, but rather an investment that will generate meaningful revenue. We provide the skills, talent, and timely solutions to help your project succeed. Let’s talk about your goals, and create a campaign that will get it done.<br></br>
+
+                    Our team of Cleveland web designers and developers will help you create a website that embodies your business or organization and communicates your message with clarity and impact. We work with you to develop an attractive, feature-rich website that is mobile-ready, responsive, and easy for your customers and clients to navigate.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `Engage Our <br><span class="text-headingBlue">Development</span> Services`,
+          paracontent: `DEV.co offers full-service web design & development, including flash design, e-commerce, logo design & hosting. We are a creative design company in Cleveland, Ohio with capabilities in web/graphic/digital media.<br></br>
+
+            We also create job alert for software developer jobs and computer science graduates in Cleveland OH. <br></br>
+
+            Our web designers and software developers are accomplished artists across the tech stack and offer full-service solutions in multimedia development and internet solutions for small business owners. Our software developers are also pros when it comes to mobile application software, DevOps utilizing tools, cross platform development tools, develop codes, meet project deadlines, and critical production problems. <br></br>
+
+            Our goal is to help you establish your online presence via an internet marketing campaign plan that offers a mix of search engine optimization and social networking strategies to get your website noticed by potential clients.`,
+         },
+      },
+      {
+        id: 20,
+        slug: "colorado-springs",
+        top_title: "Colorado Springs Custom Software Development Company",
+        top_description: `Colorado Springs is one of the most well-known and visited cities in the United States and the world. The city is known for its wildlife, more jobs, weather, and winter-related attractions. As you can imagine, many local businesses operate in Colorado Springs.<br></br>
+
+        Having a website will help you to stand out in a competitive industry and convert interested prospects into paying customers. Also, having a basic knowledge of fully-functional website will help you outrank your competitors on major search engines like Google and Bing, and increase your sales and revenue opportunities.<br></br>
+
+        Do you want to purchase a website from a reputable Colorado Springs website development agency? If so, then look no further than Dev.co.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Development in Colorado Springs`,
+                    paragraph:`Most consumers use the internet to find local businesses. It’s simple, after all, to do so. All you have to do is pull up a smartphone or laptop, open a search engine like Google, and search for an endless amount of nearby businesses in your area.<br></br>
+
+                    With that said, how well does your website rank on major search engines like Google and Bing. If your website is nowhere to be found, then you’re going to miss out on valuable business opportunities.<br></br>
+
+                    What’s more is that you can also give your competitors the opportunity to steal your potential customers and make it more difficult for you to run a profitable business. For this reason, having a website is no longer an option. It’s a requirement.<br></br>
+
+                    Hiring a professional website design agency in Colorado Springs is your best option for receiving an excellent website for your business.`,
+
+                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Just running a basic website won’t cut it these days. Search giants, like Google, use complex electronic data processing systems. These systems, created by talented software engineers, apply advanced math and science rules. They rank websites using machine learning and AI.<br></br>
+
+
+                    Search engines are pretty skilled at putting only top-notch sites on their first pages and subsequent results pages. If you’re thinking of making your own website or hiring a less-than-stellar developer in Colorado Springs to save some cash, they won’t be gentle in their assessment. <br></br>
+
+                    You need to remember to apply electrical engineering principles in system software development for a website that really performs. And don’t forget to hit “create job alert”. You wouldn’t want to miss any golden opportunities, would you?<br></br>
+
+                    This means that you could risk wasting your hard-earned time, money, and effort on a website that can’t produce the type of results you’re looking for. Website quality is very important.<br></br>
+
+                    To make sure that your website has high-ranking potential, hire a professional web design company in Colorado Springs today!`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, Colorado Springs CO, we strive to maintain the highest values of customer satisfaction and service. This means that we are never finished working for you until you are fully satisfied with your website.<br></br>
+
+                    With over a decade of experience, we have developed thousands of websites. When you choose to work with us, you can expect to receive these benefits:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers with advanced technical education, which means that you will more often than not receive a developer that will fully understand the true nature of your business.",
+                        "We have access to additional teams and software development tools to accommodate large projects for all kinds of businesses.",
+                        "We've hand-picked our developers, making sure they're top-notch. High-quality websites? That's our promise. Oh, and we're big on data science too.",
+                        "We've worked hands-on with small local businesses and big corporations alike, specifically dealing with electronic components.",
+                        "You will be assigned a dedicated project manager that will make sure that your website development project is completed on course.",
+                        "With a lot of experience under our belt, we know just what you want from a website. We've got the skills in programming languages to deliver top-notch results.",
+                    ],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `Maximizing Your Investment`,
+          paracontent: `Our Dev.co squad, experts in computer engineering and computer science, put customer happiness and service above all else. Until you’re totally happy, consider your website a work in progress. We won’t stop until you’re satisfied.
+
+Your website’s main purpose? Turning potential customers into actual ones. Isn’t achieving that? That’s a sign your site’s seriously busted. You might need some expert help like a professional website development agency, especially if you’re in  Colorado Springs. They can help craft the perfect site for your brand.
+
+And what about your city’s department business? It’s in computer engineering and you need to be in the loop about the salary range. Remember, this is a STEM-related specialty!`,
+         },
+      },
 ];
