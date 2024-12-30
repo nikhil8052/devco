@@ -2550,5 +2550,630 @@ This means you can count on us to deliver a website that will improve your ROI a
          },
       },
 
+      {
+        id: 28,
+        slug: "fort-wayne",
+        top_title: "Fort Wayne Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Development in Fort Wayne`,
+                    paragraph:`We’re DEV.co from Fort Wayne, Indiana! We provide slick website design services and custom web applications that produce results. Interested in eCommerce development? Or maybe you need some business consulting advice? Whatever your company size, we’ve got you covered!<br></br>
+
+                We aren’t just any old firm – here at DEV.co of Fort Wayne’s full-service team is brimming with genius designers and software developers ready to help bring your brand alive online. Our technicians are experts in device management software too.<br></br>
+
+                Looking for “software engineer jobs”? You might want to hang on a few seconds more because our project managers can also guide the way once verification successful waiting ends up popping on screen.<br></br>
+
+                Come join us as we create job alert opportunities every day for ambitious computer engineering professions looking forward to innovative solutions making waves all over the world. `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Creating websites in Fort Wayne is a breeze with our dedicated team. Our designers and developers use the web’s power to link you to your customers. We’re proud to offer top-notch responsive website design and development support for small business online promotions.<br></br>
+
+                        At DEV.co, we have an extensive range of digital services available for growing businesses like yours. All members on board are well-versed with modern technology standards, including software development aspects. They team up seamlessly with skilled artists, content creators, social media wizards plus SEO experts who’ve won trust across sectors.<br></br>
+
+                        We don’t just develop – we care about every detail from start-end when crafting your site! It guarantees that only the best representation goes out there on internet space representing you digitally as if verifying you are human.<br></br>
+
+                        Our network security appliances ensure safety while handling embedded software tasks or mobile app projects efficiently under firm project management guidelines which include automated testing phases to ensure efficient code release within timelines.<br></br>
+
+                        The ‘ray id’, often used by computer scientists during problem-solving is taken into account even more here at Dev.Co giving us an extra edge towards meeting customer satisfaction levels through unique solutions delivered quickly courtesy of their refined communication skills! `,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`A strong online presence is key to any successful business. And, that doesn’t just occur overnight but evolves over time. This is where the experts step in, taking on this vital task.<br></br>
+
+                    At DEV.co Web Design & Development, we house top-notch talent who work independently and have innovative tech at their fingertips for generating your desired web applications with ease – be it basic templates or custom WordPress and Drupal sites.<br></br>
+
+                    Our team members all hold bachelor’s degrees or higher offering design applications which pass stringent code reviews impeccably while also providing round-the-clock support services. So if you’re around Fort Wayne looking to enhance your digital footprint, let us help guide you every step of the way!
+
+                    We are web designers and web developers, and we make it happen in Fort Wayne. We are a wide-ranging firm able to create a website for almost any need. Be it an eCommerce shopping cart, fully responsive mobile sites, a business landing page, or a blog/news/media site, we have the skills to finish the job. Plus, working with our designers and developers is fun! We’re here to help you accomplish your goals on the Internet.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We <br> <span class="text-headingBlue">Bring to </span> the Table `,
+          paracontent: `DEV.co is one of the best website design companies in Fort Wayne, Indiana. We focus on building stunning websites that only include elegant designs and cutting-edge technology when it comes to design, development, SEO, and overall online marketing. With combined years of web design experience, our creative designers start with hundreds of designs before they find the perfect fit for your new venture or company.<br></br>
+
+            From businesses to service providers we understand how important it is to present your products and services online in a professional manner that will grab your customer’s attention at first glance. Our skilled developers take your idea and create the website you envisioned with the latest technology available while`,
+         },
+      },
+
+      {
+        id: 29,
+        slug: "fort-worth",
+        top_title: "Fort Worth Custom Software Development Company",
+        top_description: `Looking for a city with unique attractions and flavors? Fort Worth, Texas might just be your kind of place. Here in Fort Worth TX , local businesses shine brighter if they’ve got strong online visibility.<br></br>
+
+        Simply put: to succeed in today’s market – you need a stellar website. Without one, potential customers may end up at the doorstep of competitors instead..<br></br>
+
+        Do you want software engineering solutions that stand out from the rest? At Dev.co we’re experts when it comes to crafting top-grade web development services right here in Fort Worth! You’re tasked as a software engineer or seeking “Software developer jobs” around town doesn’t matter because every business needs an impactful website regardless!.<br></br>
+
+        So make sure not to miss any opportunity – create job alert notifications so whenever there is an opening; whether it is a computer engineering profile or another role relevant within our company’s spectrum – you can always stay updated about them.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Fort Worth`,
+                    paragraph:`People mostly use Google or Bing when they’re on the hunt for local businesses. Why? Because it’s a breeze to find what you need! A quick search can pull up all nearby stores in your neighborhood, right there on Google Maps.<br></br>
+
+                    When considering how to pop up at the top of these local searches, having an amazing website is key. The site needs not just look good but also reflect who you are as a brand perfectly – its quality ultimately being a pivotal part of making your marketing strategy work!<br></br>
+
+                    Here’s where we come into play: We’re Dev.co team – folks that make sure websites shine bright like diamonds (or even brighter) among search engine results pages (SERPs).<br></br>
+
+                    After verification successful waiting for just a few seconds, think about us similar way as the job alert system- letting software engineer job seekers know about their dream opportunities available in the computer science sector around them. `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`The success of your website is all about its quality. Picture this, if you come across a site that screams 2011 vibes, what would you do? You’d likely exit and never return. Instead, consumers will turn to your competitors.<br></br>
+
+                    So who else cares deeply about the state of your website? Search engines like Google are quite picky too! They have strict rules on how websites should appear and function – which means making one yourself might be out of question.<br></br>
+
+                    It’s not wise either to rely on newbie software developers with no master’s degree for building such an important asset; they may lack expertise required in web development field given their inexperienced background. The solution: consider hiring skilled Fort Worth-based web design agencies offering competitive total rewards packages when looking for more jobs- because only then can great returns from investments can truly happen.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take a lot of pride in the work we do here. When you choose to work with us, you’ll be able to take advantage of the following benefits:<br></br>`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers who are skilled in numerous industries and areas of web design.",
+                        "We have access to both offshore and onshore talent. This means we can handle large staffing requirements if we’re taking on an exceptionally lengthy web development project.",
+                        "All of our developers have been properly vetted to ensure the delivery of top-notch development services.",
+                        "We have actionable experience in working with both local businesses and Fortune 500 companies.",
+                        "We’ll assign you a project manager that will make sure your project is completed efficiently.",
+                        "We have direct experience in completing unique and successful web projects.",
+                    ],
+                    bottomline:"As you can see, there are a lot of tremendous benefits in working with us. We hope you make the right choice in selecting us as your web development agency in Fort Worth.",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We <br> <span class="text-headingBlue">Bring to </span> the Table `,
+          paracontent: `Launched in ’08, we’ve got a decade-plus of know-how with web development. We come loaded with an arsenal of tools and resources to nail the job.<br></br>
+
+            Details matter us as much as they do to you – that’s why we don’t stop until our clients are happy.<br></br>
+
+            With information systems at heart, all those years have been backed by proper education since many on the team boast bachelor’s degrees relevant fields. Just like when searching for jobs in Fort Worth , attention is needed every step particularly if it involves software applications or Microsoft Office work.<br></br>
+
+            ‘Ray ID’ sounds technical but rest assured it doesn’t scare us one bit! Is equivalent experience also something thrown into your usual hiring mix? No bother – trust me; our experts manage similar responsibilities daily!<br></br>
+
+            Don’t forget about ‘Create Job Alert’. Let this offer serve just like another reminder alongside primary responsibility tasks even during busy days handled by proficient software engineers.`,
+         },
+      },
+      {
+        id: 30,
+        slug: "fremont",
+        top_title: "Fremont Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in fremont`,
+                    paragraph:`At DEV.Co, we’re passionate about giving your business the ultimate website. Crafted with care and expertise, our web design and development services are designed to help you get maximum benefits from your online presence. We’ve got a firm grip on computer engineering principles which allows us to execute complex projects seamlessly.<br></br>
+
+                    Located in picturesque Fremont – a city known for its diverse businesses – we stand out as one of California’s top-notch website design companies; making it easier than ever before for entrepreneurs like yourself to create job alert or create technical design documents effortlessly through software engineer jobs platform that comes at affordable prices with flexible payment plans.`,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Based in Fremont, we’re a local web development company called DEV.Co. We aren’t just operators; we live here too. This gives us an edge because it means understanding your goals matters to us personally. In fact, operating systems and the world of computer science is our playground! You won’t have to wait for ‘a few seconds’ before seeing your vision start taking shape – you’ll be involved right from step one. Our numerous software engineer do more than build websites; they also market and promote businesses via various strategies.<br></br>
+
+                    Set your business apart from your competition with digital services by Dev.Co Fremont CA. We are dedicated to all things design and development. Our digital services use cutting-edge web technologies for efficiency; consider us the solution that makes your website work smarter. As a plus point? We’re also the most wallet-friendly within this space in town. And did we mention our prowess includes test automation as well as top-notch software design skills?<br></br>
+
+                    We specialize in responsive websites and modern HTML5 web design that is SEO friendly, working with a number of different industries from small businesses all the way up to Fortune 500 companies. Unlike other web design firms, we analyze your business in-depth and use a personable approach to help you achieve your goals with a custom design that helps drive new customers and sales to your business every day.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`As a comprehensive web design and development company, we provide tailored solutions to businesses large and small. Whether you’re looking for “jobs in Fremont CA” or operating an international enterprise, our affordable services will ensure your ‘verification successful waiting’ is well worth it as we aid in the growth of your business.<br></br>
+
+                    Our in-house team, comprised of proficient designers and developers well-versed with SQL server operations and data analytics techniques, is committed to creating aesthetically pleasing websites that not only enrich your bottom-line but make digital communication a joy for you. Leveraging state-of-the-art technology coupled with performance analytics insights gathered from detailed requirements study leaves our clients captivated by the strategic solutions we deliver.<br></br>
+
+                    DEV.Co is here to help you do more business online. Our recent work includes websites, web apps, and eCommerce solutions for clients in a variety of industries. Contact us today for a free consultation!`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We <br> <span class="text-headingBlue">Bring to </span> the Table `,
+          paracontent: `DEV.co is a well-known web development company in Fremont, California with a reputation for making beautiful, functional websites for clients – from startups to global corporations. They are also an SEO agency, which means they have the technical expertise to help ensure your website meets the needs of search engines and the goals and demands of daily visitors.<br></br>
+
+            DEV.CO is a Fremont web design, development and interactive marketing agency with a fresh approach to great web designs. We’re a small team of handpicked artists, designers and developers who have one shared goal – to build websites that are not only outstanding from an artistic point of view but that reach the target audience and drive real business results for our clients.`,
+         },
+      },
+
+      {
+        id: 31,
+        slug: "fresno",
+        top_title: "Fresno Custom Software Development Company",
+        top_description: `Fresno CA is one of the most well-known cities in the United States. Running a successful business in Fresno requires having a stable online presence. This only comes by developing a fully-functional website for your business.<br></br>
+
+            At Dev.co, our team of seasoned software engineer–with more than 10 years under their belt in the web development realm right here in Fresno are eager to elevate your online visibility. Our experts’ proficiency with a wide array of programming languages and even nurturing entry level talent ensures we deliver top-tier results. Aiding us further is access to advanced tools like Ray ID for tech solution-finding.<br></br>
+
+            Our team specializes in developing high-quality websites for both local businesses and corporate enterprises. If you’re looking for a website for your business, then you’ve come to the right place.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Fresno`,
+                    paragraph:`Fresno, a thriving business hub and Silicon Valley extension, is recognized as one of the entrepreneurial capitals in America. Many companies here are brimming with ambition; they’re not just jobs in Fresno CA but launching pads for exponential growth. These businesses aim to enhance their online visibility — an essential step forward amid today’s digital age.<br></br>
+
+                    This expansion can be realized most effectively by positioning themselves on platforms where potential customers frequently visit – major search engines like Google and Bing. Incorporation of new features could potentially lead to more jobs too!<br></br>
+
+                    With a well-crafted website showing off your offerings, prospective clients can easily do their homework and familiarize themselves with your brand. This task isn’t far-fetched for any committed stack engineer or software engineer aiming to elevate customer comfort levels around the business persona.`,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Not every website gets the privilege of a high ranking on significant search engines such as Google, despite each one among trillions striving for it. The secret lies in the intricate AI and machine-learning algorithms these giants employ.<br></br>
+
+                    In today’s digital age, obtaining a website is no longer an exclusive feat – you can even build your own front end from scratch! But hold on; before you take that leap in just a few seconds, consider this: are you well-versed with how websites get ranked? If not accounted for strategically, all efforts could be futile at ensuring performance security or maintaining the security of your connection.<br></br>
+
+                    So before venturing into designing yourself – which might seem like saving costs initially but may incur greater risks long-term – perhaps what needs to review here isn’t just why some sites rank better than others after all. Additionally, remember that having “verification successful waiting” is also an integral part in this process.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take pride in the work we do here at Dev.co. This means we are fully committed to helping Fresno businesses grow. When you choose to work with us, you can expect to receive a website that will help you outrank your competitors.<br></br>
+
+                    You can also expect to receive the following benefits when you hire our Fresno website development agency:<br>`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers, which means that you will likely be paired with a developer that knows what’s best for your company.",
+                        "We have additional team members of more than 500+ people. No matter what your web development needs are, we’ve got you covered.",
+                        "All of our developers are vetted rigorously to ensure we only deliver quality web design services in Fresno.",
+                        "We take pride in working with both local businesses and corporate enterprises.",
+                        "We will assign you a project manager that will ensure that your project is completed on course.",
+                        "We have a deep expertise in delivering top-notch results for our clients.",
+                    ],
+                    bottomline:"As our client, you will receive access to our massive tools and resources and receive the perfect website for your brand.",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `Maximizing Your<br> <span class="text-headingBlue"> Investment</span>`,
+          paracontent: `A website is supposed to do more than look great on the internet. It’s supposed to improve your online visibility, promote your products or services, and increase your sales and revenue.<br></br>
+
+            When you work with us, we’ll make sure that your website maximizes your initial investment. This way, you can truly profit from your online presence and grow your business.`,
+         },
+      },
+
+      {
+        id: 32,
+        slug: "garland",
+        top_title: "Garland Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Garland`,
+                    paragraph:`In need of premier website design and development in Garland, TX but hesitant about hiring a local agency? Don’t worry! Give our proficient team at DEV.Co a ring. We’re passionate about delivering first-rate software solutions that include designing an appealing website that accurately embodies your business ethos.<br></br>
+
+                    Are you exploring lucrative software engineer jobs or keen on understanding the nuances of the software development lifecycle? Remember we are just one call away – catering to both Garland and Dallas TX.<br></br>
+
+                    At Dev.Co, we prioritize using innovative web design technology which includes cutting-edge aspects of computer science and enterprise software development. It’s our expertise that puts us on the map as Garland, TX’s top website design team! <br></br>
+
+                    We offer comprehensive services ranging from crafting new site designs to maintaining current ones – all while ensuring mobile-friendliness and high-quality output at every turn. So when you’re looking for standout software developer jobs or need professional handling of your software applications. `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Done correctly from the outset, web design plays a pivotal role. Our team of software developers in Garland, Texas is adept at crafting compelling stories and websites for businesses big or small. A well-planned website signals success within any technical discipline – crucially so within technology-focused industries.<br></br>
+
+                    If you’re priming to kickstart a new venture or seeking an upgrade on your current online presence, our expertise extends beyond just traditional methods — we are skilled in object oriented programming languages too.<br></br>
+
+                    Let’s talk about what your goals are and offer our digital services for digital marketing, e-commerce, and online reputation. We’ll proceed from there with UX/design and marketing planning to deliver a great website that will serve your business well for years to come.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`As a professionally managed web development company, we offer comprehensive solutions that integrate marketing strategies and search engine optimization (SEO) techniques to expand your business. Our stack developer experts in software engineering ensure the seamless incorporation of graphic design for branding across social media platforms alongside on-page SEO enhancements.<br></br>
+
+                    Our scope extends beyond just creating an online store or mobile website; our versatile software engineers also excel at crafting native apps and implementing content management systems (CMS). What sets us apart is their effective communication skills, which facilitate precise understanding of client needs. If you’re seeking jobs in Garland TX related to this field, consider bringing these skillsets into play with us.<br></br>
+
+
+                    We pride ourselves on being a website design company dedicated to helping local businesses achieve their online goals through the creation of search engine-friendly sites that function regardless of what you are looking for whether it be for gifts or services.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We<br> <span class="text-headingBlue">Bring to</span> the Table`,
+          paracontent: `The Garland TX area web development experts at DEV.Co has been helping businessmen and women advertise their businesses since 2009. We specialize in creating custom websites with unique, mobile-responsive designs that are user-friendly and SEO-friendly.<br></br>
+
+We offer website design for a variety of industries including small business, dental, medical, legal and more! Our affordable, easy to maintain websites are designed to get you the leads that you need to make your business a success!`,
+         },
+      },
+
+      {
+        id: 33,
+        slug: "gilbert",
+        top_title: "Gilbert Custom Software Development Company",
+        top_description: ``,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Gilbert`,
+                    paragraph:`At DEV.co, we specialize in implementing creative design solutions that represent your brand; we configure your computer software and cloud infrastructure to help you engage consumers and attract customers. <br></br>
+
+                    Sloppy design may cause visitors to bounce, but we guarantee that everyone who visits your site associates you with professional web design and the power of cutting-edge technology. <br></br>
+
+                    We provide businesses that have just started up with affordable website development services in Gilbert, Arizona. To learn more about our services and pricing `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`A well-designed website is one of the most important aspects of your business’s success. It is the face of your business, accounting for potential new clients, and can be a major revenue stream for you. Ensuring the security of your connection is crucial. DEV.co is a full-service web design and development company in Gilbert, Arizona.<br></br>
+
+                    We create unique, highly functional websites using various programming languages that help improve client businesses. In addition to building websites for clients, we also repair existing websites so that they function properly.<br></br>
+
+                    This is ideal for individuals who want to maintain their current website or business owners who need a responsive redesign of their brand-new site. Our team thrives on providing quality service to clients and getting in touch with the community here in Gilbert, AZ. When it comes to online security, we review the security and ensure the protection of your connection, including monitoring Ray ID for any potential issues. Our designers create eye-catching, responsive websites with a clean user interface.<br></br>
+
+                    All this is done in-house without outsourcing to help minimize cost and increase efficiency. In addition to saving your money, this helps us maintain direct control over all aspects of your project’s design and implementation process from beginning to end, ensuring the security of your connection before proceeding.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We develop simple yet effective websites that generate results for our clients and are easy to manage for them. We also offer eCommerce solutions such as our Shopify store, designed to be simple enough for any business owner to maintain effectively. Most importantly, we specialize in working with small businesses like yours, verification successful waiting. We have been creating websites for more than a decade, focusing on the best things our customers are looking for.<br></br>
+
+                    Our web designers are working with some of the best graphics software to create high-converting clean professional websites. If you need a website or want to revamp your existing website, contact us for a free consultation. We offer flat-fee pricing with unlimited hours to complete your web design.<br></br>
+
+                    We follow the highest standards when it comes to SEO optimization, cross-browser compatibility, and overall quality. We build websites that drive results. Our Gilbert web design professionals develop mobile friendly websites that perform for your business and communicate your message online. Contact us today to schedule your consultation.<br></br>
+
+                    Quite simply, we specialize in crafting eye-catching websites that engage your target audience while improving search engine rankings. We are a full-service local web design and development company and we specialize in working with small business owners to create effectively, search engine optimized websites that help them grow their businesses. We also create mobile-friendly websites for all devices.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We<br> <span class="text-headingBlue">Bring to</span> the Table`,
+          paracontent: `The DEV.co team of professional, full-time website designers and developers produce great results for Garland businesses looking to increase their online exposure. We develop compelling, effective websites that consistently achieve great results for our clients.<br></br>
+
+            Developed by a local web design company in Gilbert, Arizona, DEV.co is a comprehensive collection of high-quality designs that maximize every inch of available space to ensure your brand image is presented in the most effective manner. Our approach to web design is holistic, and we have a proven record of building features into our designs that make them social, mobile, search engine friendly, and more. We use the best tools available and integrate them seamlessly into your website.`,
+         },
+      },
+
+      {
+        id: 34,
+        slug: "glendale",
+        top_title: "Glendale Custom Software Development Company",
+        top_description: `The team at DEV.co is a leader in website design & development. Let us make your business the best it can be with our web and custom programming services in Glendale, Arizona.<br></br>
+
+        We can build and manage any type of site you need. For over 10 years we’ve been creating functional websites and custom software that turn visitors into clients for our web design company customers in the Glendale, AZ area.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Glendale`,
+                    paragraph:`Glendale, Arizona-based DEV.co is a website and custom software development agency that delivers effective and affordable websites, mobile app development, and online software development services to small and medium-sized businesses.<br></br>
+
+                    With our creative team of designers, developers, and online marketing experts, we provide the most modern custom software solutions in the industry. We are focused on helping businesses develop an online presence that meets and exceeds today’s consumers’ heightened expectations. `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`We will take your Glendale business online and get you noticed today! Whether you are an existing local business or a new start-up, DEV.co has a solution for you. Our team is proud to offer you the best custom solutions and Website Design in Glendale, Arizona at an all-inclusive price.<br></br>
+
+                    When you choose the DEV.co team as your web design Glendale provider, we’ll work with our clients to create branding that represents their unique value, develop a user experience that makes the website easy to use and maintain, and deploy the website using the latest programming languages and libraries.<br></br>
+
+                    At DEV.co, we aren’t just developers or designers. We specialize in a range of services to help drive your business like user acceptance testing. From eCommerce solutions, and mobile solutions to to premium website design, our digital services will set your small businesses apart from your competition, while our WordPress tailored solutions support guarantees the growth of your online presence.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Our Glendale web design company offers free website consultations with CRM systems. Our web designers are highly trained, have years of experience in creating small business websites & eCommerce stores, and we collaborate directly with clients to build their own custom websites tailored to their business requirements and business models.<br></br>
+
+                    These Glendale website designers create stunning designs in digital marketing that will make your website stand out from the crowd and get you more business. We help clients to start small and grow big on the internet, offering unique websites that streamline operations. We work with businesses, real estate agents, and entrepreneurs to build a brand presence online.<br></br>
+
+                    From start to finish, DEV.co will be your primary resource for brand strategy, operating efficiency, quality assurance, creative design, development, digital marketing, SEO / PPC, and hosting services for your next project with a competitive edge. Placing your business online and creating web applications is the first step in promoting your products and services to the rest of the world.<br></br>
+
+                    DEV.co Glendale offers a wide variety of digital services that achieve your business goals including website design, mobile app design and development, eCommerce shopping carts, website hosting and maintenance, email marketing, search engine optimization, social media marketing, fully responsive mobile sites, custom software development, and eCommerce solutions. Whatever your business needs are, we can help make them happen. Reach out today to learn more about our digital solutions.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We<br> <span class="text-headingBlue">Bring to</span> the Table`,
+          paracontent: `DEV.co is a full-service digital agency in Glendale, Arizona that provides award-winning creative development services including website design, graphic design and custom software development for nearly any application. DEV.co creates a unique online presence for your business by developing a customized mobile app, website, or digital development strategy – all tailored to fit your specific needs.<br></br>
+
+            We create beautiful designs that are perfect for your business. Their main focus is on building websites for businesses that want to thrive in the online marketplace. Created by web developers who have a design background, they create sites that are easy to navigate and find information on. They are dedicated to offering clients quality web services without outsourcing.`,
+         },
+      },
+
+      {
+        id: 35,
+        slug: "greensboro",
+        top_title: "Greensboro Custom Software Development Company",
+        top_description: `DEV.co is a full-service web design and development company based in Greensboro, North Carolina, that specializes in building custom software solutions for businesses.<br></br>
+
+            As one of the best software development companies, we don’t just build a website – we build something that will boost your business by fostering opportunities to engage with a targeted audience beyond your location.<br></br>
+
+            Our services are affordable, and our designers are experienced, delivering constant value while striving to resolve challenges as they arise.<br></br>
+
+            DEV.co provides digital marketing, design & development solutions to businesses in Greensboro. Our team of experts is passionate about creating a positive and lasting impact on our clients’ success.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Greensboro`,
+                    paragraph:`From domain name acquisition to banner design and business strategy, DEV.co is a gold-standard web design and development company in Greensboro, NC. Our web developers integrate digital marketing and solutions into your business model to strengthen your brand and make an impact in the minds of up-and-coming customers.<br></br>
+
+                    Our design and digital marketing experts at DEV.co Greensboro Web Design & Development Company specializes in providing results-oriented digital services tailored to your specific needs. With a wealth of experience in our software developers, serving clients from our offices right here in North Carolina, we have the skill set to tackle a wide range of projects.<br></br>
+
+                    Our history of high-quality, and custom software solutions allows us to provide unparalleled results for all levels of business.  `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Software Development Quality`,
+                    paragraph:`Since 2001, DEV.co has helped e commerce development businesses cut costs and increase productivity by leveraging technology. In today’s digital world, business is not limited to brick-and-mortar operations. With over a decade of knowledge in web development and internet marketing, DEV.co works with clients to strategize their online presence and increase their visibility in the marketplace.<br></br>
+
+                    With services including eCommerce solutions, web development, fully responsive mobile applications, value-added content creation, custom web applications, website design and development, and more, DEV.co goes above and beyond the needs of the average business owner. We can not only help you create an awesome-looking website but we will also help you fill it tailored to your business needs. <br></br>
+
+                    DEV.co is a part of a North Carolina-based project management development agency that provides full-service web design & development services. We are a Greensboro web design & development company that’s ready to work with you. Your company’s online presence is one of the most important elements in your marketing strategy. That’s why DEV.co Greensboro provides high-quality web design and development, SEO, and internet marketing services for businesses across a wide range of industries.<br></br>
+
+                    We take a lean approach to business ownership and all of our consulting services.  offers solutions that are anchored by the notion of expediency, efficacy, and collaboration between our clients and their customers.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`DEV.co takes pride in its Greensboro web design and development services which are notable for its wide variety of client applications and top-flight digital products. DEV.co’s services include creating websites, mobile app development, search engine optimization (SEO), website hosting, support services, cloud computing, and content management. All of DEV.co’s services are backed by 24/7 support and a 100% money-back guarantee.<br></br>
+
+                    We build intuitive creative solutions that help our clients gain and retain customers through a presence on the internet and secure networks of people. We believe that your website should be innovative, cost-effective, and something you are truly proud of because it has the latest techonologies. With our full-service digital solutions and a team of dedicated professionals, you can rest assured that when you work with DEV.co―you’re working with the best.<br></br>
+
+                    DEV.co Greensboro is a web design and development company, that specializes in custom websites and e-commerce solutions. With advanced training by industry leaders in the fields of web design and development, we guarantee you’ll get the best web solutions for your business – affordably & without drama. `,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We<br> <span class="text-headingBlue">Bring to</span> the Table`,
+          paracontent: `Want a website that performs? DEV.co is a Greensboro web design and development company that will deliver a functional and high-functioning website that will boost your business’ sales and attract new customers.<br></br>
+
+            From our specialty in custom WordPress development to content management solutions, DEV.co has the skills, knowledge, and creativity to develop on just about any digital platform you require. The competitive digital landscape can be overwhelming for business owners looking to set their websites apart. A cost-effective and all-inclusive approach is provided by DEV.co, a leading Greensboro web design and development company.<br></br>
+
+            This local provider has put together an ideal package of services that provides you with everything you need to build, maintain, and grow your website – starting at only $2,499. DEV.co will work directly with you to create a custom solution that best suits your needs and goals, resulting in a seamless premier digital experience for your business or organization.`,
+         },
+      },
+
+      {
+        id: 36,
+        slug: "henderson",
+        top_title: "Henderson Custom Software Development Company",
+        top_description: `DEV.co Henderson Web Design & Development Company is a digital agency that delivers results!<br></br>
+
+        We specialize in affordable custom software development and online marketing strategies.<br></br>
+
+        Our custom, search-engine-optimized solutions will effectively convey your company’s message to the right audience.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Henderson`,
+                    paragraph:`DEV.co combines the best of Henderson data solutions, digital strategies, development services, and marketing to create custom solutions that differentiate you from your competition and align your business goals with an online presence. They focus on building relationships, and working closely with their clients to make sure they’re always happier than when they started.<br></br>
+
+                    DEV.co provides end-to-end web design and development services to small businesses across the U.S. Whether you need a website, mobile app, or a marketing campaign, our award-winning team of designers and coders is here for your project.<br></br>
+
+                    We also specialize in custom WordPress development (we developed a plugin with over 100,000 active installs). We are one of only three companies dedicated to the core codebase through the WordPress Core Contributor program. `,
+
+                    imageSrc: "/images/El pasooutline.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`DEV.co is unlike any other Henderson web design and development company. They focus on creating and managing digital projects that help advance your business objectives while providing the highest level of customer service. DEV.co’s experienced team of designers, developers, content strategists, and marketing experts work with you to develop effective digital brands, ensuring every aspect of the user experience is aesthetically pleasing and intuitive.<br></br>
+
+                    We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing. If you’re looking for an online presence for your business or organization, we can help you tailor a custom solution that fits your needs and helps your business grow.<br></br>
+
+                    Our staff love to work with local businesses because we get to know our clients on more than just a professional level; we become friends. If you want to learn more about the digital tools we can provide your organization or small business, or if you’d like to work with us on creating a website, contact us now.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Worried that your business needs a site? DEV.co is a digital company that creates web and app design and development, with three offices in the US, UK, and Asia. With over 40 successful years of service between the first two offices, our team takes pride in building new solutions for your business needs as well as establishing rich connections between you and your customers by providing search engine optimization services.<br></br>
+
+                    We customize your web experience to meet your business’s unique needs. From a simple mobile responsive website design to full development services, we’re ready to meet your needs with our personalized web solutions.<br></br>
+
+                    DEV.co is headquartered in Henderson, KY, and serves clients nationwide with our digital solution expertise for small business clients. With a wide range of affordable digital services, we take the worry out of hiring a web design company by offering a 100% satisfaction guarantee. Whether you are looking to build your new website or update an existing one, DEV.co has you covered with our expertise and experience.<br></br>
+
+                    From social media marketing or domain resales, search engine optimization to logo design- this is a one-stop shop for all things online. If it’s digital, you can trust DEV.co to get the job done.  `,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We<br> <span class="text-headingBlue">Bring to</span> the Table`,
+          paracontent: `DEV.co builds web & software that allows businesses to grow – by setting them apart from their competition. We’re based out of the sunny city of Henderson, Nevada, and we specialize in digital services and web development.<br></br>
+
+            From our roots of full-service web design & development to our current status as a digital marketing agency, we’ve invested heavily in advancing our expertise in the digital industry.<br></br>
+
+            Our talented team of web designers, developers, and SEO marketers is supported by some of the best technology in the industry. From start to finish, our digital services will get you lasting results.`,
+         },
+      },
+
 
 ];
