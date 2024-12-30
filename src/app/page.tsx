@@ -1,10 +1,21 @@
-import HeroBanner from "./components/layout/HeroBanner";
-import Faq from "./components/faq/Faq";
-import DesignSection from './components/Services/DesignSection';
-import { service1, service2, service3 } from "./data/home";
+import HeroBanner from "@/app/components/layout/HeroBanner";
+import Faq from "@/app/components/faq/Faq";
+import DesignSection from '@/app/components/Services/DesignSection';
+import ClientCount from '@/app/components/homepage/ClientCount';
+import { service1, service2, service3 } from "@/app/data/home";
+import StartUps from '@/app/components/homepage/StartUps';
+import Innovative from '@/app/components/homepage/Innovative';
+import Development from '@/app/components/homepage/Development';
+import CustomDevelopement from '@/app/components/homepage/CustomDevelopement';
+import CustomsofSection from '@/app/components/homepage/CustomsofSection';
+import CombiningCode from '@/app/components/homepage/CombiningCode';
+import Logofloat from "@/app/components/Logofloat";
+import { mainservicedata } from "@/app/data/mainservice";
+
 
 
 export default function Home() {
+  const serviceData1 = mainservicedata[0]; 
 
 
   return (
@@ -17,12 +28,24 @@ export default function Home() {
         }}
       >
         
-      <HeroBanner />
-        <DesignSection title={service1.title} description={service1.description} servicesProps={service1.serviceProps} backgroundImage={service1.backgroundImage} sideImage={service1.sideImage} />
-        <DesignSection title={service2.title} description={service2.description} servicesProps={service2.serviceProps} backgroundImage={service2.backgroundImage} sideImage={service2.sideImage} />
-        <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps} backgroundImage={service3.backgroundImage} sideImage={service3.sideImage} />
-      <Faq /> 
-
+        <HeroBanner />
+        <StartUps/>
+        <DesignSection title={service1.title} description={service1.description} servicesProps={service1.serviceProps}  sideImage={service1.sideImage} />
+        <DesignSection title={service2.title} description={service2.description} servicesProps={service2.serviceProps}  sideImage={service2.sideImage} />
+        <DesignSection title={service3.title} description={service3.description} servicesProps={service3.serviceProps}  sideImage={service3.sideImage} />
+        <Innovative />
+        <Development/>
+        <ClientCount/>
+        <CustomsofSection/>
+        <CustomDevelopement/>
+        <CombiningCode />
+        <Logofloat 
+        firstrowimages={serviceData1.firstrowimages.imagesdata} 
+        secondrowimages={serviceData1.secondrowimages.imagesdata} 
+        thirdrowimages={serviceData1.thirdrowimages.imagesdata}
+        fourthrowimages={serviceData1.fourthrowimages.imagesdata}
+      />
+         <Faq /> 
 
     </div>
     

@@ -1,11 +1,10 @@
-const About =()=>{
+'use client';
 
-
-    return <>
+export default function AboutPage() {
+  return (
+    <div>
     
-      <h1> THis is my work of thekjdsfknj;dsfknj.dsfknj.dsklnj.fsdsknj.fdskjlnfndsjfkdjsf</h1>
-    </>
+    This is wifindfs
+    </div>
+  );
 }
-
-
-export default About; 

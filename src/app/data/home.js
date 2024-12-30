@@ -1,5 +1,4 @@
 
-
 export const homeCard1 = [
     {
         title: "Services",
@@ -23,7 +22,7 @@ export const homeCard1 = [
 
     {
 
-        title: "Frame Works",
+        title: "Frameworks",
         description: "The best software development firms start their web development projects at the design phase.",
         iconSrc: "/images/nodes.svg", // Dynamic icon source
         services: [
@@ -193,7 +192,7 @@ export const homeCard3 = [
 
     {
 
-        title: "Deployment for Web",
+        title: "Deployment for the Web",
         description: "Our full-stack dedicated development team provides the front-end and back-end support your software projects deserve.",
         iconSrc: "/images/nodes.svg", // Dynamic icon source
         services: [
@@ -240,7 +239,7 @@ export const techCard2 = {
     title: "Strategic software development support",
     description:
         "As an end-to-end service provider, we deliver in-depth strategic support and custom software developer services to corporations, government entities and small/medium businesses across the globe, ensuring your digital success.",
-    imageSrc: "/images/application_development.svg",
+    imageSrc: "/images/strategicpic.svg",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "We aim to deliver on time and under budget",
@@ -254,7 +253,7 @@ export const techCard2 = {
 export const service1={
     title:"Design",
     description:'The best custom software development companies include the best UX design. The best UX starts with strategic planning. By aligning our digital transformation solutions with your vision and goals, we become a true partner, starting at UX/UI design.',
-    sideImage:'/images/design_frame.png',
+    sideImage:'/images/design_gf.gif',
     serviceProps:homeCard1,
     backgroundImage:'/images/right_circle.svg'
 }
@@ -262,7 +261,7 @@ export const service1={
 export const service2={
     title:"Develop",
     description:'From product design mock-ups & MVP sprints to product iteration & QA (quality assurance) testing, our expert project management team and software development services have you covered. ',
-    sideImage:'/images/service2.svg',
+    sideImage:'/images/developgf.gif',
     serviceProps:homeCard2,
     backgroundImage:'/images/right_circle.svg'
 }
@@ -270,15 +269,14 @@ export const service2={
 export const service3={
     title:"Deploy",
     description:'Delivery of a product ready for “prime time” also means you have the custom software development support team to shepherd you through training, upgrades and feature add-ons. Software deployment is only the beginning of a journey. ',
-    sideImage:'/images/service3.svg',
+    sideImage:'/images/deploygf.gif',
     serviceProps:homeCard3,
     backgroundImage:'/images/right_circle.svg'
 }
 
 
-
 // Client count section data 
- export  const clientCountData1 = {
+export  const clientCountData1 = {
     imageSrc: '/images/cc1.svg',
     imageWidth: 180,
     imageHeight: 74,
@@ -287,12 +285,30 @@ export const service3={
   };
 
 export const clientCountData2 = {
-    imageSrc: '/images/cc1.svg',
+    imageSrc: '/images/156.png',
     imageWidth: 180,
     imageHeight: 74,
-    title: 'Website Development',
-    description: 'Our web development team builds dozens of websites monthly, integrating the right technology stack with cross platform applications for the best possible user experience to your web apps.',
+    title: 'Mobile App Development',
+    description: 'Over 150 custom developed, including one mobile app (with 3M+ downloads) for Android & iOS',
   };
+
+  export const clientCountData3 = {
+    imageSrc: '/images/24.png',
+    imageWidth: 180,
+    imageHeight: 74,
+    title: 'Custom Platform Development',
+    description: 'Custom developed corporate and customer-facing platform projects, including custom integrated analytics for analyzing site usage for big data consulting.',
+  };
+
+  export const CombiningCodedata = {
+    mainImage: "/images/code_creative.svg",
+    heading: "Software DevelopersCombining Code + Creativity",
+    description: "View our company's portfolio and engage with our sales team.<br>With our white label program,we offer our engineering consultingand software dev solutions to other top software development companies.",
+    buttonText: "Tell Us About Your Next Project",
+    onButtonClick: () => alert("Button clicked!"),
+  };
+
+  
 
 
 // End client count section 
