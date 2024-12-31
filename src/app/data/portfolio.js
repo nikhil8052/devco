@@ -53,11 +53,6 @@ export const portfolioCol2 = {
             title: 'Groupon Case Study',
         },
         {
-            logo: '/images/mob_appli.svg',
-            gridLogo: '',
-            title: 'Mobile Applications Case Study',
-        },
-        {
             logo: '/images/logo_sales.svg',
             gridLogo: '/images/salesforce.svg',
             title: 'Salesforce Case Study',
