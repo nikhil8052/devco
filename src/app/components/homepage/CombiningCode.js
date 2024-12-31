@@ -52,7 +52,7 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                                             {data.buttonText && (
                                                 <button
                                                     className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
-                                                    onClick={data.onButtonClick}
+                                                    
                                                 >
                                                     {data.buttonText}
                                                 </button>

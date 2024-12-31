@@ -1,4 +1,10 @@
 
+export const metadata = {
+    title: "Software Development Company | DEV",
+    description: "We provide custom software development for websites, mobile apps and corporate platforms. Utilize our dev expertise for your software project",
+    image:"/images/cropped-favicon.png"
+  };
+
 export const homeCard1 = [
     {
         title: "Services",
@@ -19,7 +25,6 @@ export const homeCard1 = [
             },
         ],
     },
-
     {
 
         title: "Frameworks",

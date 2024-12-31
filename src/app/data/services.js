@@ -1,5 +1,11 @@
 export const services = [
     {
+         metadata : {
+            title: "Web Development Company | Web Developer | DEV",
+            description: "We provide web development and design for nearly any project, through nearly any platform. Trust us with your next website dev project!",
+            image:"/images/Custom-Website-Development-Services-Icon.png"
+          },
+
         id: 1,
         slug: "web",
         subtitle: "Services",

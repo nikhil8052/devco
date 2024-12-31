@@ -1,8 +1,8 @@
-
-"use client";
+'use client'
 import Image from "next/image";
 
 export default function Home({children}) {
+
 
   return (
     <>
@@ -22,3 +22,7 @@ export default function Home({children}) {
     </>
   );
 }
+
+
+
+

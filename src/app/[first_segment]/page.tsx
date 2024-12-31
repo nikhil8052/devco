@@ -1,5 +1,4 @@
-'use client';
-
+'use client'
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -20,14 +19,14 @@ interface PageProps {
   };
 }
 
-export default function Page({params}: PageProps) {
- const first_segment = params.first_segment 
+export default function Page({ params }: PageProps) {
+  const first_segment = params.first_segment
 
   let foundIn = null;
   let data = {};
   let Component = null;
 
-  console.log( services, " All the services ")
+  console.log(services, " All the services ")
   // Find the matching data and set the corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
     Component = Industry;
@@ -41,14 +40,14 @@ export default function Page({params}: PageProps) {
   } else if ((data = technologies.find((item) => item.slug === first_segment))) {
     Component = Technology;
     foundIn = "technology";
-  }else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
+  } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
     Component = locations;
     foundIn = "locations";
   }
   else if ((data = blogs.find((item) => item.slug === first_segment))) {
     Component = BlogPage;
     foundIn = "Blog";
-    
+
   }
 
   // Fallback case for no match
@@ -56,13 +55,21 @@ export default function Page({params}: PageProps) {
     return <div>Not Found</div>;
   }
 
-
-
-  console.log( data ,foundIn,  " his is he dta we need to take cate ")
+  console.log(data, foundIn, " his is he dta we need to take cate ")
   // Render the selected component with the data
   return (
-    <div>
-      <Component data={data} />
-    </div>
+    <Component data={data}  />
   );
+
 }
+
+
+
+
+
+
+
+
+
+  
+  

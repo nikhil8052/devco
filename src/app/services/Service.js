@@ -1,5 +1,4 @@
-'use client';
-
+'use client'
 import StartUps from "@/app/components/Services/StartUps";
 import Newbanner from "@/app/components/Services/Newbanner";
 import Bordertextsection from "@/app/components/industry/Bordertextsection";
@@ -13,11 +12,16 @@ import Benefitslider from "@/app/components/skills/Benfitslider";
 import Textblockfull from '@/app/components/Textblockfull';
 import Logofloat from "@/app/components/Logofloat";
 
-export default function Service({ data }) {
+
+
+export default function Service({ data, metadata  }) {
+
+  console.log( metadata, " This is the meta service ")
   const skill = data;
 
   return (
     <>
+
       {/* HeroBanner */}
       <Newbanner
         subtitle={skill.subtitle}
@@ -143,3 +147,5 @@ export default function Service({ data }) {
     </>
   );
 }
+
+
