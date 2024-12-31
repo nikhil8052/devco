@@ -1,5 +1,4 @@
 'use client';
-
 import LocationContactSectio from "@/app/components/locations/locationContactsectio";
 import { cmbcodedata, processes } from "@/app/data/locations";
 import Processess from "@/app/components/Services/Processess";

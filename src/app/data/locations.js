@@ -3175,5 +3175,295 @@ We offer website design for a variety of industries including small business, de
          },
       },
 
+      {
+        id: 37,
+        slug: "honolulu",
+        top_title: "Honolulu Custom Software Development Company",
+        top_description: `Developing a website that succeeds in today’s digital world is an art and a science.<br></br>
+
+        DEV.co is a full-service web design agency specializing in creating custom, search-engine-optimized solutions for small businesses and start-ups in Honolulu, Hawaii, USA.<br></br>
+
+        As one of the best software development companies, we can create a custom website to reflect your company’s personality and convey your message to the right audience.`,
+  
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Honolulu`,
+                    paragraph:`If you’re looking for a professional web design and development company in Honolulu, you should choose DEV.co software development firm. With our obsessive focus on web marketing know-how, we’ll ensure your site converts browsers into customers.<br></br>
+
+                    At DEV.co Honolulu, we are a full-service web design and development company focused on growing your business. Our custom solutions will help you get noticed online using targeted search engine optimization (SEO).<br></br>
+
+                    We’ve been designing websites that are in sync with your company’s brand, building responsive websites, and designing web applications since 2006. DEV.co software development firm has the creative instinct necessary for a unique edge in today’s highly competitive marketplace, and we use this to implement an effective mobile app development and marketing communication strategy for your business.`,
+
+                    imageSrc: "/images/Honolulu_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`In today’s super-competitive business environment, an effective website is essential. In less than a year, we have helped hundreds of local small businesses develop their online identity, and improve their overall sales just with our search engine optimization services alone.<br></br>
+
+                    With our in-house team of graphic designers and software developers, we create SEO websites to drive traffic to your website.  We can get your new business consulting, fledgling blog, or web presence jumping out of the search engines and onto the front page. We build better websites than our competitors.<br></br>
+
+                    We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing.<br></br>
+
+                    DEV.co Honolulu web design & development company has specialists committed to your project management success. Give us a call to schedule a no-obligation in-person consultation at our Honolulu office today. There is no cost to you!`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Software Development Capabilities`,
+                    paragraph:`Countless local businesses, non-profits, and corporations have come to DEV.co for their search engine-friendly websites since our company is a Honolulu web design and development company. Our focus on fast-loading, search-engine-optimized sites with the latest technology while keeping prices affordable has made us the web designer of choice for small and start-up business owners all the way through large corporations in Honolulu. Check out our work today; you won’t be disappointed. <br></br>
+
+                    Our web design services are the perfect fit for entrepreneurs, start-ups, and small business owners. We create websites that get you found online and help turn browsers into customers. What’s more? Our people bring years of in-house experience to their roles, so you can be certain that there won’t be any “consultant speak.” We communicate directly with you and keep you up to date on our progress throughout your project.<br></br>
+
+                    We know that great web design can mean the difference between business success and failure. Most Honolulu businesses usually fail within their first year of operation due to bad marketing decisions. This is a full-service commercial web development company from start-up to e-commerce, websites to lead generation services. Our expertise in search engine optimization will get your company more traffic.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `Development Services<br> <span class="text-headingBlue">We Provide</span>`,
+          paracontent: `DEV.co is a Honolulu web design and custom software development company that helps small to medium-sized businesses develop or improve their online presence.<br></br>
+
+            We’re a team of designers, software developers, programmers, and content creators. We plan, build, and launch websites that are beautiful, easy to use, and rank on the first page of Google. Our expertise includes both new website development and website redesign/redesign.<br></br>
+
+            We are passionate about creating clean, user-friendly, modern websites that we’d be happy to have in our own portfolios and share with our friends and family. `,
+         },
+      },
+      {
+        id: 38,
+        slug: "houston",
+        top_title: "Houston Custom Software Development Company",
+        top_description: `Houston, also known as H-Town or Space City, is a popular hub for business and careers. If you’re here, then that means you need help establishing an online presence for your business.<br></br>
+
+        Whether you run a corporate or local business, the same principle applies. Most consumers use the internet to find businesses. If your website is nowhere to be found, then you will struggle to capture meaningful leads and convert them into paying customers.<br></br>
+
+        With that said, hiring Houston software developers with technical skills is the first step to building a solid online presence. As one of the top software development companies, Dev.co can help you create a website that perfectly complements your brand through custom software solutions, mobile app development, and digital transformation. `,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Designer in Houston`,
+                    paragraph:`Again, Houston is one of the most popular centers for business and commerce. Standing out in this market without a website is impossible. Also, having an ordinary website isn’t going to suffice.<br></br>
+
+                    A professionally built website will rank high on major search engines like Google and Bing over your competitors. This will allow you to show up first for industry-related searches in front of your target audience.<br></br>
+
+                    For this reason, hiring a Houston software developer who will provide custom software development services and technical support is helpful in establishing your web presence and boosting sales and revenue. Additionally, they can optimize your business processes with tailored software development solutions and create mobile apps to further enhance your digital reach.`,
+
+                    imageSrc: "/images/Houston_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Website quality is extremely important and plays a huge factor in whether a potential customer will work with a business. Unfortunately, DIY website builders sell the pipe dream of an average person creating a stellar website that will generate millions of dollars.<br></br>
+
+                    In reality, innovative solutions are required for truly effective website development. Professional developers excel in creating visually appealing websites and developing software that enhances functionality and user experience.<br></br>
+                    This is, frankly, a pipe dream. Here are all of the disadvantages of building a website on your own:`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                        "You’ll ultimately waste your valuable money and time building a website that won’t rank online.",
+                        "Your man-made website will typically have numerous technical issues that will hinder its performance and cause your website to bleed leads by the day.",
+                        "You could spend more money in the long run on maintenance and an eventual rebuild.",
+                    ],
+                    bottomline:`As you can see, building a website for your brand is difficult. The best option is to hire a Houston web design agency to handle this process for you.`,
+                },
+                
+            ],
+        },
+
+        benefits: {
+            title: "How We Can Help",
+            description: `Are you wondering how we can help your business create the perfect website for your brand? We employ a strategic process to navigate the web development process and create outstanding products.`,
+            benefits: [
+                {
+                    title: "Design",
+                    description:`Design is less about visuals and more about user experience. Our team will create a design that’s convenient and interactive for the web user. When they’re satisfied, your website will improve as a whole.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Develop",
+                    description: `After your website is done being designed, we’ll then undertake the development process and check off vital tasks such as QA testing, MVP sprints, and mock-ups. We’ll work tirelessly on your behalf to make sure this process is done correctly.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Deploy",
+                    description: `The final step is arguably the most important. You can count on us to make sure that your website is ready to go and rank on major search engines before it goes live.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+  
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `With more than a decade of experience in web design, we possess the tools and resources to get the job done. We have worked with thousands of businesses, from healthcare professionals to contractors.<br></br>
+
+        As one of Houston’s most reputable web developers, you can receive the peace of mind you deserve as a business owner.`,
+         },
+      },
+
+      {
+        id: 39,
+        slug: "indianapolis",
+        top_title: "Indianapolis Custom Software Development Company",
+        top_description: `Are you looking to improve your overall web presence with a stellar new website? If so, then you’ve come to the right place. Dev.co specializes in building top-quality websites that rank well on major search engines like Google and Bing.<br></br>
+
+        As one of the top software development companies, we realize how complicated it can be to choose a website development agency in Indianapolis that’s on your side. There are numerous agencies in the area that all promise the same thing, and that’s to create the perfect website for your business.<br></br>
+
+        Unlike our competitors, we have proven experience in all aspects of web design. You can rely on us to create a website that will properly showcase your products or services.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Indianapolis`,
+                    paragraph:`Having an established web presence is not only important, but it’s also crucial to the success of your business. Most consumers use the internet to find a local business. With Indianapolis being an epicenter for local and small businesses, it’s all the more important to have a website that will generate business for you. If not, then you’re going to miss out on tons of valuable business. Also, potential customers may just end up working with your competitors if they can’t find your business.<br></br>
+
+                    This is why it’s essential to hire a web design agency in Indianapolis to help produce the website of your dreams. A professional agency can offer custom software solutions tailored to your specific needs. Additionally, they can assist with mobile app development, ensuring that your business can reach customers on the go.<br></br>
+
+                    Indianapolis software developers are known for their expertise and can provide managed services to keep your website running smoothly. Whether you need a new website or enhancements to your existing one, working with a team that understands mobile apps and the local market is key to your business success.`,
+
+                    imageSrc: "/images/Indianapolis_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`While having a website is important, you shouldn’t resort to just any method of producing one for your business. For example, there are multiple DIY website builders that promise anyone can create a fully functional website for their brand.<br></br>
+
+                    This isn’t always true. While you may end up with a completed website, it will usually have numerous technical issues, while its quality suffers. You could end up spending a lot of your time, effort, and money on a website that won’t do anything for your business.<br></br>
+
+                    For this reason, hiring a web developer in Indianapolis is always in your best interest. Dev.co is one of the top software development agencies in the country you can trust. They specialize in digital transformation and offer a range of services provided by top software developers.<br></br>
+
+                    By partnering with reputable software companies, you ensure that your website not only looks great but also functions perfectly, driving business growth and customer satisfaction.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take enormous pride in the work we do here at Dev.co. When you choose to work with us, here are all of the benefits you can take advantage of:<br> `,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers. This makes it more likely for one of our developers to have the expertise you’re looking for.",
+                        "We also have access to additional teams of more than 500+ people. You can take solace in the fact that we can handle any web development project, no matter how large it is.",
+                        "All of our developers have been vetted to ensure that we supply only the most remarkable web design services.",
+                        "From local businesses to Fortune 500 companies, we have the experience you need to help your website thrive on major search engines like Google and Bing.",
+                        "We will assign you a project manager to help your project stay coordinated and focused.",
+                        "We will help deliver tremendous results through your website.",
+                    ],
+                    bottomline:"There are so many benefits you can enjoy when you choose to work with us. Thousands of clients trust us everyday to build their websites.",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `We have more than 12 years of experience in our niche, helping countless businesses take their digital presence to the next level. What we bring to the table is our commitment to uphold the highest standards of customer satisfaction and service.`,
+         },
+      },
+
+      {
+        id: 40,
+        slug: "irvine",
+        top_title: "Irvine Custom Software Development Company",
+        top_description: `Whether you’re an established business looking to revamp your web presence or a start-up company looking to create an online environment for your customers, DEV.co develops web design that is empowered by modern technologies and strategic web development best practices.<br></br>
+
+        Our industry-leading website custom solutions empower businesses of any size to move forward in today’s competitive digital space.<br></br>
+
+        As one of the best software development companies, our flexible plans allow you to take advantage of features like responsive web design, online ordering, eCommerce, WordPress consulting, social media integration, and much more. Each of our software development projects and hosted websites is designed to boost your online presence by improving brand recognition with increased user traffic and more sales leads.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Irvine`,
+                    paragraph:`DEV.co is a full-service Irvine software company. We deliver effective and affordable web and application development to small and medium-sized businesses.<br></br>
+
+                    With our creative team of designers, software developers, and online marketing experts, we provide the most modern custom software solutions in the industry. We are focused on helping businesses develop an online presence that meets and exceeds today’s consumers’ heightened expectations.<br></br>
+
+                    Our software development team ensures that your custom software and website are easy to search, quick to load, simple to navigate, and engaging to interact with.`,
+
+                    imageSrc: "/images/Irvine_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`We are the complete web design company for your website. Small, efficient, and affordable, we help you to build a quality site that promotes your business effectively. Whether you need a basic brochure site or an eCommerce solution, we will work with you every step of your web development journey.
+
+                    We have been featured in Wired Magazine, Mashable, TheNextWeb, and many other websites.   We build better websites than our competitors. We specialize in web design, custom software, mobile app development, e-commerce, and digital marketing.
+
+                    Our passion for technology and design has driven us to develop a web agency that specializes in creating innovative websites for companies in Irvine. `,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Leveraging over 10 years of web development experience, DEV.co provides full-service, custom design and development solutions for small businesses and start-ups to Fortune 500 companies. From domains and hosting to web design and mobile app capabilities, we offer everything you need under one roof in a fast, easy, personalized manner with a no-nonsense contract structure that is custom fit for you.<br></br>
+
+                    Our in-house team of graphic designers, web developers, and search engine optimization specialists work together to create the best possible online presence for our clients. Since we are a full-service design agency, we offer everything from web design and web application development to graphic design and branding. Because we understand that every business is unique, we take the time to discover all of your company’s goals and objectives before we establish an effective plan to achieve them.<br></br>
+
+                    We’re the only web design firm in Orange County and Los Angeles that exclusively designs for small businesses. We’re a team of designers, developers, and strategists with over 20 years of experience in creating stunning websites that convert. We utilize award-winning design, responsive web design, custom development, and expert digital marketing to ensure your site gets found online.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `Our Irvine software developer is dedicated to building sites that generate leads and grow businesses. Our teams of professionals are experts at creating custom websites and powerful search engine optimization (SEO) strategies to reach your target audience and generate sales.<br></br>
+
+            With years of experience on every browser, device, and operating system, we will build a site that works for you. You’re looking for a website that reflects your personality, one that’s fresh and cutting-edge but also clean and professional, gives you total control over the content, is search-engine optimized to help you sell more products and services, and ultimately position you higher in the online world? You’ve got it!`,
+         },
+      },
+
+
 
 ];

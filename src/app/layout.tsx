@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import "./globals.css";
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Import FontAwesome CSS
-config.autoAddCss = false; // Prevent FontAwesome from automatically adding CSS
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import Script from "next/script"; 
+config.autoAddCss = false;
 
 
 
@@ -16,8 +17,26 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        
       </head>
       <body>
+        {/*  chatbot script */}
+        <Script
+          id="chatbot-script"
+          strategy="lazyOnload"
+        >
+          {`
+            (function(w, d) {
+              w.CollectId = "5ed144e1f906363bd69e66cf"; 
+              var h = d.head || d.getElementsByTagName("head")[0]; 
+              var s = d.createElement("script"); 
+              s.setAttribute("type", "text/javascript"); 
+              s.async = true; 
+              s.setAttribute("src", "https://collectcdn.com/launcher.js"); 
+              h.appendChild(s); 
+            })(window, document);
+          `}
+        </Script>
         <Header />
         <div className="main-wrapper">
           {children}
