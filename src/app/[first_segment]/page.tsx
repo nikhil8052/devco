@@ -57,12 +57,8 @@ export default function Page({ params }: PageProps) {
 
   // Set the page title and meta description
   useEffect(() => {
-    document.title = data.meta_title || "Page Title Not Defined";
-    const descriptionMetaTag = document.querySelector('meta[name="description"]');
-    if (descriptionMetaTag) {
-      descriptionMetaTag.setAttribute("content", data.meta_description || "Page description not defined");
-    }
-  }, [data]); // Dependency array ensures this runs only when `data` changes
+    document.title = data.meta_title || "Page Title Not Defined";    
+  }); // Dependency array ensures this runs only when `data` changes
 
   // Render the matched component with its data
   return <Component data={data} />;
