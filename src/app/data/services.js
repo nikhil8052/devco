@@ -7,6 +7,9 @@ export const services = [
           },
 
         id: 1,
+        meta_title:"Web Development Company | Web Developer | DEV",
+        meta_description: "We provide web development and design for nearly any project, through nearly any platform. Trust us with your next website dev project!",
+        meta_image:"/images/Custom-Website-Development-Services-Icon.png",
         slug: "web",
         subtitle: "Services",
         bannerImage:"/images/webdevelopmenservicesnewimage.png",
@@ -345,6 +348,7 @@ export const services = [
     {
         id: 2,
         slug: "mobile",
+        page_title:"Mobile Development",
         sub_title: "services",
         bannerImage:"/images/webdevelopmenservicesnewimage.png",
         bannericon: "/images/Mobile Development.svg",

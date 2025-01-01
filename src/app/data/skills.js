@@ -1,252 +1,5 @@
 export const skills = [
-    {
-        id: 1,
-        slug: "python",
-        bannericon: "/images/Python.svg",
-        sub_title: "Skills",
-        top_title: "Python Development Services",
-        top_description: `Despite being around for decades, Python remains one of the most versatile and popularly used programming languages in the world.
-            It's a general purpose language, meaning it can be used for almost any kind of project, but it can be difficult to handle if you don't have the right skilled python developers on your team.`,
 
-
-        BorderTextbox: {
-            BorderTextdata: [
-                {
-                    title: "Which Projects Use Python Development?",
-                    description: ``,
-
-                },
-                {
-                    title: "",
-                    description: `Remember, Python is one of the most versatile programming languages available, so it can be used for almost any kind of development project. You can use it to build desktop software and web development.<br>
-            A python developer can also use it to develop for IoT, the blockchain, data science processes, and advanced systems like machine learning and artificial intelligence (AI).<br>
-            It's even used to create and apply special effects in films.`,
-                }
-            ]
-        },
-
-        benefits: {
-            title: `What Makes Python Development So Popular?`,
-            description: `Python development is incredibly popular for a few important reasons:`,
-            benefits: [
-                {
-                    title: "Versatility",
-                    description: "Python is platform-agnostic, meaning it can be used on any platform, regardless of the operating system. You can use a single code base to build any type of project, and because Python code is so flexible, you can use it to build almost anything. A python developer only has to write code once, and it will run across multiple systems regardless.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Readability",
-                    description: "Python is also popular for its readability. While some programming languages are very technical and hard to parse (especially at a glance), Python tries to make it easy for developers to examine their code and identify possible mistakes. This makes it much easier to fundamentally understand how the application works, identify areas for improvement, and catch bugs.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Open source support",
-                    description: "The Python programming language is open source, and can be downloaded by anyone in minutes. But the real advantage of a programming language being open source is the amount of community support it receives. Python has an endless supply of frameworks and libraries developers can use to improve their own projects.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Faster delivery",
-                    description: "Python applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application. A python developer is able to rapidly develop and deploy solutions.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-
-            ],
-        },
-
-
-        Benefitslider: {
-            title: "The DEV.co Python Development Process",
-            description: `To build the best possible Python products for our clients, we follow these Python development phases:`,
-            card_datas: [
-                {
-                    title: "Discovery and onboarding",
-                    description: "Before we can begin creating a solution, we need to understand your problem. Our first phase is discovery and onboarding, allowing us to learn more about your project and your company.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Brainstorming and collaboration",
-                    description:
-                        "We'll team up to generate ideas for your project, and build the right designs and foundations to build upon.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Testing and launch",
-                    description: "After QA testing, we'll ensure the app is ready for public use, and work with you to get it launched.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Ongoing testing, maintenance, and support",
-                    description: "Once the app is launched, we'll continue to support it (and your company) with ongoing testing, maintenance, reporting, and other forms of support.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
-                    imgSrc: "",
-                },
-            ],
-        },
-
-        Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-            ],
-            list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-            ],
-        },
-
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "The “Zen of Python” details the guiding philosophical principles associated with the language:",
-                    description: `Beautiful is better than ugly.Explicit is better than implicit.Simple is better than complex.Complex is better than complicated.Flat is better than nested.Sparse is better than dense.Readability counts.Special cases aren't special enough to break the rules.Although practicality beats purity.Errors should never pass silently.Unless explicitly silenced.In the face of ambiguity, refuse the temptation to guess.There should be one—and preferably only one—obvious way to do it.Although that way may not be obvious at first unless you're Dutch.Now is better than never.Although never is often better than right now.If the implementation is hard to explain, it's a bad idea.If the implementation is easy to explain, it may be a good idea.Namespaces are one honking great idea—let's do more of those`,
-                },
-            ],
-        },
-        processes: {
-            title: "Our Development <br> Process",
-            description: "",
-            processes: [
-                {
-                    title: "Understanding",
-                    description: `Background details<br>
-                                    Vision & values<br>
-                                    Target personas<br>
-                                    Stakeholder insights`,
-                    imageSrc: "/images/num-1.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Research",
-                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
-                    imageSrc: "/images/num-2.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Strategy",
-                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
-                    imageSrc: "/images/num-3.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Creative",
-                    description: `Naming<br>
-                                Logo development<br>
-                                Graphics standards<br>
-                                Verify function<br>
-                                Messaging framework`,
-                    imageSrc: "/images/num-4.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Deliver",
-                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
-                    imageSrc: "/images/num-5.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-            ],
-        },
-        CombiningCodedatas: {
-            CombiningCodedata: [
-                {
-                    backgroundImage: "/images/code_crbg.svg",
-                    mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
-                    description: `Are you ready to learn more about Python development?
-Or are you interested in a free quote?
-Contact DEV.co for more information or a free consultation today!`,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
-                }
-            ],
-        },
-
-        faqs: {
-            title: "Frequently Asked Questions (FAQs)",
-            description: "",
-            faqs: [
-                {
-                    question: "What is Python commonly used for?",
-                    answer: `Python is popular for machine learning. Python has several libraries that are perfect for machine learning, including Scikit-learn and TensorFlow. These libraries make it easy to train models, and they include a wide variety of algorithms that you can use. Python also is popular for data science because it has a number of libraries that are perfect for data science, including NumPy and Pandas. These libraries make it easy to work with data, and they include a wide variety of algorithms that you can use. Python is even a popular language for web development. Python developers find that it's great for backend development, and frameworks like Flask and Django make it easy to create web applications. Additionally, there are a number of modules and python frameworks that make it easy to work with databases (like MySQL) or create user interfaces.`,
-
-                },
-                {
-                    question: "Why should I hire a Python developer?",
-                    answer: `Python is a versatile language that can be used for a variety of applications. If you need a developer who can write efficient and reliable code, then you should consider hiring a professional python developer. They will be able to help you with your specific needs and can ensure that your project is completed on time and within budget. When you hire a professional Python developer, you're hiring someone who can help you build anything you need. They'll be able to write efficient and reliable code, and they'll be able to work with any libraries or frameworks you need for your project. If you're looking for a developer who can help you with a specific task or project, then you should consider hiring a professional Python developer. They have the experience and skills necessary to get the job done quickly and efficiently.`,
-
-                },
-                {
-                    question: "What are the different types of Python developers?",
-                    answer: `There are a few different types of python developers that you may want to consider hiring for your project. These include: - Generalists: These developers are skilled in Python and can be used for a variety of tasks. They may not be experts in machine learning or web development, but they are familiar with the language and can be used for basic tasks. - Specialists: If you need a developer who is an expert in a particular area (like machine learning), then you should consider hiring a specialist. They will have the skills and knowledge necessary to complete your project quickly and efficiently. - Contractors: If you only need help for a short period of time, then you may want to consider hiring a contractor. This is a great option if you need help with a specific task or if you're on a tight budget.`,
-                },
-                {
-                    question: "How do I find a good Python developer?",
-                    answer: `First, you'll need to decide what you're looking for in a python developer. Some things to consider include: - Experience: How much experience does the developer have with Python? Are they familiar with the python libraries and modules that you need for your project? - Skill level: What is the developer's skill level? Are they experienced enough to work on a complex project, or are they more suited for basic tasks? - Availability: How easily can the developer be reached? Will they be able to work on your project full-time, or part-time? Once you've decided what you're looking for, you can start searching for a good python developer. There are a number of resources available online, including job boards and directories. You can also ask your friends and colleagues if they know any good developers. Finally, once you've found a few potential candidates, it's important to test their skills. You can do this by asking them to complete a task or project that simulates the work that they would do for you. This will help you determine if they are a good fit for your project.`,
-
-                },
-                {
-                    question: "How does Dev.co find the best python developers for projects",
-                    answer: `Dev.co uses a number of resources to find the best python developers for projects, including job boards and directories. We also ask our friends and colleagues if they know any good developers. Once we've found a few potential candidates, we test their skills by asking them to complete a task or project that simulates the work that they would do for us. This helps us determine if they are a good fit for our project.`,
-
-                },
-                {
-                    question: "Why should I partner with Dev.co?",
-                    answer: `There are a number of reasons why you should partner with Dev.co: - We have an experienced and qualified development team that can help you with your project. - We use a number of resources to find the best python developers for your project. - We test the developers skills before they start working on your project. - We have a number of satisfied clients who have worked with us in the past. If you're looking for a reliable and experienced python developer, then you should consider partnering with Dev.co. We'll be able to help you with your specific needs and can ensure that your project is completed on time and within budget.`,
-
-                },
-            ],
-        },
-
-
-
-
-
-        // chooseServices1:{
-        //     isShow:true, 
-        //     mainHeading:"How to Choose a Software",
-        //     subHeading:"Development Staffing Company",
-        //     subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:",
-        //     chooseData:[]
-
-        // },
-        // chooseServices2:{
-        //     isShow:true, 
-        //     mainHeading:"How to Choose a Software",
-        //     subHeading:"Development Staffing Company",
-        //     subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:"
-
-        // },
-        // chooseServices3:{
-        //     isShow:true, 
-        //     mainHeading:"How to Choose a Software",
-        //     subHeading:"Development Staffing Company",
-        //     subHeading1:"Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:"
-
-        // }
-    },
     {
         id: 2,
         slug: "",
@@ -3929,311 +3682,540 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
         },
     },
 
+    {
+        id: 18,
+        slug: "python",
+        sub_title: "Skills",
+        bannericon: "/images/Python.svg",
+        top_title: "Python Development Services",
+        top_description: `Despite being around for decades, Python remains one of the most versatile and popularly used programming languages in the world. It’s a general purpose language, meaning it can be used for almost any kind of project, but it can be difficult to handle if you don’t have the right skilled python developers on your team.`,
 
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Which Projects Use Python Development?",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `Remember, Python is one of the most versatile programming languages available, so it can be used for almost any kind of development project. You can use it to build desktop software and web development. A python developer can also use it to develop for IoT, the blockchain, data science processes, and advanced systems like machine learning and artificial intelligence (AI). It’s even used to create and apply special effects in films.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `What Makes Python Development So Popular?`,
+            description: `Python development is incredibly popular for a few important reasons:`,
+            benefits: [
+                {
+                    title: "Versatility",
+                    description: "Python is platform-agnostic, meaning it can be used on any platform, regardless of the operating system. You can use a single code base to build any type of project, and because Python code is so flexible, you can use it to build almost anything. A python developer only has to write code once, and it will run across multiple systems regardless.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Readability",
+                    description: "Python is also popular for its readability. While some programming languages are very technical and hard to parse (especially at a glance), Python tries to make it easy for developers to examine their code and identify possible mistakes. This makes it much easier to fundamentally understand how the application works, identify areas for improvement, and catch bugs.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Open source support",
+                    description: "The Python programming language is open source, and can be downloaded by anyone in minutes. But the real advantage of a programming language being open source is the amount of community support it receives. Python has an endless supply of frameworks and libraries developers can use to improve their own projects.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Faster delivery",
+                    description: "Python applications can be created much faster and more efficiently than other frameworks. This ultimately streamlines the process and speeds up the process from idea to usable application. A python developer is able to rapidly develop and deploy solutions.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.co Python Development Process",
+            description: `To build the best possible Python products for our clients, we follow these Python development phases:`,
+            card_datas: [
+                {
+                    title: "Discovery and onboarding",
+                    description: "Before we can begin creating a solution, we need to understand your problem. Our first phase is discovery and onboarding, allowing us to learn more about your project and your company.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Brainstorming and collaboration",
+                    description:"We’ll team up to generate ideas for your project, and build the right designs and foundations to build upon.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Testing and launch",
+                    description: "After QA testing, we’ll ensure the app is ready for public use, and work with you to get it launched.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Ongoing testing, maintenance, and support",
+                    description: "Once the app is launched, we’ll continue to support it (and your company) with ongoing testing, maintenance, reporting, and other forms of support.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About Python",
+            subText:"",
+            list1: [
+                "There are now more than 8.2 million people using the Python programming language, and it remains one of the fastest-growing programming languages in terms of popularity.",
+                "Even though it’s become incredibly popular, Python remains entirely open source, with no proprietary licenses and complete openness to community contributions.",
+                "There’s no compiler required, since Python is a high-level and interpreted language. This differentiates Python from languages like Java and C++.",
+                "Python is so popular, it’s replacing spoken language in primary schools. In 2015, Python became more commonly taught than French.",
+                "Python is an official language at Google, due to its efficiency and easy portability. Python powers both Google Search and YouTube, in addition to many different Google APIs and libraries.",
+                "Python got its name not from the snake, but from Monty Python’s Flying Circus. Creator Guido Van Rossum was a big fan—plus, he felt the name was attention-grabbing and mysterious.",
+                "You can build almost anything with Python, including websites, mobile apps, machine learning and AI software, and data science applications that work with big data.",
+            ],
+            list2: [
+                "Beautiful is better than ugly.",
+                "Explicit is better than implicit.",
+                "Simple is better than complex.",
+                "Complex is better than complicated.",
+                "Flat is better than nested.",
+                "Sparse is better than dense.",
+                "Readability counts.",
+                "Special cases aren’t special enough to break the rules.",
+                "Although practicality beats purity.",
+                "Errors should never pass silently.",
+                "Unless explicitly silenced.",
+                "In the face of ambiguity, refuse the temptation to guess.",
+                "There should be one—and preferably only one—obvious way to do it.",
+                "Although that way may not be obvious at first unless you’re Dutch.",
+                "Now is better than never.",
+                "Although never is often better than right now.",
+                "If the implementation is hard to explain, it’s a bad idea.",
+                "Namespaces are one honking great idea—let’s do more of those",
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `Are you ready to learn more about Python development?
+                    Or are you interested in a free quote?<br>
+                    Contact DEV.co for more information or a free consultation today!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+        faqs: {
+            title: "Frequently Answered Questions (FAQs)",
+            description: "",
+            faqs: [
+                {
+                    question: "What is Python commonly used for?",
+                    answer: `Python is popular for machine learning. Python has several libraries that are perfect for machine learning, including Scikit-learn and TensorFlow. These libraries make it easy to train models, and they include a wide variety of algorithms that you can use.<br></br>
+
+                    Python also is popular for data science because it has a number of libraries that are perfect for data science, including NumPy and Pandas. These libraries make it easy to work with data, and they include a wide variety of algorithms that you can use.<br></br>
+
+                    Python is even a popular language for web development. Python developers find that it’s great for backend development, and frameworks like Flask and Django make it easy to create web applications. Additionally, there are a number of modules and python frameworks that make it easy to work with databases (like MySQL) or create user interfaces.`,
+
+                },
+                {
+                    question: "Why should I hire a Python developer?",
+                    answer: `Python is a versatile language that can be used for a variety of applications. If you need a developer who can write efficient and reliable code, then you should consider hiring a professional python developer. They will be able to help you with your specific needs and can ensure that your project is completed on time and within budget.<br></br>
+
+                    When you hire a professional Python developer, you’re hiring someone who can help you build anything you need. They’ll be able to write efficient and reliable code, and they’ll be able to work with any libraries or frameworks you need for your project.<br></br>
+
+                    If you’re looking for a developer who can help you with a specific task or project, then you should consider hiring a professional Python developer. They have the experience and skills necessary to get the job done quickly and efficiently.`,
+
+                },
+                {
+                    question: "What are the different types of Python developers?",
+                    answer: `There are a few different types of python developers that you may want to consider hiring for your project. These include:<br></br>
+
+                    – Generalists: These developers are skilled in Python and can be used for a variety of tasks. They may not be experts in machine learning or web development, but they are familiar with the language and can be used for basic tasks.<br></br>
+
+                    – Specialists: If you need a developer who is an expert in a particular area (like machine learning), then you should consider hiring a specialist. They will have the skills and knowledge necessary to complete your project quickly and efficiently.<br></br>
+
+                    – Contractors: If you only need help for a short period of time, then you may want to consider hiring a contractor. This is a great option if you need help with a specific task or if you’re on a tight budget.`,
+                },
+                {
+                    question: "How do I find a good Python developer?",
+                    answer: `First, you’ll need to decide what you’re looking for in a python developer. Some things to consider include:<br></br>
+
+                    – Experience: How much experience does the developer have with Python? Are they familiar with the python libraries and modules that you need for your project?<br></br>
+
+                    – Skill level: What is the developer’s skill level? Are they experienced enough to work on a complex project, or are they more suited for basic tasks?<br></br>
+
+                    – Availability: How easily can the developer be reached? Will they be able to work on your project full-time, or part-time?<br></br>
+
+                    Once you’ve decided what you’re looking for, you can start searching for a good python developer. There are a number of resources available online, including job boards and directories. You can also ask your friends and colleagues if they know any good developers.<br></br>
+
+                    Finally, once you’ve found a few potential candidates, it’s important to test their skills. You can do this by asking them to complete a task or project that simulates the work that they would do for you. This will help you determine if they are a good fit for your project.`,
+
+                },
+                {
+                    question: "How does Dev.co find the best python developers for projects?",
+                    answer: `Dev.co uses a number of resources to find the best python developers for projects, including job boards and directories. We also ask our friends and colleagues if they know any good developers.<br></br>
+
+                    Once we’ve found a few potential candidates, we test their skills by asking them to complete a task or project that simulates the work that they would do for us. This helps us determine if they are a good fit for our project.`,
+
+                },
+                {
+                    question: "Why should I partner with Dev.co?",
+                    answer: `There are a number of reasons why you should partner with Dev.co:<br></br>
+
+                    – We have an experienced and qualified development team that can help you with your project.<br></br>
+
+                    – We use a number of resources to find the best python developers for your project.<br></br>
+
+                    – We test the developers skills before they start working on your project.<br></br>
+                    – We have a number of satisfied clients who have worked with us in the past.<br></br>
+
+                    If you’re looking for a reliable and experienced python developer, then you should consider partnering with Dev.co. We’ll be able to help you with your specific needs and can ensure that your project is completed on time and within budget.`,
+
+                },
+            ],
+        },
+    },
+
+    {
+        id: 19,
+        slug: "salesforce",
+        sub_title: "Skills",
+        bannericon: "/images/Salesforce.svg",
+        top_title: "Salesforce Development Services",
+        top_description: `When it comes to trust and brand recognition, few names are more powerful than Salesforce. At DEV.co, we’re proud to offer cutting-edge, industry-leading development services that are designed to help you take your business to the next level.<br></br>
+
+        As Salesforce Silver Partners, your custom Salesforce development project will include a dedicated Salesforce developer who will act as a project manager, getting you the custom features, functions and workflows your CRM needs to be the engine for business growth for many years to come!`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Salesforce Development & Consulting",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `At DEV.co, we implement an agile methodology of software development that helps our clients achieve their goals and objectives in a fraction of the time. Our team of salesforce developers can help you plan, design, configure, and deploy your app with minimal friction. Our team also consists of experienced Salesforce consultants who can help you improve, optimize, or manage your existing Salesforce solutions.<br></br>
+
+                    When you are in the market for a Salesforce developer or team of Salesforce developers, get in touch with our team to discuss your project goals and requirements. `,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Why Choose Salesforce?`,
+            description: `The Salesforce developer platform attracts businesses and developers for a variety of reasons,
+            but one of the most compelling benefits is found in the ability to extend the core platform via
+            custom Salesforce application development. Read on to learn more about why you should consider
+            selecting Salesforce as your platform of choice:`,
+            benefits: [
+                {
+                    title: "App development",
+                    description: "The ability to develop standalone apps for Salesforce - apps that work on top of your existing Salesforce developer implementation - is an incredible opportunity. It enables you to improve existing applications, move other existing applications over to the Salesforce platform, and integrate features to establish even more robust solutions with a dedicated Salesforce developer.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Salesforce customizations",
+                    description: "You can customize and modify applications on Salesforce developer cloud (including App, Service, Marketing, and Community). Our Salesforce developer team will also provide the on-going support post-project to ensure your custom-developed applications work flawlessly.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Salesforce app integration",
+                    description: "With the capability to integrate Salesforce.com into your social media, website, ERP, Google Analytics, and other third-party applications, total versatility and flexibility are within reach. Your efficient Salesforce developer will add API integrations and custom applications seamlessly with your Salesforce administrator account.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Robust analytics",
+                    description: `A good platform is useless without an advanced analytics engine attached to it. And while there are plenty of good systems out there, Salesforce Wave Analytics Cloud (and other third-party analytics solutions built for a Salesforce administrator) are among the best. Tap into them to gain powerful insights and data modeling across your business.<br></br>
+
+                        Your Salesforce administrator will integrate the Salesforce Wave Analytics to provide the business intelligence insights your organization needs to succeed.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.co Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Discover",
+                    description: "Every Salesforce software development process begins with an emphasis on understanding your business at a core level. We want to get familiar with the DNA of your organization so that our project managers and team of Salesforce developers can uncover your true objectives, needs, and wants.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Plan",
+                    description:"With a thorough understanding of your business and brand, our Salesforce developers transition into the planning phase. It’s during this process that we create a loose framework for how we’ll achieve your goals. You can be as involved or hands-off in the planning process as you’d like",
+                    imgSrc: "",
+                },
+                {
+                    title: "Develop",
+                    description: "Now comes the fun part: developing your Salesforce apps. And because our Salesforce developers do such a thorough job on the front end, our software engineering process is typically very efficient. The Salesforce developer you hire will be dependent on the specific features you want in your application or how you want us developing customer facing interfaces.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Test",
+                    description: "No Salesforce app development process is complete without some testing and optimization. We’ll continue to improve upon the app until our Salesforce developers are convinced it’s bug-free and up to your standards. Subsequent to testing and launch, a Salesforce developer will also be available for providing technical training, giving you the advanced knowledge you need for managing your Salesforce application going forward.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About Salesforce",
+            subText:"",
+            list1: [
+                "The Salesforce platform dominates the CRM industry – capturing one-third of all users.",
+                "Salesforce is considered the number one CRM in the world.",
+                "Salesforce was launched in 1999.",
+                "Roughly 34% of Salesforce revenue comes from Sales Cloud sales.",
+                "Salesforce invented the App Store before Apple. While they called it the AppExchange (launched in 2005), it was originally intended to be called the App Store and the name was trademarked by Salesforce. CEO Marc Benioff eventually gifted the name to Steve Jobs as a thank you for his support over the years.",
+              
+            ],
+            list2: [
+                "Salesforce generated $13.3 billion in 2019.",
+                "Salesforce currently has 150,000+ customers.",
+                "83% of Fortune 500 companies are Salesforce customers.",
+                "The Salesforce Tower, also known as the Transbay Tower, is the tallest building in San Francisco (and the second-tallest in the United States).",
+                "There are more than 3,500 apps on the Salesforce AppExchange.",
+                "Salesforce is often ranked #1 on the Fortune 100 Best Companies to work for.",
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `Are you looking for a reliable software engineering partner who can
+                    help you achieve your goals in minimal time and at a cost-effective price point?<br>
+
+                    Contact us today and we’d be happy to answer any questions you might have.`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+        faqs: {
+            title: "Frequently Answered Questions (FAQs)",
+            description: "",
+            faqs: [
+                {
+                    question: "What is Salesforce?",
+                    answer: `Salesforce is the world’s leading CRM platform. It enables businesses to manage customer data and interactions across all channels. A Salesforce developer can use it to create custom applications that help businesses automate their sales processes, better manage customer relationships, and gather insights about their customers.`,
+
+                },
+                {
+                    question: "How do I find an efficient Salesforce developer?",
+                    answer: `The best way to find a good Salesforce developer is to ask your peers for referrals. If you know someone who has recently worked with a great Salesforce developer, ask them for a recommendation. You can also check online directories or job boards to find qualified candidates.<nr></br>
+
+                    Developing with Salesforce is a complex process that requires a range of skills and knowledge. The main Salesforce skills required for development are:<br>
+
+                    – Salesforce certified<br>
+
+                    – Strong understanding of the Salesforce platform and its features<br>
+
+                    – Experience in developing custom applications using the Salesforce platform<br>
+
+                    – Knowledge of object-oriented programming concepts<br>
+
+                    – Knowledge of Apex code and the Force.com platform<br>
+
+                    – Strong problem-solving and analytical skills<br></br>
+
+                    A good developer will stand out as having these skills. If you’re looking to hire a Salesforce developer, make sure they have these skills and experience. Otherwise, they may not be able to help you get the most out of the platform.`,
+
+                },
+                {
+                    question: "How does Dev.co find good Salesforce developers?",
+                    answer: `Dev.co is a leading provider of development services. We have a team of experienced and qualified Salesforce developers who can help you create custom applications that meet your specific business needs. Each Salesforce developer on our team is an expert in the platform and has the skills and experience to help you get the most out of the platform.<br></br>
+
+                    If you’re looking for a reliable and experienced Salesforce developer, contact Dev.co today. We’ll be happy to help you find the perfect Salesforce developer for your project.`,
+                },
+            ],
+        },
+    },
 
    
     
    
 
 
-    {
-        id: 19,
-        slug: "labview",
-        top_title: "LabVIEW Development Services",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
 
-        BorderTextbox: {
-            BorderTextdata: [
-                {
-                    title: "Business Intelligence Development Services",
-                    description: ``,
-
-                },
-                {
-                    title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
-                }
-            ]
-        },
-
-        benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
-            benefits: [
-                {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-
-            ],
-        },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-
-            ],
-        },
-
-        Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
-            card_datas: [
-                {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
-                    imgSrc: "",
-                },
-                {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
-                    imgSrc: "",
-                },
-                {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
-                    imgSrc: "",
-                },
-            ],
-        },
-
-        Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
-            list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-            ],
-            list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-            ],
-        },
-
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
-                },
-            ],
-        },
-        processes: {
-            title: "Our Development <br> Process",
-            description: "",
-            processes: [
-                {
-                    title: "Understanding",
-                    description: `Background details<br>
-                                    Vision & values<br>
-                                    Target personas<br>
-                                    Stakeholder insights`,
-                    imageSrc: "/images/num-1.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Research",
-                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
-                    imageSrc: "/images/num-2.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Strategy",
-                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
-                    imageSrc: "/images/num-3.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Creative",
-                    description: `Naming<br>
-                                Logo development<br>
-                                Graphics standards<br>
-                                Verify function<br>
-                                Messaging framework`,
-                    imageSrc: "/images/num-4.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Deliver",
-                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
-                    imageSrc: "/images/num-5.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-            ],
-        },
-        CombiningCodedatas: {
-            CombiningCodedata: [
-                {
-                    backgroundImage: "/images/code_crbg.svg",
-                    mainImage: "/images/code_creative.svg",
-                    heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
-                }
-            ],
-        },
-
-        faqs: {
-            title: "Our RPA Service Offerings",
-            description: "",
-            faqs: [
-                {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
-
-                },
-                {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
-
-                },
-                {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
-                },
-                {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
-
-                },
-            ],
-        },
-    },
 
     {
         id: 19,
         slug: "c-sharp-dot-net",
+        sub_title: "Skills",
+        bannericon: "/images/sharp-c.png",
         top_title: "C#/.NET Development Services",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        top_description: "Microsoft’s .NET platform allows C# software developers to build stunning applications that can run on any device (including mobile and desktop). With a robust library and framework, it can handle virtually any task thrown its way. And because it was originally developed in response to existing programming languages, C#/.NET is much more intuitive and user-friendly than some of the ones that came before.",
 
         BorderTextbox: {
             BorderTextdata: [
                 {
-                    title: "Business Intelligence Development Services",
+                    title: "C#/.NET Development & Consulting",
                     description: ``,
 
                 },
                 {
                     title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
+                    description: `We also have .NET consultants available to help analyze existing applications and identify areas for improvement. We can recommend new opportunities and provide strategic recommendations.<br></br>
+
+                As simple as C#/.NET is to use, it still requires extensive experience and familiarity to be successful. At Dev.co, we take pride in our understanding of the framework and promise the techniques and skills required to deliver an end product that exceeds your expectations.`,
                 }
             ]
         },
 
         benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
+            title: `Why Choose C#/.NET?`,
+            description: `For many years, developers searched for a framework that would enable them
+to create applications with ease. So, Microsoft finally developed .NET to make
+developing, running, and maintaining both modern-day apps and
+XML web services a breeze. Here are some of the reasons
+you may consider selecting this framework for your next project:`,
             benefits: [
                 {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
+                    title: "Versatile business uses",
+                    description: "Whether it’s sales, finance, accounting, supply chain management, or something in between, this framework is versatile enough to support a variety of software and applications.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
+                    title: "Cross-platform functionality",
+                    description: "One of the best aspects of the .NET framework is that it supports the development of cross-platform apps that can smoothly operate across several different server platforms, including Windows, Linux, and MAC.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
+                    title: "Rich class library",
+                    description: "As developers, we love the .NET framework because it includes one of the best class libraries around. It’s consistent, rich, and easy to work with. On the client side, you can rest easy knowing you have access to all the best features and capabilities, which typically results in a superior application.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Less friction",
+                    description: "If we could use one word to describe C#/.NET, it would be “smooth.” All of the traditional hurdles and friction that exists with other frameworks all but disappears. This means fewer problems and delays in development.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -4241,105 +4223,52 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
             ],
         },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
 
-            ],
-        },
 
         Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
+            title: "Our C#/.NET Development Process",
+            description: ``,
             card_datas: [
                 {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
+                    title: "Discover",
+                    description: "The Dev.co process starts with a discovery phase where you get to know your business and the core objectives and goals you have for your software or application. This helps us determine the best path forward.",
                     imgSrc: "",
                 },
                 {
-                    title: "Brainstorming and workshopping",
+                    title: "Plan",
                     description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
+                        "Based on your goals, we can head to the drawing table and figure out the best way to develop an application that will make the most sense for you. We attempt to do so in a way that prioritizes both quality and cost.",
                     imgSrc: "",
                 },
                 {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
+                    title: "Develop",
+                    description: "This is the part we love. The development phase is all about taking your idea and turning it into a reality. We’ll work hand-in-hand to ensure everything aligns with your wants, needs, and expectations.",
                     imgSrc: "",
                 },
                 {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
+                    title: "Test",
+                    description: "No application is complete without first conducting some tests to ensure there are no bugs, errors, or mistakes. We’ll continue to test and iterate until it runs smoothly.",
                     imgSrc: "",
                 },
             ],
         },
 
         Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            heading: "Interesting Facts About C#/.NET",
+            subText:"",
             list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                ".NET Core means .Net is no longer only reserved for Windows or PC users. Developers can now create apps that run on Windows, Mac OS X, and Linux.",
+                ".NET is a framework that can work with several programming languages, including C#.",
+                "C# is an object-oriented programming language which speeds up productivity in development.",
             ],
             list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "The .NET framework has a massive collection of predefined class libraries – which are basically pre-written code – from hundreds of developers.",
+                "Many major companies use .NET, including Dell, Accenture, Epic Systems HCL, and TCS.",
+                "C# is pronounced just like the musical note (“C-Sharp”).",
+                "C# is suitable for writing applications in embedded systems.",
             ],
         },
 
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
-                },
-            ],
-        },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -4394,92 +4323,70 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
                     heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
+                    description: `When you partner with Dev.co on your next C#/.NET project,<br>
+                    you can rest assured that you’ll get only the best quality and service.<br>
+                    Not only do we have years of collective experience developing software and applications,<br>
+                    but we’re well-versed in the softer side of development.<br>
+                    We promise exceptional service and will gladly hold your hand each step of the way.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
 
-        faqs: {
-            title: "Our RPA Service Offerings",
-            description: "",
-            faqs: [
-                {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
-
-                },
-                {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
-
-                },
-                {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
-                },
-                {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
-
-                },
-            ],
-        },
     },
     {
-        id: 19,
-        slug: "unity",
-        top_title: "Unity Development Services",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        id: 20,
+        slug: "oracle",
+        sub_title: "Skills",
+        bannericon: "/images/Oracle.svg",
+        top_title: "Oracle Development Services",
+        top_description: "Oracle is one of the leading database software and technology names in the world. They provide some of the best cloud application and platform services in the industry. And at Dev.co, our aim is to provide businesses, small and large, with powerful Oracle development services that catalyze our clients towards growth and expansion.",
 
         BorderTextbox: {
             BorderTextdata: [
                 {
-                    title: "Business Intelligence Development Services",
+                    title: "Oracle Development & Consulting",
                     description: ``,
 
                 },
                 {
                     title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
+                    description: `Oracle is one of the most established companies in the industry. They have decades of experience that newer startups simply can’t replicate. If you want solutions that are proven and reliable, look no further.`,
                 }
             ]
         },
 
         benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
+            title: `Why Choose Oracle Development?`,
+            description: `The Oracle name is known inside and outside of the industry.
+                            And while the brand’s reputation precedes it,
+                            here are some of the specific reasons
+                            why we recommend pursuing Oracle:`,
             benefits: [
                 {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
+                    title: "Highly scalable",
+                    description: "In today’s day and age, scalability is key. You must be able to efficiently scale with ease; otherwise, your tech infrastructure will hold you back. Oracle’s native scalability makes it a perfect fit for growing companies.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
+                    title: "High data availability",
+                    description: "Any real-time application requires high data availability, and that’s precisely what Oracle provides. When you utilize Oracle, you can be sure that you’ll have data available during both planned or unplanned downtime or failure.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
+                    title: "Advanced security",
+                    description: "Data integrity will always be a major focus. And with Oracle, you can rest assured that you’re protected with advanced data security mechanisms in place, many of which can be customized and configured to your company’s preferences and workflow.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Backup and recovery",
+                    description: "No business plans for a crash, but sometimes they happen. Oracle takes some of the sting out of these incidents by providing advanced backup and recovery features that protect your data and allow you to continue with operations as normal.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -4487,105 +4394,51 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
             ],
         },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
 
-            ],
-        },
 
         Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
+            title: "The DEV.co Oracle Development Process",
+            description: ``,
             card_datas: [
                 {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
+                    title: "Discover",
+                    description: "When we first meet with your team, we’ll ask probing questions to understand who you are and what your big-picture business objectives are. This empowers us to develop an Android application that fully supports your business from the ground up",
                     imgSrc: "",
                 },
                 {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
+                    title: "Plan",
+                    description:"We plan out every step of the process to ensure there are no blind spots. This phase is one of the more critical components in the entire equation (and something most developers gloss over).",
                     imgSrc: "",
                 },
                 {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
+                    title: "Develop",
+                    description: "After we discover and plan, we roll up our sleeves and begin the Android development process. The goal is to create a lean app that’s both functional and aesthetically pleasing.",
                     imgSrc: "",
                 },
                 {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
+                    title: "Test",
+                    description: "Bugs are a natural part of developing an app, but you don’t have to live with them. Count on us to test and iterate until you have an Android app that works with your business to achieve any and all underlying objectives.",
                     imgSrc: "",
                 },
             ],
         },
 
         Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
-            subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+            heading: "Interesting Facts About Oracle",
+            subText:"",
             list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                "Oracle is the leader in the database software industry with more than 420,000 customers and deployments in 145 countries.",
+                "Oracle has more than 136,000 employees around the world.",
+                "Oracle has undergone many name changes. It was founded in 1977 as Software Development Laboratories. The name was switched to Relational Software Inc. in 1979. It became Oracle Systems Corporation in 1982. In 1995, the company finally renamed to Oracle Corporation, its current name.",
             ],
             list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "Larry Ellison, one of the Oracle founders, owns 98 percent of Lanai, Hawaii’s sixth-largest island.",
+                "There was never a version 1 of Oracle database. Larry Ellison called his new software Oracle Database Version 2.",
+                "Oracle generated $40 billion in total revenue in 2019. Its net income was $10.1 billion.",
+                "Oracle spends more than $6 billion annually on research and development.",
             ],
         },
 
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
-                },
-            ],
-        },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -4640,92 +4493,628 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
                     heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
+                    description: `You certainly have your choice when it comes to Oracle development services.
+                                    But at Dev.co, we make the decision as simple as possible by
+                                    seamlessly melding skill, service, and reliability.<br></br>
+
+                                    To learn more about our Oracle development process,
+                                    please don’t hesitate to contact us today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
 
-        faqs: {
-            title: "Our RPA Service Offerings",
-            description: "",
-            faqs: [
+    },
+
+    {
+        id: 21,
+        slug: "labview",
+        sub_title: "Skills",
+        bannericon: "/images/Labview.svg",
+        top_title: "LabVIEW Development Services",
+        top_description: `LabVIEW is unique in that it’s designed to be visually intuitive. It features a graphical programming approach that allows for high-level visualization of each aspect of the application. This includes everything from hardware configuration to debugging.<br></br>
+
+        LabVIEW is typically used by companies that manufacture some type of hardware and/or complex systems. This includes industries like medical devices, military/aerospace, automotive, telecom, energy and power, and consumer electronics.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
                 {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
+                    title: "LabVIEW Development & Consulting",
+                    description: `Whether you’re looking for LabVIEW development services for your business, or you’re interested in hiring a LabVIEW consultant to help you analyze your current solutions and make suggestions for improvement, we have the resources to help.`,
 
                 },
                 {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
+                    title: "",
+                    description: `The majority of programmers won’t touch LabVIEW. They either don’t understand how it works, or they’ve never had to learn it. At Dev.co, not only do we have developers with LabVIEW experience, but we also take pride in building up and supporting the LabVIEW community.<br></br>
+                    Our certified LabVIEW developers specialize in data acquisition models and test data management, ensuring seamless LabVIEW integration with your existing systems. Additionally, we excel in test engineering and creating intuitive user interfaces, leveraging our expertise in Visual Basic to enhance your development services.`,
+                }
+            ]
+        },
 
+        benefits: {
+            title: `Why Choose LabVIEW?`,
+            description: `LabVIEW might not be as popular as some other programming languages,
+            but it certainly has its place. And in some cases, it’s the only practical option.
+            Here are a few of the reasons why our clients choose
+            software and applications powered by LabVIEW:`,
+            benefits: [
+                {
+                    title: "Graphical programming",
+                    description: "Very few programming languages are intuitive - at least not initially. They take time to learn (and typically work in a manner that’s contrary to the human brain’s preferred methods of processing information). LabVIEW, on the other hand, uses intuitive graphical programming environment that makes it easy for developers and non-developers alike to understand what’s happening at a very fundamental level.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
                 },
                 {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
+                    title: "Parallel processing",
+                    description: "LabVIEW allows for parallel processing as part of the language. This means that your application can perform multiple tasks at once (and with ease). This results in a more efficient and productive solution.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
                 },
                 {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
+                    title: "Intuitive debugging",
+                    description: "The intuitive nature of LabVIEW makes common programming tasks like debugging easy to manage. This results in fewer user-side issues and errors.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
 
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.co LabVIEW Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Discover",
+                    description: "The problem you’ll encounter with most developers is that they’ll try to rush you through the development process to get you in and out of their workflow pipeline as quickly as possible. But while they play the numbers game, we believe in quality over quantity. That’s why we begin each project with an in-depth discovery phase that helps uncover wants, needs, goals, and expectations.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Plan",
+                    description:
+                        "With the foundational building blocks in place, we can start to construct a plan for what your application will look like and how we can move from idea to finished product with minimal friction.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Develop",
+                    description: "Armed with a thorough plan, we move on to the development phase. This is where the rubber meets the road, so to speak. But thanks to our strategic approach, this phase tends to move quicker than expected.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Test",
+                    description: "No application is actually complete until it’s been tested, debugged, and improved upon. We’ll continue to monitor the application until it’s been battle-tested.",
+                    imgSrc: "",
                 },
             ],
         },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About LabVIEW",
+            subText:"",
+            list1: [
+                "LabVIEW was originally released for the Apple Macintosh in 1986.",
+                "LabVIEW is software-based, which gives it more flexibility than other systems.",
+                "Whereas other programming systems use text-based languages, LabVIEW creates lines of code using a graphical programming language that’s referred to as “G.”",
+               
+            ],
+            list2: [
+                "A LabVIEW program consists of one or more virtual instruments (VIs). Each VI has three main components: a front panel, block diagram, and icon.",
+                "LabVIEW is common in engineering companies, test departments, and laboratory settings.",
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With DEV.co",
+                    description: `At Dev.co, we take pride in our ability to provide clients with a diverse array of development services. Whether you’re interested in LabVIEW or another advanced programming language, we have the experience and resources to help you achieve your goals. Please contact us today to learn more!`,
+                }
+            ],
+        },
+
+    },
+
+    {
+        id: 22,
+        slug: "nextcloud",
+        sub_title: "Skills",
+        bannericon: "/images/Nextcloud.svg",
+        top_title: "Nextcloud Development Services",
+        top_description: `Are you looking for custom development or consultative services related to Nextcloud? You’ve come to the right place. At DEV.co, our team of Nextcloud professionals can help you design, develop, and deploy the Nextcloud solutions you need.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What Is Nextcloud?",
+                    description: `However, for some businesses, Nextcloud simply isn’t enough. It doesn’t offer all the features you need, doesn’t have the interface you want, and/or doesn’t have the level of security you need in your organization. That’s where custom Nextcloud developers come into play.<br></br>
+
+                    Nextcloud is an open source file hosting service, designed to help you store and access the files your company needs to remain productive.`,
+
+                },
+                {
+                    title: "",
+                    description: `With Nextcloud, you’ll have access to dozens of built-in features to help you keep your files secure and improve your team’s productivity.<br></br>
+
+                    For example, you’ll be able to tag files with custom tags, search for files, and even name favorites so you can find them easily. You can also share files between team members and with people from other organizations. Default security features also give you administrative control over your users—all while your data is protected with antivirus scanning and encryption.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Nextcloud Development Services`,
+            description: `With Nextcloud development services, you’ll have the ability to custom design and develop your own Nextcloud features. These could be replacement features, overwriting what Nextcloud already offers, supplementary features to enhance Nextcloud’s core product, or ways to integrate with other products. For example, Nextcloud development can help you get access to:`,
+            benefits: [
+                {
+                    title: "More robust search features",
+                    description: "So you can find what you’re looking for faster",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Smart folders",
+                    description: "Which allow you to link different documents together, and manage different versions conveniently.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Better mobile access",
+                    description: "So your team can access files on the go",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Stricter permissions",
+                    description: "so you can establish better security and access protocols within your organization.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Custom workflows",
+                    description: "streamlining your team’s productivity and allowing you to create custom forms.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Tighter version control",
+                    description: "so it’s clearer who’s edited which files and when.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Specific folder rules",
+                    description: "so you can create how the content of each individual folder is managed.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Compliance features",
+                    description: "including transparent records management.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.co Develop for Nextcloud",
+            description: `When we start a new Nextcloud development project, we follow these phases:`,
+            card_datas: [
+                {
+                    title: "Discovery",
+                    description: "First, we’ll get to know more about your business, including how you plan to use Nextcloud and which features you need most.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Brainstorming and prototyping",
+                    description:
+                        "Together, we’ll brainstorm the possible solutions and begin designing functional prototypes to test our ideas",
+                    imgSrc: "",
+                },
+                {
+                    title: "Agile development",
+                    description: "Through agile development methodologies, we’ll iteratively bring your features to life.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Testing and deployment",
+                    description: "After a few thorough rounds of testing, we’ll be ready to deploy your products to a live environment.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Ongoing support",
+                    description: "From there, we’ll make sure your custom Nextcloud project continues to work as intended.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About Nextcloud",
+            subText:"",
+            list1: [
+                "Nextcloud is entirely open source as a hosting service, designed to help you remain efficient and productive.",
+                "Nextcloud started with employee funding only.",
+                "Today, Nextcloud has more than 250,000 servers online.",
+                "Nextcloud is modular, granting users the ability to add new and augmented functions. The app store currently has more than 200 extensions.",
+                `Some of the most popular add-ons include:
+                contacts (CardDAV)`,
+                "RSS feed readers",
+                "streaming media apps (Ampache)",
+                "browser-based text editors",
+                "a URL shortening suite",
+                "calendars (CalDAV)",
+                "integration of content management systems (like Pico)",
+                "galleries",
+                "document viewer tools from within Nextcloud",
+                "connection to Dropbox, Google Drive, Amazon S3, and other services",
+                "bookmarking services",
+                "web analytics (Matomo)",
+                "weather forecasting",
+                "viewer for DICOM",
+                "map viewers",
+               
+            ],
+            list2: [
+                "Nextcloud’s architecture is written in PHP and JavaScript. It also employs the use of sabre/dav, which is an open source WebDAV server.",
+                "Nextcloud is compatible with SQLite, MariaDB, MySQL, Oracle Database, and PostgreSQL, as well as several other database management systems.",
+                "Nextcloud’s goal is to scale to reach hundreds of millions of users in the next several years.",
+                "Recently, Nextcloud announced the deployment of version 18, known as Nextcloud Hub. This version offers an office package (OnlyOffice), and is designed to compete with products like Microsoft Office and Google Docs.",
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact DEV.co today!",
+                    description: `With the right Nextcloud development partner, you can improve productivity,
+assure compliance, and get access to all the features you need to succeed.
+If you’re ready for a free quote or consultation`,
+                }
+            ],
+        },
+
+    },
+
+    {
+        id: 23,
+        slug: "unity",
+        sub_title: "Skills",
+        bannericon: "/images/Unity.svg",
+        top_title: "Unity Development Services",
+        top_description: `Unity is a game-engine that’s backed by a powerful software environment that makes it one of the preferred systems for producing beautiful, lifelike 3D games, scenes, and simulations.<br></br>
+
+        It’s an all-in-one platform that’s gained significant traction and attention throughout the game developer community over the past few years. And if you’re looking to design or develop a game, it’s a framework that should absolutely be on your radar.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Unity Development & Consulting",
+                    description: `Already have a game and want help tweaking, improving, or creating a related game? Our Unity consultants would be happy to help you attack these challenges in a head-on fashion.`,
+
+                },
+                {
+                    title: "",
+                    description: `While games are often intended to be lighthearted, fun, and exciting, we don’t let the levity of the end product impact our focus or attention to detail. We believe developing fun games is serious work, which is why we work hard to ensure our development process is top-notch each step of the way.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Why Choose Unity?`,
+            description: `Unity can handle graphics and rendering with ease. It also has
+                        the ability to deploy to a variety of devices and operating systems
+                        mobile and desktop alike. Benefits of the platform include:`,
+            benefits: [
+                {
+                    title: "Excellent platform support",
+                    description: "Unity supports 27 platforms in all. This makes it easy to share between a variety of systems including PC, mobile, and web. This agility typically speeds up the game development process and results in a smoother rollout with fewer delays.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Impressive graphics",
+                    description: "It’s hard to beat the visual effects (and audio). And because the visuals are adaptable to every screen and device, you don’t have to worry about distortion or loss of video quality across systems.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Simple debugging",
+                    description: "All game variables are conveniently displayed during gameplay. This allows developers to debug processes at runtime. (Ultimately, this means a faster debugging and tweaking process, which results in a better user experience.)",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Advanced options",
+                    description: "One of the more exciting aspects of Unity is how the game engine supports advanced technologies and innovative developments like extended reality (XR), virtual reality (VR), and augmented reality (AR).",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.co Unity Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Discover",
+                    description: "We begin every Unity development process by getting to know you and carefully outlining each of your goals and expectations. This helps us get a better idea of how we can develop a game that you’ll be happy with.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Plan",
+                    description:"The key to a good game is to plan ahead and formulate a proactive plan. This plan must begin with the end in mind and then work backward.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Develop",
+                    description: "Few development processes are more interesting and rewarding than creating a game. We’ll live and breathe Unity development, which means you’ll get a game that you’re thrilled with.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Test",
+                    description: "No application is complete without first conducting some tests to ensure there are no bugs, errors, or mistakes. We’ll continue to test and iterate until it runs smoothly. The Unity platform makes debugging easy and intuitive. However, we’ll always work with you to ensure your game is running smoothly from start to finish.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About Unity",
+            subText:"",
+            list1: [
+                "Unity is a cross-platform game engine that was first released in 2005.",
+                "Unity supports more than 25 different platforms.",
+                "Unity allows users to create game experiences in 2D, 3D, VR, and AR.",
+                "Unity has both free and paid licensing options.",
+                "Users can buy and sell 2D and 3D assets via the Unity Asset Store.",
+            ],
+            list2: [
+                "Unity has more than 2 million designers using the programming language.",
+                "Unity enjoys more than 48% market share in the game engine industry.",
+                "Famous games developed with Unity include Temple Run, Angry Birds, Super Mario Run, and Pokemon Go.",
+               
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `At DEV.co, it’s our mission to provide our clients with maximum value at each step
+                    of the game development process. Interested in learning more about how
+                    we can use the Unity platform to produce a high-quality gaming experience?<br></br>
+
+                    Please don’t hesitate to contact us!`,
+                }
+            ],
+        },
+
     },
     {
         id: 19,
         slug: "webflow",
+        sub_title: "Skills",
+        bannericon: "/images/Webflow.svg",
         top_title: "Webflow Development Services",
-        top_description: "We design & develop beautiful custom WordPress websites for clients worldwide. Our WordPress development services include custom integrations, plugin updates, custom feature development and on-going website maintenance for reasonable flat fees. Your site should not only be beautiful, it should also be fast. We design and develop with speed in mind.<br>Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. ",
+        top_description: "Our team are experts in designing and developing beautiful experiences using the Webflow platform. We have been building sites in Webflow since its early days. Whether you want to use a template, have your own design or want to build something from scratch, we are here to help.",
 
         BorderTextbox: {
             BorderTextdata: [
                 {
-                    title: "Business Intelligence Development Services",
+                    title: "Webflow Design, Development & Consulting",
                     description: ``,
 
                 },
                 {
                     title: "",
-                    description: `Our business intelligence development services include:<br>
-            Business analytics software development<br>
-            Mobile business intelligence app development<br>
-            Business intelligent dashboard design and development<br>
-           Data analytics and reporting solutions<br>
-            Business intelligence predictive analytics development<br>
-            Business intelligence consulting services<br>
-            End user adoption analysis and management`,
+                    description: `Webflow is the growing platform of choice for novices and experts alike. It’s extensible interface allows our design team to create a beautiful interface on the Webflow platform and, once done, hand the reigns over to less technical personal in the general site and content management process. <br></br>
+
+                    Like many of the other content management systems on which our team designs, Webflow has some key benefits for webmasters and business owners alike:`,
                 }
             ]
         },
 
         benefits: {
-            title: `What Is Business Intelligence?`,
-            description: `Business intelligence is a collection of technologies and strategies used by organizations to analyze business-related data.
-                There are dozens of individual tools and tactics that come together in a comprehensive collection, ultimately providing institutional decision makers with the insights they need to improve business development.<br></br>
-                Building and utilizing the right business intelligence software can help you resolve these problems.
-                    Unfortunately, many business intelligence practitioners run into a handful of problems:`,
+            title: `Why Choose Webflow Design & Development?`,
+            description: `Webflow is the growing platform of choice for novices and experts alike.
+                            It’s extensible interface allows our design team to create a beautiful interface on
+                            the Webflow platform and, once done, hand the reigns over to less technical personal
+                            in the general site and content management process. Like many of the other
+                            content management systems on which our team designs,
+                            Webflow has some key benefits for webmasters and business owners alike:`,
             benefits: [
                 {
-                    title: "Data demand",
-                    description: "Businesses are ever-hungry for high-quality data. Without a reliable system to collect and store data at constantly-increasing volume, your business could quickly fall behind.",
+                    title: "Feature Rich",
+                    description: "As a standalone produce and without the need for custom application development, Webflow comes fully-loaded out of the box. That means there is little to no development needed once the beginning stages of the site have begun. Future builds and updates are also a breeze and the visual canvas editor allows for simple drag-and-drop creation of experiences.",
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Raw data interpretation",
-                    description: "Raw data doesn’t mean much. Analytic tools are a practical requirement to understand the information you’re gathering.",
+                    title: "Traffic at Scale",
+                    description: "Webflow hosting allows for users to acquire traffic at scale. So whether you have an existing site with many users or are planning to shortly launch one and drive paid traffic there, the Webflow hosting solution can aid in the scale and load without straining resources to the point that business continuity experiences interruption.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Data actionability",
-                    description: "You may be able to form an accurate conclusion from the data you’ve gathered, but what are you supposed to do next? Data is only useful if it’s truly actionable.",
+                    title: "Ease of Use",
+                    description: "With built-in features that allow for easy content updates, Webflow allows designers to more quickly and easily interact with marketing teams without getting in the way. In addition, most out-of-the-box features provide for things like SEO and easy content and app integration updates.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Advanced Designs",
+                    description: "While the Webflow platform was built to handle and service the needs of less experienced users and designers, it doesn't mean that Webflow is missing features for a more robust website experience. To the contrary. Webflow is built for advanced interactions and animations, bringing together CSS and Javascript in a way that allows users to interact in ways not provided by other content builders.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -4733,105 +5122,53 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
             ],
         },
-        benefits2: {
-            title: `Key Components of an Effective Business Intelligence Platform`,
-            description: `A solid business intelligence platform should be`,
-            benefits: [
-                {
-                    title: "Cross-departmental",
-                    description: "Business intelligence depends on data from a variety of sources within and outside your organization. All your departments should be united in this system.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Intuitive",
-                    description: "Intuitive platforms are beneficial for several reasons. They’re easier for employees to adopt and use. They’re more accurate and more consistent. They also make it simple to share and transfer data.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Action-centric",
-                    description: "The key to any effective business intelligence or analytics platform is a link to actionability. What features allow you to take action on your latest data sets?",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Optimized for your organization",
-                    description: "Out-of-the-box business intelligence systems won’t be tailor-made for your organization; it’s better to have a customized product.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
 
-            ],
-        },
 
         Benefitslider: {
-            title: "How We Develop Business Intelligence Solutions",
-            description: `We take a slightly different approach with every business intelligence client, but we typically follow the same overarching formula:`,
+            title: "The DEV.co Webflow Development Process",
+            description: ``,
             card_datas: [
                 {
-                    title: "Initial discovery and analysis",
-                    description: "Everything starts by better understanding your business and your core needs. What are you hoping to achieve? What are your biggest pain points currently?",
+                    title: "Discover",
+                    description: "Every Webflow development process begins with an tight focus on understanding your goals and needs on a business level. We want to get familiar with your operations, culture and strategy so we know how to best deliver stellar results.",
                     imgSrc: "",
                 },
                 {
-                    title: "Brainstorming and workshopping",
-                    description:
-                        "Next, we work together to design new platforms, systems, and integrations to support your business intelligence needs.",
+                    title: "Plan",
+                    description:"With a thorough understanding of your brand and business use case, our Webflow development team transitions into the planning phase. It’s during this process that we create a wireframe outline of your project in order to meet your project goals. Our methodology allows clients to be as involved or as hands-off as they would like.",
                     imgSrc: "",
                 },
                 {
-                    title: "System design and development",
-                    description: "Our developers work to make our collective vision a reality.",
+                    title: "Develop",
+                    description: "Now comes the fun part: developing your Webflow website. Once we have created the mock-ups, the move to full development of your Webflow site is typically much more rapid.",
                     imgSrc: "",
                 },
                 {
-                    title: "Testing and launch",
-                    description: "From there, we thoroughly test our product and prepare for an organization-wide launch.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Audits and improvements",
-                    description: "We also provide our clients with ongoing support after the launch of your business intelligence systems. We’ll audit how you and your employees are using it, and make upgrades to serve you better.",
+                    title: "Test",
+                    description: "No Webflow website design & development process is complete without extensive testing and optimization. We will iterate through various tests to ensure you are completely pleased and happy with the final result.",
                     imgSrc: "",
                 },
             ],
         },
 
         Subheadingtext: {
-            heading: "Interesting Facts About JavaScript",
+            heading: "Interesting Facts About Webflow",
             subText:
-                "Very few businesses have the internal resources required to develop their own custom software. Outsourcing enterprise software development almost always makes more sense. Here’s why:",
+                "",
             list1: [
-                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                "JavaScript powers 20% of WordPress’ core code",
-                "JS is the only programming language that can be used on the front-end of a website",
-                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                "Webflow is based in San Francisco, CA USA and was founded in 2013.",
+                "Vlad Magdalin (creator of Intuit Brainstorm), Sergie Magdalin, and Bryant Chou (former CTO of Vungle) founded Webflow as they were seeking for an extensible CMS that filled an ease-of-design void in the market.",
+                "Webflow generates HTML, CSS, and JavaScript automatically, allowing for more interactive experiences.",
             ],
             list2: [
-                "69.7% of web developers prefer JavaScript",
-                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                "There are 24+ JS frameworks and 83+ libraries available for developers",
-                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "The company is a YCombinator graduate.",
+                "Accel lead the series A round in Webflow with a total series A investment of $72M.",
+                "Investors include Accel, YCombinator, Khosla Ventures and Tim Draper.",
+                "Direct competitors include Squarespace, Weebly and Wix.",
+                "It is estimated that Webflow holds some 0.4% of market share where the site’s CMS is known.",
             ],
         },
 
-        Textblockfull: {
-            sectionData: [
-                {
-                    title: "We offer the following RPA services and deliverables",
-                    description: `With the use of machine learning and artificial intelligence applications to execute routine and repeatable business processes at the same speed and accuracy as human workers and human creativity. Robotic process automation can help organizations achieve significant improvements in worker productivity, customer service levels, and bottom-line financial performance.
-                  <br></br>
-                    Our RPA technology implementation services enable businesses to reduce the cost of labor through the use of robots operating on algorithms written by experts. RPA is a cost-effective solution for automating business processes and help reach growth goals throughout their implementation.
-                  <br></br>
-                  DEV.co offers innovative, RPA software tools and integration solutions that are fully customized to meet the unique challenges of individual clients. Our low-code approach and focus on a quality user interface also allows you to implement digital systems to streamline everything from payment processing to human resources. Our process is unique; in part because of our focus on customization and our personalized responsiveness. We are singularly focused on helping organizations harness automation opportunities as a competitive advantage.`,
-                },
-            ],
-        },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -4886,40 +5223,14 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
                     heading: "Partner With Dev.co",
-                    description: `Is your business in need of a business intelligence system?<br>
-                    Are you ready for a quote for business intelligence software development?<br>
-                    Contact DEV.co today for a free quote, or a free consultation!`,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    description: `Are you looking for a reliable Webflow development and design partner who can
+help you achieve your goals in minimal time and at a cost-effective price point?<br></br>
+
+Contact us today and we’d be happy to answer any questions you might have.`,
                 }
             ],
         },
 
-        faqs: {
-            title: "Our RPA Service Offerings",
-            description: "",
-            faqs: [
-                {
-                    question: "Business Process Mapping",
-                    answer: `Our RPA experts will map out your processes and break them down into small activities that can be automated with greater speed and accuracy than traditional methods. Each workflow will be broken down into small actionable tasks, mapping your existing process and documenting the assets at the end. We use this work and data to train our automation engine to best automate processes for convergence with your existing systems. When it comes to process mapping, there's no one-size-fits-all answer. However, incorporating machine learning into your process mapping can be a big help in optimizing your operations. Here are a few tips on how to do that: Identify the areas of your business where machine learning could be most effective. Machine learning can be used automate tasks such as sensitive data analysis, trend identification, and predictive modeling. Choose the areas of your business where you could use this type of assistance the most. Train your machine learning algorithm. This will involve feeding it data so that it can learn how to recognize patterns and make predictions. Use the machine learning algorithm to map your business processes. Once it's been trained, the algorithm can help you to identify areas where improvements could be made and suggest ways to make those improvements. Test and refine the process. As with any corporate process, it's important to test and refine your machine learning-assisted process mapping on a regular basis to ensure that it's still effective nd efficient. By incorporating machine learning and natural language processing tools into your process mapping, you can stay ahead of the curve, solve mundane or repetitive tasks and optimize your operations for maximum efficiency.`,
-
-                },
-                {
-                    question: "Project Management & On-going Support",
-                    answer: `Our RPA consulting engagements will help you with all the critical aspects of your project. From identifying needs to process analysis, and from assessing technology to training your teams, our highly experienced consultants will provide an end to end service. To ensure the highest quality of data inputs, our team is well conversant with your corporate process and IT infrastructure. A project manager's job is to help with automation and machine learning. They help choose what processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. When it comes to business process automation, there is no one-size-fits-all solution. Every business is different and has different needs. That's why it's important to have a project manager who understands both machine learning and your business`,
-
-                },
-                {
-                    question: "Design & Implementation",
-                    answer: `Hiring an automation partner that is aligned to your companies core competencies is critical for success for enterprise applications orchestration into your business sytems. Our core competencies allow us to help you strategically implement RPA to create a lasting impact on your bottom line and overall business goals. Through scenario modeling and leveraging our extensive knowledge of BPM, we can translate complex business process into robust RPA design that will automate the top process in your organization. Implementation takes the following generalized steps: Understand the basics automation technology Identify the areas of your business where automation could be most effective Train your machine learning algorithm Use the machine learning algorithm to map your business processes Test and refine the process`,
-                },
-                {
-                    question: "RPA Training",
-                    answer: `When a new machine learning system is implemented, somebody needs to be trained on how to use it. That person is usually a project manager. They help choose which processes to automate and make sure the machines are doing their jobs right. They also test and refine the process to make sure it works well. A project manager might also be responsible for training other employees on how to use the machine learning system. With our training programs, we help clients develop automation-enabling capabilities: from RPA systems and application analysis to project design, deployment setup and operational management. We help clients optimize their processes for maximum business value.`,
-
-                },
-            ],
-        },
     },
 
 ];

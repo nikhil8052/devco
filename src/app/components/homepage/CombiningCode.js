@@ -49,14 +49,11 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                                         />
                                         <div className="btn_wrapper flex gap-x-4">
                                             {/* Render button only if buttonText exists */}
-                                            {data.buttonText && (
-                                                <button
-                                                    className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
+                                                <a  href="/contact"className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
                                                     
                                                 >
-                                                    {data.buttonText}
-                                                </button>
-                                            )}
+                                                    Tell Us About Your Next Project
+                                                </a>
                                         </div>
                                     </div>
                                 </div>

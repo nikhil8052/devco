@@ -1,4 +1,6 @@
-'use client'
+'use client';
+
+import { useEffect } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -8,26 +10,26 @@ import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
-import locations from "@/app/locations/Locations";
+import Locations from "@/app/locations/Locations"; // Corrected name
 import { blogs } from "@/app/data/blog";
 import BlogPage from "@/app/blog_page/BlogPage";
 
-
 interface PageProps {
   params: {
-    first_segment: string; // Adjust this to match your actual dynamic route structure
+    first_segment: string; // The dynamic route segment to match
   };
 }
 
 export default function Page({ params }: PageProps) {
-  const first_segment = params.first_segment
+  const first_segment = params.first_segment;
 
   let foundIn = null;
-  let data = {};
-  let Component = null;
+  let data: any = {}; // Use `any` if data shape varies; otherwise, define a proper type
+  let Component: React.ElementType | null = null;
 
-  console.log(services, " All the services ")
-  // Find the matching data and set the corresponding component
+  console.log(services, "All the services");
+
+  // Match the route segment to the data and corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
     Component = Industry;
     foundIn = "industry";
@@ -41,35 +43,27 @@ export default function Page({ params }: PageProps) {
     Component = Technology;
     foundIn = "technology";
   } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
-    Component = locations;
+    Component = Locations; // Corrected the component name
     foundIn = "locations";
-  }
-  else if ((data = blogs.find((item) => item.slug === first_segment))) {
+  } else if ((data = blogs.find((item) => item.slug === first_segment))) {
     Component = BlogPage;
-    foundIn = "Blog";
-
+    foundIn = "blog";
   }
 
-  // Fallback case for no match
+  // Fallback if no match found
   if (!foundIn) {
     return <div>Not Found</div>;
   }
 
-  console.log(data, foundIn, " his is he dta we need to take cate ")
-  // Render the selected component with the data
-  return (
-    <Component data={data}  />
-  );
+  // Set the page title and meta description
+  useEffect(() => {
+    document.title = data.meta_title || "Page Title Not Defined";
+    const descriptionMetaTag = document.querySelector('meta[name="description"]');
+    if (descriptionMetaTag) {
+      descriptionMetaTag.setAttribute("content", data.meta_description || "Page description not defined");
+    }
+  }, [data]); // Dependency array ensures this runs only when `data` changes
 
+  // Render the matched component with its data
+  return <Component data={data} />;
 }
-
-
-
-
-
-
-
-
-
-  
-  
