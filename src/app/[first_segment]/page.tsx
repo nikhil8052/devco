@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -56,9 +55,9 @@ export default function Page({ params }: PageProps) {
   }
 
   // Set the page title and meta description
-  useEffect(() => {
-    document.title = data.meta_title || "Page Title Not Defined";    
-  }); // Dependency array ensures this runs only when `data` changes
+  // useEffect(() => {
+  //   document.title = data.meta_title || "Page Title Not Defined";    
+  // }); // Dependency array ensures this runs only when `data` changes
 
   // Render the matched component with its data
   return <Component data={data} />;
