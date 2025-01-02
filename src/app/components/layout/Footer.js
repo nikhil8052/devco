@@ -59,8 +59,8 @@ subCategories: [
         { label: 'Shopify', path: '/shopify' },
         { label: 'SQL Server', path: '/sql-server' },
         { label: 'SAP', path: '/sap' },
-        { label: 'Tableau', path: '/php' },
-        { label: 'Kubernetes', path: '/wordpress' },
+        { label: 'Tableau', path: '/tableau' },
+        { label: 'Kubernetes', path: '/kubernetes' },
       ],
     },
     {

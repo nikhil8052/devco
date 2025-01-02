@@ -6079,6 +6079,155 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         },
 
     },
+        {
+        id: 30,
+        slug: "kubernetes",
+        sub_title: "Skills",
+        bannericon: "/images/Kubernetes.svg",
+        top_title: "Kubernetes Development Services",
+        top_description: `Are you looking for a container management services solution using Kubernetes? Perhaps you require custom Kubernetes container development?  You’ve come to the right place. At staging.dev.co, our team of Kubernetes professionals can help you design, develop, and deploy the Kubernetes solutions you need.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What Is Kubernetes?",
+                    description: `The SAP ERP ecosystem is extensive, including platforms for major business processes like sales and distribution and quality management, financial management, human resources functions like training, and corporate services like health and safety and real estate management.`,
+
+                },
+                {
+                    title: "",
+                    description: `Of these many features, its data management features are among the most popular, but with the right development support, businesses can optimize almost every element of their operation.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `SAP Development Services`,
+            description: `At Dev.co, we offer a wide array of SAP development services, including:`,
+            benefits: [
+                {
+                    title: "Supply Chain Management",
+                    description: `SAP offers a variety of targeted supply chain analytics programs as part of its portfolio, with new offerings specifically focused on sustainability. As part of building targeted dashboards, we can help your business measure its carbon footprint across the supply chain, optimize sourcing and delivery for the greatest value with the lower environmental impact, and much more.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Workflow Development",
+                    description: `large companies, even skilled project managers can struggle to craft fully optimized workflows. By building out SAPs workflow management extension, we can help your business test various workflow models, while enabling automation throughout the project chain. Better workflows increase value, while decreasing time to final product, while various SAP functions offer real-time insights`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Advanced Analytics",
+                    description: `SAP was built for analytics, but without the right data extraction settings and targeted dashboard design, it can be hard to access and utilize all of that information. That’s why analytics is at the heart of our development services - smart business decisions start with access to all the informatione`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Connect With Clients",
+                    description: `SAP may not be your conventional CRM, but that’s because it can do so much more. Our optimization process aims to move your business to a “single face to customer” framework, so that customers get consistent information and service, regardless of contact channel. We can also automate CRM-linked analytics, linking interactions with sales and identifying places where your business can strengthen relationships and drive profits.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Enterprise Integration",
+                    description: `SAP may offer modules covering all of your business’s major functions, but that doesn’t mean you don’t have loyalties to other tools. At Dev.co, we can design a unique to you system in which SAP acts as the hub for all data inputs. Using an API-first approach, we can ensure all information flows into your main analytics system.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Subheadingtext:{
+            heading: "Interesting Facts About SAP",
+            subText:"",
+            list1: [
+                "SAP was founded in 1972 and is headquartered in Waldorf, Germany. The company makes a variety of software solutions, with an emphasis on Enterprise Resource Planning (ERP). SAP offers on-premises, cloud, and hybrid solutions.",
+                "SAP is the third-largest software and programming company in the world.",
+                "SAP is serious about innovation. They have over 100 R&D centers globally.",
+                "SAP is listed on both the New York and Frankfurt Stock Exchanges. SAP is a global business with clients in over 190 countries.",
+                "SAP acquired 70 other companies between 1991 and 2018, including Fieldglass, Ariba, Pilot Software, and – most recently – Qualtrics.",
+                "Most of SAPs customers are SMEs, but they also serve 92% of the companies listed on the Forbes Global 2000.",
+            ],
+            list2: [
+                "The Dow has ranked SAP as the #1 software company on their Sustainability Index for 13 years.",
+                "SAP is committed to supporting global health efforts and has donated millions to groups like Product Red and the Global Fund. They also encourage staff volunteerism through social sabbaticals; staff are regularly dispatched to provide support to global non-profits.",
+                "SAP serves customers in every industry. As a result, SAP’s customers are responsible for distributing 78% of the world’s food and 82% of all medical devices. Overall, 77% of all transactions have some contact with SAP systems.",
+                "SAPs customers include agribusiness brands like Bumble Bee Seafood and Cargill, popular consumer goods brands like Hershey’s, Valora, and Natura, and key healthcare groups including Parkland Health, Providence St. Joseph Health, and Medtronic.",
+
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Achieve Omnichannel With SAP And Dev.co",
+                    description: `Dev.co’s SAP development offerings touch on all aspects of the ERP suite,
+                                allowing us to develop a plan that meets your business’s unique needs.
+                                Don’t use the corporate services suite, but need help with financial management? We’ve got you covered.
+                                Or maybe you want to warehouse and supply chain issues – no problem. By building out
+                                the SAP ecosystem, we can help your business see the big picture or the finest details,
+                                with just a few simple clicks. You have the data; our job is to make it work for you.`,
+                }
+            ],
+        },
+
+    },
 
 ];
 

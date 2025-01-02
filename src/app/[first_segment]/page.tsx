@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from "react"; // Ensure useEffect is imported
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -23,8 +22,8 @@ interface PageProps {
 export default function Page({ params }: PageProps) {
   const first_segment = params.first_segment;
 
-  let data: any = null; // Declare `data` variable
-  let Component: React.ElementType | null = null;
+  let data= null; // Declare `data` variable
+  let Component= null;
 
   // Match the route segment to the data and corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
@@ -46,23 +45,7 @@ export default function Page({ params }: PageProps) {
     return <div>Not Found</div>;
   }
 
-  // Set the page title and meta description dynamically
-  useEffect(() => {
-    document.title = data.meta_title || "Default Page Title";
-
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        "content",
-        data.meta_description || "Default Page Description"
-      );
-    } else {
-      const metaTag = document.createElement("meta");
-      metaTag.name = "description";
-      metaTag.content = data.meta_description || "Default Page Description";
-      document.head.appendChild(metaTag);
-    }
-  }, [data]); // Dependency array ensures this runs when `data` changes
+ 
 
   // Render the matched component with its data
   return <Component data={data} />;
