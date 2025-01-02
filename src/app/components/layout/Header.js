@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,6 +36,7 @@ import {
   faRobot   // OpenCV (placeholder)
 } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState({});
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -69,9 +70,31 @@ const Header = () => {
   const toggleMainMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 300);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   return (
-    <nav className="absolute z-40 w-full border-gray-200 dark:border-gray-600 dark:bg-gray-900 text-customwhite pt-5 pb-5 site_header">
+    <>
+    <nav
+    className={`absolute z-40 w-full border-gray-200 dark:border-gray-600 dark:bg-gray-900 text-customwhite pt-5 pb-5 site_header  ${
+      isScrolled ? "scrolled-header" : ""
+    }`}
+  >
       <div className='container mx-auto xl:max-w-[1504px] lg:max-w-[100%] relative'>
         <div className="header_wrapper">
           <div className="w-full flex md:order-1 justify-between items-center border p-2 rounded-md border-lightBlue">
@@ -108,9 +131,7 @@ const Header = () => {
                   </button>
                   {openDropdown['skills'] && (
                    <div
-                   className="header_submenu p-4 static lg:absolute w-full lg:w-[250px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible"
-                   style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', backdropFilter: 'blur(48px)' }}
-                 >
+                   className="header_submenu p-4 static lg:absolute w-full lg:w-[250px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                       <div className='submenu_flex w-full flex gap-2'>
                         <div className='menu_icons_div basis-[100%]'>
                           <ul className='icon_list w-full flex flex-wrap gap-y-1'>
@@ -761,7 +782,7 @@ const Header = () => {
             {/* Buttons Section */}
             <div className="button_col basis-1/5 flex items-center justify-end gap-x-3 sm:gap-x-4">
               <div className="w-full btn_wrapper flex justify-end gap-x-3 sm:gap-x-4">
-                <button className="trans_button px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md shadow-md transition flex items-center  bg-[rgba(255,255,255,0.11)] hover:bg-[rgba(255,255,255,0.15)]">
+                <a href="https://github.com/devdotco" target="_blank" className="trans_button px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md shadow-md transition flex items-center  bg-[rgba(255,255,255,0.11)] hover:bg-[rgba(255,255,255,0.15)]">
                   GitHub
                   <span className="ml-2 hidden xl:block md:hidden">
                     <Image
@@ -772,13 +793,13 @@ const Header = () => {
                       className="bg-[rgba(255,255,255,0.11)] min-w-[28px] p-1 rounded"
                     />
                   </span>
-                </button>
-                <button className="bg-white text-black px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md transition hover:bg-[#4353FF] hover:text-white">
+                </a>
+                <button onClick={openModal} className="video_popup_button bg-white text-black px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md transition hover:bg-[#4353FF] hover:text-white" >
                   Watch Video
                 </button>
               </div>
               <div className='mobile_togglke block lg:hidden ml-auto'>
-              <button onClick={toggleMainMenu} className="block p-0 text-white">
+              <button onClick={toggleMainMenu} className="block p-0 text-white ">
                   <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                     {/* Top Bar */}
                     <path 
@@ -811,6 +832,38 @@ const Header = () => {
         </div>
       </div>
     </nav>
+
+    {/* Modal */}
+    {isModalOpen && (
+      <div
+        className=" video-model fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out"
+        onClick={closeModal}
+      >
+        <div
+          className="bg-black rounded-lg p-6 shadow-lg  w-[90%] md:max-w-[800px] relative"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            onClick={closeModal}
+            className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-2xl font-bold"
+          >
+            &times;
+          </button>
+          <h2 className="text-lg font-semibold mb-4">Introduction</h2>
+          <iframe
+            width="100%"
+            height="415"
+            src="https://www.youtube.com/embed/g65BIKLJXrE"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      
+    )}
+    </>
   );
 };
 

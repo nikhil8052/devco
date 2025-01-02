@@ -6079,7 +6079,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         },
 
     },
-        {
+   {
         id: 30,
         slug: "kubernetes",
         sub_title: "Skills",
@@ -6091,51 +6091,83 @@ Contact us today and we’d be happy to answer any questions you might have.`,
             BorderTextdata: [
                 {
                     title: "What Is Kubernetes?",
-                    description: `The SAP ERP ecosystem is extensive, including platforms for major business processes like sales and distribution and quality management, financial management, human resources functions like training, and corporate services like health and safety and real estate management.`,
+                    description: `Kubernetes is an open source platform for automating the deployment, scaling and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.<br></br>
+
+                    Kubernetes (also known as K8s) can be described as a platform that you can use to manage multiple containers at scale. It’s an open source cluster management tool that was built with the idea of making it easier to run containerized applications on any infrastructure, but without sacrificing control and transparency.<br></br>
+
+                    Kubernetes supports major operating systems, providing a consistent development environment for software development across various platforms. Additionally, Kubernetes development tools are essential for optimizing resource utilization and managing Kubernetes clusters effectively, making it a crucial part of building cloud native applications.`,
 
                 },
                 {
                     title: "",
-                    description: `Of these many features, its data management features are among the most popular, but with the right development support, businesses can optimize almost every element of their operation.`,
+                    description: `It allows users to eliminate the complex network scheduling and dependency management issues that have been plaguing users since before Mesos and Docker were around. It was designed by Google with cloud computing architectures in mind, but it can work with any server capable of running Docker containers. Our Cluster as a Service quickly deploys on-premise or in the cloud anywhere there’s an internet connection, eliminating the need for you to provision any hardware or software.<br></br>
+
+                    Built by Google, the Kubernetes open source container management system allows for nearly unlimited scalability without the necessity of adding additional headcount to your DevOps team. `,
                 }
             ]
         },
 
         benefits: {
-            title: `SAP Development Services`,
-            description: `At Dev.co, we offer a wide array of SAP development services, including:`,
+            title: `Kubernetes Development Services`,
+            description: `We offer Kubernetes Services Development, Container Management, and Hybrid Cloud Solutions<br></br>
+                        to help your teams build a secure, scalable, and reliable container infrastructure.
+                        We assist you in modeling your business applications, integrating infrastructure as
+                        code and automating continuous delivery pipelines.<br></br>
+
+                        For example, our Kubernetes developers provide the following critical container management solutions:`,
             benefits: [
                 {
-                    title: "Supply Chain Management",
-                    description: `SAP offers a variety of targeted supply chain analytics programs as part of its portfolio, with new offerings specifically focused on sustainability. As part of building targeted dashboards, we can help your business measure its carbon footprint across the supply chain, optimize sourcing and delivery for the greatest value with the lower environmental impact, and much more.`,
+                    title: "Container Configuration",
+                    description: `Customized container configuration services including storage orchestration using the storage solution of your choice (e.g. iSCI, Gluster, Cinder, Flocker, AWS, GCP, etc.).`,
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Workflow Development",
-                    description: `large companies, even skilled project managers can struggle to craft fully optimized workflows. By building out SAPs workflow management extension, we can help your business test various workflow models, while enabling automation throughout the project chain. Better workflows increase value, while decreasing time to final product, while various SAP functions offer real-time insights`,
+                    title: "Rollout Management Support",
+                    description: `Get assistance in monitoring application health while rolling out multiple container instances without risking the entire application or network. We offer customized deployment support.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Advanced Analytics",
-                    description: `SAP was built for analytics, but without the right data extraction settings and targeted dashboard design, it can be hard to access and utilize all of that information. That’s why analytics is at the heart of our development services - smart business decisions start with access to all the informatione`,
+                    title: "Load Balancing",
+                    description: `Assistance in the setup and management of separate IP address configuration, ensuring applications can run without modification. We can help assign single DNS to pods and clusters for proper load balancing of application resources.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Connect With Clients",
-                    description: `SAP may not be your conventional CRM, but that’s because it can do so much more. Our optimization process aims to move your business to a “single face to customer” framework, so that customers get consistent information and service, regardless of contact channel. We can also automate CRM-linked analytics, linking interactions with sales and identifying places where your business can strengthen relationships and drive profits.`,
+                    title: "CI/CD Batch Execution",
+                    description: `Automate your batch, CI and CD workloads, including the replication or replacement of failed containers all the the admin oversight your team needs.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Enterprise Integration",
-                    description: `SAP may offer modules covering all of your business’s major functions, but that doesn’t mean you don’t have loyalties to other tools. At Dev.co, we can design a unique to you system in which SAP acts as the hub for all data inputs. Using an API-first approach, we can ensure all information flows into your main analytics system.`,
+                    title: "Bin Packing Automation",
+                    description: `Let us help you set up automation in your container resource management, while optimizing constraints. We can help save resources while mixing critical workloads for enhancing container utilization.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Automate Patches/Fixes",
+                    description: `Restart and reboot failed containers that exist in silo. Automate the retirement of containers who may not appropriately respond to your required health analysis. Avoid use of client containers with compromised health via automation.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Extensibility Consulting",
+                    description: `Let our team help you maintain upstream source code while still adding features to your remote Kubernetes cluster and applications.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Dual-Stack Compatible",
+                    description: `Allocate resources using IPv4 and IPv6 addresses to pods and other services on your containerized Kubernetes network.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
@@ -6143,22 +6175,52 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
             ],
         },
+        Benefitslider: {
+            title: "The DEV.co Kubernetes Development Workflow",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Work Environment Set Up",
+                    description: "Set up Kubernetes work environments Local Kubernetes vs. Cloud Kubernetes Customize Environment Establish Security Failsafes",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Development",
+                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Deployment",
+                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    imgSrc: "",
+                },
+            ],
+        },
+
         Subheadingtext:{
-            heading: "Interesting Facts About SAP",
+            heading: "Interesting Facts About Kubernetes",
             subText:"",
             list1: [
-                "SAP was founded in 1972 and is headquartered in Waldorf, Germany. The company makes a variety of software solutions, with an emphasis on Enterprise Resource Planning (ERP). SAP offers on-premises, cloud, and hybrid solutions.",
-                "SAP is the third-largest software and programming company in the world.",
-                "SAP is serious about innovation. They have over 100 R&D centers globally.",
-                "SAP is listed on both the New York and Frankfurt Stock Exchanges. SAP is a global business with clients in over 190 countries.",
-                "SAP acquired 70 other companies between 1991 and 2018, including Fieldglass, Ariba, Pilot Software, and – most recently – Qualtrics.",
-                "Most of SAPs customers are SMEs, but they also serve 92% of the companies listed on the Forbes Global 2000.",
+                "Commonly stylized as K8s, Kubernetes is an open source containerized management and orchestration system for automating software deployment, scaling and management.",
+                "Kubernetes was originally designed by Google in 2014 and the code is now managed by the Cloud Native Computing Foundation.",
+                "Kubernetes is Greek for “helmsman” or “pilot.”",
+                `While Kubernetes still works an plays well with Docker, CRI-O and Containerd, it was originally set up to run with Docker runtime, but since May of 2022, Dockershim has been completely removed.
+                The following companies all have or have acquired their own Kubernetes-based systems:`,
+                "Amazon",
+                "Oracle",
+                "IBM","Google",
+                "SUSE",
+                "Red Hat",
+                "Platform9",
+                "VMware",
+                "Microsoft",
+               
             ],
             list2: [
-                "The Dow has ranked SAP as the #1 software company on their Sustainability Index for 13 years.",
-                "SAP is committed to supporting global health efforts and has donated millions to groups like Product Red and the Global Fund. They also encourage staff volunteerism through social sabbaticals; staff are regularly dispatched to provide support to global non-profits.",
-                "SAP serves customers in every industry. As a result, SAP’s customers are responsible for distributing 78% of the world’s food and 82% of all medical devices. Overall, 77% of all transactions have some contact with SAP systems.",
-                "SAPs customers include agribusiness brands like Bumble Bee Seafood and Cargill, popular consumer goods brands like Hershey’s, Valora, and Natura, and key healthcare groups including Parkland Health, Providence St. Joseph Health, and Medtronic.",
+                "Kubernetes is most typically used for microservice-based implementation because it is closely tied to microservices architecture.",
+                "Kubernetes was released on July 21, 2015 by Google in consult with the Linux Foundation.",
+                "In the year of its initial release, Kubernetes received 9th place on the list of GitHub projects by number of commits and second place in total authors and issues that year, just behind the Linux kernel.",
+                "The project was originally created within Google by Joe Beda, Brendan Burns and Craig MCluckie but was later joined by Brian Grant and Tim Hockin",
 
             ],
         },
@@ -6216,19 +6278,186 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Achieve Omnichannel With SAP And Dev.co",
-                    description: `Dev.co’s SAP development offerings touch on all aspects of the ERP suite,
-                                allowing us to develop a plan that meets your business’s unique needs.
-                                Don’t use the corporate services suite, but need help with financial management? We’ve got you covered.
-                                Or maybe you want to warehouse and supply chain issues – no problem. By building out
-                                the SAP ecosystem, we can help your business see the big picture or the finest details,
-                                with just a few simple clicks. You have the data; our job is to make it work for you.`,
+                    heading: "Partner with Dev.co",
+                    description: `Want to learn more about how Dev.co can help your business leverage Kubernetes to reach your goals?<br></br> 
+                    Contact us today and we’ll be happy to discuss in further detail.`,
                 }
             ],
         },
 
     },
 
+    {
+        id: 31,
+        slug: "tableau",
+        sub_title: "Skills",
+        bannericon: "/images/Tableau.svg",
+        top_title: "Tableau Development Services",
+        top_description: `Data is power – but how can your business get the most out of its data? It all comes down to data visualization, a data management niche that has seen rapid growth in recent years. Still, not all data visualization is created equal, which is why businesses seeking the most useful representations turn to Tableau.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What is Tableau?",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `Tableau makes several different products, all within the realm of business intelligence. Among these, their relational databases, data processing cubes, and cloud databases stand out. More recently, the company has launched a new analytics extension that’s compatible with popular data science programs, The platform also supports server management and offers simplified content migration that allows it to compete with other major data management platforms, such as SQL, and it smoothly integrates with popular platforms like Salesforce. `,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Tableau Development Services`,
+            description: `At Dev.co, we offer a range of Tableau development services aimed at helping your business access a broad range of business insight. On its own Tableau offers up simple reports. For businesses ready to tackle more advanced data, though, our Tableau development services offer benefits including:`,
+            benefits: [
+                {
+                    title: "Dashboard Development",
+                    description: `Any time you’re working with detailed data visualizations, your dashboard is your home base. The default frameworks in Tableau don’t reveal much, however. We can develop intuitive, information rich dashboards in line with data visualization design best practices.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Increased Automation",
+                    description: `Tableau can help your business manage a great deal of data, but without proper automation in place, it remains a labor intensive platform. By building in extensive automation, we can help your business cut manual data management time. We use a number of recognized APIs to support automation for data extraction, template creation and deployment, and more.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Install Quality Controls",
+                    description: `Any time that a business deals with large amounts of data, it also deals with data quality issues. As part of our development services, we can evaluate data quality, addressing common problems with naming and grouping, erroneous null values, and overall consistency. We can also automate functions that commonly lead to quality errors and install code triggering quality control alerts.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Real-Time Data Exchange",
+                    description: `Information moves fast, and falling behind can leave your business vulnerable - which is why you can’t afford to lag behind on data updates. By implementing an Extract-Transform-Load (ETL) algorithm, we ensure that your database contains the latest values. You’ll never make a decision based on out of date information again.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Expanded Use",
+                    description: `If your business is going to use Tableau, you should maximize its application. That’s why, though its general function is data visualization, we can help you expand your use to enhance collaboration between departments, implement artificial intelligence features like Explain Data, and help your business embrace predictive analytics for a competitive edge.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Kubernetes Development Workflow",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Work Environment Set Up",
+                    description: "Set up Kubernetes work environments Local Kubernetes vs. Cloud Kubernetes Customize Environment Establish Security Failsafes",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Development",
+                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Deployment",
+                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext:{
+            heading: "Interesting Facts About Tableau",
+            subText:"",
+            list1: [
+                "Tableau is an interactive, data visualization program founded in 2003. The company was acquired by Salesforce in August 2019, for $15.7 billion.",
+                "During its May 2013 NYSE IPO, Tableau raised more than $250 million.",
+                "Adam Selipsky is the current CEO of Tableau.",
+                "Tableau offers excellent IT support, while offering easy to implement solutions. From the moment you click on the download, it takes about 20 minutes for the software to be operational.",
+                "Tableau is a great program for non-technical users because it allows for “no-code” data queries.",
+                "Tableau is popular across industries because of its ability to analyze and present information in an accessible way. Tableau visualizations are easily embedded into a range of other platforms, including corporate portals like Microsoft SharePoint.",
+               
+            ],
+            list2: [
+                "Tableau has been recognized as a technology leader in the Gartner Magic Quadrant reports for seven consecutive years, from 2012 to 2019.",
+                "In 2018, Tableau acquired the artificial intelligence startup Empirical Systems with the goal of integrating Empirical Systems’ AI into their own platform.",
+                "The Tableau Foundation was founded in 2014. The organization has committed to donation $100 million in software, training, and grants to non-profits by 2025. Their goal is to use data as a tool for solving major social problems.",
+                "Tableau customers include many healthcare organizations, including UChicago Medicine, NYC Health + Hospitals, and UNC Health; banking groups like Wells Fargo, USAA, and JPMorgan Chase; and retail organizations like Whole Foods, Abercrombie & Fitch, and HelloFresh.",
+
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Tableau Meets Dev.co",
+                    description: `Great data visualizations should make information easy to use, enabling intuitive decision making,
+                    but that can’t happen if you have to fight with your software to generate those visualizations.
+                    By partnering with Dev.co, your business can transform how it uses Tableau and maximize
+                    the program’s value. Our Tableau development services put information at your fingertips, extracting deeper
+                    meaning from the basic data.`,
+                }
+            ],
+        },
+
+    },
 ];
 
 // Data for the tech cards

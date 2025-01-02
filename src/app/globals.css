@@ -465,7 +465,7 @@ img.top_left_blue {
     border-radius: 50%;
 }
 .skills_page .text-section {
-    max-width: 100%;
+    max-width: 540px;
 }
 
 .banner_row {
@@ -973,7 +973,34 @@ ul.tick_list li:before {
 .blogs_content .blog_cartd_image img {
     width: 100%;
 }
-
+nav.site_header {
+    transition: all 0.3s ease-in-out;
+}
+/* nav.site_header.scrolled-header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+} */
+nav.site_header.scrolled-header {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    padding: 10px 0; /* Adjust for compressed header size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav.site_header.scrolled-header .header_wrapper {
+    transition: all 0.3s ease-in-out;
+  }
+  .header_submenu {
+    background: rgba(0, 0, 0, 0.4) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    backdrop-filter: blur(8px) !important;
+}
+.video-model h2 {
+    color: #ffffff;
+}
 
 
 /*--------- responsive css start ---------*/
@@ -1222,6 +1249,7 @@ ul.tick_list li:before {
     .location_box .location_text h3 {
         font-size: 15px;
     }
+
 }
 
 @media(max-width:640px){
@@ -1231,6 +1259,9 @@ ul.tick_list li:before {
 
 .blog_grid .blog_col {
     width: 100%;
+}
+.video-model iframe {
+    height: 300px !important;
 }
 }
 
