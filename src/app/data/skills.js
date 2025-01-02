@@ -5059,7 +5059,7 @@ If you’re ready for a free quote or consultation`,
 
     },
     {
-        id: 19,
+        id: 24,
         slug: "webflow",
         sub_title: "Skills",
         bannericon: "/images/Webflow.svg",
@@ -5227,6 +5227,853 @@ If you’re ready for a free quote or consultation`,
 help you achieve your goals in minimal time and at a cost-effective price point?<br></br>
 
 Contact us today and we’d be happy to answer any questions you might have.`,
+                }
+            ],
+        },
+
+    },
+    {
+        id: 25,
+        slug: "netsuite",
+        sub_title: "Skills",
+        bannericon: "/images/Netsuite.svg",
+        top_title: "Netsuite Development Services",
+        top_description: "Netsuite provides high quality, Software-as-a-Service (SaaS) infrastructure for all your business’s needs. With experience across industries including professional services, wholesale and distribution, manufacturing, and more, Dev.co’s Netsuite development services can boost your business’s efficiency and maximize value across all aspects of your operation.",
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What Is Netsuite?",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `NetSuite is today’s top Enterprise Resource Planning (ERP) software, designed for maximum flexibility across a wide range of functions, from eCommerce to business intelligence – and this flexibility is its primary appeal. Because it’s built for the cloud, NetSuite is easy to scale up as your business grows, and the system comes outfitted with development tools and resources for building industry-specific applications.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `The DEV.co NetSuite Development Services`,
+            description: `How can Dev.co support your business’s NetSuite development needs? We focus on building out quality services from across your business’s lifecycle, including the following:`,
+            benefits: [
+                {
+                    title: "Financial Management And Planning",
+                    description: "Across the board, NetSuite’s ERP is designed to provide operational visibility so that your business can take advantage of new opportunities as they come your way. In order for that to be possible, you need a clear sense of your financial picture, including modeling capabilities, budgeting, analysis, and reporting.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Order Management",
+                    description: "What happens when your business receives an order? Depending on the products you offer, maybe it’s a simple process - a customer orders a list of products and you pack them up and shift them out. Or maybe you offer made-to-order products requiring a longer process, from quote to confirmation, fulfillment and invoicing. Whatever your system demands, NetSuite’s system can prevent order bottlenecks, helping you complete orders quickly.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Supply Chain Management",
+                    description: "Supply chain management is critical to business success, yet these systems become more complex all the time. Keep track of where your products come from, where they’re needed, and ensure just in time delivery and minimized stress on your warehouse system.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Warehousing And Fulfillment",
+                    description: "Speaking of warehouses, NetSuite’s ERP excels at warehouse management and fulfillment, allowing your business to optimize space usage and minimize costs. Data-driven warehousing also enables faster order fulfillment; as with other parts of the NetSuite ecosystem, its warehousing and fulfillment functions let you see the big picture so that your business operates efficiently and generates the greatest profits.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+
+        Benefitslider: {
+            title: "How We Develop For NetSuite",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Multi-platform Integrations",
+                    description: "At Dev.co, we know just how powerful NetSuite can be - and we also know that it works best in conjunction with other systems. That’s why, when we develop for NetSuite, we emphasize multi-platform integrations, pairing NetSuite with such applications as Avalara, Jitterbit, Magneto, and Salesforce, among many others. Taken together, these platforms allow your business to see the big picture. At Dev.co, we know just how powerful NetSuite can be - and we also know that it works best in conjunction with other systems. That’s why, when we develop for NetSuite, we emphasize multi-platform integrations, pairing NetSuite with such applications as Avalara, Jitterbit, Magneto, and Salesforce, among many others. Taken together, these platforms allow your business to see the big picture.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Developer Tools",
+                    description:"The next step is to create a plan that allows us to take you from where you are. In addition to NetSuite’s many integrations, at Dev.co we use NetSuite’s Suite Cloud developer tools to build your company’s web services, create a range of analytics frameworks paired with high-value KPIs, and supply real-time data and easy to use reporting tools. Simply put, we make sure everything you need is at your fingertips to where you want to be. If Node.js can help us get there, great! If not, we’ll suggest another platform.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Netsuite Development Services",
+                    description: "NetSuite is a powerful ERP, designed to take your business to the next level, but you can’t expect to take that leap all on your own. That’s why you need Dev.co’s NetSuite Development Services. We bring extensive experience and intimate knowledge of NetSuite’s capabilities to every project - because the right tools open up a world of opportunities. Where will NetSuite take your business?",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About NetSuite",
+            subText:
+                "",
+            list1: [
+                "Evan Goldberg founded NetSuite in 1998, under the name NetLedger. Originally, NetSuite was a cloud-based accounting management program.",
+                "Both Evan Goldberg and Zach Nelson, who joined NetSuite as CEO in July 2002, previously worked for Larry Ellison, the co-founder and CTO of Oracle. Ellison was one of the company’s original investors, offering $125 million in startup capital in 1998.",
+                "NetSuite made history as the first cloud computing company. It predates Salesforce by about one month.",
+                "NetSuite is the largest cloud Enterprise Resource Planning system, serving over 40,000 customers around the world.",
+                "NetSuite is headquartered in San Mateo, California.",
+                "Though NetSuite has primarily developed its own services, the company has also acquired nine other software companies since 2008, allowing it to offer a comprehensive software suite. NetSuite’s acquiitions include LightCMS, Monexa, TribeHR, and Retail Anywhere.",
+            ],
+            list2: [
+                "NetSuite offers five primary product categories: Enterprise Resource Planning, Customer Relationship Management, E-commerce, Professional Services Automation, and Enterprise Performance Management.",
+                "NetSuite was acquired by Oracle in July 2016. Despite this, NetSuite operates independently as a Global Business Unit and is still led by its original management team.",
+                "As part of their commitment to supporting non-profit services, NetSuite donates their non-profit solution with no-cost activation to qualifying organizations.",
+                "Netsuite’s solutions serve a wide range of businesses and non-profits. Some of their clients include the famed comedy club The Second City, the food and agriculture cooperative Land O’Lakes, microloan non-profit Kiva, and the cosmetics company, e.l.f.",
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact us today and we’ll be happy to discuss in further detail",
+                    description: `Want to learn more about how Dev.co can help<br>
+                                your business leverage NetSuite to reach your goals?`,
+                }
+            ],
+        },
+
+    },
+    {
+        id: 26,
+        slug: "sql",
+        sub_title: "Skills",
+        bannericon: "/images/SQL.svg",
+        top_title: "SQL Development Services",
+        top_description: `SQL – Structured Query Language – is one of the most fundamental programming languages in use today, with roots stretching back to the 1970s, but as we all know, nothing in technology stays the same for that long.<br></br>
+
+        Rather, today’s version of SQL has come a long way, and it offers powerful options for today’s SQL developer looking for database manipulation and management.<br></br>
+
+        SQL is important in software development because it is a standard language that can be used to manage and query information in databases. Because it is well-suited for managing and querying “big data” and it can be used to create reports or find trends in data, SQL an important tool for software developers, who need to be able to manage and query data effectively.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What is SQL Development?",
+                    description: `If SQL is used for database management, what is its role in programming and development? For businesses using Oracle Databases, the SQL developer acts as an Integrated Development Environment (IDE) supporting and Oracle database or Oracle application development.`,
+
+                },
+                {
+                    title: "",
+                    description: `The SQL developer also simplifies cloud deployment of PL/SQL applications, offers valuable reporting support, and generally provides an end-to-end development solution compatible with a variety of third-party plug-ins.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: ``,
+            description: ``,
+            benefits: [
+                {
+                    title: "SQL Design",
+                    description: `SQL design via SQL developer is the process of planning and creating a database. It involves deciding which tables to create, what fields to include in each table, and how the tables should be related to each other.<br></br>
+
+                    The goal of SQL design is to create a database that is easy to use and that meets the specific needs of the business or organization. The process of SQL design can be complex, but it is important to get it right so that the database can be effectively used.<br></br>
+
+                    If you need help designing a SQL database, our team of experts can help. We can help you decide which tables to create, what fields to include, and how the tables should be related to each other. We can also help you choose the right database structure for your needs.Designing SQL databases is at the heart of what we do. Need a powerful database to ensure data portability and smooth manipulation? We create function-driven environments that support a range of data types, easily manage variables, so you can focus on what really matters.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "SQL Server Integration",
+                    description: `SQL Server is a database management system (DBMS) produced by Microsoft. It is a powerful tool that can be used to manage and query data in databases. It can also be used to create reports and find trends in data. Microsoft SQL Server is a popular choice for businesses and organizations that need a powerful, reliable database management system.<br></br>
+
+                    It is known for its high performance and scalability, and it has been used to power some of the world's largest and most complex databases.<br></br>
+
+                    If you need help integrating Microsoft SQL Server into your business or organization, our team of experts can help. We can help you install and configure SQL Server, and we can help you create and manage databases using this powerful tool.<br></br>
+
+                    Were you using a different data management environment before? Our SQL server integration services extract and transport data from other sources and restructure them for SQL. Subsequent server integration testing ensures code runs smoothly in its new environment, manipulating data as intended.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "DevelopSQL Database Testing",
+                    description: `SQL databases are powerful tools, but they won’t help much if they contain errors. That’s why we carefully test and debug all SQL databases, ensuring that they’re ready for an error free launch.<br></br>
+
+                    We have a team of experienced testers who are well-versed in the latest SQL testing tools and techniques.<br></br>
+
+                    We can help you ensure the quality of your SQL-based applications and databases. We can test them for functionality, performance, and compatibility with other applications and systems. We can also help you identify and fix any defects or issues that may arise.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Cloud Application Development",
+                    description: `Historically, SQL databases have been stored on conventional servers like other databases, but as we move towards a nearly universal SaaS model, SQL databases are also migrating to the cloud. Cloud-based SQL applications share many of the same advantages of other cloud-based tools, specifically that they’re more easily scaled. Cloud-based SQL databases are also kept consistently up to date with the latest SQL updates, reducing maintenance demands. By using SQL, you can create and manage databases in the cloud. This can be a convenient and efficient way to store and access your data.<br></br>
+
+                    If you need help developing a cloud-based application using SQL, our team of experts can help. We can help you choose the right database structure for your needs, and we can help you configure and manage your database in the cloud.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Textblockfull: {
+            sectionData: [
+                {
+                    title: "SQL Development Services",
+                    description: `SQL developer is a standard database language that is used to manage and query information in databases. It was developed in the 1970s by IBM, and has been in widespread use ever since. SQL developer can be used to create, modify and query tables and data in a database. It can also be used to create views and stored procedures.<br></br>
+
+                    SQL developer is a powerful language that can be used to perform a wide range of tasks. It is especially well suited for managing and querying large amounts of data. For example, it can be used to create reports or to find trends in data.<br></br>
+
+                    At Dev.co, we offer a range of SQL development services. <br></br>
+
+                    If you need help developing or managing a database, our team of experienced SQL developers can help. We can develop custom solutions that meet your specific needs, and we can help you query and manage your data more effectively.<br></br>
+
+                    Contact us today to learn more about our SQL development services.`,
+                },
+            ],
+        },
+        BorderTextbox2: {
+            BorderTextdata: [
+                {
+                    title: "Do More With SQL Development Services From Dev.co",
+                    description: `Databases are old news, so how can your business benefit from SQL development services? When it comes to complex data, SQL developer offers the best, most robust data management platform, whether you’re performing simple extractions or complex manipulations.`,
+
+                },
+                {
+                    title: "",
+                    description: `SQL developer platforms have also been expanding support for BI-specific applications like logistics, and other critical services.<br></br>
+                    Stop struggling with your data and streamline your administration processes with SQL development services from Dev.co. Whether you’re building a database from scratch or performing large scale migrations from a third party database, we can help you get more from your data without compromising speed, security, or simplicity. Though it’s come a long way from its origins, SQL developer has withstood the test of time because it works.`,
+                }
+            ]
+        },
+
+        Benefitslider: {
+            title: "Do More With SQL Development Services From Dev.co",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Data Management Platform",
+                    description: "Databases are old news, so how can your business benefit from a SQL developer? When it comes to complex data, SQL offers the best, most robust data management platform, whether you’re performing simple extractions, general data science analysis, business logic, using data modeler or spinning up more complex manipulations. Oracle SQL developer has also been expanding support for BI-specific applications like logistics, and other critical services.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Speed",
+                    description:"Stop struggling with your data and streamline your administration processes with SQL development services from Dev.co. Whether you’re building an Oracle database from scratch or performing large scale migrations from a third party database, we can help you get more from your data without compromising speed, security, or simplicity. Though it’s come a long way from its origins, SQL has withstood the test of time because it works.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext: {
+            heading: "Interesting Facts About SQL",
+            subText:
+                "",
+            list1: [
+                "SQL stands for Structured Query Language. It is a programming language used for managing data stored in a relational database management system (RDMS).",
+                "SQL is an old language. It was originally developed at IBM 1974 by Raymond Boyce and Donald Chamberlin. It has undergone several major revisions to add new features. Its most recent iteration is SQL:2019, which introduced multidimensional arrays.",
+                "SQL was originally called Structured English Query Language (SEQUEL), but the company changes its name because of a trademark conflict.",
+                "SQL is a standard of the American National Standards Institute and the International Organization for Standardization. These groups provide critical governance to safeguard system integrity at the national and international levels.",
+            ],
+            list2: [
+                "As a programming language, SQL is used by many different developers, including Microsoft, Oracle, and Sybase.",
+                "MySQL is the open source version of SQL and has been downloaded over 100 million times. It’s the underlying system for popular sites like Facebook, Wikipedia, and YouTube.",
+                "SQL is highly specific. That means databases are generally incompatible across different vendors. This is unusual at a time that prioritizes integration, which is what the average database developer is seeking.",
+                "SQL is used to make enormous amounts of data easy to manage. Instead of struggling with traditional spreadsheets, using an SQL database allows businesses to manage and manipulate millions of rows of data.",
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `Want to learn more about how Dev.co can help<br>
+                                your business leverage SQL developer to reach your goals?`,
+                }
+            ],
+        },
+
+    },
+    {
+        id: 27,
+        slug: "shopify",
+        sub_title: "Skills",
+        bannericon: "/images/Shopify.svg",
+        top_title: "Shopify Development Services",
+        top_description: `We are Shopify development experts. As a Shopify development company, we understand the importance of designing custom solutions that perfect your business. Apps are where you can take your brand to new heights and create a one-of-a-kind shopping experience for customers. We’re proud to be considered Shopify experts because it means using technology in innovative ways so entrepreneurs can maximize their potential.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Shopify Development Services",
+                    description: `Our expert Shopify developers help create custom Shopify themes, apps, and much more. They have the expertise to drive your project from idea to full production.`,
+
+                },
+                {
+                    title: "",
+                    description: `Beyond building apps, themes, and channels, our team of Shopify developers can provide other services. These include consulting on how to best use the site, hosting the site in an ideal location for your business, connecting with other users who might want to buy or sell items you’re selling, and more.<br></br>
+
+                    A Partnership is a great way to get started on your ecommerce journey without all of the upfront costs!`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Shopify Development Services`,
+            description: `At Dev.co, we offer a wide range of Shopify development services, including:`,
+            benefits: [
+                {
+                    title: "Shopify Theme Customization",
+                    description: `The Shopify platform is one of the most popular e-commerce platforms on the market today. If you’re looking for a professional and reliable company to help customize your store, this may be just what you need! Developers can do anything from light theme customizations to full-scale bespoke theme building. With developers on staff in almost every country around the world, we’ll work alongside you to make sure that your online store looks exactly how you want it! As expert developers on the Shopify platform, our team assists store owners by creating commercially viable apps apps, designing Shopify websites and integrating advanced ecommerce functionality to Shopify stores. Some devs focus on Shopify themes, while others provide app development expertise. For instance, if a business owner needs help with more than just an app or theme they may need assistance in design as well. That’s where our team comes in.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Shopify Store Setups & Integration",
+                    description: `A store setup is the process of adding a new Shopify store to your account and configuring it. The first step in setting up a new store is to select the type of business. This will determine what kind of pricing plan you need, how much storage space you’ll need, and whether or not you want integrated shipping capabilities. Once this decision has been made, it’s time to create an online storefront by choosing a design template and customizing colors for different elements on the site.<br></br>
+
+                    You can also choose from pre-installed apps that will make your life easier like social media management tools or automated product feeds with pictures. More than simply managing a store’s set up, our team of Shopify developers also: Create development stores to design and try out products before they go live for sale. Configure themes and apps to customize the look of your store. Hand off the finished product to merchants, saving them from having to take on this task themselves.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Shopify Store Migrations",
+                    description: `Our team of custom Shopify developers provide a simple process for migrating your business website, regardless of your current content management system. For example, when you have an existing website that needs updating or upgrading but don’t know how to do this yourself, Shopify is the perfect solution. You can upgrade or modernize your website without having to go through the hassle of transferring all those old files and data from one place to another like some other platforms may require.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Custom Shopify App Development",
+                    description: `A custom Shopify app developer can be a great asset to your business if you’re in need of something that isn’t readily available on the application store. This type of shop management system will tailor itself specifically to your needs and goals as a merchant, which means it will never be outdated or irrelevant even when updates are released by the company. Oftentimes, merchants who have unique requirements end up looking for Shopify developers in order to create custom apps that suit their needs. Our custom Shopify app development team can act as either an extension of your in-house team or as your full development partner, giving you the flexibility and peace of mind that your project will be completed on time and under budget. They can also design applications specific to your needs and designs, so there’s no need for you to worry about any details being.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `Or are you interested in a free quote for your next Shopify project?<br>
+
+                                Contact DEV.co for more information or a free consultation today!`,
+                }
+            ],
+        },
+        faqs: {
+            title: "Frequently Asked Questions",
+            description: "Here are some of the most common questions regarding Shopify Development Services",
+            faqs: [
+                {
+                    question: "What experience do you have in building custom websites?",
+                    answer: `We have extensive experience in building custom websites tailored to meet the specific needs of our clients. Our team of skilled developers and designers has worked on numerous projects across various industries, delivering high-quality, user-friendly, and visually appealing websites. We specialize in creating unique and functional websites that enhance user experience and drive business growth.`,
+
+                },
+                {
+                    question: "Do you have any case studies or examples of previous work?",
+                    answer: `Yes, we have a portfolio of case studies and examples of our previous work. You can view our portfolio on our website, which showcases a variety of projects we have completed for our clients. These case studies highlight our expertise in different industries, our approach to problem-solving, and the results we have achieved. If you would like more specific examples, please feel free to contact us, and we can provide detailed case studies relevant to your industry.`,
+
+                },
+                {
+                    question: "How involved will I be in the design and development process?",
+                    answer: `Your involvement in the design and development process is crucial to ensure that the final product meets your expectations and business goals. We maintain open communication and collaboration throughout the project, involving you in key decisions and updates. You will have the opportunity to provide feedback and input during various stages, including initial design concepts, development milestones, and final revisions. Our goal is to create a website that reflects your vision and requirements.`,
+                },
+                {
+                    question: "What coding languages and/or CMS do you use?",
+                    answer: `We use a variety of coding languages and content management systems (CMS) to build custom websites. Our team is proficient in HTML, CSS, JavaScript, PHP, and other popular programming languages. Depending on the project requirements, we utilize CMS platforms such as WordPress, Shopify, Magento, and others to provide a flexible and scalable solution. We select the most suitable technologies based on your specific needs and goals.`,
+
+                },
+                {
+                    question: "How much do you charge for your web development services?",
+                    answer: `Our pricing for web development services varies depending on the scope and complexity of the project. We offer customized solutions tailored to your specific requirements and budget. To provide an accurate quote, we will need to discuss your project in detail, including your objectives, features, and timeline. Please contact us for a free consultation and detailed proposal based on your unique needs.`,
+
+                },
+            ],
+        },
+
+    },
+    {
+        id: 28,
+        slug: "sql-server",
+        sub_title: "Skills",
+        bannericon: "/images/SQL Server.svg",
+        top_title: "SQL Server Development Services",
+        top_description: `SQL servers are the preferred way to manage databases and data in the IT world. If your business needs a custom SQL database management platform, we can build you a custom SQL server that includes any features you need.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Make Dev.co your SQL Server Development Partner",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `Launch your mission-critical website, mobile, and desktop applications with world-class SQL Server Development services from Dev.co.<br></br>
+
+                    Our expert developers will build you a custom SQL server that can transform complex data into shareable information that you can publish virtually anywhere.`,
+                }
+            ]
+        },
+        Textblockfull: {
+            sectionData: [
+                {
+                    title: "Our expert SQL developers have a wide range of skills",
+                    description: `At Dev.co, our development teams consist of experts in a variety of programming languages that ensure our clients get top-notch applications.<br></br>
+
+                    On the depth of your project, you might also need <a href="/php">custom PHP applications</a> that connect to your SQL database, or you might need a <a href="/web"> custom website</a> built from scratch. Whatever you need, our development teams can handle your entire project from start to finish`,
+                },
+            ],
+        },
+        BorderTextbox2: {
+            BorderTextdata: [
+                {
+                    title: "SQL is an excellent way to manage big data",
+                    description: `SQL is a powerful programming language designed to manage data within relational databases, and it’s far more powerful for manipulating big data than other databases. If you’ve got big data to manage and you’re not using SQL databases, now is the time to start.`,
+
+                },
+                {
+                    title: "We can work with businesses in any industry",
+                    description: `At Dev.co, we work with businesses and enterprise brands from across the world in industries like healthcare, education, real estate, eCommerce, and government.`,
+                }
+            ]
+        },
+        benefits: {
+            title: `Why use Dev.co for SQL server development?`,
+            description: ``,
+            benefits: [
+                {
+                    title: "Fast time to market",
+                    description: `Our developers work quickly and efficiently; we’ll have your SQL project up and running in less time than it would take using other databases.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "cross platform Consistent cross-platform experience",
+                    description: `No matter what device you’re using, you’ll get a consistent experience across all platforms.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Versatile deployment",
+                    description: `We’ll build SQL applications you can deploy anywhere.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Subheadingtext:{
+            heading: "We’ll build the SQL back-end to support your applications",
+            subText:"",
+            list1: [
+                "Custom analytics solutions",
+                "Custom data dashboards for you and your clients",
+                "Online applications (for jobs, college admissions, grants, etc.)",
+                "Contact databases (for business professionals, faculty, etc.)",
+            ],
+            list2: [
+                "Personal record keeping for any industry, including healthcare and education",
+                "A system for tracking borrowed items like books or equipment",
+                "And more!",
+
+            ],
+        },
+
+        Subheadingtext2:{
+            heading: "Interesting Facts About SQL Server",
+            subText:"",
+            list1: [
+                "Several companies provide SQL servers, including Microsoft, Oracle, and MySQL",
+                "Microsoft released its first SQL server in 1988 (version 1.0) and its code name was “Filipi”.",
+                "Microsoft worked on the first SQL server with a company called Sybase.",
+                "Microsoft’s SQL server version 15 was released in 2019 and was code named “Seattle”.",
+                "SQL stands for Structured Query Language.",
+                "SQL is pronounced “sequel”.",
+                "SQL servers manage relational databases.",
+            ],
+            list2: [
+                "56.5% of developers prefer using SQL databases.",
+                "More than 151,000 people use Microsoft’s SQL Server.",
+                "Microsoft SQL Server has 21.49% of the market share, while MySQL has 19.96%, Microsoft Access has 11.39%, and PostgreSQL has 5.67%.",
+                "Computer software and IT services are the two industries that use Microsoft SQL Server the most.",
+                "Microsoft SQL Server users are mostly from the US (47%) with 8% in the UK and 6% in India.",
+                "36% of businesses that use Microsoft SQL Server have 10-50 employees.",
+
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "We want to be your SQL server development partner",
+                    description: `If you’re ready to partner with an industry-leading team of skilled developers,<br>
+                                    contact us to discuss your project. Let our SQL Server development & engineering
+                                    services make your back-end software development project a success.<br>
+                                    Contact us today to hire one of our SQL Server development teams to complete your next project.`,
+                }
+            ],
+        },
+
+    },
+    {
+        id: 29,
+        slug: "sap",
+        sub_title: "Skills",
+        bannericon: "/images/SAP.svg",
+        top_title: "SAP Development Services",
+        top_description: `Do you love SAP’s powerful data visualization abilities, but feel uncertain about how to maximize the platform’s impact? If so, you’re not alone. Many businesses use SAP’s library of business applications for their Enterprise Resource Planning (ERP) needs, but only ever scratch the surface when it comes to the full breadth of its functions. Now, it’s time to demand more.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What Is SAP?",
+                    description: `The SAP ERP ecosystem is extensive, including platforms for major business processes like sales and distribution and quality management, financial management, human resources functions like training, and corporate services like health and safety and real estate management.`,
+
+                },
+                {
+                    title: "",
+                    description: `Of these many features, its data management features are among the most popular, but with the right development support, businesses can optimize almost every element of their operation.`,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `SAP Development Services`,
+            description: `At Dev.co, we offer a wide array of SAP development services, including:`,
+            benefits: [
+                {
+                    title: "Supply Chain Management",
+                    description: `SAP offers a variety of targeted supply chain analytics programs as part of its portfolio, with new offerings specifically focused on sustainability. As part of building targeted dashboards, we can help your business measure its carbon footprint across the supply chain, optimize sourcing and delivery for the greatest value with the lower environmental impact, and much more.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Workflow Development",
+                    description: `large companies, even skilled project managers can struggle to craft fully optimized workflows. By building out SAPs workflow management extension, we can help your business test various workflow models, while enabling automation throughout the project chain. Better workflows increase value, while decreasing time to final product, while various SAP functions offer real-time insights`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Advanced Analytics",
+                    description: `SAP was built for analytics, but without the right data extraction settings and targeted dashboard design, it can be hard to access and utilize all of that information. That’s why analytics is at the heart of our development services - smart business decisions start with access to all the informatione`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Connect With Clients",
+                    description: `SAP may not be your conventional CRM, but that’s because it can do so much more. Our optimization process aims to move your business to a “single face to customer” framework, so that customers get consistent information and service, regardless of contact channel. We can also automate CRM-linked analytics, linking interactions with sales and identifying places where your business can strengthen relationships and drive profits.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Enterprise Integration",
+                    description: `SAP may offer modules covering all of your business’s major functions, but that doesn’t mean you don’t have loyalties to other tools. At Dev.co, we can design a unique to you system in which SAP acts as the hub for all data inputs. Using an API-first approach, we can ensure all information flows into your main analytics system.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Subheadingtext:{
+            heading: "Interesting Facts About SAP",
+            subText:"",
+            list1: [
+                "SAP was founded in 1972 and is headquartered in Waldorf, Germany. The company makes a variety of software solutions, with an emphasis on Enterprise Resource Planning (ERP). SAP offers on-premises, cloud, and hybrid solutions.",
+                "SAP is the third-largest software and programming company in the world.",
+                "SAP is serious about innovation. They have over 100 R&D centers globally.",
+                "SAP is listed on both the New York and Frankfurt Stock Exchanges. SAP is a global business with clients in over 190 countries.",
+                "SAP acquired 70 other companies between 1991 and 2018, including Fieldglass, Ariba, Pilot Software, and – most recently – Qualtrics.",
+                "Most of SAPs customers are SMEs, but they also serve 92% of the companies listed on the Forbes Global 2000.",
+            ],
+            list2: [
+                "The Dow has ranked SAP as the #1 software company on their Sustainability Index for 13 years.",
+                "SAP is committed to supporting global health efforts and has donated millions to groups like Product Red and the Global Fund. They also encourage staff volunteerism through social sabbaticals; staff are regularly dispatched to provide support to global non-profits.",
+                "SAP serves customers in every industry. As a result, SAP’s customers are responsible for distributing 78% of the world’s food and 82% of all medical devices. Overall, 77% of all transactions have some contact with SAP systems.",
+                "SAPs customers include agribusiness brands like Bumble Bee Seafood and Cargill, popular consumer goods brands like Hershey’s, Valora, and Natura, and key healthcare groups including Parkland Health, Providence St. Joseph Health, and Medtronic.",
+
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Achieve Omnichannel With SAP And Dev.co",
+                    description: `Dev.co’s SAP development offerings touch on all aspects of the ERP suite,
+                                allowing us to develop a plan that meets your business’s unique needs.
+                                Don’t use the corporate services suite, but need help with financial management? We’ve got you covered.
+                                Or maybe you want to warehouse and supply chain issues – no problem. By building out
+                                the SAP ecosystem, we can help your business see the big picture or the finest details,
+                                with just a few simple clicks. You have the data; our job is to make it work for you.`,
                 }
             ],
         },

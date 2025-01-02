@@ -84,6 +84,8 @@ export default function Skill({data}) {
  {skill.Textblockfull?.sectionData && (
         <Textblockfull Textblockdata={skill.Textblockfull.sectionData} />
       )}
+        
+
     {skill.processes?.title && (
       <Processess
         title={skill.processes.title}
