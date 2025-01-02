@@ -30,9 +30,9 @@ export default function Benefits({ title = "", description = "", processes = [] 
           ))}
         </div>
         <div className='button_wrap mt-3 md:mt-5'>
-        <button className="bg-white text-black px-3 md:px-12 text-[14px] md:text-[16px] md:py-3 py-2 rounded-md  shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
+        <a href="/contact" className="bg-white text-black px-3 md:px-12 text-[14px] md:text-[16px] md:py-3 py-2 rounded-md  shadow-md transition inline-block items-center hover:bg-[#4353FF] hover:text-white">
        {` Let's talk About Your Project`}
-            </button>
+            </a>
         </div>
       </div>
 
