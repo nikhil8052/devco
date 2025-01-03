@@ -3464,6 +3464,670 @@ We offer website design for a variety of industries including small business, de
          },
       },
 
+      {
+        id: 41,
+        slug: "irving",
+        top_title: "Irving Custom Software Development Company",
+        top_description: `Whether you’re an established business or a start-up, DEV.co offers web design powered by modern technologies and best practices. Our custom solutions help businesses thrive in today’s digital space.<br></br>
+
+        As one of the best software development companies, we provide flexible plans featuring responsive web design, eCommerce, WordPress consulting, social media integration, and more. Each project aims to enhance your online presence, boost brand recognition, and increase user traffic and sales leads.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Irving`,
+                    paragraph:`At DEV.co, we take a holistic approach to software development services. <br></br>
+
+                    Usually, a single team works on both sides of the project-management coin: creative design and technical development.<br></br>
+
+                    This collaboration ensures that every site is tailored to its purpose while meeting usability, accessibility, and scalability standards.<br></br>
+
+                    As a leading software development company, we offer a full range of web design, hosting, and marketing services for small businesses and start-ups. Our expert web developers and software developers deliver expertise to create exceptional software solutions that drive success.`,
+
+                    imageSrc: "/images/Irving_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Whether your business is new or thriving, we have a variety of web design and web development services to fit your needs. From the ground-up concept to the completed project, our professional team will work with you to provide innovative solutions.<br></br>
+
+                    Our management team handles all of the backend programming for every website we create for our clients, ensuring that your online presence seamlessly integrates into your existing business objectives. We build better websites than our competitors.<br></br>
+
+                    We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing.  Our team has been designing and building websites for over 15 years, so we have the experience and know-how to create results you’ll love.<br></br>
+
+                    Are you looking for a landing page or an eCommerce site? We can help with that, too. We offer flat-rate pricing and short deadlines. Trust us to meet all of your website needs – big or small – through our complete online marketing services: website design & development, online advertising campaigns, social media marketing, and search engine optimization (SEO).`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Our team of web design & development experts offer a full range of web services including custom website design, HTML5 & CSS3, Flash & Flex, database integration, WordPress, and Joomla support to help businesses grow and succeed online. Our search engine optimization (SEO) techniques ensure your site ranks higher in search engines. Contact us today to schedule a free consultation.<br></br>
+
+                    Our experienced team of internet marketing specialists and web design experts are committed to building responsive, visually stunning websites that put your business in the right place at the right time.<br></br>
+
+                    We create websites that get you noticed.  We offer a wide range of web design and web development services that’ll help your business thrive online. We work with our clients to create and manage a custom website, so you can focus on running your business.<br></br>
+
+                    Our team is friendly, knowledgeable, and always open to networking opportunities. Our years of experience will make any web project easy, efficient, and most importantly effective.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `You just need a website. You want something that looks and functions great, and you want it done quickly. Whether you have no experience in web development or are an established brand looking for a refresh on your digital presence, DEV.co’s web design professionals are here to take care of your project from start to finish.<br></br>
+
+            We offer both website design and website development services. We are a leading provider of custom website design, development, and internet marketing services for small business and corporate clients. Our web design firm specializes in creating website solutions that are both beautiful and functional. Our team specializes in creating beautiful, functional websites that are engineered to convert.<br></br>
+
+            We are experts at web development and our designers can create websites that reflect your brand identity and present a strong image to your clients. From start-up companies to established businesses, we have the experience and the tools to meet all of your business needs.`,
+         },
+      },
+
+      {
+        id: 42,
+        slug: "jacksonville",
+        top_title: "Jacksonville Custom Software Development Company",
+        top_description: `Jacksonville, Florida is truly one of the most beautiful cities in the country. Tourists flock here every year to enjoy the pleasant Florida sun, weather, and beaches. This makes it all the more important for local businesses to have an online presence.<br></br>
+
+        Why? Most consumers use the internet to search for local businesses. If your business is nowhere to be found when potential customers come calling, then you’re going to miss out. By purchasing a website, you can move one step closer to establishing a firm online presence.<br></br>
+
+        Dev.co stands out as one of Jacksonville’s top software development companies, renowned for its expertise in mobile app development and managed services.<br></br>
+
+        As a leading software development firm in Jacksonville, Dev.co excels in providing tailored solutions as trusted software developers, ensuring businesses establish a strong online presence.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Jacksonville`,
+                    paragraph:`A standard person isn’t going to visit the second page of Google. They may not even look past the third search result on a Google page. The reason why is because people trust major search engines like Google and Bing.<br></br>
+
+                    If a particular website is ranked #1, then it must be for the reason that the business that owns the website is the best in its industry. Otherwise, why would it rank so highly on search engine result pages (SERPs)?<br></br>
+
+                    Having a high website ranking is crucial. Web development ranking starts with creating a valuable website that properly communicates the value of your products and services. Businesses aiming to showcase their custom software solutions and technical expertise in business intelligence development should prioritize their SEO efforts. In Jacksonville, standing out among the best software development companies requires strategic positioning and visibility for Jacksonville software developers.`,
+
+                    imageSrc: "/images/Jacksonville_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Having a fresh website means everything online. Google, in order to keep their reputable as the most trusted resource, must only rank the best websites. Therefore, it’s a very low chance that a DIY website will make the cut.<br></br>
+
+                    You should avoid creating your own website, despite what many DIY website builders will advertise to you. You should also stay clear of web developers with minimal experience in this type of work.<br></br>
+
+                    Purchasing a website is a serious investment, and it’s not wise to throw away money on a website that’s not going to produce any results for your business. For Jacksonville software developement companies, investing in professional search engine optimization and strategy consulting ensures effective project management and impactful digital marketing. <br></br>
+
+                    Partnering with top software developers can guarantee custom software solutions tailored to deliver significant business outcomes through expert website development.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`If you’re wondering how we can truly benefit your agency, then you’re in the right place. We take immense pride in the work we do here at Dev.co. All of our clients can enjoy the following benefits when they choose to work with us:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a committed team of more than 250+ highly-experienced developers. Our team specializes in many different industries to deliver a versatile experience.",
+                        "We have access to both onshore and offshore talent solutions in case your web project dictates large staffing requirements.",
+                        "All of our developers are hired using a comprehensive vetting process. This ensures that you will only receive a top-notch website for your investment.",
+                        "We have direct experience working with both small businesses and Fortune 500 companies.",
+                        "Our team of project managers help to keep our projects on track so everything is completed on time and on budget.",
+                        "We make it our mission to only websites that deliver the results you are looking for.",
+                    ],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `Founded in 2008, we have worked with thousands of companies in Jacksonville, Florida. Over the years, we have built a massive reputation for maintaining the highest standards of customer satisfaction and service.<br></br>
+
+            When you work with us, you can be sure you will receive a top-notch product made by industry-leading professionals.`,
+         },
+      },
+
+      {
+        id: 43,
+        slug: "jersey-city",
+        top_title: "Jersey City Custom Software Development Company",
+        top_description: `DEV.co is a Jersey City web design and development firm specializing in custom, search-engine-optimized solutions for small businesses and start-ups. We create websites that are clean, fast loading, and easy to use.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Jersey City`,
+                    paragraph:`DEV.co makes it easy for you to create the website that represents your business best. Our team of talented, experienced designers and developers work hard to ensure a superior result in record time. We make our clients’ websites work hard and look great across multiple devices from desktops to mobile gadgets like smartphones, iPads, and tablets.<br></br>
+
+                    Our Jersey City web design team has a passion for customer service that shines through in every project. DEV.co provides custom web design and development services for clients with three or fewer locations.<br></br>
+
+                    Our expert staff of designers and developers have a proven track record of creating high-quality, search engine optimized websites that empower every customer to achieve their business goals.`,
+
+                    imageSrc: "/images/Jersey city_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Our services include web design,  fully responsive mobile sites, web development, mobile apps, e-commerce, and digital marketing. We’re backed by 10+ years of experience, as well as a team of smart creatives who understand the constant intersection between technology and human behavior.<br></br>
+
+                    We bridge the gap between the creative industries of new media, design, and technology. We use the latest tools and technologies to create web applications designed to generate revenue for our clients.<br></br>
+
+                    At DEV.co, we pride ourselves on our ability to perform as an extension of your company by seamlessly integrating into your existing workflow. At DEV.co, our mission is to create outstanding user experiences by building beautiful sites that meet our clients’ business needs.<br></br>
+
+                    We collaborate closely with each client to understand their goals, analyze their current situation, and create a customized site that maximizes their chances of success. As one of the best software development companies, we offer cost-effective digital solutions that drive digital transformation. We’re proud to be recognized as one of the top web design and software companies in New Jersey and look forward to hearing from you.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We’ve been building sites for many different industries. Web design matters. We craft custom websites with the best user experience. Our clients hire us because they want to grow their business online and offline. We are here to take a slice of the pie with your competition.<br></br>
+
+                    DEV.co has extensive experience in Web 2.0 design and search engine optimization, helping clients win with an online business. After a few days on location, our team designs all websites from scratch – not templates or stock designs that you see everywhere else.<br></br>
+
+                    This holistic approach gives our clients more than just a website, it gives them a powerful web presence that no one else can duplicate. DEV.co’s team of graphic designers, software developers, and web specialists are all compiled under one roof in their Jersey City office so you can rest assured that they always have a hand in your project.<br></br>
+
+                    We are the right software development company for you, providing all custom software development services under one contract. As the best software development company among top software development companies, we ensure you know exactly what you’re paying for without incurring additional fees as we work through your project together. We also specialize as a mobile app development company.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to</span> the Table</span>`,
+          paracontent: `With more than 10 years of experience, our team at DEV.co offers more than just programming and web design know-how. We’ll work with you to define your business goals, strategize your project, and bring your website to life. After all, there’s no such thing as “one size fits all” in the world of web design. It’s a fluid process that requires constant communication to stay on target with your end game. Our expertise is about more than code. It’s about results.<br></br>
+
+            Offering the best in website design, development, and maintenance, our software development company provides beautifully crafted sites that are both functional and attractive. Custom web design tailored to meet the needs of each client is combined with search engine optimization services to ensure that your site ranks among the most visited search results.<br></br>
+
+            Our DEV.co team strives for excellence in every customer service interaction and delivers innovative solutions for clients’ unique business requirements.`,
+         },
+      },
+
+
+      {
+        id: 45,
+        slug: "kansas-city",
+        top_title: "Kansas City Custom Software Development Company",
+        top_description: `Kansas City is known for its rich culture in sports, cuisine, and architecture. Also, many local businesses operate in this city, creating a unified competition that requires every nearby business to have an online presence.<br></br>
+
+        The first step to establishing an online presence is creating a fully-functional website for your brand. Not just any website will do, either. Having a website that brilliantly showcases your products and services is key.<br></br>
+
+        At Dev.co, we specialize in delivering quality software development services in Kansas City. Whether you need a traditional website or an online store, our team of software developers at Dev.co has you covered.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Kansas City`,
+                    paragraph:`There is no getting around the fact that you need to develop the right website for your business. Most consumers use the internet to find local businesses. After all, it’s so simple to use a laptop or smartphone to locate a nearby business.<br></br>
+
+                    Let’s face it – no one uses phone books and business directories anymore. Instead, potential customers are going to rely on using your website to learn more about your business.<br></br>
+
+                    When you develop a website, it’s important to work with a Kansas City website developer like Dev.co to ensure that the job is done properly.<br></br>
+
+                    As one of the top software development companies, they offer custom software solutions and project management tailored to your business strategy. With their technical expertise and experience as a leading Kansas City software developer, they also provide digital marketing, mobile app development, and other essential services.`,
+
+                    imageSrc: "/images/Kansas City_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Again, not just any website will work. Google and other major engines have an obligation to rank the best websites on their search engine results pages (SERPs). This helps Google mainly to become the world’s best search engine.<br></br>
+
+                    Google uses advanced scientific and mathematical algorithms to rank websites, based on a wide variety of different factors. If your website doesn’t align with the standards Google has set for websites, then it’s going to be pushed to the second, third, or last page of Google.<br></br>
+
+                    That’s only if Google does rank your website at all. For this reason, you should hire a professional website design agency in Kansas City to take on your development project.<br></br>
+
+                    A top digital marketing company can ensure your site meets these standards, addressing complex business challenges and facilitating digital transformation. By partnering with Kansas City software developers, you can benefit from the expertise of the best software companies in the region.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take pride in the work we do here. For more than a decade, we have built the best websites for all kinds of businesses in the area. We have a special commitment to upholding the highest standards of customer satisfaction and service.<br></br>
+
+                    Here is what you can look forward to when you decide to work with us:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ developers on staff. This means you are more than likely to work with a developer that knows your business inside and out.",
+                        "We have access to both onshore and offshore teams to accommodate exceptionally large website development projects.",
+                        "All of our developers are vetted rigorously to ensure that we deliver the best Kansas City web design services.",
+                        "We have actionable experience in working with nearby businesses like coffee shops, Fortune 500 companies, start-ups, and corporate enterprises.",
+                        "We will assign you a dedicated project manager that will make sure that your website development project runs smoothly and is completed on schedule.",
+                        "We have massive experience in producing excellent results.",
+                    ],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `Maximizing Your <br><span class="text-headingBlue">Investment </span>`,
+          paracontent: `A website is supposed to triple your initial investment. To put it simply, your website should become a factory for attracting qualified leads that are interested and ready to buy and converting them into paying customers.<br></br>
+
+            A website that falls short of this goal is a failure. By hiring our Kansas City website development company, you can receive a fully-functional website that maximizes its initial investment.`,
+         },
+      },
+
+      {
+        id: 46,
+        slug: "laredo",
+        top_title: "Laredo Custom Software Development Company",
+        top_description: `We provide website development, design, custom software development services for small businesses, startups and Fortume 500 companies alike.<br></br>
+
+                Our web development team boasts years of experience and understanding of the importance of working with clients to provide targeted solutions aimed at helping them achieve their objectives.<br></br>
+
+                With our small team of web designers, developers, and digital marketers we develop customized web design solutions and web development companies for small businesses.<br></br>
+
+                Our strategy focuses on creating an effective result-driven agency based on creative thinking, outstanding teamwork, quality control, customer service, and innovative web solutions.<br></br>
+
+                As one of the leading software development companies, we specialize in delivering innovative software solutions and custom software that propels your business forward.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Laredo`,
+                    paragraph:`We at DEV.co are a web design and development company located in sunny Laredo, TX. We aim to empower small businesses by providing state-of-the-art web solutions at a reasonable cost.<br></br>
+
+                    We specialize in custom, search-engine-optimized website design, and development. From our office on the Texas border, we are able to offer services to businesses anywhere from San Antonio to Mexico City.<br></br>
+
+                    Our success stories highlight our expertise in software engineering, as we tailor solutions to meet specific user requirements. Whether you need a platform engineer or a comprehensive development team, we are here to turn your vision into reality.`,
+
+                    imageSrc: "/images/Laredo_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Integrate great design with cutting-edge technology for a fantastic user experience. Our Laredo web design and development company specializing in custom solutions that are highly responsive, easy to maintain, and optimized for search engines. We build better websites than our competitors. We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing.<br></br>
+
+                    With a team of industry veterans, we’re able to bring big agency talent to small businesses and start-ups. We believe that the web development process requires as much creativity as the creative layouts we create.<br></br>
+
+                    And it’s our passion and enthusiasm that makes us a perfect fit for any project — from local businesses to national brands. Our ultimate goal? To create sites that are irresistible to the eye and intuitive to use.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We offer a wide range of web design and development solutions to grow your business. Our Laredo design group has been strategically designed to form a highly talented, highly skilled engineering team proficient in a variety of programming languages; including HTML5, CSS3, Javascript, jQuery, PHP, WordPress, Magento, and more.<br></br>
+
+                    We are so confident that our website design & development will increase your online revenue while allowing you to focus on your core competencies, such as product or service development. We know how to use design and development as tools to build your brand and grow your business.<br></br>
+
+                    We have a proven track record of success with small businesses – just like yours. We develop custom, search-engine-optimized websites that cost less than you might think and can illuminate your message, boost your revenue, and save you tons of time.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `DEV.co is a web design and development company based in Austin, Texas. Founded by entrepreneurs for entrepreneurs, we have successfully created and managed over 400 websites and other online properties, providing award-winning, custom solutions that drive results for our customers (as well as their small business).<br></br>
+
+            We are a full-service digital agency that offers everything from website design and development to marketing, branding, and content strategy services. Our skilled team has the experience and insight you need to build a remarkable digital presence that positively impacts your bottom line – while giving your audience an incredible user experience.<br></br>
+
+            Whether you need a modern website for your brand or an interactive UI built from scratch, our talented team has the expertise to exceed your expectations. We thrive on creativity and pushing the limits to deliver results that get people talking.`,
+         },
+      },
+
+      {
+        id: 47,
+        slug: "las-vegas",
+        top_title: "Las Vegas Custom Software Development Company",
+        top_description: `Las Vegas is not only one of the most well-known cities in the United States, but it’s also one of the most recognizable cities in the world. If you’re running any type of business in Las Vegas, then it’s important to establish an online presence.<br></br>
+
+        Why? Most consumers use the internet to find local companies in Las Vegas. They also use the internet to perform research before making a purchasing decision. If your business is nowhere to be found on the internet, then your target audience will naturally have difficulty finding you and learning more about your products and services.<br></br>
+
+        They’re also more likely to side with your competitors that have an online presence. As such, you should hire a Las Vegas website developer to create a stellar website and software solutions on your behalf.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Las Vegas`,
+                    paragraph:`Since there are trillions of websites all over the internet, major search engines like Google and Bing use complex mathematical and scientific algorithms to rank them appropriately.<br></br>
+
+                    If you don’t have a website or a low-quality one, then it may take some catching up to do before you can surpass your competitors. Luckily, you can rely on our Las Vegas web design company to create the perfect website that will complement your brand.<br></br>
+
+                    In addition to website creation, our consulting services are tailored to meet the needs of enterprise clients across various industries, ensuring a seamless digital transformation. We leverage innovative technologies to design websites that not only reflect your brand but also drive growth and success.`,
+
+                    imageSrc: "/images/Las Vegas_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`As you can see, not every website will rank well online. Because of Google stringent algorithms and standards, a sloppy website won’t even make it to its first page, where most people congregate.<br></br>
+
+                    Now, there are several DIY website builders that promise anyone can create their own website. This is misleading, considering that anyone can indeed create a website. However, not anyone can create a website that will rank well on major search engines.<br></br>
+
+                    If you decide to use a DIY website builder, then you’ll only waste your hard-earned time and money on a website that’s useless. Instead, hire a website developer in Las Vegas to develop a top-notch website for your company.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take huge pride in the work we do here at Dev.co. For this reason, thousands of businesses trust us to provide exceptional custom software development services in Las Vegas. Here are all of the benefits you can expect to receive when you decide to work with us:`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ website and software developers to handle any website development project possible.",
+                        "We have access to more than 500+ additional staff with expansive expertise that can be called upon in exceptionally large website projects.",
+                        "All of our developers have been vetted rigorously to ensure they will only provide exemplary web design services in Las Vegas.",
+                        "We have direct expertise in working with both nearby businesses and corporate enterprises.",
+                        "We will assign you a project manager that is committed to your project and will make sure that it’s completed promptly.",
+                        "You can count on us to deliver top-notch results.",
+                    ],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `Established in 2008, we began as an advertising and financial consulting firm. As one of the best software development companies, we have worked with thousands of businesses in Las Vegas. We also have several locations across the country, building a reputation as a leading website provider in the United States.<br></br>
+
+        Our promise is to uphold the highest standards of customer satisfaction and service. This means that you can rely on us to work tirelessly on your behalf until you are fully satisfied with the final product.`,
+         },
+      },
+
+      {
+        id: 48,
+        slug: "lexington",
+        top_title: "Lexington Custom Software Development Company",
+        top_description: `We at DEV.co are a full-service web agency in Lexington, Kentucky. We specialize in the design, development, and maintenance of fully functional and search-friendly websites for both small businesses and start-ups.<br></br>
+
+            Our team utilizes designs that are user-friendly as well as provide the perfect platform for small businesses to be discovered by their customers.<br></br>
+
+            Our services include: Web Design & Development SEO Marketing Creative Media Services.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Lexington`,
+                    paragraph:`We at DEV.co are a web design and development company located in sunny Lexington, KY. We aim to empower small businesses by providing state-of-the-art web solutions at a reasonable cost.<br></br>
+
+                    We specialize in custom, search-engine-optimized website design, and development. From our office on the Kentucky border, we are able to offer software development services to businesses anywhere from San Antonio to Mexico City.<br></br>
+
+                    Our team works with you from beginning to end to create an online presence that reflects all of the best aspects of your business, so you can see what it feels like to be working with a company that takes care of your data needs, your hosting, your security, and a whole lot more.<br></br>
+
+                    We do this all while providing you with upstanding customer service, and some of the most competitive prices in an industry notorious for overcharging small businesses on price.`,
+
+                    imageSrc: "/images/Lexington_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`DEV.co is one of the best software development companies in Lexington, KY. We are creative thinkers who generate creative ideas all day long.<br></br>
+
+                    Our designers are experts in typography, color, and layout, and our developers are ninja-like masters of code. When we unite these two disciplines to craft a website for you, we can help you make an unparalleled first impression on your customer.<br></br>
+
+                    We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing. The creative web design experts at DEV.co Lexington stop at nothing to deliver the best possible user experience, taking any size of business through every step of the process to create a custom web experience that is both visually appealing and technically efficient. `,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We specialize in creating great user experiences for small businesses with innovative design, effective copywriting, powerful marketing strategies, and results-driven CMS implementations. We help small businesses and start-ups get found online. From logo design to eCommerce, we develop a look that is right for you.<br></br>
+
+                    The right software partner will create websites that people want to visit. That’s us. We can take any business to the next level through search engine optimization: increasing its visibility online, building web traffic, and converting visitors into paying customers.<br></br>
+
+                    Our team of experienced Lexington, Kentucky web designers, and developers deliver beautiful, functional websites on time and on budget. We customize all aspects of your website, from the design to the content management system, and build in tools that let you maintain and update your site easily. `,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `DEV.co is a full-service web design and development firm based in Lexington, Kentucky. Our clients are located across the US, Canada, and Mexico, but we’ve never lost sight of our roots in Kentucky.<br></br>
+
+            We specialize in designing and developing beautiful websites for small businesses, start-ups, non-profits, artists & crafters who care more about quality than quantity. We were rated #1 Local Web Development Company in 2012 and have ranked as the best web development company in Lexington, KY for over seven years. Our cutting-edge web development team specializes in creating innovative, customized websites that convert leads into long-lasting customers.<br></br>
+
+            We operate with a ‘Customer Overall Effectiveness’ (COE) method—making sure your website not only looks good but also does what it’s supposed to do: getting you more clients, customers, sales, or whatever you want to call them!`,
+         },
+      },
+      {
+        id: 49,
+        slug: "lincoln",
+        top_title: "Lincoln Custom Software Development Company",
+        top_description: `DEV.co is a company of engineers, designers, developers, and entrepreneurs all coming together to offer custom web and software design and development.<br></br>
+
+            From our wide variety of plans, you can choose the service most appropriate for your project.<br></br>
+
+            So, whether it’s a simple WordPress site or a full e-commerce solution, DEV.co will have the most efficient team for your needs. `,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Lincoln`,
+                    paragraph:`No matter what size your business is or the type of service you need, DEV.co has a plan that will fit your needs. With a wide array of features ranging from responsive web design to e-commerce capabilities, we’ve got a plan that’s right for you.<br></br>
+
+                    DEV.CO offers Development, Design, and Marketing plans for high-growth companies as well as a unique service plan that allows individual freelancers or agencies to use the tools they want on their own terms. With 3 tiers of service and over 130 features packed into our plans, we’re confident you’ll find the right mix of custom software development services for your company.<br></br>
+
+                    Get all the features you want from your development team ― plus a whole lot more. We started DEV.co to create an agency that crafts websites that not only look great but work seamlessly for customers and business owners alike. We’re a small team of passionate developers, designers, and customer care professionals with varied experience in agencies, startups, and established companies ― and we’re here to serve you. `,
+
+                    imageSrc: "/images/Lexington_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`Do you need a website for your business today but don’t want to make long-term commitments? DEV.co’s platform allows you to take advantage of the latest technologies and industry-leading tools at an affordable price, all backed by our standard 30-day money-back guarantee.<br></br>
+
+                    With DEV.co, you get a dedicated team driving user adoption and engagement with your brand through purposeful and innovative digital strategies. By leveraging deep expertise in mobile app development and website design, we can help companies efficiently create custom software solutions that bring them closer to their goals.<br></br>
+
+                    We customize your web experience to solve your business problems and meet its unique needs. From a simple mobile responsive website design to full development services, we’re ready to meet your needs with our personalized web solutions. DEV.co is headquartered in Hialeah, FL, and serves clients nationwide with our digital solution expertise for small business clients.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`DEV.co provides website design, online marketing, app development, and e-commerce innovative solutions. Our focus is to provide a low-stress approach to site creation and develop content-rich websites for our clients. When you work with us, you are working with one of the premier web design and development companies in Lincoln, Nebraska. We approach every project individually for maximum results.<br></br>
+
+                    With over a decade of experience coupled with ongoing training and mentoring from some of the most well-known experts in the industry, our team is prepared to help grow your business online in any sphere.  We are the leading software development company, focusing on the design, web development, and maintenance of fully functional, secure, and search-friendly websites for small businesses and startups.<br></br>
+
+                    From designing your logo to implementing a large project, our team is ready to help you create a site that will represent your company in the best way possible. We specialize in working with clients to not only build a website from scratch but to develop the right site for the business given their needs.  `,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `DEV.co is a small team that specializes in the design, development and maintenance of fully functional and search-friendly websites for both small businesses and start-ups. We offer responsive web design so whatever device you’re reading this on, you will have a good experience.<br></br>
+
+            We here at DEV.co know what it takes to create a fully functional and search-friendly site for your business processes or projects. We’ve been converting our ideas into marketable products since 2008, so we have the proven track record needed to help you bring your ideas into the real world of digital media. `,
+         },
+      },
+      {
+        id: 50,
+        slug: "long-beach",
+        top_title: "Long BeachCustom Software Development Company",
+        top_description: `DEV.co is a Long Beach Web Design, Software Development, and Consulting company that specializes in small business web design, custom website development, and online marketing strategies for local businesses looking to compete with their larger competitors at the best possible price.<br></br> 
+
+        We offer flexible pricing options to help your business succeed without breaking the bank. The sites we create are responsive and mobile-optimized giving your site an edge on all competitors out there! You’ll never find another team with our dedication or more knowledge of small business web design than us here at DEV.co.<br></br>
+
+        With a proven track record of delivering successful projects, we tailor our digital marketing and custom application development services to align with your specific business objectives. Our personalized solutions are designed to enhance your online presence and help your business thrive in today’s competitive market.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `It’s easy to design a website these days but how do you get the most out of it?`,
+                    paragraph:`When you need a product or service, it always pays to do your research first. As one of the best software development companies. we know that–which is why we offer everything from custom web design to marketing and branding assistance to graphic design solutions all at the best prices possible!<br></br>
+
+                    Dev.co take great care in understanding what our clients want for their business before we take them on as a client. Then we work diligently until the final delivery of your dream project – whether it be a new logo or one-page design, complete website renovation, or just a directory.<br></br>
+
+                    We specialize in custom software solutions that drive business growth, combining technical expertise with digital solutions to meet your unique needs. From web development to comprehensive software solutions, DEV.co is committed to providing the best in digital innovation for your success.<br></br>
+
+                    Every company needs a web design strategy, and it’s no different for startups. That’s where DEV.co comes in. `,
+
+                    imageSrc: "/images/Long Beach_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Mobile Friendly`,
+                    paragraph:`DEV.co is a powerhouse of mobile-first, responsive design and development with an innovative workflow, modern toolsets, and crafting the perfect mobile experience for any device type—all in a single package.<br></br>
+
+                    DEV.co will work with you to develop and plan the perfect website for your needs, regardless of what technology or software you want to incorporate. We work within all industry standards and use prototyping and mockups to ensure each site is professional-looking, easy-to-use, responsive, developer-friendly, and SEO compliant – no matter what device it is viewed on (mobile phone or tablet), computer type (laptop or desktop) which browser you are using, etc.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                {
+                    title: `Custom Websites`,
+                    paragraph:`DEV.co is an industry-leading, agency-quality website design service with a customer success team and integration process that’s unparalleled in the marketplace. We offer all of the challenges to do great work from your home or office-based business on an outsourced basis – no need for you to purchase expensive equipment, find employees or manage ongoing maintenance tasks.<br></br>
+
+                    We are focused on helping small businesses and entrepreneurs start marketing themselves online – so that they can grow their business outside of Silicon Valley by eliminating geographic limitations imposed by traditional brick and mortar agencies.<br></br>
+
+                    Imagine a stunning, memorable website that communicates your brand while catering to your audience. Your website is one of the first things potential customers see so it needs to be just as polished and professional as your product or service.<br></br>
+
+                    DEV.co provides custom design services ranging from simple WordPress updates all the way up to premium site construction ready for any device and industry-specific needs.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+        Loctextmedia: {
+            contentData: [
+  
+                {
+                    title: `Social Media`,
+                    paragraph:`In these days of social media overload, it’s hard to keep up with all the latest trends and connect with new customers. We can help!<br></br>
+
+                    We know how tough it is for a smaller team to manage daily tasks like marketing or customer service without having time for development or visibility into company data. Let us take care of that stuff so you can move onto things that really matter to your organization.<br></br>
+
+                    The right social media management tools will help you stay in touch with what your customers are doing on the platforms that they spend time on and how their day-to-day activities relate to your mission. They’ll give you insights into solving customer service issues without having to jump into a lengthy back-and-forth correspondence. Customers expect quick responses and DEV.co is here for you when it matters most, so email us anytime!<br></br>
+
+                    At DEV.co, we focus on creating websites that are functional and beautiful. We make sure our designs look good but also help you meet the goals of your business.`,
+  
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [],
+                    bottomline:"",
+                },
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `Whether you are looking for a web design, website redesign, or search engine optimization solution, we have the resources needed to cater to all your needs.<br></br>
+
+            Contact us today or email us for more information!`,
+         },
+      },
 
 
 ];
