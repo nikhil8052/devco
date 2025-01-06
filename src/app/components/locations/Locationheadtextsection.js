@@ -36,8 +36,8 @@ export default function Locationheadtextsection({ contentData }) {
                               <li
                                 className="text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] opacity-70"
                                 key={liIndex}
-                              >
-                                {item}
+                                dangerouslySetInnerHTML={{ __html:item }}>
+                                {/* {item} */}
                               </li>
                             ))}
                           </ul>
