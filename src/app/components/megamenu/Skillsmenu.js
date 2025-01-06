@@ -17,7 +17,6 @@ import {
   faWordpress,
   faAws,
   faSalesforce,
-  faRobot,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -54,7 +53,6 @@ const skillsmenu = [
   { name: 'AWS', icon: faAws, link: '/' },
   { name: 'Sitefinity', icon: faGlobe, link: '/' },
   { name: 'WordPress', icon: faWordpress, link: '/' },
-  { name: 'OpenCV', icon: faRobot, link: '/' },
   { name: 'Salesforce', icon: faSalesforce, link: '/' },
   { name: 'Oracle', icon: faDatabase, link: '/' },
   { name: 'Nextcloud', icon: faCloud, link: '/' },
