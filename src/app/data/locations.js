@@ -4129,5 +4129,95 @@ We offer website design for a variety of industries including small business, de
          },
       },
 
+      {
+        id: 51,
+        slug: "los-angeles",
+        top_title: "Long BeachCustom Software Development Company",
+        top_description: `DEV.co is a Long Beach Web Design, Software Development, and Consulting company that specializes in small business web design, custom website development, and online marketing strategies for local businesses looking to compete with their larger competitors at the best possible price.<br></br> 
+
+        We offer flexible pricing options to help your business succeed without breaking the bank. The sites we create are responsive and mobile-optimized giving your site an edge on all competitors out there! You’ll never find another team with our dedication or more knowledge of small business web design than us here at DEV.co.<br></br>
+
+        With a proven track record of delivering successful projects, we tailor our digital marketing and custom application development services to align with your specific business objectives. Our personalized solutions are designed to enhance your online presence and help your business thrive in today’s competitive market.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `It’s easy to design a website these days but how do you get the most out of it?`,
+                    paragraph:`When you need a product or service, it always pays to do your research first. As one of the best software development companies. we know that–which is why we offer everything from custom web design to marketing and branding assistance to graphic design solutions all at the best prices possible!<br></br>
+
+                    Dev.co take great care in understanding what our clients want for their business before we take them on as a client. Then we work diligently until the final delivery of your dream project – whether it be a new logo or one-page design, complete website renovation, or just a directory.<br></br>
+
+                    We specialize in custom software solutions that drive business growth, combining technical expertise with digital solutions to meet your unique needs. From web development to comprehensive software solutions, DEV.co is committed to providing the best in digital innovation for your success.<br></br>
+
+                    Every company needs a web design strategy, and it’s no different for startups. That’s where DEV.co comes in. `,
+
+                    imageSrc: "/images/Los Angeles_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Mobile Friendly`,
+                    paragraph:`DEV.co is a powerhouse of mobile-first, responsive design and development with an innovative workflow, modern toolsets, and crafting the perfect mobile experience for any device type—all in a single package.<br></br>
+
+                    DEV.co will work with you to develop and plan the perfect website for your needs, regardless of what technology or software you want to incorporate. We work within all industry standards and use prototyping and mockups to ensure each site is professional-looking, easy-to-use, responsive, developer-friendly, and SEO compliant – no matter what device it is viewed on (mobile phone or tablet), computer type (laptop or desktop) which browser you are using, etc.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+                {
+                    title: `Custom Websites`,
+                    paragraph:`DEV.co is an industry-leading, agency-quality website design service with a customer success team and integration process that’s unparalleled in the marketplace. We offer all of the challenges to do great work from your home or office-based business on an outsourced basis – no need for you to purchase expensive equipment, find employees or manage ongoing maintenance tasks.<br></br>
+
+                    We are focused on helping small businesses and entrepreneurs start marketing themselves online – so that they can grow their business outside of Silicon Valley by eliminating geographic limitations imposed by traditional brick and mortar agencies.<br></br>
+
+                    Imagine a stunning, memorable website that communicates your brand while catering to your audience. Your website is one of the first things potential customers see so it needs to be just as polished and professional as your product or service.<br></br>
+
+                    DEV.co provides custom design services ranging from simple WordPress updates all the way up to premium site construction ready for any device and industry-specific needs.`,
+
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [],
+                    bottomline:``,
+                },
+                
+            ],
+        },
+
+
+        benefits: {
+            title: "How We Can Help",
+            description: `At Dev.co, we take immense pride in the work we do. We strive to uphold the highest standards of service and customer satisfaction. With more than 10 years of experience in our field, we can help take your online presence to the next level with the help of experienced software engineers and software development teams.<br></br>
+
+                    Here is everything you can expect when working with us, whether you’re in a related quantitative discipline or need the expertise of a software engineer:`,
+            benefits: [
+                {
+                    title: "Design",
+                    description:`The best websites leverage top-notch user experience. When web visitors are happy, your website grows. At Dev.co, we don't just build excellent websites. We also take the user experience of your audience into account during every phase, thanks to the expertise of our software engineers and our commitment to custom software development. Our team of skilled software engineers ensures that your website is not only visually appealing but also functionally sound. We follow Agile software development methodologies to continuously improve and adapt your website to meet the evolving needs of your users. By prioritizing user experience, software engineering, and Agile software development, we create websites that not only look great but also perform exceptionally, making your online presence a key asset for your business.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+   
+                {
+                    title: "Deploy",
+                    description: `During this phase, our team, including custom software experts and a group of skilled software engineer jobs, will make sure that your website is ready to go. Not only will we train you on how to use your website, but we'll even provide maintenance to ensure that it's working at peak performance at all times. Our commitment to custom software solutions means that your website is tailored to your specific needs, providing a unique and optimized user experience. Our custom software solutions extend to web services, ensuring that your online platform is seamlessly integrated into the digital landscape. We leverage an advanced automation tech stack, implemented by our expert software developers, including software engineer jobs, to enhance the functionality and performance of your website. At Dev.co, we combine cutting-edge technology with custom solutions to provide you with a powerful and dynamic online presence, supported by a team of skilled software engineer jobs who excel in their respective roles.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+
+        codeheadingsection: {
+          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          paracontent: `Whether you are looking for a web design, website redesign, or search engine optimization solution, we have the resources needed to cater to all your needs.<br></br>
+
+            Contact us today or email us for more information!`,
+         },
+      },
+
 
 ];
