@@ -3599,23 +3599,42 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
             ],
         },
 
-        // Subheadingtext: {
-        //     heading: "Interesting Facts About WordPress",
-        //     subText:
-        //         ``,
-        //     list1: [
-        //         `“WordPress” is trademarked, but it’s owned by a non-profit company called the WordPress Foundation. This foundation was created by the WP co-founder Matt Mullenweg.`,
-        //         "JavaScript powers 20% of WordPress’ core code",
-        //         "JS is the only programming language that can be used on the front-end of a website",
-        //         "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-        //     ],
-        //     list2: [
-        //         "69.7% of web developers prefer JavaScript",
-        //         "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-        //         "There are 24+ JS frameworks and 83+ libraries available for developers",
-        //         "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-        //     ],
-        // },
+        Subheadingtext: {
+            heading: "Interesting Facts About WordPress",
+            subText:
+                ``,
+            list1: [
+                `“WordPress” is trademarked, but it’s owned by a non-profit company called the WordPress Foundation. This foundation was created by the WP co-founder Matt Mullenweg.`,
+                "The WordPress Foundation generated $11,178 in donations in 2018.",
+                "Each WordPress version is named after a Jazz artist. For instance, the first version was named after Miles Davis.",
+                "WordPress is available in 200+ languages.",
+                `Number of downloads: 77 million.`,
+                `Estimated number of users: 76.5 million.`,
+                `Why WordPress is the top blogging platform: It’s easy to use, free, and open source.`,
+                `Downside to using WordPress: Custom themes can be difficult to use without initial support.`,
+                `New daily installs: 500+.`,
+                `Lines of code written for the WP core: 346,000.`,
+                `Number of WordPress versions: 419.`,
+                `Number of major releases: 37.`,
+                `Number of free WordPress plugins: 54,000+.`,
+                `Number of plugin downloads: 859 million.`,
+                `Most popular WordPress host: HostGator and DreamHost.`,
+                `Date WordPress was launched: May 27, 2003.`,
+            ],
+            list2: [
+                `A blogger named Christine Tremoulet coined the name “WordPress”.`,
+                `WordPress powers 27% of all websites online.`,
+                `WordPress has official events called WordCamps. These events are held in 41 countries and more than 36,000 WordPress users attend. More than 140 WordCamps were held in 2018 alone.`,
+                `There are 1,660 WordPress meetup groups with 782,141 active members in 58 countries.`,
+                `WordPress is written in PHP, JavaScript, and uses MySQL databases.`,
+                `WordPress provides free community support on the official WordPress forum.`,
+                `WordPress is designed to automatically update to new versions, however, plugins must be manually updated.`,
+                `You can get a free, hosted version of WordPress on wordpress.com`,
+                `WordPress makes it easy to build and manage multiple WP sites from one dashboard.`,
+                `Top websites powered by WordPress: BBC America, Vogue, Rolling Stone, the White House, Walt Disney.`,
+                `WordPress.com and WordPress.org offer different services. WordPress.com offers users a hosted WordPress website while WordPress.org offers a free download of the core files for self-installation.`,
+            ],
+        },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -3678,6 +3697,78 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                     buttonText: "Tell Us About Your Next Project",
                     onButtonClick: () => alert("Button clicked!"),
                 }
+            ],
+        },
+        faqs: {
+            title: "Frequently Answered Questions (FAQs)",
+            description: "",
+            faqs: [
+                {
+                    question: "What is WordPress and how does it work?",
+                    answer: `WordPress is a content management system (CMS) that enables you to create a website or blog from scratch, or to update an existing website. It is free and open source software released under the GPL, and it is used by millions of people around the world.<br></br>
+
+                    WordPress is based on PHP and MySQL, and it enables you to create pages and posts, add images and videos, and customize your website design. You can also use plugins to add features and functionality to your website, or to improve your website’s security.<br></br>
+
+                    While WordPress is an established player in the world of content management, it is not without its flaws. As the CMS that powers nearly 20% of the web (an estimated 455 million sites on the internet use WordPress), it is more prone to attacks and vulnerabilities. WordPress developers are regularly required to provide updates for PHP, WordPress plugins, website templates, WordPress software or the WordPress core. And, if not performed properly, these updates can cause website designs to break and functionality to stop working as advertised.<br></br>
+
+                    A web development team with a custom WordPress developer dedicated to your site and project will help to alleviate any on-going update and management issues you may encounter.`,
+
+                },
+                {
+                    question: "What are the basics of creating a WordPress website?",
+                    answer: `When creating a website with WordPress, there are three basic steps you need to take:<br></br>
+
+                        1. Choosing a domain name is the first step in setting up your website. This is the address of your website (e.g., www.example.com) and should be something that represents your business or brand. You can purchase a domain name from a number of different providers, such as GoDaddy, Namecheap, or Google Domains.<br></br>
+
+                        2. Once you’ve chosen a domain name, you’ll need to set up hosting for your website. This is where your website’s files will be stored and made available to visitors online. There are many different hosting providers to choose from, such as Bluehost, HostGator, and WP Engine.<br></br>
+
+                        3. The last step in setting up your website is installing WordPress. This can be done by downloading the WordPress files from WordPress.org and uploading them to your hosting account, or by using a provider’s one-click installation process.<br></br>
+
+                        Once you have installed WordPress, you’ll need to choose a theme for your website and start adding content. There are thousands of free and premium themes available on the internet, and you can install them by simply downloading them and uploading them to your site. You can also use plugins to add more features and functionality to your site.<br></br>
+
+                        To add content to your website, you can use the built-in editor or write posts in a software like Microsoft Word and then copy and paste them into your WordPress director or WordPress repository. You can also add images, videos, and other multimedia content to your posts and pages via the block editor (after first creating blocks) or by the classic WSYWIG editor.<br></br>
+
+                        To promote your website, you can submit it to directories like DMOZ and Google Maps, create social media profiles for your business, and write guest posts for other websites. You can also use advertising or search engine optimization (SEO) techniques to drive traffic to your site.<br></br>`,
+
+                },
+                {
+                    question: "How do you add content to your WordPress website?",
+                            answer: `Adding content to your website is easy with WordPress. You can add text, images, and videos to your pages, and you can also create blog posts. Here are some tips for adding content to your website:<br></br>
+                        <ul>
+                        <li>When creating a page or post, be sure to include a title and a description.</li>
+                        <li>Add images and videos to your pages and posts to help illustrate your content.</li>
+                        <li>Use headings and subheadings to organize your content.</li>
+                        <li>Format your text using HTML tags.</li>
+                        <li>Add links to other websites and articles.</li>
+                        <li>Use the editor’s toolbar to add formatting to your text.</li>
+                        <li>Preview your page or post before publishing.<br></br></li>
+                        </ul>
+                        If you don’t have your own content, our writer team can work with you to create custom, quality written content at a fraction of the cost, ensuring your pages are not only beautiful, but are also optimized from a digital marketing perspective.`,
+                },
+                {
+                    question: "How to find the best WordPress developers?",
+                            answer: `When looking hire WordPress developers, it’s important to find someone who is knowledgeable and experienced in the platform. Here are some tips for finding the best developer for your project:<br></br>
+                        <ul>
+                        <li>Ask around for recommendations. Chances are, you know someone who has used a WordPress developer in the past. Ask them for recommendations and advice.</li>
+                        <li>Do your research. There are many developers out there, so take the time to do some research and find the best one for your project.</li>
+                        <li>Interview potential developers. Talk to them about their experience with WordPress, their development process, and what they can do to help you achieve your goals.</li>
+                        <li>Make sure the developer is familiar with the latest version of WordPress. The platform is constantly evolving, so it’s important to work with a developer who is up to date on the latest changes and updates.</li>
+                        <li>AFinding the right WordPress developer can be a daunting task, but if you follow these tips, you’re sure to find someone who can help you achieve your website goals.</li>
+                        </ul>
+                       Huge discrepancies in quality abound when it comes to hiring WordPress developers. With DEV.co you will hire WordPress developers that have been fully vetted for their quality, including senior developer and database management skills.`,
+                },
+                {
+                    question: "What are some tips for developing and designing a WordPress website?",
+                            answer: `When designing your website, be sure to consider the following tips:<br></br>
+                        <ul>
+                        <li>Use a consistent layout throughout your website.</li>
+                        <li>Choose a color scheme and stick to it.</li>
+                        <li>Use fonts that are easy to read.</li>
+                        <li>Keep your website’s design simple and uncluttered.</li>
+                        <li>Make sure all of your pages load quickly.</li>
+                        <li>Test your website on different browsers and devices.</li>
+                        </ul>`,
+                },
             ],
         },
     },

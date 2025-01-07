@@ -104,7 +104,8 @@ export const locationsdata = [
             ],
         },
 
-        Loctextmedia: {
+        Loctextmedia: 
+        {
             contentData: [
                 {
                     title: `How We Can Help`,
@@ -4212,7 +4213,7 @@ Specifically, here is how we can help your Los Angeles business thrive in your c
 We work together with our clients to understand their goals and vision and create a website they’ll be most interested in.
 
 `,
-         },
+    },
       },
 
       {
@@ -4220,15 +4221,17 @@ We work together with our clients to understand their goals and vision and creat
         slug: "lubbock",
         top_title: "Lubbock Custom Software Development Company",
         top_description: `DEV.co has been designing and developing custom software and fully functional websites for over a decade.
-<BR></BR>
+<br></br>
 We also develop mobile-friendly sites based on the latest application frameworks such as Angular and React.
-<BR></BR>
+<br></br>
 Our team develops websites using a combination of open-source technologies and frameworks including Node.js, HTML5, LESS/CSS3, Photoshop/Gimp, as well as off-the-shelf tools such as WordPress and Drupal that are constantly being updated with new features.
-<BR></BR>
+<br></br>
 In addition to our web design services, we offer tailored solutions in mobile app development and comprehensive maintenance services to keep sites and mobile applications running smoothly.
-<BR></BR>
+<br></br>
 Our experienced team of software developers ensures each project meets specific requirements and enhances functionality to provide clients with scalable, high-quality software development services.`,
+
         
+
         Locationheadtextsection: {
             contentData: [
                 {
@@ -4238,24 +4241,27 @@ Our experienced team of software developers ensures each project meets specific 
 For our clients’ peace of mind, we offer ongoing hosting and marketing services at no additional cost to ensure user engagement via the web on a daily basis.
 <br></br>
 DEV.co is a small but mighty team of designers, developers, and marketers ready to take on development projects – both big and small. We have developed over 1000 custom websites that meet all web design standards including W3C compliant HTML5 and CSS3 code; SEO-friendly URLs; fast load times; and eye-catching designs.`,
-
                     imageSrc: "/images/Lubbock_Outline Stroke.png",
-                    imageAlt: "Software Development in Albuquerque",
+                    imageAlt: "Software Development in Albuquerque"
                 },
                 {
-                    title: `
-Superior Website Quality`,
+                    title: `Superior Website Quality`,
                     paragraph:`Popular websites can be a valuable asset for a small business or start-up. To drive a successful and progressive web presence, we provide full website design services since 2005. We work with your online marketing strategy to reach more clients, retain current ones, and innovate your way above your opposition.  DEV.co is an unconventional agency.
 <br></br>
 We create and maintain fully functional websites for small businesses and startups, and we do it at a fraction of the cost of our competitors. With a team full of designers and engineers who actually understand how web technology works, we focus on quality instead of budget, delivering top titles. We specialize in custom software development using Unity3D. The best part? Our ingenious team saves you money by getting it done right the first time.
 <br></br>
-All of our websites are designed and developed in-house, using the very latest HTML5 and CSS3 technologies. Our Content Management System allows you to update content anytime from anywhere, without additional fees. We also offer maintenance packages that will allow you to focus on your business rather than maintaining your site.`,
+All of our websites are designed and developed in-house, using the very latest HTML5 and CSS3 technologies. Our Content Management System allows you to update content anytime from anywhere, without additional fees. We also offer maintenance packages that will allow you to focus on your business rather than maintaining your site.
 
+`,
                     imageSrc: "",
                     imageAlt: "The Importance of Website Quality",
-                    listItems: [],
-                    bottomline:``,
-                },
+                }
+            ]
+        },
+
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
                     paragraph:`At DEV.co we develop ideas that are challenged by cutting-edge technology and the experience of years. We have made a name for ourselves as a successful, global development team who are never done learning and always looking for new challenges. Our team of talented individuals works closely with our clients to ensure that the websites we create are both functional and engaging.
@@ -4263,24 +4269,24 @@ All of our websites are designed and developed in-house, using the very latest H
 DEV.co’s focus is on evolving your idea into a company fully equipped to survive in today’s fast-paced, digital market.   Our team of experienced designers and developers creates websites that are fully functional, attractive, search-friendly, easily maintained, and updated.
 <br></br>
 With more than ten years of experience, a wide breadth of skills, and a background in the advertising world, we know what it takes to make you look good online. We also understand that every business is different and has its own needs and goals. So we don’t provide a one-size-fits-all solution. Our sites are tailored for each client’s unique objectives with targeted traffic in mind.`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [],
-                    bottomline:``,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "Here are the other benefits when you choose to work with us:",
+                    listItems: [
+                       
+                      ],
                 },
-                
-            ],
+            ]
         },
-
-
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
-          paracontent: `DEV.co is a website development and design company. We specialize in creating e-commerce platforms for small businesses and organizations that operate on a limited budget.
+            headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+            paracontent: `DEV.co is a website development and design company. We specialize in creating e-commerce platforms for small businesses and organizations that operate on a limited budget.
 <br></br>
-We use state-of-the-art technologies such as responsive web development to ensure a positive experience on your mobile phone or tablet. We have been in business since 2002 and have helped thousands of people realize their dreams. `,
-         },
-      },
+We use state-of-the-art technologies such as responsive web development to ensure a positive experience on your mobile phone or tablet. We have been in business since 2002 and have helped thousands of people realize their dreams.
+
+`,
+        },
+    },
       {
         id: 53,
         slug: "madison",
@@ -4315,23 +4321,28 @@ We are a small team of super excited developers with a combined experience of ov
                     listItems: [],
                     bottomline:``,
                 },
+            ]
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
-                    paragraph:`DEV.co is a professional development company that provides web application and mobile app development using the latest technologies such as Ruby on Rails CMS, AngularJS, Ionic Framework. We have been designing and developing fully functional websites and mobile-friendly sites based on the latest application frameworks. Today, most small to medium-sized businesses and startups trust DEV.co to build their websites or mobile-friendly site or native applications for their business.<br></br>
-
+                    paragraph:`DEV.co is a professional development company that provides web application and mobile app development using the latest technologies such as Ruby on Rails CMS, AngularJS, Ionic Framework. We have been designing and developing fully functional websites and mobile-friendly sites based on the latest application frameworks. Today, most small to medium-sized businesses and startups trust DEV.co to build their websites or mobile-friendly site or native applications for their business.
+<BR></BR>
 DEV.co is a unique, Web Design and Development company. We give our customers what they want in a website or web application. We are based on the latest application frameworks: Bootstrap, Angular, jQuery Mobile, Sencha Touch, etc.
-<br></br>
+<BR></BR>
 DEV.co designs and develops sites based on current development methodologies to the highest standards in modern web development practice; we are experts in Drupal 7/8 ‘bakery’ configuration with a proven track record in developing and maintaining large and complex websites. Dev.co is the online marketplace that connects small businesses with sites still under development by top web developers.`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [],
-                    bottomline:``,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      
+                      ],
+                      bottomline:``,
                 },
-                
-            ],
+            ]
         },
-
 
         codeheadingsection: {
           headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
@@ -4389,34 +4400,37 @@ Secondly, without the proper expertise, you may create a website full of technic
                        
                     ],
                     bottomline:``,
-                },
+                }
+                    
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `How We Can Help`,
                     paragraph:`At Dev.co, we take a lot of pride in the work we do here. With that being said, you can rely on us to create a website that will improve your online presence and help you outrank your competitors.
 <br></br>
 When you choose to work with us, here are some benefits you can take advantage of:`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems:
+                     [
                         "We have a team of more than 250+ people capable of levering cross-functional capabilities. This means you are more likely to be paired with a developer that knows your industry inside and out.",
                         "We have additional access to onshore and offshore teams for very large website development projects.",
                         "All of our developers have been vetted rigorously to ensure that we never under-deliver.",
                         "We have direct experience in working with small businesses and Fortune 500 companies.",
                         "We will assign you a project manager that will coordinate your entire website development project.",
-                        "You can count on us to deliver exceptional results.",
-                       
-                    ],
-                    bottomline:``,
-                },
-                
-                
-            ],
+                        "You can count on us to deliver exceptional results."
+                    ]
+                }
+            ]
         },
 
      
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `Formed in 2008, we have worked with thousands of companies throughout the country. Over the years, we have built a remarkable reputation as the leading website developer in Memphis.
 <br></br>
 By choosing to work with us, our team will uphold the highest standards of service and customer satisfaction. What we bring to the table is our amazing attention to detail and commitment to each client we serve.
@@ -4467,29 +4481,30 @@ By leveraging the latest technologies, we deliver custom application development
                     ],
                     bottomline:``,
                 },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `How We Can Help`,
                     paragraph:`If you’re looking for high-quality web design services in Mesa, then you’ve come to the right place. At Dev.co, we have built a strong reputation for being the leading website provider in Mesa.
-<br></br>
-When you choose to work with us, here are all of the benefits you can expect to receive:
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+                    <br></br>
+                    When you choose to work with us, here are all of the benefits you can expect to receive:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                        "Our team consists of more than 250+ developers. This means that your developer will likely know your business inside and out.",
-                       "We have access to both onshore and offshore teams of staff for extraordinarily large website development projects.",
-                       "All of our developers have been vetted to make sure that they will only provide quality web design services in Mesa.",
-                       "We have actionable experience in working with both Fortune 500 companies and local business clients.",
-                       "We will assign a dedicated project manager to your team to ensure that it’s completed on time and on budget.",
-                       "We have experience in delivering exceptional results for your website project.",
-                    ],
-                    bottomline:`Thousands of businesses have relied on us to develop their website. As you can see, there are several reasons why you should do the same.`,
+                       "Our team consists of more than 250+ developers. This means that your developer will likely know your business inside and out.",
+                      "We have access to both onshore and offshore teams of staff for extraordinarily large website development projects.",
+                      "All of our developers have been vetted to make sure that they will only provide quality web design services in Mesa.",
+                      "We have actionable experience in working with both Fortune 500 companies and local business clients.",
+                      "We will assign a dedicated project manager to your team to ensure that it’s completed on time and on budget.",
+                      "We have experience in delivering exceptional results for your website project.",
+                      ],
+                      bottomline:`Thousands of businesses have relied on us to develop their website. As you can see, there are several reasons why you should do the same.`,
                 },
-                
-                
-            ],
+            ]
         },
 
      
@@ -4543,28 +4558,29 @@ You shouldn’t rely on an inexperienced agency to handle your website developme
                        
                     ],
                     bottomline:``,
-                },
+                } 
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `How We Can Help`,
-                    paragraph:`Founded in 2008, we started as a financial and advertising software consulting firm. Over the years, we have serviced thousands of clients in Miami and across the country. When you choose to work with us, you can expect to receive all of the following benefits:
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+                    paragraph:`Founded in 2008, we started as a financial and advertising software consulting firm. Over the years, we have serviced thousands of clients in Miami and across the country. When you choose to work with us, you can expect to receive all of the following benefits:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                      "We have a team of 250+ developers. This means that you will at least be paired with a developer that knows your business inside and out.",
-                      "We have an additional team of more than 500+ people that can handle exceptionally large website development projects.",
-                      "Our team of developers have been vetted rigorously to ensure that we provide high-quality web development services in Miami.",
-                      "We have actionable experience in working with both local businesses and Fortune 500 companies.",
-                      "We will assign a project manager to your project to ensure that it’s completely on track.",
-                      "We have immense experience in delivering desirable results.",
-                    ],
-                    bottomline:``,
+                       "We have a team of 250+ developers. This means that you will at least be paired with a developer that knows your business inside and out.",
+                       "We have an additional team of more than 500+ people that can handle exceptionally large website development projects.",
+                       "Our team of developers have been vetted rigorously to ensure that we provide high-quality web development services in Miami.",
+                       "We have actionable experience in working with both local businesses and Fortune 500 companies.",
+                       "We will assign a project manager to your project to ensure that it’s completely on track.",
+                       "We have immense experience in delivering desirable results.",
+                      ],
+                      bottomline:``,
                 },
-                
-                
-            ],
+            ]
         },
 
      
@@ -4619,34 +4635,32 @@ It also isn’t as simple as researching how to create a successful website. You
                        
                     ],
                     bottomline:``,
-                },
+                }
+            ]
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `How We Can Help`,
                     paragraph:`We have made it our mission to deliver high-quality websites to both local and corporate businesses in Milwaukee. Over the years, we have built a remarkable reputation as one of the top web design agencies in Milwaukee.
 <br></br>
-When you choose to work with us, here are benefits you can expect to receive:
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+When you choose to work with us, here are benefits you can expect to receive:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                      "We have a team of more than 250+ developers. When you select our agency to work with, you’ll be paired with a skilled developer that knows your business inside and out",
+                       "We have a team of more than 250+ developers. When you select our agency to work with, you’ll be paired with a skilled developer that knows your business inside and out.",
                       "We have access to additional team members up to 500+ for extraordinarily large website development projects.",
                       "Our team of developers have been rigorously vetted to ensure that we maintain the highest quality control.",
                       "We have in-depth experience in working with both small businesses and Fortune 500 companies.",
                       "We will assign you a project manager to ensure that your project is completed on course.",
-                      "We will assign you a project manager to ensure that your project is completed on course.",
-                    ],
-                    bottomline:`
-As you can see, there are a lot of different reasons why you should hire our agency. Partner with us today to create a website that complements your brand.`,
+                      "You can count on us to deliver outstanding results with your website."
+                      ],
+                      bottomline:`As you can see, there are a lot of different reasons why you should hire our agency. Partner with us today to create a website that complements your brand.`,
                 },
-                
-                
-            ],
+            ]
         },
-
-     
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
           paracontent: `Our team has more than a decade of web development experience in Milwaukee. Over the years, we have serviced thousands of clients across varying industries. Our clients regularly count on us to deliver top-notch websites.
@@ -4714,7 +4728,7 @@ With DEV.co you can quickly create a professional website, domain, and email add
         },
 
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `
 DEV.co is a website development service that offers a faster and more collaborative way to develop websites. It all starts with an initial consultation.
 <br></br>
@@ -4760,30 +4774,35 @@ This way, your website’s quality will excel and you’ll put forth a website t
                         
                     ],
                     bottomline:``,
-                },
-                
-                {
-                    title: `How We Can Help`,
-                    paragraph:`TWe take total pride in our work here at Dev.co. When you choose to work with us, we will ensure that your website is completed to your total satisfaction. Here are some of the benefits you can expect working with us:`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                        "We have a team of more than 250+ developers. This means you can count on the possibility of being paired with a skilled developer who knows your industry inside and out.",
-                        "We have access to additional teams for large website development projects that require pressing staffing requirements.",
-                        "All of our developers have been properly vetted to make sure you will never receive a faulty website for your company.",
-                        "We have immense experience in working with both local businesses and corporate enterprises, such as Fortune 500 companies.",
-                        "We will assign you a project manager that will ensure that your website development project transitions smoothly.",
-                        "We have direct experience in delivering high-quality results for our clients.",
-                    ],
-                    bottomline:``,
-                },
+                }
                 
             ],
         },
 
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`IWe take total pride in our work here at Dev.co. When you choose to work with us, we will ensure that your website is completed to your total satisfaction. Here are some of the benefits you can expect working with us:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                     "We have a team of more than 250+ developers. This means you can count on the possibility of being paired with a skilled developer who knows your industry inside and out.",
+                     "We have access to additional teams for large website development projects that require pressing staffing requirements.",
+                     "All of our developers have been properly vetted to make sure you will never receive a faulty website for your company.",
+                     "We have immense experience in working with both local businesses and corporate enterprises, such as Fortune 500 companies.",
+                     "We will assign you a project manager that will ensure that your website development project transitions smoothly.",
+                     "We have direct experience in delivering high-quality results for our clients."
+                      ],
+                      bottomline:`T`,
+                }
+            ]
+        },
+
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `Founded in 2008, our company started as a financial and advertising consulting firm. We take a tactical approach to all of our website design projects, ensuring the use of data-driven methods that will create a success product.
 <br></br>
 No matter how large or demanding your web design needs are, our large team can handle your requests. Until you are fully satisfied, we will continue working on your behalf. This is our mission, to uphold the highest standards of customer satisfaction and service.
@@ -4839,7 +4858,13 @@ We build clean, organized, detailed sites that are easy to navigate whether you�
                        
                     ],
                     bottomline:``,
-                },
+                },    
+            ]
+        },
+
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
                     paragraph:`With deep expertise in application and website development and design, our team of qualified designers and developers will build your website from the design phase all the way through to the final product.
@@ -4848,22 +4873,17 @@ We’ll work with you to ensure that your needs have been met and, if changes ar
 <br></br>
 DEV.co is an in-house development agency, headquartered in New Orleans. This means that we are involved in every step of all of our projects from the first sketch to the final delivery.
 <br></br>
-With years of experience, we’ve got the right balance of quality and value for every project we undertake. So, if you’re ready to get noticed online with a professional-looking site that grows steadily through search engine rankings, contact us today!
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+With years of experience, we’ve got the right balance of quality and value for every project we undertake. So, if you’re ready to get noticed online with a professional-looking site that grows steadily through search engine rankings, contact us today!`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                    
-                    ],
-                    bottomline:``,
+                       
+                      ],
+                      bottomline:``,
                 },
-                
-                
-            ],
+            ]
         },
-
-     
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
           paracontent: `DEV.co specializes in the full-stack design of websites for small businesses and start-ups. With over 10 years of experience, many completed projects, and numerous awards, we know what it takes to launch a compelling website that will attract customers. We invest in quality design. We can help you get more leads and sales for your business.
@@ -4954,7 +4974,7 @@ Here is how we can help you build the perfect website for your business:`,
             ],
         },
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `With more than a decade of web development experience, we possess all the tools and resources to get the job done. Our development and support team will work tirelessly on your behalf to ensure that your website is always able to rank on major search engines.
 
 `,
@@ -4974,41 +4994,56 @@ Our Front-End Architect has 14 years of professional experience as a Front-End D
             contentData: [
                 {
                     title: `Web Design in Newark`,
+                    paragraph:`Want a high-performing website? Not happy with cookie-cutter solutions? DEV.co works with you to design and build your custom eCommerce, web application, or membership site.
+<BR></BR>
+Our web development team has been recognized for its creativity and expertise by Fast Company and Code Magazine as well as our ever-expanding network of top clients.
+<BR></BR>
+Whether you’re a developer building your own apps or a small business owner looking to design your own online store, DEV.co has created the web’s most versatile and powerful platform, whether you’re using a desktop or mobile device.
+<BR></BR>
+Our beautifully crafted WordPress theme and plugins allow you to create anything you need — and you can do it all yourself. DEV.co has all the tools you need to help your business succeed online.
+<BR></BR>
+We provide websites that are tailored to you, and we’re constantly pushing the envelope to offer new services that meet changing expectations in the digital space. Whether you’re a sole proprietor, start-up, or established business, we can make sure that your digital presence is a strategic advantage. `,
+
+                    imageSrc: "/images/Nerwark_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
                     paragraph:`Whether you’re thinking of re-launching an existing site or looking to launch a completely new one, our team is ready to help you build your dream website just the way you want it.
 <BR></BR>
 At DEV.co, we take pride in creating customized and fully functional websites that align with your business goals and help you grow. Whether you’re looking to increase brand awareness, drive conversions, increase leads, or bring in revenue, we can help you make it happen.
 <BR></BR>
 DEV.co is a one-stop shop for businesses that need help taking their product or service idea to the next level, by creating an innovative and easily customizable website that aligns with your business goals and helps you grow.
 <BR></BR>
-We specialize in using our software engineering expertise to help new ventures bring their product or service vision to life, using the cutting-edge technology of today.`,
-
-                    imageSrc: "/images/Nerwark_Outline Stroke.png",
-                    imageAlt: "Software Development in Albuquerque",
-                },
-                {
-                    title: `Our Capabilities`,
-                    paragraph:`We recognize that developing an irresistible brand takes time. It requires thorough research and a detailed understanding of your business, coupled with the right expertise to conceive and develop new strategies and creative solutions in alignment with your vision.
-<BR></BR>
-Whether you’re trying to target a specific group of users or want to capture emails from visitors in order to market to them in the future, DEV.co can build it for you. With full-stack development support from graphic design and business consulting to marketing and customer service, we’ll help you develop a brand that will grow your business over the long term, ensuring that you get the most return on your investment.
-<BR></BR>
-The experience development process begins with internal collaboration among DEV.co’s core group of multi-disciplined designers, strategists, and project management personnel.
-<BR></BR>
-We take a utilitarian approach to design and development in order to achieve desired objectives while offering optimal usability for the client. This process involves several ideation rounds, user tests, and strategic planning sessions, each focused on developing the best possible solution for the project.
-
+We specialize in using our software engineering expertise to help new ventures bring their product or service vision to life, using the cutting-edge technology of today.
 
 `,
 
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                       
-                    ],
-                    bottomline:``,
+                   
                 },
-              
-                
-                
-            ],
+            ]
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We recognize that developing an irresistible brand takes time. It requires thorough research and a detailed understanding of your business, coupled with the right expertise to conceive and develop new strategies and creative solutions in alignment with your vision.
+<br></br>
+Whether you’re trying to target a specific group of users or want to capture emails from visitors in order to market to them in the future, DEV.co can build it for you. With full-stack development support from graphic design and business consulting to marketing and customer service, we’ll help you develop a brand that will grow your business over the long term, ensuring that you get the most return on your investment.
+<br></br>
+The experience development process begins with internal collaboration among DEV.co’s core group of multi-disciplined designers, strategists, and project management personnel.
+<br></br>
+We take a utilitarian approach to design and development in order to achieve desired objectives while offering optimal usability for the client. This process involves several ideation rounds, user tests, and strategic planning sessions, each focused on developing the best possible solution for the project.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      
+                      ],
+                      bottomline:``,
+                },
+            ]
         },
 
      
@@ -5069,33 +5104,28 @@ DEV.co can produce web and mobile applications with development and UX teams sup
                        
                     ],
                     bottomline:``,
-                },
+                },               
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
-                    paragraph:`DEV.co is serious about building websites that make their owners serious money. From the initial consultation to final checkout, we at DEV.co approve every project from concept to completion, keeping it in line with your business goals and ensuring there are no hidden fees or fine print.
+                    paragraph:`IDEV.co is serious about building websites that make their owners serious money. From the initial consultation to final checkout, we at DEV.co approve every project from concept to completion, keeping it in line with your business goals and ensuring there are no hidden fees or fine print.
 <br></br>
 We specialize in WordPress web design and development, WooCommerce e-Commerce solution, together with Bootstrap for CSS / UI customization, and Shopify for Magento eCommerce stack.
 <br></br>
-DEV.co is a web development company that creates stunning, functional, and highly adaptable websites using the latest technologies and platforms. We are a creative agency that can help you create breakthrough solutions for your business vision, improving your bottom line and increasing your brand awareness.
-
-
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+DEV.co is a web development company that creates stunning, functional, and highly adaptable websites using the latest technologies and platforms. We are a creative agency that can help you create breakthrough solutions for your business vision, improving your bottom line and increasing your brand awareness.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                       
-                    ],
-                    bottomline:``,
-                },
-              
-                
-                
-            ],
+                       ],
+                      bottomline:``,
+                }
+            ]
         },
-
-     
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
           paracontent: `If you’re looking for a website development company, DEV.co is the way to go. With an experienced team of development specialists, this firm can make your dreams come true. Whether it’s a small business website or a blog, you’ll get the most innovative sites in the industry.
@@ -5141,12 +5171,11 @@ DEV.co is an interactive agency for all skill levels, from beginners to professi
                 },
                 {
                     title: `Superior Website Quality`,
-                    paragraph:`Whether you want to empower your team with a private intranet, sell your products online, or simply update your company’s website, DEV.co makes it easy.
+                    paragraph:`DEV.co aims to provide the best user experience in the development business. We want clients and staff to be proud of what we do together; we want them to look forward to sharing our work with their friends, peers and family. That is why we built DEV.co – to create websites, apps and custom digital solutions that move prospects and customers forward.
 <br></br>
-Just plug in the custom design and development framework, and we’ll build a brand-new site for you that works on any device. We’ve been building sites and mobile apps since the web was young – from start-ups to Fortune 500s, you can depend on us to get it done right.
+DEV.co is your one-stop solution for all of your new media needs. We build websites, apps and custom digital solutions at the best price possible.
 <br></br>
-DEV.co can produce web and mobile applications with development and UX teams supported by a design team, technology partner, and project managers, all collaborating across office locations and time zones to deliver the best possible application both on time and within the budget, 5 days a week, 52 weeks a year.
-
+DEV.co is a website development company that creates websites, apps and custom digital solutions for clients across a range of markets. From web design and development to digital marketing, we are experts in the field and have worked with start-ups and Fortune 500 companies around the globe.”
 `,
 
                     imageSrc: "",
@@ -5155,7 +5184,12 @@ DEV.co can produce web and mobile applications with development and UX teams sup
                        
                     ],
                     bottomline:``,
-                },
+                }
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
                     paragraph:`DEV.co is a website development company that creates websites, apps and custom digital solutions for clients across a range of markets. DEV.co provides the tools you need to create smoothly transitioning apps designed for mobile devices with cross-browser compatibility and code that keeps up to date by itself.
@@ -5164,25 +5198,17 @@ Smooth transitions are just one example of the possibilities enabled by DEV.co�
 <br></br>
 DEV.co is a website development company that creates websites, apps, and custom digital solutions for clients across a range of markets. When their former digital marketing agency closed its doors, leaving them in need of an agency to provide creative ideas to steer their company forward, they needed a partner they could trust.
 <br></br>
-DEV.co chose to work with Adaptive Path because they were clear about their approach and because they thought we would understand what they do as developers better than most agencies.
-
-
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+DEV.co chose to work with Adaptive Path because they were clear about their approach and because they thought we would understand what they do as developers better than most agencies.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                       
-                    ],
-                    bottomline:``,
-                },
-              
-                
-                
-            ],
+                      
+                      ],
+                      bottomline:``,
+                }
+            ]
         },
-
      
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
@@ -5244,31 +5270,30 @@ Software development companies can provide a wide range of solutions for busines
                        `<b>Reduced costs</b> – Custom software can also help businesses save money by reducing the need for expensive hardware and software licenses. This can help businesses reduce their overall IT costs and improve their bottom line.`
                     ],
                     bottomline:``,
-                },
+                }
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `Our Capabilities`,
                     paragraph:`With over a decade in the trenches, developing custom software for clients, the team at DEV.co has the experience and expertise that you need to find the right solution for your business.
 <br></br>
 We will work with you to understand your specific needs and requirements, and then we will create a custom software solution that is tailored specifically for your business.
 <br></br>
-Contact us today to learn more about how we can help you!
-
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+Contact us today to learn more about how we can help you!`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
-                       
-                    ],
-                    bottomline:``,
+                      
+                      ],
+                      bottomline:``,
                 },
-              
-                
-                
-            ],
+            ]
         },
-        
+
       },
 
       {
@@ -5313,28 +5338,32 @@ Also, creating a website is a specialized process. It requires the expertise of 
                     ],
                     bottomline:``,
                 },
-                {
-                    title: `How We Can Help`,
-                    paragraph:`At Dev.co, we have more than 10 years of experience in the Omaha website development industry. Starting as a financial and advertising software consulting firm, we have developed thousands of websites over the years.
-<br></br>
-No matter if you need an online store or a traditional website, we’ve got you covered. Here are all of the benefits you can look forward to when you choose to work with us:`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                      "We have a team of more than 250+ software developers. This means you are most likely to receive help from a developer that fully knows what a successful website looks like for your business.",
-                      "We have access to onshore and offshore teams to work on exceptionally large website development projects.",
-                      "All of our developers have been vetted rigorously to maintain the highest quality control.",
-                      "We have actionable experience in working with both nearby businesses and Fortune 500 companies.",
-                      "We will assign a dedicated project manager to your team to ensure that it’s completed on task.",
-                      "We have immense experience in delivering top-notch results.",
-                    ],
-                    bottomline:``,
-                },
-            ],
+            ]
         },
 
-
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`It Dev.co, we have more than 10 years of experience in the Omaha website development industry. Starting as a financial and advertising software consulting firm, we have developed thousands of websites over the years.
+<br></br>
+No matter if you need an online store or a traditional website, we’ve got you covered. Here are all of the benefits you can look forward to when you choose to work with us:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                       "We have a team of more than 250+ software developers. This means you are most likely to receive help from a developer that fully knows what a successful website looks like for your business.",
+                       "We have access to onshore and offshore teams to work on exceptionally large website development projects.",
+                       "All of our developers have been vetted rigorously to maintain the highest quality control.",
+                       "We have actionable experience in working with both nearby businesses and Fortune 500 companies.",
+                       "We will assign a dedicated project manager to your team to ensure that it’s completed on task.",
+                       "We have immense experience in delivering top-notch results."
+                      ],
+                      bottomline:``,
+                }
+            ]
+        },
         codeheadingsection: {
           headingContent: `Maximizing Your Investment`,
           paracontent: `The team at Dev.co, specializes in maintaining the highest standards of customer satisfaction and service. This means that we are never finished with your website until you’re fully satisfied.
@@ -5382,27 +5411,29 @@ DEV.co offers a solution to the rapid building of websites and applications. You
                     ],
                     bottomline:``,
                 },
-                {
-                    title: `Our Capabilities`,
-                    paragraph:` DEV.co focuses on helping software companies show off their software online. Our hosted websites are built to be mobile responsive and give users a great product experience by allowing them to easily sign up for a free trial without having to enter credit card information.
-<br></br>
-Use DEV.co to build your next web or mobile app at an affordable price. We designed these products with the end-user in mind; our design guidelines are easy to follow and there’s limited technical jargon involved. What’s more, we work with various experienced groups to ensure the best code possible for your new project.
-<br></br>
-DEV.co is a one-stop solution for anything related to design, development, marketing, and even CodePen. You can hire developers and designers to build your dream app or website and sign up for a CodePen subscription as well. DEV.co’s complex yet sleek interface is an added bonus that will change the way you work and live with your data.
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                      
-                    ],
-                    bottomline:``,
-                },
             ],
         },
 
-
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`DEV.co focuses on helping software companies show off their software online. Our hosted websites are built to be mobile responsive and give users a great product experience by allowing them to easily sign up for a free trial without having to enter credit card information.
+<br></br>
+Use DEV.co to build your next web or mobile app at an affordable price. We designed these products with the end-user in mind; our design guidelines are easy to follow and there’s limited technical jargon involved. What’s more, we work with various experienced groups to ensure the best code possible for your new project.
+<br></br>
+DEV.co is a one-stop solution for anything related to design, development, marketing, and even CodePen. You can hire developers and designers to build your dream app or website and sign up for a CodePen subscription as well. DEV.co’s complex yet sleek interface is an added bonus that will change the way you work and live with your data.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                       
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
           paracontent: `Instant online visibility for your business by DEV.co. With dozens of custom domains to choose from, there’s a .co for everyone. And our simple website builder makes it easy to have a beautiful site up and running in minutes. We focus on making our hosting service fast, reliable, and affordable; and keeping it innovative.
@@ -5432,7 +5463,7 @@ It’s also the site of corporate headquarters for Comcast, Aramark, and CIGNA. 
 <br></br>
 If you run any type of business in this city, having an established digital presence is essential. With an exceptional website from our Philadelphia web design agency, you can thrive in your industry and surpass your competitors.`,
 
-                    imageSrc: "/images/Los Angeles_Outline Stroke.png",
+                    imageSrc: "/images/Philadephia_Outline Stroke.png",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5452,35 +5483,31 @@ While anyone can create a website, not everyone can build the perfect website fo
                         "The website you create may not rank well on major search engines like Google and Bing.",
                     ],
                     bottomline:`As you can see, anyone can’t create a great website. You can rely on our expertise to help you create a site your web visitors will enjoy.`,
-                },
-                {
-                    title: `How We Can Help`,
-                    paragraph:`FAt Dev.co, we take immense pride in the work we do here. With a high commitment to service and customer satisfaction, we’ll provide the following benefits to Philadelphia businesses:
-
-
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                      "You can take advantage of our team of more than 250 software developers with experience in virtually every business industry.",
-                      "We have the resources to scale our development operations for projects with large staff requirements.",
-                      "All of our software developers are properly vetted before they work on any project.",
-                      "All of our software developers are properly vetted before they work on any project.",
-                      "We work with both small businesses and Fortune 500 companies.",
-                      "Our project managers coordinate our tasks to ensure everything is completed on time and on budget."
-                    ],
-                    bottomline:``,
-                },
-                
-                
+                }  
             ],
         },
-
-        
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take immense pride in the work we do here. With a high commitment to service and customer satisfaction, we’ll provide the following benefits to Philadelphia businesses:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                       "You can take advantage of our team of more than 250 software developers with experience in virtually every business industry.",
+                       "We have the resources to scale our development operations for projects with large staff requirements.",
+                       "All of our software developers are properly vetted before they work on any project.",
+                       "We work with both small businesses and Fortune 500 companies.",
+                       "Our project managers coordinate our tasks to ensure everything is completed on time and on budget.",
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `Established in 2008, Dev.co has built a solid reputation as one of the top web development agencies in Philadelphia. We have more than a decade of experience navigating thousands of web development projects.
 <br> </br>
 When you choose to work with us, we’ll make sure that you receive a website both you and your web visitors will be satisfied with.
@@ -5566,7 +5593,7 @@ With that said, here is the complete steps of our web design process:`,
             ],
         },
         codeheadingsection: {
-          headingContent: `What We <br><span class="text-headingBlue">Bring to </span> the TableInvestment`,
+          headingContent: `What We Bring to the Table`,
           paracontent: `With more than 10 years of web development experience, our team has the tools and resources to spearhead your upcoming web project. What we bring to the table is our experience and knowledge of what it takes to build a successful website in Phoenix.
 <br></br>
 We’re not just any Phoenix web design company. We have built a strong reputation as one of the top web designers in Phoenix, Arizona.
@@ -5617,29 +5644,29 @@ As a result, you should hire a Portland website design agency to handle your upc
                     ],
                     bottomline:``,
                 },
-                {
-                    title: `How We Can Help`,
-                    paragraph:` We have built a strong reputation of being one of the top website development agencies in Portland. This is due, in large part, to the massive amount of benefits we provide to our clients.
-<br></br>
-Here are all of the benefits you can expect when you choose to work with us:
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                        "We have a team of more than 250+ developers. This ensures that your developer will have insider knowledge on what it takes to develop the perfect website for your industry.",
-                        "We have access to additional onshore and offshore teams to assist a hand in large website development projects.",
-                        "All of our developers have been properly vetted to make sure we deliver top-notch web design services in Portland.",
-                        "We work primarily with both Fortune 500 companies and even small businesses.",
-                        "We have a strong commitment to delivering results in all of our projects.",
-                      
-                    ],
-                    bottomline:``,
-                },
+                
             ],
         },
-
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We have built a strong reputation of being one of the top website development agencies in Portland. This is due, in large part, to the massive amount of benefits we provide to our clients.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "Here are the other benefits when you choose to work with us:",
+                    listItems: [
+                       "We have a team of more than 250+ developers. This ensures that your developer will have insider knowledge on what it takes to develop the perfect website for your industry.",
+                       "We have access to additional onshore and offshore teams to assist a hand in large website development projects.",
+                       "All of our developers have been properly vetted to make sure we deliver top-notch web design services in Portland.",
+                       "We work primarily with both Fortune 500 companies and even small businesses.",
+                       "We have a strong commitment to delivering results in all of our projects."
+                      ],
+                      bottomline:`Thousands of businesses have relied on us to develop their website. As you can see, there are several reasons why you should do the same.`,
+                },
+            ]
+        },
 
         codeheadingsection: {
           headingContent: `What We Bring to the Table`,
@@ -5694,33 +5721,32 @@ Lastly, your broken website won’t rank well on major search engines. By hiring
                     ],
                     bottomline:``,
                 },
+            ],
+        },
+
+        Loctextmedia: 
+        {
+            contentData: [
                 {
                     title: `How We Can Help`,
-                    paragraph:` With more than a decade of experience, we have developed countless websites in Raleigh. What’s more is that we work with any type of business, no matter what type of website you need to survive and thrive in your industry.
+                    paragraph:`With more than a decade of experience, we have developed countless websites in Raleigh. What’s more is that we work with any type of business, no matter what type of website you need to survive and thrive in your industry.
 <br></br>
-When you choose to work with us, here are some of the benefits you can look forward to:
-
-
-
-`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
+When you choose to work with us, here are some of the benefits you can look forward to:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
                     listItems: [
                         "Our team of more than 250+ developers can assist your website development project, even if you operate in a specific and unknown niche.",
                         "We have access to both onshore and offshore development teams of more than 500+ people. No matter the size of your website development project, we’ve got you covered.",
                         "All of our developers have been vetted to ensure that we provide quality web design services in Raleigh.",
                         "We specialize in working with both local businesses and Fortune 500 companies.",
                         "We will assign a project manager to your project to ensure that it’s completed on track.",
-                        "We have immense experience in delivering top-notch results for our clients.",
-                      
-                    ],
-                    bottomline:``,
+                        "We have immense experience in delivering top-notch results for our clients."
+                      ],
+                      bottomline:``,
                 },
-            ],
+            ]
         },
-
-
         codeheadingsection: {
           headingContent: `Maximizing Your Investment`,
           paracontent: `A website should do much more than look great. It should convert qualified leads into paying customers. If your website cannot do this, then it’s a failure. We build websites that maximize your initial investment.
@@ -5749,51 +5775,30 @@ If you’re looking for the best website design agency in Sacramento, then you�
             contentData: [
                 {
                     title: `Web Design in Sacramento`,
-                    paragraph:`Most people use the internet to find a local business. After all, it’s never been easier to use a laptop or smartphone to pull up continual listings of nearby businesses. Most people also use the internet to perform research before committing to a purchase.
+                    paragraph:`Sacramento is home to both local businesses and corporate enterprises. Both companies need an online presence in order to survive and thrive in their respective markets.
 <br></br>
-This means anyone that wants to buy a weighted blanket will research it first before making a purchase. As you can see, it’s never been more important to have a website that ranks well on major search engines like Google and Bing.
+For local businesses, having an online presence means positioning yourself on Google Maps, the tool people use to find coffee shops, hotels, and other nearby businesses. For corporate giants, having an online presence means positioning yourself online so that potential customers can learn more about your brand before purchasing.
 <br></br>
-It’s also important to have a website that brilliantly showcases your products and services. The team at Dev.co can create a website that accomplishes all of your marketing objectives.`,
+Creating a top-notch website is the first step to establishing an online presence, and that’s where we can help.`,
 
-                    imageSrc: "/images/Portland_Outline Stroke.png",
+                    imageSrc: "/images/Sacramento_Outline Stroke.png",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
                 
                 {
                     title: `The Importance of Website Quality`,
-                    paragraph:`Website quality is a major issue on the internet today. This is because many people believe that they can simply create their own website using a DIY website builder. This is actually misleading.
+                    paragraph:`It doesn’t matter if you have a website or how much you spent on the project. If your website wasn’t created by a professional Sacramento web design company, then your investment is going to fail.
 <br></br>
-Not anyone can build their own website. By doing so, the quality of your website will suffer tremendously. Also, your website will be full of technical issues that can hinder its performance.
+DIY website builders trick people into believing that anyone can create a website. At Dev.co, we fully understand the complex algorithms major search engines use to rank websites.
 <br></br>
-Lastly, your broken website won’t rank well on major search engines. By hiring a Raleigh website development agency, you can put this important task in the hands of professionals.`,
-
-                    imageSrc: "",
-                    imageAlt: "The Importance of Website Quality",
-                    listItems: [
-                      
-                    ],
-                    bottomline:``,
-                },
-                {
-                    title: `How We Can Help`,
-                    paragraph:` With more than a decade of experience, we have developed countless websites in Raleigh. What’s more is that we work with any type of business, no matter what type of website you need to survive and thrive in your industry.
-<br></br>
-When you choose to work with us, here are some of the benefits you can look forward to:
-
-
+With this knowledge, we’ll model a website that matches the standards major search engines like Google and Bing value the most.
 
 `,
 
                     imageSrc: "",
                     imageAlt: "The Importance of Website Quality",
                     listItems: [
-                        "Our team of more than 250+ developers can assist your website development project, even if you operate in a specific and unknown niche.",
-                        "We have access to both onshore and offshore development teams of more than 500+ people. No matter the size of your website development project, we’ve got you covered.",
-                        "All of our developers have been vetted to ensure that we provide quality web design services in Raleigh.",
-                        "We specialize in working with both local businesses and Fortune 500 companies.",
-                        "We will assign a project manager to your project to ensure that it’s completed on track.",
-                        "We have immense experience in delivering top-notch results for our clients.",
                       
                     ],
                     bottomline:``,
@@ -5801,14 +5806,792 @@ When you choose to work with us, here are some of the benefits you can look forw
             ],
         },
 
-
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`Founded in 2008, we have more than a decade of web development experience. We have helped thousands of businesses in Sacramento and across the country create websites they are proud of.
+<br></br>
+When you choose to work with us, you can expect to receive all of the following benefits:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                       "We have a team of more than 250+ developers. This means you’ll likely be paired with a professional that knows your industry inside and out.",
+                       "We have access to both onshore and offshore teams of talent, exceeding more than 500+ people.",
+                       "All of our developers have been vetted to ensure we maintain excellent quality control.",
+                       "We work with both local businesses and Fortune 500 companies.",
+                       "We will assign a project manager to your project to make sure that it’s completed on your timeframe.",
+                       "We have experience in delivering results to all of our clients."
+                      ],
+                      bottomline:`We have a special commitment to our clients to maintain the highest standards of service and customer satisfaction. When you hire our Sacramento website design agency, you can expect quality service that won’t end until you’re fully satisfied with your final product.`,
+                },
+            ]
+        },
         codeheadingsection: {
           headingContent: `Maximizing Your Investment`,
-          paracontent: `A website should do much more than look great. It should convert qualified leads into paying customers. If your website cannot do this, then it’s a failure. We build websites that maximize your initial investment.
+          paracontent: `There is much more to a website than it’s appearance. While people are extremely judgemental about the design of your website, the design doesn’t matter if your website isn’t built to convert.
 <br></br>
-This means you can expect your website to attract leads that are interested in your products or services and convert them. Your website will provide insight into your offerings and captivate visitors to purchase or visit your business.
+When you work with us, we’ll create a website that fully maximizes your initial investment. With a stronger online presence, you can attract more qualified leads that are ready to buy. Thus, you can increase your potential sales and revenue.
 
 
+`,
+         },
+      },
+      {
+        id: 72,
+        slug: "salt-lake-city",
+        top_title: "Salt Lake City Custom Software Development Company",
+        top_description: `Get started on your next project with DEV’s team of experts and kick-ass technology. Our specialists will build a customized website, mobile app, or connected device from scratch to suit your needs. As a client, you’ll have unlimited access to a dedicated account manager who will provide support and walk you through the development process, from the blueprint to deployment. From inspiration to achievement. The appearance of your business, the way it behaves online and offline, and how well it adapts in an ever-changing digital landscape is all-important.
+<br></br>
+Luckily for you, we are a team of experts that can create a custom website or experience for your business. We’re proud to help companies with end-to-end solutions in web design and development, creative and brand identity development, and more. 
+<br></br>
+Using lean methodologies and the latest technologies, our multi-disciplinary team of designers, developers, marketers, and thinkers create tailored solutions for a variety of verticals around the world – empowering business leaders to focus on driving their bottom line.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`DEV.co offers end-to-end solutions to brands, companies, and startups. Our team helps with web design, development, identity design, marketing, and more. From the logo to the website, we’re here to help you with all your online needs. We’re a website design and development company that helps startups, entrepreneurs, and businesses develop ideas into functional business realities. Our projects include websites, creative branding, and eCommerce solutions.
+<br></br>
+The team at DEV.co brings a mix of design savvy and technology innovation to every project we work on. Here are some of the services we offer: Web Design & Development, Branding & Creative, Visual Storytelling, Mobile Applications, Digital Marketing, and more.
+<br></br>
+DEV.co apps cost as little as possible, & are designed with the same techniques & tools used to build things at Facebook, Twitter, Tumblr, Airbnb, Etsy & Uber. Our goal is to make you look good so you can focus on business.
+`,
+
+                    imageSrc: "/images/Salt Lake City_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`We do what we love: Technology and Internet Strategy, Web Design & Development, Creative Design & Branding Strategy. We are a group of professionals with diverse knowledge around the globe. As a team of award-winning, nationally recognized designers, writers, and developers, DEV.co loves to partner with companies to create effective visual communications solutions. From websites and logo design to brand identity and collateral development, we’re proud to help businesses grow.
+<br></br>
+At DEV.co, we give our clients the tools they need to make their ideas a reality—real solutions, not just websites. By utilizing cutting-edge techniques and best-in-class programs, our team will produce innovative websites that can reach a global audience.
+<br></br>
+We’re an in-house team of designers and developers that crafts innovative websites, modern marketing campaigns, and useful apps. We work alongside your team whether it’s a complete overhaul or small custom adjustments. Let’s build something great together.`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `DEV.co is a product development partnership that helps you launch new products and grow your business. We create custom websites, mobile experiences, and connected devices that help you innovate, differentiate and stay ahead of the competition.
+<br></br>
+Our experts’ partner with startups and leading companies to make products that solve customer problems in new ways. Our team of experts will create a custom website, mobile experience, or connected device for your business. Our experienced team of designers and developers will help you bring your ideas to life.
+<br></br>
+We’ll collaborate with you on every step of the process, from discovery and strategy, through creative development and product delivery. Watch our service video. We’ll work with you to understand your needs and build something that will help bring them to life.
+`,
+         },
+      },
+      {
+        id: 73,
+        slug: "san-antonio",
+        top_title: "San Antonio Custom Software Development Company",
+        top_description: `San Antonio has been voted as one of the best places to live across the country. It’s also a significant cultural and business hotbed. If you’re running any type of business in San Antonio, then you’re going to need a high-quality website to reach your target audience.
+<br></br>
+If this is the case, then you’ve come to the right place. We have built an excellent reputation as one of the top web design agencies in San Antonio. You can rely on us to build the perfect website to complement your brand.
+<br></br>
+With a special commitment to San Antonio businesses, our team is best suited to help take your digital presence to the next level.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in San Antonio`,
+                    paragraph:`San Antonio is not only one of the best cities to live in, but it’s also a rampant business scene. Both local and corporate businesses should definitely have a stable online presence to be able to thrive online.
+<br></br>
+Most consumers use the internet to find these businesses. If your website is nowhere to be found on major search engines like Google and Bing, then there’s a great chance you will lose out on valuable business.
+<br></br>
+Hiring a web design agency in San Antonio is the first step in creating an outstanding website that ranks well on major search engines and delivers qualified leads to your business on a silver platter.
+`,
+
+                    imageSrc: "/images/San Antonio_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`It’s now possible to build a website using a DIY website builder or a content management system (CMS). While it’s true that anyone can create a website, it’s not possible to build a fully-functional website without the proper expertise and tools.`,
+
+                    listTitle: "Here are the other benefits when you choose to work with us:",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                      "DIY website builders never tell people how complicated the entire web development process is. You could be in for a huge surprise and disappointment.",
+                      "You could also waste a lot of time and money on a website that is completely broken.",
+                      "Your DIY website may not rank well on major search engines.",
+                      "It takes a skilled team of professionals to create a website. It’s not considered to be a DIY project.",
+                    ],
+                    bottomline:`As you can see, it’s in your best interest to hire a web development agency in San Antonio. This way, you can receive the peace of mind you deserve as a business owner.
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`Are you wondering how we can help your business? Our team is one of the most well-known web development agencies in San Antonio, Texas. We have spent more than a decade delivering exceptional web design services in the area.
+                    <br></br>
+                    Here are some of the ways we can turn your upcoming web development project into a massive success:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "We have a team of more than 250+ individuals who all have specialties in a wide variety of business industries.",
+                        "We have access to onshore and offshore solutions to handle large web projects with demanding staffing requirements.",
+                        "All of our developers have been vetted properly before working with us.",
+                      
+                      ],
+                      bottomline:`Our team of project managers make sure that our developers work in a timely and efficient manner.`,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `At Dev.co, we bring our world-class experience, tools, and resources to the table. We have serviced thousands of businesses in San Antonio over the years. Throughout this time, we have grasped advanced development techniques that work.
+<br></br>
+By maintaining the highest standards of customer satisfaction and service, you can be sure you’ll receive a website you and your web visitors love.`,
+         },
+      },
+      {
+        id: 74,
+        slug: "san-diego",
+        top_title: "San Diego Custom Software Development Company",
+        top_description: `San Diego is one of the fastest growing cities in the United States. Because of this, any business that operates in the city must have an established online presence. There just isn’t any other alternative.
+<br></br>
+Building the perfect website for your business will help in generating meaningful leads that can translate into unique business opportunities to grow sales and revenue. Without an online presence, you risk giving up your potential customers to your major competitors.
+<br></br>
+Thus, having the right website truly matters to your bottom line. Fortunately, we can help you obtain one. Dev.co is the perfect place to receive premium San Diego web development services.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in San Diego`,
+                    paragraph:`San Diego is not only a thriving city, but it’s also known for its vibrant weather and activities. San Diego is considered to be an offshoot of the illustrious Silicon Valley, and is home to many tech startups and established companies.
+<br></br>
+If you operate in this niche, then you’ll need a fully-function website to truly stand out in your industry. Your competitors may already have an advantage, especially if their websites were professionally built.
+<br></br>
+A delay in securing a top-notch website for your business can only lead more potential customers to your competitors. Partner with Dev.co today to learn more about how we can help.
+`,
+
+                    imageSrc: "/images/San Diego_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Anyone can create a website, but everyone can develop a fully-functional website that will provide the results you want. There are many DIY website builders that promise that just anyone can create a website.
+`,
+
+                    listTitle: "The truth is never that simple. Here are all the consequences of creating your own website:",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                     "You’ll waste significant time and money on a poorly-built website.",
+                     "A DIY website rarely makes any progress on major search engines.",
+                     "A quality website can only be built by a professional who has extensive knowledge in website development and SEO.",
+                     "The quality of your website will suffer and drastically decrease your ROI and bottom line.",
+                     "As you can see, it’s never a good idea to create your own website, no matter what free or seemingly convenient options you encounter on the internet. Building a website is a professional job."
+                    ],
+                    bottomline:`By hiring a San Diego web design agency, you can streamline the web development process and receive a stellar product up to your standards.
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take enormous pride in upholding the highest standards of customer satisfaction and service. We believe that a website does more than look appealing, but it also leverages high-end user experience to keep your web visitors happy.
+<br></br>
+We have a team of more than 250+ developers, project managers, and creators who all work together to build the best websites you’ll find in San Diego. Our team has diverse experience in a variety of different industries.
+<br></br>
+On top of that, they are properly vetted before even working with us. When you choose to work with us, you can rest comfortably knowing that project managers work tirelessly to keep everyone on track and on time.
+<br></br>
+We have serviced thousands of websites over the years and have built a strong familiarity with our trade.​`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `Founded in 2008, we have transitioned from a financial and advertising software firm to a full-service web development agency. What we bring to the table is our comprehensive experience in all web development matters in San Diego.
+<br></br>
+We have a special devotion to the city of San Diego, its people, and surrounding businesses.`,
+         },
+      },
+      {
+        id: 75,
+        slug: "san-francisco",
+        top_title: "San Francisco Custom Software Development Company",
+        top_description: `San Francisco is one of the most well-known cities in the world. It’s considered the business and innovation capital of the United States, home to the world-renowned Silicon Valley.
+<br></br>
+If you are planning to start a new business in San Francisco or advance the online presence of an existing venture, then purchasing a high-quality website is a great first start.
+<br></br>
+Having a premium website will allow you to outrank your competitors and gain online visibility in competitive markets. Therefore, if you need a great website for your business, then you’ve come to the right place.
+<br></br>
+Dev.co specializes in creating top-notch websites for virtually any business in San Francisco.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in San Francisco`,
+                    paragraph:`It cannot be understated how important it is to have an online presence in San Francisco. Since most people use major search engines to find local businesses, it’s no longer an option to not have a website.
+<br></br>
+Without a website, you risk to send your potential customers directly to your major competitors. In Silicon Valley, business is cutthroat. Needless to say, markets are highly competitive.
+<br></br>
+In order to keep your business afloat, your website needs to be positioned in a place where your target audience can find it – the internet.
+`,
+
+                    imageSrc: "/images/San Francisco_Outline Stroker.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Google is maybe the most trusted resource in the world. To maintain this reputation, it must rank only the most valuable websites on the internet. For this reason, it won’t suffice to have just any website.
+<BR></BR>
+For one, your web visitors are very judgmental with how your site looks. A DIY or poorly-built website won’t impress them. Also, Google will likely drop your website to its second page, where no one usually goes.
+<BR></BR>
+By hiring a qualified web development agency in San Francisco, you’ll quickly improve the online visibility of your business where it matters most.`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take enormous pride in the work we do here in San Francisco. After servicing thousands of customers in the area, we have mastered the art of developing high-performance websites.
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "Here are all of the benefits you can look forward to when you choose to with",
+                    listItems: [
+                        "We have more than 250+ developers on our team, all with different industry specialties.",
+                        "We also have access to additional teams of talent, especially when higher staffing requirements are necessary.",
+                        "All of our developers have been vetted to ensure that they will only deliver the best web design services.",
+                        "We have direct experience working with both startups and Fortune 500 companies. No matter where you are in business, we can lend a hand to your marketing strategy.",
+                        "We’ll assign you a project manager that will keep your web project on course.",
+                        "We’re experienced in creating websites that deliver results."
+                      ],
+                      bottomline:`As you can see, you can rely on us anytime you need a high-quality website.`,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `We were founded in 2008 as an advertising and financial software consulting firm. Over the years, we have formed a solid reputation as one of the best web development agencies in San Francisco.
+<br></br>
+We invest all of our time and effort into the projects we take on. The end result is usually a high-performance website that delivers the results our clients are looking for. With that said, it’s essential to choose a web design agency that will meet your needs.`,
+         },
+      },
+      {
+        id: 76,
+        slug: "san-jose",
+        top_title: "San Jose Custom Software Development Company",
+        top_description: `San Jose has a growing reputation among both home and business owners. If you are running a business in San Jose and want to improve your online presence, then you’ve come to the right place.
+<br></br>
+At Dev.co, we specialize in creating top-notch websites for San Jose businesses. Our attention to detail and commitment to maintaining the highest standards of customer satisfaction are key in our delivery of masterful websites.
+<br></br>
+Therefore, if you want to take your digital presence to the next level, look no further than Dev.co. We are the leading web design agency in San Jose for more than a decade.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in San Jose`,
+                    paragraph:`Having just an ordinary website isn’t going to suffice. San Jose is a popular business location. Many of your top competitors will likely have a professionally-built website. They may also work actively to improve their online presence.
+<br></br>
+If you’re caught slacking, then you can miss out on valuable business. It’s no longer enough to just have a website. Ensuring that your website will rank well on major search engines like Google and Bing will only help your bottom line.
+<br></br>
+If you are in need of outstanding web development services in San Jose, you can rely on us to deliver.
+`,
+
+                    imageSrc: "/images/San Jose_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`There are so many different reasons why website quality is important. To begin, potential customers are very judgemental about the design of your website. If your site looks plain or stuck back in 2014, they’re going to leave and never come back.
+<br></br>
+Also, if you attempt to build your own website, then you’ll succeed in reducing its quality and wasting your valuable time and money. The best websites are developed by highly-experienced professionals.
+<br></br>
+Without the proper experience, your website could struggle to rank on major search engines. If that’s the case, then it’s useless. Therefore, don’t believe the claims of DIY website builders.
+<br></br>
+Not everyone can create the perfect website. This task is best left up to a professional San Jose web development company.`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we take tremendous pride in the work we do. We offer significant benefits to our clients throughout San Jose, which include:
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "Here are all of the benefits you can look forward to when you choose to with",
+                    listItems: [
+                        "We have a team of more than 250 developers who specialize in numerous business industries.",
+                        "We also have access to both offshore and onshore teams to handle large web development projects.",
+                        "All of our developers are vetted before they are chosen to work with us.",
+                        "We provide web design services to both small businesses and corporate entities.",
+                        "Our project managers are assigned to ensure that our clients receive efficient and timely web development services.",
+                        "We have in-depth experience in producing real-time results for our clients."
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `We have more than a decade of experience in the website and software development industry. With humble beginnings as an advertising and financial software firm, we have quickly transitioned into one of the most trusted web design companies in the country.
+<br></br>
+Our mission is to combine world-class technical support with actionable business applications to create products our clients will be proud of.`,
+         },
+      },
+      {
+        id: 77,
+        slug: "seattle",
+        top_title: "Seattle Custom Software Development Company",
+        top_description: `Seattle is one of the most popular cities in the world. As such, having your digital presence is key to your success as a business. Seattle is home to both rampant local businesses and Fortune 500 companies.
+<br></br>
+This means having your business stand out can be difficult. To begin improving your online presence, it’s first best to create digital products with a software engineer team that will show off your prowess and put you a step ahead of your competitors.
+<br></br>
+For this reason, hiring our Seattle software development and software engineer team will be vital to your dev success. Are you searching for the right software development company to create your business website, build a custom application or launch a custom digital experience for your clients? If so, you’ve come to the right place.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `A Seattle Software Engineer Team & Web Development Company`,
+                    paragraph:`Seattle has been known for years as a hotbed for both local and corporate technology businesses. Nowadays, people don’t search for businesses like they used to. Instead of using phone books or online directories, they’re going to use a major search engine like Google and Bing.
+<br></br>
+Our custom software development team are experts, capable of delivering a wide range of customized engineering solutions to suit your needs. We start with a full business analysis then we work with popular frameworks to build on popular software engineering concepts,  engineering your next app in the software programming language that best suits your customer experience.  Our software skills include Node.js, React, Angular, Electron, and Laravel and more!
+<br></br>
+If you’re seeking software engineers or even looking for software engineer jobs, you have come to the right place. By hiring a professional Seattle software development firm, you can succeed in building the perfect software application, web product flow or mobile experience for your brand.
+`,
+
+                    imageSrc: "/images/Seattle_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Software Dev Quality`,
+                    paragraph:`Having a mediocre digital experience isn’t going to suffice. You need complete digital transformation. That’s why with each custom software project we also include quality assurance (QA) testing to ensure software quality.<br></br>
+
+We implement the highest-quality software testing principles before we deliver any code to our software development clients. If your website development team or software engineers don’t follow basic agile software development standards, then your project may be dead before it begins.
+<br></br>
+Thus, building your product in-house without the guidance of a professional software development team is what you should be after. A DIY approach to hiring software engineers ensures your project is going to suffer in quality and will cause you to waste your hard-earned time and money. We implement test strategies that help avoid the pitfalls and common mistakes that occur in custom software development.
+<br></br>
+Software engineering quality is extremely important in this regard. You should strive for continuous software improvement when you look to hire a Seattle software development company that has the excellent programming knowledge you need to succeed.
+
+`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help with Your Custom Software Development Project`,
+                    paragraph:`We take immense pride in the custom software development work we do here at Dev.co. Your dedicated software engineer will have a special commitment to your custom project, and will produce top-quality websites, mobile apps and digital platforms that will deliver for their intended purpose. 
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "Here are the other benefits when you choose to work with us as your software engineer team:",
+                    listItems: [
+                       "There are more than 250+ software developers on our team. You can receive the peace of mind you deserve as a business owner, knowing that one of our developers will be particularly skilled in your industry.",
+                       "We have access to additional teams that can take on extremely large website development projects, up to 500+ team members.",
+                       "All of our developers are trained heavily in their discipline, ensuring that we deliver only the best web development services in Seattle.",
+                       "No matter if you run a local business or a Fortune 500 company, we’ll see to it that your business receives a stellar website.",
+                       "We will assign you a project manager to coordinate your entire website development project and keep it",
+                       "We have amazing experience in creating websites that deliver impactful results."
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `We have more than 12 years of developmental experience in software and web design. Whether you want to improve your online presence or attract more qualified leads to your Seattle, WA website, we’ve got you covered. With our deep knowledge, we have serviced thousands of clients over the years and strive to maintain the highest standards of service.
+<BR></BR>
+If you’re looking for software development services in Seattle, Washington, you’ve come to the right place. Our team of experienced developers can help you with everything from prototyping to full-scale production. We specialize in a variety of programming languages and platforms, so we can tailor our services to your specific needs.
+<BR></BR>
+Plus, our location in the heart of Seattle, WA gives us easy access to some of the best software engineering talent in the country. Contact us today to get started!`,
+         },
+      },
+      {
+        id: 78,
+        slug: "tucson",
+        top_title: "Tucson Custom Software Development Company",
+        top_description: `Tucson is one of the most well-known cities in the state of Arizona. If you are running any type of business in Tucson, then it’s important that you establish an online presence to attract qualified leads to your business.
+<br></br>
+The very first step in establishing a strong online presence is creating a website, and that is where we can help. Dev.co specializes in creating high-performance websites to help businesses improve their digital presence.
+<br></br>
+Do you need to develop a top-tier website for your business? If so, then you’ve come to the right place. We can help you take your online presence to the next level.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `
+Web Design in Tucson`,
+                    paragraph:`Having a fully-functional website is no longer an option. It’s a necessity for any business: local and corporate. Since most consumers use the internet to find local businesses, you’ll need to create an online storefront that will be positioned in front of your target audience.
+<br></br>
+Starting a website is a great place to start. Local businesses tend to thrive in Tucson. This means that positioning is everything. In order to surpass your competitors online, you’ll need a website that will sparkle and catch the attention of potential customers.
+<br></br>
+Our team will deliver Tucson website development services to create a website that will complement your brand.
+`,
+
+                    imageSrc: "/images/Tucson_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Website quality is extremely important. Google and other major search engines implement algorithms based on machine learning and artificial intelligence (AI) that will only rank top-quality websites.
+<br></br>
+If your website doesn’t meet the standards of these algorithms, then you’ll only be wasting your hard-earned time, money, and effort. This means that you should avoid creating your own website.
+<br></br>
+Building a perfect website means understanding the technicalities behind these algorithms. For this reason, you should hire a Tucson web design agency that can create and rank your website.
+
+`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we have built a strong reputation as the top website development company in Tucson. Over the years, we have serviced thousands of companies in Tucson and across the world.. 
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "When you choose to work with us, here are all of the benefits you can expect to receive:",
+                    listItems: [
+                       "We have a team of more than 250+ developers. This means you can count on us to assign a developer to your project that fully understands your business.",
+                       "We have access to both onshore and offshore teams with more than 500+ developers and team members.",
+                       "All of our developers have been vetted to maintain the highest standards of quality control.",
+                       "We have direct experience in working with both local businesses and Fortune 500 clients.",
+                       "We will assign a project manager to your project to coordinate the completion of your website development project.",
+                       "We have immense experience in delivering exceptional results with our Tucson web design services."
+                      ],
+                      bottomline:`As you can see, there are so many reasons why you should hire us as your website design agency in Tucson. We’d love to help create the perfect website for your brand.`,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `Founded in 2008, we have built a reputation for providing outstanding website development services. More than a decade ago, our agency started as a financial and advertising consulting firm.
+<BR></BR>
+Over the years, we have built our agency into a powerhouse in the marketing industry. We believe that the agency you trust should be a company that knows what it takes to grow.`,
+         },
+      },
+      {
+        id: 79,
+        slug: "washington-d.c.",
+        top_title: "Washington D.C. Custom Software Development Company",
+        top_description: `TWashington D.C. is clearly known as the capital of the United States, and an epicenter for the country’s historical monuments, as well numerous local and corporate business headquarters.
+<BR></BR>
+It’s important for all of these businesses to have an active online presence. Otherwise, you can risk sending all of your potential customers directly to your competitors. The first step in building an online presence is creating the perfect website for your brand.
+<BR></BR>
+Thus, hiring a qualified website developer in Washington D.C. is vital to your success as a business owner. If you have come here wanting to learn more about how you can find one, then you’re in the right place.
+<BR></BR>
+Dev.co has built a massive reputation as one of the most prominent developers in the country.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Washington D.C.`,
+                    paragraph:`Most consumers use the internet to locate a nearby business of some sort. After all, it’s very convenient to use a smartphone, laptop, or tablet to conduct an online search. Thus, phone books and online directories are now out of style.
+<BR></BR>
+If your website can’t be found where it matters most, which is on major search engines like Google and Bing, then you’re naturally going to struggle to improve the profitability of your business.
+<BR></BR>
+Almost all successful brands have a stable online presence and dynamic website. With that said, how does your website stack up against its competitors?
+`,
+
+                    imageSrc: "/images/Washington D.C._Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`Not every website is going to perform well on Google. There are trillions of websites on the web, and it’s no coincidence that Google’s first page only contains a small drop of these sites.
+<br></br>
+Google’s mission is to protect its reputation as the most prominent search engine. Therefore, it’ll only rank websites that will align with their standards. This means that you can’t create a website on your own if you are familiar with these standards, nor can you rely on an inexperienced website design company in Washington D.C.
+<br></br>
+Your best option is to hire a website developer that will complete a stellar website on your behalf.
+
+
+
+`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`At Dev.co, we specialize in delivering remarkable website development services. We have worked with thousands of businesses in Washington D.C.
+                    <br></br>
+                    With confidence, we can guarantee that you will enjoy all of these benefits when you choose to work with us:
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                       "Our team of more than 250+ software developers are second to none. You’re bound to be paired with a developer that knows your industry.",
+                       "We have access to additional developers of more than 500+ to handle any website development project.",
+                       "All of our developers are highly-skilled, being vetted thoroughly before working with us.",
+                       "We have actionable and direct experience in working primarily with both small businesses and Fortune 500 companies.",
+                       "You will be assigned a dedicated project manager that will make sure your project is right on course.",
+                       "We have direct experience in delivering exceptional results through your website."
+                      ],
+                      bottomline:`As you can see, there are so many reasons why you should hire us for your project. Contact us today to learn more about how we can help.`,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `With more than 12 years of web development experience, you can count on us to build a website that will complement your brand.
+<br></br>
+We not only have the tools and resources at our disposal to get the job done, but we also maintain the highest standards of service.`,
+         },
+      },
+      {
+        id: 80,
+        slug: "west-palm-beach",
+        top_title: "West Palm Beach Custom Software Development Company",
+        top_description: `If you’re looking for a custom software development team that can help your business, you’ve come to the right place.
+<BR></BR>
+At DEV.co, we specialize in creating unique and innovative custom software solutions that will help you achieve your business revenue goals, with a strict focus on project ROI and cost management. We have a team of experienced software developers and project managers who are passionate about their work, and we’re always ready to take on new challenges.
+<BR></BR>
+While we work with local businesses in West Palm Beach and across South Florida, we also have worked with internationally recognized 500 companies.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web & Software User Experience Design in West Palm Beach`,
+                    paragraph:`User experience (UX) design is one of the most important aspects of software development. It’s the process of designing a product that is easy and enjoyable to use. This involves creating wireframes, prototypes, and user flows that allow users to interact with the software in a natural way.
+<br></br>
+High quality UX design is essential for creating a positive user experience. It can make the difference between a product that people love and one that they hate.
+<br></br>
+That’s why it’s so important to work with a team of experienced designers who understand how to create an engaging user experience.
+`,
+
+                    imageSrc: "/images/West palm Beach_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`When it comes to web design and mobile application development, it’s important to choose a company that can provide you with quality services. At DEV.co, we specialize in creating beautiful and user-friendly websites and mobile applications.
+<br></br>
+We have a team of experienced designers and developers who are passionate about their work, and we always strive to produce the best possible results.
+<br></br>
+We understand that quality is essential when it comes to web design and mobile application development. That’s why we take the time to design and develop each project with care and precision. We also use the latest technologies and tools to ensure that our products are up to date and compliant with industry standards.
+
+
+`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`We take immense pride in the work we do here at Dev.co. We have a special commitment to our clientele, and that’s to only produce top-quality software, mobile apps and websites that will provide an excellent user experience.
+<br></br>
+Here’s how
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      "We take the time to understand your needs and design solutions that meet your specific requirements",
+                      "We offer competitive rates, so you can rest assured that you're getting the best value for your money",
+                      "Our team of experienced developers are passionate about their work and always ready to take on new challenges",
+                      "You will work with someone on our team who will take the time to understand their needs and design a solution that meets them",
+                      "We provide dedicated project managers and DevOps engineers, ensuring your software project is delivered and efficiently run",
+                      "We are a team of experienced developers who are passionate about their work"
+                      ],
+                      bottomline:``,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `So what makes us different from other companies? Simply put, we care about our clients. We take the time to understand your needs and design solutions that meet your specific requirements.
+<br></br>
+We also offer competitive rates, so you can rest assured that you’re getting the best value for your money.
+
+`,
+         },
+      },
+      {
+        id: 81,
+        slug: "louisville",
+        top_title: "Louisville Custom Software Development Company",
+        top_description: `Louisville is one of the most popular and well-known cities in the United States. If you’re running a business of any kind, then it’s important to establish an online presence first. Without doing so, your business can struggle to attract meaningful leads and convert them into sales opportunities.
+<br></br>
+Creating a fully-functional website helps in ranking well on major search engines, such as Google and Bing. Therefore, it’s in your best interest to hire a professional Louisville website development agency.
+<br></br>
+Doing so will help you to outrank your fiercest competitors and attract attention from your target audience who are very interested in purchasing your products or services. Dev.co specializes in creating websites that deliver impeccable results for our clients.`,
+        
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in Louisville`,
+                    paragraph:`
+Most people use search engines to find a local business. After all, it’s very convenient to do so. You can simply use your smartphone to find a business “near me”. From there, Google Maps will populate an exhaustive list of nearby businesses.
+<br></br>
+Similarly, most consumers use the interest to perform research before committing to a purchase. As you can see, having a website that shows up for these searches is crucial to the success of your business.
+<br></br>
+Luckily, the team at Dev.co can help in creating the perfect website for your brand. Whether you’re looking for top software development companies or custom software solutions, we offer a wide range of software development services. 
+<br></br>
+From mobile app development to web development, our Louisville software developers specialize in delivering tailored software solutions that fit your unique business needs. Trust Dev.co to provide cutting-edge digital solutions to elevate your brand.
+`,
+
+                    imageSrc: "/images/Louisville_Outline Stroke.png",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+
+                {
+                    title: `The Importance of Website Quality`,
+                    paragraph:`WThe advent of the internet has made it possible to create a website on your own without any experience. These DIY website builders make it easier for anyone to create a website.
+<br></br>
+However, it’s misleading to suggest that amatuer websites will rank well online. Google and other major search engines have standards for each website they rank. Without this knowledge, you’ll only create a website that will fall short of these standards.
+<br></br>
+Therefore, to save yourself the time, money, and heartache of creating a useless website, you should hire a website design company in Louisville.
+
+`,
+
+                    listTitle: "",
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                    listItems: [
+                    
+                    ],
+                    bottomline:`
+`,
+                },
+            ],
+        },
+        Loctextmedia: 
+        {
+            contentData: [
+                {
+                    title: `How We Can Help`,
+                    paragraph:`
+We love the work we do here at Dev.co. Over the years, we have built a firm reputation as one of the leading website development agencies in Louisville. When you choose to work with us, you can expect to receive all of the following benefits for your business:
+`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                      "We have more than 250+ developers on our team. This simply means that you will be paired with a professional that fully understands your industry.",
+                      "We also have access to additional staff that can take on lengthy website development projects.",
+                      "Our team of developers have been vetted constantly to improve the quality control of our website.",
+                      "We have actionable experience in providing quality websites for both local businesses and Fortune 500 companies.",
+                      "We will assign a project manager to your project to ensure that it’s completed on time and on budget.",
+                      "Our team is dedicated to delivering top-notch results for our clients."
+                      ],
+                      bottomline:`As you can see, there are so many reasons why we can benefit your website development project. Don’t delay. Consider hiring us today to take your digital presence to the next level.`,
+                },
+            ]
+        },
+      
+        codeheadingsection: {
+          headingContent: `What We Bring to the Table`,
+          paracontent: `At Dev.co, we have more than 12 years of experience in the website development industry. What we bring to the table is our commitment to maintaining excellent standards of both service and customer satisfaction.
+<br></br>
+In addition to this, we pay special attention to all of our web development projects, ensuring that every aspect of the project is being properly taken care of. Ultimately, we won’t just help you develop a beautiful website, but also a website that will rank well online.
 
 `,
          },

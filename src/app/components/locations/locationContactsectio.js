@@ -50,12 +50,10 @@ export default function locationContactsectio({ CombiningCodedata = [] }) {
                                         <div className="btn_wrapper flex gap-x-4">
                                             {/* Render button only if buttonText exists */}
                                             {data.buttonText && (
-                                                <button
-                                                    className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
-                                                    onClick={data.onButtonClick}
+                                                <a href="/contact" className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
                                                 >
-                                                    {data.buttonText}
-                                                </button>
+                                                  Contact Us
+                                                </a>
                                             )}
                                         </div>
                                     </div>
