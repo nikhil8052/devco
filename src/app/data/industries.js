@@ -1,9 +1,9 @@
 export const industries = [
     {
         id: 1,
-        meta_title:"Java Developer | Java Development Services | staging.dev.co",
-        meta_description: "Hire custom Java developers for your website or software development project. Engage our Java development teams for your next big idea!",
-        og_image:"/images/Java-Development-Services.png",
+        meta_title:"Enterprise Developers | Enterprise Software Development | staging.dev.co",
+        meta_description: "Custom enterprise software development, design and engineering services. Engage our corporate software development teams today!",
+        og_image:"/images/Enterprise-Software-Development-300x150-1.png",
         slug: "enterprise",
         bannericon: "/images/Enterprise.svg",
         sub_title: "Industries",
@@ -150,6 +150,9 @@ export const industries = [
     },
     {
         id: 2,
+        meta_title:"Govt Developer | Software Development for Government | staging.dev.co",
+        meta_description: "Custom software engineering for civic, state and federal requirements. Government entities utilize our custom software development services.",
+        og_image:"/images/Software-Development-for-Government-300x150-1.jpg",
         slug: "government",
         sub_title: "Industries",
         bannericon: "/images/Government.svg",
@@ -303,6 +306,9 @@ We’d be happy to walk you through our process and answer any questions you may
     },
     {
         id: 3,
+        meta_title:"Education Developer | Software Development for Education | staging.dev.co",
+        meta_description: "Custom software development & engineering for higher-education including colleges & universities. We design custom solutions. Contact us!",
+        og_image:"/images/Software-Development-for-Education-300x150-1.jpg",
         slug: "education",
         bannericon: "/images/Education.svg",
         top_title: "Software Development for Education",
@@ -457,6 +463,9 @@ Please contact us today to find out more about our custom software development s
     },
     {
         id: 4,
+        meta_title:"Small Business Custom Software Development Services | DEV.co",
+        meta_description: "Small Business Custom Software Development Services. We work on custom software development projects for company's small and large.",
+        og_image:"/images/Small-Business-Custom-Software-Development-Services.jpg",
         slug: "small-business",
         bannericon: "/images/Small Business.svg",
         top_title: "Small Business Custom Software Development Services",
@@ -596,6 +605,9 @@ Contact us today and we’ll be happy to chat about your software development pr
     },
     {
         id: 5,
+        meta_title:"Custom Software Development for Marketing | DEV.co",
+        meta_description: "Custom software development services for marketing companies. We work with marketing technology (MarTech) companies in developing",
+        og_image:"/images/Software-Development-for-Marketing-300x150-1.jpg",
         slug: "marketing",
         bannericon: "/images/Marketing.svg",
         top_title: "Software Development for Marketing",
@@ -741,6 +753,9 @@ Contact us today and we’ll be happy to chat about your software development pr
     },
     {
         id: 6,
+        meta_title:"Fintech Developer | Software Development for Finance | staging.dev.co",
+        meta_description: "Custom software development services for fintech solutions. We work with financial technology (FinTech) companies to support development!",
+        og_image:"/images/Software-Development-for-Finance-300x150-1.jpg",
         slug: "finance",
         bannericon: "/images/Finance.svg",
         top_title: "Software Development for Finance",
@@ -892,6 +907,9 @@ Contact us today and we’ll be happy to chat about your software development pr
     },
     {
         id: 7,
+        meta_title:"Medtech Developer | Software Development for Healthcare | staging.dev.co",
+        meta_description: "Custom software development for healthcare & medtech companies. Healthcare & medical firms rely on our custom development services!",
+        og_image:"/images/Software-Development-for-Healthcare-300x150-1.jpg",
         slug: "healthcare",
         bannericon: "/images/Healthcare.svg",
         top_title: "Software Development for Healthcare",
@@ -1062,6 +1080,9 @@ Contact us today and we’ll be happy to chat about your software development pr
     },
     {
         id: 8,
+        meta_title:"Custom Software Development for Agriculture | DEV.co | AgTech",
+        meta_description: "Our agriculture custom development services allow you to scale your engineering teams for websites, custom software or mobile applications.",
+        og_image:"/images/Custom-Software-Development-for-Agriculture.jpg",
         slug: "agriculture",
         bannericon: "/images/Agriculture.svg",
         top_title: "Custom Software Development for Agriculture",
@@ -1248,6 +1269,9 @@ Here are some of the common types of software we develop for our clients:`,
     },
     {
         id: 9,
+        meta_title:"eCommerce Developer | Website Development for eCommerce | staging.dev.co",
+        meta_description: "Custom website development services for eCommerce companies. We customize ERP, CRM and other solutions that fit with eCommerce platforms.",
+        og_image:"/images/Website-Development-for-eCommerce.jpg",
         slug: "ecommerce",
         bannericon: "/images/e Commerce.svg",
         top_title: "Website Development for eCommerce",

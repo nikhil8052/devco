@@ -4,8 +4,8 @@ import React from 'react';
 
 export default function BlogGridlist({ blogs }) {
     return (
-        <div className="blog_grid_wrap relative md:py-14 lg:py-20 py-10" >
-            <img className='bg_bottom ' src="/images/jhjhgh.png" alt=""/>
+        <div className="blog_grid_wrap relative z-10 md:pt-14 lg:pt-20 pt-10 pb-0" >
+            
             <div className="section_head mb-2">
                 <div className="container mx-auto">
                     <h2 className="section_head_title font-semibold text-[22px] 2xl:text-[22px] xl:text-[22px] md:text-[22px] sm:text-[22px] mb-5 text-customwhite">More Blogs</h2>
