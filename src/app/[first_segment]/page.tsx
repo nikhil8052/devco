@@ -10,7 +10,6 @@ import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
-import BlogPage from "@/app/blog_page/BlogPage";
 
 interface PageProps {
   params: {
@@ -35,9 +34,7 @@ export default function Page({ params }: PageProps) {
     Component = Technology;
   } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
     Component = Locations;
-  } else if ((data = blogs.find((item) => item.slug === first_segment))) {
-    Component = BlogPage;
-  }
+  } 
 
   useEffect(() => {
     console.log(data, "Format the home component");
