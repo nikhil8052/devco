@@ -62,6 +62,9 @@ export const processes = {
 export const locationsdata = [
     {
         id: 1,
+        meta_title:"Albuquerque Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best software development companies in Albuquerque, NM. Contact us for Albuquerque software development services.",
+        og_image:"/images/Albuquerque-Custom-Software-Development-Company-Dev.co_.jpg",
         slug: "albuquerque",
         top_title: "Albuquerque Custom Software Development Company",
         top_description: `Albuquerque is one of the most popular cities in the world. As such, having your digital presence is key to your success as a business. Seattle is home to both rampant local businesses and Fortune 500 companies.<br></br>

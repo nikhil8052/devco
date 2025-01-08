@@ -1,7 +1,9 @@
 'use client'
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Home({children}) {
+
 
 
   return (
@@ -15,7 +17,6 @@ export default function Home({children}) {
             width={1160}
             height={440}
           />
-
         {children}
       </div>
     

@@ -1,6 +1,9 @@
 export const technologies = [
     {
         id: 1,
+        meta_title:"Java Developer | Java Development Services | staging.dev.co",
+        meta_description: "Hire custom Java developers for your website or software development project. Engage our Java development teams for your next big idea!",
+        og_image:"/images/Java-Development-Services.png",
         slug: "ai",
         bannericon: "/images/Artificial Intelligence.svg",
         sub_title: "Techonology",

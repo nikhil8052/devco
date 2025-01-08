@@ -1,15 +1,12 @@
 export const services = [
     {
-         metadata : {
-            title: "Web Development Company | Web Developer | DEV",
-            description: "We provide web development and design for nearly any project, through nearly any platform. Trust us with your next website dev project!",
-            image:"/images/Custom-Website-Development-Services-Icon.png"
-          },
 
         id: 1,
+        
         meta_title:"Web Development Company | Web Developer | DEV",
         meta_description: "We provide web development and design for nearly any project, through nearly any platform. Trust us with your next website dev project!",
-        meta_image:"/images/Custom-Website-Development-Services-Icon.png",
+        og_image:"/images/How-Much-Should-WordPress-Custom-Development-Cost.jpg",
+
         slug: "web",
         subtitle: "Services",
         bannerImage:"/images/webdevelopmenservicesnewimage.png",
@@ -347,6 +344,9 @@ export const services = [
     },
     {
         id: 2,
+        meta_title:"Mobile Developer | Mobile App Development Service | staging.dev.co",
+        meta_description: "We provide mobile application development services to businesses small & large. Contact us about our mobile application development service.",
+        og_image:"/images/Mobile-Development-Company-300x150-1.jpg",
         slug: "mobile",
         page_title:"Mobile Development",
         sub_title: "services",
@@ -1629,6 +1629,7 @@ These qualities are some of the most important to consider:`,
         bannericon: "/images/MVPDevelopment.svg",
         bannerImage:"/images/webdevelopmenservicesnewimage.png",
         top_title: "Minimum Viable Product (MVP) Software Development",
+        meta_title:"Minimum Viable Product",
         top_description:`Many software developers and entrepreneurs spend too much time thinking about how big, complex, or comprehensive they can build a product. In reality, it’s often better to focus on building a smaller product—the minimum product that can still be viable to solve a user problem.<br></br>
 
         At DEV.co, we offer minimum viable product (MVP) software development services, designed to get you the best possible app in the shortest possible timeframe. Let’s look at why this is important.`,

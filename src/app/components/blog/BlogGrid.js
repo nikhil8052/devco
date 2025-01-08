@@ -1,13 +1,15 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 
 export default function BlogGrid({ blogs }) {
     return (
-        <div className="blog_grid_wrap md:py-14 lg:py-20 py-10 ">
+        <div className="blog_grid_wrap md:py-14 lg:py-20 py-10">
             <div className="section_head mb-2">
                 <div className="container mx-auto">
-                    <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">Blog</h2>
+                    <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
+                        Blog
+                    </h2>
                 </div>
             </div>
 
@@ -25,11 +27,14 @@ export default function BlogGrid({ blogs }) {
                                             <img src={blog.authorImage} alt="Author" />
                                         </div>
                                         <div className="blog_meta">
-                                            <span className="author_name">{blog.authorName}</span> <span className="pos">,</span>
+                                            <span className="author_name">{blog.authorName}</span>{" "}
+                                            <span className="pos">,</span>
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <a href={blog.slug} className="post_title_link">{blog.title}</a>
+                                            <a href={blog.slug} className="post_title_link">
+                                                {blog.title}
+                                            </a>
                                         </h2>
                                     </div>
                                 </div>

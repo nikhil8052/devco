@@ -1,5 +1,5 @@
 'use client';
-
+import { useEffect } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -22,8 +22,8 @@ interface PageProps {
 export default function Page({ params }: PageProps) {
   const first_segment = params.first_segment;
 
-  let data= null; // Declare `data` variable
-  let Component= null;
+  let data = null; // Declare `data` variable
+  let Component = null;
 
   // Match the route segment to the data and corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
@@ -40,12 +40,41 @@ export default function Page({ params }: PageProps) {
     Component = BlogPage;
   }
 
+  useEffect(() => {
+    console.log(data, "Format the home component");
+
+    // Set document title
+    document.title = data.meta_title || "Title Not Defined";
+
+    // Set meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", data.meta_description || "Default meta description");
+    } else {
+      const newMetaDescription = document.createElement("meta");
+      newMetaDescription.setAttribute("name", "description");
+      newMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
+      document.head.appendChild(newMetaDescription);
+    }
+
+    // Set Open Graph image (og:image)
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) {
+      // Dynamically set og:image if the image exists in `data.og_image`
+      ogImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
+    } else {
+      const newOgImage = document.createElement("meta");
+      newOgImage.setAttribute("property", "og:image");
+      // Dynamically set og:image if the image exists in `data.og_image`
+      newOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
+      document.head.appendChild(newOgImage);
+    }
+  }, [data]); // Dependency on `data`
+
   // Fallback if no match found
   if (!data) {
     return <div>Not Found</div>;
   }
-
- 
 
   // Render the matched component with its data
   return <Component data={data} />;
