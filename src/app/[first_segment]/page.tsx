@@ -10,7 +10,6 @@ import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
-import { blogs } from "@/app/data/blog";
 import BlogPage from "@/app/blog_page/BlogPage";
 
 interface PageProps {
