@@ -461,16 +461,29 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
     {
         id: 4,
         slug: "javascript",
+        bannericon: "/images/Java Script.svg",
         sub_title: "Skills",
         top_title: "javascript developpment",
-        top_description: "Delivering robust and scalable web solutions tailored to your business needs.",
-        startups: {
-            title: "Custom Web Solutions",
-            description: "From websites to full-scale web applications, we develop high-quality web-based products.",
-            imageHeight: 100,
-            imageWidth: 100,
-            images: ["/images/php.svg", "/images/reactjs1.svg", "/images/nodejs1.svg"],
+        top_description: `JavaScript is a dynamic programming language that creates an interactive user experience online. JavaScript brings webpages to life with interactive elements that engage users and make your brand stand out.<br></br>
+
+        Interactive elements can even be used to tell a dynamic story, like the New York Times did with their All Birds article. Impressed? That’s the power of JavaScrip`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "JavaScript consulting & development by Dev.co",
+                    description: `Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.`,
+
+                },
+                {
+                    title: "",
+                    description: `At Dev.co, we provide world-class JavaScript planning, development, and testing according to industry best practices. We use leading-edge technologies to build JavaScript applications that website visitors love.<br></br>
+
+                    As experts in our industry, we continually deepen our knowledge in the latest JavaScript libraries and frameworks to provide our partners with cutting-edge customizations.`,
+                }
+            ]
         },
+
         benefits: {
             title: "Why Web Development Services",
             description: "Our web development solutions provide:",
