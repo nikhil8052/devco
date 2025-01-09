@@ -27,7 +27,7 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                         }}
                     >
                         <div className="code_row flex flex-wrap items-center">
-                            <div className="code_col basis-[100%] lg:basis-[30%]">
+                            <div className="code_col basis-[100%] lg:basis-[35%]">
                                 <Image
                                     className="w-full hidden md:block max-h-[400px]"
                                     src={data.mainImage}
@@ -36,7 +36,7 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                                     height={300}
                                 />
                             </div>
-                            <div className="code_col basis-[100%] md:basis-[70%]">
+                            <div className="code_col basis-[100%] md:basis-[65%]">
                                 <div className="code_content">
                                     <div className="relative w-full">
                                         <h2

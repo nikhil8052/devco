@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from 'next/link';
 
 export default function BlogGrid({ blogs }) {
     return (
@@ -19,9 +20,9 @@ export default function BlogGrid({ blogs }) {
                         {blogs.map((blog) => (
                             <div className="blog_col" key={blog.id}>
                                 <div className="blog_card">
-                                    <a className="blog_thumb" href={blog.slug}>
-                                        <img src={blog.image} alt="Blog Thumbnail" />
-                                    </a>
+                                    <Link className="blog_thumb" href={`../${blog.slug}`}>
+                                            <img src={blog.image} alt="Blog Thumbnail" />
+                                    </Link>
                                     <div className="blog_card_content">
                                         <div className="author_image">
                                             <img src={blog.authorImage} alt="Author" />

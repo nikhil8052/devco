@@ -228,6 +228,9 @@ export const skills = [
         // }
     },
     {
+        meta_title:"iOS Developer | iOS Development Services | staging.dev.co",
+        meta_description: "iOS development & engineering services for your next custom mobile app development project. Contact us today to hire our iOS team!",
+        og_image:"/images/ios-Development-services-1.png",
         slug: "ios",
         bannericon: "/images/Ios.svg",
         sub_title: "Skills",
@@ -460,6 +463,9 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
     },
     {
         id: 4,
+        meta_title:"JavaScript Developer | JavaScript Design & Development Service |",
+        meta_description: "JavaScript design & development services for your next website design project. Contact us today to hire one of our JavaScript developers!",
+        og_image:"/images/javascript-development-services-1.png",
         slug: "javascript",
         bannericon: "/images/Java Script.svg",
         sub_title: "Skills",
@@ -589,6 +595,9 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
     },
     {
         id: 5,
+        meta_title:"Android Developer | Android Development Services | staging.dev.co",
+        meta_description: "Custom Android development & engineering for your next mobile app development project. Contact us today to hire an expert Android developer!",
+        og_image:"/images/icons8-android-os-50.png",
         slug: "android",
         bannericon: "/images/Android.svg",
         top_title: "Android Development Services",
@@ -853,6 +862,9 @@ DEV.co offers custom Android apps, developed quickly and affordably.
     },
     {
         id: 6,
+        meta_title:"Next.js Developer | Next.js Development Services | DEV",
+        meta_description: "Hire custom Next.js developers for your website or software development project. Engage our Next.js development teams for your next big idea!",
+        og_image:"/images/next-js-logo.png",
         slug: "next-js",
         sub_title: "Skills",
         bannericon: "/images/Next_js.svg",
@@ -1116,6 +1128,9 @@ We streamline the process to ensure efficiency, quality, and client satisfaction
     },
     {
         id: 7,
+        meta_title:"SolidWorks Developer | SolidWorks Development Services | staging.dev.co",
+        meta_description: "SolidWorks development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/SolidWorks-Development-Services-2.png",
         slug: "solidworks",
         bannericon: "/images/Solidworks.svg",
         sub_title: "Skills",
@@ -1287,6 +1302,9 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
     },
     {
         id: 8,
+        meta_title:"Node.js Developer | Node.js Development Services | staging.dev.co",
+        meta_description: "Hire Node.js programmers. Our knowledgeable Node.js development services will help you scale your next software development project.",
+        og_image:"/images/NodeJs-Development-Services.png",
         slug: "nodejs",
         bannericon: "/images/Node_js.svg",
         sub_title: "Skills",
@@ -1476,6 +1494,9 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 9,
+        meta_title:"Azure Developer | Best Azure Development Services | staging.dev.co",
+        meta_description: "Azure Developer - Azure cloud development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/Azure-Development-Services-1.png",
         slug: "azure",
         bannericon: "/images/Azure.svg",
         top_title: "Azure Development Services",
@@ -1724,6 +1745,9 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 10,
+        meta_title:"React Developer | React Development Services | staging.dev.co",
+        meta_description: "Hire React.js developers for your next custom web or software project. Our exper React developers are ready for your next custom project!",
+        og_image:"/images/React-Development-Services.png",
         slug: "react",
         bannericon: "/images/React_js.svg",
         top_title: "React Development Services",
@@ -1937,6 +1961,9 @@ Here’s what our React developer process looks like:`,
 
     {
         id: 11,
+        meta_title:"Sitefinity Developer | Sitefinity Development Services | staging.dev.co",
+        meta_description: "Sitefinity development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/Sitefinity-Development-Services-1.png",
         slug: "sitefinity",
         sub_title: "Skills",
         bannericon: "/images/Sitefinity.svg",
@@ -2107,6 +2134,9 @@ Here’s what our React developer process looks like:`,
     },
     {
         id: 12,
+        meta_title:"Electron Developer | Electron Development Services | staging.dev.co",
+        meta_description: "Looking for an Electron.js developer? You've come to the right place. Our Electron.js programmers and project managers can help. Contact us!",
+        og_image:"/images/Electron-Development-Services.png",
         slug: "electron",
         sub_title: "Skills",
         bannericon: "/images/Electron_js.svg",
@@ -2282,6 +2312,9 @@ We do so through world-class development, frictionless communication, and a coll
 
     {
         id: 13,
+        meta_title:"OpenCV Developer | OpenCV Development Services | staging.dev.co",
+        meta_description: "OpenCV development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/OpenCv-Development-Services.png",
         slug: "opencv",
         sub_title: "Skills",
         bannericon: "/images/OpenCV.svg",
@@ -2453,6 +2486,9 @@ We do so through world-class development, frictionless communication, and a coll
     },
     {
         id: 14,
+        meta_title:"Laravel Developer | Laravel Development Services | staging.dev.co",
+        meta_description: "Laravel development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/icons8-laravel-50.png",
         slug: "laravel",
         sub_title: "Skills",
         bannericon: "/images/Laravel.svg",
@@ -2624,6 +2660,9 @@ We do so through world-class development, frictionless communication, and a coll
      
     {
         id: 15,
+        meta_title:"HTML5 Developer | HTML5 Development Services | DEV",
+        meta_description: "HTML5 development & engineering services for your next custom software project. Contact us today to hire one of our expert HTML5 developers!",
+        og_image:"/images/Html-Development-Services.png",
         slug: "html5",
         sub_title: "Skills",
         bannericon: "/images/Html 5.svg",
@@ -2798,6 +2837,9 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     },
     {
         id: 16,
+        meta_title:"AWS Developer | AWS Development Services | DEV",
+        meta_description: "AWS development & engineering services for your next custom Amazon Web Services (AWS) software development project. Contact us today!",
+        og_image:"/images/AWS.png",
         slug: "aws",
         sub_title: "Skills",
         bannericon: "/images/AWS.svg",
@@ -2998,6 +3040,9 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     },
     {
         id: 18,
+        meta_title:"PHP Developer | PHP Development Services | staging.dev.co",
+        meta_description: "PHP development & engineering services for your next custom software development project. Contact us today to hire one of our PHP developers!",
+        og_image:"/images/PHP-Development-Services-1.png",
         slug: "php",
         sub_title: "Skills",
         bannericon: "/images/Php.svg",
@@ -3216,6 +3261,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
     },
     {
         id: 17,
+        meta_title:"WordPress Development Company | DEV.co",
+        meta_description: "Wordpress design & development services for your next website design project. Contact us today to hire one of our Wordpress developers!",
+        og_image:"/images/WordPress-Development-Services.jpg",
         slug: "wordpress",
         sub_title: "Skills",
         bannericon: "/images/Wordpress.svg",
@@ -3513,6 +3561,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 18,
+        meta_title:"Python Developer | Python Development Services | staging.dev.co",
+        meta_description: "Python development & engineering services for your next custom software development project. Contact us today to hire our Python team!",
+        og_image:"/images/Python-Development-Services.png",
         slug: "python",
         sub_title: "Skills",
         bannericon: "/images/Python.svg",
@@ -3766,6 +3817,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 19,
+        meta_title:"Salesforce Developer | Custom Salesforce Development Services | staging.dev.co",
+        meta_description: "Salesforce development & engineering services for customizing your sales team's CRM processes and reporting. Contact us today!",
+        og_image:"/images/SalesForces-Development-Services.png",
         slug: "salesforce",
         sub_title: "Skills",
         bannericon: "/images/Salesforce.svg",
@@ -3982,15 +4036,20 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
         },
     },
 
-   
-    
-   
+
+
+
+
+
 
 
 
 
     {
         id: 19,
+        meta_title:"C#/.NET Developer | C#/.NET Development Services | staging.dev.co",
+        meta_description: "C# & .NET development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/C-Sharp-Dot-NET-Development-Services.png",
         slug: "c-sharp-dot-net",
         sub_title: "Skills",
         bannericon: "/images/sharp-c.png",
@@ -4165,6 +4224,9 @@ you may consider selecting this framework for your next project:`,
     },
     {
         id: 20,
+        meta_title:"Oracle Developer | Oracle Development Services | staging.dev.co",
+        meta_description: "Oracle development & engineering services for your next custom SQL software development project. Contact us today!",
+        og_image:"/images/Oracle-logo.png",
         slug: "oracle",
         sub_title: "Skills",
         bannericon: "/images/Oracle.svg",
@@ -4337,6 +4399,9 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 21,
+        meta_title:"LabVIEW Developer | LabVIEW Development Services | staging.dev.co",
+        meta_description: "LabVIEW development & engineering services for your next custom software development project. Contact us today!",
+        og_image:"/images/LabVIEW-Development-Services.png",
         slug: "labview",
         sub_title: "Skills",
         bannericon: "/images/Labview.svg",
@@ -4498,6 +4563,9 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 22,
+        meta_title:"Nextcloud Developer | Nextcloud Development Services | staging.dev.co",
+        meta_description: "Nextcloud development & engineering services for your next online storage software development project. Contact us today!",
+        og_image:"/images/NextCloud-Development-Services.png",
         slug: "nextcloud",
         sub_title: "Skills",
         bannericon: "/images/Nextcloud.svg",
@@ -4718,6 +4786,9 @@ If you’re ready for a free quote or consultation`,
 
     {
         id: 23,
+        meta_title:"Unity Development Services | DEV.co | Unity Developers",
+        meta_description: "Unity development & engineering services for your next custom software development project. Contact us today to hire our Unity team!",
+        og_image:"/images/Unity-Development-Services.jpg",
         slug: "unity",
         sub_title: "Skills",
         bannericon: "/images/Unity.svg",
@@ -4889,6 +4960,9 @@ If you’re ready for a free quote or consultation`,
     },
     {
         id: 24,
+        meta_title:"Webflow Developer | Webflow Development Service | DEV.co",
+        meta_description: "Engage our custom Webflow development services for designing or redesigning your website in Webflow. Contact us today to get started!",
+        og_image:"/images/Webflow-Development-Services.png",
         slug: "webflow",
         sub_title: "Skills",
         bannericon: "/images/Webflow.svg",
@@ -5063,6 +5137,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 25,
+        meta_title:"Netsuite Developer | Netsuite Development Services | staging.dev.co",
+        meta_description: "Netsuite development & engineering services for your next custom finance & accounting platform project. Contact us today!",
+        og_image:"/images/NetSuite-Development-Services.jpg",
         slug: "netsuite",
         sub_title: "Skills",
         bannericon: "/images/Netsuite.svg",
@@ -5225,6 +5302,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 26,
+        meta_title:"SQL Developer | SQL Development Services | DEV",
+        meta_description: "SQL development & engineering services for your next custom, back-end software development project. Contact us today!",
+        og_image:"/images/Group-1.png",
         slug: "sql",
         sub_title: "Skills",
         bannericon: "/images/SQL.svg",
@@ -5429,6 +5509,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 27,
+        meta_title:"Shopify Developer | Custom Shopify Development Services | DEV",
+        meta_description: "Our custom Shopify development services provide customized design, integration and app development for ecommerce and Shopify-based websites.",
+        og_image:"/images/01-1.png",
         slug: "shopify",
         sub_title: "Skills",
         bannericon: "/images/Shopify.svg",
@@ -5584,6 +5667,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 28,
+        meta_title:"SQL Server Developer | SQL Server Development Services | staging.dev.co",
+        meta_description: "SQL Server development & engineering services for your next custom back-end software development project. Contact us today!",
+        og_image:"/images/SQL-Server-Development-Services.png",
         slug: "sql-server",
         sub_title: "Skills",
         bannericon: "/images/SQL Server.svg",
@@ -5761,6 +5847,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 29,
+        meta_title:"SAP Developer | SAP Development Services | staging.dev.co",
+        meta_description: "SAP development & engineering services for your next complex software development project. Contact us today to hire an SAP developer!",
+        og_image:"/images/Sap-Development-Services-1.png",
         slug: "sap",
         sub_title: "Skills",
         bannericon: "/images/SAP.svg",
@@ -5910,6 +5999,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
    {
         id: 30,
+        meta_title:"Kubernetes Developer | Kubernetes Development Services | DEV",
+        meta_description: "Kubernetes development & engineering services for your next Kubernetes container management project. Contact us today!",
+        og_image:"/images/kubernetes-development-services.png",
         slug: "kubernetes",
         sub_title: "Skills",
         bannericon: "/images/Kubernetes.svg",
@@ -6118,6 +6210,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
     {
         id: 31,
+        meta_title:"Tableau Developer | Tableau Development Services | staging.dev.co",
+        meta_description: "Tableau development & engineering services for your next custom business development software development project. Contact us today!",
+        og_image:"/images/Tableau-Development-services-1.png",
         slug: "tableau",
         sub_title: "Skills",
         bannericon: "/images/Tableau.svg",

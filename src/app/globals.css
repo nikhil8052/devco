@@ -1010,6 +1010,13 @@ nav.site_header.scrolled-header {
     width: 100%;
     z-index: 0;
 }
+.aboutpage {
+    background-size: 100% 50%;
+}
+.aboutpage .code_content {
+    width: 100%;
+    max-width: 640px;
+}
 
 /*--------- responsive css start ---------*/
 

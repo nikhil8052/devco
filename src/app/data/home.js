@@ -4,7 +4,18 @@ export const metadata = {
     description: "We provide custom software development for websites, mobile apps and corporate platforms. Utilize our dev expertise for your software project",
     image:"/images/cropped-favicon.png"
   };
-
+  export const Combinecode = {
+    CombiningCodedata: [
+        {
+            backgroundImage: "/images/code_crbg.svg",
+            mainImage: "/images/code_creative.svg",
+            heading: `Software Development Staffing: A Partnership`,
+            description: `At DEV.co, we see software development and IT staffing as a partnership.
+                        It’s our job to help you achieve your goals, whatever they may be. If you’re interested in learning more about our staffing process, or if you’re ready
+                        for a free quote on our IT staffing services, contact us today!`,
+        },
+    ],
+};
 export const homeCard1 = [
     {
         title: "Services",

@@ -131,6 +131,9 @@ export const locationsdata = [
 
     {
         id: 2,
+        meta_title:"Anaheim Custom Software Development Company | Dev.co",
+        meta_description: "Anaheim, California website development services by the experts at DEV.co. Engage our custom software and web developers today!",
+        og_image:"/images/Anaheim-Custom-Software-Development-Company.jpg",
         slug: "anaheim",
         top_title: "Anaheim Custom Software Development Company",
         top_description: `DEV.co is a one of the top digital development agencies in Anaheim, CA. We’ve been serving clients in the area for over 10 years with cutting-edge technology and digital design consulting. We offer an array of web design services including but not limited to custom website development and digital strategy to meet your unique needs.<br></br>
@@ -351,6 +354,9 @@ export const locationsdata = [
     },
     {
         id: 3,
+        meta_title:"Anchorage Custom Software Development Company | Dev.co",
+        meta_description: "Our Anchorage custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Anaheim-Custom-Software-Development-Company-3.jpg",
         slug: "anchorage",
         top_title: "Anchorage Custom Software Development Company",
         top_description: `When most people think of the city of Anchorage Ak, they don’t believe that having an online presence is necessary. While Anchorage Ak is one of the largest cities in the country, it’s still relatively obscure in the state of New Mexico.<br></br>
@@ -566,7 +572,10 @@ export const locationsdata = [
         }
     },
     {
-      id: 4,
+        id: 4,
+        meta_title:"Arlington Custom Software Development Company | Dev.co",
+        meta_description: "Our Arlington custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Arlington-Custom-Software-Development-Company-4.jpg",
       slug: "arlington",
       top_title: "Arlington Custom Software Development Company",
       top_description: ``,
@@ -723,7 +732,10 @@ export const locationsdata = [
       }
     },
     {
-      id: 5,
+        id: 5,
+         meta_title:"Atlanta Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Atlanta, Georgia. Contact us today about our Atlanta web development services.",
+        og_image:"/images/Atlanta-Custom-Software-Development-Company-5.jpg",
       slug: "atlanta",
       top_title: "Atlanta Custom Software Development Company",
       top_description: `Atlanta GA is one of the most well-known cities in the United States. Characterized by its vibrant nightlight and tourism, the city is home to thousands of local and corporate businesses.<br></br>
@@ -793,7 +805,10 @@ export const locationsdata = [
     },
 
     {
-      id: 6,
+        id: 6,
+         meta_title:"Aurora Custom Software Development Company | Dev.co",
+        meta_description: "Our Aurora Software Developer can help you design and develop your ideal website, mobile app, or custom project. Visit Our website.",
+        og_image:"/images/Aurora-Custom-Software-Development-Company-6.jpg",
       slug: "aurora",
       top_title: "Aurora Custom Software Development Company",
       top_description: ``,
@@ -890,7 +905,10 @@ export const locationsdata = [
     },
 
     {
-      id: 7,
+        id: 7,
+         meta_title:"Austin Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Austin, Texas. Contact us today about our Austin web development services.",
+        og_image:"/images/Austin-Custom-Software-Development-Company-7.jpg",
       slug: "austin",
       top_title: "Austin Custom Software Development Company",
       top_description: `Austin, Texas is one of the largest cities in the United States. If you run a business of any kind in the area, then it’s very important to establish an online reputation. Doing so requires you to receive a stellar website that will properly showcase your products and services.<br></br>
@@ -967,6 +985,9 @@ export const locationsdata = [
     },
     {
         id: 8,
+         meta_title:"Bakersfield Custom Software Development Company | Dev.co",
+        meta_description: "Our Bakersfield custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Bakersfield-Custom-Software-Development-Company-8.jpg",
         slug: "bakersfield",
         top_title: "Bakersfield Custom Software Development Company",
         top_description: ``,
@@ -1021,6 +1042,9 @@ export const locationsdata = [
       },
       {
         id: 9,
+        meta_title:"Baltimore Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Baltimore, Maryland. Contact us today about our Baltimore web development services.",
+        og_image:"/images/Baltimore-Custom-Software-Development-Company-9.jpg",     
         slug: "baltimore",
         top_title: "Baltimore Custom Software Development Company",
         top_description: `Major search engines like Google and Bing have a duty to pair search queries with the most accurate results. To give internet users what they want, these companies use complex mathematical and scientific ranking algorithms.<br></br>
@@ -1090,6 +1114,9 @@ export const locationsdata = [
       },
       {
         id: 10,
+         meta_title:"Baton Rouge Custom Software Development Company | Dev.co",
+        meta_description: "Our Baton Rouge custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Baton-Rouge-Custom-Software-Development-Company-10.jpg",
         slug: "baton-rouge",
         top_title: "Baton Rouge Custom Software Development Company",
         top_description: ``,
@@ -1148,6 +1175,9 @@ export const locationsdata = [
       },
       {
         id: 11,
+         meta_title:"Boise Custom Software Development Company | Dev.co",
+        meta_description: "Our Boise custom development services help you develop your ideal Software, mobile app, or custom project. Count on us for the best software.",
+        og_image:"/images/Boise-Custom-Software-Development-Company-11.jpg",
         slug: "boise",
         top_title: "Boise Custom Software Development Company",
         top_description: ``,
@@ -1209,6 +1239,9 @@ export const locationsdata = [
       },
       {
         id: 12,
+        meta_title:"Boston Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Boston, Massachusetts. Contact us today about our Boston web development services.",
+        og_image:"/images/Boston-Custom-Software-Development-Company-12.jpg",
         slug: "boston",
         top_title: "Boston Custom Software Development Company",
         top_description: `Boston is one of the most well-known cities in the United States. The city has an important historical culture as the impetus of the American Revolution. It’s also known to several acclaimed universities, local businesses, and corporate headquarters.<br></br>
@@ -1279,6 +1312,9 @@ export const locationsdata = [
       },
       {
         id: 13,
+        meta_title:"Buffalo Custom Software Development Company | Dev.co",
+        meta_description: "Our Buffalo custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today",
+        og_image:"/images/Buffalo-Custom-Software-Development-Company-13.jpg",
         slug: "buffalo",
         top_title: "Buffalo Custom Software Development Company",
         top_description: ``,
@@ -1386,6 +1422,9 @@ export const locationsdata = [
       },
       {
         id: 13,
+        meta_title:"Chandler Custom Software Development Company | Dev.co",
+        meta_description: "Our Chandler custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Chandler-Custom-Software-Development-Company-14.jpg",
         slug: "chandler",
         top_title: "Chandler Custom Software Development Company",
         top_description: ``,
@@ -1485,6 +1524,9 @@ export const locationsdata = [
       },
       {
         id: 14,
+        meta_title:"Charlotte Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Charlotte, NC. Contact us today about our Charlotte web development services.",
+        og_image:"/images/Charlotte-Custom-Software-Development-Company-15.jpg",
         slug: "charlotte",
         top_title: "Charlotte Custom Software Development Company",
         top_description: `Establishing an online presence is pivotal nowadays. Most consumers use the internet to find a local business, which means that it’s all the more important to have a dynamic website that will properly showcase your products or services.<br></br>
@@ -1563,6 +1605,9 @@ export const locationsdata = [
       },
       {
         id: 15,
+        meta_title:"Chesapeake Custom Software Development Company | Dev.co",
+        meta_description: "Our Chesapeake custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today",
+        og_image:"/images/Chesapeake-Custom-Software-Development-Company-15b.jpg",
         slug: "chesapeake",
         top_title: "Chesapeake Custom Software Development Company",
         top_description: ``,
@@ -1636,6 +1681,9 @@ export const locationsdata = [
       },
       {
         id: 16,
+        meta_title:"Chicago Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Chicago, Illinois. Contact us today about our Chicago web development services.",
+        og_image:"/images/Chicago-Custom-Software-Development-Company-16.jpg",
         slug: "chicago",
         top_title: "Chicago Custom Software Development Company",
         top_description: `Chicago, otherwise known as the Windy City, is known for its Midwestern charm and stunning restaurants. Local businesses are common throughout the city’s metro area, making competition tough.<br></br>
@@ -1716,6 +1764,9 @@ export const locationsdata = [
       },
       {
         id: 17,
+        meta_title:"Chula Vista Custom Software Development Company | Dev.co",
+        meta_description: "Our Chula Vista custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Chula-Vista-Custom-Software-Development-Company-17.jpg",
         slug: "chula-vista",
         top_title: "Chula Vista Custom Software Development Company",
         top_description: ``,
@@ -1808,6 +1859,9 @@ export const locationsdata = [
       },
       {
         id: 18,
+        meta_title:"Cincinnati Custom Software Development Company | Dev.co",
+        meta_description: "Our Cincinnati custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Cincinnati-Custom-Software-Development-Company-18.jpg",
         slug: "cincinnati",
         top_title: "Cincinnati Custom Software Development Company",
         top_description: ``,
@@ -1865,6 +1919,9 @@ export const locationsdata = [
       },
       {
         id: 19,
+        meta_title:"Cleveland Custom Software Development Company | Dev.co",
+        meta_description: "Our Cincinnati custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Cleveland-Custom-Software-Development-Company-19.jpg",
         slug: "cleveland",
         top_title: "Cleveland Custom Software Development Company",
         top_description: ``,
@@ -1930,6 +1987,9 @@ export const locationsdata = [
       },
       {
         id: 20,
+        meta_title:"Colorado Springs Custom Software Development Company",
+        meta_description: "Dev.co is one of the best web design agencies in Colorado Springs, Colorado. Contact us today about our Colorado Springs web development",
+        og_image:"/images/Colorado-Springs-Custom-Software-Development-Company-20.jpg",
         slug: "colorado-springs",
         top_title: "Colorado Springs Custom Software Development Company",
         top_description: `Colorado Springs is one of the most well-known and visited cities in the United States and the world. The city is known for its wildlife, more jobs, weather, and winter-related attractions. As you can imagine, many local businesses operate in Colorado Springs.<br></br>
@@ -2007,6 +2067,9 @@ And what about your city’s department business? It’s in computer engineering
       },
       {
         id: 21,
+         meta_title:"Columbus Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Columbus, Ohio. Contact us today about our Columbus web development services.",
+        og_image:"/images/Columbus-Custom-Software-Development-Company21.jpg",
         slug: "columbus",
         top_title: "Columbus Custom Software Development Company",
         top_description: `If you’re searching for software developer jobs or looking to connect with software developers, you might typically use big search engines, such as Google or Bing. These are the go-to places to discover local businesses. So, if your business doesn’t pop up in these search engines, you risk losing some awesome potential connections.<br></br>
@@ -2071,6 +2134,9 @@ And what about your city’s department business? It’s in computer engineering
       },
       {
         id: 22,
+         meta_title:"Corpus Christi Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Corpus Christi, TX. Contact us today about our Corpus Christi web development services.",
+        og_image:"/images/Corpus-Christi-Custom-Software-Development-Company-22.jpg",
         slug: "corpus-christi",
         top_title: "Corpus Christi Custom Software Development Company",
         top_description: ``,
@@ -2141,6 +2207,9 @@ And what about your city’s department business? It’s in computer engineering
 
       {
         id: 23,
+         meta_title:"Dallas Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Dallas, Texas. Contact us today about our Dallas web development services.",
+        og_image:"/images/Dallas-Custom-Software-Development-Company-23.jpg",
         slug: "dallas",
         top_title: "Dallas Custom Software Development Company",
         top_description: `Dallas TX is a bustling hub known far and wide across the U.S. Without solid online visibility, your venture might face an uphill battle in its field. This struggle underscores why having a top-notch website matters.<br></br>
@@ -2225,6 +2294,9 @@ And what about your city’s department business? It’s in computer engineering
 
       {
         id: 24,
+         meta_title:"Denver Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Denver, CO. Contact us today about our Colorado web development services.",
+        og_image:"/images/Denver-Custom-Software-Development-Company-24.jpg",
         slug: "denver",
         top_title: "Denver Custom Software Development Company",
         top_description: `Finding a local business has never been easier in our techno-savvy era. All you need is your cell or tablet, then voila! You’re on Google or Bing finding the biz that fits.<br></br>
@@ -2307,6 +2379,9 @@ And what about your city’s department business? It’s in computer engineering
 
       {
         id: 25,
+         meta_title:"Detroit Custom Software Development Company | Dev.co",
+        meta_description: "Our Detroit custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Detroit-MI-Custom-Software-Development-Company-25.jpg",
         slug: "detroit",
         top_title: "Detroit Custom Software Development Company",
         top_description: `Looking for a software development firm in Detroit that can deliver personalized solutions? You’re at the right spot! We’ve got experienced developers ready to craft bespoke software just for you. Trust us, we’ve made it big in Detroit and take pride in providing top-shelf service. Want more info about what we offer? Hit us up!<br></br>
@@ -2401,6 +2476,9 @@ And what about your city’s department business? It’s in computer engineering
 
       {
         id: 26,
+         meta_title:"Durham Custom Software Development Company | Dev.co",
+        meta_description: "Our Durham custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Durham-Custom-Software-Development-Company-26.jpg",
         slug: "durham",
         top_title: "Durham Custom Software Development Company",
         top_description: ``,
@@ -2476,6 +2554,9 @@ And what about your city’s department business? It’s in computer engineering
 
       {
         id: 27,
+         meta_title:"El Paso Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in El Paso, Texas. Contact us today about our El Paso web development services.",
+        og_image:"/images/El-Paso-Custom-Software-Development-Company-27.jpg",
         slug: "el-paso",
         top_title: "El Paso Custom Software Development Company",
         top_description: `In today’s digital age, being visible online is crucial. Why? Because a majority of customers use the web to find local businesses like yours in El Paso TX.<br></br>
@@ -2556,6 +2637,9 @@ This means you can count on us to deliver a website that will improve your ROI a
 
       {
         id: 28,
+         meta_title:"Fort Wayne Custom Software Development Company | Dev.co",
+        meta_description: "Our Fort Wayne custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Fort-Wayne-Custom-Software-Development-Company-28.jpg",
         slug: "fort-wayne",
         top_title: "Fort Wayne Custom Software Development Company",
         top_description: ``,
@@ -2627,6 +2711,9 @@ This means you can count on us to deliver a website that will improve your ROI a
 
       {
         id: 29,
+         meta_title:"Fort Worth Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Fort Worth, Texas. Contact us today about our Fort Worth web development services.",
+        og_image:"/images/Fort-Worth-Custom-Software-Development-Company-29.jpg",
         slug: "fort-worth",
         top_title: "Fort Worth Custom Software Development Company",
         top_description: `Looking for a city with unique attractions and flavors? Fort Worth, Texas might just be your kind of place. Here in Fort Worth TX , local businesses shine brighter if they’ve got strong online visibility.<br></br>
@@ -2706,6 +2793,9 @@ This means you can count on us to deliver a website that will improve your ROI a
       },
       {
         id: 30,
+         meta_title:"Fremont Custom Software Development Company | Dev.co",
+        meta_description: "Our Fremont custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Fremont-Custom-Software-Development-Company-30.jpg",
         slug: "fremont",
         top_title: "Fremont Custom Software Development Company",
         top_description: ``,
@@ -2767,6 +2857,9 @@ This means you can count on us to deliver a website that will improve your ROI a
 
       {
         id: 31,
+         meta_title:"Fresno Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Fresno, California. Contact us today about our Fresno web development services.",
+        og_image:"/images/Fresno-Custom-Software-Development-Company-31.jpg",
         slug: "fresno",
         top_title: "Fresno Custom Software Development Company",
         top_description: `Fresno CA is one of the most well-known cities in the United States. Running a successful business in Fresno requires having a stable online presence. This only comes by developing a fully-functional website for your business.<br></br>
@@ -2839,6 +2932,9 @@ This means you can count on us to deliver a website that will improve your ROI a
 
       {
         id: 32,
+         meta_title:"Garland Custom Software Development Company | Dev.co",
+        meta_description: "Our Garland custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Garland-Custom-Software-Development-Company-32.jpg",
         slug: "garland",
         top_title: "Garland Custom Software Development Company",
         top_description: ``,
@@ -2905,6 +3001,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 33,
+         meta_title:"Gilbert Custom Software Development Company | Dev.co",
+        meta_description: "Our Gilbert custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Gilbert-Custom-Software-Development-Company-33.jpg",
         slug: "gilbert",
         top_title: "Gilbert Custom Software Development Company",
         top_description: ``,
@@ -2972,6 +3071,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 34,
+         meta_title:"Glendale Custom Software Development Company | Dev.co",
+        meta_description: "Our Glendale custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Glendale-Custom-Software-Development-Company-34.jpg",
         slug: "glendale",
         top_title: "Glendale Custom Software Development Company",
         top_description: `The team at DEV.co is a leader in website design & development. Let us make your business the best it can be with our web and custom programming services in Glendale, Arizona.<br></br>
@@ -3037,6 +3139,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 35,
+         meta_title:"Greensboro Custom Software Development Company | Dev.co",
+        meta_description: "Our Greensboro custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Greensboro-Custom-Software-Development-Company-35.jpg",
         slug: "greensboro",
         top_title: "Greensboro Custom Software Development Company",
         top_description: `DEV.co is a full-service web design and development company based in Greensboro, North Carolina, that specializes in building custom software solutions for businesses.<br></br>
@@ -3110,6 +3215,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 36,
+         meta_title:"Henderson Custom Software Development Company | Dev.co",
+        meta_description: "Our Henderson custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Henderson-Custom-Software-Development-Company-36.jpg",
         slug: "henderson",
         top_title: "Henderson Custom Software Development Company",
         top_description: `DEV.co Henderson Web Design & Development Company is a digital agency that delivers results!<br></br>
@@ -3181,6 +3289,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 37,
+         meta_title:"Honolulu Custom Software Development Company | Dev.co",
+        meta_description: "Our Honolulu custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Honolulu-Custom-Software-Development-Company-37.jpg",
         slug: "honolulu",
         top_title: "Honolulu Custom Software Development Company",
         top_description: `Developing a website that succeeds in today’s digital world is an art and a science.<br></br>
@@ -3251,6 +3362,9 @@ We offer website design for a variety of industries including small business, de
       },
       {
         id: 38,
+         meta_title:"Houston Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Houston, Texas. Contact us about our web development services in Houston, TX.",
+        og_image:"/images/Houston-Custom-Software-Development-Company-38.jpg",
         slug: "houston",
         top_title: "Houston Custom Software Development Company",
         top_description: `Houston, also known as H-Town or Space City, is a popular hub for business and careers. If you’re here, then that means you need help establishing an online presence for your business.<br></br>
@@ -3331,6 +3445,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 39,
+         meta_title:"Indianapolis Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Indianapolis, IN. Contact us today about our Indianapolis web development services.",
+        og_image:"/images/Indianapolis-Custom-Software-Development-Company-39.jpg",
         slug: "indianapolis",
         top_title: "Indianapolis Custom Software Development Company",
         top_description: `Are you looking to improve your overall web presence with a stellar new website? If so, then you’ve come to the right place. Dev.co specializes in building top-quality websites that rank well on major search engines like Google and Bing.<br></br>
@@ -3402,6 +3519,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 40,
+         meta_title:"Irvine Custom Software Development Company | Dev.co",
+        meta_description: "Our Irvine custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Irvine-Custom-Software-Development-Company-40.jpg",
         slug: "irvine",
         top_title: "Irvine Custom Software Development Company",
         top_description: `Whether you’re an established business looking to revamp your web presence or a start-up company looking to create an online environment for your customers, DEV.co develops web design that is empowered by modern technologies and strategic web development best practices.<br></br>
@@ -3470,6 +3590,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 41,
+         meta_title:"Irving Custom Software Development Company | Dev.co",
+        meta_description: "",
+        og_image:"/images/Irving-Custom-Software-Development-Company-41.jpg",
         slug: "irving",
         top_title: "Irving Custom Software Development Company",
         top_description: `Whether you’re an established business or a start-up, DEV.co offers web design powered by modern technologies and best practices. Our custom solutions help businesses thrive in today’s digital space.<br></br>
@@ -3544,6 +3667,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 42,
+         meta_title:"Jacksonville Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Jacksonville, Florida. Contact us today about our Jacksonville web development services.",
+        og_image:"/images/Jacksonville-Custom-Software-Development-Company-42.jpg",
         slug: "jacksonville",
         top_title: "Jacksonville Custom Software Development Company",
         top_description: `Jacksonville, Florida is truly one of the most beautiful cities in the country. Tourists flock here every year to enjoy the pleasant Florida sun, weather, and beaches. This makes it all the more important for local businesses to have an online presence.<br></br>
@@ -3619,6 +3745,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 43,
+         meta_title:"Jersey City Custom Software Development Company | Dev.co",
+        meta_description: "Our Jersey custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Jersey-City-Custom-Software-Development-Company-42.jpg",
         slug: "jersey-city",
         top_title: "Jersey City Custom Software Development Company",
         top_description: `DEV.co is a Jersey City web design and development firm specializing in custom, search-engine-optimized solutions for small businesses and start-ups. We create websites that are clean, fast loading, and easy to use.`,
@@ -3690,6 +3819,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 45,
+         meta_title:"Kansas City Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Kansas City, Missouri. Contact us today about our Kansas City web development services.",
+        og_image:"/images/Kansas-City-Custom-Software-Development-Company-43.jpg",
         slug: "kansas-city",
         top_title: "Kansas City Custom Software Development Company",
         top_description: `Kansas City is known for its rich culture in sports, cuisine, and architecture. Also, many local businesses operate in this city, creating a unified competition that requires every nearby business to have an online presence.<br></br>
@@ -3767,6 +3899,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 46,
+         meta_title:"Laredo Custom Software Development Company | Dev.co",
+        meta_description: "Our Laredo custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Laredo-Custom-Software-Development-Company-44.jpg",
         slug: "laredo",
         top_title: "Laredo Custom Software Development Company",
         top_description: `We provide website development, design, custom software development services for small businesses, startups and Fortume 500 companies alike.<br></br>
@@ -3841,6 +3976,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 47,
+         meta_title:"Las Vegas Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Las Vegas, Nevada. Contact us today about our Las Vegas web development services.",
+        og_image:"/images/Las-Vegas-Custom-Software-Development-Company",
         slug: "las-vegas",
         top_title: "Las Vegas Custom Software Development Company",
         top_description: `Las Vegas is not only one of the most well-known cities in the United States, but it’s also one of the most recognizable cities in the world. If you’re running any type of business in Las Vegas, then it’s important to establish an online presence.<br></br>
@@ -3912,6 +4050,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 48,
+         meta_title:"Lexington Custom Software Development Company | Dev.co",
+        meta_description: "Our Lexington custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Lexington-Custom-Software-Development-Company.jpg",
         slug: "lexington",
         top_title: "Lexington Custom Software Development Company",
         top_description: `We at DEV.co are a full-service web agency in Lexington, Kentucky. We specialize in the design, development, and maintenance of fully functional and search-friendly websites for both small businesses and start-ups.<br></br>
@@ -3983,6 +4124,9 @@ We offer website design for a variety of industries including small business, de
       },
       {
         id: 49,
+         meta_title:"Lincoln Custom Software Development Company | Dev.co",
+        meta_description: "Our Lincoln custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Lincoln-Custom-Software-Development-Company.jpg",
         slug: "lincoln",
         top_title: "Lincoln Custom Software Development Company",
         top_description: `DEV.co is a company of engineers, designers, developers, and entrepreneurs all coming together to offer custom web and software design and development.<br></br>
@@ -4050,6 +4194,9 @@ We offer website design for a variety of industries including small business, de
       },
       {
         id: 50,
+         meta_title:"Long Beach Custom Software Development Company | Dev.co",
+        meta_description: "Our Long Beach custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
+        og_image:"/images/Long-Beach-Custom-Software-Development-Company.jpg",
         slug: "long-beach",
         top_title: "Long BeachCustom Software Development Company",
         top_description: `DEV.co is a Long Beach Web Design, Software Development, and Consulting company that specializes in small business web design, custom website development, and online marketing strategies for local businesses looking to compete with their larger competitors at the best possible price.<br></br> 
@@ -4135,6 +4282,9 @@ We offer website design for a variety of industries including small business, de
 
       {
         id: 51,
+         meta_title:"Los Angeles Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Los Angeles, California. Contact us today about our Los Angeles web development services.",
+        og_image:"/images/Los-Angeles-Custom-Software-Development-Company.jpg",
         slug: "los-angeles",
         top_title: "Los Angeles Custom Software Development Company",
         top_description: `Los Angeles is one of the largest cities in the United States. In fact, it’s the second most populous city in the country. The city is known for its beautiful weather, hiking trails, and job opportunities.<br></br>
@@ -4221,6 +4371,8 @@ We work together with our clients to understand their goals and vision and creat
 
       {
         id: 52,
+        meta_title:"Lubbock Custom Software Development Company | Dev.co",
+        meta_description: "Our Lubbock custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         slug: "lubbock",
         top_title: "Lubbock Custom Software Development Company",
         top_description: `DEV.co has been designing and developing custom software and fully functional websites for over a decade.
@@ -4292,6 +4444,9 @@ We use state-of-the-art technologies such as responsive web development to ensur
     },
       {
         id: 53,
+        meta_title:"Madison Custom Software Development Company | Dev.co",
+        meta_description: "Our Madison custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Madison-Custom-Software-Development-Company.jpg",
         slug: "madison",
         top_title: "Madison Custom Software Development Company",
         top_description: `DEV.co has been designing and developing custom software and fully functional websites and mobile-friendly sites based on the latest application frameworks for more than a decade, designing and making them production-ready at every step. Our custom software development services include a thorough custom software development process that ensures efficient software solutions tailored to each client’s unique needs.
@@ -4357,6 +4512,9 @@ Creating an online presence is the first step in getting your business off the g
 
       {
         id: 54,
+         meta_title:"Memphis Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Memphis, Tennessee. Contact us today about our Memphis web development services.",
+        og_image:"/images/Memphis-Custom-Software-Development-Company.jpg",
         slug: "memphis",
         top_title: "Memphis Custom Software Development Company",
         top_description: `Memphis is surely one of the most popular cities in the country. Known for its BBQ, museums, and historical attractions, there are countless tourists that visit the city throughout the year.
@@ -4442,6 +4600,9 @@ By choosing to work with us, our team will uphold the highest standards of servi
       },
       {
         id: 54,
+         meta_title:"Mesa Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Mesa, Arizona. Contact us today about our Mesa web development services.",
+        og_image:"/images/Mesa-Custom-Software-Development-Company.jpg",
         slug: "mesa",
         top_title: "Mesa Custom Software Development Company",
         top_description: `While Mesa, Arizona may be unfamiliar to many Americans, it’s still a remarkable city. Mesa highlights the suburban feel of urban Arizona and is one of the most beautiful and affordable places to live in the entire state.
@@ -4524,6 +4685,9 @@ Our goal is for your website to outrank your competitors and drive sales and rev
 
       {
         id: 55,
+         meta_title:"Miami Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Miami, Florida. Contact us today about our Miami web development services.",
+        og_image:"/images/Miami-Custom-Software-Development-Company.jpg",
         slug: "miami",
         top_title: "Miami Custom Software Development Company",
         top_description: `ami is one of the most well-known cities in the United States. Home to exceptionally-pleasant weather, a vibrant nightlife, and tons of local and corporate businesses, having an online presence is extremely vital if you run any kind of business in Miami.
@@ -4600,6 +4764,9 @@ When you choose to work with us, we’ll develop a website that will maximize yo
 
       {
         id: 56,
+         meta_title:"Milwaukee Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Milwaukee, Wisconsin. Contact us today about our Milwaukee web development services.",
+        og_image:"/images/Milwaukee-Custom-Software-Development-Company.jpg",
         slug: "milwaukee",
         top_title: "Milwaukee Custom Software Development Company",
         top_description: `Milwaukee, home to a rich tradition of sports and craft beer, is a highly recognizable city in the United States. Local businesses are rampant in Milwaukee, making it all the more important to establish a strong online presence.
@@ -4677,6 +4844,9 @@ As the leading website development agency in Milwaukee, you can also count on us
 
       {
         id: 57,
+         meta_title:"Minneapolis Custom Software Development Company | Dev.co",
+        meta_description: "Our Minneapolis custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Minneapolis-Custom-Software-Development-Company.jpg",
         slug: "minneapolis",
         top_title: "Minneapolis Custom Software Development Company",
         top_description: `DEV.co is the leading online platform for purchasing websites and mobile-friendly sites. We work with sellers from all over the world to list their top-quality websites and domain names at fair prices. Our service simplifies the process of purchasing a website or domain name, making it easy for you to get started. Alongside website acquisition, we also offer software development services and custom software solutions to ensure your digital presence meets your unique business needs.<br></br>
@@ -4741,6 +4911,9 @@ We’ll work with you to understand your business, branding, and desired objecti
 
       {
         id: 58,
+         meta_title:"Nashville Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Nashville, Tennessee. Contact us today about our Nashville web development services.",
+        og_image:"/images/Nashville-Custom-Software-Development-Company.jpg",
         slug: "nashville",
         top_title: "Nashville Custom Software Development Company",
         top_description: `Do you want to improve your online presence? If so, then you’ve come to the right place. Dev.co is the leading provider of web design services in Nashville, Tennessee. For more than 12 years, we have built a strong reputation as the finest Nashville website development agency, specializing in custom software solutions and building solutions tailored to your needs.
@@ -4818,6 +4991,9 @@ Contact us today to learn more about how we can help you!
 
       {
         id: 59,
+         meta_title:"New Orleans Custom Software Development Company | Dev.co",
+        meta_description: "Our New Orleans custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/New-Orleans-Custom-Software-Development-Company.jpg",
         slug: "new-orleans",
         top_title: "New Orleans Custom Software Development Company",
         top_description: `DEV.co offers a wide range of services to business owners, marketing experts, and creative types.
@@ -4901,6 +5077,9 @@ Our team of designers, developers, and marketing specialists specializes in laun
 
       {
         id: 60,
+         meta_title:"New York City Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in New York City. Contact us today about our custom web development services in New York.",
+        og_image:"/images/New-York-City-Custom-Software-Development-Company.jpg",
         slug: "new-york-city",
         top_title: "New York City Custom Software Development Company",
         top_description: `Having a website is no longer an option nowadays, neither is possessing an ordinary site that was built on your own. An established web presence is key to attracting online leads and boosting the conversions of your business.
@@ -4986,6 +5165,9 @@ Here is how we can help you build the perfect website for your business:`,
 
       {
         id: 61,
+         meta_title:"Newark Custom Software Development Company | Dev.co",
+        meta_description: "Our Newark custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Newark-Custom-Software-Development-Company.jpg",
         slug: "newark",
         top_title: "Newark Custom Software Development Company",
         top_description: `DEV.co is a web design and development company based in Newark, New Jersey. We specialize in clean, full-featured web design with the latest web technologies and development practices.
@@ -5067,6 +5249,9 @@ Our team members are experienced professionals with their own start-ups, small b
 
       {
         id: 62,
+         meta_title:"Norfolk Custom Software Development Company | Dev.co",
+        meta_description: "Our Norfolk custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Norfolk-Custom-Software-Development-Company.jpga",
         slug: "norfolk",
         top_title: "Norfolk Custom Software Development Company",
         top_description: `DEV.co is a popular Norfolk custom software development company that can help you build your site. With a team of experts and agencies that work together, they manage to deliver fast results while keeping within your budget.
@@ -5143,6 +5328,9 @@ Whether you’re launching a new product or service, updating your site, or just
       },
       {
         id: 63,
+         meta_title:"Oakland Custom Software Development Company | Dev.co",
+        meta_description: "Our Oakland custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Oakland-Custom-Software-Development-Company.jpg",
         slug: "oakland",
         top_title: "Oakland Custom Software Development Company",
         top_description: `DEV.co offers complete solutions for your business’s digital marketing efforts, from design to development to promotion to support.
@@ -5225,6 +5413,9 @@ As the leading web development company, our knowledge of programming languages a
 
       {
         id: 64,
+         meta_title:"Oklahoma City Custom Software Development Company | Dev.co",
+        meta_description: "Our Oklahoma City custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Oklahoma-City-Custom-Software-Development-Company.jpg",
         slug: "oklahoma-city",
         top_title: "Oklahoma City Custom Software Development Company",
         top_description: `If you are looking for a custom software development company in Oklahoma City that can help your business achieve its goals, then you need to look no further than the team at DEV.co.<br></br>
@@ -5301,6 +5492,9 @@ Contact us today to learn more about how we can help you!`,
 
       {
         id: 65,
+         meta_title:"Omaha Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Omaha, Nebraska. Contact us today about our Omaha web development services.",
+        og_image:"/images/Omaha-Custom-Software-Development-Company.jpg",
         slug: "omaha",
         top_title: "Omaha Custom Software Development Company",
         top_description: `Omaha may be a relatively obscure city in the United States, but it’s still one of the largest cities in the country. This means that having an online presence is extremely vital to the success of your business.
@@ -5378,6 +5572,9 @@ Websites are meant to convert leads into customers. When your website falls shor
       },
       {
         id: 66,
+         meta_title:"Orlando Custom Software Development Company | Dev.co",
+        meta_description: "      Our Orlando custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!  ",
+        og_image:"/images/Orlando-Custom-Software-Development-Company.jpg",
         slug: "orlando",
         top_title: "Orlando Custom Software Development Company",
         top_description: `DEV.co is a full-service digital agency that focuses on simplicity, speed, and quality. We have everything you need to build a website or an app for any of your business needs. From design to development, we create a solution that meets your unique vision.
@@ -5448,6 +5645,9 @@ With deep experience in the cryptocurrency arena, we’re one of the best-placed
       },
       {
         id: 67,
+         meta_title:"Philadelphia Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Philadelphia, Pennsylvania. Contact us today about our Philadelphia web development services",
+        og_image:"/images/Philadelphia-Custom-Software-Development-Company.jpg",
         slug: "philadelphia",
         top_title: "Philadelphia Custom Software Development Company",
         top_description: `Philadelphia, the city of Brotherly Love, is one of the most culturally significant cities in the United States. If you’re here, then that means you need to establish a web presence for your company.
@@ -5520,6 +5720,9 @@ When you choose to work with us, we’ll make sure that you receive a website bo
       },
       {
         id: 68,
+         meta_title:"Phoenix Custom Software Development Company | Dev.co",
+        meta_description: "Do you need help with establishing an online presence in a tough and competitive market? One of the best development agencies in Phoenix, AZ",
+        og_image:"/images/Phoenix-Custom-Software-Development-Company.jpg",
         slug: "phoenix",
         top_title: "Phoenix Custom Software Development Company",
         top_description: `Phoenix is not only one of the best places to live, but it’s also a surprising center for business and commerce. If you’re here, then that means that you’re running a local business in Phoenix.
@@ -5606,6 +5809,9 @@ We’re not just any Phoenix web design company. We have built a strong reputati
       },
       {
         id: 69,
+         meta_title:"Portland Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Portland, Oregon. Contact us today about our Portland web development services.",
+        og_image:"/images/Portland-Custom-Software-Development-Company.jpg",
         slug: "portland",
         top_title: "Portland Custom Software Development Company",
         top_description: `Portland, Oregon is one of the most well-known cities in the United States. Home to both local and corporate headquarters, it’s never been more important to have a stable online presence in this city.
@@ -5685,6 +5891,9 @@ For more than 12 years, we have serviced the businesses of Portland. Until you a
 
       {
         id: 70,
+         meta_title:"Raleigh Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Raleigh, North Carolina. Contact us today about our Raleigh web development services.",
+        og_image:"/images/Raleigh-Custom-Software-Development-Company.jpg",
         slug: "raleigh",
         top_title: "Raleigh Custom Software Development Company",
         top_description: `Raleigh, North Carolina is known for its rich, tight-knit culture and architecture. An eclectic mixture of different heritages all blossom in Raleigh, cultivating a unique sphere of local businesses in the city.
@@ -5763,6 +5972,9 @@ This means you can expect your website to attract leads that are interested in y
       },
       {
         id: 71,
+         meta_title:"Sacramento Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Sacramento, California. Contact us today about our Sacramento web development services.",
+        og_image:"/images/Sacramento-Custom-Software-Development-Company.jpg",
         slug: "sacramento",
         top_title: "Sacramento Custom Software Development Company",
         top_description: `Sacramento is one of the most well-known cities in the United States. Home to business, excellent weather, beaches, and nightlife, both tourists and natives live vibrant lives in this city.
@@ -5844,6 +6056,9 @@ When you work with us, we’ll create a website that fully maximizes your initia
       },
       {
         id: 72,
+         meta_title:"Salt Lake City Custom Software Development Company | Dev.co",
+        meta_description: "Our Salt Lake City custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us!",
+        og_image:"/images/Salt-Lake-City-Custom-Software-Development-Company.jpg",
         slug: "salt-lake-city",
         top_title: "Salt Lake City Custom Software Development Company",
         top_description: `Get started on your next project with DEV’s team of experts and kick-ass technology. Our specialists will build a customized website, mobile app, or connected device from scratch to suit your needs. As a client, you’ll have unlimited access to a dedicated account manager who will provide support and walk you through the development process, from the blueprint to deployment. From inspiration to achievement. The appearance of your business, the way it behaves online and offline, and how well it adapts in an ever-changing digital landscape is all-important.
@@ -5901,6 +6116,9 @@ We’ll collaborate with you on every step of the process, from discovery and st
       },
       {
         id: 73,
+         meta_title:"San Antonio Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in San Antonio, Texas. Contact us today about our San Antonio web development services.",
+        og_image:"/images/San-Antonio-Custom-Software-Development-Company.jpg",
         slug: "san-antonio",
         top_title: "San Antonio Custom Software Development Company",
         top_description: `San Antonio has been voted as one of the best places to live across the country. It’s also a significant cultural and business hotbed. If you’re running any type of business in San Antonio, then you’re going to need a high-quality website to reach your target audience.
@@ -5973,6 +6191,9 @@ By maintaining the highest standards of customer satisfaction and service, you c
       },
       {
         id: 74,
+         meta_title:"San Diego Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in San Diego, California. Contact us today about our San Diego web development services.",
+        og_image:"/images/San-Diego-Custom-Software-Development-Company.jpg",
         slug: "san-diego",
         top_title: "San Diego Custom Software Development Company",
         top_description: `San Diego is one of the fastest growing cities in the United States. Because of this, any business that operates in the city must have an established online presence. There just isn’t any other alternative.
@@ -6047,6 +6268,9 @@ We have a special devotion to the city of San Diego, its people, and surrounding
       },
       {
         id: 75,
+         meta_title:"San Francisco Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in San Francisco, California. Contact us today about our San Francisco web development services",
+        og_image:"/images/San-Francisco-Custom-Software-Development-Company.jpg",
         slug: "san-francisco",
         top_title: "San Francisco Custom Software Development Company",
         top_description: `San Francisco is one of the most well-known cities in the world. It’s considered the business and innovation capital of the United States, home to the world-renowned Silicon Valley.
@@ -6123,6 +6347,9 @@ We invest all of our time and effort into the projects we take on. The end resul
       },
       {
         id: 76,
+         meta_title:"San Jose Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in San Jose, California. Contact us today about our San Jose web development services.",
+        og_image:"/images/San-Jose-Custom-Software-Development-Company.jpg",
         slug: "san-jose",
         top_title: "San Jose Custom Software Development Company",
         top_description: `San Jose has a growing reputation among both home and business owners. If you are running a business in San Jose and want to improve your online presence, then you’ve come to the right place.
@@ -6199,6 +6426,9 @@ Our mission is to combine world-class technical support with actionable business
       },
       {
         id: 77,
+         meta_title:"Seattle Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best software dev agencies in Seattle, WA. Contact us today about our Washington custom web development services.",
+        og_image:"/images/Seattle-Custom-Software-Development-Company.jpg",
         slug: "seattle",
         top_title: "Seattle Custom Software Development Company",
         top_description: `Seattle is one of the most popular cities in the world. As such, having your digital presence is key to your success as a business. Seattle is home to both rampant local businesses and Fortune 500 companies.
@@ -6279,6 +6509,9 @@ Plus, our location in the heart of Seattle, WA gives us easy access to some of t
       },
       {
         id: 78,
+         meta_title:"Tucson Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Tucson, Arizona. Contact us today about our Tucson web development services.",
+        og_image:"/images/Tucson-Custom-Software-Development-Company.jpg",
         slug: "tucson",
         top_title: "Tucson Custom Software Development Company",
         top_description: `Tucson is one of the most well-known cities in the state of Arizona. If you are running any type of business in Tucson, then it’s important that you establish an online presence to attract qualified leads to your business.
@@ -6356,6 +6589,9 @@ Over the years, we have built our agency into a powerhouse in the marketing indu
       },
       {
         id: 79,
+         meta_title:"Washington D.C. Custom Software Development Company",
+        meta_description: "Washington D.C. Custom Software Development Company",
+        og_image:"/images/Washington-D-C-Custom-Software-Development-Company.jpg",
         slug: "washington-d.c.",
         top_title: "Washington D.C. Custom Software Development Company",
         top_description: `TWashington D.C. is clearly known as the capital of the United States, and an epicenter for the country’s historical monuments, as well numerous local and corporate business headquarters.
@@ -6438,6 +6674,9 @@ We not only have the tools and resources at our disposal to get the job done, bu
       },
       {
         id: 80,
+         meta_title:"West Palm Beach Custom Software Development Company",
+        meta_description: "Dev.co is one of the best software development agencies in West Palm Beach, Florida. Contact us today about our West Palm Beach dev services.",
+        og_image:"/images/West-Palm-Beach-Custom-Software-Development-Company.jpg",
         slug: "west-palm-beach",
         top_title: "West Palm Beach Custom Software Development Company",
         top_description: `If you’re looking for a custom software development team that can help your business, you’ve come to the right place.
@@ -6519,6 +6758,9 @@ We also offer competitive rates, so you can rest assured that you’re getting t
       },
       {
         id: 81,
+        meta_title:"Louisville Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best web design agencies in Louisville, Kentucky. Contact us today about our Louisville web development services.",
+        og_image:"/images/Louisville-Custom-Software-Development-Company.jpg",
         slug: "louisville",
         top_title: "Louisville Custom Software Development Company",
         top_description: `Louisville is one of the most popular and well-known cities in the United States. If you’re running a business of any kind, then it’s important to establish an online presence first. Without doing so, your business can struggle to attract meaningful leads and convert them into sales opportunities.

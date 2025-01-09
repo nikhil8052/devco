@@ -64,7 +64,7 @@ export default function Blog() {
     if (blogs.length === 0) {
         return (
             <div className="form_page Blogpage bg-black relative text-customwhite py-20">
-                <p className="text-center">No blogs available.</p>
+                <p className="text-center py-20 section_head_title font-semibold text-[20px] 2xl:text-[50] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">No blogs available.</p>
             </div>
         );
     }
