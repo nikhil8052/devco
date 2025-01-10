@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import ContactAddress from './ContactAddress.js';
 
 const formFields = [
   { id: "firstName", label: "First Name", type: "text", required: true },
@@ -7,32 +10,47 @@ const formFields = [
   { id: "phone", label: "Phone", type: "tel", required: true },
   {
     id: "help", label: "How Can We Help", type: "select", options: [
-      { value: "inquiry", label: "General Inquiry" },
-      { value: "support", label: "Support" },
-      { value: "feedback", label: "Feedback" },
+      { value: "web development", label: "I need custom web development" },
+      { value: "app development", label: "I need custom app development" },
+      { value: "IT staffing assistance", label: "I am looking for IT staffing assistance" },
+      { value: "Super custom", label: "I need something super custom" },
     ]
   },
   { id: "additionalInfo", label: "Additional Information", type: "textarea" },
 ];
 
-const addresses = [
-  {
-    icon: '/images/locventrfff.svg', // Replace with actual icon path
-    title: 'Seattle, WA',
-    description: '1425 Broadway 22689 Seattle, WA 98112',
-  },
-  {
-    icon: '/images/locventrfff.svg', // Replace with actual icon path
-    title: 'West Palm Beach, FL',
-    description: '700 S Rosemary Ave Suite 204 West Palm Beach, FL 33401',
-  },
-  {
-    icon: '/images/phnvectrkjkjh.svg', // Replace with actual icon path
-    title: '',
-    description: '',
-    phnlink: '+1 (206) 438-9789',
-  },
-];
+const handleSubmit = async (event) => {
+  event.preventDefault(); // Prevent the default form submission
+
+  const formData = new FormData(event.target); // Get the form data
+  
+  // Convert form data to an object
+  const data = {};
+  formData.forEach((value, key) => {
+    data[key] = value;
+  });
+
+  try {
+    const response = await fetch('/api/submitForm', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    const result = await response.json();
+    
+    if (response.ok) {
+      alert('Form submitted successfully');
+    } else {
+      alert('Failed to submit form');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('An error occurred while submitting the form');
+  }
+};
 
 const Formpage = () => {
   return (
@@ -44,26 +62,7 @@ const Formpage = () => {
               <h1 className="text-[34px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold mb-4">
                 Contact Us
               </h1>
-              <div className="address_wrapper">
-                {addresses.map((address, index) => (
-                  <div className="address_box" key={index}>
-                    <div className="address_icon">
-                      <img src={address.icon} alt={`${address.title || 'Phone'} icon`} />
-                    </div>
-                    <div className="addrs-text">
-                      {address.title && <h4>{address.title}</h4>}
-                      {address.description && <p>{address.description}</p>}
-                      {address.phnlink && (
-                        <p>
-                          <a href={`tel:${address.phnlink}`} className="phone_link">
-                            {address.phnlink}
-                          </a>
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
+              <ContactAddress />
             </div>
           </div>
           <div className="page_col w-[50%]">
@@ -72,7 +71,7 @@ const Formpage = () => {
                 <h3>Tell us how we can help you</h3>
               </div>
               <div className="form">
-                <form className="site_form">
+                <form className="site_form" onSubmit={handleSubmit}>
                   <div className="form_row">
                     {formFields.map((field, index) => (
                       <div className="form_col" key={index}>
