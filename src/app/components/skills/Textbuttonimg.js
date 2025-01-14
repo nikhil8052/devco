@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Textbuttonimg = ({data}) => {
+const Textbuttonimg = ({ data }) => {
     const { title, description, imageSrc, imageAlt } = data[0]; 
     return (
         <div className="Textbuttonimg-section py-10 md:py-20 relative bg-opacity-40 cbg-gradient-to-r from-[#0B0E2B] to-[#000000] ">
@@ -20,11 +20,11 @@ const Textbuttonimg = ({data}) => {
                             <div className="btn_wrapper flex justify-center gap-x-4">
                                 <a href="/contact"
                                     className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
-                                   Let's talk About Your Project
+                                   Let&apos;s talk About Your Project
                                 </a>
                             </div>
                         </div>
-                        <div className='simple-image-image mt-10 text-center mx-auto max-w-[1140px]'>
+                        <div className="simple-image-image mt-10 text-center mx-auto max-w-[1140px]">
                             <Image
                                 className="simple-image-img w-full"
                                 src={imageSrc}
