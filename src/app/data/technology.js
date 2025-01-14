@@ -1,9 +1,9 @@
 export const technologies = [
     {
         id: 1,
-        meta_title:"Java Developer | Java Development Services | staging.dev.co",
-        meta_description: "Hire custom Java developers for your website or software development project. Engage our Java development teams for your next big idea!",
-        og_image:"/images/Java-Development-Services.png",
+        meta_title:"Artificial Intelligence Developer | ML & AI Development Services",
+        meta_description: "Custom software developers for machine learning (ML) & artificial intelligence (AI). Engage our team of cognitive computing specialists!",
+        og_image:"/images/Cognitive-Computing-ML-AI-Development-Services.png",
         slug: "ai",
         bannericon: "/images/Artificial Intelligence.svg",
         sub_title: "Techonology",
@@ -190,6 +190,9 @@ export const technologies = [
     },
     {
         id: 2,
+        meta_title:"Cybersecurity Developer | Cybersecurity Development Services | staging.dev.co",
+        meta_description: "Custom developers for enhanced cybersecurity. Our cybersecurity audit, response & deployment teams will assist you in securing your network.",
+        og_image:"/images/Cybersecurity-Development-Services.png",
         slug: "cybersecurity",
         bannericon: "/images/Cybersecurity.svg",
         sub_title: "Techonology",
@@ -320,6 +323,9 @@ Furthermore, we ensure that computer networking aspects are not overlooked durin
     },
     {
         id: 3,
+        meta_title:"Robotic Process Automation (RPA) Consulting & Integration | DEV.co",
+        meta_description: "We provide software solutions and consulting for implementation of automation and hyperautomation protocols in robotic process automation and machine learning.",
+        og_image:"/images/Robotic-Process-Automation-Consulting-Services-300x150-1.jpg",
         slug: "robotic-process-automation",
         bannericon: "/images/Robotic Process Automation.svg",
         top_title: "Robotic Process Automation (RPA) Consulting Services",
@@ -487,6 +493,9 @@ This is often called RPA, and it can be a huge timesaver for companies that need
     },
     {
         id: 4,
+        meta_title:"Blockchain Development Services | Blockchain Developers",
+        meta_description: "Custom blockchain software development solutions. Engage our blockchain developers on your next distributed ledger technology (DLT) project",
+        og_image:"/images/Blockchain-Development-Services.jpg",
         slug: "blockchain",
         bannericon: "/images/Blockchain (DLT).svg",
         top_title: "Blockchain Development Services",
@@ -679,6 +688,9 @@ This is often called RPA, and it can be a huge timesaver for companies that need
     },
     {
         id: 5,
+        meta_title:"Virtual Reality Developer | AR & VR Development Services | staging.dev.co",
+        meta_description: "Custom software developers for augmented reality (AR) and virtual reality (VR). Our team of expert engineers can assist you. Contact us!",
+        og_image:"/images/Extended-Reality-AR-VR-Development-Services-300x150-1.jpg",
         slug: "vr",
         bannericon: "/images/VR.svg",
         top_title: "Extended Reality (AR/VR) Development Services",
@@ -851,6 +863,9 @@ This is often called RPA, and it can be a huge timesaver for companies that need
     },
     {
         id: 6,
+        meta_title:"Custom ERP Development Services | DEV",
+        meta_description: "Custom enterprise resource planning (ERP) software development company for automating processing and enhancing business throughput.",
+        og_image:"/images/Enterprise-Resource-Planning-ERP-Development-Services-300x150-1.jpg",
         slug: "erp",
         bannericon: "/images/ERP.svg",
         top_title: "Custom ERP Development Company",
@@ -1022,6 +1037,9 @@ This is often called RPA, and it can be a huge timesaver for companies that need
     },
     {
         id: 7,
+        meta_title:"CRM Developer | CRM Development Services | DEV",
+        meta_description: "Custom CRM software developers. We enhance your customer relationship management data to better improve your business!",
+        og_image:"/images/crmog.png",
         slug: "crm",
         bannericon: "/images/CRM.svg",
         top_title: "CRM Development Services",
@@ -1202,6 +1220,9 @@ This is often called RPA, and it can be a huge timesaver for companies that need
     },
     {
         id: 8,
+        meta_title:"Online Storage Software Development Services | staging.dev.co",
+        meta_description: "Custom software development for online storage. We customize and white label online storage systems. Contact us today!",
+        og_image:"/images/Online-Storage-Software-Development-Services-300x150-1.jpg",
         slug: "online-storage",
         bannericon: "/images/Online Storage.svg",
         top_title: "Online Storage Development Services",
@@ -1383,6 +1404,9 @@ When choosing an online storage development partner, consider:`,
     },
     {
         id: 9,
+        meta_title:"Big Data Development Services | DEV.co | Big Data Developers",
+        meta_description: "Custom software development for enhanced big data in the cloud. Our software engineers can help your business make sense of the growing data",
+        og_image:"/images/Big-Data-Development-Services.jpg",
         slug: "big-data",
         bannericon: "/images/Big Data.svg",
         top_title: "Big Data Development Services",
@@ -1561,6 +1585,9 @@ To accomplish this, we follow a consistent process for custom software developme
     },
     {
         id: 10,
+        meta_title:"Business Intelligence Development Services | DEV.co BI Developer",
+        meta_description: "Our business intelligence team engineer's custom software for enhanced BI, allowing your business to make actionable intelligence from miles",
+        og_image:"/images/Business-Intelligence-Software-Development-Services.jpg",
         slug: "bi",
         bannericon: "/images/Business Intelligence.svg",
         top_title: "Business Intelligence Development Services",
@@ -1757,6 +1784,9 @@ To accomplish this, we follow a consistent process for custom software developme
 
     {
         id: 11,
+        meta_title:"IOT Developer | Internet of Things (IOT) Development Services | staging.dev.co",
+        meta_description: "Custom software development for IOT. Our internet of things developers can help you get your next IOT project from idea to complete product!",
+        og_image:"/images/Internet-of-Things-IoT-Development-Services-300x150-1.jpg",
         slug: "iot",
         bannericon: "/images/Internet of Things (IOT).svg",
         top_title: "Internet of Things (IoT) Development Services",

@@ -40,10 +40,10 @@ transition={{ duration: 0.8, delay: 0.3 }}
   animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
   transition={{ duration: 1, delay: 0.9 }}
 >
-  <button className="bg-white text-black px-3 md:px-6 text-[14px] py-2 rounded-md shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
+  <a href="/contact" className="bg-white text-black px-3 md:px-6 text-[14px] py-2 rounded-md shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
   Reserve my Seat
-  </button>
-  <button className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white">
+  </a>
+  <a href="/portfolio" className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white">
     Learn More
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ transition={{ duration: 0.8, delay: 0.3 }}
         d="M9 5l7 7-7 7"
       />
     </svg>
-  </button>
+  </a>
 </motion.div>
 </motion.div>
 </div>

@@ -30,9 +30,9 @@ export default function Textbuttonsection({ title, description }) {
                   </div>
                 )}
                 <div className="btn_wrapper flex gap-x-4 mt-4 md:mt-10">
-                  <button className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
+                  <a href="/contact" className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
                     Let&apos;s talk About Your Project
-                  </button>
+                  </a>
                 </div>
               </div>
             )}

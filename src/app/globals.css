@@ -1017,6 +1017,11 @@ nav.site_header.scrolled-header {
     width: 100%;
     max-width: 640px;
 }
+.simple-text-sec .simple-text {
+    width: 100%;
+    max-width: 1259px;
+    margin: auto;
+}
 
 /*--------- responsive css start ---------*/
 

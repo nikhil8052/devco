@@ -474,6 +474,31 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
 
         Interactive elements can even be used to tell a dynamic story, like the New York Times did with their All Birds article. Impressed? That’s the power of JavaScrip`,
 
+        startups: {
+            title: "Web Development & Software Engineering",
+            description: `From next-gen startups to established enterprises.`,
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+        // skill.js
+        getintouchdata : {
+            data:[
+                {
+                    title: "Get in touch with us",
+                    description: `If you’re ready to add more value to your website through dynamic visitor interaction,
+                    choose Dev.co for your JavaScript development partner.
+                    Connect with us today and let us know how we can help bring your ideas to life.`,
+                    imageSrc: "/images/get-in-touch.svg", // Make sure the path is correct
+                    imageAlt: "Get in touch illustration"
+                },
+
+            ],
+            
+        },
+
+
+
         BorderTextbox: {
             BorderTextdata: [
                 {
@@ -518,8 +543,8 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
             ],
         },
         Benefitslider: {
-            title: "How to Choose a Software Development Staffing Company",
-            description: `Of course, not all software development staffing companies are created equal. When searching for a potential staffing partner, make sure you consider:`,
+            title: "The Benefits of Hiring a Software Development Staffing Company",
+            description: `Hiring a software development staffing company yields multiple benefits simultaneously:`,
             card_datas: [
                 {
                     title: "Discovery & brainstorming",
@@ -592,7 +617,114 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                 },
             ],
         },
+        codeheadingsection: {
+            headingContent: `A Custom Software Development<br> Company Engineering <br> <span class="text-headingBlue">Innovation</span> `,
+            paracontent: ``,
+        },
+
+        DeveloperDocontent: {
+         data : [
+            {
+              title: "What does a JavaScript Developer do",
+              description: `A JavaScript Developer is responsible for developing and maintaining web applications using the JavaScript programming language in computer science. They work with other web developers and designers to create websites and web-based applications that are interactive and user-friendly. In addition to writing code, a JavaScript Developer may also be responsible for troubleshooting, testing, and debugging Web-based application.<br></br>
+
+            As a JavaScript developer, you will be responsible for developing and maintaining Web-based application using JavaScript. This may include tasks such as debugging code, writing code to create new features or enhancements, and troubleshooting code issues. In addition, you will also be responsible for working with other members of the development team to ensure that the application meets all requirements and is up to date with the latest web standards.`,
+              
+                imageSrc: "/images/develop-do.png", // Replace with the actual path to the image
+              imageAlt: "JavaScript Developer Image",
+            },
+          ],
+        },
+        Simpleimagecontent: {
+            data : [
+               {       
+                sideImage: "/images/simnpleimage new.png", // Replace with the actual path to the image
+               alt: "JavaScript Developer Image",
+               },
+             ],
+           },
+    simpleTextDatacontent : {
+        data:[
+            {
+                title: "End-To-End JavaScript Development Services<br> <span class='text-headingBlue'> to Match Your Business Needs Our Service</span>",
+                paragraphs: [
+                    `If you’re looking for JavaScript development services that can take your business to the next level, you’ve come to the right place. At ABC Company, we pride ourselves on our ability to provide custom solutions that meet the unique needs of our clients.`,
+                    `Whether you’re looking for a simple web application or a more complex enterprise-level solution, our team of experienced JavaScript developers can get the job done. We have a proven track record of delivering quality results on time and on budget.`,
+                `  If you’re ready to take your business to the next level, contact us today to discuss your specific needs. We’ll be happy to provide you with a free consultation and proposal.`,
+                ],
+            }
+
+        ],
+        },
+        simpleTextDatacontent2 : {
+        data:[
+            {
+                title: "Why Dev.co Best as a JavaScript <br> <span class='text-headingBlue'>Development Company</span>",
+                paragraphs: [
+                    `There are many reasons to choose Dev.co as your JavaScript Development Company. We have a proven track record of delivering high-quality JavaScript solutions to our clients. We are experts in JavaScript and have a deep understanding of the language and its nuances. This allows us to deliver JavaScript solutions that are both robust and scalable.`,
+                    `In addition, we offer a wide range of web development services. Whether you need a simple website or a complex web application, we have the expertise to deliver. We also offer a variety of custom JavaScript development services, so you can get exactly the solution you need.`,
+                ` Finally, we offer competitive pricing for our JavaScript development services. We believe in delivering high-quality solutions at a fair price, so you can get the most value for your money. If you’re looking for a JavaScript Development Company that can deliver high-quality solutions at a competitive price, then contact Dev.co today. We’ll be happy to discuss your project with you and provide a no-obligation quote.`,
+                ],
+            }
+
+        ],
+        },
+    CombiningCodedatas: {
+    CombiningCodedata: [
+        {
+            backgroundImage: "/images/code_crbg.svg",
+            mainImage: "/images/code_creative.svg",
+            heading: "Schedule a consultation with an expert JavaScript Developer",
+            description: `If you’re looking to take your web development to the next level, a consultation with a JavaScript Developer can help you achieve your goals. Our JavaScript developers are experts in the latest web technologies and can provide you with the guidance and support you need to create a truly cutting-edge website or application.<br></br>
+
+            During your consultation, we’ll discuss your specific needs and objectives and develop a plan of action that will help you reach your goals. We’ll also provide you with resources and advice on the best tools and practices to use in your web development process. Whether you’re just getting started or are looking to take your skills to the next level, we can help you achieve success.<br></br>
+
+            Schedule a consultation with us today and see how our JavaScript Developers can help you take your web development to the next level.`,
+        }
+    ],
+        },
+        CombiningCodedatas2: {
+        CombiningCodedata: [
+            {
+                backgroundImage: "/images/code_crbg.svg",
+                mainImage: "/images/code_creative.svg",
+                heading: "We Provide Full Stack JavaScript Development Solutions to Meet your Business Needs.",
+                description: `As a top JavaScript developer, we provide full stack JavaScript development solutions to meet your business needs. We have a wide range of services that we offer, from web development to senior full stack developer. JavaScript popularly known as JS, is a high-level, Scalable and reliable programming languages.<br></br>
+
+                We are confident that we can provide you with the best solution for your project. Being one of the top-rated JavaScript development companies, we have expertise in developing a JS development solution to meet your business requirements.`,
+            }
+        ],
+            },
+            Subheadingtext: {
+                heading: "Interesting Facts About JavaScript",
+                subText:
+                    "",
+                list1: [
+                    "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
+                    "JavaScript powers 20% of WordPress’ core code",
+                    "JS is the only programming language that can be used on the front-end of a website",
+                    "Unlike other languages, you can begin a JavaScript statement with a semicolon",
+                    "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                    "JS can be used offline because it’s executed in the browser",
+                    "The best web developers can also program in JavaScript",
+                    "It’s hard to find a website that doesn’t utilize JS",
+                    "Although JavaScript was inspired by Java, they are completely different, although they share libraries and syntax",
+                ],
+                list2: [
+                    "The popular document repository for journalists called DocumentCloud utilizes JavaScript and JSON to dynamically display document contents",
+                    "69.7% of web developers prefer JavaScript",
+                    "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
+                    "There are 24+ JS frameworks and 83+ libraries available for developers",
+                    "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                    "jQuery and Node.js are the most popular JavaScript framework and are used in 50.4% and 48.3% of projects respectively. Angular.js and React.js come in second and are used in 32.4% and 32.3% of projects, respectively.",
+                ],
+            },
+          
+
     },
+
+
+
     {
         id: 5,
         meta_title:"Android Developer | Android Development Services | staging.dev.co",
@@ -800,8 +932,6 @@ We work closely with our clients to ensure that they’re getting maximum value 
 DEV.co offers custom Android apps, developed quickly and affordably.
 <br>
                     We have a team of talented software engineers and developers who are experts in the Android platform, using all best practices for app dev and we can help you with your next project — whether you need an application developed from scratch or you need an existing application modified to meet your needs.`,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },
