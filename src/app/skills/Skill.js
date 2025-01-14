@@ -142,7 +142,7 @@ export default function Skill({ data }) {
       )}
 
       {/* Secondary Subheading Text Section */}
-      {skill?.Subheadingtext2?.heading && (
+      {skill?.Subheadingtext2 && (
         <Subheadingtext
           heading={skill.Subheadingtext2.heading}
           subText={skill.Subheadingtext2.subText}

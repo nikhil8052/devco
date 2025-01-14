@@ -14,7 +14,7 @@ export const technologies = [
 
         Buitprtfoliosection: {
             top_title:`Built with CodeAI`,
-            top_description: `Lorem ipsum dolor sit amet consectetur adipiscing tincidunt duis eget amet integer aliquam viverra enim hac cras tempus.`,
+            top_description: `Our expertise lies in crafting custom software solutions powered by advanced machine learning (ML) and artificial intelligence (AI) technologies. Whether you're looking to transform your ideas into reality or enhance your business operations, our team of cognitive computing specialists is here to help. With CodeAI, discover the future of smart and innovative software tailored to match your vision.`,
 
            templatesdata: [
                 { image: "/images/temp_thumb1.png", link: "https://nightcapit.com/", alt: "Thumbnail 1" },

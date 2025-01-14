@@ -522,21 +522,21 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                 {
                     title: "Custom Solutions",
                     description: "Tailored development services that suit your business and technical needs.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
                 {
                     title: "Scalable Applications",
                     description: "Build web apps that grow alongside your business.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
                 {
                     title: "Responsive Design",
                     description: "Our web solutions are fully responsive and optimized for all devices.",
-                    imageSrc: "/images/rotation_mug.svg",
+                    imageSrc: "",
                     imageHeight: 25,
                     imageWidth: 25,
                 },
@@ -717,6 +717,25 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                     "There are 24+ JS frameworks and 83+ libraries available for developers",
                     "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
                     "jQuery and Node.js are the most popular JavaScript framework and are used in 50.4% and 48.3% of projects respectively. Angular.js and React.js come in second and are used in 32.4% and 32.3% of projects, respectively.",
+                ],
+            },
+            Subheadingtext2: {
+                heading: "",
+                subText:
+                    "",
+                list1: [
+                    "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
+                    "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
+                    "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
+                    "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
+                  
+                ],
+                list2: [
+                    "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
+                    "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
+                    "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
+                    "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
+                   
                 ],
             },
           
