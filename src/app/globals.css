@@ -1022,6 +1022,85 @@ nav.site_header.scrolled-header {
     max-width: 1259px;
     margin: auto;
 }
+.Whyusecard-container .data_card .image_div {
+    width: 226px;
+}
+
+.Whyusecard-container .data_card {
+    display: flex;
+}
+
+.Whyusecard-container .data_card {
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.Whyusecard-container .data_card .text_block {
+    width: calc(100% - 226px);
+    padding-left: 20px;
+}
+
+.Whyusecard-container .data_card .text_block p {
+    width: 100%;
+}
+.section_head_half {
+    width: 100%;
+    max-width: 50%;
+}
+
+.section_headnew.section_head_half {
+    margin-bottom: 40px;
+}
+
+.section_headnew.section_head_half h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section_headnew p {
+    font-size: 22px;
+}
+
+.section_headnew .section_head_description {
+    width: 100%;
+    max-width: 584px;
+}
+.divider + .divider {
+    display: none;
+}
+.Animatedhead-sec .section_head_description {
+    width: 100%;
+    max-width: 600px;
+}
+
+.Animatedhead-sec .section_head_description p {
+    font-weight: 600;
+}
+.Animatedhead-sec h2 {
+    width: 100%;
+    max-width: 780px;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px;
+}
+
+ul.checklist {}
+
+ul.checklist li {
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 30px;
+    color: rgba(255,255,255,0.7);
+}
+
+ul.checklist li:not(:last-child) {
+    margin-bottom: 11px;
+}
+
+.inovative_section .text-left {
+    width: 100%;
+    max-width: 70%;
+}
 
 /*--------- responsive css start ---------*/
 
@@ -1073,6 +1152,13 @@ nav.site_header.scrolled-header {
 }
 .locations_grid .location_col {
     width: 33.33%;
+}
+.Whyusecard-container .data_card .image_div {
+    width: 120px;
+}
+
+.Whyusecard-container .data_card .text_block {
+    width: calc(100% - 120px);
 }
 }
 
@@ -1192,6 +1278,31 @@ nav.site_header.scrolled-header {
 .icon_text_row .icon_text_col {
     width: 50%;
 }
+.Whyusecard-container .data_card .image_div {
+    width: 100%;
+}
+
+.Whyusecard-container .data_card .text_block {
+    width: 100%;
+}
+
+.Whyusecard-container .data_card .image_div {
+    height: auto;
+}
+
+.checkimgcard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section_headnew .section_head_description {
+    max-width: 100%;
+}
+
+.section_head_half {
+    max-width: 100%;
+}
 
 }
 
@@ -1282,6 +1393,9 @@ nav.site_header.scrolled-header {
 }
 .video-model iframe {
     height: 300px !important;
+}
+.inovative_section .text-left {
+    max-width: 100%;
 }
 }
 

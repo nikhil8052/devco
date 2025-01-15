@@ -16,6 +16,9 @@ import Dividercontainer from "@/app/components/skills/Dividercontainer";
 import Simpleimage from "@/app/components/skills/Simpleimage";
 import Simpletextdjs from "@/app/components/skills/Simpletextdjs";
 import Textbuttonimg from "@/app/components/skills/Textbuttonimg";
+import Whyusecard from "@/app/components/cards/Whyusecard";
+import Animatedhead from "@/app/components/skills/Animatedhead";
+import Checkimgcard from "@/app/components/cards/checkimgcard";
 
 export default function Skill({ data }) {
   const skill = data;
@@ -46,6 +49,36 @@ export default function Skill({ data }) {
         <Bordertextsection BorderTextdata={skill.BorderTextbox.BorderTextdata} />
       )}
 
+      {/* Animated Heading Section */}
+      {skill?.Animatedhead && (
+        <Animatedhead sectionHeading={skill.Animatedhead.sectionHeading} />
+      )}
+
+      {/* Divider */}
+      <div className="divider flex items-center content-center h-[50px] md:h-[150px] w-[100%] mx-auto">
+        <div className="divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10"></div>
+      </div>
+
+      {/* Why Use Section */}
+      {skill?.whyuseSection && (
+        <Whyusecard
+          sectionHeading={skill.whyuseSection.sectionHeading}
+          data={skill.whyuseSection.data}
+          imageWidth={400}
+          imageHeight={400}
+        />
+      )}
+
+      {/* Subheading Text Section */}
+      {skill?.Subheadingtextwhysection && (
+        <Subheadingtext
+          heading={skill.Subheadingtextwhysection.heading}
+          subText={skill.Subheadingtextwhysection.subText}
+          list1={skill.Subheadingtextwhysection.list1}
+          list2={skill.Subheadingtextwhysection.list2}
+        />
+      )}
+
       {/* Code Heading Section */}
       {skill?.codeheadingsection && (
         <CodeHeading
@@ -55,7 +88,7 @@ export default function Skill({ data }) {
       )}
 
       {/* Divider */}
-      <div className="mt-2 md:mt-10">
+      <div className="divider mt-2">
         <Dividercontainer />
       </div>
 
@@ -64,16 +97,20 @@ export default function Skill({ data }) {
         <DeveloperDo data={skill.DeveloperDocontent.data} />
       )}
 
-{/* Simple Image */}
-{skill?.Simpleimagecontent?.data?.[0] && (
-  <Simpleimage data={skill.Simpleimagecontent.data[0]} />
-)}
+      {/* Simple Image Section */}
+      {skill?.Simpleimagecontent?.data?.[0] && (
+        <Simpleimage data={skill.Simpleimagecontent.data[0]} />
+      )}
 
-{/* simpleText */}
-{skill?.simpleTextDatacontent?.data?.[0] && (
-  <Simpletextdjs data={skill.simpleTextDatacontent.data[0]} />
-)}
+      {/* Simple Text Section */}
+      {skill?.simpleTextDatacontent?.data?.[0] && (
+        <Simpletextdjs data={skill.simpleTextDatacontent.data[0]} />
+      )}
 
+      {/* Animated Heading 2 Section */}
+      {skill?.Animatedhead2 && (
+        <Animatedhead sectionHeading={skill.Animatedhead2.sectionHeading} />
+      )}
 
       {/* Benefits Section */}
       {skill?.benefits && (
@@ -83,10 +120,12 @@ export default function Skill({ data }) {
           benefits={skill.benefits.benefits}
         />
       )}
+
       {/* Combining Code Section */}
       {skill?.CombiningCodedatas2?.CombiningCodedata && (
         <CombiningCode CombiningCodedata={skill.CombiningCodedatas2.CombiningCodedata} />
       )}
+
       {/* Benefits Slider */}
       {skill?.Benefitslider?.title && (
         <Benefitslider
@@ -95,8 +134,6 @@ export default function Skill({ data }) {
           chooseData={skill.Benefitslider.card_datas}
         />
       )}
-
-
 
       {/* Secondary Benefits Section */}
       {skill?.benefits2 && (
@@ -112,11 +149,10 @@ export default function Skill({ data }) {
         <Bordertextsection BorderTextdata={skill.BorderTextbox2.BorderTextdata} />
       )}
 
-    {skill?.getintouchdata && (
-         <Textbuttonimg data={skill.getintouchdata.data} />
+      {/* Text Button Image Section */}
+      {skill?.getintouchdata && (
+        <Textbuttonimg data={skill.getintouchdata.data} />
       )}
-
-     
 
       {/* Subheading Text Section */}
       {skill?.Subheadingtext?.heading && (
@@ -140,18 +176,16 @@ export default function Skill({ data }) {
           processes={skill.processes.processes}
         />
       )}
-
-      {/* Secondary Subheading Text Section */}
-      {skill?.Subheadingtext2 && (
-        <Subheadingtext
-          heading={skill.Subheadingtext2.heading}
-          subText={skill.Subheadingtext2.subText}
-          list1={skill.Subheadingtext2.list1}
-          list2={skill.Subheadingtext2.list2}
-        />
+            {skill?.Animatedhead3 && (
+        <Animatedhead sectionHeading={skill.Animatedhead3.sectionHeading} />
       )}
 
-      {/* simpleText */}
+      {/* Check Image Card Section */}
+      {skill?.checkImgCardDatasection && (
+         <Checkimgcard data={skill.checkImgCardDatasection.checkImgCardData} imageWidth={400} imageHeight={400} />
+      )}
+
+      {/* Simple Text Section 2 */}
       {skill?.simpleTextDatacontent2?.data?.[0] && (
         <Simpletextdjs data={skill.simpleTextDatacontent2.data[0]} />
       )}

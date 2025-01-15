@@ -496,52 +496,6 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
             ],
             
         },
-
-
-
-        BorderTextbox: {
-            BorderTextdata: [
-                {
-                    title: "JavaScript consulting & development by Dev.co",
-                    description: `Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.`,
-
-                },
-                {
-                    title: "",
-                    description: `At Dev.co, we provide world-class JavaScript planning, development, and testing according to industry best practices. We use leading-edge technologies to build JavaScript applications that website visitors love.<br></br>
-
-                    As experts in our industry, we continually deepen our knowledge in the latest JavaScript libraries and frameworks to provide our partners with cutting-edge customizations.`,
-                }
-            ]
-        },
-
-        benefits: {
-            title: "Why Web Development Services",
-            description: "Our web development solutions provide:",
-            benefits: [
-                {
-                    title: "Custom Solutions",
-                    description: "Tailored development services that suit your business and technical needs.",
-                    imageSrc: "",
-                    imageHeight: 25,
-                    imageWidth: 25,
-                },
-                {
-                    title: "Scalable Applications",
-                    description: "Build web apps that grow alongside your business.",
-                    imageSrc: "",
-                    imageHeight: 25,
-                    imageWidth: 25,
-                },
-                {
-                    title: "Responsive Design",
-                    description: "Our web solutions are fully responsive and optimized for all devices.",
-                    imageSrc: "",
-                    imageHeight: 25,
-                    imageWidth: 25,
-                },
-            ],
-        },
         Benefitslider: {
             title: "The Benefits of Hiring a Software Development Staffing Company",
             description: `Hiring a software development staffing company yields multiple benefits simultaneously:`,
@@ -719,7 +673,7 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                     "jQuery and Node.js are the most popular JavaScript framework and are used in 50.4% and 48.3% of projects respectively. Angular.js and React.js come in second and are used in 32.4% and 32.3% of projects, respectively.",
                 ],
             },
-            Subheadingtext2: {
+            Subheadingtextwhysection: {
                 heading: "",
                 subText:
                     "",
@@ -738,6 +692,90 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                    
                 ],
             },
+            whyuseSection : {
+                sectionHeading:[ 
+                    {
+                  sectiontitle: "Why use<br> JavaScript?",
+                  sectiondescription:
+                    "JavaScript creates a rich user experience that captures attention, engages users, and creates a smooth user experience. User experience is central to your website’s success.",
+                    },
+                    ],
+                data: [
+                  {
+                    imageSrc: "/images/whyuse1.svg",
+                    imageAlt: "Interactive navigation",
+                    title: "Interactive navigation",
+                    description:
+                      "Make your navigation elements fun with JavaScript. Popular elements include panels that slide out when clicked, custom dialog boxes, and tabbed navigation with special effects.",
+                  },
+                  {
+                    imageSrc: "/images/whyuse2.svg",
+                    imageAlt: "Animations",
+                    title: "Animations",
+                    description:
+                      "Animations are a powerful way to capture and hold a visitor’s attention. Custom JavaScript animations will also help you achieve your conversion goals.",
+                  },
+                ],
+              },
+
+              Animatedhead:{
+                sectionHeading:[ 
+                    {
+                  sectiontitle: "JavaScript consulting & development by Dev.co",
+                  sectiondescription:"Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.",
+                    },
+                    ],
+              },
+              Animatedhead2:{
+                sectionHeading:[ 
+                    {
+                  sectiontitle: "What's The Difference Between JavaScript And Java?",
+                  sectiondescription:`JavaScript is a programming language that is most commonly used in web browsers to create interactive web pages. Java is a more general-purpose programming language that can be used for a wide variety of purposes, including web development.<br></br>
+
+There are some key differences between JavaScript and Java. First, JavaScript is primarily used for client-side development, while Java is more often used for server-side development. Second, Java is a compiled language, while JavaScript is an interpreted language. `,
+                    },
+                    ],
+              },
+              Animatedhead3:{
+                sectionHeading:[ 
+                    {
+                  sectiontitle: "Specialities of Our Java Script Development Teams",
+                  sectiondescription:`Our javascript developers are experts in computer science and software development. They have a deep understanding of how javascript works and are able to create custom solutions that meet the specific needs of our clients. In addition, they are also experienced in working with a variety of JS frameworks, libraries, and tools. As a result, they are able to provide our clients with the best possible JavaScript development experience.<br></br>
+
+With our accomplished web developers, turn your ideas and experiences into digital product and enjoy state-of-the-art JavaScript Development Services.<br></br>
+
+Our adept software development team is trained to develop mobile applications and web applications that cater to our customer’s various development requirements. Our high-level JavaScript development services have the finesse that is guaranteed to delight our end customers. `,
+                    },
+                    ],
+              },
+               checkImgCardDatasection:{
+                checkImgCardData:[
+                    {
+                        checklist: [
+                          "Specialised in development from scratch and on-going maintenance.",
+                          "Custom JavaScript solutions tailored to your needs.",
+                          "Support for both front-end and back-end JavaScript development.",
+                        ],
+                        imageSrc: "/images/chekcard1.png",
+                        imageAlt: "Development and Maintenance",
+                      },
+                      {
+                        checklist: [
+                          "Expertise in delivering scalable and reliable solutions.",
+                          "Seamless integration with third-party tools and APIs.",
+                          "Optimisation for high performance and speed.",
+                        ],
+                        imageSrc: "/images/checcardimg2.png",
+                        imageAlt: "Scalable Solutions",
+                      },
+                ],
+
+               } ,
+               
+   
+
+              
+              
           
 
     },
