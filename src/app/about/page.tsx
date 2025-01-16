@@ -1,10 +1,13 @@
 'use client';
-
+import Chooseservice from "@/app/components/Services/Chooseservice";
 import Aboutbanner from '@/app/components/about/Aboutbanner';
 import CombiningCode from "@/app/components/homepage/CombiningCode";
 import StartUps from "@/app/components/Services/StartUps";
 import Bordertextsection from "@/app/components/industry/Bordertextsection";
-import { Combinecode, Aboutbannerdata, startups, BorderTextbox } from '@/app/data/about';
+import Dividercontainer from "@/app/components/skills/Dividercontainer";
+import { Combinecode, Aboutbannerdata, startups, BorderTextbox,chooseServices,teamdatasection} from '@/app/data/about';
+import Teamsection from '@/app/components/about/Teamsection';
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -20,19 +23,47 @@ export default function AboutPage() {
       <Aboutbanner dynamicData={Aboutbannerdata.dynamicData} />
 
 
-     <div className='about_border_section'>
-      <Bordertextsection
-          BorderTextdata={BorderTextbox.BorderTextdata}
+     <div className='about_border_section aboutpage_sections relative'>
+     <div className="bg_right-pattern absolute top-[0%] right-0 z-1 w-[50%]">
+        <Image
+          src="/images/why-use.png"
+          width={1920}
+          height={500}
+          alt="Background Pattern"
         />
-              {/* Startups Section */}
-      <StartUps
-        title={startups.title}
-        description={startups.description}
-        images={startups.images}
-        imageHeight={startups.imageHeight}
-        imageWidth={startups.imageWidth}
-      />
+      </div>
+     <div className='innercontent relative z-10'>
+      <Bordertextsection
+            BorderTextdata={BorderTextbox.BorderTextdata}
+          />
+      <div className="divider mt-2">
+          <Dividercontainer />
+        </div>
+                {/* Startups Section */}
+        <StartUps
+          title={startups.title}
+          description={startups.description}
+          images={startups.images}
+          imageHeight={startups.imageHeight}
+          imageWidth={startups.imageWidth}
+        />
+        <div className="divider">
+          <Dividercontainer />
+        </div>
+
+     <div className="about_chooseservice">
+     <Chooseservice
+          title={chooseServices.title}
+          description={chooseServices.description}
+          chooseData={chooseServices.card_data}
+        />
      </div>
+     </div>
+     </div>
+     <div className="divider mt-2">
+          <Dividercontainer />
+        </div>
+     <Teamsection teamData={teamdatasection.teamData} />
 
       {/* Combining Code Section */}
       <CombiningCode CombiningCodedata={Combinecode.CombiningCodedata} />

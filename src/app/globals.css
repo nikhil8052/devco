@@ -1011,7 +1011,7 @@ nav.site_header.scrolled-header {
     z-index: 0;
 }
 .aboutpage {
-    background-size: 100% 50%;
+    background-size: 100% 1000px !important;
 }
 .aboutpage .code_content {
     width: 100%;
@@ -1101,6 +1101,148 @@ ul.checklist li:not(:last-child) {
     width: 100%;
     max-width: 70%;
 }
+.aboutpage_sections {
+    margin-top: -220px;
+}
+
+/* .aboutpage_sections .container {
+    max-width: 1048px;
+} */
+.about_chooseservice {
+    overflow-x: hidden;
+}
+
+.about_chooseservice .thumb {
+    height: auto;
+}
+.aboutpage_sections .benefits-container.border-lightBlue {
+    border: 0px;
+    padding: 0px 0px 30px;
+}
+
+.aboutpage_sections .benefits-container h4 {
+    font-size: 50px;
+}
+
+.aboutpage_sections .startup_section {padding: 50px 0px 20px;}
+.team_grid {
+    display: flex;
+    gap: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.team_info {
+    display: flex;
+    gap: 10px;
+}
+
+.team_firt-info .team_info .team_thumb {
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.team_thumb  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.team_firt-info .team_desc h4 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.team_col {
+    width: 25%;
+}
+.team_modal_content h3 {
+    color: #000000;
+    font-size: 20px;
+}
+.team_hover-info {
+    background-color: #0B0E2B;
+    padding: 15px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.team_modal_content .team_description p {
+    color: #000000;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.team_box {
+    position: relative;
+}
+.team_box:hover .team_hover-info {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;}
+
+.team_hover-info .team_thumb {
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team_hover-info h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.team_hover-info p.team-designation {
+    font-size: 14px;
+    color: #838383;
+}
+
+
+.head_grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+
+.head_grid p {
+    font-size: 20px;
+}
+
+.head_grid .texty_div {
+    width: 100%;
+    max-width: 541px;
+}
+
+.team_section {
+    position: relative;
+}
+
+.team_section .head_media_col img.team_thumb {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    max-width: 800px;
+}
+
+.team_section_head {
+    padding-bottom: 170px;
+}
+
 
 /*--------- responsive css start ---------*/
 
@@ -1383,6 +1525,7 @@ ul.checklist li:not(:last-child) {
 
 }
 
+
 @media(max-width:640px){
 .blog_grid .blog_col:nth-child(1), .blog_grid .blog_col:nth-child(2) {
     width: 100%;
@@ -1398,6 +1541,7 @@ ul.checklist li:not(:last-child) {
     max-width: 100%;
 }
 }
+
 
 @media(max-width:575px){
     .footer__links_grid .Footer_links_col:nth-child(1),.footer__links_grid .Footer_links_col:nth-child(2) {
