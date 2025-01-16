@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ContactAddress from './ContactAddress.js';
+import { submitToPably } from '@/utils/utils';
 
 const formFields = [
   { id: "firstName", label: "First Name", type: "text", required: true },
@@ -30,6 +31,31 @@ const handleSubmit = async (event) => {
     data[key] = value;
   });
 
+  var params = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: data,
+  }
+
+
+
+  submitToPably(params);
+
+
+  const response = await fetch('/api/submitForm', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  });
+
+
+  console.log(response);
+
+  return 
   try {
     const response = await fetch('/api/submitForm', {
       method: 'POST',
