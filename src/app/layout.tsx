@@ -2,6 +2,7 @@
 import "./globals.css";
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Script from "next/script"; 
@@ -37,11 +38,9 @@ export default function RootLayout({
             })(window, document);
           `}
         </Script>
-        <Header />
         <div className="main-wrapper">
           {children}
         </div>
-        <Footer />
       </body>
     </html>
   );
