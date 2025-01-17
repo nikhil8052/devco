@@ -21,19 +21,19 @@ export default function Page() {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        var email = " Test";
-        var password = " Test";
+     
 
         const response = await fetch('/api/login', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email, password }),
+            body: JSON.stringify(form),
           });
 
+          const data = await response.json(); 
 
-        console.log('Form submitted with values:', response);
+        console.log('Form submitted with values:', data);
     };
 
     return (
