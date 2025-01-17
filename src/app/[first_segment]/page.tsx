@@ -10,6 +10,7 @@ import Skill from "@/app/skills/Skill";
 import Service from "@/app/services/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
+import UserLayout from '../user_layout/UserLayout';
 
 interface PageProps {
   params: {
@@ -73,5 +74,9 @@ export default function Page({ params }: PageProps) {
   }
 
   // Render the matched component with its data
-  return <Component data={data} />;
+  return (
+    <UserLayout>
+      <Component data={data} />
+    </UserLayout>
+  );
 }

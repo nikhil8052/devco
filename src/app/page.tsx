@@ -12,6 +12,7 @@ import CombiningCode from '@/app/components/homepage/CombiningCode';
 import Logofloat from "@/app/components/Logofloat";
 import { mainservicedata } from "@/app/data/mainservice";
 import {Combinecode} from '@/app/data/home'
+import UserLayout from './user_layout/UserLayout';
 
 export default function Home() {
   const serviceData1 = mainservicedata[0]; 
@@ -19,6 +20,7 @@ export default function Home() {
 
   return (
     <>
+    <UserLayout>
 
       <div
         className="home_page bg-black relative text-customwhite items-center pt-20"
@@ -48,6 +50,7 @@ export default function Home() {
          <Faq /> 
 
     </div>
+    </UserLayout>
     
     </>
   );
