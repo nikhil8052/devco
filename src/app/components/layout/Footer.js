@@ -143,15 +143,15 @@ subCategories: [
         <div className='container mx-auto'>
           <div className='footer_copy_right text-center py-10 mt-5 2xl:mt-10 lg:mt-7 border-t border-lightBlue' >
             <ul className="flex flex-wrap justify-center w-full xl:gap-6 gap-4">
-              <Link href="#" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
+              <Link href="/about" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
               <Link href="/portfolio" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
               <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
               <Link href="https://web.dev.co/" target="_blank" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
               <Link href="/blog" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
               <Link href="/careers" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
               <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
-              <Link href="#" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
-              <Link href="#" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
+              <Link href="/privacy-policy" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
+              <Link href="/terms" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
             </ul>
           </div>
         </div>

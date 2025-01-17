@@ -8,12 +8,14 @@ import Iconsection from "@/app/components/Services/Iconsection";
 import Industryfaqs from "@/app/components/faq/Industryfaqs";
 import CodeHeading from "@/app/components/Services/CodeHeading"
 import { mainservicedata } from "@/app/data/mainservice";
+import UserLayout from "../user_layout/UserLayout";
 
 export default function Services() {
   // Extracting the first service data from the array
   const serviceData = mainservicedata[0]; 
 
   return (
+    <UserLayout>
     <div
       className="main_service_page bg-black"
       style={{
@@ -70,5 +72,6 @@ export default function Services() {
       <Industryfaqs title={serviceData.faqs.title} description={serviceData.faqs.description} faqs={serviceData.faqs.faqs} />
      
     </div>
+   </UserLayout>
   );
 }

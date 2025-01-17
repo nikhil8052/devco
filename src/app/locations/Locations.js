@@ -14,6 +14,7 @@ export default function Locations({ data }) {
   const Locations = data;
 
   return (
+
     <>
       {/* Location Banner */}
         <Locationbanner

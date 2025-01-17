@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import BlogGrid from "@/app/components/blog/BlogGrid";
 import BlogGridlist from "@/app/components/blog/BlogGridlist";
+import UserLayout from "../user_layout/UserLayout";
 
 export default function Blog() {
     const [blogs, setBlogs] = useState([]);
@@ -77,6 +78,7 @@ export default function Blog() {
     const endPage = Math.min(currentPage + 1, totalPages);
 
     return (
+        <UserLayout>
         <div
             className="form_page Blogpage bg-black relative text-customwhite py-20"
             style={{
@@ -142,5 +144,6 @@ export default function Blog() {
                 </button>
             </div>
         </div>
+        </UserLayout>
     );
 }

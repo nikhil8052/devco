@@ -1,8 +1,10 @@
 import React from 'react';
 import FormPage from "@/app/components/siteforms/Formpage";
+import UserLayout from "../user_layout/UserLayout";
 
 export default function Contact() {
   return (
+    <UserLayout>
     <div 
       className='form_pagemain bg-black relative text-customwhite pt-20'  
       style={{
@@ -13,5 +15,6 @@ export default function Contact() {
     >
       <FormPage />
     </div>
+    </UserLayout>
   );
 }

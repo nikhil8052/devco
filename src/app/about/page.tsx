@@ -8,9 +8,11 @@ import Dividercontainer from "@/app/components/skills/Dividercontainer";
 import { Combinecode, Aboutbannerdata, startups, BorderTextbox,chooseServices,teamdatasection} from '@/app/data/about';
 import Teamsection from '@/app/components/about/Teamsection';
 import Image from "next/image";
+import UserLayout from "../user_layout/UserLayout";
 
 export default function AboutPage() {
   return (
+    <UserLayout>
     <div
       className="aboutpage bg-black relative text-customwhite items-center pt-20"
       style={{
@@ -66,7 +68,16 @@ export default function AboutPage() {
      <Teamsection teamData={teamdatasection.teamData} />
 
       {/* Combining Code Section */}
+     <div className="pattern_bg_combinesection"  
+     style={{
+        backgroundImage: "url('/images/combinecodebg.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover", // Ensures the background image scales properly
+      }}>
       <CombiningCode CombiningCodedata={Combinecode.CombiningCodedata} />
+     </div>
+     
     </div>
+    </UserLayout>
   );
 }

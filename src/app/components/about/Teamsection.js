@@ -86,17 +86,19 @@ export default function Teamsection({ teamData = [] }) {
                             {member.designation}
                           </p>
                         </div>
-                        <div className="team_social">
-                          <a
-                            href={member.linkedin}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label={`LinkedIn profile of ${member.name}`}
-                            className="text-customwhite hover:text-blue-500"
-                          >
-                            <FaLinkedin size={20} />
-                          </a>
-                        </div>
+                        {member.linkedin && (
+                          <div className="team_social">
+                            <a
+                              href={member.linkedin}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label={`LinkedIn profile of ${member.name}`}
+                              className="text-customwhite hover:text-blue-500"
+                            >
+                              <FaLinkedin size={20} />
+                            </a>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>

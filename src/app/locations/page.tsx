@@ -2,6 +2,7 @@
 
 import LocationContactSectio from "@/app/components/locations/locationContactsectio";
 import { cmbcodedata } from "@/app/data/locations";
+import UserLayout from "../user_layout/UserLayout";
 
 const locations = [
   { name: "Albuquerque", image: "/images/Albuquerque.png" },
@@ -94,6 +95,7 @@ export default function Home() {
   const sortedLocations = [...locations].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
+    <UserLayout>
     <>
       <div
         className="inner_page bg-black relative text-customwhite pt-20"
@@ -132,5 +134,6 @@ export default function Home() {
         <LocationContactSectio CombiningCodedata={cmbcodedata.CombiningCodedata} />
       </div>
     </>
+    </UserLayout>
   );
 }

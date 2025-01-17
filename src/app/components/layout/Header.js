@@ -173,21 +173,21 @@ const Header = () => {
             {/* Buttons Section */}
             <div className="button_col basis-1/5 flex items-center justify-end gap-x-3 sm:gap-x-4">
               <div className="w-full btn_wrapper flex justify-end gap-x-3 sm:gap-x-4">
-                <a href="https://github.com/devdotco" target="_blank" className="trans_button px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md shadow-md transition flex items-center  bg-[rgba(255,255,255,0.11)] hover:bg-[rgba(255,255,255,0.15)]">
-                  GitHub
+                <a href="https://account.dev.co/login" target="_blank" className="trans_button px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md shadow-md transition flex items-center  bg-[rgba(255,255,255,0.11)] hover:bg-[rgba(255,255,255,0.15)]">
+                  Login
                   <span className="ml-2 hidden xl:block md:hidden">
-                    <Image
+                    {/* <Image
                       src="/images/github_icon.svg"
                       height={28}
                       width={28}
                       alt="GitHub Icon"
                       className="bg-[rgba(255,255,255,0.11)] min-w-[28px] p-1 rounded"
-                    />
+                    /> */}
                   </span>
                 </a>
-                <button onClick={openModal} className="video_popup_button bg-white text-black px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md transition hover:bg-[#4353FF] hover:text-white" >
-                  Watch Video
-                </button>
+                <a href="https://account.dev.co/login" target="_blank" className="video_popup_button bg-white text-black px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md transition hover:bg-[#4353FF] hover:text-white" >
+                Sign up
+                </a>
               </div>
               <div className='mobile_togglke block lg:hidden ml-auto'>
               <button onClick={toggleMainMenu} className="block p-0 text-white ">

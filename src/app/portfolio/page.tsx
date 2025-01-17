@@ -5,9 +5,11 @@ import Portfoliomain from "@/app/components/portfolio/Portfoliomain";
 import ClientCount from '@/app/components/homepage/ClientCount';
 import Portfoliosection from '@/app/components/portfolio/Portfoliosection';
 import { portfolio, portfolioCol1, portfolioCol2, portfolioItems, portfoliotabs } from "@/app/data/portfolio";
+import UserLayout from "../user_layout/UserLayout";
 
 export default function Home() {   
   return (
+    <UserLayout>
     <>
       <div
         className="inner_page bg-black relative text-customwhite pt-20"
@@ -23,5 +25,6 @@ export default function Home() {
         <CombiningCode CombiningCodedata={portfolio.CombiningCodedata} />
       </div>
     </>
+    </UserLayout>
   );
 }

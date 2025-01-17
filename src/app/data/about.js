@@ -148,6 +148,35 @@ When Dnyanesh is not working, he is spending time with his wife and kids.`,
                         `In his free time, Sam enjoys sharing his knowledge and skills with students via Junior Achievements and the T. Howard Foundation, and small business owners via the SCORE Mentoring Program.`,
                       ],
                   },
+                  {
+                    name: "Ryan Nead",
+                    designation: "VP of Sales",
+                    imageSrc: "/images/Ryan-VP-of-Business-Development.png",
+                    linkedin: "",
+                    description: [
+                        `Based in El Paso, Texas, Ryan assists in larger client management, including project & operational management. He has assisted clients for over 10 years in building out custom software solutions to fit their various needs. Ryan interfaces directly with the CTO and development teams.`,
+                        `Through Ryan’s building and leading diverse teams within startups and growth organizations. Extensive experience in building or implementing digital platforms including Extension Add-ons, Portals, Mobile, Data & Analytics for corporate customer retention, and profitability. Experience in Strategy development, Product, and Vendor evaluation through RFPs by frequently interacting with business leaders and C-suite executives. Ryan aspires to work with executives to take on new challenges and deepening overall impact of the digital space.`,
+                        `When he's not working, Ryan enjoys spending time with his family, running, and working in the yard.`,
+                      ],
+                  },
+                  {
+                    name: "Chris Gylseth",
+                    designation: "Project Manager",
+                    imageSrc: "/images/chrispngw3.png",
+                    linkedin: "",
+                    description: [
+                        `Chris has been involved with technology throughout his career, starting with sales of software and hardware. In recent years, he has consulted startups and businesses looking to develop custom solutions, and has led the project development.
+                        `,
+                        `In addition to managing client projects, Chris has been a partner in an enterprise data storage hardware company, and has launched his own SaaS product. This has given him additional insights and understanding of projects seen from the perspective of a business owner. With this experience, Chris is able to easily relate to other business owners and managers, grasp their vision, and create actionable steps to achieve the desired outcome.`,
+                      ],
+                  },
+                  {
+                    name: "Kathrina",
+                    designation: "Project Manager",
+                    imageSrc: "/images/Kathrina.png",
+                    linkedin: "",
+                    description: [],
+                  },
               ],
         }
         

@@ -7,7 +7,7 @@ export default function Home({children}) {
 
   return (
     <>
-      <div className="skills_page industrypage overflow-x-hidden bg-black relative text-customwhite items-center pt-20">
+      <div className="skills_page industrypage overflow-x-hidden bg-black relative text-customwhite items-center">
         {/* Parallax moving dots */}
         <Image
             className="top_left_blue"

@@ -1186,6 +1186,7 @@ ul.checklist li:not(:last-child) {
 
 .team_box {
     position: relative;
+    padding: 15px;
 }
 .team_box:hover .team_hover-info {
     top: 100%;
@@ -1242,7 +1243,119 @@ ul.checklist li:not(:last-child) {
 .team_section_head {
     padding-bottom: 170px;
 }
+.aboutpage_sections .startup_section .text-center {
+    width: 100%;
+    max-width: 850px;
+    margin: 0px auto 10px;
+}
+.pattern_bg_combinesection {
+    background-size: cover !important;
+    background-position: center bottom;
+}
 
+.terms_block p, .terms_block li {
+    font-size: 22px;
+}
+.terms_block h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+.terms_block p {
+    margin: 0px 0px 15px;
+}
+.terms_block {
+    padding: 10px 0px;
+}
+.terms_page .pattern_bg_combinesection {
+    background-size: 100% 500px !important;
+}
+.get_quote_box {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 60px;
+    background-size: cover;
+    width: 100%;
+    max-width: 1252px;
+    margin: 50px auto 0px;
+}
+
+.get_quote_box img {
+    max-width: 100px;
+}
+
+.get_quote_box  h3 {
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+}
+.terms_page .banner_text {
+    padding-top: 8px;
+}
+.privacypage .terms_banner .btn_wrapper {
+    display: none;
+}
+.terms_block ul {
+    margin: 10px 0px;
+    list-style: disc;
+    padding-left: 21px;
+}
+
+.terms_block li {
+    color: rgba(255,255,255,0.7);
+}
+.terms_block h4 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.terms_block h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin: 10px 0px 5px;
+}
+.data_table h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.data_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data_row .data_head {
+    min-width: 300px;
+    width: 300px;
+    padding: 15px;
+    border-right: 1px solid rgba(247, 248, 248, 0.5);
+}
+
+.data_row .data_description {
+    width: calc(100% - 300px);
+    padding: 15px;
+}
+
+.data_row:not(:last-child) {
+    border-bottom: 1px solid rgba(247, 248, 248, 0.5);
+}
+
+.data_table {
+    border: 1px solid rgba(247, 248, 248, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.data_table p {
+    margin: 0px;
+}
 
 /*--------- responsive css start ---------*/
 
@@ -1274,6 +1387,30 @@ ul.checklist li:not(:last-child) {
     .icon_text_card h3 {
         font-size: 20px;
     }
+    .terms_page .banner_text {
+        padding-top: 8px;
+    }
+    
+    .terms_block p, .terms_block li {
+        font-size: 18px;
+    }
+    
+    .terms_block h2 {
+        font-size: 36px;
+    }
+    .terms_block h3 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:1366px){
+.aboutpage {
+    background-size: 100% 490px !important;
+}
+
+.aboutpage .banner_image {
+    margin-top: -60px !important;
+}
 }
 
 
@@ -1281,6 +1418,13 @@ ul.checklist li:not(:last-child) {
 @media(max-width:1199px){
     .logo_slider .slick-slide{
         padding:10px;
+    }
+    .get_quote_box h3 {
+        font-size: 42px;
+    }
+    
+    .get_quote_box {
+        padding: 50px;
     }
     .text_col_left p {
         font-size: 15px;
@@ -1445,6 +1589,9 @@ ul.checklist li:not(:last-child) {
 .section_head_half {
     max-width: 100%;
 }
+.team_col {
+    width: 33.33%;
+}
 
 }
 
@@ -1472,6 +1619,62 @@ ul.checklist li:not(:last-child) {
     }
     .icon_text_card h3 {
         font-size: 16px;
+    }
+    .team_section .head_media_col img.team_thumb {
+        position: relative;
+        width: 100%;
+    }
+    
+    .head_grid p {
+        font-size: 16px;
+    }
+    
+    .head_grid h2 {
+        font-size: 32px;
+    }
+    
+    .team_section_head {
+        padding-bottom: 0px;
+    }
+    
+    .aboutpage_sections .benefits-container.border-lightBlue {
+        gap: 5px;
+    }
+    
+    .team_hover-info {
+        position: static;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .team_firt-info {
+        display: none;
+    }
+    
+    .team_col {
+        width: 50%;
+    }
+    
+    .team_info {
+        align-items: center;
+    }
+    
+    .team_grid {
+        gap: 0px 0px;
+    }
+    
+    .team_box {
+        padding: 8px;
+    }
+    
+    .team_section.py-20 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .team_block {
+        margin-top: -70px;
     }
 
 .grid_logo {
@@ -1522,7 +1725,53 @@ ul.checklist li:not(:last-child) {
     .location_box .location_text h3 {
         font-size: 15px;
     }
-
+    .aboutpage_sections {
+        margin-top: -80px;
+    }
+    .terms_block p, .terms_block li {
+        font-size: 14px;
+    }
+    
+    .terms_block h2 {
+        font-size: 28px;
+    }
+    
+    .get_quote_box h3 {
+        font-size: 31px;
+    }
+    
+    .get_quote_box {
+        padding: 30px;
+        border-radius: 25px;
+        margin-top: 20px;
+    }
+    
+    a.bg-customBlue {
+        text-align: center;
+    }
+    .terms_block h4 {
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+    
+    .terms_block h3 {
+        font-size: 22px;
+    }
+    
+    .data_table h5 {
+        font-size: 16px;
+    }
+    
+    .data_row .data_head {
+        width: 120px;
+        min-width: 120px;
+        padding: 10px;
+    }
+    
+    .data_row .data_description {
+        padding: 10px;
+        width: calc(100% - 120px);
+    }
 }
 
 
@@ -1540,10 +1789,28 @@ ul.checklist li:not(:last-child) {
 .inovative_section .text-left {
     max-width: 100%;
 }
+.aboutpage_sections .benefits-container h4 {
+    font-size: 30px;
+    margin: 0;
+}
 }
 
 
 @media(max-width:575px){
+    .team_info {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .team_box {
+        height: 100%;
+    }
+    
+    .team_box .team_hover-info {
+        height: 100%;
+    }
     .footer__links_grid .Footer_links_col:nth-child(1),.footer__links_grid .Footer_links_col:nth-child(2) {
         width: 100%;
         flex-basis: 100%;
