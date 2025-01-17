@@ -54,7 +54,7 @@ const Aboutbanner = ({ dynamicData }) => {
                   href="/portfolio"
                   className="trans_button text-[15px] flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white"
                 >
-                  Our Team
+                  Our Projects
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ml-1 w-5 h-5"
