@@ -12,8 +12,6 @@ gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 export default function ChooseService({
   title = "",
   description = "",
-  mainHeading = "",
-  subHeading = "",
   chooseData = [],
 }) {
   const titleRef = useRef(null);

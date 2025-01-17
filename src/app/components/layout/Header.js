@@ -52,10 +52,6 @@ const Header = () => {
     };
   }, []);
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
 
   return (
     <>
@@ -224,36 +220,7 @@ const Header = () => {
       </div>
     </nav>
 
-    {/* Modal */}
-    {isModalOpen && (
-      <div
-        className=" video-model fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out"
-        onClick={closeModal}
-      >
-        <div
-          className="bg-black rounded-lg p-6 shadow-lg  w-[90%] md:max-w-[800px] relative"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <button
-            onClick={closeModal}
-            className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-2xl font-bold"
-          >
-            &times;
-          </button>
-          <h2 className="text-lg font-semibold mb-4">Introduction</h2>
-          <iframe
-            width="100%"
-            height="415"
-            src="https://www.youtube.com/embed/g65BIKLJXrE"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-      
-    )}
+
     </>
   );
 };
