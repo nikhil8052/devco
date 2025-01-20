@@ -29,7 +29,7 @@ export default function Page() {
 
 
           if (response.ok) {
-            const data = await response.json();
+            // const data = await response.json();
 
         } else {
             // Handle HTTP errors
