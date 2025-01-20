@@ -17,12 +17,9 @@ export async function middleware(request) {
 
     try {
       // Verify the token
-      const secretKey = new TextEncoder().encode('test'); // Replace 'test' with your actual secret key
+      const secretKey = new TextEncoder().encode('test'); 
       const { payload } = await jwtVerify(token.value, secretKey);
-      
-      console.log('Token is valid:', payload);
-
-      // You can add additional checks on the payload if necessary
+      console.log( payload , " Paylopad ")
     } catch (error) {
       console.error('Invalid token:', error.message);
       return NextResponse.redirect(new URL('/admin/login', request.url));

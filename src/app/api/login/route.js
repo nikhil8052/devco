@@ -1,8 +1,5 @@
 
-// import pool from '../utils/db';
 import jwt from 'jsonwebtoken';
-
-
 const SECRET_KEY = 'test';
 
 

@@ -30,10 +30,6 @@ export default function Page() {
 
           if (response.ok) {
             const data = await response.json();
-            var token = data.token 
-            localStorage.setItem('token', token);
-
-            console.log( data )
 
         } else {
             // Handle HTTP errors
