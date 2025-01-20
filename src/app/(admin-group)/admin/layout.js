@@ -6,13 +6,13 @@ const AdminLayout = ({ children }) => {
     <>
       <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
-          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          {/* <button type="button" id="sidebarCollapse" class="btn btn-primary">
             <i class="fa fa-bars"> Toggle</i>
             <span class="sr-only">Toggle Menu</span>
           </button>
           <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
-          </button>
+          </button> */}
           <div class="p-4 pt-5">
             <ul class="list-unstyled components mb-5">
               <li>

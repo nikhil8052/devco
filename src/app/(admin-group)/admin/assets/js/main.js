@@ -1,17 +1,17 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 
-$(document).ready(function () {
-  "use strict";
+// $(document).ready(function () {
+//   "use strict";
 
-  var fullHeight = function () {
-    $('.js-fullheight').css('height', $(window).height());
-    $(window).resize(function () {
-      $('.js-fullheight').css('height', $(window).height());
-    });
-  };
-  fullHeight();
+//   var fullHeight = function () {
+//     $('.js-fullheight').css('height', $(window).height());
+//     $(window).resize(function () {
+//       $('.js-fullheight').css('height', $(window).height());
+//     });
+//   };
+//   fullHeight();
 
-  $('#sidebarCollapse').on('click', function () {
-    $('#sidebar').toggleClass('active');
-  });
-});
+//   $('#sidebarCollapse').on('click', function () {
+//     $('#sidebar').toggleClass('active');
+//   });
+// });
