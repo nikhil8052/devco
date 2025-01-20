@@ -1,5 +1,5 @@
 
-import pool from '../utils/db';
+// import pool from '../utils/db';
 import jwt from 'jsonwebtoken';
 
 
