@@ -2,12 +2,10 @@
 import { useState } from 'react'; 
 
 export default function Page() {
-
     const [form, setForm] = useState({
-        email: '',
-        password: ''
+        email: 'test@gmail.com',
+        password: 'password'
     });
-
     const handleChange = async (e) => {
         const { name, value } = e.target;
         setForm({
@@ -21,8 +19,6 @@ export default function Page() {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-     
-
         const response = await fetch('/api/login', {
             method: 'POST',
             headers: {
@@ -31,9 +27,22 @@ export default function Page() {
             body: JSON.stringify(form),
           });
 
-          const data = await response.json(); 
 
-        console.log('Form submitted with values:', data);
+          if (response.ok) {
+            const data = await response.json();
+            var token = data.token 
+            localStorage.setItem('token', token);
+
+            console.log( data )
+
+        } else {
+            // Handle HTTP errors
+            const errorData = await response.json();
+            console.error('Error:', errorData.message || 'An error occurred');
+            alert(errorData.message || 'An error occurred');
+        }
+
+
     };
 
     return (

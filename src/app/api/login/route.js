@@ -3,7 +3,7 @@ import pool from '../utils/db';
 import jwt from 'jsonwebtoken';
 
 
-const SECRET_KEY = 'test'; 
+const SECRET_KEY = 'test';
 
 
 export async function POST(request) {
@@ -11,20 +11,22 @@ export async function POST(request) {
 
     const { email, password } = data;
 
-    return new Response(JSON.stringify({ message: 'Login successful' , data }), {
-        status: 200,
-    });
-
-    if (email === 'test@example.com' && password === 'password123') {
+    if (email === 'test@gmail.com' && password === 'password') {
         const token = jwt.sign(
-            { email }, 
-            SECRET_KEY, 
-            { expiresIn: '1h' } 
+            { email },
+            SECRET_KEY,
+            { expiresIn: '1h' }
         );
-
-        return new Response(JSON.stringify({ message: 'Login successful' , token }), {
-            status: 200,
-        });
+        return new Response(
+            JSON.stringify({ message: 'Login successful', token }),
+            {
+                status: 200,
+                headers: {
+                    'Set-Cookie': `token=${token}; HttpOnly; Path=/; Max-Age=3600; Secure; SameSite=Strict`,
+                    'Content-Type': 'application/json',
+                },
+            }
+        );
     }
 
     return new Response(JSON.stringify({ message: 'Invalid credentials' }), {
