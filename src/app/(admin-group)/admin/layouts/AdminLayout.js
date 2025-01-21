@@ -19,6 +19,9 @@ const AdminLayout = ({ children }) => {
                 <a href="/admin/authors">Author </a>
               </li>
               <li>
+                <a href="/admin/authors/add">Add Author </a>
+              </li>
+              <li>
                 <a href="#">Blogs  </a>
               </li>
 
