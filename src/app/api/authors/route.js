@@ -1,7 +1,7 @@
 
 
 // Add the other data to the database 
-export async function POST(request) {
+export async function POST() {
 
     const { email, location, address, city } = req.body;
 
