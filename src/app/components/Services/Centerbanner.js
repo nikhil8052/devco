@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Centerbanner = ({ title = "", description = "", subtitle = ""}) => {
   return (
-    <div className="Skill_banner main-service-banner relative w-full pt-5 xl:pt-20 pb-0 bg-black text-customwhite">
+    <div className="Skill_banner main-service-banner relative z-10 w-full pt-5 xl:pt-20 pb-0 bg-black text-customwhite">
    
 <div className="container mx-auto text-center flex flex-col items-center justify-center">
 <motion.div
@@ -43,7 +43,7 @@ transition={{ duration: 0.8, delay: 0.3 }}
   <a href="/contact" className="bg-white text-black px-3 md:px-6 text-[14px] py-2 rounded-md shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white">
   Reserve my Seat
   </a>
-  <a href="/portfolio" className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white">
+  <a href="/services" className="trans_button flex items-center text-[#F7F8F8] px-3 md:px-6 text-[16px] py-2 md:py-3 rounded-md transition hover:text-white">
     Learn More
     <svg
       xmlns="http://www.w3.org/2000/svg"

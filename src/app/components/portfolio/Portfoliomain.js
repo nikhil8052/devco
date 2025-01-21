@@ -1,18 +1,33 @@
+'use client';
+
 import React, { useState } from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   const [selectedItem, setSelectedItem] = useState(null); // Track selected portfolio item
   const [showModal, setShowModal] = useState(false); // Control modal visibility
 
+  // Convert title to match the filename format
+  const getPdfFilename = (title) => {
+    return title.replace(/\s+/g, "-"); // Replace spaces with "-"
+  };
+
   // Handle form submission
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Trigger download of case study PDF
+
+    if (!selectedItem) return;
+
+    // Generate the PDF filename dynamically
+    const pdfFilename = getPdfFilename(selectedItem.title);
+
+    // Trigger download of the case study PDF
     const link = document.createElement("a");
-    link.href = `/images/${item.title}.pdf`; // Replace with the actual PDF path
-    link.download = `${item.title}-CaseStudy.pdf`;
+    link.href = `/pdf/${pdfFilename}.pdf`; // Path to PDF inside the "public/pdf" folder
+    link.download = `${selectedItem.title}-CaseStudy.pdf`;
+    document.body.appendChild(link); // Append to DOM for click
     link.click();
+    document.body.removeChild(link); // Remove after click
 
     // Close the modal
     setShowModal(false);
@@ -65,6 +80,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
               </div>
             ))}
           </div>
+
           {/* Portfolio Column 2 */}
           <div className="portfolio_col portfolio_col2 lg:w-[50%] w-[100%]">
             {portfolioCol2.map((item, index) => (

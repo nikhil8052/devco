@@ -215,3 +215,9 @@ export const mainservicedata = [
 
     }
   ]
+
+  export const metadata = {
+    title: "Custom Software, Mobile & Website Development Services | DEV",
+    description: "Our custom software development services span multiple languages and platforms and include website, mobile and database management.",
+    image: "/images/Custom-Digital-Development-Services.jpg",
+};

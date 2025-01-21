@@ -1356,6 +1356,12 @@ ul.checklist li:not(:last-child) {
 .data_table p {
     margin: 0px;
 }
+.counttitle {
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 0.7;
+}
 
 /*--------- responsive css start ---------*/
 
@@ -1401,6 +1407,9 @@ ul.checklist li:not(:last-child) {
     .terms_block h3 {
         font-size: 28px;
     }
+    .counttitle {
+        font-size: 70px;
+    }
 }
 
 @media(max-width:1366px){
@@ -1410,6 +1419,9 @@ ul.checklist li:not(:last-child) {
 
 .aboutpage .banner_image {
     margin-top: -60px !important;
+}
+.counttitle {
+    font-size: 70px;
 }
 }
 

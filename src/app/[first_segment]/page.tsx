@@ -7,7 +7,7 @@ import { technologies } from "@/app/data/technology";
 import { locationsdata } from "@/app/data/locations";
 import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
-import Service from "@/app/services/Service";
+import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 import UserLayout from '../user_layout/UserLayout';

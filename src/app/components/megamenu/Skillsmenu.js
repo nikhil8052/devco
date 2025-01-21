@@ -17,9 +17,6 @@ import {
   faWordpress,
   faAws,
   faSalesforce,
-} from '@fortawesome/free-brands-svg-icons';
-
-import {
   faFlask,
   faGlobe,
   faCogs,
@@ -31,7 +28,8 @@ import {
   faIndustry,
   faCubes,
   faSearch,
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-brands-svg-icons';
+
 
 const skillsmenu = [
   { name: 'Java', icon: faJava, link: '/java' },

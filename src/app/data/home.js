@@ -243,7 +243,7 @@ export const homeCard3 = [
 export const techCard1 = {
     title: "Mobile Application w/3M+ downloads",
     description: "Built for Android & Apple iOS",
-    imageSrc: "/images/application_development.svg",
+    imageSrc: "/images/mob_applic.png",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "Fortune 100 Retailer Manages $1B+ in Sales",
@@ -255,7 +255,7 @@ export const techCard2 = {
     title: "Strategic software development support",
     description:
         "As an end-to-end service provider, we deliver in-depth strategic support and custom software developer services to corporations, government entities and small/medium businesses across the globe, ensuring your digital success.",
-    imageSrc: "/images/strategicpic.svg",
+    imageSrc: "/images/mob_applic2.png",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "We aim to deliver on time and under budget",
@@ -293,7 +293,7 @@ export const service3={
 
 // Client count section data 
 export  const clientCountData1 = {
-    imageSrc: '/images/cc1.svg',
+    counttitle:'210',
     imageWidth: 180,
     imageHeight: 74,
     title: 'Website Development',
@@ -301,7 +301,7 @@ export  const clientCountData1 = {
   };
 
 export const clientCountData2 = {
-    imageSrc: '/images/156.png',
+    counttitle:'156',
     imageWidth: 180,
     imageHeight: 74,
     title: 'Mobile App Development',
@@ -309,7 +309,7 @@ export const clientCountData2 = {
   };
 
   export const clientCountData3 = {
-    imageSrc: '/images/24.png',
+    counttitle:'24',
     imageWidth: 180,
     imageHeight: 74,
     title: 'Custom Platform Development',
