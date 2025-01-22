@@ -6569,6 +6569,186 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         },
 
     },
+    {
+        id: 32,
+        meta_title:" ElasticSearch Consulting Services / ElasticSearch Developers / staging.dev.co",
+        meta_description: "Looking for experts in ElasticSearch? Our software developers are well-versed in ElasticSearch and can provide customized solutions to database search needs.",
+        og_image:"/images/icons8-elasticsearch-50.png",
+        slug: "elasticsearch",
+        sub_title: "Skills",
+        bannericon: "/images/Tableau.svg",
+        top_title: "ElasticSearch Developers",
+        top_description: `ElasticSearch, a mighty and trusted search engine, quickly sifts through vast data piles. Powered by Lucene – an open-source library specializing in full-text searches! Looking for something similar but entirely free? Solr is your go-to.<br></br>
+
+        Finding any document type you need becomes effortless with ElasticSearch. Got various projects lined up that could use both these powerhouses? We’ve got the perfect solution: our experienced team of techies are ready to pitch in!<br></br>
+
+        We’re talking about serious web development pros skilled at deploying the entire Elastic stack or Elk Stack as some call it. They can even infuse machine learning algorithms into Elasticsearch service for smarter search solutions!<br></br>
+
+        So whether it’s harnessing elastic search powers effectively on your current project or crafting intricate custom-made ‘search queries’, our elasticsearch developer experts have you covered.`,
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "What is Tableau?",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `Tableau makes several different products, all within the realm of business intelligence. Among these, their relational databases, data processing cubes, and cloud databases stand out. More recently, the company has launched a new analytics extension that’s compatible with popular data science programs, The platform also supports server management and offers simplified content migration that allows it to compete with other major data management platforms, such as SQL, and it smoothly integrates with popular platforms like Salesforce. `,
+                }
+            ]
+        },
+
+        benefits: {
+            title: `Tableau Development Services`,
+            description: `At Dev.co, we offer a range of Tableau development services aimed at helping your business access a broad range of business insight. On its own Tableau offers up simple reports. For businesses ready to tackle more advanced data, though, our Tableau development services offer benefits including:`,
+            benefits: [
+                {
+                    title: "Dashboard Development",
+                    description: `Any time you’re working with detailed data visualizations, your dashboard is your home base. The default frameworks in Tableau don’t reveal much, however. We can develop intuitive, information rich dashboards in line with data visualization design best practices.`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Increased Automation",
+                    description: `Tableau can help your business manage a great deal of data, but without proper automation in place, it remains a labor intensive platform. By building in extensive automation, we can help your business cut manual data management time. We use a number of recognized APIs to support automation for data extraction, template creation and deployment, and more.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Install Quality Controls",
+                    description: `Any time that a business deals with large amounts of data, it also deals with data quality issues. As part of our development services, we can evaluate data quality, addressing common problems with naming and grouping, erroneous null values, and overall consistency. We can also automate functions that commonly lead to quality errors and install code triggering quality control alerts.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Real-Time Data Exchange",
+                    description: `Information moves fast, and falling behind can leave your business vulnerable - which is why you can’t afford to lag behind on data updates. By implementing an Extract-Transform-Load (ETL) algorithm, we ensure that your database contains the latest values. You’ll never make a decision based on out of date information again.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Expanded Use",
+                    description: `If your business is going to use Tableau, you should maximize its application. That’s why, though its general function is data visualization, we can help you expand your use to enhance collaboration between departments, implement artificial intelligence features like Explain Data, and help your business embrace predictive analytics for a competitive edge.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.co Kubernetes Development Workflow",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Work Environment Set Up",
+                    description: "Set up Kubernetes work environments Local Kubernetes vs. Cloud Kubernetes Customize Environment Establish Security Failsafes",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Development",
+                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    imgSrc: "",
+                },
+                {
+                    title: "Kubernetes Deployment",
+                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+        Subheadingtext:{
+            heading: "Interesting Facts About Tableau",
+            subText:"",
+            list1: [
+                "Tableau is an interactive, data visualization program founded in 2003. The company was acquired by Salesforce in August 2019, for $15.7 billion.",
+                "During its May 2013 NYSE IPO, Tableau raised more than $250 million.",
+                "Adam Selipsky is the current CEO of Tableau.",
+                "Tableau offers excellent IT support, while offering easy to implement solutions. From the moment you click on the download, it takes about 20 minutes for the software to be operational.",
+                "Tableau is a great program for non-technical users because it allows for “no-code” data queries.",
+                "Tableau is popular across industries because of its ability to analyze and present information in an accessible way. Tableau visualizations are easily embedded into a range of other platforms, including corporate portals like Microsoft SharePoint.",
+               
+            ],
+            list2: [
+                "Tableau has been recognized as a technology leader in the Gartner Magic Quadrant reports for seven consecutive years, from 2012 to 2019.",
+                "In 2018, Tableau acquired the artificial intelligence startup Empirical Systems with the goal of integrating Empirical Systems’ AI into their own platform.",
+                "The Tableau Foundation was founded in 2014. The organization has committed to donation $100 million in software, training, and grants to non-profits by 2025. Their goal is to use data as a tool for solving major social problems.",
+                "Tableau customers include many healthcare organizations, including UChicago Medicine, NYC Health + Hospitals, and UNC Health; banking groups like Wells Fargo, USAA, and JPMorgan Chase; and retail organizations like Whole Foods, Abercrombie & Fitch, and HelloFresh.",
+
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Tableau Meets Dev.co",
+                    description: `Great data visualizations should make information easy to use, enabling intuitive decision making,
+                    but that can’t happen if you have to fight with your software to generate those visualizations.
+                    By partnering with Dev.co, your business can transform how it uses Tableau and maximize
+                    the program’s value. Our Tableau development services put information at your fingertips, extracting deeper
+                    meaning from the basic data.`,
+                }
+            ],
+        },
+
+    },
 ];
 
 // Data for the tech cards

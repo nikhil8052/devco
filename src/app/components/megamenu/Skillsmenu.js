@@ -1,67 +1,55 @@
 import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faJava,
-  faJs,
-  faNodeJs,
-  faReact,
-  faLaravel,
-  faHtml5,
-  faPhp,
-  faPython,
-  faUnity,
-  faAndroid,
-  faApple,
-  faShopify,
-  faWordpress,
-  faAws,
-  faSalesforce,
-  faFlask,
-  faGlobe,
-  faCogs,
-  faCloud,
-  faDatabase,
-  faMoneyCheckAlt,
-  faServer,
-  faChartBar,
-  faIndustry,
-  faCubes,
-  faSearch,
+
+
+import { 
+  faJava, faJs, faNodeJs, faReact, faLaravel, faHtml5, faPhp, faPython, 
+  faUnity, faAndroid, faApple, faShopify, faWordpress, faAws, faSalesforce 
 } from '@fortawesome/free-brands-svg-icons';
 
+import { 
+  faCode, faLaptopCode, faServer, faRobot, faTools, faMicrochip, 
+  faGlobe, faCloud, faDatabase, faCogs, faChartBar, faIndustry, faCubes, faSearch, 
+  faMoneyCheckAlt, faProjectDiagram 
+} from '@fortawesome/free-solid-svg-icons';
 
 const skillsmenu = [
-  { name: 'Java', icon: faJava, link: '/java' },
-  { name: 'JavaScript', icon: faJs, link: '/javascript' },
-  { name: 'Node.js', icon: faNodeJs, link: '/nodejs' },
-  { name: 'React', icon: faReact, link: '/react' },
-  { name: 'Laravel', icon: faLaravel, link: '/' },
-  { name: 'HTML5', icon: faHtml5, link: '/' },
-  { name: 'PHP', icon: faPhp, link: '/' },
-  { name: 'Python', icon: faPython, link: '/' },
-  { name: 'Flask', icon: faFlask, link: '/' },
-  { name: 'Unity', icon: faUnity, link: '/' },
-  { name: 'Webflow', icon: faGlobe, link: '/' },
-  { name: 'Shopify', icon: faShopify, link: '/' },
-  { name: 'Android', icon: faAndroid, link: '/' },
-  { name: 'iOS', icon: faApple, link: '/' },
-  { name: 'SolidWorks', icon: faCogs, link: '/' },
-  { name: 'Azure', icon: faCloud, link: '/' },
-  { name: 'AWS', icon: faAws, link: '/' },
-  { name: 'Sitefinity', icon: faGlobe, link: '/' },
-  { name: 'WordPress', icon: faWordpress, link: '/' },
-  { name: 'Salesforce', icon: faSalesforce, link: '/' },
-  { name: 'Oracle', icon: faDatabase, link: '/' },
-  { name: 'Nextcloud', icon: faCloud, link: '/' },
-  { name: 'NetSuite', icon: faMoneyCheckAlt, link: '/' },
-  { name: 'SQL', icon: faDatabase, link: '/' },
-  { name: 'SQL Server', icon: faServer, link: '/' },
-  { name: 'Tableau', icon: faChartBar, link: '/' },
-  { name: 'SAP', icon: faIndustry, link: '/' },
-  { name: 'Kubernetes', icon: faCubes, link: '/' },
-  { name: 'ElasticSearch', icon: faSearch, link: '/' },
+  { name: 'Java', icon: faJava, link: '/java' }, // Java
+  { name: 'JavaScript', icon: faJs, link: '/javascript' }, // JavaScript
+  { name: 'Node.js', icon: faNodeJs, link: '/nodejs' }, // Node.js
+  { name: 'React', icon: faReact, link: '/react' }, // React
+  { name: 'Electron', icon: faLaptopCode, link: '/electron' }, // Electron
+  { name: 'Laravel', icon: faLaravel, link: '/laravel' }, // Laravel
+  { name: 'HTML5', icon: faHtml5, link: '/html5' }, // HTML5
+  { name: 'PHP', icon: faPhp, link: '/php' }, // PHP
+  { name: 'Python', icon: faPython, link: '/python' }, // Python
+  { name: 'C#/ .NET', icon: faCode, link: '/c-sharp-dot-net' }, // C# / .NET
+  { name: 'LabVIEW', icon: faMicrochip, link: '/labview' }, // LabVIEW
+  { name: 'Unity', icon: faUnity, link: '/unity' }, // Unity
+  { name: 'Webflow', icon: faGlobe, link: '/webflow' }, // Webflow
+  { name: 'Shopify', icon: faShopify, link: '/shopify' }, // Shopify
+  { name: 'iOS', icon: faApple, link: '/ios' }, // iOS
+  { name: 'Android', icon: faAndroid, link: '/android' }, // Android
+  { name: 'SolidWorks', icon: faTools, link: '/solidworks' }, // SolidWorks
+  { name: 'Azure', icon: faCloud, link: '/azure' }, // Azure
+  { name: 'AWS', icon: faAws, link: '/aws' }, // AWS
+  { name: 'Sitefinity', icon: faGlobe, link: '/sitefinity' }, // Sitefinity
+  { name: 'WordPress', icon: faWordpress, link: '/wordpress' }, // WordPress
+  { name: 'OpenCV', icon: faRobot, link: '/opencv' }, // OpenCV
+  { name: 'Salesforce', icon: faSalesforce, link: '/salesforce' }, // Salesforce
+  { name: 'Oracle', icon: faDatabase, link: '/oracle' }, // Oracle
+  { name: 'Nextcloud', icon: faCloud, link: '/nextcloud' }, // Nextcloud
+  { name: 'NetSuite', icon: faMoneyCheckAlt, link: '/netsuite' }, // NetSuite
+  { name: 'SQL', icon: faDatabase, link: '/sql' }, // SQL
+  { name: 'SQL Server', icon: faServer, link: '/sql-server' }, // SQL Server
+  { name: 'Tableau', icon: faChartBar, link: '/tableau' }, // Tableau
+  { name: 'SAP', icon: faIndustry, link: '/sap' }, // SAP
+  { name: 'Kubernetes', icon: faCubes, link: '/kubernetes' }, // Kubernetes
+  { name: 'ElasticSearch', icon: faSearch, link: '/elasticsearch' }, // ElasticSearch
 ];
+
+
 
 const Skillsmenu = () => {
   return (
