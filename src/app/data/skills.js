@@ -469,7 +469,7 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
         slug: "javascript",
         bannericon: "/images/Java Script.svg",
         sub_title: "Skills",
-        top_title: "javascript developpment",
+        top_title: "Javascript Development Services",
         top_description: `JavaScript is a dynamic programming language that creates an interactive user experience online. JavaScript brings webpages to life with interactive elements that engage users and make your brand stand out.<br></br>
 
         Interactive elements can even be used to tell a dynamic story, like the New York Times did with their All Birds article. Impressed? That’s the power of JavaScrip`,
