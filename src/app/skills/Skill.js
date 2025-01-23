@@ -118,6 +118,7 @@ export default function Skill({ data }) {
           title={skill.benefits.title}
           description={skill.benefits.description}
           benefits={skill.benefits.benefits}
+          bottomline={skill.benefits.bottomline}
         />
       )}
 

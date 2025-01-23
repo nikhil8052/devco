@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 import { 
   faJava, faJs, faNodeJs, faReact, faLaravel, faHtml5, faPhp, faPython, 
   faUnity, faAndroid, faApple, faShopify, faWordpress, faAws, faSalesforce 
@@ -10,10 +8,9 @@ import {
 
 import { 
   faCode, faLaptopCode, faServer, faRobot, faTools, faMicrochip, 
-  faGlobe, faCloud, faDatabase, faCogs, faChartBar, faIndustry, faCubes, faSearch, 
-  faMoneyCheckAlt, faProjectDiagram 
+  faGlobe, faCloud, faDatabase, faChartBar, faIndustry, faCubes, faSearch, 
+  faMoneyCheckAlt 
 } from '@fortawesome/free-solid-svg-icons';
-
 const skillsmenu = [
   { name: 'Java', icon: faJava, link: '/java' }, // Java
   { name: 'JavaScript', icon: faJs, link: '/javascript' }, // JavaScript

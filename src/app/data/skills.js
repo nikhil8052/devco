@@ -6576,7 +6576,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         og_image:"/images/icons8-elasticsearch-50.png",
         slug: "elasticsearch",
         sub_title: "Skills",
-        bannericon: "/images/Tableau.svg",
+        bannericon: "/images/ElasticSearchbanner.png",
         top_title: "ElasticSearch Developers",
         top_description: `ElasticSearch, a mighty and trusted search engine, quickly sifts through vast data piles. Powered by Lucene – an open-source library specializing in full-text searches! Looking for something similar but entirely free? Solr is your go-to.<br></br>
 
@@ -6589,101 +6589,106 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         BorderTextbox: {
             BorderTextdata: [
                 {
-                    title: "What is Tableau?",
-                    description: ``,
+                    title: "ElasticSearch Consulting Services",
+                    description: `Our ElasticSearch consulting services can be used in a variety of industries, each with their own unique needs.<br></br>
+                    Our team’s expertise in ElasticSearch is vast and extensive, developed over a decade of working on numerous applications. We’re well-prepared to aid with your unique ElasticSearch development project.<br></br>
+                    Setting up our services will change according to the task at hand. However, we guarantee smooth execution as our software engineers stand by you through each step.`,
 
                 },
                 {
                     title: "",
-                    description: `Tableau makes several different products, all within the realm of business intelligence. Among these, their relational databases, data processing cubes, and cloud databases stand out. More recently, the company has launched a new analytics extension that’s compatible with popular data science programs, The platform also supports server management and offers simplified content migration that allows it to compete with other major data management platforms, such as SQL, and it smoothly integrates with popular platforms like Salesforce. `,
+                    description: `Google Cloud falls under one aspect where this work varies immensely from job description or project requirements – but don’t stress! Our squad ensures it runs without hitch.<br></br>
+                    As far as cost goes? It oscillates based on how big or complex your venture might be. Even so–our rates are competitive fitting snugly within different budgets while promising dependable help for finding the right Elasticsearch developer.<br></br>
+                    The technical skills required include familiarization with elastic cloud capabilities which give us more tools in crafting optimal solutions; built specifically around what you need!`,
+                }
+            ]
+        },
+        BorderTextbox2: {
+            BorderTextdata: [
+                {
+                    title: "What are the steps involved in setting up ElasticSearch Consulting Services?",
+                    description: `The steps involved in setting up ElasticSearch consulting services vary depending on the project, but our team will work with you every step of the way to make sure everything goes smoothly.<br></br>
+
+                    Pricing for these services varies depending on the size and scope of the project, but we offer competitive rates that will fit within your budget.`,
+
+                },
+                {
+                    title: "How does pricing work for custom ElasticSearch Consulting?",
+                    description: `When it comes to pricing, our team works on a project-by-project basis. The size and scope of the project will dictate the final cost, but we offer competitive rates that will fit within your budget.<br></br>
+
+                    Please contact us for more information about our ElasticSearch consulting services, and we would be happy to answer any questions you have.`,
                 }
             ]
         },
 
+
         benefits: {
-            title: `Tableau Development Services`,
-            description: `At Dev.co, we offer a range of Tableau development services aimed at helping your business access a broad range of business insight. On its own Tableau offers up simple reports. For businesses ready to tackle more advanced data, though, our Tableau development services offer benefits including:`,
+            title: `What are some of the benefits of using ElasticSearch?`,
+            description: `Some of the benefits of using ElasticSearch include:
+`,
             benefits: [
                 {
-                    title: "Dashboard Development",
-                    description: `Any time you’re working with detailed data visualizations, your dashboard is your home base. The default frameworks in Tableau don’t reveal much, however. We can develop intuitive, information rich dashboards in line with data visualization design best practices.`,
+                    title: "Scalability",
+                    description: `ElasticSearch can handle large volumes of data easily, making it a good choice for big businesses or organizations.`,
                     imageSrc: "",
                     imageHeight: 27,
                     imageWidth: 30,
                 },
                 {
-                    title: "Increased Automation",
-                    description: `Tableau can help your business manage a great deal of data, but without proper automation in place, it remains a labor intensive platform. By building in extensive automation, we can help your business cut manual data management time. We use a number of recognized APIs to support automation for data extraction, template creation and deployment, and more.`,
+                    title: "Speed",
+                    description: `ElasticSearch is able to return search results quickly, so you won’t have to wait long for your data to be indexed and searched.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Install Quality Controls",
-                    description: `Any time that a business deals with large amounts of data, it also deals with data quality issues. As part of our development services, we can evaluate data quality, addressing common problems with naming and grouping, erroneous null values, and overall consistency. We can also automate functions that commonly lead to quality errors and install code triggering quality control alerts.`,
+                    title: "Flexibility",
+                    description: `ElasticSearch is highly flexible and can be used for a variety of purposes, from simple searches to more complex ones.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Real-Time Data Exchange",
-                    description: `Information moves fast, and falling behind can leave your business vulnerable - which is why you can’t afford to lag behind on data updates. By implementing an Extract-Transform-Load (ETL) algorithm, we ensure that your database contains the latest values. You’ll never make a decision based on out of date information again.`,
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Expanded Use",
-                    description: `If your business is going to use Tableau, you should maximize its application. That’s why, though its general function is data visualization, we can help you expand your use to enhance collaboration between departments, implement artificial intelligence features like Explain Data, and help your business embrace predictive analytics for a competitive edge.`,
+                    title: "Open Source",
+                    description: `One of the benefits of using ElasticSearch is that it’s an open source solution, which means that it’s free to use. This makes it a cost-effective option for businesses or organizations of all sizes.`,
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
 
             ],
+            bottomline:`ElasticSearch is a distributed full-text search engine that enables you to search through large collections of data quickly and easily. It’s built on Lucene (an open source full-text search library), so you can be sure that it’s powerful and reliable.<br></br>
+
+            For those who want to learn more or get started with ElasticSearch consulting services, please contact us for more information. We would be happy to answer any questions you have!`
         },
         Benefitslider: {
-            title: "The DEV.co Kubernetes Development Workflow",
-            description: ``,
+            title: "How can ElasticSearch be used in different industries?",
+            description: `ElasticSearch has a wide range of applications, and it can be used in a variety of industries.<br></br>
+            Here are a few examples:`,
             card_datas: [
                 {
-                    title: "Work Environment Set Up",
-                    description: "Set up Kubernetes work environments Local Kubernetes vs. Cloud Kubernetes Customize Environment Establish Security Failsafes",
+                    title: "Financial Services",
+                    description: "In the financial services industry, ElasticSearch can be used for fraud detection, risk management, and customer service.",
                     imgSrc: "",
                 },
                 {
-                    title: "Kubernetes Development",
-                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    title: "Retail",
+                    description:"In retail, ElasticSearch can be used for product search, recommendations, and inventory management.",
                     imgSrc: "",
                 },
                 {
-                    title: "Kubernetes Deployment",
-                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    title: "Healthcare",
+                    description:"In healthcare, ElasticSearch can be used for patient data search, clinical decision support, and drug discovery.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Telecommunications",
+                    description:"In telecommunications, ElasticSearch can be used for network data search, customer service, and fraud detection.",
                     imgSrc: "",
                 },
             ],
         },
 
-        Subheadingtext:{
-            heading: "Interesting Facts About Tableau",
-            subText:"",
-            list1: [
-                "Tableau is an interactive, data visualization program founded in 2003. The company was acquired by Salesforce in August 2019, for $15.7 billion.",
-                "During its May 2013 NYSE IPO, Tableau raised more than $250 million.",
-                "Adam Selipsky is the current CEO of Tableau.",
-                "Tableau offers excellent IT support, while offering easy to implement solutions. From the moment you click on the download, it takes about 20 minutes for the software to be operational.",
-                "Tableau is a great program for non-technical users because it allows for “no-code” data queries.",
-                "Tableau is popular across industries because of its ability to analyze and present information in an accessible way. Tableau visualizations are easily embedded into a range of other platforms, including corporate portals like Microsoft SharePoint.",
-               
-            ],
-            list2: [
-                "Tableau has been recognized as a technology leader in the Gartner Magic Quadrant reports for seven consecutive years, from 2012 to 2019.",
-                "In 2018, Tableau acquired the artificial intelligence startup Empirical Systems with the goal of integrating Empirical Systems’ AI into their own platform.",
-                "The Tableau Foundation was founded in 2014. The organization has committed to donation $100 million in software, training, and grants to non-profits by 2025. Their goal is to use data as a tool for solving major social problems.",
-                "Tableau customers include many healthcare organizations, including UChicago Medicine, NYC Health + Hospitals, and UNC Health; banking groups like Wells Fargo, USAA, and JPMorgan Chase; and retail organizations like Whole Foods, Abercrombie & Fitch, and HelloFresh.",
-
-            ],
-        },
 
         processes: {
             title: "Our Development <br> Process",
@@ -6738,12 +6743,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 {
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
-                    heading: "Tableau Meets Dev.co",
-                    description: `Great data visualizations should make information easy to use, enabling intuitive decision making,
-                    but that can’t happen if you have to fight with your software to generate those visualizations.
-                    By partnering with Dev.co, your business can transform how it uses Tableau and maximize
-                    the program’s value. Our Tableau development services put information at your fingertips, extracting deeper
-                    meaning from the basic data.`,
+                    heading: "Are you ready to learn more about ElasticSearch Consulting Services?",
+                    description: `Please contact us for more information about our ElasticSearch consulting services.<br></br>
+                    We would be happy to answer any questions you have!`,
                 }
             ],
         },

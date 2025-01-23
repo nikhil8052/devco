@@ -2,7 +2,7 @@ import React from 'react';
 import Benefit from "@/app/components/Services/Benefit";
 import Image from "next/image";
 
-export default function Benefits({ title = "", description = "", benefits = [] }) {
+export default function Benefits({ title = "", description = "", benefits = [], bottomline}) {
   // Check if there's any data to render
   const hasContent = title || description || benefits.length > 0;
 
@@ -52,6 +52,12 @@ export default function Benefits({ title = "", description = "", benefits = [] }
                 ))}
               </div>
             )}
+             {bottomline && (
+            <div className='bottom_line_wrap mt-5 lg:mt-20 md:mt-10'>
+               <p className="section_head_para text-[14px] 2xl:text-[20px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite"
+                                  dangerouslySetInnerHTML={{ __html: bottomline }}></p>
+            </div>
+             )}
           </div>
           <div className="divider flex items-center content-center h-[70px] mt-10 md:h-[150px] w-[100%] mx-auto md:mt-20">
             <div className="divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10"></div>

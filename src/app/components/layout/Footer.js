@@ -61,6 +61,9 @@ subCategories: [
         { label: 'SAP', path: '/sap' },
         { label: 'Tableau', path: '/tableau' },
         { label: 'Kubernetes', path: '/kubernetes' },
+        { label: 'Elastic Search', path: '/elasticsearch' },
+
+        
       ],
     },
     {
@@ -147,7 +150,7 @@ subCategories: [
               <Link href="/portfolio" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
               <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
               <Link href="https://web.dev.co/" target="_blank" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
-              <Link href="/blog" class="lg:text-[18px]md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
+              <Link href="/blog" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
               <Link href="/careers" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
               <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
               <Link href="/privacy-policy" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>

@@ -993,10 +993,26 @@ nav.site_header.scrolled-header {
   nav.site_header.scrolled-header .header_wrapper {
     transition: all 0.3s ease-in-out;
   }
-  .header_submenu {
-    background: rgba(0, 0, 0, 0.4) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-    backdrop-filter: blur(8px) !important;
+  .header_submenu .submenu_flex{
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+}
+
+ .header_submenu .submenu_flex:before {
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+background-color: rgba(0, 0, 0, 0.8);
+} 
+.submenu_flex .menu_icons_div {
+    position: relative;
+    z-index: 1;
 }
 .video-model h2 {
     color: #ffffff;

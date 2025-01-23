@@ -2,7 +2,11 @@
 import React, { useState,useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Skillsmenu from '@/app/components/megamenu/Skillsmenu'
+import Skillsmenu from '@/app/components/megamenu/Skillsmenu';
+import Servicemenu from '@/app/components/megamenu/Servicemenu';
+import Industrymenu from '@/app/components/megamenu/Industrymenu'
+
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -96,10 +100,10 @@ const Header = () => {
                   </button>
                   {openDropdown['skills'] && (
                    <div
-                   className="header_submenu p-4 static lg:absolute w-full lg:w-[250px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                   className="header_submenu static lg:absolute w-full lg:w-[250px]  text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                      <Skillsmenu />
                     </div>
-                  )} 
+                  )}
                 </li>
 
                 {/* service menu */}
@@ -119,8 +123,8 @@ const Header = () => {
                   </button>
                   {openDropdown['services'] && (
                    <div
-                   className="header_submenu p-4 static lg:absolute w-full lg:w-[250px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
-                   <Skillsmenu />
+                   className="header_submenu  static lg:absolute w-full lg:w-[250px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                   <Servicemenu />
                     </div>
                   )}
                 </li>
@@ -142,11 +146,11 @@ const Header = () => {
                   </button>
                   {openDropdown['industries'] && (
                    <div
-                   className="header_submenu p-4 static lg:absolute w-full lg:w-[250px] bg-white text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible"
-                   style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', backdropFilter: 'blur(48px)' }}
+                   className="header_submenu static lg:absolute w-full lg:w-[250px]  text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible"
+                   
 
                  >
-                   <Skillsmenu />
+                   <Industrymenu />
                     </div>
                   )}
                 </li>
