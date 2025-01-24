@@ -34,10 +34,6 @@ export default function RootLayout({
             })(window, document);
           `}
         </Script>
-        <script
-          async="async"
-          src="https://mm-uxrv.com/js/business_8851188b-aaec-4481-83a4-c53237e6c804-46897532.js"
-        ></script>
         <div className="main-wrapper">{children}</div>
       </body>
     </html>
