@@ -21,11 +21,12 @@ export default function Blog() {
 
         console.log("API Response:", data); // Log the response for debugging
 
+        var new_data= data.data;
         // Format the API response to match the required structure
-        const formattedBlogs = data.map((post) => ({
+        const formattedBlogs = new_data.map((post) => ({
           id: post.ID,
-          slug: `blog/${post.ID}`,
-          link: `/blog/${post.ID}`,
+          slug: `blog/${post.Title}`,
+          link: `/blog/${post.Title}`,
           image: post.Image || "/default-image.jpg",
           authorImage:
             post.Author_ID?.Author_Image || "/default-author.jpg", // Updated to use Author_Image
