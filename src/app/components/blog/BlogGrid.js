@@ -32,7 +32,7 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <a href={`/blog/${blog.id}`} className="post_title_link">
+                                            <a href={`/blog/${blog.slug}`} className="post_title_link">
                                                 {blog.title}
                                             </a>
                                         </h2>

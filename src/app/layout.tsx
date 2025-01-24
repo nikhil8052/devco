@@ -1,12 +1,10 @@
-// import type { Metadata } from "next";
 import "./globals.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import Script from "next/script";
+import Head from "next/head";
 
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import Script from "next/script"; 
 config.autoAddCss = false;
-
-
 
 export default function RootLayout({
   children,
@@ -15,15 +13,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        
-      </head>
+      <Head>
+        {/* Add favicon */}
+        <link rel="icon" href="/cropped-favicon44.png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/cropped-favicon44.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
       <body>
-        {/*  chatbot script */}
-        <Script
-          id="chatbot-script"
-          strategy="lazyOnload"
-        >
+        {/* Chatbot script */}
+        <Script id="chatbot-script" strategy="lazyOnload">
           {`
             (function(w, d) {
               w.CollectId = "5ed144e1f906363bd69e66cf"; 
@@ -36,12 +34,12 @@ export default function RootLayout({
             })(window, document);
           `}
         </Script>
-        <div className="main-wrapper">
-          {children}
-        </div>
+        <script
+          async="async"
+          src="https://mm-uxrv.com/js/business_8851188b-aaec-4481-83a4-c53237e6c804-46897532.js"
+        ></script>
+        <div className="main-wrapper">{children}</div>
       </body>
     </html>
   );
 }
-
-
