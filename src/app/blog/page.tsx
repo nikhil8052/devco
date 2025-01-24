@@ -89,45 +89,83 @@ export default function Blog() {
             <BlogGridlist blogs={paginatedBlogs} />
 
             {/* Pagination */}
-            <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
-              <button
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-                  currentPage === 1
-                    ? "opacity-50 cursor-not-allowed"
-                    : "hover:bg-gray-700"
-                }`}
-              >
-                ←
-              </button>
-              {Array.from({ length: totalPages }, (_, index) => index + 1).map(
-                (pageNumber) => (
-                  <button
-                    key={pageNumber}
-                    onClick={() => handlePageChange(pageNumber)}
-                    className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-                      currentPage === pageNumber
-                        ? "bg-customBlue text-white"
-                        : "hover:bg-gray-700 text-gray-300"
-                    }`}
-                  >
-                    {pageNumber}
-                  </button>
-                )
-              )}
-              <button
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-                  currentPage === totalPages
-                    ? "opacity-50 cursor-not-allowed"
-                    : "hover:bg-gray-700"
-                }`}
-              >
-                →
-              </button>
-            </div>
+{/* Pagination */}
+<div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
+  {/* Previous Button */}
+  <button
+    onClick={() => handlePageChange(currentPage - 1)}
+    disabled={currentPage === 1}
+    className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+      currentPage === 1
+        ? "opacity-50 cursor-not-allowed"
+        : "hover:bg-gray-700"
+    }`}
+  >
+    ←
+  </button>
+
+  {/* First Page */}
+  {currentPage > 2 && (
+    <>
+      <button
+        onClick={() => handlePageChange(1)}
+        className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
+      >
+        1
+      </button>
+      {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
+    </>
+  )}
+
+  {/* Current Page and Neighbors */}
+  {Array.from(
+    { length: 3 },
+    (_, index) => currentPage - 1 + index
+  )
+    .filter((page) => page > 0 && page <= totalPages) // Only valid pages
+    .map((pageNumber) => (
+      <button
+        key={pageNumber}
+        onClick={() => handlePageChange(pageNumber)}
+        className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+          currentPage === pageNumber
+            ? "bg-customBlue text-white"
+            : "hover:bg-gray-700 text-gray-300"
+        }`}
+      >
+        {pageNumber}
+      </button>
+    ))}
+
+  {/* Last Page */}
+  {currentPage < totalPages - 1 && (
+    <>
+      {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
+      <button
+        onClick={() => handlePageChange(totalPages)}
+        className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
+      >
+        {totalPages}
+      </button>
+    </>
+  )}
+
+  {/* Next Button */}
+  <button
+    onClick={() => handlePageChange(currentPage + 1)}
+    disabled={currentPage === totalPages}
+    className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+      currentPage === totalPages
+        ? "opacity-50 cursor-not-allowed"
+        : "hover:bg-gray-700"
+    }`}
+  >
+    →
+  </button>
+</div>
+
+
+
           </>
         )}
 
