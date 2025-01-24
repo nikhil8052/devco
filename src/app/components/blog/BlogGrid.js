@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Link from 'next/link';
 
@@ -20,8 +18,9 @@ export default function BlogGrid({ blogs }) {
                         {blogs.map((blog) => (
                             <div className="blog_col" key={blog.id}>
                                 <div className="blog_card">
-                                    <Link className="blog_thumb" href={`../${blog.slug}`}>
-                                            <img src={blog.image} alt="Blog Thumbnail" />
+                                    {/* Updated href to point to /blog/[id] */}
+                                    <Link className="blog_thumb" href={`./blog/${blog.id}`}>
+                                        <img src={blog.image} alt="Blog Thumbnail" />
                                     </Link>
                                     <div className="blog_card_content">
                                         <div className="author_image">
@@ -33,7 +32,7 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <a href={blog.slug} className="post_title_link">
+                                            <a href={`/blog/${blog.id}`} className="post_title_link">
                                                 {blog.title}
                                             </a>
                                         </h2>

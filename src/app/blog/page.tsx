@@ -19,17 +19,20 @@ export default function Blog() {
         );
         const data = await response.json();
 
+        console.log("API Response:", data); // Log the response for debugging
+
         // Format the API response to match the required structure
         const formattedBlogs = data.map((post) => ({
           id: post.ID,
-          slug: `/blog/${post.ID}`, // Adjust based on how the slug should be structured
+          slug: `blog/${post.ID}`,
           link: `/blog/${post.ID}`,
           image: post.Image || "/default-image.jpg",
-          authorImage: post.Author_ID?.Avatar || "/default-author.jpg", // Assuming Avatar is available; adjust if not
+          authorImage:
+            post.Author_ID?.Author_Image || "/default-author.jpg", // Updated to use Author_Image
           authorName: post.Author_ID?.Name || "Unknown Author",
           date: new Date(post.Created_At).toLocaleDateString(),
           title: post.Title,
-          description: post.Description, // For detailed view
+          description: post.Description,
         }));
 
         setBlogs(formattedBlogs);
