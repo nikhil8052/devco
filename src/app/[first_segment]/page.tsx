@@ -1,4 +1,5 @@
 'use client';
+
 import { useEffect } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
@@ -12,6 +13,23 @@ import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 import UserLayout from "../user_layout/UserLayout";
 
+// Define types for data
+interface BaseData {
+  slug: string;
+  meta_title?: string;
+  meta_description?: string;
+  og_image?: string;
+}
+
+type IndustryData = BaseData & { industrySpecificProp?: string };
+type SkillData = BaseData & { skillSpecificProp?: string };
+type ServiceData = BaseData & { serviceSpecificProp?: string };
+type TechnologyData = BaseData & { technologySpecificProp?: string };
+type LocationData = BaseData & { locationSpecificProp?: string };
+
+// Union type for all possible data
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData;
+
 interface PageProps {
   params: {
     first_segment: string;
@@ -21,8 +39,8 @@ interface PageProps {
 export default function Page({ params }: PageProps) {
   const first_segment = params.first_segment;
 
-  let data: any = null; // Declare `data` as `any` type
-  let Component = null;
+  let data: Data | null = null; // Use the defined type instead of `any`
+  let Component: React.ComponentType<{ data: Data }> | null = null;
 
   // Match the route segment to the data and corresponding component
   if ((data = industries.find((item) => item.slug === first_segment))) {
