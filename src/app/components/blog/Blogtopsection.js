@@ -17,7 +17,8 @@ export default function Blogtopsection({ blogs }) {
                     <div className="blog_meta">
                         <span className="blog_date">{date || 'Unknown Date'}</span>
                     </div>
-                    <h2 className="post_title">{title || 'Untitled Post'}</h2>
+                    <h2 className="post_title"
+                     dangerouslySetInnerHTML={{ __html: blog.title }}></h2>
                     <div
                         className="content"
                         dangerouslySetInnerHTML={{ __html: content || '' }}

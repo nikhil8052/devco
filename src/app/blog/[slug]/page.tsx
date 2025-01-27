@@ -115,7 +115,8 @@ export default function BlogDetail() {
           <div className="blog_meta mt-4">
             <span className="blog_date text-[16px] text-gray-400">{blog.date}</span>
           </div>
-          <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6">{blog.title}</h1>
+          <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6" 
+           dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
           <div
             className="content text-[18px] leading-relaxed text-gray-300"
             dangerouslySetInnerHTML={{ __html: blog.content }}
