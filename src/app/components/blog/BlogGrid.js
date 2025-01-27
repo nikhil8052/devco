@@ -19,7 +19,9 @@ export default function BlogGrid({ blogs }) {
                             <div className="blog_col" key={blog.id}>
                                 <div className="blog_card">
                                     {/* Updated href to point to /blog/[id] */}
-                                    <Link className="blog_thumb" href={`./blog/${blog.slug}`}>
+                                    <Link 
+                                    className="blog_thumb" href={`./blog/${blog.slug}&post_id=${blog.id}`} 
+                                    >
                                         <img src={blog.image} alt="Blog Thumbnail" />
                                     </Link>
                                     <div className="blog_card_content">
@@ -32,9 +34,9 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <a href={`/blog/${blog.slug}`} className="post_title_link">
+                                            <Link href={`./blog/${blog.slug}&post_id=${blog.id}`} onClick={localStorage.setItem('post_id',blog.id)} className="post_title_link">
                                                 {blog.title}
-                                            </a>
+                                            </Link>
                                         </h2>
                                     </div>
                                 </div>

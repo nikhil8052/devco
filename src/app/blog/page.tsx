@@ -25,16 +25,16 @@ export default function Blog() {
         // Format the API response to match the required structure
         const formattedBlogs = new_data.map((post) => ({
           id: post.ID,
-          slug: `${post.Slug}`,
-          link: `/blog/${post.Title}`,
+          slug: post.Slug, // Ensure this matches the dynamic route
+          link: `/blog/${post.Slug}`, // Optional: Can be used for direct linking
           image: post.Image || "/default-image.jpg",
-          authorImage:
-            post.Author_ID?.Author_Image || "/default-author.jpg", // Updated to use Author_Image
+          authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
           authorName: post.Author_ID?.Name || "Unknown Author",
           date: new Date(post.Created_At).toLocaleDateString(),
           title: post.Title,
           description: post.Description,
         }));
+        
 
         setBlogs(formattedBlogs);
       } catch (error) {
