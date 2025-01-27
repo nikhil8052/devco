@@ -34,7 +34,7 @@ export default function BlogDetail() {
         }
 
         const response_data = await response.json();
-        var data = response_data.data[0];
+        const data = response_data.data[0];
         console.log("API response:", data);
 
         if (data && data.Title && data.Created_At) {
