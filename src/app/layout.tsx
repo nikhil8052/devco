@@ -21,19 +21,23 @@ export default function RootLayout({
       </Head>
       <body>
         {/* Chatbot script */}
-        <Script id="chatbot-script" strategy="lazyOnload">
-          {`
-            (function(w, d) {
-              w.CollectId = "5ed144e1f906363bd69e66cf"; 
-              var h = d.head || d.getElementsByTagName("head")[0]; 
-              var s = d.createElement("script"); 
-              s.setAttribute("type", "text/javascript"); 
-              s.async = true; 
-              s.setAttribute("src", "https://collectcdn.com/launcher.js"); 
-              h.appendChild(s); 
-            })(window, document);
-          `}
-        </Script>
+        <Script
+          id="chatbot-script"
+          strategy="afterInteractive" // Ensures script is loaded after page content
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w, d) {
+                w.CollectId = "5ed144e1f906363bd69e66cf"; 
+                var h = d.head || d.getElementsByTagName("head")[0]; 
+                var s = d.createElement("script"); 
+                s.setAttribute("type", "text/javascript"); 
+                s.async = true; 
+                s.setAttribute("src", "https://collectcdn.com/launcher.js"); 
+                h.appendChild(s); 
+              })(window, document);
+            `,
+          }}
+        />
         <div className="main-wrapper">{children}</div>
       </body>
     </html>

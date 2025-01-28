@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React, { useEffect, useState } from "react";
 import BlogGrid from "@/app/components/blog/BlogGrid";
@@ -11,6 +11,29 @@ export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 10;
 
+  // Fetch data for author and recent posts
+  const fetchAuthorData = async (authorId) => {
+    try {
+      const authorResponse = await fetch(
+        `https://dev.co/wp-json/custom/v1/author-details?id=${authorId}`
+      );
+      const authorData = await authorResponse.json();
+
+      const recentPostsResponse = await fetch(
+        `https://dev.co/wp-json/custom/v1/recent-posts?author_id=${authorId}`
+      );
+      const recentPostsData = await recentPostsResponse.json();
+
+      return {
+        authorDescription: authorData.Description || "No description available",
+        recentPosts: recentPostsData.data || [],
+      };
+    } catch (error) {
+      console.error("Error fetching author data:", error);
+      return { authorDescription: "Error fetching author details", recentPosts: [] };
+    }
+  };
+
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
@@ -19,22 +42,28 @@ export default function Blog() {
         );
         const data = await response.json();
 
-        console.log("API Response:", data); // Log the response for debugging
+        const new_data = data.data;
 
-        const new_data= data.data;
-        // Format the API response to match the required structure
-        const formattedBlogs = new_data.map((post) => ({
-          id: post.ID,
-          slug: post.Slug, // Ensure this matches the dynamic route
-          link: `/blog/${post.Slug}`, // Optional: Can be used for direct linking
-          image: post.Image || "/default-image.jpg",
-          authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
-          authorName: post.Author_ID?.Name || "Unknown Author",
-          date: new Date(post.Created_At).toLocaleDateString(),
-          title: post.Title,
-          description: post.Description,
-        }));
-        
+        const formattedBlogs = await Promise.all(
+          new_data.map(async (post) => {
+            const { authorDescription, recentPosts } = await fetchAuthorData(post.Author_ID?.ID);
+
+            return {
+              id: post.ID,
+              slug: post.Slug,
+              link: `/blog/${post.Slug}`,
+              image: post.Image || "/default-image.jpg",
+              authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
+              authorName: post.Author_ID?.Name || "Unknown Author",
+              date: new Date(post.Created_At).toLocaleDateString(),
+              title: post.Title,
+              description: post.Description || "No description available",
+              category: post.Category || "Uncategorized",
+              authorDescription, // Adding author description
+              recentPosts, // Adding recent posts for the author
+            };
+          })
+        );
 
         setBlogs(formattedBlogs);
       } catch (error) {
@@ -47,10 +76,10 @@ export default function Blog() {
     fetchBlogs();
   }, []);
 
-  const totalPages = Math.ceil((blogs.length - 5) / blogsPerPage);
+  const totalPages = Math.ceil(blogs.length / blogsPerPage);
   const paginatedBlogs = blogs.slice(
-    5 + (currentPage - 1) * blogsPerPage,
-    5 + currentPage * blogsPerPage
+    (currentPage - 1) * blogsPerPage,
+    currentPage * blogsPerPage
   );
 
   const handlePageChange = (pageNumber) => {
@@ -82,90 +111,62 @@ export default function Blog() {
 
         {!loading && blogs.length > 0 && (
           <>
-            {/* Render the first 5 blogs in BlogGrid */}
             <BlogGrid blogs={firstFiveBlogs} />
-
-            {/* Render paginated blogs in BlogGridlist */}
             <BlogGridlist blogs={paginatedBlogs} />
 
-            {/* Pagination */}
-{/* Pagination */}
-<div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
-  {/* Previous Button */}
-  <button
-    onClick={() => handlePageChange(currentPage - 1)}
-    disabled={currentPage === 1}
-    className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-      currentPage === 1
-        ? "opacity-50 cursor-not-allowed"
-        : "hover:bg-gray-700"
-    }`}
-  >
-    ←
-  </button>
+            <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
+              >
+                ←
+              </button>
 
-  {/* First Page */}
-  {currentPage > 2 && (
-    <>
-      <button
-        onClick={() => handlePageChange(1)}
-        className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
-      >
-        1
-      </button>
-      {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
-    </>
-  )}
+              {currentPage > 2 && (
+                <>
+                  <button
+                    onClick={() => handlePageChange(1)}
+                    className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
+                  >
+                    1
+                  </button>
+                  {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
+                </>
+              )}
 
-  {/* Current Page and Neighbors */}
-  {Array.from(
-    { length: 3 },
-    (_, index) => currentPage - 1 + index
-  )
-    .filter((page) => page > 0 && page <= totalPages) // Only valid pages
-    .map((pageNumber) => (
-      <button
-        key={pageNumber}
-        onClick={() => handlePageChange(pageNumber)}
-        className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-          currentPage === pageNumber
-            ? "bg-customBlue text-white"
-            : "hover:bg-gray-700 text-gray-300"
-        }`}
-      >
-        {pageNumber}
-      </button>
-    ))}
+              {Array.from({ length: 3 }, (_, index) => currentPage - 1 + index)
+                .filter((page) => page > 0 && page <= totalPages)
+                .map((pageNumber) => (
+                  <button
+                    key={pageNumber}
+                    onClick={() => handlePageChange(pageNumber)}
+                    className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === pageNumber ? "bg-customBlue text-white" : "hover:bg-gray-700 text-gray-300"}`}
+                  >
+                    {pageNumber}
+                  </button>
+                ))}
 
-  {/* Last Page */}
-  {currentPage < totalPages - 1 && (
-    <>
-      {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
-      <button
-        onClick={() => handlePageChange(totalPages)}
-        className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
-      >
-        {totalPages}
-      </button>
-    </>
-  )}
+              {currentPage < totalPages - 1 && (
+                <>
+                  {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
+                  <button
+                    onClick={() => handlePageChange(totalPages)}
+                    className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
+                  >
+                    {totalPages}
+                  </button>
+                </>
+              )}
 
-  {/* Next Button */}
-  <button
-    onClick={() => handlePageChange(currentPage + 1)}
-    disabled={currentPage === totalPages}
-    className={`w-10 h-10 rounded-full flex justify-center items-center border ${
-      currentPage === totalPages
-        ? "opacity-50 cursor-not-allowed"
-        : "hover:bg-gray-700"
-    }`}
-  >
-    →
-  </button>
-</div>
-
-
-
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === totalPages ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
+              >
+                →
+              </button>
+            </div>
           </>
         )}
 

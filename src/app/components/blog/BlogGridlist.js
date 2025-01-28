@@ -30,10 +30,10 @@ export default function BlogGridlist({ blogs }) {
                                                        
                                                     </Link>
                                                 </h2>
-                                                {/* Blog Category */}
-                                                <div className="blog_category">
-                                                    <p>{blog.category || "Uncategorized"}</p> {/* Fallback if category is missing */}
-                                                </div>
+                                           {/* Blog Category */}
+                                                    <div className="blog_category">
+                                                        <p>{blog.category || "Uncategorized"}</p>
+                                                    </div>
                                                 {/* Blog Meta */}
                                                 <div className="blog_meta">
                                                     <span className="author_name">{blog.authorName}</span>

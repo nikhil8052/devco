@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import AuthorInfo from '@/app/components/blog/AuthorInfo';
 import UserLayout from "../../user_layout/UserLayout";
 
 
@@ -11,11 +12,8 @@ export default function BlogDetail() {
   const { slug } = useParams(); // Get slug from URL
   const [blog, setBlog] = useState(null); // Blog state
   const [loading, setLoading] = useState(true); // Loading state
-  
-
 
   useEffect(() => {
-
     const currentUrl = window.location.href;
 
     const urlParams = new URLSearchParams(currentUrl);
@@ -121,12 +119,14 @@ export default function BlogDetail() {
             className="content text-[18px] leading-relaxed text-gray-300"
             dangerouslySetInnerHTML={{ __html: blog.content }}
           ></div>
+          
           <div className="author_info mt-10 flex items-center justify-center gap-4">
             <div className="author_image">
-              <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
+                <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
             </div>
             <div className="author_name text-xl font-semibold">{blog.authorName}</div>
-          </div>
+        </div>
+         
         </div>
       </div>
     </UserLayout>
