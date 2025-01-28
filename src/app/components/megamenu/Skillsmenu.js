@@ -9,7 +9,8 @@ const skillsmenu = [
       { name: 'React', link: '/react' },
       { name: 'HTML5', link: '/html5' },
       { name: 'CSS', link: '/css' },
-      { name: 'Vue.js', link: '/vuejs' }
+      { name: 'Vue.js', link: '/vuejs' },
+      { name: 'Electron', link: '/electron' },
     ]
   },
   {
@@ -18,16 +19,15 @@ const skillsmenu = [
       { name: 'Node.js', link: '/nodejs' },
       { name: 'PHP', link: '/php' },
       { name: 'Python', link: '/python' },
-      { name: 'Ruby on Rails', link: '/ruby-on-rails' },
-      { name: 'Java', link: '/java' }
+      { name: 'C#/ .NET', link: '/c-sharp-dot-net' },
+      { name: 'Laravel', link: '/laravel' },
     ]
   },
   {
     category: 'Mobile Development',
     items: [
-      { name: 'Android', link: '/android' },
       { name: 'iOS', link: '/ios' },
-      { name: 'React Native', link: '/react-native' },
+      { name: 'Android', link: '/android' },
     ]
   },
   {
@@ -35,17 +35,16 @@ const skillsmenu = [
     items: [
       { name: 'AWS', link: '/aws' },
       { name: 'Azure', link: '/azure' },
-      { name: 'Docker', link: '/docker' },
       { name: 'Kubernetes', link: '/kubernetes' },
     ]
   },
   {
     category: 'Databases',
     items: [
-      { name: 'MySQL', link: '/mysql' },
-      { name: 'PostgreSQL', link: '/postgresql' },
-      { name: 'MongoDB', link: '/mongodb' },
       { name: 'SQL', link: '/sql' },
+      { name: 'SQL Server', link: '/sql-server' },
+      { name: 'Oracle', link: '/oracle' },
+      { name: 'ElasticSearch', link: '/elasticsearch' },
     ]
   },
   {
@@ -54,6 +53,16 @@ const skillsmenu = [
       { name: 'WordPress', link: '/wordpress' },
       { name: 'Shopify', link: '/shopify' },
       { name: 'Webflow', link: '/webflow' },
+      { name: 'Sitefinity', link: '/sitefinity' },
+      { name: 'Tableau', link: '/tableau' },
+      { name: 'Salesforce', link: '/salesforce' },
+      { name: 'LabVIEW', link: '/labview' },
+      { name: 'Unity', link: '/unity' },
+      { name: 'SolidWorks', link: '/solidworks' },
+      { name: 'NetSuite', link: '/netsuite' },
+      { name: 'Nextcloud', link: '/nextcloud' },
+      { name: 'SAP', link: '/sap' },
+      { name: 'OpenCV', link: '/opencv' },
     ]
   }
 ];

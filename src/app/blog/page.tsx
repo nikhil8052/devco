@@ -11,28 +11,6 @@ export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 10;
 
-  // Fetch data for author and recent posts
-  const fetchAuthorData = async (authorId) => {
-    try {
-      const authorResponse = await fetch(
-        `https://dev.co/wp-json/custom/v1/author-details?id=${authorId}`
-      );
-      const authorData = await authorResponse.json();
-
-      const recentPostsResponse = await fetch(
-        `https://dev.co/wp-json/custom/v1/recent-posts?author_id=${authorId}`
-      );
-      const recentPostsData = await recentPostsResponse.json();
-
-      return {
-        authorDescription: authorData.Description || "No description available",
-        recentPosts: recentPostsData.data || [],
-      };
-    } catch (error) {
-      console.error("Error fetching author data:", error);
-      return { authorDescription: "Error fetching author details", recentPosts: [] };
-    }
-  };
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -46,7 +24,6 @@ export default function Blog() {
 
         const formattedBlogs = await Promise.all(
           new_data.map(async (post) => {
-            const { authorDescription, recentPosts } = await fetchAuthorData(post.Author_ID?.ID);
 
             return {
               id: post.ID,
@@ -59,8 +36,7 @@ export default function Blog() {
               title: post.Title,
               description: post.Description || "No description available",
               category: post.Category || "Uncategorized",
-              authorDescription, // Adding author description
-              recentPosts, // Adding recent posts for the author
+              authorDescription: post.Author_ID?.Description, // Adding author description
             };
           })
         );
