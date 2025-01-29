@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 
-const PricingSection = ({ data }) => {
-  const { title, paragraphs } = data;
+const PricingSection = ({ title, description }) => {
 
   return (
     <div className="simple-text-sec pb-10 lg:pb-20 md:pb-10">
@@ -14,16 +13,13 @@ const PricingSection = ({ data }) => {
               dangerouslySetInnerHTML={{ __html: title }}
             ></h2>
           )}
-          <div className="w-full">
-            {Array.isArray(paragraphs) &&
-              paragraphs.map((paragraph, index) => (
-                <p
-                  key={index}
-                  className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite md:mb-4"
-                  dangerouslySetInnerHTML={{ __html: paragraph }}
-                ></p>
-              ))}
-          </div>
+           {description && (
+            <p
+              className="description_title text-[26px] 2xl:text-[22px] xl:text-[20] md:text-[14] sm:text-[14px] text-customwhite"
+              dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
+          )}
+         
         </div>
       </div>
     </div>

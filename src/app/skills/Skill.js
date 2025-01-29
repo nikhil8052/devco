@@ -11,6 +11,7 @@ import Industryfaqs from "@/app/components/faq/Industryfaqs";
 import Textblockfull from "@/app/components/Textblockfull";
 import StartUps from "@/app/components/Services/StartUps";
 import DeveloperDo from "@/app/components/skills/DeveloperDo";
+import PricingSection from "@/app/components/skills/PricingSection";
 import CodeHeading from "@/app/components/Services/CodeHeading";
 import Dividercontainer from "@/app/components/skills/Dividercontainer";
 import Simpleimage from "@/app/components/skills/Simpleimage";
