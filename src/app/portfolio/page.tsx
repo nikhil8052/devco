@@ -4,7 +4,7 @@ import CombiningCode from "@/app/components/homepage/CombiningCode";
 import Portfoliomain from "@/app/components/portfolio/Portfoliomain";
 import ClientCount from '@/app/components/homepage/ClientCount';
 // import Portfoliosection from '@/app/components/portfolio/Portfoliosection';
-import { portfolio, portfolioCol1, portfolioCol2, portfolioItems, portfoliotabs } from "@/app/data/portfolio";
+import { portfolio, portfolioCol1, portfolioCol2} from "@/app/data/portfolio";
 import UserLayout from "../user_layout/UserLayout";
 
 export default function Home() {   
