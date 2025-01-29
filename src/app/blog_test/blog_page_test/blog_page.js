@@ -8,9 +8,6 @@ import UserLayout from "../../user_layout/UserLayout";
 
 export default function BlogDetail({blog, author }) {
 
-  console.log(blog, " From the blog_page.js file the original Page ")
-  // const [blog, setBlog] = useState(null); // Blog state
-  // const [author, setAuthor] = useState(null); // Author state
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
 
   useEffect(() => {

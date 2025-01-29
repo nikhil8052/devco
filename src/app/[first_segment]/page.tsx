@@ -143,9 +143,65 @@ const fetchAuthorData = async (authorId) => {
 
   useEffect(() => {
 
-    if (data ==null && !data) return;
+    
+    // if (data ==null && !data ){
+      
+    //   console.log( " Return Meta BLOG ", blog )
+    //   console.log( " Return Meta ")
+    //   return;
+    // } 
 
-    // Set document title
+    if(blog ){
+   
+      document.title = "Default Title";
+
+      // Set meta description
+      const existingMetaDescription = document.querySelector('meta[name="description"]');
+      if (existingMetaDescription) {
+        existingMetaDescription.setAttribute("content", "Default meta description");
+      } else {
+        const newMetaDescription = document.createElement("meta");
+        newMetaDescription.setAttribute("name", "description");
+        newMetaDescription.setAttribute("content", "Default meta description");
+        document.head.appendChild(newMetaDescription);
+      }
+  
+      // Set Open Graph image (og:image)
+      const existingOgImage = document.querySelector('meta[property="og:image"]');
+      if (existingOgImage) {
+        existingOgImage.setAttribute("content","/images/Custom-Website-Development-Services-Icon.png");
+      } else {
+        const newOgImage = document.createElement("meta");
+        newOgImage.setAttribute("property", "og:image");
+        newOgImage.setAttribute("content","/images/Custom-Website-Development-Services-Icon.png");
+        document.head.appendChild(newOgImage);
+      }
+  
+      // Set additional Open Graph properties
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) {
+        ogTitle.setAttribute("content",  "Default Title");
+      } else {
+        const newOgTitle = document.createElement("meta");
+        newOgTitle.setAttribute("property", "og:title");
+        newOgTitle.setAttribute("content", "Default Title");
+        document.head.appendChild(newOgTitle);
+      }
+  
+      const ogDescription = document.querySelector('meta[property="og:description"]');
+      if (ogDescription) {
+        ogDescription.setAttribute("content", "Default meta description");
+      } else {
+        const newOgDescription = document.createElement("meta");
+        newOgDescription.setAttribute("property", "og:description");
+        newOgDescription.setAttribute("content","Default meta description");
+        document.head.appendChild(newOgDescription);
+      }
+
+      
+    }else if(data){
+
+       // Set document title
     document.title = data.meta_title || "Default Title";
 
     // Set meta description
@@ -190,7 +246,12 @@ const fetchAuthorData = async (authorId) => {
       newOgDescription.setAttribute("content", data.meta_description || "Default meta description");
       document.head.appendChild(newOgDescription);
     }
-  }, [data]); // Dependency on `data`
+
+    }
+ 
+    
+  
+  }, [data, blog]); // Dependency on `data`
 
   // Fallback if no match is found
   // if (!data || !Component) {
