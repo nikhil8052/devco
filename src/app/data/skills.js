@@ -3459,6 +3459,11 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
         Our WordPress developer team has been building websites for nearly two decades, assisting some of the most recognized brands on the Fortune 1000 with their custom WordPress developer needs. `,
 
+        Pricingsection: {
+            title: `Our WordPress Maintenance Plans`,
+            description: `With expert support and supervision, we let you focus on your business while we take care of your website. Our WordPress maintenance plans are designed to suit the needs of all sizes of companies. However, we offer three different tiers with different pricing and services.`,
+        },
+
         BorderTextbox: {
             BorderTextdata: [
                 {

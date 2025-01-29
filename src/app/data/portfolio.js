@@ -62,6 +62,11 @@ export const portfolioCol2 = {
             gridLogo: '/images/salesforce.svg',
             title: 'Salesforce Case Study',
         },
+        {
+            logo: '',
+            gridLogo: '',
+            title: 'Automated Trading Platform Case Study',
+        },
     ],
 };
 

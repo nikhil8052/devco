@@ -196,6 +196,14 @@ export default function Skill({ data }) {
         <CombiningCode CombiningCodedata={skill.CombiningCodedatas.CombiningCodedata} />
       )}
 
+            {/* Benefits Section */}
+   {skill?.Pricingsection && (
+        <PricingSection
+          title={skill.Pricingsection.title}
+          description={skill.Pricingsection.description}
+        />
+      )}
+
       {/* FAQs Section */}
       {skill?.faqs?.faqs?.length > 0 && (
         <Industryfaqs

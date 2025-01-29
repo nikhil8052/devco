@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
+import Head from "next/head"; // Import Head for meta tags
 
 export default function BlogDetail() {
   const { slug } = useParams(); // Get slug from URL
@@ -42,6 +43,7 @@ export default function BlogDetail() {
             authorImage: data.Author_ID?.Author_Image || "/default-author.jpg",
             authorId: data.Author_ID?.ID,
             authorDescription: data.Author_ID?.Description, // Adding author description
+            excerpt: data.Description?.substring(0, 160) || "No excerpt available", // Adding excerpt for meta description
           });
 
           // Fetch author data once the blog data is available
@@ -118,6 +120,15 @@ export default function BlogDetail() {
 
   return (
     <UserLayout>
+      <Head>
+        <title>{blog.title}</title>
+        <meta name="description" content={blog.excerpt} />
+        <meta property="og:title" content={blog.title} />
+        <meta property="og:description" content={blog.excerpt} />
+        <meta property="og:image" content={blog.image} />
+        <meta property="og:url" content={window.location.href} />
+      </Head>
+
       <div className="blog_detail_page bg-black text-customwhite">
         <div className="blog_detail_top">
           <div className="container mmx-auto">

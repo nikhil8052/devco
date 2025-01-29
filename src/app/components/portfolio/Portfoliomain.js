@@ -21,10 +21,13 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
     // Generate the PDF filename dynamically
     const pdfFilename = getPdfFilename(selectedItem.title);
 
-    // Trigger download of the case study PDF
+    // Correct the file path (public/images/pdf/)
+    const pdfPath = `/images/pdf/${pdfFilename}.pdf`; 
+
+    // Open the PDF in a new tab
     const link = document.createElement("a");
-    link.href = `/pdf/${pdfFilename}.pdf`; // Path to PDF inside the "public/pdf" folder
-    link.download = `${selectedItem.title}-CaseStudy.pdf`;
+    link.href = pdfPath; // Path to PDF inside the "public/images/pdf" folder
+    link.target = "_blank"; // Open in a new tab
     document.body.appendChild(link); // Append to DOM for click
     link.click();
     document.body.removeChild(link); // Remove after click
@@ -46,39 +49,46 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
         <div className="portfolio_grid flex justify-between gap-5">
           {/* Portfolio Column 1 */}
           <div className="portfolio_col portfolio_col1 md:w-[50%] w-[100%]">
-            {portfolioCol1.map((item, index) => (
-              <div className="portfolio_box" key={index}>
-                <div className="box_inner">
-                  <div className="box_logo">
-                    <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                  </div>
-                  {item.gridLogo && (
-                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-                    </div>
-                  )}
-                  <div className="box_text">
-                    <h3>{item.title}</h3>
-                    <div className="download_div">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          setSelectedItem(item); // Set selected item
-                          setShowModal(true); // Show modal
-                        }}
-                      >
-                        <Image
-                          src="/images/downloadcaseimage.svg"
-                          width={100}
-                          height={100}
-                          alt="Download Case Study"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+          {portfolioCol1.map((item, index) => (
+  <div className="portfolio_box" key={index}>
+    <div className="box_inner">
+      {/* Only render box_logo if item.logo exists */}
+      {item.logo && (
+        <div className="box_logo">
+          <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
+        </div>
+      )}
+
+      {item.gridLogo && (
+        <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
+          <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
+        </div>
+      )}
+
+      <div className="box_text">
+        <h3>{item.title}</h3>
+        <div className="download_div">
+          <a
+            href="#"
+            onClick={() => {
+              setSelectedItem(item); // Set selected item
+              setShowModal(true); // Show modal
+            }}
+          >
+            <Image
+              src="/images/downloadcaseimage.svg"
+              width={100}
+              height={100}
+              alt="Download Case Study"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+))}
+
+
           </div>
 
           {/* Portfolio Column 2 */}
@@ -86,9 +96,12 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             {portfolioCol2.map((item, index) => (
               <div className="portfolio_box" key={index}>
                 <div className="box_inner">
+                    {/* Only render box_logo if item.logo exists */}
+              {item.logo && (
                   <div className="box_logo">
                     <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
                   </div>
+              )}
                   {item.gridLogo && (
                     <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
                       <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
@@ -174,7 +187,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
                   type="submit"
                   className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
                 >
-                  Download
+                  Submit
                 </button>
               </div>
             </form>
