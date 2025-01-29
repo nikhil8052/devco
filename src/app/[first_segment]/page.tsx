@@ -153,7 +153,7 @@ const fetchAuthorData = async (authorId) => {
 
     if(blog ){
    
-      document.title = "Default Title";
+      document.title = blogData.title
 
       // Set meta description
       const existingMetaDescription = document.querySelector('meta[name="description"]');
