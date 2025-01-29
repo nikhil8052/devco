@@ -20,7 +20,7 @@ export default function BlogGrid({ blogs }) {
                                 <div className="blog_card">
                                     {/* Updated href to point to /blog/[id] */}
                                     <Link 
-                                    className="blog_thumb" href={`./blog/${blog.slug}&post_id=${blog.id}`} 
+                                    className="blog_thumb" href={`./${blog.slug}`} 
                                     >
                                         <img src={blog.image} alt="Blog Thumbnail" />
                                     </Link>
