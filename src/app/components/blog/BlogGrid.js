@@ -34,7 +34,7 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <Link href={`./blog/${blog.slug}&post_id=${blog.id}`} onClick={localStorage.setItem('post_id',blog.id)} className="post_title_link">
+                                            <Link href={`./${blog.slug}`} className="post_title_link">
                                                 {blog.title}
                                             </Link>
                                         </h2>

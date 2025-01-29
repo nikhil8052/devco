@@ -36,13 +36,13 @@ export default function BlogDetail({blog, author }) {
 
   return (
     // <UserLayout>
-      <div className="blog_detail_page bg-black text-customwhite">
+      <div className="blog_detail_page bg-black relative z-10 text-customwhite">
         <div className="blog_detail_top">
           <div className="container mmx-auto">
             <div className="blog_det_top">
               <div className="back_blog">
-                <FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" />
-                <a href="/blog" className="text-customWhite underline mt-4 inline-block">Blogs</a>
+                
+                <a href="/blog" className="text-customWhite underline mt-4 inline-block"><FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" /> Blogs</a>
               </div>
               <div className="blog_autordetail">
                 <span className="author_name">{blog.authorName}</span>

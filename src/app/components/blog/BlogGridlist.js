@@ -25,7 +25,7 @@ export default function BlogGridlist({ blogs }) {
                                             <div className="car_content">
                                                 {/* Blog Title */}
                                                 <h2 className="post_title">
-                                                    <Link href={`./blog/${blog.slug}&post_id=${blog.id}`} className="post_title_link"
+                                                    <Link href={`./${blog.slug}`} className="post_title_link"
                                                     dangerouslySetInnerHTML={{ __html: blog.title }}>
                                                        
                                                     </Link>

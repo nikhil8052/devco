@@ -2177,4 +2177,13 @@ ul.feature_listing li:not(:last-child) {
     text-align: center;
     gap: 9px;
 }
+.pagination {
+    gap: 4px;
+}
+
+.pagination button {
+    width: 25px;
+    height: 24px;
+    font-size: 10px;
+}
 }
