@@ -31,6 +31,9 @@ interface BlogData {
   authorImage: string;
   authorId: string | null;
   authorDescription: string;
+  meta_title?: string;
+  meta_description?: string;
+  og_image?: string;
 }
 
 type IndustryData = BaseData & { industrySpecificProp?: string };
@@ -55,12 +58,12 @@ export default function Page({ params }: PageProps) {
   const [blogAuthor, setBlogAuthor] = useState({});
   const [authorID, setAuthorID] = useState(null);
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
-  const [data, setData] = useState<Data | null>(null);
+  let [data, setData] = useState<Data | null>(null);
 
   // Match the route segment to the data and corresponding component
   useEffect(() => {
+    // let data: Data | null = null;
     // Match the route segment to the data and corresponding component
-    let data: Data | null = null;
     if ((data = industries.find((item) => item.slug === first_segment))) {
       setComponent(() => Industry);
     } else if ((data = skills.find((item) => item.slug === first_segment))) {
@@ -139,9 +142,8 @@ const fetchAuthorData = async (authorId) => {
 
 
   useEffect(() => {
-    if (!data) return;
 
-    console.log(data, "Formatted data for the component");
+    if (data ==null && !data) return;
 
     // Set document title
     document.title = data.meta_title || "Default Title";
