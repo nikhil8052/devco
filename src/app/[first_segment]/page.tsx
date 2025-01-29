@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from "react";
+import { useEffect , useState} from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -21,6 +21,17 @@ interface BaseData {
   og_image?: string;
 }
 
+interface BlogData {
+  title: string;
+  image: string;
+  date: string;
+  content: string;
+  authorName: string;
+  authorImage: string;
+  authorId: string | null;
+  authorDescription: string;
+}
+
 type IndustryData = BaseData & { industrySpecificProp?: string };
 type SkillData = BaseData & { skillSpecificProp?: string };
 type ServiceData = BaseData & { serviceSpecificProp?: string };
@@ -28,7 +39,7 @@ type TechnologyData = BaseData & { technologySpecificProp?: string };
 type LocationData = BaseData & { locationSpecificProp?: string };
 
 // Union type for all possible data
-type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData;
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;;
 
 interface PageProps {
   params: {
@@ -38,22 +49,93 @@ interface PageProps {
 
 export default function Page({ params }: PageProps) {
   const first_segment = params.first_segment;
-
-  let data: Data | null = null; // Use the defined type instead of `any`
-  let Component: React.ComponentType<{ data: Data }> | null = null;
+  const [blog, setBlog] = useState(false);
+  const [blogData, setBlogData] = useState<BlogData | null>(null);
+  const [blogAuthor, setBlogAuthor] = useState({});
+  const [authorID, setAuthorID] = useState(null);
+  const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
+  const [data, setData] = useState<Data | null>(null);
 
   // Match the route segment to the data and corresponding component
-  if ((data = industries.find((item) => item.slug === first_segment))) {
-    Component = Industry;
-  } else if ((data = skills.find((item) => item.slug === first_segment))) {
-    Component = Skill;
-  } else if ((data = services.find((item) => item.slug === first_segment))) {
-    Component = Service;
-  } else if ((data = technologies.find((item) => item.slug === first_segment))) {
-    Component = Technology;
-  } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
-    Component = Locations;
+  useEffect(() => {
+    // Match the route segment to the data and corresponding component
+    let data: Data | null = null;
+    if ((data = industries.find((item) => item.slug === first_segment))) {
+      setComponent(() => Industry);
+    } else if ((data = skills.find((item) => item.slug === first_segment))) {
+      setComponent(() => Skill);
+    } else if ((data = services.find((item) => item.slug === first_segment))) {
+      setComponent(() => Service);
+    } else if ((data = technologies.find((item) => item.slug === first_segment))) {
+      setComponent(() => Technology);
+    } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
+      setComponent(() => Locations);
+    } else {
+      fetchBlogDetails();
+    }
+    setData(data);
+  }, [first_segment]);
+
+  useEffect(() => {
+    if(blog){
+      setAuthorID(blogData.authorId);
+      fetchAuthorData(authorID);
+    }
+}, [ blogData]);
+
+
+const fetchBlogDetails = async () => {
+  try {
+    const url = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
+
+    const response_data = await response.json();
+    const blog_data_res = response_data.data[0];
+
+    if (blog_data_res?.Title && blog_data_res?.Created_At) {
+      setBlog(true);
+      setBlogData({
+        title: blog_data_res.Title,
+        image: blog_data_res.Image || "/default-image.jpg",
+        date: new Date(blog_data_res.Created_At).toLocaleDateString(),
+        content: blog_data_res.Description || "No content available",
+        authorName: blog_data_res.Author_ID?.Name || "Unknown Author",
+        authorImage: blog_data_res.Author_ID?.Author_Image || "/default-author.jpg",
+        authorId: blog_data_res.Author_ID?.ID,
+        authorDescription: blog_data_res.Author_ID?.Description,
+      });
+
+      console.log(blogData, " Ths is the data ")
+      // blogData.autherID
+     
+      setComponent(() => BlogPage);
+    }
+  } catch (error) {
+    console.error("Error fetching blog details:", error);
   }
+};
+
+const fetchAuthorData = async (authorId) => {
+  try {
+    const authorResponse = await fetch(
+      `https://dev.co/wp-json/custom/v1/author-details?id=${authorId}`
+    );
+    const authorData = await authorResponse.json();
+    const recentPostsResponse = await fetch(
+      `https://dev.co/wp-json/custom/v1/recent-posts?author_id=${authorId}`
+    );
+    const recentPostsData = await recentPostsResponse.json();
+
+    setBlogAuthor({
+      description: authorData.Description || "No description available",
+      recentPosts: recentPostsData.data || [],
+    });
+  } catch (error) {
+    console.error("Error fetching author data:", error);
+  }
+};
+
 
   useEffect(() => {
     if (!data) return;
@@ -108,21 +190,29 @@ export default function Page({ params }: PageProps) {
   }, [data]); // Dependency on `data`
 
   // Fallback if no match is found
-  if (!data || !Component) {
+  // if (!data || !Component) {
+  //   return (
+  //     <UserLayout>
+  //       <div className="text-center text-white py-20">
+  //         <h1>404 - Page Not Found</h1>
+  //         <p>The requested page could not be found.</p>
+  //       </div>
+  //     </UserLayout>
+  //   );
+  // }
+
+  // Render the matched component with its data
+  if(blog){
     return (
       <UserLayout>
-        <div className="text-center text-white py-20">
-          <h1>404 - Page Not Found</h1>
-          <p>The requested page could not be found.</p>
-        </div>
+        {Component && <Component blog={blogData} author={blogAuthor}/>}
       </UserLayout>
     );
   }
 
-  // Render the matched component with its data
   return (
     <UserLayout>
-      <Component data={data} />
+      {Component && <Component data={data} />}
     </UserLayout>
   );
 }
