@@ -35,7 +35,7 @@ export default function BlogDetail({blog, author }) {
   };
 
   return (
-    <UserLayout>
+    // <UserLayout>
       <div className="blog_detail_page bg-black text-customwhite">
         <div className="blog_detail_top">
           <div className="container mmx-auto">
@@ -136,6 +136,6 @@ export default function BlogDetail({blog, author }) {
 
         </div>
       </div>
-    </UserLayout>
+    // </UserLayout>
   );
 }
