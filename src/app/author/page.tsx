@@ -3,13 +3,12 @@
 import React, { useEffect, useState } from "react";
 import BlogGrid from "@/app/components/blog/BlogGrid";
 import UserLayout from "../user_layout/UserLayout";
-import { useSearchParams, useRouter } from "next/navigation"; // For handling query params
+import { useSearchParams } from "next/navigation"; // For handling query params
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
-  const router = useRouter();
   const author = searchParams.get("author"); // Get author from URL
 
   useEffect(() => {
