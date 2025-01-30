@@ -19,5 +19,6 @@ export const metadata = {
 };
 
 export default function PortfolioLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return <>
+  {children}</>;
 }
