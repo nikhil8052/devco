@@ -2,12 +2,26 @@
 
 import React from 'react';
 import ContactAddress from './ContactAddress.js';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
+import { useForm } from 'react-hook-form';
+
+
+const schema = yup.object().shape({
+  firstName: yup.string().required('First Name is required'),
+  lastName: yup.string().required('Last Name is required'),
+  email: yup.string().email('Invalid email').required('Email is required'),
+  phone: yup.string().matches(/^\+?[0-9]{10,15}$/, 'Invalid phone number').required('Phone is required'),
+  help: yup.string().required('Please select an option'),
+  additionalInfo: yup.string().required('Additional Information is required'),
+});
+
 
 const formFields = [
-  { id: "firstName", label: "First Name", type: "text", required: true },
-  { id: "lastName", label: "Last Name", type: "text", required: true },
-  { id: "email", label: "Email", type: "email", required: true },
-  { id: "phone", label: "Phone", type: "tel", required: true },
+  { id: "firstName", label: "First Name", type: "text"},
+  { id: "lastName", label: "Last Name", type: "text",  },
+  { id: "email", label: "Email", type: "email", },
+  { id: "phone", label: "Phone", type: "tel",  },
   {
     id: "help", label: "How Can We Help", type: "select", options: [
       { value: "web development", label: "I need custom web development" },
@@ -19,38 +33,69 @@ const formFields = [
   { id: "additionalInfo", label: "Additional Information", type: "textarea" },
 ];
 
-const handleSubmit = async (event) => {
-  event.preventDefault(); // Prevent the default form submission
+// const handleSubmit = async (event) => {
+//   event.preventDefault(); // Prevent the default form submission
 
-  const formData = new FormData(event.target); // Get the form data
+//   const formData = new FormData(event.target); // Get the form data
   
-  // Convert form data to an object
-  const data = {};
-  formData.forEach((value, key) => {
-    data[key] = value;
-  });
+//   // Convert form data to an object
+//   const data = {};
+//   formData.forEach((value, key) => {
+//     data[key] = value;
+//   });
 
-  try {
-    const response = await fetch('/api/submitForm', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    });
+//   try {
+//     const response = await fetch('/api/submitForm', {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify(data),
+//     });
     
-    if (response.ok) {
-      alert('Form submitted successfully');
-    } else {
-      alert('Failed to submit form');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    alert('An error occurred while submitting the form');
-  }
-};
+//     if (response.ok) {
+//       alert('Form submitted successfully');
+//     } else {
+//       alert('Failed to submit form');
+//     }
+//   } catch (error) {
+//     console.error('Error:', error);
+//     alert('An error occurred while submitting the form');
+//   }
+// };
 
 const Formpage = () => {
+
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({ resolver: yupResolver(schema) });
+
+
+  
+  const onSubmit = async (data) => {
+    console.log( data , " This is the data ")
+    return 
+    try {
+      const response = await fetch('/api/submitForm', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      
+      if (response.ok) {
+        alert('Form submitted successfully');
+      } else {
+        alert('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An error occurred while submitting the form');
+    }
+  };
+
   return (
     <div className="form_page py-20">
       <div className="container">
@@ -69,7 +114,7 @@ const Formpage = () => {
                 <h3>Tell us how we can help you</h3>
               </div>
               <div className="form">
-                <form className="site_form" onSubmit={handleSubmit}>
+                <form className="site_form" onSubmit={handleSubmit(onSubmit)}>
                   <div className="form_row">
                     {formFields.map((field, index) => (
                       <div className="form_col" key={index}>
@@ -78,9 +123,11 @@ const Formpage = () => {
                             {field.label} {field.required && <span className="text-red-500">*</span>}
                           </label>
                           {field.type === 'select' ? (
+                            <>
                             <select
                               id={field.id}
                               name={field.id}
+                              {...register(field.id)}
                               className="w-full p-2 border border-gray-300 rounded-md"
                               required={field.required}
                             >
@@ -90,21 +137,32 @@ const Formpage = () => {
                                 </option>
                               ))}
                             </select>
+                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
+                            </>
                           ) : field.type === 'textarea' ? (
+                            <>
                             <textarea
                               id={field.id}
                               name={field.id}
+                              {...register(field.id)}
                               rows="4"
                               className="w-full p-2 border border-gray-300 rounded-md"
                             ></textarea>
-                          ) : (
+                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
+                            </>
+
+                          ) : (<>
                             <input
                               type={field.type}
                               id={field.id}
                               name={field.id}
+                              {...register(field.id)}
                               required={field.required}
                               className="w-full p-2 border border-gray-300 rounded-md"
                             />
+                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
+
+                            </>
                           )}
                         </div>
                       </div>
