@@ -1,9 +1,8 @@
 import React from "react";
 import Link from 'next/link';
-import { useRouter } from "next/navigation";
 
 export default function BlogGrid({ blogs }) {
-    const router = useRouter();
+
     return (
         <div className="blog_grid_wrap md:py-14 lg:py-20 py-10">
 
