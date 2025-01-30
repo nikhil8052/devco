@@ -16,7 +16,7 @@ export default function Blog() {
     const fetchBlogs = async () => {
       try {
         setLoading(true);
-        let apiUrl = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX`;
+        let apiUrl = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&author=Ryan`;
 
         if (author) {
           apiUrl += `&author=${encodeURIComponent(author)}`;

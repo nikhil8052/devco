@@ -11,7 +11,6 @@ export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 10;
 
-
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
@@ -21,13 +20,13 @@ export default function Blog() {
           setLoading(false);
           return;
         }
-  
+
         const response = await fetch(
           "https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX"
         );
         const data = await response.json();
         const new_data = data.data;
-  
+
         const formattedBlogs = new_data.map((post) => ({
           id: post.ID,
           slug: post.Slug,
@@ -41,7 +40,7 @@ export default function Blog() {
           category: post.Category || "Uncategorized",
           authorDescription: post.Author_ID?.Description,
         }));
-  
+
         localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
         setBlogs(formattedBlogs);
       } catch (error) {
@@ -50,22 +49,24 @@ export default function Blog() {
         setLoading(false);
       }
     };
-  
+
     fetchBlogs();
   }, []);
-  
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
+  
+  // First 5 blogs to show in BlogGrid
+  const firstFiveBlogs = blogs.slice(0, 5);
+  
+  // Paginated blogs for BlogGridlist
   const paginatedBlogs = blogs.slice(
-    (currentPage - 1) * blogsPerPage,
-    currentPage * blogsPerPage
+    5 + (currentPage - 1) * blogsPerPage,
+    5 + currentPage * blogsPerPage
   );
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
-
-  const firstFiveBlogs = blogs.slice(0, 5);
 
   return (
     <UserLayout>
@@ -90,7 +91,10 @@ export default function Blog() {
 
         {!loading && blogs.length > 0 && (
           <>
+            {/* Display first five blogs */}
             <BlogGrid blogs={firstFiveBlogs} />
+
+            {/* Display paginated blogs starting from the 6th blog */}
             <BlogGridlist blogs={paginatedBlogs} />
 
             <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
@@ -110,7 +114,7 @@ export default function Blog() {
                   >
                     1
                   </button>
-                  {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
+                  {/* {currentPage > 3 && <span className="text-gray-300 px-2"></span>} */}
                 </>
               )}
 
@@ -128,7 +132,7 @@ export default function Blog() {
 
               {currentPage < totalPages - 1 && (
                 <>
-                  {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
+                  {/* {currentPage < totalPages - 2 && <span className="text-gray-300 px-2"></span>} */}
                   <button
                     onClick={() => handlePageChange(totalPages)}
                     className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"

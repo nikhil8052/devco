@@ -5,13 +5,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
+import { useRouter } from "next/navigation";
 
 export default function BlogDetail({ blog, author }) {
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
+  const [loading, setLoading] = useState(true); // Loading state
+  const router = useRouter(); 
 
   useEffect(() => {
-    // You can add any side effects here if needed
+    // Simulating a small delay before loading the blog details
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Adjust time as needed
   }, []);
+
+  if (loading) {
+    return (
+      <div className="blog_detail_page bg-black text-center text-customwhite py-20">
+        <p className="font-semibold text-[34px]">Loading Blogs...</p>
+      </div>
+    );
+  }
 
   if (!blog) {
     return (
@@ -25,6 +39,8 @@ export default function BlogDetail({ blog, author }) {
       </UserLayout>
     );
   }
+
+  const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
   // Handle tab switching
   const handleTabSwitch = (tab) => {
@@ -41,7 +57,7 @@ export default function BlogDetail({ blog, author }) {
                 <FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" /> Blogs
               </a>
             </div>
-            <div className="blog_autordetail">
+            <div className="blog_autordetail" onClick={() => router.push(`/author/${authName}`)}>
               <span className="author_name">{blog.authorName}</span>
               <div className="author_image">
                 <img src={blog.authorImage} alt="Author" />
@@ -61,7 +77,7 @@ export default function BlogDetail({ blog, author }) {
         <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
           dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
         <div
-          className="content text-[18px] leading-relaxed text-gray-300"
+          className="content text-[14px] md:text[18] leading-relaxed text-gray-300"
           dangerouslySetInnerHTML={{ __html: blog.content }}
         ></div>
 
@@ -86,11 +102,11 @@ export default function BlogDetail({ blog, author }) {
               {activeTab === 'Authorinfo1' && author && (
                 <div className="author_data Authodata1">
                   <div className="author_info flex">
-                    <div className="author_image">
+                    <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold">{blog.authorName}</div>
+                      <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{blog.authorName}</div>
                       <div className="authr_description">{blog.authorDescription}</div>
                     </div>
                   </div>
@@ -100,12 +116,11 @@ export default function BlogDetail({ blog, author }) {
               {activeTab === 'Authorinfo2' && author && (
                 <div className="author_data Authodata2">
                   <div className="author_info flex">
-                    <div className="author_image">
+                    <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
                       <div className="author_name text-xl font-semibold">Recent posts by {blog.authorName}</div>
-                      <div className="author_name text-xl font-semibold">Author designation {blog.authorName}</div>
                       <ul className="recent_posts_list">
                         {Array.isArray(author.recentPosts) && author.recentPosts.length > 0 ? (
                           author.recentPosts.map((post, index) => (

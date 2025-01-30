@@ -139,8 +139,8 @@ export default function Teamsection({ teamData = [] }) {
               </p>
               <div className="team_description">
                 {selectedMember.description?.map((para, index) => (
-                  <p key={index} className="mb-2">
-                    {para}
+                  <p key={index} className="mb-2" dangerouslySetInnerHTML={{ __html: para }}>
+                    
                   </p>
                 ))}
               </div>

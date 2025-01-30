@@ -177,6 +177,52 @@ When Dnyanesh is not working, he is spending time with his wife and kids.`,
                     linkedin: "",
                     description: [],
                   },
+                  {
+                    name: "Tushar",
+                    designation: "Project Manager",
+                    imageSrc: "/images/Tusharngw.png",
+                    linkedin: "",
+                    description: [],
+                  },
+                  {
+                    name: "Mahesh",
+                    designation: "Sales Manager",
+                    imageSrc: "/images/Mahesh.png",
+                    linkedin: "",
+                    description: [],
+                  },
+                  {
+                    name: "Carissa",
+                    designation: "Sales Manager",
+                    imageSrc: "/images/carissa.png",
+                    linkedin: "",
+                    description: [],
+                  },
+                  {
+                    name: "Dallin",
+                    designation: "Video Content Manager",
+                    imageSrc: "/images/Dallin.png",
+                    linkedin: "",
+                    description: [],
+                  },
+                  {
+                    name: "Sushil",
+                    designation: "UI/UX developer",
+                    imageSrc: "/images/Sushil-Shirbhate.png",
+                    linkedin: "",
+                    description: [`10.8 years of working in UI development using latest web technologies like HTML5, CSS3, jQuery, React, Angular, Responsive designing with Bootstrap, theming various CMS applications developed using Magento & WordPress.<br>
+                    <b>Experience</b>: 10.8 Years<br>
+                    <b>Skills</b>: HTML, CSS, Bootstrap, WordPress, SASS, Magento, jQuery, Javascript, PHP (Basic), Angular (Frontend), React (Frontend), Adobe XD, Adobe Photoshop, Responsive site, Wireframing, Mobile sites.`],
+                  },
+                  {
+                    name: "Vikrant",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Vikrant-Godse..png",
+                    linkedin: "",
+                    description: [`Experience in Web application development, script writing, scrum-Agile methodology,project management.<br>
+                    <b>Experience</b>: 6.0 Years<br>
+                    <b>Skills</b>: Python,django, django-rest-framework, HTML, CSS, JS, AngularJS, Angular2,ExpressJS, PostgresQL, MySQL,Selenium,Wordpress Heroku, AWS S3 & lambda,GCP`],
+                  },
               ],
         }
         

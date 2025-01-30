@@ -1,233 +1,170 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import React, { useEffect, useState } from "react";
+import AuthorGrid from "@/app/components/blog/AuthorGrid"; // Assuming AuthorGrid is similar to BlogGrid
 import UserLayout from "../../user_layout/UserLayout";
-import Head from "next/head"; // Import Head for meta tags
+import { useSearchParams, useRouter } from "next/navigation"; // For handling query params
 
-export default function BlogDetail() {
-  const { slug } = useParams(); // Get slug from URL
-  const [blog, setBlog] = useState(null); // Blog state
-  const [author, setAuthor] = useState(null); // Author state
-  const [loading, setLoading] = useState(true); // Loading state
-  const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
+export default function Blog({ params }) {
+  const slug = params.slug;
+  const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const blogsPerPage = 8; // Adjust based on your requirement
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const author = searchParams.get("author");
 
   useEffect(() => {
-    const currentUrl = window.location.href;
-    const urlParams = new URLSearchParams(currentUrl);
-    const post_id = urlParams.get('post_id');
-
-    // Function to fetch blog details
-    const fetchBlogDetails = async () => {
+    const fetchBlogs = async () => {
       try {
-        const response = await fetch(
-          `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_id=${post_id}`
-        );
+        setLoading(true);
+        let apiUrl = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&author=${slug}`;
 
-        if (!response.ok) {
-          throw new Error(`API request failed with status ${response.status}`);
-        }
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        const new_data = data.data;
 
-        const response_data = await response.json();
-        const data = response_data.data[0];
-        if (data && data.Title && data.Created_At) {
-          setBlog({
-            title: data.Title,
-            image: data.Image || "/default-image.jpg",
-            date: new Date(data.Created_At).toLocaleDateString(),
-            content: data.Description || "No content available",
-            authorName: data.Author_ID?.Name || "Unknown Author",
-            authorImage: data.Author_ID?.Author_Image || "/default-author.jpg",
-            authorId: data.Author_ID?.ID,
-            authorDescription: data.Author_ID?.Description, // Adding author description
-            excerpt: data.Description?.substring(0, 160) || "No excerpt available", // Adding excerpt for meta description
-          });
+        const formattedBlogs = new_data.map((post) => ({
+          id: post.ID,
+          slug: post.Slug,
+          link: `${post.Slug}`,
+          image: post.Image || "/default-image.jpg",
+          authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
+          authorName: post.Author_ID?.Name || "Unknown Author",
+          date: new Date(post.Created_At).toLocaleDateString(),
+          title: post.Title,
+          description: post.Description || "No description available",
+          category: post.Category || "Uncategorized",
+          authorDescription: post.Author_ID?.Description,
+        }));
 
-          // Fetch author data once the blog data is available
-          if (data.Author_ID?.ID) {
-            fetchAuthorData(data.Author_ID?.ID);
-          }
-        } else {
-          setBlog(null);
-        }
+        setBlogs(formattedBlogs);
       } catch (error) {
-        console.error("Error fetching blog details:", error);
-        setBlog(null);
+        console.error("Error fetching blogs:", error);
       } finally {
         setLoading(false);
       }
     };
 
-    // Function to fetch author details and recent posts
-    const fetchAuthorData = async (authorId) => {
-      try {
-        const authorResponse = await fetch(
-          `https://dev.co/wp-json/custom/v1/author-details?id=${authorId}`
-        );
-        const authorData = await authorResponse.json();
-        const recentPostsResponse = await fetch(
-          `https://dev.co/wp-json/custom/v1/recent-posts?author_id=${authorId}`
-        );
-        const recentPostsData = await recentPostsResponse.json();
+    fetchBlogs();
+  }, [author]);
 
-        setAuthor({
-          description: authorData.Description || "No description available",
-          recentPosts: recentPostsData.data || [],
-        });
-      } catch (error) {
-        console.error("Error fetching author data:", error);
-        setAuthor({ description: "Error fetching author details", recentPosts: [] });
-      }
-    };
+  const totalPages = Math.ceil(blogs.length / blogsPerPage);
 
-    if (slug) {
-      fetchBlogDetails();
-    }
-  }, [slug]);
+  // Paginated blogs for AuthorGrid
+  const paginatedBlogs = blogs.slice(
+    (currentPage - 1) * blogsPerPage,
+    currentPage * blogsPerPage
+  );
 
-  // Loading state
-  if (loading) {
-    return (
-      <UserLayout>
-        <div className="blog_detail_page bg-black text-center text-customwhite">
-          <p className="font-semibold text-[34px]">Loading blog details...</p>
-        </div>
-      </UserLayout>
-    );
-  }
-
-  // Blog not found state
-  if (!blog) {
-    return (
-      <UserLayout>
-        <div className="blog_detail_page bg-black text-center text-customwhite">
-          <p className="font-semibold text-[34px]">Blog not found.</p>
-          <a href="/blog" className="text-customBlue underline mt-4 inline-block">
-            Back to Blogs
-          </a>
-        </div>
-      </UserLayout>
-    );
-  }
-
-  // Handle tab switching
-  const handleTabSwitch = (tab) => {
-    setActiveTab(tab);
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
   };
 
   return (
     <UserLayout>
-      <Head>
-        <title>{blog.title}</title>
-        <meta name="description" content={blog.excerpt} />
-        <meta property="og:title" content={blog.title} />
-        <meta property="og:description" content={blog.excerpt} />
-        <meta property="og:image" content={blog.image} />
-        <meta property="og:url" content={window.location.href} />
-      </Head>
+      <div
+        className="form_page Blogpage authorpage bg-black relative text-customwhite py-20"
+        style={{
+          backgroundImage: "url('/images/blog_page_bgtop.svg')",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <img
+          className="bg_bottom absolute b-0 w-full l-0 z-0"
+          src="/images/jhjhgh.png"
+          alt=""
+        />
 
-      <div className="blog_detail_page bg-black text-customwhite">
-        <div className="blog_detail_top">
-          <div className="container mmx-auto">
-            <div className="blog_det_top">
-              <div className="back_blog">
-                <FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" />
-                <a href="/blog" className="text-customWhite underline mt-4 inline-block">Blogs</a>
-              </div>
-              <div className="blog_autordetail">
-                <span className="author_name">{blog.authorName}</span>
-                <div className="author_image">
-                  <img src={blog.authorImage} alt="Author" />
-                </div>
-              </div>
-            </div>
+{!loading && blogs.length > 0 && (
+  <div className="author_description_block relative z-10 pt-20">
+    <div className="container mx-auto">
+      <div className="author_data Authodata1">
+        <div className="author_info flex">
+          <div className="author_image">
+            <img src={blogs[0]?.authorImage || "/default-author.jpg"} alt="Author" className="rounded-full w-16 h-16" />
+          </div>
+          <div className="author_info_detsil">
+            <div className="author_name text-xl font-semibold">{blogs[0]?.authorName || "Unknown Author"}</div>
+            <div className="authr_description">{blogs[0]?.authorDescription || "No description available"}</div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+)}
 
-        <div className="container mx-auto">
-          <div className="blog_cartd_image">
-            <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
-          </div>
-          <div className="blog_meta mt-4">
-            <span className="blog_date text-[16px] text-gray-400">{blog.date}</span>
-          </div>
-          <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
-            dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
-          <div
-            className="content text-[18px] leading-relaxed text-gray-300"
-            dangerouslySetInnerHTML={{ __html: blog.content }}
-          ></div>
-          
-          <div className="author_section">
-            <div className="author_tab_block">
-              <div className="author_tab_nav">
-                <div
-                  className={`author_tab_link ${activeTab === 'Authorinfo1' ? 'active' : ''}`}
-                  onClick={() => handleTabSwitch('Authorinfo1')}
+
+        {loading && (
+          <p className="text-center py-20 section_head_title font-semibold text-[20px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
+            Loading author...
+          </p>
+        )}
+
+        {!loading && blogs.length > 0 && <AuthorGrid blogs={paginatedBlogs} />}
+
+        {!loading && blogs.length === 0 && (
+          <p className="text-center py-20 section_head_title font-semibold text-[20px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
+            No author found.
+          </p>
+        )}
+
+        {!loading && blogs.length > 0 && (
+          <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
+            <button
+              onClick={() => handlePageChange(currentPage - 1)}
+              disabled={currentPage === 1}
+              className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
+            >
+              ←
+            </button>
+
+            {currentPage > 2 && (
+              <>
+                <button
+                  onClick={() => handlePageChange(1)}
+                  className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
                 >
-                  Author
-                </div>
-                <div
-                  className={`author_tab_link ${activeTab === 'Authorinfo2' ? 'active' : ''}`}
-                  onClick={() => handleTabSwitch('Authorinfo2')}
+                  1
+                </button>
+                {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
+              </>
+            )}
+
+            {Array.from({ length: 3 }, (_, index) => currentPage - 1 + index)
+              .filter((page) => page > 0 && page <= totalPages)
+              .map((pageNumber) => (
+                <button
+                  key={pageNumber}
+                  onClick={() => handlePageChange(pageNumber)}
+                  className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === pageNumber ? "bg-customBlue text-white" : "hover:bg-gray-700 text-gray-300"}`}
                 >
-                  Recent Posts
-                </div>
-              </div>
-              <div className="author_tab_content">
-                {/* Author Info */}
-                {activeTab === 'Authorinfo1' && author && (
-                  <div className="author_data Authodata1">
-                    <div className="author_info flex">
-                      <div className="author_image">
-                        <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
-                      </div>
-                      <div className="author_info_detsil">
-                        <div className="author_name text-xl font-semibold">{blog.authorName}</div>
-                        <div className="authr_description">{blog.authorDescription}</div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-                {/* Recent Posts */}
-                {activeTab === 'Authorinfo2' && author && (
-                  <div className="author_data Authodata2">
-                    <div className="author_info flex">
-                      <div className="author_image">
-                        <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
-                      </div>
-                      <div className="author_info_detsil">
-                        <div className="author_name text-xl font-semibold">Recent posts by {blog.authorName}</div>
-                        <ul className="recent_posts_list">
-                          {Array.isArray(author.recentPosts) && author.recentPosts.length > 0 ? (
-                            author.recentPosts.map((post, index) => (
-                              <li key={index}>
-                                <Link
-                                  href={`/blog/${post.Slug}?post_id=${post.ID}`}
-                                  onClick={() => localStorage.setItem('post_id', post.ID)}
-                                  className="post_title_link"
-                                >
-                                  {post.Title}
-                                </Link>
-                              </li>
-                            ))
-                          ) : (
-                            <li>No recent posts available.</li>
-                          )}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                  {pageNumber}
+                </button>
+              ))}
 
-              </div>
-            </div>
+            {currentPage < totalPages - 1 && (
+              <>
+                {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
+                <button
+                  onClick={() => handlePageChange(totalPages)}
+                  className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
+                >
+                  {totalPages}
+                </button>
+              </>
+            )}
+
+            <button
+              onClick={() => handlePageChange(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === totalPages ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
+            >
+              →
+            </button>
           </div>
-
-        </div>
+        )}
       </div>
     </UserLayout>
   );

@@ -1638,6 +1638,14 @@ ul.feature_listing li:before {
 ul.feature_listing li:not(:last-child) {
     margin-bottom: 10px;
 }
+.author_description_block .authr_description {
+    font-size: 20px;
+    opacity: 70%;
+}
+.author_description_block .author_name {
+    font-size: 30px;
+    margin: 0px 0px 10px;
+}
 
 
 
@@ -1940,6 +1948,17 @@ ul.feature_listing li:not(:last-child) {
 }
 
 @media(max-width:767px){
+    .author_info {
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+    
+    .author_info_detsil {
+        padding-left: 0px;
+    }
+    .author_description_block .authr_description {
+        font-size: 14px;
+    }
     .banner_bg_earth {
         height: 340px;
     }
