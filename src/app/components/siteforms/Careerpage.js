@@ -1,15 +1,62 @@
 'use client';
 import React, { useState } from 'react';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
+import { useForm } from 'react-hook-form';
+
+
+const schema = yup.object().shape({
+  firstName: yup.string().required('First Name is required'),
+  lastName: yup.string().required('Last Name is required'),
+  email: yup.string().email('Invalid email').required('Email is required'),
+  phone: yup.string()
+    .matches(/^\d{10}$/, 'Phone number must be 10 digits')
+    .required('Phone is required'),
+  CodingSkills: yup.string().required('Coding Skills are required'),
+
+});
+
+
 
 const Careerpage = () => {
+
+  const { register, handleSubmit, setValue, formState: { errors } } = useForm({
+    resolver: yupResolver(schema),
+  });
+
+  const [fileError, setFileError ]= useState ("");
+
+  
+  // const handleFileChange = (event) => {
+  //   const file = event.target.files;
+  //   setValue('resume', file, { shouldValidate: true }); // Trigger validation
+  // };
   const [fileName, setFileName] = useState('');
+  const [resume, setResume] = useState(null);
 
   const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      setFileName(file.name); 
+    const file = event.target.files;
+    console.log( file , " This si the file ")
+    if (file.length > 0) {
+      setFileName(file[0].name);
+      setResume(file); 
+      setFileError("");
+    }else {
+      setFileError("File is required");
     }
   };
+
+  const onSubmit = (data) => {
+
+    if(resume==null){
+
+      setFileError(" Resume is required");
+      return ;
+    }
+    console.log('Form submitted:', data);
+  };
+
+
   return (
     <div className="form_page py-20" style={{
       backgroundImage: "url('/images/faz_bg.png')",
@@ -37,7 +84,7 @@ const Careerpage = () => {
                 <h3>Join Our Team</h3>
               </div>
               <div className="form">
-                <form className="site_form">
+                <form className="site_form" onSubmit={handleSubmit(onSubmit)} >
                   <div className='form_row'>
                     <div className='form_col'>
                         <div className='form_group'>
@@ -48,9 +95,10 @@ const Careerpage = () => {
                           type="text"
                           id="firstName"
                           name="firstName"
-                          required
+                          {...register('firstName')} 
                           className="w-full p-2 border border-gray-300 rounded-md"
                         />
+                         <p className="text-red-500">{errors.firstName?.message}</p>
                       </div>
                     </div>
                     <div className='form_col'>
@@ -62,9 +110,10 @@ const Careerpage = () => {
                           type="text"
                           id="lastName"
                           name="lastName"
-                          required
+                          {...register('lastName')} 
                           className="w-full p-2 border border-gray-300 rounded-md"
                         />
+                         <p className="text-red-500">{errors.lastName?.message}</p>
                       </div>
                     </div>
                     <div className='form_col'>
@@ -76,9 +125,11 @@ const Careerpage = () => {
                             type="email"
                             id="email"
                             name="email"
-                            required
+                            {...register('email')}
                             className="w-full p-2 border border-gray-300 rounded-md"
                           />
+                         <p className="text-red-500">{errors.email?.message}</p>
+
                       </div>
                     </div>
                     <div className='form_col'>
@@ -90,9 +141,11 @@ const Careerpage = () => {
                           type="tel"
                           id="phone"
                           name="phone"
-                          required
+                          {...register('phone')} 
                           className="w-full p-2 border border-gray-300 rounded-md"
                         />
+                         <p className="text-red-500">{errors.phone?.message}</p>
+
                       </div>
                     </div>
                     <div className='form_col'>
@@ -104,9 +157,10 @@ const Careerpage = () => {
                           type="text"
                           id="CodingSkills"
                           name="CodingSkills"
-                          required
+                          {...register('CodingSkills')}
                           className="w-full p-2 border border-gray-300 rounded-md"
                         />
+                         <p className="text-red-500">{errors.CodingSkills?.message}</p>
                       </div>
                     </div>
                     <div className='form_col'>
@@ -119,11 +173,11 @@ const Careerpage = () => {
                             type="file"
                             id="resume"
                             name="resume"
-                            required
                             accept=".pdf,.doc,.docx"
                             className="file-input hidden"
                             onChange={handleFileChange} // Handle file selection
                           />
+                            <p className="text-red-500">{fileError}</p>
                           <label htmlFor="resume" className="file-upload-label w-full p-2 border border-gray-300 rounded-md flex justify-center items-center cursor-pointer">
                             
                           <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,9 +186,9 @@ const Careerpage = () => {
                             </svg>
                           </label>
                         </div>
-                        {fileName && (
+                        {/* {fileName && (
                           <p className="mt-2 text-sm text-white-500">Selected file: {fileName}</p> // Display the selected file name
-                        )}
+                        )} */}
                       </div>
                     </div>
 
