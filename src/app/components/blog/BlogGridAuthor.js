@@ -1,9 +1,7 @@
 import React from "react";
 import Link from 'next/link';
-import { useRouter } from "next/navigation";
 
-export default function BlogGrid({ blogs }) {
-    const router = useRouter();
+export default function BlogGridAuthor({ blogs }) {
     return (
         <div className="blog_grid_wrap md:py-14 lg:py-20 py-10">
             <div className="section_head mb-2">
@@ -31,7 +29,7 @@ export default function BlogGrid({ blogs }) {
                                             <img src={blog.authorImage} alt="Author" />
                                         </div>
                                         <div className="blog_meta">
-                                            <span className="author_name" >{blog.authorName}</span>{" "}
+                                            <span className="author_name">{blog.authorName}</span>{" "}
                                             <span className="pos">,</span>
                                             <span className="blog_date">{blog.date}</span>
                                         </div>

@@ -15,32 +15,39 @@ export default function Blog() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(
-          "https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX"
-        );
+        const response = await fetch("https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX");
         const data = await response.json();
-
         const new_data = data.data;
-
-        const formattedBlogs = await Promise.all(
-          new_data.map(async (post) => {
-
-            return {
-              id: post.ID,
-              slug: post.Slug,
-              link: `/blog/${post.Slug}`,
-              image: post.Image || "/default-image.jpg",
-              authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
-              authorName: post.Author_ID?.Name || "Unknown Author",
-              date: new Date(post.Created_At).toLocaleDateString(),
-              title: post.Title,
-              description: post.Description || "No description available",
-              category: post.Category || "Uncategorized",
-              authorDescription: post.Author_ID?.Description, // Adding author description
-            };
-          })
-        );
-
+  
+        const authorPostsMap = {};
+  
+        const formattedBlogs = new_data.map((post) => {
+          const authorId = post.Author_ID?.ID || "unknown";
+  
+          // Store posts by author
+          if (!authorPostsMap[authorId]) {
+            authorPostsMap[authorId] = [];
+          }
+          authorPostsMap[authorId].push({
+            id: post.ID,
+            slug: post.Slug,
+            link: `/blog/${post.Slug}`,
+            image: post.Image || "/default-image.jpg",
+            authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
+            authorName: post.Author_ID?.Name || "Unknown Author",
+            date: new Date(post.Created_At).toLocaleDateString(),
+            title: post.Title,
+            description: post.Description || "No description available",
+            category: post.Category || "Uncategorized",
+            authorDescription: post.Author_ID?.Description,
+          });
+  
+          return {
+            ...authorPostsMap[authorId][authorPostsMap[authorId].length - 1],
+            authorPosts: authorPostsMap[authorId], // Add author's posts to each blog entry
+          };
+        });
+  
         setBlogs(formattedBlogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
@@ -48,9 +55,10 @@ export default function Blog() {
         setLoading(false);
       }
     };
-
+  
     fetchBlogs();
   }, []);
+  
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
   const paginatedBlogs = blogs.slice(
