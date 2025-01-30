@@ -20,7 +20,7 @@ const schema = yup.object().shape({
 
 const Careerpage = () => {
 
-  const { register, handleSubmit, setValue, formState: { errors } } = useForm({
+  const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: yupResolver(schema),
   });
 
@@ -186,9 +186,9 @@ const Careerpage = () => {
                             </svg>
                           </label>
                         </div>
-                        {/* {fileName && (
+                        {fileName && (
                           <p className="mt-2 text-sm text-white-500">Selected file: {fileName}</p> // Display the selected file name
-                        )} */}
+                        )}
                       </div>
                     </div>
 

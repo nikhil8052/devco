@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import AuthorGrid from "@/app/components/blog/AuthorGrid"; // Assuming AuthorGrid is similar to BlogGrid
 import UserLayout from "../../user_layout/UserLayout";
-import { useSearchParams, useRouter } from "next/navigation"; // For handling query params
+import { useSearchParams } from "next/navigation"; // For handling query params
 
 export default function Blog({ params }) {
   const slug = params.slug;
@@ -12,7 +12,6 @@ export default function Blog({ params }) {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 8; // Adjust based on your requirement
   const searchParams = useSearchParams();
-  const router = useRouter();
   const author = searchParams.get("author");
 
   useEffect(() => {
