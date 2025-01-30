@@ -116,7 +116,7 @@ subCategories: [
                           height={75}
                         />
                    <div className='footer_logo_text'>
-                    <Link href="#" className='tel_link inline-block text-[14px] md:text-[18px] font-normal text-customwhite'>+1 (206) 438-9789</Link>
+                    {/* <Link href="#" className='tel_link inline-block text-[14px] md:text-[18px] font-normal text-customwhite'>+1 (206) 438-9789</Link> */}
                     <p className='text-[14px] md:text-[18px] font-normal text-customwhite mt-2 2xl:mt-10 lg:mt-2 '>© 2024 Nead, LLC. All Rights Reserved</p>
                    </div>
                 </div>
