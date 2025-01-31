@@ -223,6 +223,66 @@ When Dnyanesh is not working, he is spending time with his wife and kids.`,
                     <b>Experience</b>: 6.0 Years<br>
                     <b>Skills</b>: Python,django, django-rest-framework, HTML, CSS, JS, AngularJS, Angular2,ExpressJS, PostgresQL, MySQL,Selenium,Wordpress Heroku, AWS S3 & lambda,GCP`],
                   },
+                  {
+                    name: "Kundan",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Kundan-Sable.png",
+                    linkedin: "",
+                    description: [`Experience in Web application development, script writing, scrum-Agile methodology,project management.<br>
+                    <b>Experience</b>: 6.0 Years<br>
+                    <b>Skills</b>: Python,django, django-rest-framework, HTML, CSS, JS, AngularJS, Angular2,ExpressJS, PostgresQL, MySQL,Selenium,Wordpress Heroku, AWS S3 & lambda,GCP`],
+                  },
+                  {
+                    name: "Pravin",
+                    designation: "Backend developer",
+                    imageSrc: "/images/Pravin-Tandale.png",
+                    linkedin: "",
+                    description: [`Experience in web development with python (Django and Django rest framework).</br> <b>Experience:</b> 4.6 Years </br> <b>Skills:<b> Python, Django, Django rest framework, Javascript, PostgreSQL, MySQL.`],
+                  },
+                  {
+                    name: "Arjun",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Arjun-Soundankar.png",
+                    linkedin: "",
+                    description: [`4 years of experience in web-development and have Experience in angular2+, python, django framework(RestAPI), react. </br> <b>Experience:</b> 4 Years </br> <b>Skills:</b> Python, Angular2+, ReactJs, Javascript, Jquery, CSS,HTML, Django(python-based-web-framework), PHP`],
+                  },
+                  {
+                    name: "Priyanka",
+                    designation: "Frontend developer",
+                    imageSrc: "/images/Priyanka-Khaire.png",
+                    linkedin: "",
+                    description: [`4 years of experience in web-development and have Experience in angular2+, python, django framework(RestAPI), react. </br> <b>Experience:</b> 4 Years </br> <b>Skills:</b> Python, Angular2+, ReactJs, Javascript, Jquery, CSS,HTML, Django(python-based-web-framework), PHP`],
+                  },
+                  {
+                    name: "Supriya",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Supriya-Chavan.png",
+                    linkedin: "",
+                    description: [`2 years of experience in web development, Rest APIs(Django Rest Framework), Angular7, Automation testing (Selenium). </br>
+                      <b>Experience:</b> 2.0 Years </br> <b>Skills:</b> PPython, Django, Django Rest Framework, Angular7, Selenium, ReactJs.`],
+                  },
+                  {
+                    name: "Amyea",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Amyea-Joshi.png",
+                    linkedin: "",
+                    description: [`Working as a full stack developer for almost 4 years (3 years 10 months). Experienced in Python & PHP based web frameworks and JavaScript libraries like jQuery, Reactjs. Also have worked on 3rd party libraries’ integrations like celery, payment gateways, etc. </br>
+                     <b>Experience:</b> 3 Years 10 Months </br> <b>Skills:</b> Python, PHP, JavaScript, Elixir, Django, Django Rest Framework (Python based web frameworks), Laravel Lumen(PHP based frameworks) Reactjs, jQuery, Angular(v7), HTML, CSS, Bootstrap, Rest API, GraphQL, Celery, RabbitMQ`],
+                  },
+                  {
+                    name: "Satpute",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Pratik-Satpute.png",
+                    linkedin: "",
+                    description: [`3.5 years of experience in Python, Django(Python Framework), Rest APIs in Django(Django Rest Framework), Angular 2 and above versions, HTML, CSS, JavaScript. Have experience in Web Scraping using Python and Javascript. </br> <b>Experience:</b> 3.5 Years </br> <b>Skills:<b> Python, Django(Python Framework), Django-Rest-Framework, Angular(v2+), Javascript, NodeJS, MySQL, PostgresQL, Machine Learning, HTML, CSS, Web Scraping, GitHub.`],
+                  },
+                  {
+                    name: "Yogesh",
+                    designation: "Full Stack Developer",
+                    imageSrc: "/images/Pratik-Satpute.png",
+                    linkedin: "",
+                    description: [`3 years of experience as a Software Developer in Python, Django framework, building REST apis with Django rest framework, HTLM5, CSS3, Bootstrap, Javascript </br> <b>Experience:</b> 3 Years and 1 month`],
+                  },
               ],
         }
         

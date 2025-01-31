@@ -62,6 +62,11 @@ export const portfolioCol2 = {
             gridLogo: '/images/salesforce.svg',
             title: 'Salesforce Case Study',
         },
+        {
+            logo: '',
+            gridLogo: '',
+            title: 'Automated Trading Platform',
+        },
     ],
 };
 
@@ -69,55 +74,55 @@ export const portfolioItems = {
     portfolioItemsdata: [
         {
             href: '#',
-            icon: 'images/icon_ornament.svg',
+            icon: '/images/icon_ornament.svg',
             title: 'Ornament Anchor Case Study',
             category: 'Development',
         },
         {
             href: '#',
-            icon: 'images/icon_leap.svg',
+            icon: '/images/icon_leap.svg',
             title: 'Leap Case Study',
             category: 'Development',
         },
         {
             href: '#',
-            icon: 'images/iconPpel.svg',
+            icon: '/images/iconPpel.svg',
             title: 'PEL Case Study',
             category: 'Development',
         },
         {
             href: '#',
-            icon: 'images/icon_trading.svg',
+            icon: '/images/icon_trading.svg',
             title: 'Trading Platform Case Study',
             category: 'Development',
         },
         {
             href: '#',
-            icon: 'images/icon_taser.svg',
+            icon: '/images/icon_taser.svg',
             title: 'Taser.com Case Study',
             category: 'Design',
         },
         {
             href: '#',
-            icon: 'images/icon_getshow.svg',
+            icon: '/images/icon_getshow.svg',
             title: 'GetShowing.com Case Study',
             category: 'Design',
         },
         {
             href: '#',
-            icon: 'images/icon_global.svg',
+            icon: '/images/icon_global.svg',
             title: 'GlobalListings.com Case Study',
             category: 'Design',
         },
         {
             href: '#',
-            icon: 'images/icon_realpatrot.svg',
+            icon: '/images/icon_realpatrot.svg',
             title: 'RealPatriotic.com Case Study',
             category: 'Design',
         },
         {
             href: '#',
-            icon: 'images/icon_buyqbal.svg',
+            icon: '/images/icon_buyqbal.svg',
             title: 'BuyQBall.com Case Study',
             category: 'Design',
         },

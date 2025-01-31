@@ -543,6 +543,9 @@ img.top_left_blue {
     transition: all 0.3s linear;
     position: relative;
 }
+.portfolio_tablock.cursor-pointer {
+    pointer-events: none;
+}
 .portfolio_tab_row {
     width: 100%;
     display: flex;
@@ -1640,11 +1643,16 @@ ul.feature_listing li:not(:last-child) {
 }
 .author_description_block .authr_description {
     font-size: 20px;
-    opacity: 70%;
 }
 .author_description_block .author_name {
     font-size: 30px;
     margin: 0px 0px 10px;
+}
+ul.recent_posts_list {
+    margin-top: 13px;
+}
+.author_designation a,.authr_description a{
+    color: #3f4dee;
 }
 
 

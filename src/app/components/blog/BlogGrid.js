@@ -6,9 +6,9 @@ export default function BlogGrid({ blogs }) {
         <div className="blog_grid_wrap md:py-14 lg:py-20 py-10">
             <div className="section_head mb-2">
                 <div className="container mx-auto">
-                    <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
-                        Blog
-                    </h2>
+                    <h1 className="section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
+                    Web Development Blog
+                    </h1>
                 </div>
             </div>
 

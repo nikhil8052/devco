@@ -14,7 +14,7 @@ export default function BlogGrid({ blogs }) {
                                 <div className="blog_card">
                                     {/* Updated href to point to /blog/[id] */}
                                     <Link 
-                                    className="blog_thumb" href={`../${blog.slug}`} 
+                                    className="blog_thumb" href={`/${blog.slug}`} 
                                     >
                                         <img src={blog.image} alt="Blog Thumbnail" />
                                     </Link>
@@ -28,7 +28,7 @@ export default function BlogGrid({ blogs }) {
                                             <span className="blog_date">{blog.date}</span>
                                         </div>
                                         <h2 className="post_title">
-                                            <Link href={`../${blog.slug}`} className="post_title_link" dangerouslySetInnerHTML={{ __html: blog.title }}>
+                                            <Link href={`/${blog.slug}`} className="post_title_link" dangerouslySetInnerHTML={{ __html: blog.title }}>
                                             </Link>
                                         </h2>
                                     </div>
