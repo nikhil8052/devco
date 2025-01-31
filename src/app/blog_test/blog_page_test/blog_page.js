@@ -76,9 +76,9 @@ export default function BlogDetail({ blog, author }) {
         <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
           dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
         {
-          sections.map((section)=>{
+          sections.map((section, index )=>{
             return (
-              <div
+              <div key={index}
               className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
               dangerouslySetInnerHTML={{ __html: section }}
             ></div>
