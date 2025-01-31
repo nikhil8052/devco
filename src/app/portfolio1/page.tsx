@@ -1,6 +1,6 @@
 'use client'
 import AnimatedBanner from '@/app/components/portfolio/AnimatedBanner';
-import Portfoliomain from "@/app/components/portfolio/Portfoliomain1";
+import Portfoliomain from "@/app/components/portfolio/Portfoliomain";
 import ClientCount from '@/app/components/homepage/ClientCount';
 import Portfoliosection from '@/app/components/portfolio/Portfoliosection';
 import {  portfolioCol1, portfolioCol2,portfolioItems,portfoliotabs} from "@/app/data/portfolio";
