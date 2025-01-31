@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import AuthorGrid from "@/app/components/blog/AuthorGrid"; // Assuming AuthorGrid is similar to BlogGrid
 import UserLayout from "../../user_layout/UserLayout";
+import Link from 'next/link';
 import { useSearchParams } from "next/navigation"; // For handling query params
 
 export default function Blog({ params }) {
@@ -36,11 +37,13 @@ export default function Blog({ params }) {
           description: post.Description || "No description available",
           category: post.Category || "Uncategorized",
           authorDescription: post.Author_ID?.Description,
+          authorDesignation: post.Author_ID?.Job_title,
         }));
 
         setBlogs(formattedBlogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
+        
       } finally {
         setLoading(false);
       }
@@ -85,9 +88,15 @@ export default function Blog({ params }) {
             <img src={blogs[0]?.authorImage || "/default-author.jpg"} alt="Author" className="rounded-full w-16 h-16" />
           </div>
           <div className="author_info_detsil">
-            <div className="author_name text-xl font-semibold">{blogs[0]?.authorName || "Unknown Author"}</div>
-            <div className="authr_description">{blogs[0]?.authorDescription || "No description available"}</div>
-          </div>
+          <div className="author_name text-xl font-semibold">{blogs[0]?.authorName || "Unknown Author"}</div>
+          <div className="author_designation">{blogs[0]?.authorDesignation || "Unknown Designation"} at <Link href="/">Software Development Company</Link></div>
+
+          <div 
+            className="authr_description"
+            dangerouslySetInnerHTML={{ __html: blogs[0]?.authorDescription || "No description available" }}
+          ></div>
+        </div>
+
         </div>
       </div>
     </div>

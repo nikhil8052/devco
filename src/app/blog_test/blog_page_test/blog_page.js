@@ -12,11 +12,11 @@ export default function BlogDetail({ blog, author }) {
   const [loading, setLoading] = useState(true); // Loading state
   const router = useRouter(); 
 
+  var sections = blog.content.split('\n');
   useEffect(() => {
-    // Simulating a small delay before loading the blog details
     setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust time as needed
+    }, 1000); 
   }, []);
 
   if (loading) {
@@ -66,7 +66,6 @@ export default function BlogDetail({ blog, author }) {
           </div>
         </div>
       </div>
-
       <div className="container mx-auto">
         <div className="blog_cartd_image">
           <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
@@ -76,11 +75,16 @@ export default function BlogDetail({ blog, author }) {
         </div>
         <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
           dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
-        <div
-          className="content text-[14px] md:text[18] leading-relaxed text-gray-300"
-          dangerouslySetInnerHTML={{ __html: blog.content }}
-        ></div>
-
+        {
+          sections.map((section)=>{
+            return (
+              <div
+              className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
+              dangerouslySetInnerHTML={{ __html: section }}
+            ></div>
+            )
+          })
+        }
         <div className="author_section">
           <div className="author_tab_block">
             <div className="author_tab_nav">
@@ -107,7 +111,7 @@ export default function BlogDetail({ blog, author }) {
                     </div>
                     <div className="author_info_detsil">
                       <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{blog.authorName}</div>
-                      <div className="authr_description">{blog.authorDescription}</div>
+                      <div className="authr_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
                     </div>
                   </div>
                 </div>
@@ -121,16 +125,15 @@ export default function BlogDetail({ blog, author }) {
                     </div>
                     <div className="author_info_detsil">
                       <div className="author_name text-xl font-semibold">Recent posts by {blog.authorName}</div>
+                      <div className="author_designation">{blog.authorDesignation} at <Link href="/">Software Development Company</Link></div>
                       <ul className="recent_posts_list">
                         {Array.isArray(author.recentPosts) && author.recentPosts.length > 0 ? (
                           author.recentPosts.map((post, index) => (
                             <li key={index}>
                               <Link
-                                href={`/blog/${post.Slug}?post_id=${post.ID}`}
-                                onClick={() => localStorage.setItem('post_id', post.ID)}
+                                href={`../${post.Slug}`}
                                 className="post_title_link"
-                              >
-                                {post.Title}
+                                dangerouslySetInnerHTML={{ __html: post.Title }}>
                               </Link>
                             </li>
                           ))

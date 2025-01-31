@@ -42,7 +42,8 @@ export default function BlogDetail() {
             authorName: data.Author_ID?.Name || "Unknown Author",
             authorImage: data.Author_ID?.Author_Image || "/default-author.jpg",
             authorId: data.Author_ID?.ID,
-            authorDescription: data.Author_ID?.Description, // Adding author description
+            authorDescription: data.Author_ID?.Description,
+            authorDesignation: data.Author_ID?.Job_title,  // Adding author description
             excerpt: data.Description?.substring(0, 160) || "No excerpt available", // Adding excerpt for meta description
           });
 
@@ -79,6 +80,7 @@ export default function BlogDetail() {
         });
       } catch (error) {
         console.error("Error fetching author data:", error);
+        
         setAuthor({ description: "Error fetching author details", recentPosts: [] });
       }
     };

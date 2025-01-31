@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect , useState} from "react";
+import { useEffect, useState } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -29,6 +29,7 @@ interface BlogData {
   content: string;
   authorName: string;
   authorImage: string;
+  authorDesignation?: string; // Add this property
   authorId: string | null;
   authorDescription: string;
   meta_title?: string;
@@ -56,9 +57,9 @@ export default function Page({ params }: PageProps) {
   const [blog, setBlog] = useState(false);
   const [blogData, setBlogData] = useState<BlogData | null>(null);
   const [blogAuthor, setBlogAuthor] = useState({});
-  const [authorID, setAuthorID] = useState(null);
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
   let [data, setData] = useState<Data | null>(null);
+  
 
   // Match the route segment to the data and corresponding component
   useEffect(() => {
@@ -80,79 +81,63 @@ export default function Page({ params }: PageProps) {
     setData(data);
   }, [first_segment]);
 
-  useEffect(() => {
-    if(blog){
-      setAuthorID(blogData.authorId);
-      fetchAuthorData(authorID);
+
+
+  const fetchBlogDetails = async () => {
+    try {
+      const url = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
+
+      const response_data = await response.json();
+      console.log(response_data, " This is the response data ")
+      const blog_data_res = response_data.data[0];
+
+      console.log(blog_data_res)
+      if (blog_data_res?.Title && blog_data_res?.Created_At) {
+        setBlog(true);
+        setBlogData({
+          title: blog_data_res.Title,
+          image: blog_data_res.Image || "/default-image.jpg",
+          date: new Date(blog_data_res.Created_At).toLocaleDateString(),
+          content: blog_data_res.Description || "No content available",
+          authorName: blog_data_res.Author_ID?.Name || "Unknown Author",
+          authorImage: blog_data_res.Author_ID?.Author_Image || "/default-author.jpg",
+          authorId: blog_data_res.Author_ID?.ID,
+          authorDescription: blog_data_res.Author_ID?.Description,
+          authorDesignation: blog_data_res.Author_ID?.Job_title,
+        });
+
+        if (blog_data_res.Author_Recent_Posts && blog_data_res.Author_ID) {
+          setBlogAuthor({
+            
+            description:  blog_data_res.Author_ID.Description || "No description available",
+            recentPosts: blog_data_res.Author_Recent_Posts || [],
+          });
+          console.log(blogAuthor)
+        }
+        setComponent(() => BlogPage);
+      }
+
+
+    } catch (error) {
+      console.error("Error fetching blog details:", error);
     }
-}, [ blogData]);
+  };
 
-
-const fetchBlogDetails = async () => {
-  try {
-    const url = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
-    const response = await fetch(url);
-    if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
-
-    const response_data = await response.json();
-    const blog_data_res = response_data.data[0];
-
-    if (blog_data_res?.Title && blog_data_res?.Created_At) {
-      setBlog(true);
-      setBlogData({
-        title: blog_data_res.Title,
-        image: blog_data_res.Image || "/default-image.jpg",
-        date: new Date(blog_data_res.Created_At).toLocaleDateString(),
-        content: blog_data_res.Description || "No content available",
-        authorName: blog_data_res.Author_ID?.Name || "Unknown Author",
-        authorImage: blog_data_res.Author_ID?.Author_Image || "/default-author.jpg",
-        authorId: blog_data_res.Author_ID?.ID,
-        authorDescription: blog_data_res.Author_ID?.Description,
-      });
-
-      console.log(blogData, " Ths is the data ")
-      // blogData.autherID
-     
-      setComponent(() => BlogPage);
-    }
-  } catch (error) {
-    console.error("Error fetching blog details:", error);
-  }
-};
-
-const fetchAuthorData = async (authorId) => {
-  try {
-    const authorResponse = await fetch(
-      `https://dev.co/wp-json/custom/v1/author-details?id=${authorId}`
-    );
-    const authorData = await authorResponse.json();
-    const recentPostsResponse = await fetch(
-      `https://dev.co/wp-json/custom/v1/recent-posts?author_id=${authorId}`
-    );
-    const recentPostsData = await recentPostsResponse.json();
-
-    setBlogAuthor({
-      description: authorData.Description || "No description available",
-      recentPosts: recentPostsData.data || [],
-    });
-  } catch (error) {
-    console.error("Error fetching author data:", error);
-  }
-};
 
 
   useEffect(() => {
 
-    
     // if (data ==null && !data ){
-      
+
     //   console.log( " Return Meta BLOG ", blog )
     //   console.log( " Return Meta ")
     //   return;
     // } 
 
-    if(blog ){
-   
+    if (blog) {
+
       document.title = blogData.title
 
       // Set meta description
@@ -165,92 +150,92 @@ const fetchAuthorData = async (authorId) => {
         newMetaDescription.setAttribute("content", "Default meta description");
         document.head.appendChild(newMetaDescription);
       }
-  
+
       // Set Open Graph image (og:image)
       const existingOgImage = document.querySelector('meta[property="og:image"]');
       if (existingOgImage) {
-        existingOgImage.setAttribute("content","/images/Custom-Website-Development-Services-Icon.png");
+        existingOgImage.setAttribute("content", "/images/Custom-Website-Development-Services-Icon.png");
       } else {
         const newOgImage = document.createElement("meta");
         newOgImage.setAttribute("property", "og:image");
-        newOgImage.setAttribute("content","/images/Custom-Website-Development-Services-Icon.png");
+        newOgImage.setAttribute("content", "/images/Custom-Website-Development-Services-Icon.png");
         document.head.appendChild(newOgImage);
       }
-  
+
       // Set additional Open Graph properties
       const ogTitle = document.querySelector('meta[property="og:title"]');
       if (ogTitle) {
-        ogTitle.setAttribute("content",  "Default Title");
+        ogTitle.setAttribute("content", "Default Title");
       } else {
         const newOgTitle = document.createElement("meta");
         newOgTitle.setAttribute("property", "og:title");
         newOgTitle.setAttribute("content", "Default Title");
         document.head.appendChild(newOgTitle);
       }
-  
+
       const ogDescription = document.querySelector('meta[property="og:description"]');
       if (ogDescription) {
         ogDescription.setAttribute("content", "Default meta description");
       } else {
         const newOgDescription = document.createElement("meta");
         newOgDescription.setAttribute("property", "og:description");
-        newOgDescription.setAttribute("content","Default meta description");
+        newOgDescription.setAttribute("content", "Default meta description");
         document.head.appendChild(newOgDescription);
       }
 
-      
-    }else if(data){
 
-       // Set document title
-    document.title = data.meta_title || "Default Title";
+    } else if (data) {
 
-    // Set meta description
-    const existingMetaDescription = document.querySelector('meta[name="description"]');
-    if (existingMetaDescription) {
-      existingMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
-    } else {
-      const newMetaDescription = document.createElement("meta");
-      newMetaDescription.setAttribute("name", "description");
-      newMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
-      document.head.appendChild(newMetaDescription);
+      // Set document title
+      document.title = data.meta_title || "Default Title";
+
+      // Set meta description
+      const existingMetaDescription = document.querySelector('meta[name="description"]');
+      if (existingMetaDescription) {
+        existingMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
+      } else {
+        const newMetaDescription = document.createElement("meta");
+        newMetaDescription.setAttribute("name", "description");
+        newMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
+        document.head.appendChild(newMetaDescription);
+      }
+
+      // Set Open Graph image (og:image)
+      const existingOgImage = document.querySelector('meta[property="og:image"]');
+      if (existingOgImage) {
+        existingOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
+      } else {
+        const newOgImage = document.createElement("meta");
+        newOgImage.setAttribute("property", "og:image");
+        newOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
+        document.head.appendChild(newOgImage);
+      }
+
+      // Set additional Open Graph properties
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) {
+        ogTitle.setAttribute("content", data.meta_title || "Default Title");
+      } else {
+        const newOgTitle = document.createElement("meta");
+        newOgTitle.setAttribute("property", "og:title");
+        newOgTitle.setAttribute("content", data.meta_title || "Default Title");
+        document.head.appendChild(newOgTitle);
+      }
+
+      const ogDescription = document.querySelector('meta[property="og:description"]');
+      if (ogDescription) {
+        ogDescription.setAttribute("content", data.meta_description || "Default meta description");
+      } else {
+        const newOgDescription = document.createElement("meta");
+        newOgDescription.setAttribute("property", "og:description");
+        newOgDescription.setAttribute("content", data.meta_description || "Default meta description");
+        document.head.appendChild(newOgDescription);
+      }
+
     }
 
-    // Set Open Graph image (og:image)
-    const existingOgImage = document.querySelector('meta[property="og:image"]');
-    if (existingOgImage) {
-      existingOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
-    } else {
-      const newOgImage = document.createElement("meta");
-      newOgImage.setAttribute("property", "og:image");
-      newOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
-      document.head.appendChild(newOgImage);
-    }
 
-    // Set additional Open Graph properties
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
-      ogTitle.setAttribute("content", data.meta_title || "Default Title");
-    } else {
-      const newOgTitle = document.createElement("meta");
-      newOgTitle.setAttribute("property", "og:title");
-      newOgTitle.setAttribute("content", data.meta_title || "Default Title");
-      document.head.appendChild(newOgTitle);
-    }
 
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) {
-      ogDescription.setAttribute("content", data.meta_description || "Default meta description");
-    } else {
-      const newOgDescription = document.createElement("meta");
-      newOgDescription.setAttribute("property", "og:description");
-      newOgDescription.setAttribute("content", data.meta_description || "Default meta description");
-      document.head.appendChild(newOgDescription);
-    }
-
-    }
- 
-    
-  
   }, [data, blog]); // Dependency on `data`
 
   // Fallback if no match is found
@@ -266,10 +251,10 @@ const fetchAuthorData = async (authorId) => {
   // }
 
   // Render the matched component with its data
-  if(blog){
+  if (blog) {
     return (
       <UserLayout>
-        {Component && <Component blog={blogData} author={blogAuthor}/>}
+        {Component && <Component blog={blogData} author={blogAuthor} />}
       </UserLayout>
     );
   }

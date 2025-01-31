@@ -39,6 +39,7 @@ export default function Blog() {
           description: post.Description || "No description available",
           category: post.Category || "Uncategorized",
           authorDescription: post.Author_ID?.Description,
+          authorDesignation: post.Author_ID?.Job_title,
         }));
 
         localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
