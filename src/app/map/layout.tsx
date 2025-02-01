@@ -43,7 +43,7 @@ export const metadataConfig = {
   },
 };
 
-export default function SitemapLayout({ children }: { children: React.ReactNode }) {
+export default function SitemapLayout({ children }) {
   return <>{children}</>;
 }
 
