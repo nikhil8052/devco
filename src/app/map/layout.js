@@ -25,7 +25,7 @@
 
 import metadata from "@/app/data/sitemap";
 
-export const metadataConfig = {
+export const metadata = {
   title: metadata.title,
   description: metadata.description,
   openGraph: {
@@ -43,7 +43,8 @@ export const metadataConfig = {
   },
 };
 
-export default function SitemapLayout({ children }) {
+export default function Layout({ children }) {
   return <>{children}</>;
 }
+
 
