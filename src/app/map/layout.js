@@ -23,7 +23,7 @@
 // }
 
 
-import metadata from "@/app/data/sitemap";
+// import metadata from "@/app/data/sitemap";
 
 // export const metadata1 = {
 //   title: metadata.title,
