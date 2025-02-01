@@ -25,7 +25,7 @@
 
 import metadata from "@/app/data/sitemap";
 
-export const metadata = {
+export const metadata1 = {
   title: metadata.title,
   description: metadata.description,
   openGraph: {
