@@ -14,27 +14,27 @@ const nextConfig = {
     return config;
   },
   trailingSlash: true, // Ensures URLs end with slashes for better SEO
-  async rewrites() {
-    return [
-      {
-        source: '/sitemap.xml',
-        destination: '/api/sitemap',
-      },
-    ];
-  },
-  async headers() {
-    return [
-      {
-        source: '/sitemap.xml',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'application/xml',
-          },
-        ],
-      },
-    ];
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: '/sitemap.xml',
+  //       destination: '/api/sitemap',
+  //     },
+  //   ];
+  // },
+  // async headers() {
+  //   return [
+  //     {
+  //       source: '/sitemap.xml',
+  //       headers: [
+  //         {
+  //           key: 'Content-Type',
+  //           value: 'application/xml',
+  //         },
+  //       ],
+  //     },
+  //   ];
+  // },
 };
 
 export default nextConfig;
