@@ -131,6 +131,6 @@ export const portfolioItems = {
 
 export const portfoliotabs = {
     portfoliotabsdata: [
-        'All', 'Saas', 'Design', 'Development', 'App', 'API', 'UI/UX', 'Mobile'
+        'All', 'SaaS', 'Design', 'Development', 'App', 'API', 'UI/UX', 'Mobile'
     ],
 };
