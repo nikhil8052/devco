@@ -55,11 +55,17 @@ export default function ChooseService({
         if (devCardRow.length) {
           devCardRow.slick({
             dots: false,
-            arrows: false,
+            arrows: true,
             infinite: false,
-            speed: 300,
+            // speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
+            prevArrow: `<button type="button" class="slick-prev custom-arrow left-[-50px] absolute top-1/2 transform -translate-y-1/2 bg-white/20 p-3 rounded-full hover:bg-white/50 text-white text-xl">
+            <i class="fa-solid fa-chevron-left"></i>
+           </button>`,
+nextArrow: `<button type="button" class="slick-next custom-arrow right-[-50px] absolute top-1/2 transform -translate-y-1/2 bg-white/20 p-3 rounded-full hover:bg-white/50 text-white text-xl">
+             <i class="fa-solid fa-chevron-right"></i>
+           </button>`,
             responsive: [
               {
                 breakpoint: 1200,
