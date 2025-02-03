@@ -1654,6 +1654,34 @@ ul.recent_posts_list {
 .author_designation a,.authr_description a{
     color: #3f4dee;
 }
+.slick-slider .slick-prev:before, .slick-slider  .slick-next:before {
+    font-family: fontAwesome;
+    opacity: 1 !important;
+    color: #ffffff;
+}
+.slick-slider .slick-prev, .slick-slider .slick-next {
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    background-color: #444242 !important;
+}
+.slick-slider  .slick-prev:hover, .slick-slider  .slick-next:hover {
+    background-color: #3f56fd !important;
+}
+
+.slick-slider  .slick-prev {
+    left: -10px;
+}
+
+.slick-slider  .slick-next {
+    right: -10px;
+}
+.slick-slider  .slick-arrow.slick-disabled {
+    opacity: 0;
+}
+body.page-portfolio1 div#chat-bot-launcher-container {
+    display: none;
+}
 
 
 
@@ -1951,6 +1979,14 @@ ul.recent_posts_list {
 }
 .team_col {
     width: 33.33%;
+}
+.slick-slider .slick-prev, .slick-slider .slick-next {
+    height: 35px;
+    width: 35px;
+}
+
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+    font-size: 14px;
 }
 
 }

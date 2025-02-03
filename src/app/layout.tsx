@@ -1,6 +1,9 @@
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import "slick-carousel/slick/slick.css"; // Import Slick CSS
+import "slick-carousel/slick/slick-theme.css"; // Import Slick theme CSS";
+import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome CSS
 import Script from "next/script";
 import Head from "next/head";
 

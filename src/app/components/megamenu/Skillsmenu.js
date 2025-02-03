@@ -8,8 +8,6 @@ const skillsmenu = [
       { name: 'JavaScript', link: '/javascript' },
       { name: 'React', link: '/react' },
       { name: 'HTML5', link: '/html5' },
-      { name: 'CSS', link: '/css' },
-      { name: 'Vue.js', link: '/vuejs' },
       { name: 'Electron', link: '/electron' },
     ]
   },
