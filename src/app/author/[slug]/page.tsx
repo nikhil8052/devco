@@ -19,7 +19,7 @@ export default function Blog({ params }) {
     const fetchBlogs = async () => {
       try {
         setLoading(true);
-        let apiUrl = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&author=${slug}`;
+        let apiUrl = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&author=${slug}`;
 
         const response = await fetch(apiUrl);
         const data = await response.json();

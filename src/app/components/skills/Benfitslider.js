@@ -14,7 +14,7 @@ export default function Benefitslider({ title, description, chooseData = [] }) {
         if (devCardRow.length) {
           devCardRow.slick({
             dots: false,
-            arrows: false,
+            arrows: true,
             infinite: true,
             speed: 300,
             autoplay: true, // Enables autoplay
@@ -56,15 +56,15 @@ speed: 500, // Adjusts the transition speed for smoother sliding
     <div className="benefits-section py-10 md:py-20 relative">
       <div className="container relative z-10">
         {(title || description) && (
-          <div className="grid-head w-full max-w-[100%] xl:max-w-[60%] xl:mb-10 mb-5">
+          <div className="grid-head w-full text-center md:max-w-[80%] mx-auto md:mb-20 mb-5">
             {title && (
-              <h2 className="section_head_title font-semibold text-[24px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite"  dangerouslySetInnerHTML={{ __html: title }}>
+              <h2 className="section_head_title text-center font-semibold text-[24px] 2xl:text-[42px] xl:text-[35px] md:text-[30px] sm:text-[24px] md:mb-3 mb-2 text-customwhite"  dangerouslySetInnerHTML={{ __html: title }}>
               </h2>
             )}
             {description && (
-              <div className="w-full">
+              <div className=" w-full md:max-w-[80%] mx-auto">
                 {description && (
-                  <p className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite" dangerouslySetInnerHTML={{ __html: description }}>
+                  <p className="section_head_para text-center text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite" dangerouslySetInnerHTML={{ __html: description }}>
                   </p>
                 )}
               </div>

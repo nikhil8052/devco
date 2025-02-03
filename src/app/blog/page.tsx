@@ -22,11 +22,11 @@ export default function Blog() {
         }
 
         const response = await fetch(
-          "https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX"
+          "https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX"
         );
+
         const data = await response.json();
         const new_data = data.data;
-
         const formattedBlogs = new_data.map((post) => ({
           id: post.ID,
           slug: post.Slug,
@@ -43,6 +43,8 @@ export default function Blog() {
         }));
 
         localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
+        // localStorage.removeItem("blogs");
+
         setBlogs(formattedBlogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
