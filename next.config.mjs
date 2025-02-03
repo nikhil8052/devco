@@ -13,7 +13,7 @@ const nextConfig = {
     config.resolve.alias['@'] = path.resolve(__dirname, 'src'); // Map @ to the src folder
     return config;
   },
-  trailingSlash: true, // Ensures URLs end with slashes for better SEO
+  trailingSlash: false, // Ensures URLs end with slashes for better SEO
   async rewrites() {
     return [
       {

@@ -19,17 +19,17 @@ export default function Benefits({ title = "", description = "", benefits = [], 
       />
           <div className="container relative z-10">
             {(title || description) && (
-              <div className="grid-head w-full max-w-[600px] xl:mb-10 mb-5">
+              <div className="grid-head w-full text-center md:max-w-[80%] mx-auto md:mb-20 mb-5">
                 {title && (
                   <h2
-                    className="section_head_title font-semibold text-[28px] 2xl:text-[40px] xl:text-[38px] md:text-[32px] sm:text-[28px] md:mb-3 mb-2 text-customwhite"
+                    className="section_head_title text-center font-semibold text-[28px] 2xl:text-[40px] xl:text-[38px] md:text-[32px] sm:text-[28px] md:mb-3 mb-2 text-customwhite"
                     dangerouslySetInnerHTML={{ __html: title }}
                   ></h2>
                 )}
                 {description && (
-                  <div className="w-full">
+                  <div className="w-full md:max-w-[80%] mx-auto">
                     <p
-                      className="section_head_para text[14px] 2xl:text-[22px] xl:text-[18px] md:text[14px] sm:text[14px] font-normal text-customwhite"
+                      className="section_head_para text-center text[14px] 2xl:text-[22px] xl:text-[18px] md:text[14px] sm:text[14px] font-normal text-customwhite"
                       dangerouslySetInnerHTML={{ __html: description }}
                     ></p>
                   </div>

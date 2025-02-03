@@ -85,7 +85,7 @@ export default function Page({ params }: PageProps) {
 
   const fetchBlogDetails = async () => {
     try {
-      const url = `https://dev.co/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
+      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
       const response = await fetch(url);
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
