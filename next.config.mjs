@@ -13,28 +13,7 @@ const nextConfig = {
     config.resolve.alias['@'] = path.resolve(__dirname, 'src'); // Map @ to the src folder
     return config;
   },
-  trailingSlash: false, // Ensures URLs end with slashes for better SEO
-  async rewrites() {
-    return [
-      {
-        source: '/sitemap.xml',
-        destination: '/api/sitemap',
-      },
-    ];
-  },
-  async headers() {
-    return [
-      {
-        source: '/sitemap.xml',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'application/xml',
-          },
-        ],
-      },
-    ];
-  },
+  trailingSlash: false, // Ensures URLs do not end with slashes
 };
 
 export default nextConfig;
