@@ -1,4 +1,4 @@
-
+"use client"; // 👈 Required for hooks
 import React, { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Header from '../components/layout/Header';
