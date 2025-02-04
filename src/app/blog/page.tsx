@@ -42,10 +42,8 @@ export default function Blog() {
           authorDesignation: post.Author_ID?.Job_title,
         }));
 
-        localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
-        // localStorage.removeItem("blogs");
-
         setBlogs(formattedBlogs);
+        localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
       } catch (error) {
         console.error("Error fetching blogs:", error);
       } finally {
@@ -54,7 +52,7 @@ export default function Blog() {
     };
 
     fetchBlogs();
-  }, []);
+  },[blogs]);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
   
