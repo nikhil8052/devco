@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Skillsmenu from '@/app/components/megamenu/Skillsmenu';
 import Servicemenu from '@/app/components/megamenu/Servicemenu';
 import Industrymenu from '@/app/components/megamenu/Industrymenu';
+import Technologymenu from '@/app/components/megamenu/Technologymenu';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -118,11 +119,11 @@ const Header = () => {
                         ></path>
                       </svg>
                     </button>
-                    {openDropdown['skills'] && (
-                      <div className="header_submenu skillssubmenu-wrap static lg:absolute w-full lg:w-[250px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                     {openDropdown['skills'] && ( 
+                      <div className="header_submenu  static lg:absolute w-full xl:w-[800px] lg:w-[480px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                         <Skillsmenu />
                       </div>
-                    )}
+                     )} 
                   </li>
 
                   {/* Service Menu */}
@@ -153,10 +154,10 @@ const Header = () => {
                       </svg>
                     </button>
                     {openDropdown['services'] && (
-                      <div className="header_submenu static lg:absolute w-full lg:w-[250px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                      <div className="header_submenu static lg:absolute w-full lg:w-[660px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                         <Servicemenu />
                       </div>
-                    )}
+                     )} 
                   </li>
 
                   {/* Industries Menu */}
@@ -187,8 +188,42 @@ const Header = () => {
                       </svg>
                     </button>
                     {openDropdown['industries'] && (
-                      <div className="header_submenu static lg:absolute w-full lg:w-[250px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                      <div className="header_submenu static lg:absolute w-full lg:w-[600px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                         <Industrymenu />
+                      </div>
+                    )}
+                  </li>
+
+                   {/* Technology Menu */}
+                   <li
+                    className="relative group"
+                    onMouseEnter={() => handleMouseEnter('Technologies')}
+                    onMouseLeave={() => handleMouseLeave('Technologies')}
+                  >
+                    <button
+                      className="flex items-center rounded-md px-2 py-1 text-md font-semibold text-slate-11 hover:text-slate-12 lg:px-3 capitalize"
+                      onClick={() => handleDropdownToggle('Technologies')}
+                    >
+                      Technology
+                      <svg
+                        className="opacity-70 ml-1 transition-transform group-hover:rotate-180"
+                        fill="none"
+                        height="22"
+                        viewBox="0 0 24 24"
+                        width="22"
+                      >
+                        <path
+                          d="M15.25 10.75L12 14.25L8.75 10.75"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        ></path>
+                      </svg>
+                    </button>
+                    {openDropdown['Technologies'] && (
+                      <div className="header_submenu static lg:absolute w-full lg:w-[600px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                        <Technologymenu />
                       </div>
                     )}
                   </li>
