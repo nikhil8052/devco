@@ -1001,10 +1001,25 @@ position: relative;
 overflow: hidden;
 border-radius: 10px;
 padding: 15px;
+background-color: #1d1c1c;
+
 
 }
-.header_submenu .submenu_flex {
-    background-color: #000000;
+.submenu_flex li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.submenu_flex li a 
+ img {
+    max-width: 100%;
+    width: auto;
+    height: 49px;
+    object-fit: contain;
+    object-position: center top;
 }
 .icon_list a {
     text-decoration: none;
@@ -1018,7 +1033,7 @@ padding: 15px;
     color: #4353ff;
 }
 
- .header_submenu .submenu_flex:before {
+ /* .header_submenu .submenu_flex:before {
     position: absolute;
     content:"";
     width: 100%;
@@ -1028,7 +1043,7 @@ padding: 15px;
     backdrop-filter: blur(10px);
     backdrop-filter: blur(20px);
 background-color: rgba(0, 0, 0, 0.8);
-} 
+}  */
 .submenu_flex .menu_icons_div {
     position: relative;
     z-index: 1;

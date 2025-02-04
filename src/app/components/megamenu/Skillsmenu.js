@@ -1,87 +1,59 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 const skillsmenu = [
-  {
-    category: 'Frontend Technologies',
-    items: [
-      { name: 'JavaScript', link: '/javascript' },
-      { name: 'React', link: '/react' },
-      { name: 'HTML5', link: '/html5' },
-      { name: 'Electron', link: '/electron' },
-    ]
-  },
-  {
-    category: 'Backend Technologies',
-    items: [
-      { name: 'Node.js', link: '/nodejs' },
-      { name: 'PHP', link: '/php' },
-      { name: 'Python', link: '/python' },
-      { name: 'C#/ .NET', link: '/c-sharp-dot-net' },
-      { name: 'Laravel', link: '/laravel' },
-    ]
-  },
-  {
-    category: 'Mobile Development',
-    items: [
-      { name: 'iOS', link: '/ios' },
-      { name: 'Android', link: '/android' },
-    ]
-  },
-  {
-    category: 'Cloud and DevOps',
-    items: [
-      { name: 'AWS', link: '/aws' },
-      { name: 'Azure', link: '/azure' },
-      { name: 'Kubernetes', link: '/kubernetes' },
-    ]
-  },
-  {
-    category: 'Databases',
-    items: [
-      { name: 'SQL', link: '/sql' },
-      { name: 'SQL Server', link: '/sql-server' },
-      { name: 'Oracle', link: '/oracle' },
-      { name: 'ElasticSearch', link: '/elasticsearch' },
-    ]
-  },
-  {
-    category: 'Other Technologies',
-    items: [
-      { name: 'WordPress', link: '/wordpress' },
-      { name: 'Shopify', link: '/shopify' },
-      { name: 'Webflow', link: '/webflow' },
-      { name: 'Sitefinity', link: '/sitefinity' },
-      { name: 'Tableau', link: '/tableau' },
-      { name: 'Salesforce', link: '/salesforce' },
-      { name: 'LabVIEW', link: '/labview' },
-      { name: 'Unity', link: '/unity' },
-      { name: 'SolidWorks', link: '/solidworks' },
-      { name: 'NetSuite', link: '/netsuite' },
-      { name: 'Nextcloud', link: '/nextcloud' },
-      { name: 'SAP', link: '/sap' },
-      { name: 'OpenCV', link: '/opencv' },
-    ]
-  }
+  { name: 'Java',image: '/images/menu_juava.svg', link: '/java' },
+  { name: 'Java Script',image: '/images/menu_javascript.svg', link: '/javascript' },
+  { name: 'Node.js',image: '/images/menu_nodejs.svg', link: '/nodejs' },
+  { name: 'React',image: '/images/menu_react.svg', link: '/react' },
+  { name: 'Electron',image: '/images/menu_electron.svg', link: '/electron' },
+  { name: 'OpenCV',image: '/images/menu_opencv.svg', link: '/opencv' },
+  { name: 'HTML5',image: '/images/menu_html.svg', link: '/html5' },
+  { name: 'PHP',image: '/images/menu_php.svg', link: '/php' },
+  { name: 'Python',image: '/images/menu_python.svg', link: '/python' },
+  { name: 'C#/.NET',image: '/images/menu_csharp.svg', link: '/c-sharp-dot-net' },
+  { name: 'Labview',image: '/images/menu_labview.svg', link: '/labview' },
+  { name: 'Unity',image: '/images/menu_unity.svg', link: '/unity' },
+  { name: 'Webflow',image: '/images/menu_webflow.svg', link: '/webflow' },
+  { name: 'Shopify',image: '/images/menu_shopify.svg', link: '/shopify' },
+  { name: 'SAP',image: '/images/menu_sap.svg', link: '/sap' },
+  { name: 'Kubernetes',image: '/images/menu_kubernets.svg', link: '/kubernetes' },
+  { name: 'IOS',image: '/images/menu_ios_skills.svg', link: '/ios' },
+  { name: 'Android',image: '/images/menu_skills_android.svg', link: '/android' },
+  { name: 'Solidworks',image: '/images/menu_solidwork.svg', link: '/solidworks' },
+  { name: 'Azure',image: '/images/menu_azure.svg', link: '/azure' },
+  { name: 'Sitefinity',image: '/images/menu_site_infinity.svg', link: '/sitefinity' },
+  { name: 'Laravel',image: '/images/menu_site_infinity.svg', link: '/laravel' },
+  
 ];
 
 const Skillsmenu = () => {
   return (
-    <div className="submenu_flex skillsmenu w-full flex gap-4">
-      {skillsmenu.map((category, index) => (
-        <div key={index} className="menu_section basis-[100%]">
-          <h3 className="text-customwhite text-[24px] font-semibold mb-4">{category.category}</h3>
-          <ul className="icon_list w-full flex flex-wrap gap-x-3 gap-y-1">
-            {category.items.map((skill, idx) => (
-              <li key={idx} className=" ">
-                <Link href={skill.link} aria-label={skill.name} className="text-customwhite text-[16px] py-0 hover:underline">
-                  {skill.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+    <div className="submenu_flex w-full flex gap-2">
+      <div className="menu_icons_div basis-[100%]">
+        <ul className="icon_list w-full flex flex-wrap gap-y-1">
+          {skillsmenu.map((skill, index) => (
+            <li key={index} className="p-2 basis-[20%] flex flex-col items-center">
+              <Link
+                href={skill.link}
+                aria-label={skill.name}
+                className="flex flex-col items-center"
+              >
+                <Image
+                  src={skill.image}
+                  alt={skill.name}
+                  width={50}  // Adjust size as needed
+                  height={50} // Adjust size as needed
+                  className="mb-2"
+                />
+                <span className="text-customwhite text-center">{skill.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

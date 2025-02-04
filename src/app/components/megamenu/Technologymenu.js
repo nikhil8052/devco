@@ -4,18 +4,20 @@ import Image from 'next/image';
 
 
 const skillsmenu = [
-  { name: 'Enterprise',image: '/images/menu_enterprise.svg', link: '/enterprise' },
-  { name: 'Government', image: '/images/menu_gov.svg', link: '/government' },
-  { name: 'Education', image: '/images/menu_educatrion.svg', link: '/education' },
-  { name: 'Small Business', image: '/images/menu_small_bus.svg', link: '/small-business' },
-  { name: 'Marketing',image: '/images/menu_marketing.svg', link: '/marketing' },
-  { name: 'Finance', image: '/images/menu_finance.svg', link: '/finance' },
-  { name: 'Healthcare',image: '/images/menu_healthcare.svg', link: '/healthcare' },
-  { name: 'Agriculture', image: '/images/menu_agriculture.svg', link: '/agriculture' },
-  { name: 'eCommerce', image: '/images/menu_ecommerce.svg', link: '/ecommerce' },
+  { name: 'Artificial Intelligence',image: '/images/menu_ai.svg', link: '/ai' },
+  { name: 'Cybersecurity', image: '/images/menu_cybersecrty.svg', link: '/cybersecurity' },
+  { name: 'Robotic Process Automation', image: '/images/menu_robotic_process.svg', link: '/robotic-process-automation' },
+  { name: 'Blockchain (DLT)', image: '/images/menu_blockchain.svg', link: '/blockchain' },
+  { name: 'Extended Reality (AR/VR)',image: '/images/menu_er.svg', link: '/vr' },
+  { name: 'ERP', image: '/images/menu_erp.svg', link: '/erp' },
+  { name: 'CRM',image: '/images/menu_crm.svg', link: '/crm' },
+  { name: 'Online Storage', image: '/images/menu_online_storage.svg', link: '/online-storage' },
+  { name: 'Big Data', image: '/images/menu_bigdata.svg', link: '/big-data' },
+  { name: 'Business Intelligence', image: '/images/menu_businessintel.svg', link: '/bi' },
+  { name: 'Internet of Things (IOT)', image: '/images/menu_internet-fthings.svg', link: '/iot' },
 ];
 
-const Industrymenu = () => {
+const Technologymenu = () => {
   return (
     <div className="submenu_flex w-full flex gap-2">
       <div className="menu_icons_div basis-[100%]">
@@ -44,4 +46,4 @@ const Industrymenu = () => {
   );
 };
 
-export default Industrymenu;
+export default Technologymenu;
