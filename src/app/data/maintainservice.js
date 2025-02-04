@@ -1,12 +1,9 @@
 export const data = [
     {
-
         id: 1,
-        
         meta_title:"Website Maintenance Services | On-Going Website Update & Monitoring",
         meta_description: "DEV.co's regular website maintenance service provides critical, on-going CMS, content and code updates for your website. Contact us today!",
         og_image:"/images/Website-Maintenance-Services.webp",
-
         slug: "web",
         subtitle: "Services",
         bannerImage:"/images/webdevelopmenservicesnewimage.png",
