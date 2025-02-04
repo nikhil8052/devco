@@ -6772,6 +6772,13 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         If you are looking for a top-notch AngularJS development team, look no further than DEV.co. We have years of experience in the field and can provide you with the best possible service. Our developers are experts in their field, and we can promise that you won’t be disappointed with the final product. Contact us today to learn more!<br></br>
 
         `,
+        startups: {
+            title: "There are also plenty of benefits and advantages on the Angular developer side of things,",
+            description: `which allows us to provide you with high-value software that’s simultaneously cost-effective.`,
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
 
         BorderTextbox: {
             BorderTextdata: [
@@ -6791,10 +6798,10 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
 
         benefits: {
-            title: ``,
-            description: `Benefits of AngularJS development for mobile and web applications include:
-:
+            title: `Benefits of AngularJS development for mobile and web applications include: :
+
 `,
+            description: ``,
             benefits: [
                 {
                     title: "Simple architecture",
