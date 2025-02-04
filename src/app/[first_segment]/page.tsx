@@ -238,17 +238,7 @@ export default function Page({ params }: PageProps) {
 
   }, [data, blog]); // Dependency on `data`
 
-  // Fallback if no match is found
-  // if (!data || !Component) {
-  //   return (
-  //     <UserLayout>
-  //       <div className="text-center text-white py-20">
-  //         <h1>404 - Page Not Found</h1>
-  //         <p>The requested page could not be found.</p>
-  //       </div>
-  //     </UserLayout>
-  //   );
-  // }
+
 
   // Render the matched component with its data
   if (blog) {
@@ -258,6 +248,26 @@ export default function Page({ params }: PageProps) {
       </UserLayout>
     );
   }
+
+  // Fallback if no match is found
+  if (!blog || !Component) {
+    return (
+      <UserLayout>
+        <div className="text-center  text-white py-20">
+         <div className="container">
+          <div className="fourzero_div flex items-center content-center direction-column py-10">
+            <div className="404wrap">
+              <h1>404 - Page Not Found</h1>
+            <p>The requested page could not be found.</p>
+            <a href="/" className="mt-5 text-center bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition inline-block hover:bg-[#ffffff] hover:text-black">Go Back to Homepage</a>
+            </div>
+          </div>
+         </div>
+        </div>
+      </UserLayout>
+    );
+  }
+
 
   return (
     <UserLayout>

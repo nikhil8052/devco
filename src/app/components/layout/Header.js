@@ -119,11 +119,11 @@ const Header = () => {
                         ></path>
                       </svg>
                     </button>
-                    {openDropdown['skills'] && (
-                      <div className="header_submenu  static lg:absolute w-full lg:w-[600px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                     {openDropdown['skills'] && ( 
+                      <div className="header_submenu  static lg:absolute w-full xl:w-[800px] lg:w-[480px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                         <Skillsmenu />
                       </div>
-                    )}
+                     )} 
                   </li>
 
                   {/* Service Menu */}

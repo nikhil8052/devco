@@ -25,7 +25,16 @@ const skillsmenu = [
   { name: 'Solidworks',image: '/images/menu_solidwork.svg', link: '/solidworks' },
   { name: 'Azure',image: '/images/menu_azure.svg', link: '/azure' },
   { name: 'Sitefinity',image: '/images/menu_site_infinity.svg', link: '/sitefinity' },
-  { name: 'Laravel',image: '/images/menu_site_infinity.svg', link: '/laravel' },
+  { name: 'Laravel',image: '/images/menu_laravel.svg', link: '/laravel' },
+  { name: 'AWS',image: '/images/menu_aws.svg', link: '/aws' },
+  { name: 'Wordpress',image: '/images/menu_aws.svg', link: '/wordpress' },
+  { name: 'Salesforce',image: '/images/menu_salesforce.svg', link: '/salesforce' },
+  { name: 'Oracle',image: '/images/menu_oracle.svg', link: '/oracle' },
+  { name: 'Nextcloud',image: '/images/menu_nextcloud.svg', link: '/nextcloud' },
+  { name: 'Netsuite',image: '/images/menu_netsuit.svg', link: '/netsuite' },
+  { name: 'SQL',image: '/images/menu_sqlserver.svg', link: '/sql' },
+  { name: 'Tableau',image: '/images/menu_tableu.svg', link: '/tableau' },
+  { name: 'Elasticsearch',image: '/images/menu_elastic_search.svg', link: '/elasticsearch' },
   
 ];
 
@@ -33,9 +42,9 @@ const Skillsmenu = () => {
   return (
     <div className="submenu_flex w-full flex gap-2">
       <div className="menu_icons_div basis-[100%]">
-        <ul className="icon_list w-full flex flex-wrap gap-y-1">
+        <ul className="icon_list skills_icon_list w-full flex flex-wrap gap-y-1">
           {skillsmenu.map((skill, index) => (
-            <li key={index} className="p-2 basis-[20%] flex flex-col items-center">
+            <li key={index} className="p-2 basis-[16.16%] flex flex-col items-center">
               <Link
                 href={skill.link}
                 aria-label={skill.name}
