@@ -14,12 +14,12 @@ export default function Blog() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const cachedBlogs = localStorage.getItem("blogs");
-        if (cachedBlogs) {
-          setBlogs(JSON.parse(cachedBlogs));
-          setLoading(false);
-          return;
-        }
+        // const cachedBlogs = localStorage.getItem("blogs");
+        // if (cachedBlogs) {
+        //   setBlogs(JSON.parse(cachedBlogs));
+        //   setLoading(false);
+        //   return;
+        // }
 
         const response = await fetch(
           "https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX"
@@ -42,10 +42,8 @@ export default function Blog() {
           authorDesignation: post.Author_ID?.Job_title,
         }));
 
-        localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
-        // localStorage.removeItem("blogs");
-
         setBlogs(formattedBlogs);
+        localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
       } catch (error) {
         console.error("Error fetching blogs:", error);
       } finally {
@@ -54,7 +52,7 @@ export default function Blog() {
     };
 
     fetchBlogs();
-  }, []);
+  },[blogs]);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
   

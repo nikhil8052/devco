@@ -22,6 +22,6 @@
     }
   },
   
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/blog/page.js", "src/app/blog_page/BlogPage.js", "src/app/blog_test/blog_page_test/blog_page.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/blog/page.js", "src/app/blog_page/BlogPage.js", "src/app/blog_test/blog_page_test/blog_page.js", "src/app/map/layout.js"],
   "exclude": ["node_modules"]
 }
