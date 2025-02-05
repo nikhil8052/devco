@@ -1473,5 +1473,279 @@ Here are some of the common types of software we develop for our clients:`,
         },
     },
 
+    {
+        id: 10,
+        meta_title:"Custom Software Development Services for Car Manufacturers",
+        meta_description: "Our Car manufacturers custom software development services allow you to scale your engineering teams for websites, custom software or mobile.",
+        og_image:"/images/automotive.jpg",
+        slug: "automotive",
+        bannericon: "/images/e Commerce.svg",
+        top_title: "Custom Software Development Services for Car Manufacturers",
+        top_description: `Whether you’re looking for a complete custom software application to replace an outdated one or just need help with the backend, DEV.co is here to provide car manufacturers with a solution that will improve productivity and efficiency. From database design and development to web design and mobile apps, we can do it all–and keep your data secure the whole time.
+        <br></br>
+     Our proprietary platform takes the pain out of development for global car CEOs who just want to get their service to customers as quickly as possible. We’ve already provided web development for top clients including VW, Land Rover, and Mercedes Benz.
+     <br></br>
+     We are a global car software development company that designs, builds, and launches applications and connected cars. We help automotive companies create software for their cars and launch those products to the market. We’re a smart design, rapid development, and innovation agency with a focus on cars. We put our clients first and business second.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Who Are We",
+                description: `We offer custom & embedded software development services for car manufacturers, automotive industry/automotive sector. Based in Santa Ana, California, USA, we have worked with dozens of makers worldwide, enabling them to develop their own apps and build their digital experiences without the need to subcontract out into the market.`,
+                
+            },
+            {
+                title: "",
+            description: `DEV.co is a development Company with top quality software engineer that helps car manufacturers create custom software for their platforms. Clients include BMW, Toyota and Ford. Using DEV.co helps car manufacturers do web dev faster, cheaper, and on-demand. From database design and development to web design and mobile apps, we can do it all–and keep your data secure the whole time.<br></br>Dev.co is a developer platform that allows car manufacturers to avail our custom software development suite. We help automakers design, build, release and scale their software. We help developers get experience by exposing them to the problems of automakers and by bringing them into a large project environment from day one. What’s more – we make it all happen in an agile way.`,
+            }
+            ]
+           
+           
+          },
+
+
+      
+                  benefits: {
+            title: ``,
+            description: ``,
+            benefits: [
+                {
+                    title: "Connecting Drivers and Vehicles",
+                    description: "We are car software developers, software engineer, staff embedded software engineer, software test engineers specialising in providing bespoke software development solutions & software engineering best practices for car manufacturers/automotive systems. We are trusted by OEMs, Tier 1s and tech startups around the world to solve problems that matter – from getting global launches right, to building apps and cloud services.<br></br>Our responsive websites are used by sales teams to sell cars. Sales and marketing use our dashboards to measure key metrics that make selling easier like email subscription rates and online marketing performance. Marketing uses our CMS sites to increase brand awareness with video content on YouTube or social media channels.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Bridging the Digital World and the Physical Car",
+                    description: "DEV.co deliver software solutions focused or software development services for the automotive software industry/automotive industry, with our unique value proposition allowing us to solve problems of the digital automobile in a way that no one else can. We use holistic thinking to build custom digital solutions and platforms for automotive systems/car manufacturers & scrum software development methodologies, As a result, we empower members of our team with a high level of autonomy over their projects, which allows them take ownership of what they build.<br></br>For car manufacturers, the website is the new storefront. Our approach is collaborative and our processes are agile, giving you end-to-end control of your digital presence. Make a lasting impression with a website built on WordPress or Drupal.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+        },
+        Benefitslider: {
+            title: "Work With Us",
+            description: `DEV.co exists to help car manufacturers achieve great results using technology in automotive industry. We provide software development services and software engineer for all our clients, but we also offer another approach to working: working together in a partnership to do amazing work. We believe that the best software grows out of collaboration and face-to-face contact, not just specifications and timelines. We use advanced team management and frequent code refreshes to get projects done faster, using fewer resources so you can accomplish more together than you could alone.<br></br>We focus on three pillars: design, scale and speed. Each pillar plays a vital role in the overall success of our customers. Be one of the many success stories, contact us today.`,
+            card_datas: [
+               
+            ],
+        },
+
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Contact DEV.CO Today!`,
+                    description: `DEV.co can help. Contact us today for a free quote, or a free consultation!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+    },
+    {
+        id: 11,
+        meta_title:"Web Design for Dentists | Dental Website Development Service",
+        meta_description: "We provide custom website development and design services for dentists, orthodontists, endodontists and other dental professionals.",
+        og_image:"/images/dentist2.jpg",
+        slug: "dentist",
+        bannericon: "/images/e Commerce.svg",
+        top_title: "Custom Website Design & Development Services for Dentists",
+        top_description: `All businesses, including your dental practice need a cool and up-to-date website. Think of it as the face you show to the world online! No site or an old-school one won’t impress potential patients who can’t find what they’re looking for – treatment details or how simple booking an appointment is.
+        <br></br>
+     So get yourself a new and easy-to-manage website. What should be on there? Videos showcasing dentists at work, rave reviews from happy clients proclaiming excellent care received are good places to start!
+     <br></br>
+     How about interactive flyers that people receive in their emails after purchase? Or links connecting them where they want?
+     <br></br>
+     Plus consider incorporating ‘dental software development’ into this modern make-over. Why not use ‘practice management software’ too along with ‘dental practice management’? That’s sure going to take your image up several notches!`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Custom Website Design for Dentists",
+                description: `DEV.co crafts specialized websites for your dental clinic. We excel in designing unique web spaces tailored to meet the needs of dental practices and boost search engine rankings.<br></br>Our viral marketing strategies convert casual website visitors into loyal patients, ensuring a steady stream of traffic towards your service offerings or treatment planning options!<br></br>Our viral marketing strategies convert casual website visitors into loyal patients, ensuring a steady stream of traffic towards your service offerings or treatment planning options!<br></br>Don’t stress over hiring an expensive designer – our user-friendly webpage tools allow you to easily edit content daily!`,
+                
+            },
+            {
+                title: "",
+            description: `We specialize not just in creating custom-built sites but also help grow existing ones. All our designs consider what’s best for SEO- keeping Google happy while boosting your online presence at every step.
+<br></br>The highlight? You’re free to create engaging pages yourself using pre-set layouts or by uploading personal photos, documents, videos – even promotional material that reflects your practice’s personality!<br></br>But we don’t stop there; from initiation till completion integrating Search Engine Optimization (SEO) is on top of mind so all the information about electronic health records provided appears right up where it matters most- high ranks on popular search engines like Google!<br></br>Seeking improvements beyond aesthetic appeal? DEV.co can assist with developing practical management software aimed at managing patient records hassle-free within any size Dental Clinic Management Software system too!`,
+            }
+            ]
+           
+           
+          },
+
+
+     
+        benefits: {
+            title: ``,
+            description: `At DEV.co, we’re firm believers that each small business should have its own website. This belief is especially true for dental offices – where a location’s accessibility and good old-fashioned word of mouth are key to welcoming new patients who will stick around for many years.<br></br>Does your office need a feature-heavy site? Perhaps e-commerce options or patient testimonials? Or maybe surveys to help you understand what works best in your treatment plans. No matter the requirement, rest assured knowing we’ve got it all covered!<br></br>DEV.co takes great pleasure in crafting customized websites specifically designed to cater every online necessity of modern dental practices. Whether that involves providing frequent content updates via blogs about various dental procedures done by experienced professionals at your clinic or incorporating specialized industry features like robust marketing automation software solutions geared towards local lead generation campaigns – our commitment stays with you throughout this journey.<br></br>So if it’s developing top-notch management software capable enough not only handling everyday tasks but also enhancing overall practice efficiency and offering remarkable care which makes us the leading company producing nothing less than the finest “best dental software” available today!"`,
+            benefits: [
+                
+
+            ],
+        },
+      
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Easy to Update Content Management for Dentists",
+                    description: "We're all about crafting bespoke websites for dentists using a variety of content management systems, like WordPress or Shopify. Our goal? To make it easy for any dentist to manage their online image - no need to depend on an outside team! DEV.co focuses on this: creating perfect digital spaces specifically tailored for dental practices. This means having a unique and current web presence that your potential patients will look at when they want answers or services. We also work with practice management system integration and develop dental software designed around the needs of each individual clinic. By ensuring secure patient data handling through our customized dental practice software solutions, we allow seamless communication between you and your patients via leveraging top-notch patient communication software platforms. Essentially, what we strive towards is enabling better 'patient care' while enhancing efficiency in managing ‘patient treatment’ schedules.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Graphic Design for Dentists",
+                    description:
+                        "Dev.co is your creative partner in the world of dental graphic design. Our team's mission? To develop distinctive identities for dentists that not only attract new patients but also ensure their satisfaction. We start from scratch, shaping a unique logo and crafting an appealing website tailor-made just for you, setting your practice apart — especially vital when facing traditional-looking competitors. Our job doesn't stop there though; we weave SEO magic into every HTML code ensuring Google notices you. And who does this better than us? No one! Sprinkling keywords here and there on our path to success helps underline what makes us different: it fortifies brand messaging digitally while reminding customers about upcoming appointment essentials via email marketing campaigns - like aftercare products which include toothpaste or replacement brush heads.. Importantly too, financial management becomes easier with Dev.co’s assistance. We provide solutions specifically designed for dental practitioners such as inventory management operating systems essential in modern-day practices -- making running daily operations at clinics smoother. Remember managing insurance claims can be daunting without proper software! That's why reinforcing how important using efficient dental applications are has never been more crucial - they simplify business processes so clinicians could focus more on patient care rather than administrative work.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Technical Content for Dental Practices",
+                    description: "We make technical dental content easy, filled with fresh knowledge that aligns with today's guidelines. Think of it this way - you want your patients to understand the services you offer, right? Our team does just that! For each service feature offered on a dentist’s website, we create clear and concise descriptions. And here's where our tech writers shine: they write strictly from a dentist point-of-view. So every piece will be like an insider chat about practical stuff needed by your patients but in layman terms! Doesn't stop there; all articles are updated regularly so the latest data is always within reach for both dentists and their clientele—tips or useful online resources included too—all neatly organized under one heavily visited page: Your Practice Page! Now let me talk more about security elements – That’s crucial as well considering administrative tasks involved in running any practice management software effectively without jeopardizing patient care quality which can otherwise suffer due to poor user acceptance testing during development phase.. Want us to show how this works rather than tell? Request free trial/demo site now!",
+                    imgSrc: "",
+                },
+                {
+                    title: "Custom Software Development",
+                    description: "Looking for a software tailor-made for dental practices? Our dedicated team is on hand to craft your custom app right from scratch. We specialize in creating unique software dealing with tasks like password resets and digital patient files, giving you the competitive advantage you need. We’ve been focusing solely on developing personalized cloud-based systems since 2008 just for dentists. With our finger always on technology's pulse, we have successfully introduced innovative solutions that propelled us ahead of competition in both medical and dental markets. Whether it’s all about enhancing patients' experience or simplifying business processes by managing valuable patient information more efficiently, rest assured that no task is too big nor small when working with us! Entrust your branding needs to a market leader who has gained success through practical innovation – reach out now!",
+                    imgSrc: "",
+                },
+                {
+                    title: "Aquaculture software solutions",
+                    description: "Aquaculture software solutionst that track your entire population for optimum breeding and harvesting. This includes aquaculture workflow and ERP integrations, sensor technology, fish farm management systems, data analysis, and more.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Reasonable Web Development Pricing",
+                    description: "Looking for affordable web solutions for your dental practice? At DEV.co, we've got you covered! We specialize in crafting custom e-commerce platforms. Whether it's a single user or multi-user login system that you need - count us in! But here’s the exciting part: It won't just be any platform; think 'dental practice management software.' A tool designed to boost efficiency and deliver a dynamic customer experience. Keen on streamlining patient management too? Let's create dental management software tailored specifically for this task. Our goal is simple – equip your thriving business with cutting-edge tools so it can shine online! If our blend of practice management software development excites you, dial our number now!",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your dentist web design needs and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+      
+    },
     
 ];
