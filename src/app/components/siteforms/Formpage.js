@@ -44,7 +44,6 @@ const Formpage = () => {
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-  toast.success('Email sent successfully!');
   
   const onSubmit = async (data) => {
   
