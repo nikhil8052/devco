@@ -1682,6 +1682,13 @@ ul.recent_posts_list {
 body.page-portfolio1 div#chat-bot-launcher-container {
     display: none;
 }
+.thankspage .banner_content .btn_wrapper {
+    display: none;
+}
+
+.thankspage .banner_image {
+    display: none;
+}
 
 
 
