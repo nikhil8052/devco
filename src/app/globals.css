@@ -1894,6 +1894,7 @@ body.page-portfolio1 div#chat-bot-launcher-container {
 }
 .submenu_flex li a img {
     display: none;
+    visibility: hidden;
 }
 
 .submenu_flex .icon_list {
