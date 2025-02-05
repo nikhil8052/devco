@@ -27,7 +27,7 @@ const skillsmenu = [
   { name: 'Sitefinity',image: '/images/menu_site_infinity.svg', link: '/sitefinity' },
   { name: 'Laravel',image: '/images/menu_laravel.svg', link: '/laravel' },
   { name: 'AWS',image: '/images/menu_aws.svg', link: '/aws' },
-  { name: 'Wordpress',image: '/images/menu_aws.svg', link: '/wordpress' },
+  { name: 'Wordpress',image: '/images/menu_wordpress.svg', link: '/wordpress' },
   { name: 'Salesforce',image: '/images/menu_salesforce.svg', link: '/salesforce' },
   { name: 'Oracle',image: '/images/menu_oracle.svg', link: '/oracle' },
   { name: 'Nextcloud',image: '/images/menu_nextcloud.svg', link: '/nextcloud' },
