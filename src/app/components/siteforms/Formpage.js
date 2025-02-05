@@ -33,36 +33,6 @@ const formFields = [
   { id: "additionalInfo", label: "Additional Information", type: "textarea" },
 ];
 
-// const handleSubmit = async (event) => {
-//   event.preventDefault(); // Prevent the default form submission
-
-//   const formData = new FormData(event.target); // Get the form data
-  
-//   // Convert form data to an object
-//   const data = {};
-//   formData.forEach((value, key) => {
-//     data[key] = value;
-//   });
-
-//   try {
-//     const response = await fetch('/api/submitForm', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify(data),
-//     });
-    
-//     if (response.ok) {
-//       alert('Form submitted successfully');
-//     } else {
-//       alert('Failed to submit form');
-//     }
-//   } catch (error) {
-//     console.error('Error:', error);
-//     alert('An error occurred while submitting the form');
-//   }
-// };
 
 const Formpage = () => {
 
@@ -70,29 +40,36 @@ const Formpage = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-
+  toast.success('Email sent successfully!');
   
   const onSubmit = async (data) => {
-    console.log( data , " This is the data ")
-    return 
+  
+    reset();
+    const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
+    const payload = data
     try {
-      const response = await fetch('/api/submitForm', {
+      // Send the POST request to the API
+      const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
       });
-      
+  
+      const result = await response.json(); 
       if (response.ok) {
-        alert('Form submitted successfully');
+        console.log('Email sent successfully:', result);
       } else {
-        alert('Failed to submit form');
+        console.error('Error sending email:', result);
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('An error occurred while submitting the form');
+      console.error('Unexpected error:', error);
+      // Handle error, show an error message
     }
   };
 
@@ -112,6 +89,7 @@ const Formpage = () => {
             <div className="text_col_form">
               <div className='form_title'>
                 <h3>Tell us how we can help you</h3>
+                
               </div>
               <div className="form">
                 <form className="site_form" onSubmit={handleSubmit(onSubmit)}>
