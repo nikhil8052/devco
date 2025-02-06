@@ -1711,7 +1711,12 @@ body.page-portfolio1 div#chat-bot-launcher-container {
     font-weight: 600;
     margin: 0px 0px 10px;
 }
-
+a.post_title_link:hover {
+    color: #3f4dee;
+}
+.Skill_banner.locationbanner {
+    padding-top: 170px;
+}
 
 
 /*--------- responsive css start ---------*/

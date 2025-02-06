@@ -12,7 +12,7 @@ import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 import UserLayout from "../user_layout/UserLayout";
-import BlogPage from "@/app/blog_test/blog_page_test/blog_page";
+import BlogPage from "@/app/blog_test/blog_page_test/page.js";
 
 // Define types for data
 interface BaseData {
