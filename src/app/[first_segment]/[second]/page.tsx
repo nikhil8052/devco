@@ -45,7 +45,7 @@ type ServiceData = BaseData & { serviceSpecificProp?: string };
 type TechnologyData = BaseData & { technologySpecificProp?: string };
 type LocationData = BaseData & { locationSpecificProp?: string };
 
-type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
+// type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
 
 
 export default function Page({ params }) {
