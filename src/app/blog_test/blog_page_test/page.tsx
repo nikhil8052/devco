@@ -41,7 +41,7 @@ export default function BlogDetail({ blog, author }) {
   const [loading, setLoading] = useState(true); // Loading state
   const router = useRouter(); 
 
-  var sections = blog.content.split('\n');
+  const sections = blog.content.split('\n');
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
