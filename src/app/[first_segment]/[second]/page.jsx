@@ -7,7 +7,7 @@ import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
 import { locationsdata } from "@/app/data/locations";
-import BlogPage from "@/app/blog_test/blog_page_test/page.js";
+import BlogPage from "@/app/blog_test/blog_page_test/page";
 import UserLayout from "../../user_layout/UserLayout";
 import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
