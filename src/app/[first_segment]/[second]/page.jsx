@@ -17,7 +17,7 @@ import Locations from "@/app/locations/Locations";
 
 export default function Page({ params }) {
 
-    const second = params.first_segment;
+    // const second = params.first_segment;
     const first_segment = params.second;
     let foundData = null;
 
