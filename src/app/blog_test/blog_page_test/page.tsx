@@ -30,9 +30,11 @@ import { useRouter } from "next/navigation";
  */
 
 /**
+ * Blog Detail page component.
  * @param {Object} props
- * @param {Blog} props.blog
- * @param {Author} props.author
+ * @param {Blog} props.blog - The blog data
+ * @param {Author} props.author - The author data
+ * @returns {JSX.Element}
  */
 export default function BlogDetail({ blog, author }) {
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
