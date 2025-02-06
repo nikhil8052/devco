@@ -15,6 +15,39 @@ import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 
+
+interface BaseData {
+    slug: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+}
+
+interface BlogData {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    authorImage: string;
+    authorDesignation?: string;
+    authorId: string | null;
+    authorDescription: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+}
+
+
+type IndustryData = BaseData & { industrySpecificProp?: string };
+type SkillData = BaseData & { skillSpecificProp?: string };
+type ServiceData = BaseData & { serviceSpecificProp?: string };
+type TechnologyData = BaseData & { technologySpecificProp?: string };
+type LocationData = BaseData & { locationSpecificProp?: string };
+
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
+
+
 export default function Page({ params }) {
 
     // const second = params.first_segment;
@@ -22,7 +55,7 @@ export default function Page({ params }) {
     let foundData = null;
 
     const [blog, setBlog] = useState(false);
-    const [blogData, setBlogData] = useState(null);
+    const [blogData, setBlogData] = useState<BlogData | null>(null); 
     const [blogAuthor, setBlogAuthor] = useState({});
     const [Component, setComponent] = useState(null);
     const [data, setData] = useState(null);
