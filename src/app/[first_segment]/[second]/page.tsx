@@ -100,6 +100,9 @@ export default function Page({ params }) {
 
     useState(() => {
 
+        let foundData: Data | null = null;
+        let matchedComponent: React.ComponentType<any> | null = null;
+        
         if ((foundData = industries.find((item) => item.slug === first_segment))) {
             matchedComponent = Industry;
         } else if ((foundData = skills.find((item) => item.slug === first_segment))) {
