@@ -7,7 +7,6 @@ import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
 import { useRouter } from "next/navigation";
 
-// Assuming these types are declared and are used for type checking
 interface Blog {
   title: string;
   content: string;
@@ -31,31 +30,16 @@ interface Author {
 }
 
 export default function BlogDetail({ initialBlog, initialAuthor }) {
-  const [blog, setBlog] = useState<Blog | null>(initialBlog); // State for blog data
-  const [author, setAuthor] = useState<Author | null>(initialAuthor); // State for author data
   const [activeTab, setActiveTab] = useState("Authorinfo1");
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   
-  const sections = blog?.content.split('\n') || [];
+  const sections = initialBlog?.content.split('\n') || [];
 
   useEffect(() => {
-    // Simulate loading delay
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-
-    // Optional: You could fetch blog/author data here if not passed as props
-    // Example:
-    // const fetchData = async () => {
-    //   const blogResponse = await fetch('/api/blog'); // Example API endpoint
-    //   const authorResponse = await fetch('/api/author'); // Example API endpoint
-    //   const blogData = await blogResponse.json();
-    //   const authorData = await authorResponse.json();
-    //   setBlog(blogData);
-    //   setAuthor(authorData);
-    // };
-    // fetchData();
   }, []);
 
   if (loading) {
@@ -66,7 +50,7 @@ export default function BlogDetail({ initialBlog, initialAuthor }) {
     );
   }
 
-  if (!blog) {
+  if (!initialBlog) {
     return (
       <UserLayout>
         <div className="blog_detail_page bg-black text-center text-customwhite">
@@ -79,9 +63,8 @@ export default function BlogDetail({ initialBlog, initialAuthor }) {
     );
   }
 
-  const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
+  const authName = initialBlog.authorName.split(" ")[0].toLowerCase().trim();
 
-  // Handle tab switching
   const handleTabSwitch = (tab: string) => {
     setActiveTab(tab);
   };
@@ -97,9 +80,9 @@ export default function BlogDetail({ initialBlog, initialAuthor }) {
               </a>
             </div>
             <div className="blog_autordetail" onClick={() => router.push(`/author/${authName}`)}>
-              <span className="author_name">{blog.authorName}</span>
+              <span className="author_name">{initialBlog.authorName}</span>
               <div className="author_image">
-                <img src={blog.authorImage} alt="Author" />
+                <img src={initialBlog.authorImage} alt="Author" />
               </div>
             </div>
           </div>
@@ -107,13 +90,13 @@ export default function BlogDetail({ initialBlog, initialAuthor }) {
       </div>
       <div className="container mx-auto">
         <div className="blog_card_image">
-          <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
+          <img src={initialBlog.image} alt="Blog Thumbnail" className="w-full h-auto" />
         </div>
         <div className="blog_meta mt-4">
-          <span className="blog_date text-[16px] text-gray-400">{blog.date}</span>
+          <span className="blog_date text-[16px] text-gray-400">{initialBlog.date}</span>
         </div>
         <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
-          dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
+          dangerouslySetInnerHTML={{ __html: initialBlog.title }}></h1>
         {
           sections.map((section, index) => (
             <div key={index}
@@ -140,32 +123,32 @@ export default function BlogDetail({ initialBlog, initialAuthor }) {
             </div>
             <div className="author_tab_content">
               {/* Author Info */}
-              {activeTab === 'Authorinfo1' && author && (
+              {activeTab === 'Authorinfo1' && initialAuthor && (
                 <div className="author_data AuthorData1">
                   <div className="author_info flex">
                     <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
-                      <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
+                      <img src={initialBlog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{blog.authorName}</div>
-                      <div className="author_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
+                      <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{initialBlog.authorName}</div>
+                      <div className="author_description" dangerouslySetInnerHTML={{ __html: initialBlog.authorDescription }}></div>
                     </div>
                   </div>
                 </div>
               )}
               {/* Recent Posts */}
-              {activeTab === 'Authorinfo2' && author && (
+              {activeTab === 'Authorinfo2' && initialAuthor && (
                 <div className="author_data AuthorData2">
                   <div className="author_info flex">
                     <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
-                      <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
+                      <img src={initialBlog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold">Recent posts by {blog.authorName}</div>
-                      <div className="author_designation">{blog.authorDesignation} at <Link href="/">Software Development Company</Link></div>
+                      <div className="author_name text-xl font-semibold">Recent posts by {initialBlog.authorName}</div>
+                      <div className="author_designation">{initialBlog.authorDesignation} at <Link href="/">Software Development Company</Link></div>
                       <ul className="recent_posts_list">
-                        {Array.isArray(author.recentPosts) && author.recentPosts.length > 0 ? (
-                          author.recentPosts.map((post, index) => (
+                        {Array.isArray(initialAuthor.recentPosts) && initialAuthor.recentPosts.length > 0 ? (
+                          initialAuthor.recentPosts.map((post, index) => (
                             <li key={index}>
                               <Link
                                 href={`../${post.Slug}`}
