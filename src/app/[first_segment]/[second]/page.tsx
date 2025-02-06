@@ -45,7 +45,7 @@ type ServiceData = BaseData & { serviceSpecificProp?: string };
 type TechnologyData = BaseData & { technologySpecificProp?: string };
 type LocationData = BaseData & { locationSpecificProp?: string };
 
-// type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
 
 
 export default function Page({ params }) {
@@ -58,7 +58,7 @@ export default function Page({ params }) {
     const [blogData, setBlogData] = useState<BlogData | null>(null); 
     const [blogAuthor, setBlogAuthor] = useState({});
     const [Component, setComponent] = useState(null);
-    const [data, setData] = useState(null);
+    const [data, setData] = useState<Data | null>(null);
 
     const fetchBlogDetails = async () => {
         try {
