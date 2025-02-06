@@ -7,45 +7,55 @@ import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
 import { useRouter } from "next/navigation";
 
-/**
- * @typedef {Object} Blog
- * @property {string} title - The title of the blog post
- * @property {string} content - The content of the blog post
- * @property {string} image - URL of the blog post image
- * @property {string} date - The publication date of the blog post
- * @property {string} authorName - The name of the author
- * @property {string} authorImage - URL of the author's image
- * @property {string} authorDescription - Description of the author
- * @property {string} authorDesignation - Designation of the author
- */
+// Assuming these types are declared and are used for type checking
+interface Blog {
+  title: string;
+  content: string;
+  image: string;
+  date: string;
+  authorName: string;
+  authorImage: string;
+  authorDescription: string;
+  authorDesignation?: string;
+  authorId: string | null;
+  meta_title?: string;
+  meta_description?: string;
+  og_image?: string;
+}
 
-/**
- * @typedef {Object} Author
- * @property {string} Name - The author's name
- * @property {string} Author_Image - URL of the author's image
- * @property {string} ID - The author's ID (nullable)
- * @property {Array<Object>} recentPosts - An array of the author's recent blog posts
- * @property {string} recentPosts[].Title - The title of the recent post
- * @property {string} recentPosts[].Slug - The slug of the recent post
- */
+interface Author {
+  Name: string;
+  Author_Image: string;
+  ID: string | null;
+  recentPosts: Array<{ Title: string, Slug: string }>;
+}
 
-/**
- * Blog Detail page component.
- * @param {Object} props
- * @param {Blog} props.blog - The blog data
- * @param {Author} props.author - The author data
- * @returns {JSX.Element}
- */
-export default function BlogDetail({ blog, author }) {
-  const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
-  const [loading, setLoading] = useState(true); // Loading state
-  const router = useRouter(); 
+export default function BlogDetail({ initialBlog, initialAuthor }) {
+  const [blog, setBlog] = useState<Blog | null>(initialBlog); // State for blog data
+  const [author, setAuthor] = useState<Author | null>(initialAuthor); // State for author data
+  const [activeTab, setActiveTab] = useState("Authorinfo1");
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+  
+  const sections = blog?.content.split('\n') || [];
 
-  const sections = blog.content.split('\n');
   useEffect(() => {
+    // Simulate loading delay
     setTimeout(() => {
       setLoading(false);
-    }, 1000); 
+    }, 1000);
+
+    // Optional: You could fetch blog/author data here if not passed as props
+    // Example:
+    // const fetchData = async () => {
+    //   const blogResponse = await fetch('/api/blog'); // Example API endpoint
+    //   const authorResponse = await fetch('/api/author'); // Example API endpoint
+    //   const blogData = await blogResponse.json();
+    //   const authorData = await authorResponse.json();
+    //   setBlog(blogData);
+    //   setAuthor(authorData);
+    // };
+    // fetchData();
   }, []);
 
   if (loading) {
@@ -72,7 +82,7 @@ export default function BlogDetail({ blog, author }) {
   const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
   // Handle tab switching
-  const handleTabSwitch = (tab) => {
+  const handleTabSwitch = (tab: string) => {
     setActiveTab(tab);
   };
 
