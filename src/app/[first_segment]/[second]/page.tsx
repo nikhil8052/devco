@@ -112,7 +112,7 @@ export default function Page({ params }) {
     }
 
     if (foundData) {
-      // setData(foundData);
+      setData(foundData);
       setComponent(() => matchedComponent);
       setBlog(false);
     } else {
