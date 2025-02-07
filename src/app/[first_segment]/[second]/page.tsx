@@ -63,7 +63,13 @@ export default function Page({ params }) {
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
       const response_data = await response.json();
-      console.log(response_data, "This is the response data");
+
+      if (response_data.data.length <= 0) {
+        setComponent(null);
+        setLoading(false)
+        return;
+      }
+      
       const blog_data_res = response_data.data[0];
 
       if (blog_data_res?.Title && blog_data_res?.Created_At) {

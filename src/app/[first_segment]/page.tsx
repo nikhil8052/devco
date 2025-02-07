@@ -59,6 +59,8 @@ export default function Page({ params }: PageProps) {
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
   const [data, setData] = useState<Data | null>(null);
   const [loading, setLoading] = useState(true);
+  const [notFound, setNotFound] = useState(false);
+
 
   useEffect(() => {
     let foundData: Data | null = null;
@@ -92,9 +94,13 @@ export default function Page({ params }: PageProps) {
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
       const response_data = await response.json();
-      console.log(response_data, "This is the response data");
-      const blog_data_res = response_data.data[0];
 
+      if (response_data.data.length <= 0) {
+        setComponent(null);
+        setLoading(false)
+        return;
+      }
+      const blog_data_res = response_data.data[0];
       if (blog_data_res?.Title && blog_data_res?.Created_At) {
         setBlog(true);
         setBlogData({
