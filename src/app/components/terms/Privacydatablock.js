@@ -5,7 +5,7 @@ const Privacydatablock = () => {
   return (
     <div className="Skill_banner terms_banner main-service-banner relative w-full pt-5 xl:pt-10 pb-10 lg:pb-20  text-customwhite">
       <div className="container mx-auto t">
-        <div className='terms_block_wrapper'>
+        <div className='terms_block_wrapper text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite'>
             <div className='terms_block'>
                 <p>Nead, LLC (“us”, “we”, or “our”) operates the DEV.co website (the “Service”) and owns/operates or promotes the additional following websites and domain names:</p>
                 <ul>
