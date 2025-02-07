@@ -1804,6 +1804,13 @@ a.post_title_link:hover {
 }
 }
 
+@media(max-width:1366px){
+    .header_submenu.skill_submenu {
+        left: 110%;
+        transform: translateX(-42%);
+    }
+}
+
 
 
 @media(max-width:1199px){
@@ -1845,12 +1852,16 @@ a.post_title_link:hover {
 @media screen and (min-device-width: 1024px) and (max-device-width: 1199px) { 
     .nav_div > ul>li>a, .nav_div > ul>li>button {
         font-size: 14px !important;
+        font-weight: 500;
     }
 }
 
 @media(max-width:1023px){
     .header_submenu {
         width: 100% !important;
+    }
+    .header_submenu.skill_submenu {
+        transform: translateX(0%);
     }
     
     .header_submenu.skillssubmenu-wrap {
