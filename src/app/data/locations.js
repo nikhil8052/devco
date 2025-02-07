@@ -91,7 +91,7 @@ export const locationsdata = [
                     Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.<br></br>
 
                     By hiring a professional Albuquerque website developer, you can succeed in building the perfect website for your brand.`,
-                    imageSrc: "/images/location_Albuquerque.svg",
+                    imageSrc: "/images/Albuquerque-Web-Design.jpeg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -147,7 +147,7 @@ export const locationsdata = [
                     paragraph:`We build creative websites that bring your brand to life. Our web design and development process are simple, and we prioritize ensuring the final product meets your needs and exceeds your expectations.<br></br>
 
                     Our Orange County office at DEV.co offers various services including website development, graphic design, UX/UI consulting, and mobile app development. We are here to provide for all of your web, mobile, and custom development-related needs while offering a level of customer service that will exceed any other companies in the Anaheim area.`,
-                    imageSrc: "/images/Anaheimoutline.png",
+                    imageSrc: "/images/anaheim-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -374,7 +374,7 @@ export const locationsdata = [
                     It may surprise you to know that your website is the number one sales tool in your business. The quality of your product is closely tied to how well it sells online.<br></br>
 
                     Thanks to the services we provide, Anchorage Ak Software developer & senior software engineer with significant software development experience has helped businesses throughout Anchorage AK generate a steady stream of revenue from their websites, Apps and therefore we are a open-source software development company in Anchorage AK & have proven development with technical knowledge for Anchorage AK businesses to be an effective marketing tool.`,
-                    imageSrc: "/images/Anchorageoutline.png",
+                    imageSrc: "/images/anchorage-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -589,7 +589,7 @@ export const locationsdata = [
                     Our software engineer specializes in custom web design, web design templates, search engine optimization (SEO), search engine marketing (SEM), social media marketing (SMM), WordPress development, e-commerce website design, web hosting, domain registration, email hosting, develop dynamic enterprise web and more.<br></br>
 
                     We are utilizing professional software engineering practices & modern software engineering principles.`,
-                  imageSrc: "/images/Arlingtonoutline.png",
+                  imageSrc: "/images/Arlington.webp",
                   imageAlt: "Software Development in Albuquerque",
               },
               {
@@ -755,7 +755,7 @@ export const locationsdata = [
                   With this much competition, it’s always wise to establish an online presence to attract meaningful qualified leads to your company. At Dev.co, we can help you create a top-notch website that will outrank your fiercest competitors.<br></br>
 
                   This way, you can foster more vibrant growth in your business and industry.`,
-                  imageSrc: "/images/Atlantaoutline.png",
+                  imageSrc: "/images/atlanta-scaled.jpg",
                   imageAlt: "Software Development in Albuquerque",
               },
               {
@@ -820,7 +820,7 @@ export const locationsdata = [
                   paragraph:`One of the most important aspects of having a website is to ensure it is easy to navigate. We provide creative development services to help you get what you want from your web presence. We work with you throughout the project to ensure that what we deliver will meet your business needs.<br></br>
 
                   The DEV.co team is devoted to making your website one the best it can be. Whether you’re looking for web development in Aurora or website design in Aurora, we have the knowledge and experience to get it done right.`,
-                  imageSrc: "/images/Auroraoutline.png",
+                  imageSrc: "/images/aurora-scaled.jpg",
                   imageAlt: "Software Development in Albuquerque",
               },
               {
@@ -926,7 +926,7 @@ export const locationsdata = [
                   Also, hiring a software engineer/developer for your software development project will put you in prime position to outrank your competitors and even steal their business. As you can see, having a great website can give your entire online presence a boost.<br></br>
 
                   With a Quality Software, your business can gain more visibility in front of your target audience, mainly since most consumers use the internet to find local businesses.`,
-                  imageSrc: "/images/Austinoutline.png",
+                  imageSrc: "/images/austin-.jpg",
                   imageAlt: "Software Development in Albuquerque",
               },
               {
@@ -999,7 +999,7 @@ export const locationsdata = [
                     paragraph:`Looking for a software developer / software development company in Bakersfield CA? Need Custom Web Design or Online Store? We create visually stunning, professional-quality Softwares/websites. Our custom, modern and mobile-ready website designs bring a unique touch to your online presence. Our Bakersfield CA company teams up with you to provide custom websites that get more visitors, more leads, and more sales.<br></br>
 
                     We understand that your website is the foundation for your business efforts online. When you build a website with us, we customize your design based on your brand and identity and our team will work with you to help you reach your goals.`,
-                    imageSrc: "/images/Baskersfieldoutline.png",
+                    imageSrc: "/images/Bakersfield.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1064,7 +1064,7 @@ export const locationsdata = [
                     If you are operating any local or corporate business in the area, then you need to establish an online presence. The first step in doing so is creating a fully-functional website for your brand.<br></br>
 
                     Dev.co has built a strong reputation as one of the best website design companies in Baltimore.`,
-                    imageSrc: "/images/Baltimoreoutline.png",
+                    imageSrc: "/images/baltimore-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1128,7 +1128,7 @@ export const locationsdata = [
                     paragraph:`Sometimes all you need is an answer. Sometimes you need more. We offer the solution when you’re looking for something more creative than just a company website or web application. Our Baton Rouge custom development services help you get the most out of your current technology and brand.<br></br>
 
                     DEV.Co offers Baton Rouge custom development services that can help you design a functional website for your business, build an application for your mobile device, and provide consultation to present your business in an effective way.`,
-                    imageSrc: "/images/Baton Rougeoutline.png",
+                    imageSrc: "/images/Baton-Rouge.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1190,7 +1190,7 @@ export const locationsdata = [
 
                     We strive to give our clients the very best in software solutions; development technologies that gets results. No matter your company’s size or needs each client is assured premier, our software development engineer work with attention to detail and focus on project-specific goals & provable functional and technical skills.`,
 
-                    imageSrc: "/images/Boiseoutline.png",
+                    imageSrc: "/images/Software-Development-in-Boise.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1262,7 +1262,7 @@ export const locationsdata = [
 
                     Hire a Boston website developer today to improve your online presence and attract more qualified leads back to your website.`,
 
-                    imageSrc: "/images/Bostonoutline.png",
+                    imageSrc: "/images/boston-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1327,7 +1327,7 @@ export const locationsdata = [
 
                     Our software engineers for Buffalo NY are extremely talented artisans who have gone through a rigorous vetting process before being considered the best of the best. After all, no other design team is going to create your business’ website!`,
 
-                    imageSrc: "/images/Buffalooutline.png",
+                    imageSrc: "/images/buffalo-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1421,7 +1421,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 13,
+        id: 14,
         meta_title:"Chandler Custom Software Development Company | Dev.co",
         meta_description: "Our Chandler custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Chandler-Custom-Software-Development-Company-14.jpg",
@@ -1452,7 +1452,7 @@ export const locationsdata = [
 
                     With our combined expertise in web design, and software development life cycle, and a dedicated team of professionals, we are ready to take your projects to the next level. Contact us today to discuss how we can assist you in achieving your business goals.`,
 
-                    imageSrc: "/images/Chandleroutline.png",
+                    imageSrc: "/images/chandler.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1523,7 +1523,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 14,
+        id: 15,
         meta_title:"Charlotte Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Charlotte, NC. Contact us today about our Charlotte web development services.",
         og_image:"/images/Charlotte-Custom-Software-Development-Company-15.jpg",
@@ -1553,7 +1553,7 @@ export const locationsdata = [
 
                     If you’re looking to enhance your online presence, develop software solutions, maintain automated unit testing, work with a senior software engineer , or improve your search engine optimization strategy, we have the expertise you need. Contact us today to discuss how our services, and our team of expert software engineers , can benefit your business in Charlotte.`,
 
-                    imageSrc: "/images/Charlotteoutline.png",
+                    imageSrc: "/images/Charlotte-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1604,7 +1604,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 15,
+        id: 16,
         meta_title:"Chesapeake Custom Software Development Company | Dev.co",
         meta_description: "Our Chesapeake custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today",
         og_image:"/images/Chesapeake-Custom-Software-Development-Company-15b.jpg",
@@ -1622,7 +1622,7 @@ export const locationsdata = [
 
                     Software engineering, software engineer jobs, project management, software testing, ensure project specification, power platform developer – these are the cornerstones of our approach to deliver outstanding web solutions. We integrate software engineering principles to ensure the robustness of your web projects and the satisfaction of your users. Our team of skilled software engineers and project managers is committed to exceeding your expectations, and our rigorous software testing ensures the reliability of your digital assets. We are your trusted partner for all your web development needs, offering top-notch software engineering solutions to drive your business forward.`,
 
-                    imageSrc: "/images/Chesapeakeoutline.png",
+                    imageSrc: "/images/chesapeake.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1680,7 +1680,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 16,
+        id: 17,
         meta_title:"Chicago Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Chicago, Illinois. Contact us today about our Chicago web development services.",
         og_image:"/images/Chicago-Custom-Software-Development-Company-16.jpg",
@@ -1705,7 +1705,7 @@ export const locationsdata = [
 
                     And if you’re also seeking software engineering jobs in Chicago IL, Dev.co can be an excellent resource to explore opportunities in this field. Whether it’s web design or software engineering, Dev.co has you covered in Chicago IL.`,
 
-                    imageSrc: "/images/Chicagooutline.png",
+                    imageSrc: "/images/chicago-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1763,7 +1763,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 17,
+        id: 18,
         meta_title:"Chula Vista Custom Software Development Company | Dev.co",
         meta_description: "Our Chula Vista custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Chula-Vista-Custom-Software-Development-Company-17.jpg",
@@ -1783,7 +1783,7 @@ export const locationsdata = [
 
                     In brief, if you need anything from sophisticated website design services (thanks to the magic created by our brilliant folks working on Software Engineering or want excellent quality assistance regarding Internet marketing – look no further than us.`,
 
-                    imageSrc: "/images/Chula Vistaoutline.png",
+                    imageSrc: "/images/chula-vista.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1858,7 +1858,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 18,
+        id: 19,
         meta_title:"Cincinnati Custom Software Development Company | Dev.co",
         meta_description: "Our Cincinnati custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Cincinnati-Custom-Software-Development-Company-18.jpg",
@@ -1874,7 +1874,7 @@ export const locationsdata = [
 
                     With our help, you can ensure that we will maintain innovative software solutions and more people will be able to take advantage of your goods and services in real-time. Our skilled professionals are among the best website designers in Cincinnati and beyond, and we use only the latest innovations in technology and creativity to make your business truly visible!`,
 
-                    imageSrc: "/images/Cincinnatioutlined.png",
+                    imageSrc: "/images/Cincinnati-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1918,7 +1918,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 19,
+        id: 20,
         meta_title:"Cleveland Custom Software Development Company | Dev.co",
         meta_description: "Our Cincinnati custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Cleveland-Custom-Software-Development-Company-19.jpg",
@@ -1934,7 +1934,7 @@ export const locationsdata = [
 
                     DEV.co has provided web design & development services to thousands of small businesses. From our home office in Ohio, we offer a wide range of web design services to help companies connect with their customer base and expand their markets. Our team members have years of experience in the digital media industry, having earned certifications such as Google Analytics, HubSpot Inbound Marketing Certification, and more. When you choose DEV.co for your Cleveland website design & development needs, you’re choosing an agency with unmatched expertise that can help your business reach its full potential online.`,
 
-                    imageSrc: "/images/Clevelendoutline.png",
+                    imageSrc: "/images/cleveland-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -1986,7 +1986,7 @@ export const locationsdata = [
          },
       },
       {
-        id: 20,
+        id: 21,
         meta_title:"Colorado Springs Custom Software Development Company",
         meta_description: "Dev.co is one of the best web design agencies in Colorado Springs, Colorado. Contact us today about our Colorado Springs web development",
         og_image:"/images/Colorado-Springs-Custom-Software-Development-Company-20.jpg",
@@ -2010,7 +2010,7 @@ export const locationsdata = [
 
                     Hiring a professional website design agency in Colorado Springs is your best option for receiving an excellent website for your business.`,
 
-                    imageSrc: "/images/Colorado Springsoutline.png",
+                    imageSrc: "/images/Web-Design-in-Colorado-Springs.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2066,7 +2066,7 @@ And what about your city’s department business? It’s in computer engineering
          },
       },
       {
-        id: 21,
+        id: 22,
          meta_title:"Columbus Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Columbus, Ohio. Contact us today about our Columbus web development services.",
         og_image:"/images/Columbus-Custom-Software-Development-Company21.jpg",
@@ -2086,7 +2086,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     People can be quite critical of how websites look! It’s key to have a design that outshines your competitors’. Want to win over their customers and boost your online visibility? Get a web development company from Columbus on board. They have the technical resources and knowledge in computer engineering needed. Plus, they’re skilled in object oriented design and use automation tools. This ensures you end up with a superior site.`,
 
-                    imageSrc: "/images/Columbusoutline.png",
+                    imageSrc: "/images/columbus.jpeg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2133,7 +2133,7 @@ And what about your city’s department business? It’s in computer engineering
          },
       },
       {
-        id: 22,
+        id: 23,
          meta_title:"Corpus Christi Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Corpus Christi, TX. Contact us today about our Corpus Christi web development services.",
         og_image:"/images/Corpus-Christi-Custom-Software-Development-Company-22.jpg",
@@ -2153,7 +2153,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     For those intrigued by computer science and software development planning, rest easy knowing we pride ourselves on delivering inviting digital landscapes encouraging interaction between users and brands like yours. Our ultimate goal? Ensuring positive ROI via top-notch social media marketing strategies, adept search engine optimization tactics and efficient computer systems!Our ultimate goal? Ensuring positive ROI via top-notch social media marketing and adept search engine optimization tactics!`,
 
-                    imageSrc: "/images/Corpus Christioutline.png",
+                    imageSrc: "/images/Corpus-Christi.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2206,7 +2206,7 @@ And what about your city’s department business? It’s in computer engineering
       },
 
       {
-        id: 23,
+        id: 24,
          meta_title:"Dallas Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Dallas, Texas. Contact us today about our Dallas web development services.",
         og_image:"/images/Dallas-Custom-Software-Development-Company-23.jpg",
@@ -2232,7 +2232,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     Winning at search engine rank races (think Google or Bing) only happens when sites are tailored according to exact standards set by these giants themselves—enter software developers equipped with mobile testing tools operating as part of development teams who specialize in computer science where their full time programs concentrate heavily on object-oriented analysis making sure complex projects can be handled easily while maximizing results regardless how demanding tasks might become.`,
 
-                    imageSrc: "/images/Dallasoutline.png",
+                    imageSrc: "/images/dallas.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2293,7 +2293,7 @@ And what about your city’s department business? It’s in computer engineering
       },
 
       {
-        id: 24,
+        id: 25,
          meta_title:"Denver Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Denver, CO. Contact us today about our Colorado web development services.",
         og_image:"/images/Denver-Custom-Software-Development-Company-24.jpg",
@@ -2327,7 +2327,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     Oh yeah – don’t forget something: always keep Ray ID handy whenever possible during these exciting times of digital advancement!`,
 
-                    imageSrc: "/images/Denveroutline.png",
+                    imageSrc: "/images/denver-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2378,7 +2378,7 @@ And what about your city’s department business? It’s in computer engineering
 
 
       {
-        id: 25,
+        id: 26,
          meta_title:"Detroit Custom Software Development Company | Dev.co",
         meta_description: "Our Detroit custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Detroit-MI-Custom-Software-Development-Company-25.jpg",
@@ -2411,7 +2411,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     Let’s get started soon then – drop us a message today!`,
 
-                    imageSrc: "/images/Detroitoutline.png",
+                    imageSrc: "/images/toledo-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2475,7 +2475,7 @@ And what about your city’s department business? It’s in computer engineering
       },
 
       {
-        id: 26,
+        id: 27,
          meta_title:"Durham Custom Software Development Company | Dev.co",
         meta_description: "Our Durham custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Durham-Custom-Software-Development-Company-26.jpg",
@@ -2493,7 +2493,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     Our commitment lies within quality and engineering excellence which echoes into everything we do – from hiring skilled software engineers who are adept at executing art Software programs, handling sensor data processing tasks efficiently while working alongside media engineering team focusing on software engineer jobs inside the firm! Our emphasis always remains unwavering upon excellent standards of related software Engineering field. `,
 
-                    imageSrc: "/images/Durhamoutline.png",
+                    imageSrc: "/images/Durham.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2553,7 +2553,7 @@ And what about your city’s department business? It’s in computer engineering
       },
 
       {
-        id: 27,
+        id: 28,
          meta_title:"El Paso Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in El Paso, Texas. Contact us today about our El Paso web development services.",
         og_image:"/images/El-Paso-Custom-Software-Development-Company-27.jpg",
@@ -2583,7 +2583,7 @@ And what about your city’s department business? It’s in computer engineering
 
                     Incorporating “Deploy technical solutions”, focusing on connecting to software developer jobs that apply responsive web design principles. These are mastered by versatile software developers adept in backend software development criteria. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/El-Paso-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2636,7 +2636,7 @@ This means you can count on us to deliver a website that will improve your ROI a
       },
 
       {
-        id: 28,
+        id: 29,
          meta_title:"Fort Wayne Custom Software Development Company | Dev.co",
         meta_description: "Our Fort Wayne custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Fort-Wayne-Custom-Software-Development-Company-28.jpg",
@@ -2656,7 +2656,7 @@ This means you can count on us to deliver a website that will improve your ROI a
 
                 Come join us as we create job alert opportunities every day for ambitious computer engineering professions looking forward to innovative solutions making waves all over the world. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/fort-wayne-scale.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2710,7 +2710,7 @@ This means you can count on us to deliver a website that will improve your ROI a
       },
 
       {
-        id: 29,
+        id: 30,
          meta_title:"Fort Worth Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Fort Worth, Texas. Contact us today about our Fort Worth web development services.",
         og_image:"/images/Fort-Worth-Custom-Software-Development-Company-29.jpg",
@@ -2736,7 +2736,7 @@ This means you can count on us to deliver a website that will improve your ROI a
 
                     After verification successful waiting for just a few seconds, think about us similar way as the job alert system- letting software engineer job seekers know about their dream opportunities available in the computer science sector around them. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Web-Design-in-Fort-Worth.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2792,7 +2792,7 @@ This means you can count on us to deliver a website that will improve your ROI a
          },
       },
       {
-        id: 30,
+        id: 31,
          meta_title:"Fremont Custom Software Development Company | Dev.co",
         meta_description: "Our Fremont custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Fremont-Custom-Software-Development-Company-30.jpg",
@@ -2808,7 +2808,7 @@ This means you can count on us to deliver a website that will improve your ROI a
 
                     Located in picturesque Fremont – a city known for its diverse businesses – we stand out as one of California’s top-notch website design companies; making it easier than ever before for entrepreneurs like yourself to create job alert or create technical design documents effortlessly through software engineer jobs platform that comes at affordable prices with flexible payment plans.`,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/fremont.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2856,7 +2856,7 @@ This means you can count on us to deliver a website that will improve your ROI a
       },
 
       {
-        id: 31,
+        id: 32,
          meta_title:"Fresno Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Fresno, California. Contact us today about our Fresno web development services.",
         og_image:"/images/Fresno-Custom-Software-Development-Company-31.jpg",
@@ -2878,7 +2878,7 @@ This means you can count on us to deliver a website that will improve your ROI a
 
                     With a well-crafted website showing off your offerings, prospective clients can easily do their homework and familiarize themselves with your brand. This task isn’t far-fetched for any committed stack engineer or software engineer aiming to elevate customer comfort levels around the business persona.`,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/fresno-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -2931,7 +2931,7 @@ This means you can count on us to deliver a website that will improve your ROI a
       },
 
       {
-        id: 32,
+        id: 33,
          meta_title:"Garland Custom Software Development Company | Dev.co",
         meta_description: "Our Garland custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Garland-Custom-Software-Development-Company-32.jpg",
@@ -2951,7 +2951,7 @@ This means you can count on us to deliver a website that will improve your ROI a
 
                     We offer comprehensive services ranging from crafting new site designs to maintaining current ones – all while ensuring mobile-friendliness and high-quality output at every turn. So when you’re looking for standout software developer jobs or need professional handling of your software applications. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Garland-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3000,7 +3000,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 33,
+        id: 34,
          meta_title:"Gilbert Custom Software Development Company | Dev.co",
         meta_description: "Our Gilbert custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Gilbert-Custom-Software-Development-Company-33.jpg",
@@ -3018,7 +3018,7 @@ We offer website design for a variety of industries including small business, de
 
                     We provide businesses that have just started up with affordable website development services in Gilbert, Arizona. To learn more about our services and pricing `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Gilbert-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3070,7 +3070,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 34,
+        id: 35,
          meta_title:"Glendale Custom Software Development Company | Dev.co",
         meta_description: "Our Glendale custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         og_image:"/images/Glendale-Custom-Software-Development-Company-34.jpg",
@@ -3088,7 +3088,7 @@ We offer website design for a variety of industries including small business, de
 
                     With our creative team of designers, developers, and online marketing experts, we provide the most modern custom software solutions in the industry. We are focused on helping businesses develop an online presence that meets and exceeds today’s consumers’ heightened expectations. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Glendale-Web-Design.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3138,7 +3138,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 35,
+        id: 36,
          meta_title:"Greensboro Custom Software Development Company | Dev.co",
         meta_description: "Our Greensboro custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         og_image:"/images/Greensboro-Custom-Software-Development-Company-35.jpg",
@@ -3162,7 +3162,7 @@ We offer website design for a variety of industries including small business, de
 
                     Our history of high-quality, and custom software solutions allows us to provide unparalleled results for all levels of business.  `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Greensboro-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3214,7 +3214,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 36,
+        id: 37,
          meta_title:"Henderson Custom Software Development Company | Dev.co",
         meta_description: "Our Henderson custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         og_image:"/images/Henderson-Custom-Software-Development-Company-36.jpg",
@@ -3236,7 +3236,7 @@ We offer website design for a variety of industries including small business, de
 
                     We also specialize in custom WordPress development (we developed a plugin with over 100,000 active installs). We are one of only three companies dedicated to the core codebase through the WordPress Core Contributor program. `,
 
-                    imageSrc: "/images/El pasooutline.png",
+                    imageSrc: "/images/Henderson.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3288,7 +3288,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 37,
+        id: 38,
          meta_title:"Honolulu Custom Software Development Company | Dev.co",
         meta_description: "Our Honolulu custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         og_image:"/images/Honolulu-Custom-Software-Development-Company-37.jpg",
@@ -3310,7 +3310,7 @@ We offer website design for a variety of industries including small business, de
 
                     We’ve been designing websites that are in sync with your company’s brand, building responsive websites, and designing web applications since 2006. DEV.co software development firm has the creative instinct necessary for a unique edge in today’s highly competitive marketplace, and we use this to implement an effective mobile app development and marketing communication strategy for your business.`,
 
-                    imageSrc: "/images/Honolulu_Outline Stroke.png",
+                    imageSrc: "/images/Honolulu-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3361,7 +3361,7 @@ We offer website design for a variety of industries including small business, de
          },
       },
       {
-        id: 38,
+        id: 39,
          meta_title:"Houston Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Houston, Texas. Contact us about our web development services in Houston, TX.",
         og_image:"/images/Houston-Custom-Software-Development-Company-38.jpg",
@@ -3383,7 +3383,7 @@ We offer website design for a variety of industries including small business, de
 
                     For this reason, hiring a Houston software developer who will provide custom software development services and technical support is helpful in establishing your web presence and boosting sales and revenue. Additionally, they can optimize your business processes with tailored software development solutions and create mobile apps to further enhance your digital reach.`,
 
-                    imageSrc: "/images/Houston_Outline Stroke.png",
+                    imageSrc: "/images/houston-banner.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3444,7 +3444,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 39,
+        id: 40,
          meta_title:"Indianapolis Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Indianapolis, IN. Contact us today about our Indianapolis web development services.",
         og_image:"/images/Indianapolis-Custom-Software-Development-Company-39.jpg",
@@ -3466,7 +3466,7 @@ We offer website design for a variety of industries including small business, de
 
                     Indianapolis software developers are known for their expertise and can provide managed services to keep your website running smoothly. Whether you need a new website or enhancements to your existing one, working with a team that understands mobile apps and the local market is key to your business success.`,
 
-                    imageSrc: "/images/Indianapolis_Outline Stroke.png",
+                    imageSrc: "/images/Web-Design-in-Indianapolis.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3518,7 +3518,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 40,
+        id: 41,
          meta_title:"Irvine Custom Software Development Company | Dev.co",
         meta_description: "Our Irvine custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
         og_image:"/images/Irvine-Custom-Software-Development-Company-40.jpg",
@@ -3540,7 +3540,7 @@ We offer website design for a variety of industries including small business, de
 
                     Our software development team ensures that your custom software and website are easy to search, quick to load, simple to navigate, and engaging to interact with.`,
 
-                    imageSrc: "/images/Irvine_Outline Stroke.png",
+                    imageSrc: "/images/Web-Design-in-Irvine.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3589,7 +3589,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 41,
+        id: 42,
          meta_title:"Irving Custom Software Development Company | Dev.co",
         meta_description: "",
         og_image:"/images/Irving-Custom-Software-Development-Company-41.jpg",
@@ -3611,7 +3611,7 @@ We offer website design for a variety of industries including small business, de
 
                     As a leading software development company, we offer a full range of web design, hosting, and marketing services for small businesses and start-ups. Our expert web developers and software developers deliver expertise to create exceptional software solutions that drive success.`,
 
-                    imageSrc: "/images/Irving_Outline Stroke.png",
+                    imageSrc: "/images/Irving.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3666,7 +3666,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 42,
+        id: 43,
          meta_title:"Jacksonville Custom Software Development Company | Dev.co",
         meta_description: "Dev.co is one of the best web design agencies in Jacksonville, Florida. Contact us today about our Jacksonville web development services.",
         og_image:"/images/Jacksonville-Custom-Software-Development-Company-42.jpg",
@@ -3690,7 +3690,7 @@ We offer website design for a variety of industries including small business, de
 
                     Having a high website ranking is crucial. Web development ranking starts with creating a valuable website that properly communicates the value of your products and services. Businesses aiming to showcase their custom software solutions and technical expertise in business intelligence development should prioritize their SEO efforts. In Jacksonville, standing out among the best software development companies requires strategic positioning and visibility for Jacksonville software developers.`,
 
-                    imageSrc: "/images/Jacksonville_Outline Stroke.png",
+                    imageSrc: "/images/Jacksonville.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3744,7 +3744,7 @@ We offer website design for a variety of industries including small business, de
       },
 
       {
-        id: 43,
+        id: 44,
          meta_title:"Jersey City Custom Software Development Company | Dev.co",
         meta_description: "Our Jersey custom development services help you design and develop your ideal website, mobile app or custom project. Contact us today!",
         og_image:"/images/Jersey-City-Custom-Software-Development-Company-42.jpg",
@@ -3762,7 +3762,7 @@ We offer website design for a variety of industries including small business, de
 
                     Our expert staff of designers and developers have a proven track record of creating high-quality, search engine optimized websites that empower every customer to achieve their business goals.`,
 
-                    imageSrc: "/images/Jersey city_Outline Stroke.png",
+                    imageSrc: "/images/Jersey-City.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3842,7 +3842,7 @@ We offer website design for a variety of industries including small business, de
 
                     As one of the top software development companies, they offer custom software solutions and project management tailored to your business strategy. With their technical expertise and experience as a leading Kansas City software developer, they also provide digital marketing, mobile app development, and other essential services.`,
 
-                    imageSrc: "/images/Kansas City_Outline Stroke.png",
+                    imageSrc: "/images/kansas-city-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3924,7 +3924,7 @@ We offer website design for a variety of industries including small business, de
 
                     Our success stories highlight our expertise in software engineering, as we tailor solutions to meet specific user requirements. Whether you need a platform engineer or a comprehensive development team, we are here to turn your vision into reality.`,
 
-                    imageSrc: "/images/Laredo_Outline Stroke.png",
+                    imageSrc: "/images/Laredo.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -3997,7 +3997,7 @@ We offer website design for a variety of industries including small business, de
 
                     In addition to website creation, our consulting services are tailored to meet the needs of enterprise clients across various industries, ensuring a seamless digital transformation. We leverage innovative technologies to design websites that not only reflect your brand but also drive growth and success.`,
 
-                    imageSrc: "/images/Las Vegas_Outline Stroke.png",
+                    imageSrc: "/images/las-vegas-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4073,7 +4073,7 @@ We offer website design for a variety of industries including small business, de
 
                     We do this all while providing you with upstanding customer service, and some of the most competitive prices in an industry notorious for overcharging small businesses on price.`,
 
-                    imageSrc: "/images/Lexington_Outline Stroke.png",
+                    imageSrc: "/images/Lexington-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4145,7 +4145,7 @@ We offer website design for a variety of industries including small business, de
 
                     Get all the features you want from your development team ― plus a whole lot more. We started DEV.co to create an agency that crafts websites that not only look great but work seamlessly for customers and business owners alike. We’re a small team of passionate developers, designers, and customer care professionals with varied experience in agencies, startups, and established companies ― and we’re here to serve you. `,
 
-                    imageSrc: "/images/Lexington_Outline Stroke.png",
+                    imageSrc: "/images/lincoln.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4217,7 +4217,7 @@ We offer website design for a variety of industries including small business, de
 
                     Every company needs a web design strategy, and it’s no different for startups. That’s where DEV.co comes in. `,
 
-                    imageSrc: "/images/Long Beach_Outline Stroke.png",
+                    imageSrc: "/images/Long-Beach.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4307,7 +4307,7 @@ A top Los Angeles web development agency will not only enhance your website but 
 
 By working with experienced software developers, you can streamline your software development process and implement custom software solutions that support your digital transformation efforts, ensuring your business stays competitive. Software development companies play a crucial role in elevating your digital presence and helping you achieve long-term success.`,
 
-                    imageSrc: "/images/Los Angeles_Outline Stroke.png",
+                    imageSrc: "/images/los-angeles.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4396,7 +4396,7 @@ Our experienced team of software developers ensures each project meets specific 
 For our clients’ peace of mind, we offer ongoing hosting and marketing services at no additional cost to ensure user engagement via the web on a daily basis.
 <br></br>
 DEV.co is a small but mighty team of designers, developers, and marketers ready to take on development projects – both big and small. We have developed over 1000 custom websites that meet all web design standards including W3C compliant HTML5 and CSS3 code; SEO-friendly URLs; fast load times; and eye-catching designs.`,
-                    imageSrc: "/images/Lubbock_Outline Stroke.png",
+                    imageSrc: "/images/lubbock.jpg",
                     imageAlt: "Software Development in Albuquerque"
                 },
                 {
@@ -4463,7 +4463,7 @@ We guarantee that you will get highly skilled and experienced developers from ou
 <br></br>
 DEV.co is a customized service giving company established to fulfill the long-standing need for freelance software development with an exclusively focused approach to providing top of the line solutions by unmatched professionals within a short deadline period.`,
 
-                    imageSrc: "/images/Madison_Outline Stroke.png",
+                    imageSrc: "/images/madison.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4542,7 +4542,7 @@ Granted, there are many web design companies in Memphis. If you don’t know whe
 
 Our expert development team provides tailored solutions that go beyond web design, including mobile apps and high-quality software to streamline your business processes. With innovative solutions, consulting services, and dedicated project management, we ensure ongoing support to help your business thrive in Memphis’s competitive market.`,
 
-                    imageSrc: "/images/Memphis_Outline Stroke.png",
+                    imageSrc: "/images/memphis-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4627,7 +4627,7 @@ As one of the top software development companies, we specialize in creating tail
 <br></br>
 Our skilled software developers and project management team work hand-in-hand to deliver exceptional web development and software solutions designed to elevate your online presence.`,
 
-                    imageSrc: "/images/Mesa_Outline Stroke.png",
+                    imageSrc: "/images/Web-Design-in-Mesa.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4788,7 +4788,7 @@ Where is your website ranked amongst this massive competition? If your website i
 <br></br>
 As such, you should contact a reputable Milwaukee website design agency or a software development firm specializing in custom software development in Milwaukee. Their software development team can help you create the perfect website and digital solutions for your brand. This way, you can position your business above the rest of the competition and drive meaningful results.`,
 
-                    imageSrc: "/images/Milwaukee_Outline Stroke.png",
+                    imageSrc: "/images/milwaukee-scaled-1536x1024.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4861,7 +4861,7 @@ We don’t rush into a project. We take time to truly understand your business, 
 <br></br>
 Our main focus will be on strategic ideation and developing competitive or disruptive positioning, along with a design concept that will be impactful and unique. From services in Minneapolis to global offerings, we help companies supercharge their startup, corporate, or agency branding. Our process determines the target audience and how they can uniquely position your business in the market – ultimately resulting in a stronger brand. Our project managers ensure smooth project execution, while our quality assurance team and ongoing maintenance services provide peace of mind. We also offer ongoing support to help your business evolve with market demands.`,
 
-                    imageSrc: "/images/Minnaepolis_Outline Stroke.png",
+                    imageSrc: "/images/Minneapolis.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -4933,7 +4933,7 @@ Standing out in Nashville can be challenging since many people use the internet 
 
 You may also struggle to outrank your competitors on major search engines like Google and Bing. For this reason, you should hire a Nashville website developer to spearhead your campaign in your stead.`,
 
-                    imageSrc: "/images/Nishville_Outline Stroke.png",
+                    imageSrc: "/images/nashville-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5018,7 +5018,7 @@ We started DEV.co to create an agency that crafts websites that not only look gr
 <br></br>
 We’re a small team of passionate developers, designers, and customer care professionals with varied experience in agencies, startups, and established companies ― and we’re here to serve you.`,
 
-                    imageSrc: "/images/New Orleans_Outline Stroke.png",
+                    imageSrc: "/images/orleans.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5098,7 +5098,7 @@ In fact, commerce is a trademark of the city. There are likely several competito
 <br></br>
 Building an exceptional website is one of the most effective ways your target audience can find your business.`,
 
-                    imageSrc: "/images/New york city_Outline Stroke.png",
+                    imageSrc: "/images/new-york.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5189,7 +5189,7 @@ Our beautifully crafted WordPress theme and plugins allow you to create anything
 <BR></BR>
 We provide websites that are tailored to you, and we’re constantly pushing the envelope to offer new services that meet changing expectations in the digital space. Whether you’re a sole proprietor, start-up, or established business, we can make sure that your digital presence is a strategic advantage. `,
 
-                    imageSrc: "/images/Nerwark_Outline Stroke.png",
+                    imageSrc: "/images/newark.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5273,7 +5273,7 @@ Developed and maintained by an all-star team of designers, engineers, and market
 
 `,
 
-                    imageSrc: "/images/New Orleans_Outline Stroke.png",
+                    imageSrc: "/images/norfolk.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5357,7 +5357,7 @@ DEV.co is an interactive agency for all skill levels, from beginners to professi
 
 `,
 
-                    imageSrc: "/images/oakland_Outline Stroke.png",
+                    imageSrc: "/images/oakland.webp",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5437,7 +5437,7 @@ Contact us today to learn more about how we can help you!
 
 `,
 
-                    imageSrc: "/images/Oklahoma City_Outline Stroke.png",
+                    imageSrc: "/images/Oklahoma-City.jpg",
                     imageAlt: "Software Development in Albuquerque",
                     listItems: [
                       `<b>Custom software development</b> <br>We can create custom software solutions that are created specifically to your business’ needs. This can help you save time and money, and improve your overall productivity.`,
@@ -5515,7 +5515,7 @@ Local businesses run rampant in Omaha, making it very difficult to stand out if 
 <br></br>
 At Dev.co, we can help you achieve more online visibility and improve your conversion rate.`,
 
-                    imageSrc: "/images/Omaha_Outline Stroke.png",
+                    imageSrc: "/images/omaha-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
@@ -5591,7 +5591,7 @@ We specialize in integrating modular solutions for businesses and agencies that 
 <BR></BR>
 With all the resources you need for creating your own custom website or app, DEV.co will walk you through every step of the process. Our interactive platform allows anyone to build a clean, beautiful website or mobile app without learning code! Follow our tutorial videos and build your website from scratch or use one of our pre-built templates that are sure to impress.`,
 
-                    imageSrc: "/images/Orlando_Outline Stroke.png",
+                    imageSrc: "/images/orlando.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
@@ -5666,7 +5666,7 @@ It’s also the site of corporate headquarters for Comcast, Aramark, and CIGNA. 
 <br></br>
 If you run any type of business in this city, having an established digital presence is essential. With an exceptional website from our Philadelphia web design agency, you can thrive in your industry and surpass your competitors.`,
 
-                    imageSrc: "/images/Philadephia_Outline Stroke.png",
+                    imageSrc: "/images/Philadelphia.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5743,7 +5743,7 @@ Ranking first on Google and Bing starts with a premium website. We can build a w
 
 `,
 
-                    imageSrc: "/images/Phoenix_Outline Stroke.png",
+                    imageSrc: "/images/Phoenix.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 {
@@ -5831,7 +5831,7 @@ It’s also convenient to perform basic and extensive research before committing
 <br></br>
 If your business isn’t found online, it’s frankly going to suffer. You’ll even find difficulty surpassing your competitors, which can be disastrous if you’re in a competitive industry. For this reason, you should hire a Portland website developer to build an impeccable site for your brand.`,
 
-                    imageSrc: "/images/Portland_Outline Stroke.png",
+                    imageSrc: "/images/portland-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
@@ -5913,7 +5913,7 @@ This means anyone that wants to buy a weighted blanket will research it first be
 <br></br>
 It’s also important to have a website that brilliantly showcases your products and services. The team at Dev.co can create a website that accomplishes all of your marketing objectives.`,
 
-                    imageSrc: "/images/Relaigh_Outline Stroke.png",
+                    imageSrc: "/images/raleigh-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
@@ -5996,7 +5996,7 @@ For local businesses, having an online presence means positioning yourself on Go
 <br></br>
 Creating a top-notch website is the first step to establishing an online presence, and that’s where we can help.`,
 
-                    imageSrc: "/images/Sacramento_Outline Stroke.png",
+                    imageSrc: "/images/Sacramento.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
                 
@@ -6078,7 +6078,7 @@ The team at DEV.co brings a mix of design savvy and technology innovation to eve
 DEV.co apps cost as little as possible, & are designed with the same techniques & tools used to build things at Facebook, Twitter, Tumblr, Airbnb, Etsy & Uber. Our goal is to make you look good so you can focus on business.
 `,
 
-                    imageSrc: "/images/Salt Lake City_Outline Stroke.png",
+                    imageSrc: "/images/salt-lake.jpeg",
                     imageAlt: "Software Development in Albuquerque",
                 },
             ],
@@ -6138,7 +6138,7 @@ Most consumers use the internet to find these businesses. If your website is now
 Hiring a web design agency in San Antonio is the first step in creating an outstanding website that ranks well on major search engines and delivers qualified leads to your business on a silver platter.
 `,
 
-                    imageSrc: "/images/San Antonio_Outline Stroke.png",
+                    imageSrc: "/images/san-antonio.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6213,7 +6213,7 @@ If you operate in this niche, then you’ll need a fully-function website to tru
 A delay in securing a top-notch website for your business can only lead more potential customers to your competitors. Partner with Dev.co today to learn more about how we can help.
 `,
 
-                    imageSrc: "/images/San Diego_Outline Stroke.png",
+                    imageSrc: "/images/san-diego-banner.jpeg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6292,7 +6292,7 @@ Without a website, you risk to send your potential customers directly to your ma
 In order to keep your business afloat, your website needs to be positioned in a place where your target audience can find it – the internet.
 `,
 
-                    imageSrc: "/images/San Francisco_Outline Stroker.png",
+                    imageSrc: "/images/San-Francisco.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6369,7 +6369,7 @@ If you’re caught slacking, then you can miss out on valuable business. It’s 
 If you are in need of outstanding web development services in San Jose, you can rely on us to deliver.
 `,
 
-                    imageSrc: "/images/San Jose_Outline Stroke.png",
+                    imageSrc: "/images/San-Jose.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6448,7 +6448,7 @@ Our custom software development team are experts, capable of delivering a wide r
 If you’re seeking software engineers or even looking for software engineer jobs, you have come to the right place. By hiring a professional Seattle software development firm, you can succeed in building the perfect software application, web product flow or mobile experience for your brand.
 `,
 
-                    imageSrc: "/images/Seattle_Outline Stroke.png",
+                    imageSrc: "/images/seattle.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6532,7 +6532,7 @@ Starting a website is a great place to start. Local businesses tend to thrive in
 Our team will deliver Tucson website development services to create a website that will complement your brand.
 `,
 
-                    imageSrc: "/images/Tucson_Outline Stroke.png",
+                    imageSrc: "/images/Tucson.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6613,7 +6613,7 @@ If your website can’t be found where it matters most, which is on major search
 Almost all successful brands have a stable online presence and dynamic website. With that said, how does your website stack up against its competitors?
 `,
 
-                    imageSrc: "/images/Washington D.C._Outline Stroke.png",
+                    imageSrc: "/images/washington.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6696,7 +6696,7 @@ High quality UX design is essential for creating a positive user experience. It 
 That’s why it’s so important to work with a team of experienced designers who understand how to create an engaging user experience.
 `,
 
-                    imageSrc: "/images/West palm Beach_Outline Stroke.png",
+                    imageSrc: "/images/West-Palm-Beach.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6783,7 +6783,7 @@ Luckily, the team at Dev.co can help in creating the perfect website for your br
 From mobile app development to web development, our Louisville software developers specialize in delivering tailored software solutions that fit your unique business needs. Trust Dev.co to provide cutting-edge digital solutions to elevate your brand.
 `,
 
-                    imageSrc: "/images/Louisville_Outline Stroke.png",
+                    imageSrc: "/images/louisville-scaled.jpg",
                     imageAlt: "Software Development in Albuquerque",
                 },
 
@@ -6841,4 +6841,267 @@ In addition to this, we pay special attention to all of our web development proj
 `,
          },
       },
+      {
+        id: 82,
+        meta_title:"Bentonville Custom Software Development Company | Dev.co",
+        meta_description: "Dev.co is one of the best custom software development companies in Bentonville, AR. Contact us for Bentonville software development services.",
+        og_image:"/images/Albuquerque.jpg",
+        slug: "bentonville",
+        top_title: "Bentonville Custom Software Development Company",
+        top_description: `Businesses that find themselves competing in the tech-focused environment of Bentonville need to make sure their online presence is enhanced, so as to be more readily spotted by consumers than local competitors and even large Fortune 500 corporations. This can be achieved through partnering up with an experienced software developer from Bentonville Software Development Company.<br></br>Gain access to cutting-edge digital solutions together and remain competitive even among well-established corporate brands. Take advantage of this powerful collaboration and pave the way for success with increased visibility, strengthened branding opportunities, and an improved overall atmosphere in which customers actively seek out your offerings.<br></br>
+        Wish to receive personable attention while crafting a prominent business website, riskless personalized software services or a unique customer-facing digital presence? Become part of our service offering today for advanced developments already on par with industry trendsetters!`,
+
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `A Bentonville Software Engineer Team & 
+<br><span class="text-headingBlue"> Web Development Company</span> `,
+                    paragraph:`At Bentonville Software Development Company, we specialize in providing tailored engineering solutions to organizations through custom software development. Our process actually starts with a comprehensive business analysis that allows us to create the right solutions for your desired objectives.<br></br>
+                    By utilizing modern frameworks and software engineering concepts, our experienced team of engineers is equipped to handle projects requiring Node.js, React, Angular – to name a few – or any other preferred programming language used for creating an optimal customer experience.<br></br>
+                   For companies that require great software engineers, as well as those searching for potential job openings at an outstanding software engineering firm – look no further than Bentonville Software Development Company!<br></br>We collaborate with you at each step of the journey towards constructing innovative web and mobile applications with seamless product flows and user experiences branded specifically for your organization’s needs. Make sure your opportunities generate real success by partnering up with experts from our exceptional state-of-the-art software development company in Bentonville today!`,
+                    imageSrc: "/images/A-Bentonville-Software.jpg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Importance of Software Dev Quality`,
+                    paragraph:`This starts with initially nailing our sets of industry-specific best practices and standards from the start. This eliminates the extra cost that stands to be incurred as a result of seeking software repairs down the line. Additionally, having an established QA routine helps spur increased output.<br></br>
+                    Moreover, this also allows us to thoroughly inspect products for areas requiring treatment–and ensure specialist applications will work flawlessly across all device platforms before product rollouts proceed in full force. Think mobile app testing, regression tests, and usability tests depending on your specific needs & project size, too! Fixing the flaws discovered throughout QA procedures is where real technological value is produced to promote inventive work productivity advantageous to both developers and viewers alike.<br></br>
+                   By enhancing scalability, you build a foundation of confidence that your web project will ride to its destination prepared for true financial success from the get-go—leaving users wanting more!`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+               
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `How We Can Help with Your Software Development Project`,
+                    paragraph:`Our team of software engineers and executives will accompany you every step of the way in your software development process from start to finish.<br></br>With our specialized direction, counsel, and support we’re here to help secure a successful project with each outcome perfectly tailored towards your best interests! Count on us to meet your highest expectations guaranteed!`,
+
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        `<b>Tailored Solutions to Fit Your Needs : </b>Composed of knowledgeable experts with extensive software development experience, our dedicated team focuses on customizing every endeavor to the exact needs and speculations made by our clients. Because no two projects are alike, we make sure their individual requirements get met or exceeded through in-depth discussions during production phases. Whether it be a website is better seen from small screens or comprehensive business applications that bridge solutions – all while remaining within their honored budget – you can rely on obtaining greater than expected results that bring your goals into vision.`,
+                        `<b>Efficient Agile Development : </b>We strongly advise that the Agile method be used for software development, as it offers a clear, effective way of creating and improving our product. It encourages recurrent input from stakeholders, in combination with short cycles, allowing us to recognize any alterations in design quickly and provide our clients with a custom-made solution precisely suited to their needs.`,
+                        `<b>Reliable On-Time Delivery : </b>At Dev.co, we recognize the imperativeness of timely implementation and budget adherence when constructing software. That’s why our project management staff views taking proper steps to guarantee your product is manufactured on time and within resources specified as a significant duty. We make sure you stay comprehensive in control by utilizing superior instruments and tactics benefits during the whole process of progress.`,
+                        `Throwing dream goals into reality is our mission. At Dev.co, all we do is bring top-class engineering excellence and problem-solving solutions in order for successful development of a product no matter which stage you are in the journey. With an everlasting commitment to merge ideas with the perfect psychological perspective, come join us now to leap onto your endeavor’s trek!`,
+                        ,
+                      ],
+                      
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+            paracontent: `Located in the city of Bentonville, Arkansas, our company is proud to offer 12+ years of know-how in web and software development. We are extremely committed to helping customers elevate their online presence or attract more potential customers on their websites. Our solid track record reflects the standard of quality that you can trust from us.<br></br>
+
+            No matter what the software engineering needs, our experienced developers offer solutions customized to meet your objectives.`,
+        },
+        faqs: {
+            title: "Frequently Asked Questions (FAQs)",
+            description: "",
+            faqs: [
+                {
+                    question: "What is Bentonville Software Development Company?",
+                    answer: `At Bentonville Software Development Company, we strive to successfully cater to the unique needs of businesses at all stages of their journey with our comprehensive technology solutions. Whether it's custom software development, web and mobile app creation, or any other form of IT consulting - we guarantee top-notch quality in every execution!<br></br>
+ 
+                   Our headquarters are based in Bentonville, Arkansas; take advantage of our expertise today and see just what a modernized tech company can do for your business endeavors.`,
+              
+                  },
+                  {
+                    question: "What types of software solutions do you offer?",
+                    answer: `We offer a wide range of software development services, including but not limited to:<br></br>`,
+                    lists: [
+                        {
+                          heading: "",
+                          items: [
+                            "Custom software development",
+                            "Web application development",
+                            "Mobile app development (iOS and Android)",
+                            "E-commerce solutions",
+                            "Database design and development",
+                            "Cloud application development",
+                            "Legacy system modernization",
+                            "Quality assurance and testing",
+                          ]
+                        }
+                      ]
+              
+                  },
+                  {
+                    question: "What industries do you serve?",
+                    answer: `Our experienced team has delivered effective solutions for a wide range of industries, including healthcare, finance, retail, e-commerce, manufacturing, education and more. Regardless of your business size - be it a startup or an enterprise – we are confident in our abilities to craft tailored solutions that affirmatively address the unique needs and objectives of any organization.`,
+
+              
+                  },
+                  {
+                    question: "Can you help with legacy system modernization?",
+                    answer: `Yes, our team specializes in modernizing legacy systems. We can evaluate your current systems, make suggestions for improvement, and migrate them into more recent and efficient technology while retaining important data and features. Let us help you update your system!`,
+                   
+              
+                  },
+                  {
+                    question: "What technologies do you work with?",
+                    answer: `Our developers are proficient in a wide array of technologies, including but not limited to:<br></br>`,
+                    lists: [
+                        {
+                          heading: "",
+                          items: [
+                            `Programming languages: Java, Python, JavaScript, Ruby, C#, and more.`,
+                            "Front-end and back-end frameworks: React, Angular, Node.js, .NET, Django, and others.",
+                            "Database management systems: SQL Server, MySQL, PostgreSQL, MongoDB, and more.",
+                            "Cloud platforms: AWS, Azure, Google Cloud, and others.",
+                          ]
+                        }
+                      ]
+              
+                  },
+                  {
+                    question: "Do you provide ongoing support and maintenance?",
+                    answer: `Yes, we offer post-development support and maintenance to ensure your software applications remain secure, updated, and functioning smoothly. Our services can be tailored to meet your individual requirements.`,
+                    
+              
+                  },
+                  {
+                    question: "How do I get started with Bentonville Software Development Company?",
+                    answer: `Let's put your project in motion! Contact us by phone or through our website to schedule a consultation and learn about how we can support the specific needs of your project. Together, we will create a customized proposal to get you started.`,
+              
+                  },
+                    
+            ],
+        }
+    },
+    {
+        id: 83,
+        meta_title:"Custom Software Development for Venture Capital | DEV.co",
+        meta_description: "Our Venture Capital custom software development services allow you to scale your engineering teams for websites, custom software",
+        og_image:"/images/Group-1.jpg",
+        slug: "venture-capital",
+        top_title: "Custom Development Services for Venture Capital",
+        top_description: `Software development for startups and venture capital companies. There’s a huge gap between the problems venture-backed businesses are trying to solve and the technology available to do so. We provide development services to the Venture Capital industry.<br></br>
+
+        DEV.co helps VCs start, buy, and invest in technology companies. We’ve got the technical talent and capital. We’re small enough to act fast, but big enough to get things done. Developers at DEV.co create custom software applications for startups and investors in the Venture Capital industry.<br></br>
+
+        We’ve got the technical talent and capital. We’re small enough to act fast, but big enough to get things done. Developers at DEV.co create custom software applications for startups and investors in the Venture Capital industry. services and custom software for venture capital firms. DEV.co has been featured in numerous news organizations, including Forbes, Entrepreneur Magazine, Techcrunch, and The Wall Street Journal.`,
+
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Scaling Your <br>  <span class="text-headingBlue">Venture Capital Business</span>`,
+                    paragraph:`Leveraging the expertise of seasoned software development professionals, DEV.co delivers end to end solutions for producing customized software solutions. These solutions are highly scalable and help in solving the problems quickly.<br></br>
+
+                    We’re a full-service software firm that helps venture capitalists find, select, and engage developers for custom software projects. VCs spend too much time searching for the right software developer when we can help them do that faster.<br></br>
+
+                    The Venture Capital industry is in need of technology solutions to help manage and grow their businesses. That’s why we deliver responsive custom software development services that drive value to your company, quickly and cost effectively. We have the technical capabilities to develop any application from desktop to complex ERP solutions, as well as in-depth platform & infrastructure modernization. Our teams are versatile and we can grow with you and shorten your development time.`,
+                    imageSrc: "/images/seattle-2-1536x1023.jpg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Connecting Startups, Entrepreneurs and Investors`,
+                    paragraph:`Our team provides consulting, technology, and development services to startups, founders, VCs, and entrepreneurs building companies from the ground up. Your ideas become a reality — because you will have the experience and resources of multiple experts on your project.<br></br>
+
+                    Our team provides consulting, technology, and development services to startups, founders, VCs, and entrepreneurs building companies from the ground up. Your ideas become a reality — because you will have the experience and resources of multiple experts on your project.<br></br>
+
+                    DEV.co is a specialized software development shop for venture capital, start-ups and SMBs. It has developed both iOS Apps and Android Apps for venture capital, private equity firms like Balderton Capital, Summit Partners, , 1759 Capital as well as other companies in the online consumer space like Baskin Robbins UK.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+              
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `How We Can Help`,
+                    paragraph:``,
+
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "Dev.co provides trusted software developers to incredible companies looking for team members who will take their projects to the next level. ",
+                        "Come to DEV.co if you want the most innovative and creative technology services for your venture capitalist business. We work hard, and we’d love to hear from you. Contact us today.",
+                      ],
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `Manage Your Business With Our<br><span class="text-headingBlue"> Venture Capital Tools</span> `,
+            paracontent: `We are venture capitalists at  the core, so our emphasis on quality, delivery and cost-effectiveness are second to none. You’ll work closely with senior developers in an agile development environment, improving your technical skills, and shaping the software from scratch. We’re an integrated team of designers, developers, and strategists that have worked together for years.<br></br>
+
+            We advise VCs in emerging markets on how to effectively use technology and internet platforms to transform their businesses. We also offer customized software development services for venture capital. We build applications and web tools for startups and venture capital firms and provide ongoing support through release cycles.`,
+        },
+      
+    },
+    {
+        id: 84,
+        meta_title:"Hialeah Software Development Company | DEV.co",
+        meta_description: "Our Hialeah custom development services help you design and develop your ideal website, mobile app, or custom project. Contact us today!",
+        og_image:"/images/Group-1.png",
+        slug: "hialeah",
+        top_title: "Hialeah Software Development Company",
+        top_description: `DEV.co Hialeah Web Design & Development Company is a digital agency that delivers results! We specialize in affordable design & development and online marketing strategies.<br></br>
+
+        Our custom, search-engine-optimized solutions will get your company’s message across effectively to the right audience.`,
+
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Web Design in <br>  <span class="text-headingBlue">Hialeah </span>`,
+                    paragraph:`DEV.co combines the best of digital strategy, development, and marketing to create custom solutions that differentiate you from your competition and align your business goals with an online presence.  Enthusiasm, Integrity, Expertise.<br></br>
+
+                    As one of the best software development companies, we thrive under pressure and problems and putting the right combination of knowledge and talent into action is what makes us one of the best deals in town for all your entrepreneurial needs. From creative brainstorming and design to tailored web development solutions, we’ll build your online success with innovative strategies that connect.<br></br>We’re a full-service custom software development company dedicated to helping small, medium, and enterprise-level businesses develop and maintain a strong online presence. We can help you achieve your business objectives with effective internet marketing strategies such as search engine optimization (SEO), pay-per-click (PPC), and web development solutions.<br></br>Our main goal is to provide our clients with technologies that will effectively increase their online presence while keeping their annual marketing budget in check.`,
+                    imageSrc: "/images/hialeah-1.webp",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Superior Website Quality`,
+                    paragraph:`DEV.co is unlike any other Hialeah web design and development company. They focus on creating and managing digital products that help advance your business objectives while providing the highest level of customer service. DEV.co’s experienced team of designers, software developers, content strategists, and marketing experts work with you to develop effective digital brands, ensuring every aspect of the user experience is aesthetically pleasing and intuitive.<br></br>
+
+                    Developed for modern businesses, DEV.co is a combination of best development processes and technical expertise that works for you, because we are on our customers’ side of the desk every day. We are digital strategists, software developers, and marketers all in one company. This allows us to create custom solutions that differentiate you from your competition and align your business goals with an online presence.<br></br>
+
+                    Working with you, we’ll create relevant strategies that generate leads, raise brand awareness, increase revenue, and expand your reach. Some of the benefits include the following: DEV.co is a developer-centric community that connects startups to quality development agencies free of charge! We specialize in web design and development, fully responsive mobile sites, e-commerce, mobile apps, and digital marketing.<br></br>
+
+                   DEV.co provides an excellent opportunity for product and market validation prior to building anything; from proof-of-concept sketches to production code, with DEV.co’s methodology, you can find the right development route for any new project.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+               
+                
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `Our Capabilities`,
+                    paragraph:`Worried your business needs a site? DEV.co combines the best of digital strategy, development, and marketing to create custom solutions that differentiate you from the competition and align your business goals with a presence online. Our plans feature a diverse software development team who work hand-in-hand to meet your needs.`,
+
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        "Your objectives are our objectives. DEV.co is a digital company that creates web apps design and development, with three offices in the US, UK, and Asia.",
+                        "With over 40 successful years of service between the first two offices, our team takes pride in building new solutions for your business needs as well as establishing rich connections between you and your customers by providing search engine optimization and software development services.  ",
+                        
+                      ],
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `What We Bring to <br><span class="text-headingBlue"> the Table</span> `,
+            paracontent: `DEV.co is the world’s first and largest dedicated creative agency for startups and portfolio companies. With our design, development, and marketing teams, we create a custom solution that differentiates you from your competition and aligns your business goals with an online presence. Our strategy combines the best of digital strategy, development, and marketing to create value for every customer. Regardless of your company size or industry, we elevate your brand with meaningful experiences and an effective digital ecosystem on any screen.  `,
+        },
+        
+    },
+    
 ];
