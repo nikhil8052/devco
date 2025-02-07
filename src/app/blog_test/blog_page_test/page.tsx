@@ -7,13 +7,63 @@ import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
 import { useRouter } from "next/navigation";
 
+// interface BlogData {
+//   title: string;
+//   image: string;
+//   date: string;
+//   content: string;
+//   authorName: string;
+//   authorImage: string;
+//   authorDesignation?: string;
+//   authorId: string | null;
+//   authorDescription: string;
+//   meta_title?: string;
+//   meta_description?: string;
+//   og_image?: string;
+// }
 
-export default function BlogDetail({ blog, author }) {
+// interface AuthData {
+//   title: string;
+//   image: string;
+//   date: string;
+//   content: string;
+//   authorName: string;
+//   recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
+// }
+
+interface PageProps {
+  blog: {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    authorImage: string;
+    authorDesignation?: string;
+    authorId: string | null;
+    authorDescription: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+  };
+  author: {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
+  };
+}
+
+const BlogPage = ({ blog, author } : PageProps ) => {
+  
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
   const [loading, setLoading] = useState(true); // Loading state
   const router = useRouter(); 
 
   const sections = blog.content.split('\n');
+  
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -44,7 +94,7 @@ export default function BlogDetail({ blog, author }) {
   const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
   // Handle tab switching
-  const handleTabSwitch = (tab) => {
+  const handleTabSwitch = (tab: string) => {
     setActiveTab(tab);
   };
 
@@ -151,3 +201,6 @@ export default function BlogDetail({ blog, author }) {
     </div>
   );
 }
+
+export default BlogPage;
+
