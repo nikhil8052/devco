@@ -239,7 +239,7 @@ export const data = [
                 }
             ],
         },
-      
+        bottomline: ``
     },
 
 
