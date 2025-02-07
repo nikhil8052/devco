@@ -6990,8 +6990,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
 ];
 
-// Data for the tech cards
 
+
+// Data for the tech cards
 export const Whyusecard1 = {
     // title: "Mobile Application w/3M+ downloads",
     // description: "Built for Android & Apple iOS",
