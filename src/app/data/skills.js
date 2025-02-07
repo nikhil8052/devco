@@ -2,9 +2,9 @@ export const skills = [
 
     {
         id: 3,
-        meta_title:"Java Developer | Java Development Services | staging.dev.co",
+        meta_title: "Java Developer | Java Development Services | staging.dev.co",
         meta_description: "Hire custom Java developers for your website or software development project. Engage our Java development teams for your next big idea!",
-        og_image:"/images/Java-Development-Services.png",
+        og_image: "/images/Java-Development-Services.png",
         slug: "java",
         bannericon: "/images/Java.svg",
         sub_title: "Skills",
@@ -228,9 +228,9 @@ export const skills = [
         // }
     },
     {
-        meta_title:"iOS Developer | iOS Development Services | staging.dev.co",
+        meta_title: "iOS Developer | iOS Development Services | staging.dev.co",
         meta_description: "iOS development & engineering services for your next custom mobile app development project. Contact us today to hire our iOS team!",
-        og_image:"/images/ios-Development-services-1.png",
+        og_image: "/images/ios-Development-services-1.png",
         slug: "ios",
         bannericon: "/images/Ios.svg",
         sub_title: "Skills",
@@ -463,9 +463,9 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
     },
     {
         id: 4,
-        meta_title:"JavaScript Developer | JavaScript Design & Development Service |",
+        meta_title: "JavaScript Developer | JavaScript Design & Development Service |",
         meta_description: "JavaScript design & development services for your next website design project. Contact us today to hire one of our JavaScript developers!",
-        og_image:"/images/javascript-development-services-1.png",
+        og_image: "/images/javascript-development-services-1.png",
         slug: "javascript",
         bannericon: "/images/Java Script.svg",
         sub_title: "Skills",
@@ -482,8 +482,8 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
             images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
         },
         // skill.js
-        getintouchdata : {
-            data:[
+        getintouchdata: {
+            data: [
                 {
                     title: "Get in touch with us",
                     description: `If you’re ready to add more value to your website through dynamic visitor interaction,
@@ -494,7 +494,7 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
                 },
 
             ],
-            
+
         },
         Benefitslider: {
             title: "The Benefits of Hiring a Software Development Staffing Company",
@@ -577,206 +577,206 @@ If you’d like to learn more about how we develop iOS apps, please reach out!`,
         },
 
         DeveloperDocontent: {
-         data : [
-            {
-              title: "What does a JavaScript Developer do",
-              description: `A JavaScript Developer is responsible for developing and maintaining web applications using the JavaScript programming language in computer science. They work with other web developers and designers to create websites and web-based applications that are interactive and user-friendly. In addition to writing code, a JavaScript Developer may also be responsible for troubleshooting, testing, and debugging Web-based application.<br></br>
+            data: [
+                {
+                    title: "What does a JavaScript Developer do",
+                    description: `A JavaScript Developer is responsible for developing and maintaining web applications using the JavaScript programming language in computer science. They work with other web developers and designers to create websites and web-based applications that are interactive and user-friendly. In addition to writing code, a JavaScript Developer may also be responsible for troubleshooting, testing, and debugging Web-based application.<br></br>
 
             As a JavaScript developer, you will be responsible for developing and maintaining Web-based application using JavaScript. This may include tasks such as debugging code, writing code to create new features or enhancements, and troubleshooting code issues. In addition, you will also be responsible for working with other members of the development team to ensure that the application meets all requirements and is up to date with the latest web standards.`,
-              
-                imageSrc: "/images/develop-do.png", // Replace with the actual path to the image
-              imageAlt: "JavaScript Developer Image",
-            },
-          ],
+
+                    imageSrc: "/images/develop-do.png", // Replace with the actual path to the image
+                    imageAlt: "JavaScript Developer Image",
+                },
+            ],
         },
         Simpleimagecontent: {
-            data : [
-               {       
-                sideImage: "/images/simnpleimage new.png", // Replace with the actual path to the image
-               alt: "JavaScript Developer Image",
-               },
-             ],
-           },
-    simpleTextDatacontent : {
-        data:[
-            {
-                title: "End-To-End JavaScript Development Services<br> <span class='text-headingBlue'> to Match Your Business Needs Our Service</span>",
-                paragraphs: [
-                    `If you’re looking for JavaScript development services that can take your business to the next level, you’ve come to the right place. At ABC Company, we pride ourselves on our ability to provide custom solutions that meet the unique needs of our clients.`,
-                    `Whether you’re looking for a simple web application or a more complex enterprise-level solution, our team of experienced JavaScript developers can get the job done. We have a proven track record of delivering quality results on time and on budget.`,
-                `  If you’re ready to take your business to the next level, contact us today to discuss your specific needs. We’ll be happy to provide you with a free consultation and proposal.`,
-                ],
-            }
-
-        ],
+            data: [
+                {
+                    sideImage: "/images/simnpleimage new.png", // Replace with the actual path to the image
+                    alt: "JavaScript Developer Image",
+                },
+            ],
         },
-        simpleTextDatacontent2 : {
-        data:[
-            {
-                title: "Why Dev.co Best as a JavaScript <br> <span class='text-headingBlue'>Development Company</span>",
-                paragraphs: [
-                    `There are many reasons to choose Dev.co as your JavaScript Development Company. We have a proven track record of delivering high-quality JavaScript solutions to our clients. We are experts in JavaScript and have a deep understanding of the language and its nuances. This allows us to deliver JavaScript solutions that are both robust and scalable.`,
-                    `In addition, we offer a wide range of web development services. Whether you need a simple website or a complex web application, we have the expertise to deliver. We also offer a variety of custom JavaScript development services, so you can get exactly the solution you need.`,
-                ` Finally, we offer competitive pricing for our JavaScript development services. We believe in delivering high-quality solutions at a fair price, so you can get the most value for your money. If you’re looking for a JavaScript Development Company that can deliver high-quality solutions at a competitive price, then contact Dev.co today. We’ll be happy to discuss your project with you and provide a no-obligation quote.`,
-                ],
-            }
+        simpleTextDatacontent: {
+            data: [
+                {
+                    title: "End-To-End JavaScript Development Services<br> <span class='text-headingBlue'> to Match Your Business Needs Our Service</span>",
+                    paragraphs: [
+                        `If you’re looking for JavaScript development services that can take your business to the next level, you’ve come to the right place. At ABC Company, we pride ourselves on our ability to provide custom solutions that meet the unique needs of our clients.`,
+                        `Whether you’re looking for a simple web application or a more complex enterprise-level solution, our team of experienced JavaScript developers can get the job done. We have a proven track record of delivering quality results on time and on budget.`,
+                        `  If you’re ready to take your business to the next level, contact us today to discuss your specific needs. We’ll be happy to provide you with a free consultation and proposal.`,
+                    ],
+                }
 
-        ],
+            ],
         },
-    CombiningCodedatas: {
-    CombiningCodedata: [
-        {
-            backgroundImage: "/images/code_crbg.svg",
-            mainImage: "/images/code_creative.svg",
-            heading: "Schedule a consultation with an expert JavaScript Developer",
-            description: `If you’re looking to take your web development to the next level, a consultation with a JavaScript Developer can help you achieve your goals. Our JavaScript developers are experts in the latest web technologies and can provide you with the guidance and support you need to create a truly cutting-edge website or application.<br></br>
+        simpleTextDatacontent2: {
+            data: [
+                {
+                    title: "Why Dev.co Best as a JavaScript <br> <span class='text-headingBlue'>Development Company</span>",
+                    paragraphs: [
+                        `There are many reasons to choose Dev.co as your JavaScript Development Company. We have a proven track record of delivering high-quality JavaScript solutions to our clients. We are experts in JavaScript and have a deep understanding of the language and its nuances. This allows us to deliver JavaScript solutions that are both robust and scalable.`,
+                        `In addition, we offer a wide range of web development services. Whether you need a simple website or a complex web application, we have the expertise to deliver. We also offer a variety of custom JavaScript development services, so you can get exactly the solution you need.`,
+                        ` Finally, we offer competitive pricing for our JavaScript development services. We believe in delivering high-quality solutions at a fair price, so you can get the most value for your money. If you’re looking for a JavaScript Development Company that can deliver high-quality solutions at a competitive price, then contact Dev.co today. We’ll be happy to discuss your project with you and provide a no-obligation quote.`,
+                    ],
+                }
+
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Schedule a consultation with an expert JavaScript Developer",
+                    description: `If you’re looking to take your web development to the next level, a consultation with a JavaScript Developer can help you achieve your goals. Our JavaScript developers are experts in the latest web technologies and can provide you with the guidance and support you need to create a truly cutting-edge website or application.<br></br>
 
             During your consultation, we’ll discuss your specific needs and objectives and develop a plan of action that will help you reach your goals. We’ll also provide you with resources and advice on the best tools and practices to use in your web development process. Whether you’re just getting started or are looking to take your skills to the next level, we can help you achieve success.<br></br>
 
             Schedule a consultation with us today and see how our JavaScript Developers can help you take your web development to the next level.`,
-        }
-    ],
+                }
+            ],
         },
         CombiningCodedatas2: {
-        CombiningCodedata: [
-            {
-                backgroundImage: "/images/code_crbg.svg",
-                mainImage: "/images/code_creative.svg",
-                heading: "We Provide Full Stack JavaScript Development Solutions to Meet your Business Needs.",
-                description: `As a top JavaScript developer, we provide full stack JavaScript development solutions to meet your business needs. We have a wide range of services that we offer, from web development to senior full stack developer. JavaScript popularly known as JS, is a high-level, Scalable and reliable programming languages.<br></br>
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "We Provide Full Stack JavaScript Development Solutions to Meet your Business Needs.",
+                    description: `As a top JavaScript developer, we provide full stack JavaScript development solutions to meet your business needs. We have a wide range of services that we offer, from web development to senior full stack developer. JavaScript popularly known as JS, is a high-level, Scalable and reliable programming languages.<br></br>
 
                 We are confident that we can provide you with the best solution for your project. Being one of the top-rated JavaScript development companies, we have expertise in developing a JS development solution to meet your business requirements.`,
-            }
-        ],
-            },
-            Subheadingtext: {
-                heading: "Interesting Facts About JavaScript",
-                subText:
-                    "",
-                list1: [
-                    "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
-                    "JavaScript powers 20% of WordPress’ core code",
-                    "JS is the only programming language that can be used on the front-end of a website",
-                    "Unlike other languages, you can begin a JavaScript statement with a semicolon",
-                    "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
-                    "JS can be used offline because it’s executed in the browser",
-                    "The best web developers can also program in JavaScript",
-                    "It’s hard to find a website that doesn’t utilize JS",
-                    "Although JavaScript was inspired by Java, they are completely different, although they share libraries and syntax",
-                ],
-                list2: [
-                    "The popular document repository for journalists called DocumentCloud utilizes JavaScript and JSON to dynamically display document contents",
-                    "69.7% of web developers prefer JavaScript",
-                    "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
-                    "There are 24+ JS frameworks and 83+ libraries available for developers",
-                    "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
-                    "jQuery and Node.js are the most popular JavaScript framework and are used in 50.4% and 48.3% of projects respectively. Angular.js and React.js come in second and are used in 32.4% and 32.3% of projects, respectively.",
-                ],
-            },
-            Subheadingtextwhysection: {
-                heading: "",
-                subText:
-                    "",
-                list1: [
-                    "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
-                    "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
-                    "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
-                    "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
-                  
-                ],
-                list2: [
-                    "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
-                    "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
-                    "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
-                    "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
-                   
-                ],
-            },
-            whyuseSection : {
-                sectionHeading:[ 
-                    {
-                  sectiontitle: "Why use<br> JavaScript?",
-                  sectiondescription:
-                    "JavaScript creates a rich user experience that captures attention, engages users, and creates a smooth user experience. User experience is central to your website’s success.",
-                    },
-                    ],
-                data: [
-                  {
+                }
+            ],
+        },
+        Subheadingtext: {
+            heading: "Interesting Facts About JavaScript",
+            subText:
+                "",
+            list1: [
+                "JavaScript was created in 1995 by a Netscape employee named Brendan Eich",
+                "JavaScript powers 20% of WordPress’ core code",
+                "JS is the only programming language that can be used on the front-end of a website",
+                "Unlike other languages, you can begin a JavaScript statement with a semicolon",
+                "JavaScript wasn’t always compatible with mobile devices, but is now supported by all modern web browsers for mobile and desktop",
+                "JS can be used offline because it’s executed in the browser",
+                "The best web developers can also program in JavaScript",
+                "It’s hard to find a website that doesn’t utilize JS",
+                "Although JavaScript was inspired by Java, they are completely different, although they share libraries and syntax",
+            ],
+            list2: [
+                "The popular document repository for journalists called DocumentCloud utilizes JavaScript and JSON to dynamically display document contents",
+                "69.7% of web developers prefer JavaScript",
+                "JavaScript frameworks make it easy for developers to build a new project and saves time and money",
+                "There are 24+ JS frameworks and 83+ libraries available for developers",
+                "JavaScript programmers continually create new libraries to add more functionality and make programming easier",
+                "jQuery and Node.js are the most popular JavaScript framework and are used in 50.4% and 48.3% of projects respectively. Angular.js and React.js come in second and are used in 32.4% and 32.3% of projects, respectively.",
+            ],
+        },
+        Subheadingtextwhysection: {
+            heading: "",
+            subText:
+                "",
+            list1: [
+                "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
+                "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
+                "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
+                "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
+
+            ],
+            list2: [
+                "Draw attention to your call-to-action with an animated arrow or a quick burst of color.",
+                "If you have content-rich pages, display page loading progress in a spinner so visitors won’t bounce before the page is fully loaded.",
+                "Dynamically reveal page elements in the viewport as the user scrolls up or down the page.",
+                "Improve the user experience by using simple animations like page swipes to make it clear when a user is taken to a new page.",
+
+            ],
+        },
+        whyuseSection: {
+            sectionHeading: [
+                {
+                    sectiontitle: "Why use<br> JavaScript?",
+                    sectiondescription:
+                        "JavaScript creates a rich user experience that captures attention, engages users, and creates a smooth user experience. User experience is central to your website’s success.",
+                },
+            ],
+            data: [
+                {
                     imageSrc: "/images/whyuse1.svg",
                     imageAlt: "Interactive navigation",
                     title: "Interactive navigation",
                     description:
-                      "Make your navigation elements fun with JavaScript. Popular elements include panels that slide out when clicked, custom dialog boxes, and tabbed navigation with special effects.",
-                  },
-                  {
+                        "Make your navigation elements fun with JavaScript. Popular elements include panels that slide out when clicked, custom dialog boxes, and tabbed navigation with special effects.",
+                },
+                {
                     imageSrc: "/images/whyuse2.svg",
                     imageAlt: "Animations",
                     title: "Animations",
                     description:
-                      "Animations are a powerful way to capture and hold a visitor’s attention. Custom JavaScript animations will also help you achieve your conversion goals.",
-                  },
-                ],
-              },
+                        "Animations are a powerful way to capture and hold a visitor’s attention. Custom JavaScript animations will also help you achieve your conversion goals.",
+                },
+            ],
+        },
 
-              Animatedhead:{
-                sectionHeading:[ 
-                    {
-                  sectiontitle: "JavaScript consulting & development by Dev.co",
-                  sectiondescription:"Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.",
-                    },
-                    ],
-              },
-              Animatedhead2:{
-                sectionHeading:[ 
-                    {
-                  sectiontitle: "What's The Difference Between JavaScript And Java?",
-                  sectiondescription:`JavaScript is a programming language that is most commonly used in web browsers to create interactive web pages. Java is a more general-purpose programming language that can be used for a wide variety of purposes, including web development.<br></br>
+        Animatedhead: {
+            sectionHeading: [
+                {
+                    sectiontitle: "JavaScript consulting & development by Dev.co",
+                    sectiondescription: "Our team of JavaScript experts is capable of delivering a wide range of customization to suit your needs. We work with popular frameworks and libraries including Node.js, React, Angular, Electron, and Laravel.",
+                },
+            ],
+        },
+        Animatedhead2: {
+            sectionHeading: [
+                {
+                    sectiontitle: "What's The Difference Between JavaScript And Java?",
+                    sectiondescription: `JavaScript is a programming language that is most commonly used in web browsers to create interactive web pages. Java is a more general-purpose programming language that can be used for a wide variety of purposes, including web development.<br></br>
 
 There are some key differences between JavaScript and Java. First, JavaScript is primarily used for client-side development, while Java is more often used for server-side development. Second, Java is a compiled language, while JavaScript is an interpreted language. `,
-                    },
-                    ],
-              },
-              Animatedhead3:{
-                sectionHeading:[ 
-                    {
-                  sectiontitle: "Specialities of Our Java Script Development Teams",
-                  sectiondescription:`Our javascript developers are experts in computer science and software development. They have a deep understanding of how javascript works and are able to create custom solutions that meet the specific needs of our clients. In addition, they are also experienced in working with a variety of JS frameworks, libraries, and tools. As a result, they are able to provide our clients with the best possible JavaScript development experience.<br></br>
+                },
+            ],
+        },
+        Animatedhead3: {
+            sectionHeading: [
+                {
+                    sectiontitle: "Specialities of Our Java Script Development Teams",
+                    sectiondescription: `Our javascript developers are experts in computer science and software development. They have a deep understanding of how javascript works and are able to create custom solutions that meet the specific needs of our clients. In addition, they are also experienced in working with a variety of JS frameworks, libraries, and tools. As a result, they are able to provide our clients with the best possible JavaScript development experience.<br></br>
 
 With our accomplished web developers, turn your ideas and experiences into digital product and enjoy state-of-the-art JavaScript Development Services.<br></br>
 
 Our adept software development team is trained to develop mobile applications and web applications that cater to our customer’s various development requirements. Our high-level JavaScript development services have the finesse that is guaranteed to delight our end customers. `,
-                    },
+                },
+            ],
+        },
+        checkImgCardDatasection: {
+            checkImgCardData: [
+                {
+                    checklist: [
+                        "Specialised in development from scratch and on-going maintenance.",
+                        "Custom JavaScript solutions tailored to your needs.",
+                        "Support for both front-end and back-end JavaScript development.",
                     ],
-              },
-               checkImgCardDatasection:{
-                checkImgCardData:[
-                    {
-                        checklist: [
-                          "Specialised in development from scratch and on-going maintenance.",
-                          "Custom JavaScript solutions tailored to your needs.",
-                          "Support for both front-end and back-end JavaScript development.",
-                        ],
-                        imageSrc: "/images/chekcard1.png",
-                        imageAlt: "Development and Maintenance",
-                      },
-                      {
-                        checklist: [
-                          "Expertise in delivering scalable and reliable solutions.",
-                          "Seamless integration with third-party tools and APIs.",
-                          "Optimisation for high performance and speed.",
-                        ],
-                        imageSrc: "/images/checcardimg2.png",
-                        imageAlt: "Scalable Solutions",
-                      },
-                ],
+                    imageSrc: "/images/chekcard1.png",
+                    imageAlt: "Development and Maintenance",
+                },
+                {
+                    checklist: [
+                        "Expertise in delivering scalable and reliable solutions.",
+                        "Seamless integration with third-party tools and APIs.",
+                        "Optimisation for high performance and speed.",
+                    ],
+                    imageSrc: "/images/checcardimg2.png",
+                    imageAlt: "Scalable Solutions",
+                },
+            ],
 
-               } ,
-               
-   
+        },
 
-              
-              
-          
+
+
+
+
+
 
     },
 
@@ -784,9 +784,9 @@ Our adept software development team is trained to develop mobile applications an
 
     {
         id: 5,
-        meta_title:"Android Developer | Android Development Services | staging.dev.co",
+        meta_title: "Android Developer | Android Development Services | staging.dev.co",
         meta_description: "Custom Android development & engineering for your next mobile app development project. Contact us today to hire an expert Android developer!",
-        og_image:"/images/icons8-android-os-50.png",
+        og_image: "/images/icons8-android-os-50.png",
         slug: "android",
         bannericon: "/images/Android.svg",
         top_title: "Android Development Services",
@@ -929,7 +929,7 @@ The good news is that Google has recently made the review process easier for dev
             ],
         },
 
-      
+
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -1049,9 +1049,9 @@ DEV.co offers custom Android apps, developed quickly and affordably.
     },
     {
         id: 6,
-        meta_title:"Next.js Developer | Next.js Development Services | DEV",
+        meta_title: "Next.js Developer | Next.js Development Services | DEV",
         meta_description: "Hire custom Next.js developers for your website or software development project. Engage our Next.js development teams for your next big idea!",
-        og_image:"/images/next-js-logo.png",
+        og_image: "/images/next-js-logo.png",
         slug: "next-js",
         sub_title: "Skills",
         bannericon: "/images/Next_js.svg",
@@ -1315,9 +1315,9 @@ We streamline the process to ensure efficiency, quality, and client satisfaction
     },
     {
         id: 7,
-        meta_title:"SolidWorks Developer | SolidWorks Development Services | staging.dev.co",
+        meta_title: "SolidWorks Developer | SolidWorks Development Services | staging.dev.co",
         meta_description: "SolidWorks development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/SolidWorks-Development-Services-2.png",
+        og_image: "/images/SolidWorks-Development-Services-2.png",
         slug: "solidworks",
         bannericon: "/images/Solidworks.svg",
         sub_title: "Skills",
@@ -1377,7 +1377,7 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
 
             ],
         },
-       
+
         Benefitslider: {
             title: "The DEV.co SolidWorks Development Process",
             description: ``,
@@ -1485,13 +1485,13 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
             ],
         },
 
-       
+
     },
     {
         id: 8,
-        meta_title:"Node.js Developer | Node.js Development Services | staging.dev.co",
+        meta_title: "Node.js Developer | Node.js Development Services | staging.dev.co",
         meta_description: "Hire Node.js programmers. Our knowledgeable Node.js development services will help you scale your next software development project.",
-        og_image:"/images/NodeJs-Development-Services.png",
+        og_image: "/images/NodeJs-Development-Services.png",
         slug: "nodejs",
         bannericon: "/images/Node_js.svg",
         sub_title: "Skills",
@@ -1500,32 +1500,32 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
 
             Contrary to what many assume, Node.js is not a framework or library. It’s actually a runtime environment, based entirely on Chrome’s V8 JavaScript engine. First introduced in 2009 at the annual European JSConf, Node.js was immediately billed as “the most exciting single piece of software in the current JavaScript universe.” And more than a decade later, it’s still living up to the hype.`,
 
-            startups: {
-                title: "Web Development & Software Engineering",
-                description: `The beauty of Node.js is that you don’t have to be a Fortune 500 company to use it.
+        startups: {
+            title: "Web Development & Software Engineering",
+            description: `The beauty of Node.js is that you don’t have to be a Fortune 500 company to use it.
 The platform works just as well for smaller businesses and ventures.
 But the fact that some of the world’s most successful organizations rely on it
 should tell you something about its features and reliability.`,
-                imageHeight: 100,
-                imageWidth: 100,
-                images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
-            },
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
 
-            BorderTextbox: {
-                BorderTextdata: [
-                    {
-                        title: "Node.js Consulting & Development",
-                        description: `Because of our extensive experience with Node.js, we’re also able to offer consulting, frameworks, and education to guide you through your own journey.`,
-    
-                    },
-                    {
-                        title: "",
-                        description: `At Dev.co, we’re proud to offer industry-leading Node.js planning, development, and deployment. <br></br>
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Node.js Consulting & Development",
+                    description: `Because of our extensive experience with Node.js, we’re also able to offer consulting, frameworks, and education to guide you through your own journey.`,
+
+                },
+                {
+                    title: "",
+                    description: `At Dev.co, we’re proud to offer industry-leading Node.js planning, development, and deployment. <br></br>
 
                         Not only do we use the top technologies in the industry, but we also employ rigorous testing and continual optimization and iteration. The result is advanced Node.js applications that your users will extract maximum value from.`,
-                    }
-                ]
-            },
+                }
+            ]
+        },
 
         benefits: {
             title: "Why Choose Node.js?",
@@ -1681,9 +1681,9 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 9,
-        meta_title:"Azure Developer | Best Azure Development Services | staging.dev.co",
+        meta_title: "Azure Developer | Best Azure Development Services | staging.dev.co",
         meta_description: "Azure Developer - Azure cloud development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/Azure-Development-Services-1.png",
+        og_image: "/images/Azure-Development-Services-1.png",
         slug: "azure",
         bannericon: "/images/Azure.svg",
         top_title: "Azure Development Services",
@@ -1788,7 +1788,7 @@ should tell you something about its features and reliability.`,
                 },
                 {
                     title: "Plan",
-                    description:"This is a pragmatic part of the process where we figure out how we’re going to help you get from where you are to where you want to be. We do so by outlining the rest of the development journey in a step-by-step fashion.",
+                    description: "This is a pragmatic part of the process where we figure out how we’re going to help you get from where you are to where you want to be. We do so by outlining the rest of the development journey in a step-by-step fashion.",
                     imgSrc: "",
                 },
                 {
@@ -1807,7 +1807,7 @@ should tell you something about its features and reliability.`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Azure",
-            subText:"",
+            subText: "",
             list1: [
                 "Microsoft Azure is a cloud Based computing service that was created by Microsoft for the purpose of building, testing, deploying, and managing applications via managed data centers.",
                 "Microsoft Azure was released on February 1, 2010. It was originally named Windows Azure before being renamed to Microsoft Azure in 2014.",
@@ -1826,7 +1826,7 @@ should tell you something about its features and reliability.`,
                 `The Microsoft Azure Cloud global infrastructure is 100% carbon neutral.`,
                 `44% of Microsoft Datacenter Energy is derived from wind, solar, and hydropower.`,
             ],
-        },     
+        },
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -1932,9 +1932,9 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 10,
-        meta_title:"React Developer | React Development Services | staging.dev.co",
+        meta_title: "React Developer | React Development Services | staging.dev.co",
         meta_description: "Hire React.js developers for your next custom web or software project. Our exper React developers are ready for your next custom project!",
-        og_image:"/images/React-Development-Services.png",
+        og_image: "/images/React-Development-Services.png",
         slug: "react",
         bannericon: "/images/React_js.svg",
         top_title: "React Development Services",
@@ -2042,7 +2042,7 @@ Here’s what our React developer process looks like:`,
             ],
         },
 
-        
+
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -2148,9 +2148,9 @@ Here’s what our React developer process looks like:`,
 
     {
         id: 11,
-        meta_title:"Sitefinity Developer | Sitefinity Development Services | staging.dev.co",
+        meta_title: "Sitefinity Developer | Sitefinity Development Services | staging.dev.co",
         meta_description: "Sitefinity development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/Sitefinity-Development-Services-1.png",
+        og_image: "/images/Sitefinity-Development-Services-1.png",
         slug: "sitefinity",
         sub_title: "Skills",
         bannericon: "/images/Sitefinity.svg",
@@ -2209,7 +2209,7 @@ Here’s what our React developer process looks like:`,
 
             ],
         },
-      
+
 
         Benefitslider: {
             title: "The DEV.co Sitefinity Development Process",
@@ -2242,7 +2242,7 @@ Here’s what our React developer process looks like:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Sitefinity",
-            subText:"",
+            subText: "",
             list1: [
                 "Sitefinity is a content management system and digital marketing tool designed for enterprises. It’s known for being extremely lightweight and user-friendly.",
                 "An estimated 1.28 million websites currently use Sitefinity.",
@@ -2256,7 +2256,7 @@ Here’s what our React developer process looks like:`,
             ],
         },
 
-       
+
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -2321,9 +2321,9 @@ Here’s what our React developer process looks like:`,
     },
     {
         id: 12,
-        meta_title:"Electron Developer | Electron Development Services | staging.dev.co",
+        meta_title: "Electron Developer | Electron Development Services | staging.dev.co",
         meta_description: "Looking for an Electron.js developer? You've come to the right place. Our Electron.js programmers and project managers can help. Contact us!",
-        og_image:"/images/Electron-Development-Services.png",
+        og_image: "/images/Electron-Development-Services.png",
         slug: "electron",
         sub_title: "Skills",
         bannericon: "/images/Electron_js.svg",
@@ -2432,7 +2432,7 @@ Here’s what our React developer process looks like:`,
             ],
         },
 
-      
+
         processes: {
             title: "Our Development <br> Process",
             description: "",
@@ -2499,9 +2499,9 @@ We do so through world-class development, frictionless communication, and a coll
 
     {
         id: 13,
-        meta_title:"OpenCV Developer | OpenCV Development Services | staging.dev.co",
+        meta_title: "OpenCV Developer | OpenCV Development Services | staging.dev.co",
         meta_description: "OpenCV development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/OpenCv-Development-Services.png",
+        og_image: "/images/OpenCv-Development-Services.png",
         slug: "opencv",
         sub_title: "Skills",
         bannericon: "/images/OpenCV.svg",
@@ -2560,7 +2560,7 @@ We do so through world-class development, frictionless communication, and a coll
 
             ],
         },
-       
+
         Benefitslider: {
             title: "The DEV.co OpenCV Development Process",
             description: ``,
@@ -2673,9 +2673,9 @@ We do so through world-class development, frictionless communication, and a coll
     },
     {
         id: 14,
-        meta_title:"Laravel Developer | Laravel Development Services | staging.dev.co",
+        meta_title: "Laravel Developer | Laravel Development Services | staging.dev.co",
         meta_description: "Laravel development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/icons8-laravel-50.png",
+        og_image: "/images/icons8-laravel-50.png",
         slug: "laravel",
         sub_title: "Skills",
         bannericon: "/images/Laravel.svg",
@@ -2842,14 +2842,14 @@ We do so through world-class development, frictionless communication, and a coll
             ],
         },
 
-      
+
     },
-     
+
     {
         id: 15,
-        meta_title:"HTML5 Developer | HTML5 Development Services | DEV",
+        meta_title: "HTML5 Developer | HTML5 Development Services | DEV",
         meta_description: "HTML5 development & engineering services for your next custom software project. Contact us today to hire one of our expert HTML5 developers!",
-        og_image:"/images/Html-Development-Services.png",
+        og_image: "/images/Html-Development-Services.png",
         slug: "html5",
         sub_title: "Skills",
         bannericon: "/images/Html 5.svg",
@@ -2891,7 +2891,7 @@ We do so through world-class development, frictionless communication, and a coll
                     imageHeight: 30,
                     imageWidth: 28,
                 },
-                
+
 
             ],
         },
@@ -2943,7 +2943,7 @@ We do so through world-class development, frictionless communication, and a coll
                 "HTML5 with XML syntax replaced XHTML.",
                 "JavaScript powers 20% of WordPress’ core code",
                 "Developers are using HTML elements to create modern products designed to fix cross browser compatibility issues.",
-                
+
             ],
             list2: [
                 "HTML5 won’t replace flash and Silverlight completely, but it shares many of the same general capabilities.",
@@ -2957,7 +2957,7 @@ We do so through world-class development, frictionless communication, and a coll
                     title: "Create a dynamic user experience for all platforms",
                     description: `More than half of all website visits come from a mobile device. HTML5 for mobile development will enrich the interactive experience on mobile devices. Currently, all major browsers support HTML5, and it’s only a matter of time before all browsers support this leading technology.`,
                 },
-               
+
             ],
         },
         processes: {
@@ -3024,9 +3024,9 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     },
     {
         id: 16,
-        meta_title:"AWS Developer | AWS Development Services | DEV",
+        meta_title: "AWS Developer | AWS Development Services | DEV",
         meta_description: "AWS development & engineering services for your next custom Amazon Web Services (AWS) software development project. Contact us today!",
-        og_image:"/images/AWS.png",
+        og_image: "/images/AWS.png",
         slug: "aws",
         sub_title: "Skills",
         bannericon: "/images/AWS.svg",
@@ -3107,7 +3107,7 @@ Contact us today to discuss your project and start using HTML5 to impress and co
 
             ],
         },
-       
+
 
         Benefitslider: {
             title: "Our AWS Developer Process",
@@ -3134,7 +3134,7 @@ Contact us today to discuss your project and start using HTML5 to impress and co
                     description: "Your AWS developer or AWS certified developer associate will follow up by careful testing and optimization to ensure all of the wrinkles are ironed out before they have a chance to cause any issues. This leads to superior results immediately at launch!",
                     imgSrc: "",
                 },
-                
+
             ],
         },
 
@@ -3227,9 +3227,9 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     },
     {
         id: 18,
-        meta_title:"PHP Developer | PHP Development Services | staging.dev.co",
+        meta_title: "PHP Developer | PHP Development Services | staging.dev.co",
         meta_description: "PHP development & engineering services for your next custom software development project. Contact us today to hire one of our PHP developers!",
-        og_image:"/images/PHP-Development-Services-1.png",
+        og_image: "/images/PHP-Development-Services-1.png",
         slug: "php",
         sub_title: "Skills",
         bannericon: "/images/Php.svg",
@@ -3313,7 +3313,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
         Subheadingtext: {
             heading: "Interesting Facts About PHP",
-            subText:"",
+            subText: "",
             list1: [
                 "PHP programming language is open source & used for web development by web developer, but it wasn’t created for the world. The creator, Rasmus Lerdorf, created PHP in 1994 to manage his personal website. PHP wasn’t released to the public until 1997 to any other software developer.h",
                 "PHP has a blue elephant for its official mascot.",
@@ -3448,9 +3448,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
     },
     {
         id: 17,
-        meta_title:"WordPress Development Company | DEV.co",
+        meta_title: "WordPress Development Company | DEV.co",
         meta_description: "Wordpress design & development services for your next website design project. Contact us today to hire one of our Wordpress developers!",
-        og_image:"/images/WordPress-Development-Services.jpg",
+        og_image: "/images/WordPress-Development-Services.jpg",
         slug: "wordpress",
         sub_title: "Skills",
         bannericon: "/images/Wordpress.svg",
@@ -3711,7 +3711,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 },
                 {
                     question: "How do you add content to your WordPress website?",
-                            answer: `Adding content to your website is easy with WordPress. You can add text, images, and videos to your pages, and you can also create blog posts. Here are some tips for adding content to your website:<br></br>
+                    answer: `Adding content to your website is easy with WordPress. You can add text, images, and videos to your pages, and you can also create blog posts. Here are some tips for adding content to your website:<br></br>
                         <ul>
                         <li>When creating a page or post, be sure to include a title and a description.</li>
                         <li>Add images and videos to your pages and posts to help illustrate your content.</li>
@@ -3725,7 +3725,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 },
                 {
                     question: "How to find the best WordPress developers?",
-                            answer: `When looking hire WordPress developers, it’s important to find someone who is knowledgeable and experienced in the platform. Here are some tips for finding the best developer for your project:<br></br>
+                    answer: `When looking hire WordPress developers, it’s important to find someone who is knowledgeable and experienced in the platform. Here are some tips for finding the best developer for your project:<br></br>
                         <ul>
                         <li>Ask around for recommendations. Chances are, you know someone who has used a WordPress developer in the past. Ask them for recommendations and advice.</li>
                         <li>Do your research. There are many developers out there, so take the time to do some research and find the best one for your project.</li>
@@ -3737,7 +3737,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 },
                 {
                     question: "What are some tips for developing and designing a WordPress website?",
-                            answer: `When designing your website, be sure to consider the following tips:<br></br>
+                    answer: `When designing your website, be sure to consider the following tips:<br></br>
                         <ul>
                         <li>Use a consistent layout throughout your website.</li>
                         <li>Choose a color scheme and stick to it.</li>
@@ -3753,9 +3753,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 18,
-        meta_title:"Python Developer | Python Development Services | staging.dev.co",
+        meta_title: "Python Developer | Python Development Services | staging.dev.co",
         meta_description: "Python development & engineering services for your next custom software development project. Contact us today to hire our Python team!",
-        og_image:"/images/Python-Development-Services.png",
+        og_image: "/images/Python-Development-Services.png",
         slug: "python",
         sub_title: "Skills",
         bannericon: "/images/Python.svg",
@@ -3823,7 +3823,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 },
                 {
                     title: "Brainstorming and collaboration",
-                    description:"We’ll team up to generate ideas for your project, and build the right designs and foundations to build upon.",
+                    description: "We’ll team up to generate ideas for your project, and build the right designs and foundations to build upon.",
                     imgSrc: "",
                 },
                 {
@@ -3841,7 +3841,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
         Subheadingtext: {
             heading: "Interesting Facts About Python",
-            subText:"",
+            subText: "",
             list1: [
                 "There are now more than 8.2 million people using the Python programming language, and it remains one of the fastest-growing programming languages in terms of popularity.",
                 "Even though it’s become incredibly popular, Python remains entirely open source, with no proprietary licenses and complete openness to community contributions.",
@@ -4009,9 +4009,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 19,
-        meta_title:"Salesforce Developer | Custom Salesforce Development Services | staging.dev.co",
+        meta_title: "Salesforce Developer | Custom Salesforce Development Services | staging.dev.co",
         meta_description: "Salesforce development & engineering services for customizing your sales team's CRM processes and reporting. Contact us today!",
-        og_image:"/images/SalesForces-Development-Services.png",
+        og_image: "/images/SalesForces-Development-Services.png",
         slug: "salesforce",
         sub_title: "Skills",
         bannericon: "/images/Salesforce.svg",
@@ -4088,7 +4088,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                 },
                 {
                     title: "Plan",
-                    description:"With a thorough understanding of your business and brand, our Salesforce developers transition into the planning phase. It’s during this process that we create a loose framework for how we’ll achieve your goals. You can be as involved or hands-off in the planning process as you’d like",
+                    description: "With a thorough understanding of your business and brand, our Salesforce developers transition into the planning phase. It’s during this process that we create a loose framework for how we’ll achieve your goals. You can be as involved or hands-off in the planning process as you’d like",
                     imgSrc: "",
                 },
                 {
@@ -4106,14 +4106,14 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
         Subheadingtext: {
             heading: "Interesting Facts About Salesforce",
-            subText:"",
+            subText: "",
             list1: [
                 "The Salesforce platform dominates the CRM industry – capturing one-third of all users.",
                 "Salesforce is considered the number one CRM in the world.",
                 "Salesforce was launched in 1999.",
                 "Roughly 34% of Salesforce revenue comes from Sales Cloud sales.",
                 "Salesforce invented the App Store before Apple. While they called it the AppExchange (launched in 2005), it was originally intended to be called the App Store and the name was trademarked by Salesforce. CEO Marc Benioff eventually gifted the name to Steve Jobs as a thank you for his support over the years.",
-              
+
             ],
             list2: [
                 "Salesforce generated $13.3 billion in 2019.",
@@ -4239,9 +4239,9 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 19,
-        meta_title:"C#/.NET Developer | C#/.NET Development Services | staging.dev.co",
+        meta_title: "C#/.NET Developer | C#/.NET Development Services | staging.dev.co",
         meta_description: "C# & .NET development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/C-Sharp-Dot-NET-Development-Services.png",
+        og_image: "/images/C-Sharp-Dot-NET-Development-Services.png",
         slug: "c-sharp-dot-net",
         sub_title: "Skills",
         bannericon: "/images/sharp-c.png",
@@ -4335,7 +4335,7 @@ you may consider selecting this framework for your next project:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About C#/.NET",
-            subText:"",
+            subText: "",
             list1: [
                 ".NET Core means .Net is no longer only reserved for Windows or PC users. Developers can now create apps that run on Windows, Mac OS X, and Linux.",
                 ".NET is a framework that can work with several programming languages, including C#.",
@@ -4416,9 +4416,9 @@ you may consider selecting this framework for your next project:`,
     },
     {
         id: 20,
-        meta_title:"Oracle Developer | Oracle Development Services | staging.dev.co",
+        meta_title: "Oracle Developer | Oracle Development Services | staging.dev.co",
         meta_description: "Oracle development & engineering services for your next custom SQL software development project. Contact us today!",
-        og_image:"/images/Oracle-logo.png",
+        og_image: "/images/Oracle-logo.png",
         slug: "oracle",
         sub_title: "Skills",
         bannericon: "/images/Oracle.svg",
@@ -4490,7 +4490,7 @@ you may consider selecting this framework for your next project:`,
                 },
                 {
                     title: "Plan",
-                    description:"We plan out every step of the process to ensure there are no blind spots. This phase is one of the more critical components in the entire equation (and something most developers gloss over).",
+                    description: "We plan out every step of the process to ensure there are no blind spots. This phase is one of the more critical components in the entire equation (and something most developers gloss over).",
                     imgSrc: "",
                 },
                 {
@@ -4508,7 +4508,7 @@ you may consider selecting this framework for your next project:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Oracle",
-            subText:"",
+            subText: "",
             list1: [
                 "Oracle is the leader in the database software industry with more than 420,000 customers and deployments in 145 countries.",
                 "Oracle has more than 136,000 employees around the world.",
@@ -4591,9 +4591,9 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 21,
-        meta_title:"LabVIEW Developer | LabVIEW Development Services | staging.dev.co",
+        meta_title: "LabVIEW Developer | LabVIEW Development Services | staging.dev.co",
         meta_description: "LabVIEW development & engineering services for your next custom software development project. Contact us today!",
-        og_image:"/images/LabVIEW-Development-Services.png",
+        og_image: "/images/LabVIEW-Development-Services.png",
         slug: "labview",
         sub_title: "Skills",
         bannericon: "/images/Labview.svg",
@@ -4679,12 +4679,12 @@ you may consider selecting this framework for your next project:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About LabVIEW",
-            subText:"",
+            subText: "",
             list1: [
                 "LabVIEW was originally released for the Apple Macintosh in 1986.",
                 "LabVIEW is software-based, which gives it more flexibility than other systems.",
                 "Whereas other programming systems use text-based languages, LabVIEW creates lines of code using a graphical programming language that’s referred to as “G.”",
-               
+
             ],
             list2: [
                 "A LabVIEW program consists of one or more virtual instruments (VIs). Each VI has three main components: a front panel, block diagram, and icon.",
@@ -4755,9 +4755,9 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 22,
-        meta_title:"Nextcloud Developer | Nextcloud Development Services | staging.dev.co",
+        meta_title: "Nextcloud Developer | Nextcloud Development Services | staging.dev.co",
         meta_description: "Nextcloud development & engineering services for your next online storage software development project. Contact us today!",
-        og_image:"/images/NextCloud-Development-Services.png",
+        og_image: "/images/NextCloud-Development-Services.png",
         slug: "nextcloud",
         sub_title: "Skills",
         bannericon: "/images/Nextcloud.svg",
@@ -4881,7 +4881,7 @@ you may consider selecting this framework for your next project:`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Nextcloud",
-            subText:"",
+            subText: "",
             list1: [
                 "Nextcloud is entirely open source as a hosting service, designed to help you remain efficient and productive.",
                 "Nextcloud started with employee funding only.",
@@ -4903,7 +4903,7 @@ you may consider selecting this framework for your next project:`,
                 "weather forecasting",
                 "viewer for DICOM",
                 "map viewers",
-               
+
             ],
             list2: [
                 "Nextcloud’s architecture is written in PHP and JavaScript. It also employs the use of sabre/dav, which is an open source WebDAV server.",
@@ -4978,9 +4978,9 @@ If you’re ready for a free quote or consultation`,
 
     {
         id: 23,
-        meta_title:"Unity Development Services | DEV.co | Unity Developers",
+        meta_title: "Unity Development Services | DEV.co | Unity Developers",
         meta_description: "Unity development & engineering services for your next custom software development project. Contact us today to hire our Unity team!",
-        og_image:"/images/Unity-Development-Services.jpg",
+        og_image: "/images/Unity-Development-Services.jpg",
         slug: "unity",
         sub_title: "Skills",
         bannericon: "/images/Unity.svg",
@@ -5052,7 +5052,7 @@ If you’re ready for a free quote or consultation`,
                 },
                 {
                     title: "Plan",
-                    description:"The key to a good game is to plan ahead and formulate a proactive plan. This plan must begin with the end in mind and then work backward.",
+                    description: "The key to a good game is to plan ahead and formulate a proactive plan. This plan must begin with the end in mind and then work backward.",
                     imgSrc: "",
                 },
                 {
@@ -5070,7 +5070,7 @@ If you’re ready for a free quote or consultation`,
 
         Subheadingtext: {
             heading: "Interesting Facts About Unity",
-            subText:"",
+            subText: "",
             list1: [
                 "Unity is a cross-platform game engine that was first released in 2005.",
                 "Unity supports more than 25 different platforms.",
@@ -5082,7 +5082,7 @@ If you’re ready for a free quote or consultation`,
                 "Unity has more than 2 million designers using the programming language.",
                 "Unity enjoys more than 48% market share in the game engine industry.",
                 "Famous games developed with Unity include Temple Run, Angry Birds, Super Mario Run, and Pokemon Go.",
-               
+
             ],
         },
 
@@ -5152,9 +5152,9 @@ If you’re ready for a free quote or consultation`,
     },
     {
         id: 24,
-        meta_title:"Webflow Developer | Webflow Development Service | DEV.co",
+        meta_title: "Webflow Developer | Webflow Development Service | DEV.co",
         meta_description: "Engage our custom Webflow development services for designing or redesigning your website in Webflow. Contact us today to get started!",
-        og_image:"/images/Webflow-Development-Services.png",
+        og_image: "/images/Webflow-Development-Services.png",
         slug: "webflow",
         sub_title: "Skills",
         bannericon: "/images/Webflow.svg",
@@ -5230,7 +5230,7 @@ If you’re ready for a free quote or consultation`,
                 },
                 {
                     title: "Plan",
-                    description:"With a thorough understanding of your brand and business use case, our Webflow development team transitions into the planning phase. It’s during this process that we create a wireframe outline of your project in order to meet your project goals. Our methodology allows clients to be as involved or as hands-off as they would like.",
+                    description: "With a thorough understanding of your brand and business use case, our Webflow development team transitions into the planning phase. It’s during this process that we create a wireframe outline of your project in order to meet your project goals. Our methodology allows clients to be as involved or as hands-off as they would like.",
                     imgSrc: "",
                 },
                 {
@@ -5329,9 +5329,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 25,
-        meta_title:"Netsuite Developer | Netsuite Development Services | staging.dev.co",
+        meta_title: "Netsuite Developer | Netsuite Development Services | staging.dev.co",
         meta_description: "Netsuite development & engineering services for your next custom finance & accounting platform project. Contact us today!",
-        og_image:"/images/NetSuite-Development-Services.jpg",
+        og_image: "/images/NetSuite-Development-Services.jpg",
         slug: "netsuite",
         sub_title: "Skills",
         bannericon: "/images/Netsuite.svg",
@@ -5400,7 +5400,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
                 {
                     title: "Developer Tools",
-                    description:"The next step is to create a plan that allows us to take you from where you are. In addition to NetSuite’s many integrations, at Dev.co we use NetSuite’s Suite Cloud developer tools to build your company’s web services, create a range of analytics frameworks paired with high-value KPIs, and supply real-time data and easy to use reporting tools. Simply put, we make sure everything you need is at your fingertips to where you want to be. If Node.js can help us get there, great! If not, we’ll suggest another platform.",
+                    description: "The next step is to create a plan that allows us to take you from where you are. In addition to NetSuite’s many integrations, at Dev.co we use NetSuite’s Suite Cloud developer tools to build your company’s web services, create a range of analytics frameworks paired with high-value KPIs, and supply real-time data and easy to use reporting tools. Simply put, we make sure everything you need is at your fingertips to where you want to be. If Node.js can help us get there, great! If not, we’ll suggest another platform.",
                     imgSrc: "",
                 },
                 {
@@ -5494,9 +5494,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 26,
-        meta_title:"SQL Developer | SQL Development Services | DEV",
+        meta_title: "SQL Developer | SQL Development Services | DEV",
         meta_description: "SQL development & engineering services for your next custom, back-end software development project. Contact us today!",
-        og_image:"/images/Group-1.png",
+        og_image: "/images/Group-1.png",
         slug: "sql",
         sub_title: "Skills",
         bannericon: "/images/SQL.svg",
@@ -5614,7 +5614,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
                 {
                     title: "Speed",
-                    description:"Stop struggling with your data and streamline your administration processes with SQL development services from Dev.co. Whether you’re building an Oracle database from scratch or performing large scale migrations from a third party database, we can help you get more from your data without compromising speed, security, or simplicity. Though it’s come a long way from its origins, SQL has withstood the test of time because it works.",
+                    description: "Stop struggling with your data and streamline your administration processes with SQL development services from Dev.co. Whether you’re building an Oracle database from scratch or performing large scale migrations from a third party database, we can help you get more from your data without compromising speed, security, or simplicity. Though it’s come a long way from its origins, SQL has withstood the test of time because it works.",
                     imgSrc: "",
                 },
             ],
@@ -5701,9 +5701,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 27,
-        meta_title:"Shopify Developer | Custom Shopify Development Services | DEV",
+        meta_title: "Shopify Developer | Custom Shopify Development Services | DEV",
         meta_description: "Our custom Shopify development services provide customized design, integration and app development for ecommerce and Shopify-based websites.",
-        og_image:"/images/01-1.png",
+        og_image: "/images/01-1.png",
         slug: "shopify",
         sub_title: "Skills",
         bannericon: "/images/Shopify.svg",
@@ -5859,9 +5859,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 28,
-        meta_title:"SQL Server Developer | SQL Server Development Services | staging.dev.co",
+        meta_title: "SQL Server Developer | SQL Server Development Services | staging.dev.co",
         meta_description: "SQL Server development & engineering services for your next custom back-end software development project. Contact us today!",
-        og_image:"/images/SQL-Server-Development-Services.png",
+        og_image: "/images/SQL-Server-Development-Services.png",
         slug: "sql-server",
         sub_title: "Skills",
         bannericon: "/images/SQL Server.svg",
@@ -5934,9 +5934,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
             ],
         },
-        Subheadingtext:{
+        Subheadingtext: {
             heading: "We’ll build the SQL back-end to support your applications",
-            subText:"",
+            subText: "",
             list1: [
                 "Custom analytics solutions",
                 "Custom data dashboards for you and your clients",
@@ -5951,9 +5951,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
             ],
         },
 
-        Subheadingtext2:{
+        Subheadingtext2: {
             heading: "Interesting Facts About SQL Server",
-            subText:"",
+            subText: "",
             list1: [
                 "Several companies provide SQL servers, including Microsoft, Oracle, and MySQL",
                 "Microsoft released its first SQL server in 1988 (version 1.0) and its code name was “Filipi”.",
@@ -6039,9 +6039,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 29,
-        meta_title:"SAP Developer | SAP Development Services | staging.dev.co",
+        meta_title: "SAP Developer | SAP Development Services | staging.dev.co",
         meta_description: "SAP development & engineering services for your next complex software development project. Contact us today to hire an SAP developer!",
-        og_image:"/images/Sap-Development-Services-1.png",
+        og_image: "/images/Sap-Development-Services-1.png",
         slug: "sap",
         sub_title: "Skills",
         bannericon: "/images/SAP.svg",
@@ -6104,9 +6104,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
             ],
         },
-        Subheadingtext:{
+        Subheadingtext: {
             heading: "Interesting Facts About SAP",
-            subText:"",
+            subText: "",
             list1: [
                 "SAP was founded in 1972 and is headquartered in Waldorf, Germany. The company makes a variety of software solutions, with an emphasis on Enterprise Resource Planning (ERP). SAP offers on-premises, cloud, and hybrid solutions.",
                 "SAP is the third-largest software and programming company in the world.",
@@ -6189,11 +6189,11 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         },
 
     },
-   {
+    {
         id: 30,
-        meta_title:"Kubernetes Developer | Kubernetes Development Services | DEV",
+        meta_title: "Kubernetes Developer | Kubernetes Development Services | DEV",
         meta_description: "Kubernetes development & engineering services for your next Kubernetes container management project. Contact us today!",
-        og_image:"/images/kubernetes-development-services.png",
+        og_image: "/images/kubernetes-development-services.png",
         slug: "kubernetes",
         sub_title: "Skills",
         bannericon: "/images/Kubernetes.svg",
@@ -6299,20 +6299,20 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
                 {
                     title: "Kubernetes Development",
-                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    description: "Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
                     imgSrc: "",
                 },
                 {
                     title: "Kubernetes Deployment",
-                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    description: "Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
                     imgSrc: "",
                 },
             ],
         },
 
-        Subheadingtext:{
+        Subheadingtext: {
             heading: "Interesting Facts About Kubernetes",
-            subText:"",
+            subText: "",
             list1: [
                 "Commonly stylized as K8s, Kubernetes is an open source containerized management and orchestration system for automating software deployment, scaling and management.",
                 "Kubernetes was originally designed by Google in 2014 and the code is now managed by the Cloud Native Computing Foundation.",
@@ -6321,13 +6321,13 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 The following companies all have or have acquired their own Kubernetes-based systems:`,
                 "Amazon",
                 "Oracle",
-                "IBM","Google",
+                "IBM", "Google",
                 "SUSE",
                 "Red Hat",
                 "Platform9",
                 "VMware",
                 "Microsoft",
-               
+
             ],
             list2: [
                 "Kubernetes is most typically used for microservice-based implementation because it is closely tied to microservices architecture.",
@@ -6402,9 +6402,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
     {
         id: 31,
-        meta_title:"Tableau Developer | Tableau Development Services | staging.dev.co",
+        meta_title: "Tableau Developer | Tableau Development Services | staging.dev.co",
         meta_description: "Tableau development & engineering services for your next custom business development software development project. Contact us today!",
-        og_image:"/images/Tableau-Development-services-1.png",
+        og_image: "/images/Tableau-Development-services-1.png",
         slug: "tableau",
         sub_title: "Skills",
         bannericon: "/images/Tableau.svg",
@@ -6478,20 +6478,20 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
                 {
                     title: "Kubernetes Development",
-                    description:"Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
+                    description: "Learn/train on Kubernetes interaction & management Add/train for specific Kubernetes dev tools Common K8s dev configurations Customized K8s dev configurations",
                     imgSrc: "",
                 },
                 {
                     title: "Kubernetes Deployment",
-                    description:"Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
+                    description: "Staging, Development and Testing environments, Skaffold, DevSpace & CI/CD integration Production preparation Creative brief development",
                     imgSrc: "",
                 },
             ],
         },
 
-        Subheadingtext:{
+        Subheadingtext: {
             heading: "Interesting Facts About Tableau",
-            subText:"",
+            subText: "",
             list1: [
                 "Tableau is an interactive, data visualization program founded in 2003. The company was acquired by Salesforce in August 2019, for $15.7 billion.",
                 "During its May 2013 NYSE IPO, Tableau raised more than $250 million.",
@@ -6499,7 +6499,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 "Tableau offers excellent IT support, while offering easy to implement solutions. From the moment you click on the download, it takes about 20 minutes for the software to be operational.",
                 "Tableau is a great program for non-technical users because it allows for “no-code” data queries.",
                 "Tableau is popular across industries because of its ability to analyze and present information in an accessible way. Tableau visualizations are easily embedded into a range of other platforms, including corporate portals like Microsoft SharePoint.",
-               
+
             ],
             list2: [
                 "Tableau has been recognized as a technology leader in the Gartner Magic Quadrant reports for seven consecutive years, from 2012 to 2019.",
@@ -6576,9 +6576,9 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 32,
-        meta_title:" ElasticSearch Consulting Services / ElasticSearch Developers / staging.dev.co",
+        meta_title: " ElasticSearch Consulting Services / ElasticSearch Developers / staging.dev.co",
         meta_description: "Looking for experts in ElasticSearch? Our software developers are well-versed in ElasticSearch and can provide customized solutions to database search needs.",
-        og_image:"/images/icons8-elasticsearch-50.png",
+        og_image: "/images/icons8-elasticsearch-50.png",
         slug: "elasticsearch",
         sub_title: "Skills",
         bannericon: "/images/ElasticSearchbanner.png",
@@ -6662,7 +6662,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
 
             ],
-            bottomline:`ElasticSearch is a distributed full-text search engine that enables you to search through large collections of data quickly and easily. It’s built on Lucene (an open source full-text search library), so you can be sure that it’s powerful and reliable.<br></br>
+            bottomline: `ElasticSearch is a distributed full-text search engine that enables you to search through large collections of data quickly and easily. It’s built on Lucene (an open source full-text search library), so you can be sure that it’s powerful and reliable.<br></br>
 
             For those who want to learn more or get started with ElasticSearch consulting services, please contact us for more information. We would be happy to answer any questions you have!`
         },
@@ -6678,17 +6678,17 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                 },
                 {
                     title: "Retail",
-                    description:"In retail, ElasticSearch can be used for product search, recommendations, and inventory management.",
+                    description: "In retail, ElasticSearch can be used for product search, recommendations, and inventory management.",
                     imgSrc: "",
                 },
                 {
                     title: "Healthcare",
-                    description:"In healthcare, ElasticSearch can be used for patient data search, clinical decision support, and drug discovery.",
+                    description: "In healthcare, ElasticSearch can be used for patient data search, clinical decision support, and drug discovery.",
                     imgSrc: "",
                 },
                 {
                     title: "Telecommunications",
-                    description:"In telecommunications, ElasticSearch can be used for network data search, customer service, and fraud detection.",
+                    description: "In telecommunications, ElasticSearch can be used for network data search, customer service, and fraud detection.",
                     imgSrc: "",
                 },
             ],
@@ -6752,6 +6752,238 @@ Contact us today and we’d be happy to answer any questions you might have.`,
                     description: `Please contact us for more information about our ElasticSearch consulting services.<br></br>
                     We would be happy to answer any questions you have!`,
                 }
+            ],
+        },
+
+    },
+    {
+        id: 33,
+        meta_title: " Angular Developer | Angular Development Services | staging.devco1.wpenginepowered.com",
+        meta_description: "Custom Angular development & engineering services for your mobile or desktop software development project. Contact us today!.",
+        og_image: "/images/icons8-angularjs-50.webp",
+        slug: "angular",
+        sub_title: "Skills",
+        bannericon: "/images/ElasticSearchbanner.png",
+        top_title: "Angular Development Services",
+        top_description: `AngularJS, often referred to as Angular for short, is an open source framework that’s maintained by Google in order to address various challenges developers face when developing and testing code. It integrates HTML codes and different application modules to form an intuitive, high-value framework.<br></br>
+
+        At Dev.co, we specialize in Angular development services and would be happy to help you achieve your goals by strategically leveraging this framework in a variety of capacities.<br></br>
+
+        If you are looking for a top-notch AngularJS development team, look no further than DEV.co. We have years of experience in the field and can provide you with the best possible service. Our developers are experts in their field, and we can promise that you won’t be disappointed with the final product. Contact us today to learn more!<br></br>
+
+        `,
+        startups: {
+            title: "There are also plenty of benefits and advantages on the Angular developer side of things,",
+            description: `which allows us to provide you with high-value software that’s simultaneously cost-effective.`,
+            imageHeight: 100,
+            imageWidth: 100,
+            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+        },
+
+        BorderTextbox: {
+            BorderTextdata: [
+                {
+                    title: "Why Choose Angular?",
+                    description: ``,
+
+                },
+                {
+                    title: "",
+                    description: `Angular is based on the Model View Controller (MVC) architecture format, which is typically used to create rich web applications. And because it can naturally synchronize with other dev models, development is simple and streamlined. This means you, the client, receive highly functional solutions that are simple to use and that can easily be updated and iterated over time.`,
+                }
+            ]
+        },
+
+
+
+
+        benefits: {
+            title: `Benefits of AngularJS development for mobile and web applications include: :
+
+`,
+            description: ``,
+            benefits: [
+                {
+                    title: "Simple architecture",
+                    description: `There are lots of complex design architectures out there. Angular isn’t one of them. It’s considered one of the simpler options, yet it packs quite the powerful punch. This means you get software that’s effortless yet effective. Hire one of our Angular developers to find out how extensive Angular can be!`,
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Shorter timeline",
+                    description: `Developing software in Angular is so much faster from a coding perspective. It’s derived from HTML and can be done rather easily and without much friction.<br></br>This means your dedicated front end Angular developer is typically able to turn projects around much faster - delivering a finished product in a fraction of the time, whether you need a single page or a full web design.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Superior server performance",
+                    description: `Angular supports caching and other processes, which reduces the burden from server computers and improves overall server performance. That’s great news for you (and all users).`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Open Source",
+                    description: `One of the benefits of using ElasticSearch is that it’s an open source solution, which means that it’s free to use. This makes it a cost-effective option for businesses or organizations of all sizes.`,
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+
+            ],
+          
+        },
+        Benefitslider: {
+            title: "The DEV.co Angular Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Discover",
+                    description: "We begin the Angular developer process by digging in and finding out what you want in your software or application. What are the primary goals? What are the secondary objectives? What stipulations and requirements must be met?",
+                    imgSrc: "",
+                },
+                {
+                    title: "Plan",
+                    description: "Armed with the right insights, we can create a strategic plan that allows us to satisfy your goals and produce an AngularJS and front-end development solution that follows best practices and adds value each step of the way, whether you need a full site or a single page developed.",
+                    imgSrc: "",
+                },
+
+                {
+                    title: "Develop",
+                    description: "Once the plan has been approved, it’s time for implementation. The Angular development process is much faster than other frameworks, thus you can expect the timeline to be streamlined and efficient. Our front end Angular developer team has the communication skills to ensure your web services experience is impeccable.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Test",
+                    description: "The process doesn’t end with the first iteration. We test, optimize, and test some more, ensuring we implemented using Angular developer best practices. This happens over and over again until we have a solution that everyone is happy with.",
+                    imgSrc: "",
+                },
+            ],
+        },
+        Subheadingtext: {
+            heading: "Interesting Angular Developer Facts",
+            subText:
+                "",
+            list1: [
+                "The first version of Angular was released in October 2010.",
+                "There are an estimated 219k unique domains using Angular.",
+                "Approximately 422k websites are built with Angular.",
+                "There are approximately 250k daily downloads of Angular.",
+                "The United States is the leader in using Angular websites. (75k) Russia (58k) and Taiwan (21k) are second and third, respectively.",
+                "The top industry verticals for Angular are computers and electronics, art and entertainment, news and media, and finance.",
+            ],
+            list2: [
+                "Angular is a popular choice among some of the world’s most successful companies, like Lego, Upwork, and PayPal. It’s also the go-to framework for a variety of Gmail and YouTube applications.",
+                "Angular is often deployed to various well-known hosting platforms, including Amazon Web Services (AWS). ",
+                "Angular accounts for more than 9% market share of companies using software frameworks. (Second behind only ASP.NET.)",
+            ],
+        },
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description: `Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner with an Angular Dev",
+                    description: `At DEV.co, we strive for improvement every single day.
+                                 We have high expectations of every Angular developer on our team and, as a result,
+                                 are able to consistently produce software and web applications that add value and surpass goals.
+                                 For more information, please reach out today!`,
+                }
+            ],
+        },
+        faqs: {
+            title: "Frequently Asked Questions",
+            description: "",
+            faqs: [
+                {
+                    question: "What is the best way to learn AngularJS?",
+                    answer: `The best way to learn AngularJS is by taking a course from a reputable source. There are many online courses available, and most of them are affordable and easy to follow. Alternatively, you can find a developer who is already familiar with the language and ask them for help.`,
+
+                },
+                {
+                    question: "How do I get started with Angular development?",
+                    answer: `If you want to get started with Angular development, you first need to install the Angular CLI. This is a command-line interface that allows you to create and manage Angular projects. You can find installation instructions on the Angular website.<br></br>Once you have the CLI installed, you can create a new project by running the following command:<br></br>ng new project-name <br></br>This will create a new project called “project-name” in the current directory. You can then open it in your favorite text editor and start coding! `,
+
+                },
+                {
+                    question: "How much does it cost to hire an Angular developer?",
+                    answer: `Hiring an Angular developer can be expensive, depending on your location and the developer’s experience level. However, it is definitely a worthwhile investment, as Angular is a powerful and versatile language.<br></br>If you are looking for a talented Angular developer, be prepared to pay upwards of $50 per hour. Of course, the cost will vary depending on the developer’s experience and skillset.<br></br>If you are on a tight budget, you may want to consider hiring a junior-level developer. A junior-level developer typically charges between $55 and $195 per hour, depending on geographic location and experience.<br></br>Whatever your budget may be, DEV.co can help you find the perfect Angular developer for your project. Contact us today to learn more! `,
+                },
+                {
+                    question: "Is Angular 2 better than Angular 1?",
+                    answer: `AngularJS is a powerful JavaScript framework that can be used to create dynamic web applications. But which version is better, AngularJS 1 or Angular 2?<br></br>
+
+                    There are many opinions on this topic, and it can be hard to decide which version is right for you.<br></br>
+
+                    The best way to decide is to try them both out and see which one you prefer. Angular 2 offers many new features and improvements over AngularJS 1, but some developers find it harder to learn than the older version.`,
+
+                },
+                {
+                    question: "What are some common problems with Angular development?",
+                    answer: `Angular development can be challenging, especially for beginners. There are many different aspects to master, and it can take a lot of time and practice to get good at it.<br></br>Another common problem is code duplication. It’s easy to accidentally copy and paste code, which can lead to problems down the road.<br></br>Another issue is that Angular can be slow and inefficient when used in certain situations. This can be a problem if your application needs to handle a lot of traffic.`,
+
+                },
+                {
+                    question: "Can you use AngularJS with WordPress?",
+                    answer: `AngularJS can be used with WordPress, but it’s not a perfect pairing. AngularJS is a front-end framework and WordPress is a content management system, so there are some differences in how they work.<br></br>However, with a little bit of effort, it’s possible to use AngularJS with WordPress. There are several tutorials online that can help you get started.`,
+
+                },
+                {
+                    question: "What is the difference between AngularJS and ReactJS?",
+                    answer: `Angular and ReactJS are both popular JavaScript frameworks, but they have different strengths and weaknesses.<br></br>Angular is a full-featured framework with many built-in features, while ReactJS is more lightweight and focuses on the View layer only.<br></br>Angular is more opinionated than ReactJS, which means that it’s harder to change its default behavior. ReactJS is more flexible and allows you to make more decisions about how your application should work.<br></br>ReactJS is faster and more efficient than Angular, but it doesn’t have as many features. It also doesn’t have as much support from the community as Angular does.`,
+
+                },
             ],
         },
 

@@ -2470,7 +2470,595 @@ These qualities are some of the most important to consider:`,
             ],
         },
     },
+    {
+        id: 13,
+        meta_title:"Custom Software Development for Architectural Services | DEV.co",
+        meta_description: "Our Architectural Services custom software development services allow you to scale your engineering teams for websites, custom software",
+        og_image:"/images/three_dot_og_img.png",
+        slug: "architectural-services",
+        sub_title: "services",
+        bannericon: "/images/APIDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
+        top_title: "Software Development for Architectural Services",
+        top_description:`Finding a good web design company for an architectural website can be difficult. Web design is highly customized to the type of architecture you practice, giving architects access to a variety of specialized services. Flying Cow Design offers complete web solutions including custom development & hosting, search engine optimization (SEO), pay-per-click advertising (PPC) and conversion optimization designed with architectural businesses in mind.`,
 
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "The Advantages of Custom Software Development",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `One of the perks of hiring a software architecture company that does custom web development for software architecture projects, is how an architect’s website needs will be met. When your visitors are walking through your site, and they see things that lines up with what their expectations are for seeing on a website in this industry, it heightens their willingness to play along and engage with you. Site owners like yourself need not worry about having to over-explain your work at every turn because as people visit these sites, they may take some information passively without being asked.`,
+            }
+            ]
+          },
+
+   
+        Benefitslider: {
+            title: "The DEV.CO Custom Software Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "",
+                    description: "Be sure to hire a web design company that specializes in web design for architects. On their website, they will be able to develop an architecture firm’s site to meet the specific expectations of your target audience as well as align with what people expect from an architect's website. As a result, you're more likely to catch the attention of your potential visitors and establish yourself as trustworthy within your industry on this website.",
+                    imgSrc: "",
+                },
+                {
+                    title: "",
+                    description:`Dev.co is a custom website design and development company serving the software architecture services industry. We work closely with you to determine your business needs, brand strategy and user experience goals then design a website that effortlessly executes on these objectives. Our one-of-a-kind plans serve as an interactive guide for visitors who want to find out more about your business or contact you for a quote. Mobile access means no matter where they are, theres always somewhere they can quickly get information about your company or request help finding it in person!`,
+                    imgSrc: "",
+                },
+                {
+                    title: "",
+                    description: `Our professional web developers take pride in providing clients with a customized website that adheres to their specific needs, whether it’s for an architecture firm or another type of business. We offer custom-built websites tailored to your needs so you get the most out of your design and content. We apply programming skills honed over the years with large (and small) corporations alike. And we craft sites that are accessible, usable, and look beautiful on any device – which is important as technology changes how people access information - from desktop computers to handheld tablets. Our team of talented designers will make sure the`,
+                    imgSrc: "",
+                },
+                {
+                    title: "",
+                    description: "A web-based portfolio is the most important marketing tool for any software architecture firm & software architecture consulting. But it's also more than just a set of images from past projects—it paints a picture of your capabilities, skills and success. A client wants to see evidence that you work hard and produce desirable results in order to know that they are making an informed decision when they hire you to design their project.",
+                    imgSrc: "",
+                },
+                {
+                    title: "",
+                    description: "Any business, large or small, requires a website. A custom web design for system architecture opens up many possibilities such as the ability to showcase your work more efficiently and make it easy for potential customers to contact you. We have a variety of web design options that would work well with any architectural firm; we consider your needs when designing our services tailored specifically to your architecture office so that all aspects of your firm are addressed effectively. Our team is equipped with talented designers who can create a professional website equally adept in content management systems and aesthetic appeal",
+                    imgSrc: "",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+     
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Why Dev.co?",
+                    description: `At Dev.co, designing a website for your architectural business is an ongoing process.
+,<br>
+                   You have to create something attractive and compels visitors.
+<br>
+                   Designs are never limited by preset templates; we want you to stand out
+<br>
+                   from the crowd with a web design that accurately reflects who you are as an architect.
+`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+      
+    },
+    {
+        id: 14,
+        meta_title:"Custom Software Development for Business Services | Web Dev",
+        meta_description: "Our Business Services custom development services allow you to scale your engineering teams for websites, custom software or mobile apps",
+        og_image:"/images/Business_Services.jpg",
+        slug: "business-services",
+        sub_title: "services",
+        bannericon: "/images/APIDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
+        top_title: "Custom Development Services for Business Services",
+        top_description:`If you run a business that sells products or services online, it will help your bottom line if you develop that business site yourself. If you engage the right professionals to offer custom software development services for businesses, they will undoubtedly help your company to grow. Our clients are all successful because we deliver results and increase their profits.<br></br>We’re experts at custom software development and website maintenance for business services. Our turnkey software development solutions give clients a web presence that is designed with both functionality and usability in mind. We work with you to determine your needs and deliver a solution that will make you proud.<br></br>We have worked with a wide range of organizations all over the world, including companies such as Warner Music Group, Intel, Random House Publishing, KPMG, Elevation Partners, and others. Small enough to take your project personally yet big enough to tackle all large business and enterprise projects. Our team of technology and business experts are committed to helping you create amazing digital customer experiences.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Assisting Your Business With Full-stack Web Services",
+                description: `DEV.co is an agency that assists businesses in software development and web development. We create custom solutions like e-commerce, online booking systems, content management, mobile apps etc. These solutions are created keeping business requirements in mind and are fast and scalable.`,
+                
+            },
+            {
+                title: "",
+            description: `With expertise in custom software development and customer service, DEV.co are your partners in building an online presence that translates into real results. Our work and our service is built on the idea of “development as a service,” where we treat IT as another component of your business. We leverage the most advanced web technologies, including HTML5, CSS3, Node.js, AngularJS, & React to gain a competitive advantage for our clients.<br></br>We have spent the past decade specializing in Web Development and are proud to be the premier choice for cost-effective web development services and custom website design. All while providing you with Exceptional Services.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "What We Offer",
+            description: `When you’re in need of high-quality, successful software development services,
+the team at DEV.co is here to help. Our team of experienced developers
+and designers can help your business improve operation.`,
+
+            benefits: [
+                {
+                    title: "SDK technologies",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "API software",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Mobile app development",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Full-stack development",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Web Design",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Digital Marketing",
+                    description: "",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+            ],
+        },
+        Benefitslider: {
+            title: "Dev.co is a full-service custom software development company",
+            description: `geared toward small to medium size businesses. Our team of experienced developers and designers can help your business improve operations and productivity.
+                     Starting at the beginning stages- from initial system design, to development, and even deployment—we make your digital experience available to your customers, partners, or employees.`,
+            card_datas: [
+              
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+      
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Make Your Dream Website or App A Reality",
+                    description: `We live and breathe software development every day. It’s our passion.<br>
+                    We’re a small team of brilliant, experienced developers,<br>
+                    designers, project managers and technical support staff.<br>
+                    We work side-by-side with our clients every step of the way,<br>
+                   and only stop when the job is complete. Contact us today!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+     
+    },
+    {
+        id: 15,
+        meta_title:"Custom Software Development Prototyping Sprints | DEV.co",
+        meta_description:"Our prototyping sprint provides minimal wireframe, initial design and testing work to show a proof-of-concept for testing ideas with",
+        og_image:"/images/prototyping.jpg",
+        slug: "prototyping",
+        sub_title: "services",
+        bannericon: "/images/APIDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
+        top_title: "Dev Sprint Prototyping",
+        top_description:`Software development is the gateway to profitability, but it can also be risky. What if your product can’t be built the way you originally intended? What if you make a critical early-planning mistake that compromises the entire build?<br></br>
+
+      With dev sprint prototyping, you’ll get the chance to test your product before writing a single line of code—and make sure it’s ready for development.
+`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "The Benefits of Dev Sprint Prototyping",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `With dev sprint prototyping, you’ll thoroughly analyze your idea before you begin building it, analyzing it for risk, and ensuring it’s going to serve your needs. From there, you’ll create a functioning prototype, to help you understand your product idea far better than you could in your own head or on paper.
+
+`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "Dev sprint prototyping offers several distinct advantages:",
+            description: ``,
+
+            benefits: [
+                {
+                    title: "Risk minimization",
+                    description: "First, you’ll greatly decrease risk. Instead of discovering critical flaws and potential errors deep into the development process, you’ll be able to find and eliminate them before you ever begin true development.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Better communication and collaboration",
+                    description: "With DevOps in place, your team will master the arts of collaboration and communication. You’ll be able to communicate ideas more clearly, and implement them more efficiently, ultimately resulting in less strain and more efficiency.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+                {
+                    title: "Time to market",
+                    description: "Spending just a few days on research and prototyping can ultimately save you weeks of hard work. That means a faster time to market, and in turn, a faster route to revenue generation.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Agility and flexibility",
+                    description: "Dev sprint prototyping is all about agility. You’ll design and develop your next app in an adaptive way, responding to new information and creating a final product that’s worthy of your original vision.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+               
+            ],
+        },
+        Benefitslider: {
+            title: "The Dev Sprint Prototyping Process",
+            description: `Here’s how we do it`,
+            card_datas: [
+                {
+                    title: "Initial presentation",
+                    description: "We’ll start with an initial presentation from you. You’ll provide us your vision of the app, your current ideas, and what you think the critical risks might be.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Competitive analysis",
+                    description:`With that information, we’ll do a thorough competitive analysis. What other apps like this already exist? Is your app distinguished in some way that could grant it competitive dominance?`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Risk assessment",
+                    description: `After that, we’ll delve into a thorough risk assessment. What could go wrong with this idea? What are its critical weaknesses, and how could it fail? We seek to find every potential vulnerability.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Wireframing and outlining",
+                    description: "With a better understanding of the product, we’ll begin wireframing and outlining the product, creating a storyboard that describes how the product could function.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Project planning",
+                    description: "At this point, we’ll begin putting together a plan for the project. How many people are needed? How much time will it take? What could go wrong during development?",
+                    imgSrc: "",
+                },
+                {
+                    title: "Final estimates",
+                    description: "With your prototype in hand, we’ll also provide you with our final estimates for the project, including how long it’s going to take, how many people will be required, and how much it will cost. We’ll also have recommendations for how to proceed, based on your competitive environment",
+                    imgSrc: "",
+                },
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+      
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Contact DEV.co today!",
+                    description: `Do you have an idea for the next killer app?<br>
+                    Or do you have a vision for a product that could revolutionize<br>
+                    how your company works? Book DEV.co for a dev sprint prototyping<br>
+                    workshop, or contact us today for a free initial consultation!`,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+       
+    },
+    {
+        id: 16,
+        meta_title:"Law Firm Software Development Services | DEV.co",
+        meta_description:"We provide custom software, website and application development for lawyers and attorneys. Get your law practice into the digital age.",
+        og_image:"/images/law.jpg",
+        slug: "law",
+        sub_title: "services",
+        bannericon: "/images/APIDevelopment.svg",
+        bannerImage:"/images/webdevelopmenservicesnewimage.png",
+        top_title: "Custom Software Development for Law Firms",
+        top_description:`At DEV.co, we are a custom development agency with extensive experience working with law firms. Our designers are highly experienced in the legal industry and can create a robust presence for your practice, simplify your case management, and provide more structure to your technology.
+
+<br></br>
+
+      When you want a law firm site built right, don’t go anywhere else. Our team will take you through the entire process, every step of the way, to build you the website you need.
+
+`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Custom Software & Web Development for Lawyers & Attorneys",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `Our team makes design for lawyers simple with advanced, creative, and customized website designs. We work with you every step of the way to turn your ideas into reality, using the latest web technologies to develop a unique design tailored to your firm.<br></br>Our websites are tailored for legal firms and include law practice management software for efficient use of time. Even the most complex law firms can benefit from a simple and professional website design that puts client information front and center.`,
+            }
+            ]
+          },
+
+        benefits: {
+            title: "Web Design For Lawyers",
+            description: `Make your law practice easier to find and help it grow.
+We focus on websites that can deliver a meaningful return on investment (ROI).
+Whether you are looking for a new design or have a website that needs to be redesigned,
+our web designers can help you get the right look.
+We can even create a completely new website for you from scratch <br></br>At DEV.co, we create feature-rich websites and provide custom software development services for lawyers that generate leads,
+and grow their practice. We have been serving the needs of law firms across the United States since 2008<br></br>We’ve helped hundreds of lawyers build responsive websites for their legal practices.
+We’ve designed and developed sites for small firms, large firms, solo practitioners
+and everything in between. Let us know what your needs are and we can help you choose
+the right design and development package to meet your requirements.`,
+
+            benefits: [
+               
+               
+            ],
+        },
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Simple to Use Content Management for Attorneys",
+                    description: "The primary goal of a law firm's website is to serve as the single point of contact with clients, referral partners, and other valuable audiences. To do this, our law firm customers need to be able to manage their web content while focused on serving their clients. Our product and services provide a single place for the management of publications and announcements, along with the ability to add other documents such as billing statements and client intake forms. These pieces all live in a single 'dashboard' with full version control so legal professionals can easily collaborate on content changes together, or revert to previous states if needed. How can you find, manage and share your firm's important content? Our Content Management setup for Attorneys provides the seamless integration of features necessary to help you create and manage your content from any location.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Graphic Design for Law Firms",
+                    description:`DEV.co software development company provides graphic design and software development services to law firms, court houses, legal organizations and commercial businesses throughout the US. Our graphic design for lawyers package includes the following services: Corporate Identity: We will help you develop a name for your firm, and a logo to use on letterhead, business cards, marketing materials, and advertising Collateral Design: We will create brochures, flyers, presentation folders, web banners, and other collateral materials Marketing Materials: We will create and design advertising pieces that reflect your image. This could include direct mailers, posters, business reply cards.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Technical Content for Law Firms",
+                    description: `Take your law firm to the next level with technical content such as blog posts, ebooks, white papers and guidebooks. Write for clients, get noticed online and build your reputation as a subject matter expert. Our technical writer team is a premier provider of technical content for the legal community. We have been providing engaging, legal technology solutions to firms for more than 10 years -- helping them work smarter and faster so they can focus on the content that matters most -- their clients. You'll find us at conferences, workshops and events throughout the country presenting the latest technology and information to help attorneys succeed.`,
+                    imgSrc: "",
+                },
+                {
+                    title: "Custom Software Development",
+                    description: "It is no secret, The next era of business is here and it's not what your firm has been doing, but what you will be doing. Today's legal consumers demand innovative solutions to complex problems. You need new ways to market and communicate with your clients. And these same clients expect expert guidance and personalized service at a flat fee or hourly rate that will enable them to keep their legal needs on budget. Our software developers are ready to help you unlock treasures buried in the ever-growing heap of information available online and present it in a clear, concise way for effective decision-making by your client(s). Developing software solutions for attorneys never looked so good. We specialize in efficiently engineering law offices a sophisticated and technologically advanced software platform that will provide all of the tools necessary to run your business. We'll work with you and your firm each step of the way, keeping risks to a minimum and schedules on track.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Reasonable Web Development Pricing",
+                    description: "Our website development prices for lawyers and law firms are the most reasonable in the industry. If you want a professionally designed website that is guaranteed to be easy to use and maintain, then you want us. Our pricing is very reasonable and our work is guaranteed. We want to help your firm take advantage of internet marketing opportunities. Our design team will create a professional website that catches the eye and keeps the visitor interested. You have worked hard to establish yourself as a lawyer in your community. We want you to benefit from what the internet has to offer, more clients and better return on investment.",
+                    imgSrc: "",
+                },
+              
+            ],
+        },
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+      
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Tell us about your law firm web design needs and get a quote",
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+       
+    },
 ];
 
 
