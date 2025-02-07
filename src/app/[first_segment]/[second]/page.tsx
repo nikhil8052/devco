@@ -123,31 +123,30 @@ export default function Page({ params }) {
 
 
 
+  const updateMetaTags = (title, description, image) => {
+      const setMetaTag = (name, content) => {
+          let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
+          tag.setAttribute("name", name);
+          tag.setAttribute("content", content);
+          document.head.appendChild(tag);
+      };
 
-  // const updateMetaTags = (title, description, image) => {
-  //     const setMetaTag = (name, content) => {
-  //         let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
-  //         tag.setAttribute("name", name);
-  //         tag.setAttribute("content", content);
-  //         document.head.appendChild(tag);
-  //     };
-
-  //     setMetaTag("description", description || "Default meta description");
-  //     setMetaTag("og:title", title || "Default Title");
-  //     setMetaTag("og:description", description || "Default meta description");
-  //     setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
-  // };
+      setMetaTag("description", description || "Default meta description");
+      setMetaTag("og:title", title || "Default Title");
+      setMetaTag("og:description", description || "Default meta description");
+      setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
+  };
 
 
-  // useEffect(() => {
-  //     if (blog && blogData) {
-  //         document.title = blogData.title;
-  //         updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
-  //     } else if (data) {
-  //         document.title = data.meta_title || "Default Title";
-  //         updateMetaTags(data.meta_title, data.meta_description, data.og_image);
-  //     }
-  // }, [ blogData, blog]);
+  useEffect(() => {
+      if (blog && blogData) {
+          document.title = blogData.title;
+          updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
+      } else if (data) {
+          document.title = data.meta_title || "Default Title";
+          updateMetaTags(data.meta_title, data.meta_description, data.og_image);
+      }
+  }, [ blogData, blog]);
 
 
 
