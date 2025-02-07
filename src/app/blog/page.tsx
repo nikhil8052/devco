@@ -25,8 +25,17 @@ export default function Blog() {
           "https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX"
         );
 
-        const data = await response.json();
-        const new_data = data.data;
+        // const data = await response.json();
+        const text = await response.text();
+        // console.log( text , " This is the text of the data ")
+
+        // const testing = JSON.parse(text);
+        // console.log( testing )
+        // return 
+        // const new_data = data.data;
+        const new_data = JSON.parse(text).data;
+        console.log( new_data )
+
         const formattedBlogs = new_data.map((post) => ({
           id: post.ID,
           slug: post.Slug,
