@@ -12,7 +12,7 @@ import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 import UserLayout from "../user_layout/UserLayout";
-import BlogPage from "@/app/blog_test/blog_page_test/blog_page";
+import BlogPage from "@/app/blog_test/blog_page_test/page";
 
 // Define types for data
 interface BaseData {
@@ -29,7 +29,7 @@ interface BlogData {
   content: string;
   authorName: string;
   authorImage: string;
-  authorDesignation?: string; // Add this property
+  authorDesignation?: string;
   authorId: string | null;
   authorDescription: string;
   meta_title?: string;
@@ -43,8 +43,7 @@ type ServiceData = BaseData & { serviceSpecificProp?: string };
 type TechnologyData = BaseData & { technologySpecificProp?: string };
 type LocationData = BaseData & { locationSpecificProp?: string };
 
-// Union type for all possible data
-type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;;
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
 
 interface PageProps {
   params: {
@@ -58,30 +57,32 @@ export default function Page({ params }: PageProps) {
   const [blogData, setBlogData] = useState<BlogData | null>(null);
   const [blogAuthor, setBlogAuthor] = useState({});
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
-  let [data, setData] = useState<Data | null>(null);
-  
+  const [data, setData] = useState<Data | null>(null);
 
-  // Match the route segment to the data and corresponding component
   useEffect(() => {
-    // let data: Data | null = null;
-    // Match the route segment to the data and corresponding component
-    if ((data = industries.find((item) => item.slug === first_segment))) {
-      setComponent(() => Industry);
-    } else if ((data = skills.find((item) => item.slug === first_segment))) {
-      setComponent(() => Skill);
-    } else if ((data = services.find((item) => item.slug === first_segment))) {
-      setComponent(() => Service);
-    } else if ((data = technologies.find((item) => item.slug === first_segment))) {
-      setComponent(() => Technology);
-    } else if ((data = locationsdata.find((item) => item.slug === first_segment))) {
-      setComponent(() => Locations);
+    let foundData: Data | null = null;
+    let matchedComponent: React.ComponentType<any> | null = null;
+
+    if ((foundData = industries.find((item) => item.slug === first_segment))) {
+      matchedComponent = Industry;
+    } else if ((foundData = skills.find((item) => item.slug === first_segment))) {
+      matchedComponent = Skill;
+    } else if ((foundData = services.find((item) => item.slug === first_segment))) {
+      matchedComponent = Service;
+    } else if ((foundData = technologies.find((item) => item.slug === first_segment))) {
+      matchedComponent = Technology;
+    } else if ((foundData = locationsdata.find((item) => item.slug === first_segment))) {
+      matchedComponent = Locations;
+    }
+
+    if (foundData) {
+      setData(foundData);
+      setComponent(() => matchedComponent);
+      setBlog(false);
     } else {
       fetchBlogDetails();
     }
-    setData(data);
   }, [first_segment]);
-
-
 
   const fetchBlogDetails = async () => {
     try {
@@ -90,10 +91,9 @@ export default function Page({ params }: PageProps) {
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
       const response_data = await response.json();
-      console.log(response_data, " This is the response data ")
+      console.log(response_data, "This is the response data");
       const blog_data_res = response_data.data[0];
 
-      console.log(blog_data_res)
       if (blog_data_res?.Title && blog_data_res?.Created_At) {
         setBlog(true);
         setBlogData({
@@ -110,151 +110,65 @@ export default function Page({ params }: PageProps) {
 
         if (blog_data_res.Author_Recent_Posts && blog_data_res.Author_ID) {
           setBlogAuthor({
-            
-            description:  blog_data_res.Author_ID.Description || "No description available",
+            description: blog_data_res.Author_ID.Description || "No description available",
             recentPosts: blog_data_res.Author_Recent_Posts || [],
           });
-          console.log(blogAuthor)
         }
         setComponent(() => BlogPage);
       }
-
-
     } catch (error) {
       console.error("Error fetching blog details:", error);
     }
   };
 
-
-
   useEffect(() => {
-
-    // if (data ==null && !data ){
-
-    //   console.log( " Return Meta BLOG ", blog )
-    //   console.log( " Return Meta ")
-    //   return;
-    // } 
-
-    if (blog) {
-
-      document.title = blogData.title
-
-      // Set meta description
-      const existingMetaDescription = document.querySelector('meta[name="description"]');
-      if (existingMetaDescription) {
-        existingMetaDescription.setAttribute("content", "Default meta description");
-      } else {
-        const newMetaDescription = document.createElement("meta");
-        newMetaDescription.setAttribute("name", "description");
-        newMetaDescription.setAttribute("content", "Default meta description");
-        document.head.appendChild(newMetaDescription);
-      }
-
-      // Set Open Graph image (og:image)
-      const existingOgImage = document.querySelector('meta[property="og:image"]');
-      if (existingOgImage) {
-        existingOgImage.setAttribute("content", "/images/Custom-Website-Development-Services-Icon.png");
-      } else {
-        const newOgImage = document.createElement("meta");
-        newOgImage.setAttribute("property", "og:image");
-        newOgImage.setAttribute("content", "/images/Custom-Website-Development-Services-Icon.png");
-        document.head.appendChild(newOgImage);
-      }
-
-      // Set additional Open Graph properties
-      const ogTitle = document.querySelector('meta[property="og:title"]');
-      if (ogTitle) {
-        ogTitle.setAttribute("content", "Default Title");
-      } else {
-        const newOgTitle = document.createElement("meta");
-        newOgTitle.setAttribute("property", "og:title");
-        newOgTitle.setAttribute("content", "Default Title");
-        document.head.appendChild(newOgTitle);
-      }
-
-      const ogDescription = document.querySelector('meta[property="og:description"]');
-      if (ogDescription) {
-        ogDescription.setAttribute("content", "Default meta description");
-      } else {
-        const newOgDescription = document.createElement("meta");
-        newOgDescription.setAttribute("property", "og:description");
-        newOgDescription.setAttribute("content", "Default meta description");
-        document.head.appendChild(newOgDescription);
-      }
-
-
+    if (blog && blogData) {
+      document.title = blogData.title;
+      updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
     } else if (data) {
-
-      // Set document title
       document.title = data.meta_title || "Default Title";
-
-      // Set meta description
-      const existingMetaDescription = document.querySelector('meta[name="description"]');
-      if (existingMetaDescription) {
-        existingMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
-      } else {
-        const newMetaDescription = document.createElement("meta");
-        newMetaDescription.setAttribute("name", "description");
-        newMetaDescription.setAttribute("content", data.meta_description || "Default meta description");
-        document.head.appendChild(newMetaDescription);
-      }
-
-      // Set Open Graph image (og:image)
-      const existingOgImage = document.querySelector('meta[property="og:image"]');
-      if (existingOgImage) {
-        existingOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
-      } else {
-        const newOgImage = document.createElement("meta");
-        newOgImage.setAttribute("property", "og:image");
-        newOgImage.setAttribute("content", data.og_image || "/images/Custom-Website-Development-Services-Icon.png");
-        document.head.appendChild(newOgImage);
-      }
-
-      // Set additional Open Graph properties
-      const ogTitle = document.querySelector('meta[property="og:title"]');
-      if (ogTitle) {
-        ogTitle.setAttribute("content", data.meta_title || "Default Title");
-      } else {
-        const newOgTitle = document.createElement("meta");
-        newOgTitle.setAttribute("property", "og:title");
-        newOgTitle.setAttribute("content", data.meta_title || "Default Title");
-        document.head.appendChild(newOgTitle);
-      }
-
-      const ogDescription = document.querySelector('meta[property="og:description"]');
-      if (ogDescription) {
-        ogDescription.setAttribute("content", data.meta_description || "Default meta description");
-      } else {
-        const newOgDescription = document.createElement("meta");
-        newOgDescription.setAttribute("property", "og:description");
-        newOgDescription.setAttribute("content", data.meta_description || "Default meta description");
-        document.head.appendChild(newOgDescription);
-      }
-
+      updateMetaTags(data.meta_title, data.meta_description, data.og_image);
     }
+  }, [data, blogData, blog]);
 
+  const updateMetaTags = (title?: string, description?: string, image?: string) => {
+    const setMetaTag = (name: string, content: string) => {
+      let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
+      tag.setAttribute("name", name);
+      tag.setAttribute("content", content);
+      document.head.appendChild(tag);
+    };
 
+    setMetaTag("description", description || "Default meta description");
+    setMetaTag("og:title", title || "Default Title");
+    setMetaTag("og:description", description || "Default meta description");
+    setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
+  };
 
-  }, [data, blog]); // Dependency on `data`
-
-  // Fallback if no match is found
-  // if (!data || !Component) {
-  //   return (
-  //     <UserLayout>
-  //       <div className="text-center text-white py-20">
-  //         <h1>404 - Page Not Found</h1>
-  //         <p>The requested page could not be found.</p>
-  //       </div>
-  //     </UserLayout>
-  //   );
-  // }
-
-  // Render the matched component with its data
   if (blog) {
     return (
       <UserLayout>
         {Component && <Component blog={blogData} author={blogAuthor} />}
+      </UserLayout>
+    );
+  }
+
+  if (!Component) {
+    return (
+      <UserLayout>
+        <div className="text-center text-white py-20">
+          <div className="container">
+            <div className="fourzero_div flex items-center content-center direction-column py-10">
+              <div className="404wrap">
+                <h1>404 - Page Not Found</h1>
+                <p>The requested page could not be found.</p>
+                <a href="/" className="mt-5 text-center bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition inline-block hover:bg-[#ffffff] hover:text-black">
+                  Go Back to Homepage
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </UserLayout>
     );
   }

@@ -7,12 +7,63 @@ import Link from 'next/link';
 import UserLayout from "../../user_layout/UserLayout";
 import { useRouter } from "next/navigation";
 
-export default function BlogDetail({ blog, author }) {
+// interface BlogData {
+//   title: string;
+//   image: string;
+//   date: string;
+//   content: string;
+//   authorName: string;
+//   authorImage: string;
+//   authorDesignation?: string;
+//   authorId: string | null;
+//   authorDescription: string;
+//   meta_title?: string;
+//   meta_description?: string;
+//   og_image?: string;
+// }
+
+// interface AuthData {
+//   title: string;
+//   image: string;
+//   date: string;
+//   content: string;
+//   authorName: string;
+//   recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
+// }
+
+interface PageProps {
+  blog: {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    authorImage: string;
+    authorDesignation?: string;
+    authorId: string | null;
+    authorDescription: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+  };
+  author: {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
+  };
+}
+
+const BlogPage = ({ blog, author } : PageProps ) => {
+  
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
   const [loading, setLoading] = useState(true); // Loading state
   const router = useRouter(); 
 
-  var sections = blog.content.split('\n');
+  const sections = blog.content.split('\n');
+  
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -43,14 +94,14 @@ export default function BlogDetail({ blog, author }) {
   const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
   // Handle tab switching
-  const handleTabSwitch = (tab) => {
+  const handleTabSwitch = (tab: string) => {
     setActiveTab(tab);
   };
 
   return (
     <div className="blog_detail_page bg-black relative z-10 text-customwhite">
       <div className="blog_detail_top">
-        <div className="container mmx-auto">
+        <div className="container mx-auto">
           <div className="blog_det_top">
             <div className="back_blog">
               <a href="/blog" className="text-customWhite underline mt-4 inline-block">
@@ -67,7 +118,7 @@ export default function BlogDetail({ blog, author }) {
         </div>
       </div>
       <div className="container mx-auto">
-        <div className="blog_cartd_image">
+        <div className="blog_card_image">
           <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
         </div>
         <div className="blog_meta mt-4">
@@ -76,14 +127,12 @@ export default function BlogDetail({ blog, author }) {
         <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
           dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
         {
-          sections.map((section, index )=>{
-            return (
-              <div key={index}
+          sections.map((section, index) => (
+            <div key={index}
               className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
               dangerouslySetInnerHTML={{ __html: section }}
             ></div>
-            )
-          })
+          ))
         }
         <div className="author_section">
           <div className="author_tab_block">
@@ -104,21 +153,21 @@ export default function BlogDetail({ blog, author }) {
             <div className="author_tab_content">
               {/* Author Info */}
               {activeTab === 'Authorinfo1' && author && (
-                <div className="author_data Authodata1">
+                <div className="author_data AuthorData1">
                   <div className="author_info flex">
                     <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
                       <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{blog.authorName}</div>
-                      <div className="authr_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
+                      <div className="author_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
                     </div>
                   </div>
                 </div>
               )}
               {/* Recent Posts */}
               {activeTab === 'Authorinfo2' && author && (
-                <div className="author_data Authodata2">
+                <div className="author_data AuthorData2">
                   <div className="author_info flex">
                     <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
@@ -152,3 +201,6 @@ export default function BlogDetail({ blog, author }) {
     </div>
   );
 }
+
+export default BlogPage;
+

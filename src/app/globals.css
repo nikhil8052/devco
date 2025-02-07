@@ -1001,10 +1001,28 @@ position: relative;
 overflow: hidden;
 border-radius: 10px;
 padding: 15px;
+background-color: #060505f2;
+
 
 }
-.header_submenu .submenu_flex {
-    background-color: #000000;
+.submenu_flex li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.submenu_flex li a 
+ img {
+    max-width: 100%;
+    width: auto;
+    height: 30px;
+    object-fit: contain;
+    object-position: center top;
+}
+.submenu_flex .icon_list.skills_icon_list li a img {
+    height: 25px;
 }
 .icon_list a {
     text-decoration: none;
@@ -1018,7 +1036,7 @@ padding: 15px;
     color: #4353ff;
 }
 
- .header_submenu .submenu_flex:before {
+ /* .header_submenu .submenu_flex:before {
     position: absolute;
     content:"";
     width: 100%;
@@ -1028,7 +1046,7 @@ padding: 15px;
     backdrop-filter: blur(10px);
     backdrop-filter: blur(20px);
 background-color: rgba(0, 0, 0, 0.8);
-} 
+}  */
 .submenu_flex .menu_icons_div {
     position: relative;
     z-index: 1;
@@ -1288,9 +1306,9 @@ ul.checklist li:not(:last-child) {
     background-position: center bottom;
 }
 
-.terms_block p, .terms_block li {
+/* .terms_block p, .terms_block li {
     font-size: 22px;
-}
+} */
 .terms_block h2 {
     font-size: 48px;
     font-weight: 600;
@@ -1690,6 +1708,22 @@ body.page-portfolio1 div#chat-bot-launcher-container {
     display: none;
 }
 
+.fourzero_div {
+    align-items: center;
+    justify-content: center;
+}
+
+.fourzero_div h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+a.post_title_link:hover {
+    color: #3f4dee;
+}
+.Skill_banner.locationbanner {
+    padding-top: 170px;
+}
 
 
 /*--------- responsive css start ---------*/
@@ -1726,9 +1760,9 @@ body.page-portfolio1 div#chat-bot-launcher-container {
         padding-top: 8px;
     }
     
-    .terms_block p, .terms_block li {
+    /* .terms_block p, .terms_block li {
         font-size: 18px;
-    }
+    } */
     
     .terms_block h2 {
         font-size: 36px;
@@ -1869,6 +1903,30 @@ body.page-portfolio1 div#chat-bot-launcher-container {
 }
 .header_wrapper .button_col {
     flex-basis: calc(100% - 48px);
+}
+.submenu_flex li a img {
+    display: none;
+    visibility: hidden;
+}
+
+.submenu_flex .icon_list {
+    display: block;
+}
+
+.submenu_flex .icon_list li {
+    display: block;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.nav_div > ul >li {
+    width: 100%;
+}
+
+.submenu_flex li a {
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 }
 
@@ -2142,9 +2200,9 @@ body.page-portfolio1 div#chat-bot-launcher-container {
     .aboutpage_sections {
         margin-top: -80px;
     }
-    .terms_block p, .terms_block li {
+    /* .terms_block p, .terms_block li {
         font-size: 14px;
-    }
+    } */
     
     .terms_block h2 {
         font-size: 28px;

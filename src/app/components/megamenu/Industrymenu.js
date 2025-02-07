@@ -1,28 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBuilding,           // Enterprise
-  faLandmark,           // Government
-  faGraduationCap,      // Education
-  faBriefcase,          // Small Business
-  faBullhorn,           // Marketing
-  faChartLine,          // Finance
-  faHeartbeat,          // Healthcare
-  faTractor,            // Agriculture
-  faShoppingCart        // eCommerce
-} from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
+
 
 const skillsmenu = [
-  { name: 'Enterprise', icon: faBuilding, link: '/enterprise' },
-  { name: 'Government', icon: faLandmark, link: '/government' },
-  { name: 'Education', icon: faGraduationCap, link: '/education' },
-  { name: 'Small Business', icon: faBriefcase, link: '/small-business' },
-  { name: 'Marketing', icon: faBullhorn, link: '/marketing' },
-  { name: 'Finance', icon: faChartLine, link: '/finance' },
-  { name: 'Healthcare', icon: faHeartbeat, link: '/healthcare' },
-  { name: 'Agriculture', icon: faTractor, link: '/agriculture' },
-  { name: 'eCommerce', icon: faShoppingCart, link: '/ecommerce' },
+  { name: 'Enterprise',image: '/images/menu_enterprise.svg', link: '/enterprise' },
+  { name: 'Government', image: '/images/menu_gov.svg', link: '/government' },
+  { name: 'Education', image: '/images/menu_educatrion.svg', link: '/education' },
+  { name: 'Small Business', image: '/images/menu_small_bus.svg', link: '/small-business' },
+  { name: 'Marketing',image: '/images/menu_marketing.svg', link: '/marketing' },
+  { name: 'Finance', image: '/images/menu_finance.svg', link: '/finance' },
+  { name: 'Healthcare',image: '/images/menu_healthcare.svg', link: '/healthcare' },
+  { name: 'Agriculture', image: '/images/menu_agriculture.svg', link: '/agriculture' },
+  { name: 'eCommerce', image: '/images/menu_ecommerce.svg', link: '/ecommerce' },
 ];
 
 const Industrymenu = () => {
@@ -31,16 +21,20 @@ const Industrymenu = () => {
       <div className="menu_icons_div basis-[100%]">
         <ul className="icon_list w-full flex flex-wrap gap-y-1">
           {skillsmenu.map((skill, index) => (
-            <li key={index} className="p-1 basis-[16%]">
+            <li key={index} className="p-2 basis-[20%] flex flex-col items-center">
               <Link
                 href={skill.link}
                 aria-label={skill.name}
-                className="text-customwhite text-[20px]"
+                className="flex flex-col items-center"
               >
-                <FontAwesomeIcon
-                  icon={skill.icon}
-                  className="text-customwhite text-[16px]"
+                <Image
+                  src={skill.image}
+                  alt={skill.name}
+                  width={50}  // Adjust size as needed
+                  height={50} // Adjust size as needed
+                  className="mb-2"
                 />
+                <span className="text-customwhite text-center">{skill.name}</span>
               </Link>
             </li>
           ))}

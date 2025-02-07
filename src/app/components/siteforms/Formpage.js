@@ -1,11 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import ContactAddress from './ContactAddress.js';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { useForm } from 'react-hook-form';
-
 
 const schema = yup.object().shape({
   firstName: yup.string().required('First Name is required'),
@@ -16,12 +15,11 @@ const schema = yup.object().shape({
   additionalInfo: yup.string().required('Additional Information is required'),
 });
 
-
 const formFields = [
-  { id: "firstName", label: "First Name", type: "text"},
-  { id: "lastName", label: "Last Name", type: "text",  },
-  { id: "email", label: "Email", type: "email", },
-  { id: "phone", label: "Phone", type: "tel",  },
+  { id: "firstName", label: "First Name", type: "text" },
+  { id: "lastName", label: "Last Name", type: "text" },
+  { id: "email", label: "Email", type: "email" },
+  { id: "phone", label: "Phone", type: "tel" },
   {
     id: "help", label: "How Can We Help", type: "select", options: [
       { value: "web development", label: "I need custom web development" },
@@ -33,66 +31,46 @@ const formFields = [
   { id: "additionalInfo", label: "Additional Information", type: "textarea" },
 ];
 
-// const handleSubmit = async (event) => {
-//   event.preventDefault(); // Prevent the default form submission
-
-//   const formData = new FormData(event.target); // Get the form data
-  
-//   // Convert form data to an object
-//   const data = {};
-//   formData.forEach((value, key) => {
-//     data[key] = value;
-//   });
-
-//   try {
-//     const response = await fetch('/api/submitForm', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify(data),
-//     });
-    
-//     if (response.ok) {
-//       alert('Form submitted successfully');
-//     } else {
-//       alert('Failed to submit form');
-//     }
-//   } catch (error) {
-//     console.error('Error:', error);
-//     alert('An error occurred while submitting the form');
-//   }
-// };
-
 const Formpage = () => {
-
+  const [successMessage, setSuccessMessage] = useState("");
 
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
-
-  
   const onSubmit = async (data) => {
-    console.log( data , " This is the data ")
-    return 
+    setSuccessMessage(""); // Clear any existing success message
+
+    const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
+    const payload = data;
+    
     try {
-      const response = await fetch('/api/submitForm', {
+      const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
       });
+
+      const result = await response.json();
       
       if (response.ok) {
-        alert('Form submitted successfully');
+        setSuccessMessage("Thank you for reaching out! Your request has been received, and our team will get back to you within 24 hours.");
+        reset();
+
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          setSuccessMessage("");
+        }, 5000);
       } else {
-        alert('Failed to submit form');
+        console.error('Error sending email:', result);
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('An error occurred while submitting the form');
+      console.error('Unexpected error:', error);
     }
   };
 
@@ -124,44 +102,39 @@ const Formpage = () => {
                           </label>
                           {field.type === 'select' ? (
                             <>
-                            <select
-                              id={field.id}
-                              name={field.id}
-                              {...register(field.id)}
-                              className="w-full p-2 border border-gray-300 rounded-md"
-                              required={field.required}
-                            >
-                              {field.options.map((option, optionIndex) => (
-                                <option value={option.value} key={optionIndex}>
-                                  {option.label}
-                                </option>
-                              ))}
-                            </select>
-                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
+                              <select
+                                id={field.id}
+                                {...register(field.id)}
+                                className="w-full p-2 border border-gray-300 rounded-md"
+                              >
+                                <option value="">Select an option</option>
+                                {field.options.map((option, optionIndex) => (
+                                  <option value={option.value} key={optionIndex}>
+                                    {option.label}
+                                  </option>
+                                ))}
+                              </select>
+                              <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
                             </>
                           ) : field.type === 'textarea' ? (
                             <>
-                            <textarea
-                              id={field.id}
-                              name={field.id}
-                              {...register(field.id)}
-                              rows="4"
-                              className="w-full p-2 border border-gray-300 rounded-md"
-                            ></textarea>
-                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
+                              <textarea
+                                id={field.id}
+                                {...register(field.id)}
+                                rows="4"
+                                className="w-full p-2 border border-gray-300 rounded-md"
+                              ></textarea>
+                              <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
                             </>
-
-                          ) : (<>
-                            <input
-                              type={field.type}
-                              id={field.id}
-                              name={field.id}
-                              {...register(field.id)}
-                              required={field.required}
-                              className="w-full p-2 border border-gray-300 rounded-md"
-                            />
-                            <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
-
+                          ) : (
+                            <>
+                              <input
+                                type={field.type}
+                                id={field.id}
+                                {...register(field.id)}
+                                className="w-full p-2 border border-gray-300 rounded-md"
+                              />
+                              <p className="text-red-500 text-sm">{errors[field.id]?.message}</p>
                             </>
                           )}
                         </div>
@@ -176,6 +149,12 @@ const Formpage = () => {
                     </div>
                   </div>
                 </form>
+                {/* Success Message */}
+                {successMessage && (
+                  <div className="text-green-500 text-sm mt-3">
+                    {successMessage}
+                  </div>
+                )}
               </div>
             </div>
           </div>

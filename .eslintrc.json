@@ -6,6 +6,7 @@
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
     "prefer-const": "off",
-    "@next/next/no-default-export": "off"
+    "@next/next/no-default-export": "off",
+    "@next/next/no-img-element": "off"  // Disable the no-img-element rule
   }
 }
