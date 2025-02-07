@@ -6,34 +6,85 @@ import Image from "next/image";
 const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   const [selectedItem, setSelectedItem] = useState(null); // Track selected portfolio item
   const [showModal, setShowModal] = useState(false); // Control modal visibility
+  const [formData, setFormData] = useState({}); // Store form data
+  const [errors, setErrors] = useState({}); // Store validation errors
+
+  // Define dynamic form fields
+  const fields = [
+    { id: "firstName", label: "First Name", type: "text", required: true },
+    { id: "lastName", label: "Last Name", type: "text", required: true },
+    { id: "email", label: "Email", type: "email", required: true },
+  ];
 
   // Convert title to match the filename format
   const getPdfFilename = (title) => {
     return title.replace(/\s+/g, "-"); // Replace spaces with "-"
   };
 
+  // Handle form input changes
+  const handleInputChange = (e) => {
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
+    setErrors({ ...errors, [id]: "" }); // Clear error on input change
+  };
+
+  // Validate form fields
+  const validateForm = () => {
+    const newErrors = {};
+    fields.forEach((field) => {
+      if (field.required && !formData[field.id]) {
+        newErrors[field.id] = `${field.label} is required`;
+      }
+    });
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   // Handle form submission
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
 
-    if (!selectedItem) return;
+    if (!validateForm()) return;
 
-    // Generate the PDF filename dynamically
-    const pdfFilename = getPdfFilename(selectedItem.title);
+    try {
+      // Send form data to the API
+      const response = await fetch(
+        "https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI4eZLxMDNSWF0WZa6AmiX",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            ...formData,
+            pdfTitle: selectedItem.title,
+          }),
+        }
+      );
 
-    // Correct the file path (public/images/pdf/)
-    const pdfPath = `/images/pdf/${pdfFilename}.pdf`; 
+      if (!response.ok) {
+        throw new Error("Failed to send email");
+      }
 
-    // Open the PDF in a new tab
-    const link = document.createElement("a");
-    link.href = pdfPath; // Path to PDF inside the "public/images/pdf" folder
-    link.target = "_blank"; // Open in a new tab
-    document.body.appendChild(link); // Append to DOM for click
-    link.click();
-    document.body.removeChild(link); // Remove after click
+      // Generate the PDF filename dynamically
+      const pdfFilename = getPdfFilename(selectedItem.title);
+      const pdfPath = `/images/pdf/${pdfFilename}.pdf`;
 
-    // Close the modal
-    setShowModal(false);
+      // Open the PDF in a new tab
+      const link = document.createElement("a");
+      link.href = pdfPath;
+      link.target = "_blank";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      // Reset form data and close modal
+      setFormData({});
+      setShowModal(false);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Failed to submit form. Please try again.");
+    }
   };
 
   // Close modal on clicking outside the modal content
@@ -49,46 +100,41 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
         <div className="portfolio_grid flex justify-between gap-5">
           {/* Portfolio Column 1 */}
           <div className="portfolio_col portfolio_col1 md:w-[50%] w-[100%]">
-          {portfolioCol1.map((item, index) => (
-  <div className="portfolio_box" key={index}>
-    <div className="box_inner">
-      {/* Only render box_logo if item.logo exists */}
-      {item.logo && (
-        <div className="box_logo">
-          <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-        </div>
-      )}
-
-      {item.gridLogo && (
-        <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-          <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-        </div>
-      )}
-
-      <div className="box_text">
-        <h3>{item.title}</h3>
-        <div className="download_div">
-          <a
-            href="#"
-            onClick={() => {
-              setSelectedItem(item); // Set selected item
-              setShowModal(true); // Show modal
-            }}
-          >
-            <Image
-              src="/images/downloadcaseimage.svg"
-              width={100}
-              height={100}
-              alt="Download Case Study"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-))}
-
-
+            {portfolioCol1.map((item, index) => (
+              <div className="portfolio_box" key={index}>
+                <div className="box_inner">
+                  {item.logo && (
+                    <div className="box_logo">
+                      <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
+                    </div>
+                  )}
+                  {item.gridLogo && (
+                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
+                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
+                    </div>
+                  )}
+                  <div className="box_text">
+                    <h3>{item.title}</h3>
+                    <div className="download_div">
+                      <a
+                        href="#"
+                        onClick={() => {
+                          setSelectedItem(item); // Set selected item
+                          setShowModal(true); // Show modal
+                        }}
+                      >
+                        <Image
+                          src="/images/downloadcaseimage.svg"
+                          width={100}
+                          height={100}
+                          alt="Download Case Study"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
 
           {/* Portfolio Column 2 */}
@@ -96,12 +142,11 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             {portfolioCol2.map((item, index) => (
               <div className="portfolio_box" key={index}>
                 <div className="box_inner">
-                    {/* Only render box_logo if item.logo exists */}
-              {item.logo && (
-                  <div className="box_logo">
-                    <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                  </div>
-              )}
+                  {item.logo && (
+                    <div className="box_logo">
+                      <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
+                    </div>
+                  )}
                   {item.gridLogo && (
                     <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
                       <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
@@ -149,39 +194,24 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             <h5 className="text-white mb-4">Please fill the below form to download the PDF</h5>
             <h3 className="text-xl font-bold mb-4 text-white">{selectedItem.title}</h3>
             <form onSubmit={handleFormSubmit}>
-              <div className="mb-4">
-                <label htmlFor="firstName" className="block text-sm font-medium text-gray-400">
-                  First Name
-                </label>
-                <input
-                  type="text"
-                  id="firstName"
-                  required
-                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
-              <div className="mb-4">
-                <label htmlFor="lastName" className="block text-sm font-medium text-gray-400">
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  id="lastName"
-                  required
-                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
-              <div className="mb-4">
-                <label htmlFor="email" className="block text-sm font-medium text-gray-400">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  required
-                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                />
-              </div>
+              {fields.map((field) => (
+                <div className="mb-4" key={field.id}>
+                  <label htmlFor={field.id} className="block text-sm font-medium text-gray-400">
+                    {field.label}
+                  </label>
+                  <input
+                    type={field.type}
+                    id={field.id}
+                    required={field.required}
+                    className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                    value={formData[field.id] || ""}
+                    onChange={handleInputChange}
+                  />
+                  {errors[field.id] && (
+                    <p className="text-red-500 text-sm mt-1">{errors[field.id]}</p>
+                  )}
+                </div>
+              ))}
               <div className="button_wrap flex justify-end space-x-4">
                 <button
                   type="submit"

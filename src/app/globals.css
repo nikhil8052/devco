@@ -612,7 +612,7 @@ img.top_left_blue {
     background-color: transparent;
     border: 1px solid #374151;
     padding: 12px 20px;
-    color: #374151;
+    color: #ffffff;
 }
 .pdf-model label {
     font-size: 15px;
@@ -1724,6 +1724,8 @@ a.post_title_link:hover {
 .Skill_banner.locationbanner {
     padding-top: 170px;
 }
+
+
 
 
 /*--------- responsive css start ---------*/
