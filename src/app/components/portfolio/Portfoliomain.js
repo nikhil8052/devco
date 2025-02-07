@@ -46,6 +46,12 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
 
     if (!validateForm()) return;
 
+    const FormData = {
+      ...formData,
+      pdfTitle: selectedItem.title,
+      data_type:'portfolio'
+    } ; 
+
     try {
       // Send form data to the API
       const response = await fetch(
@@ -55,10 +61,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({
-            ...formData,
-            pdfTitle: selectedItem.title,
-          }),
+          body: JSON.stringify(FormData),
         }
       );
 

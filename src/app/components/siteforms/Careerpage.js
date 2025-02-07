@@ -43,7 +43,7 @@ const Careerpage = () => {
     }
 
     const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
-    const payload = { ...data, resume };
+    const payload = { ...data, resume , data_type:'career_page'};
 
     try {
       const response = await fetch(apiUrl, {
