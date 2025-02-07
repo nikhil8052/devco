@@ -58,6 +58,7 @@ export default function Page({ params }: PageProps) {
   const [blogAuthor, setBlogAuthor] = useState({});
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
   const [data, setData] = useState<Data | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let foundData: Data | null = null;
@@ -115,6 +116,7 @@ export default function Page({ params }: PageProps) {
           });
         }
         setComponent(() => BlogPage);
+        setLoading(false)
       }
     } catch (error) {
       console.error("Error fetching blog details:", error);
@@ -153,7 +155,15 @@ export default function Page({ params }: PageProps) {
     );
   }
 
-  if (!Component) {
+  if (Component) {
+    return (
+      <UserLayout>
+        {Component && <Component data={data} />}
+      </UserLayout>
+    );
+  }
+
+  if (!Component && loading == false) {
     return (
       <UserLayout>
         <div className="text-center text-white py-20">
@@ -173,9 +183,4 @@ export default function Page({ params }: PageProps) {
     );
   }
 
-  return (
-    <UserLayout>
-      {Component && <Component data={data} />}
-    </UserLayout>
-  );
 }
