@@ -1306,9 +1306,9 @@ ul.checklist li:not(:last-child) {
     background-position: center bottom;
 }
 
-.terms_block p, .terms_block li {
+/* .terms_block p, .terms_block li {
     font-size: 22px;
-}
+} */
 .terms_block h2 {
     font-size: 48px;
     font-weight: 600;
@@ -1753,9 +1753,9 @@ a.post_title_link:hover {
         padding-top: 8px;
     }
     
-    .terms_block p, .terms_block li {
+    /* .terms_block p, .terms_block li {
         font-size: 18px;
-    }
+    } */
     
     .terms_block h2 {
         font-size: 36px;
@@ -2193,9 +2193,9 @@ a.post_title_link:hover {
     .aboutpage_sections {
         margin-top: -80px;
     }
-    .terms_block p, .terms_block li {
+    /* .terms_block p, .terms_block li {
         font-size: 14px;
-    }
+    } */
     
     .terms_block h2 {
         font-size: 28px;
