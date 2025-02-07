@@ -7,7 +7,7 @@ import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
 import { locationsdata } from "@/app/data/locations";
-import BlogPage from "@/app/blog_test/blog_page_test/page";
+import BlogPage from "@/app/posts/Post";
 import UserLayout from "../../user_layout/UserLayout";
 import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
@@ -15,17 +15,50 @@ import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 
+
+interface BaseData {
+    slug: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+}
+
+interface BlogData {
+    title: string;
+    image: string;
+    date: string;
+    content: string;
+    authorName: string;
+    authorImage: string;
+    authorDesignation?: string;
+    authorId: string | null;
+    authorDescription: string;
+    meta_title?: string;
+    meta_description?: string;
+    og_image?: string;
+}
+
+
+type IndustryData = BaseData & { industrySpecificProp?: string };
+type SkillData = BaseData & { skillSpecificProp?: string };
+type ServiceData = BaseData & { serviceSpecificProp?: string };
+type TechnologyData = BaseData & { technologySpecificProp?: string };
+type LocationData = BaseData & { locationSpecificProp?: string };
+
+type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
+
+
 export default function Page({ params }) {
 
     // const second = params.first_segment;
     const first_segment = params.second;
-    let foundData = null;
+    // let foundData = null;
 
     const [blog, setBlog] = useState(false);
-    const [blogData, setBlogData] = useState(null);
+    const [blogData, setBlogData] = useState<BlogData | null>(null); 
     const [blogAuthor, setBlogAuthor] = useState({});
     const [Component, setComponent] = useState(null);
-    const [data, setData] = useState(null);
+    // const [data, setData] = useState(null);
 
     const fetchBlogDetails = async () => {
         try {
@@ -65,7 +98,10 @@ export default function Page({ params }) {
     };
 
 
-    useState(() => {
+    useEffect(() => {
+
+      let foundData: Data | null = null;
+      let matchedComponent: React.ComponentType<any> | null = null;
 
         if ((foundData = industries.find((item) => item.slug === first_segment))) {
             matchedComponent = Industry;
@@ -80,7 +116,7 @@ export default function Page({ params }) {
         }
 
         if (foundData) {
-            setData(foundData);
+            // setData(foundData);
             setComponent(() => matchedComponent);
             setBlog(false);
         } else {
@@ -92,30 +128,30 @@ export default function Page({ params }) {
 
 
 
-    const updateMetaTags = (title, description, image) => {
-        const setMetaTag = (name, content) => {
-            let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
-            tag.setAttribute("name", name);
-            tag.setAttribute("content", content);
-            document.head.appendChild(tag);
-        };
+    // const updateMetaTags = (title, description, image) => {
+    //     const setMetaTag = (name, content) => {
+    //         let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
+    //         tag.setAttribute("name", name);
+    //         tag.setAttribute("content", content);
+    //         document.head.appendChild(tag);
+    //     };
 
-        setMetaTag("description", description || "Default meta description");
-        setMetaTag("og:title", title || "Default Title");
-        setMetaTag("og:description", description || "Default meta description");
-        setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
-    };
+    //     setMetaTag("description", description || "Default meta description");
+    //     setMetaTag("og:title", title || "Default Title");
+    //     setMetaTag("og:description", description || "Default meta description");
+    //     setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
+    // };
 
 
-    useEffect(() => {
-        if (blog && blogData) {
-            document.title = blogData.title;
-            updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
-        } else if (data) {
-            document.title = data.meta_title || "Default Title";
-            updateMetaTags(data.meta_title, data.meta_description, data.og_image);
-        }
-    }, [data, blogData, blog]);
+    // useEffect(() => {
+    //     if (blog && blogData) {
+    //         document.title = blogData.title;
+    //         updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
+    //     } else if (data) {
+    //         document.title = data.meta_title || "Default Title";
+    //         updateMetaTags(data.meta_title, data.meta_description, data.og_image);
+    //     }
+    // }, [ blogData, blog]);
 
 
 
@@ -148,10 +184,10 @@ export default function Page({ params }) {
         );
     }
 
-    return (
-        <UserLayout>
-            {Component && <Component data={data} />}
-        </UserLayout>
-    );
+    // return (
+    //     <UserLayout>
+    //         {Component && <Component data={data} />}
+    //     </UserLayout>
+    // );
 
 }
