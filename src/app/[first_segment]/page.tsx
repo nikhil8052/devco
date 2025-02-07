@@ -59,7 +59,6 @@ export default function Page({ params }: PageProps) {
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
   const [data, setData] = useState<Data | null>(null);
   const [loading, setLoading] = useState(true);
-  const [notFound, setNotFound] = useState(false);
 
 
   useEffect(() => {
