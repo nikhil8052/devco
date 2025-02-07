@@ -4,59 +4,10 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
-import UserLayout from "../../user_layout/UserLayout";
+import UserLayout from "../user_layout/UserLayout";
 import { useRouter } from "next/navigation";
 
-// interface BlogData {
-//   title: string;
-//   image: string;
-//   date: string;
-//   content: string;
-//   authorName: string;
-//   authorImage: string;
-//   authorDesignation?: string;
-//   authorId: string | null;
-//   authorDescription: string;
-//   meta_title?: string;
-//   meta_description?: string;
-//   og_image?: string;
-// }
-
-// interface AuthData {
-//   title: string;
-//   image: string;
-//   date: string;
-//   content: string;
-//   authorName: string;
-//   recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
-// }
-
-interface PageProps {
-  blog: {
-    title: string;
-    image: string;
-    date: string;
-    content: string;
-    authorName: string;
-    authorImage: string;
-    authorDesignation?: string;
-    authorId: string | null;
-    authorDescription: string;
-    meta_title?: string;
-    meta_description?: string;
-    og_image?: string;
-  };
-  author: {
-    title: string;
-    image: string;
-    date: string;
-    content: string;
-    authorName: string;
-    recentPosts: { Slug: string, Title: string }[]; // Added recentPosts field
-  };
-}
-
-const BlogPage = ({ blog, author } : PageProps ) => {
+const BlogPage = ({ blog, author } ) => {
   
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
   const [loading, setLoading] = useState(true); // Loading state
@@ -94,7 +45,7 @@ const BlogPage = ({ blog, author } : PageProps ) => {
   const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
   // Handle tab switching
-  const handleTabSwitch = (tab: string) => {
+  const handleTabSwitch = (tab) => {
     setActiveTab(tab);
   };
 

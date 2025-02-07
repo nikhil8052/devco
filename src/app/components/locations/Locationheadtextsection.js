@@ -54,7 +54,7 @@ export default function Locationheadtextsection({ contentData }) {
                 </div>
               </div>
               {content.imageSrc && (
-                <div className="location_image w-full max-w-[1280px] mx-auto my-10">
+                <div className="location_image w-[100%] max-w-[90%] md:max-w-[70%] max-w-[1280px] mx-auto my-10">
                   <Image
                     className="locatrion_image w-full"
                     src={content.imageSrc}

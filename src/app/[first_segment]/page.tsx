@@ -12,7 +12,7 @@ import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 import UserLayout from "../user_layout/UserLayout";
-import BlogPage from "@/app/blog_test/blog_page_test/page";
+import BlogPage from "@/app/posts/Post";
 
 // Define types for data
 interface BaseData {
@@ -58,6 +58,8 @@ export default function Page({ params }: PageProps) {
   const [blogAuthor, setBlogAuthor] = useState({});
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
   const [data, setData] = useState<Data | null>(null);
+  const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
     let foundData: Data | null = null;
@@ -91,9 +93,13 @@ export default function Page({ params }: PageProps) {
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
       const response_data = await response.json();
-      console.log(response_data, "This is the response data");
-      const blog_data_res = response_data.data[0];
 
+      if (response_data.data.length <= 0) {
+        setComponent(null);
+        setLoading(false)
+        return;
+      }
+      const blog_data_res = response_data.data[0];
       if (blog_data_res?.Title && blog_data_res?.Created_At) {
         setBlog(true);
         setBlogData({
@@ -115,6 +121,7 @@ export default function Page({ params }: PageProps) {
           });
         }
         setComponent(() => BlogPage);
+        setLoading(false)
       }
     } catch (error) {
       console.error("Error fetching blog details:", error);
@@ -153,7 +160,15 @@ export default function Page({ params }: PageProps) {
     );
   }
 
-  if (!Component) {
+  if (Component) {
+    return (
+      <UserLayout>
+        {Component && <Component data={data} />}
+      </UserLayout>
+    );
+  }
+
+  if (!Component && loading == false) {
     return (
       <UserLayout>
         <div className="text-center text-white py-20">
@@ -173,9 +188,4 @@ export default function Page({ params }: PageProps) {
     );
   }
 
-  return (
-    <UserLayout>
-      {Component && <Component data={data} />}
-    </UserLayout>
-  );
 }

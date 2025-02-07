@@ -2,7 +2,7 @@ import React from 'react';
 import Benefit from "@/app/components/Services/Benefit";
 import Image from "next/image";
 
-export default function Benefits({ title = "", description = "", benefits = [], bottomline}) {
+export default function Benefits({ title = "", description = "", benefits = [], bottomline=""}) {
   // Check if there's any data to render
   const hasContent = title || description || benefits.length > 0;
 

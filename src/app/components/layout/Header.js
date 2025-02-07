@@ -70,7 +70,7 @@ const Header = () => {
           <div className="header_wrapper">
             <div className="header_nav_wrap w-full flex md:order-1 justify-between items-center border px-2 rounded-md border-lightBlue">
               {/* Logo */}
-              <div className='logo_div basis-1/5'>
+              <div className='logo_div xl:basis-1/5  '>
                 <Link href="/">
                   <Image
                     className="text-left"
@@ -83,8 +83,7 @@ const Header = () => {
               </div>
 
               {/* Navigation */}
-              <div
-                className={`nav_div lg:basis-3/5 absolute lg:relative lg:flex lg:items-center lg:w-auto lg:bg-transparent lg:visible
+              <div className={`nav_div lg:basis-4/5 absolute lg:relative lg:flex lg:items-center lg:w-auto lg:bg-transparent lg:visible
                 ${isMenuOpen ? 'left-0 top-16 w-full p-4' : 'hidden'}`}
                 style={{
                   backgroundColor: 'rgba(0, 0, 0, 0.2)',
@@ -120,7 +119,7 @@ const Header = () => {
                       </svg>
                     </button>
                      {openDropdown['skills'] && ( 
-                      <div className="header_submenu  static lg:absolute w-full xl:w-[800px] lg:w-[480px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
+                      <div className="header_submenu skill_submenu static lg:absolute w-full xl:w-[800px] lg:w-[480px] text-black shadow-md rounded-md transition-all ease-in-out duration-300 opacity-100 visible">
                         <Skillsmenu />
                       </div>
                      )} 
@@ -257,7 +256,7 @@ const Header = () => {
               </div>
 
               {/* Buttons Section */}
-              <div className="button_col basis-1/5 flex items-center justify-end gap-x-3 sm:gap-x-4">
+              <div className="button_col xl:basis-1/5 flex items-center justify-end gap-x-3 sm:gap-x-4">
                 <div className="w-full btn_wrapper flex justify-end gap-x-3 sm:gap-x-4">
                   <a
                     href="https://account.dev.co/login"

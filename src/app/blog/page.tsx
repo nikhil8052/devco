@@ -43,7 +43,7 @@ export default function Blog() {
         }));
 
         setBlogs(formattedBlogs);
-        localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
+        // localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
       } catch (error) {
         console.error("Error fetching blogs:", error);
       } finally {
