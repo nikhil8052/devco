@@ -1747,5 +1747,134 @@ Here are some of the common types of software we develop for our clients:`,
 
       
     },
+    {
+        id: 12,
+        meta_title:"Real Estate Web Design | Web Development for Real Estate Agents & Brokers",
+        meta_description: "We build great websites for real estate companies, agents and brokers. Engage our website design & development for your real estate firm.",
+        og_image:"/images/Group-1.png",
+        slug: "real-estate",
+        sub_title: "Industries",
+        bannericon: "/images/Government.svg",
+        top_title: "Custom Website & Software Development Services for Real Estate Agents & Brokers",
+        top_description: `Our real estate website design service was specifically crafted to help you grow your business. These professionally designed, user-friendly platforms delight, engage and convert with a responsive mobile experience that is tailored for the real estate niche. We also provide streamlined lead capturing tools with best-in-class customer support so that no matter where you are, we are right there by your side.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Limitless Possibilities and Options",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `We’ve got a few options for web design that will lead your business to success. You can choose from professional designs with tailored functionality, minimalistic projects made for modern web users, and flat design templates that will make your real estate site stand out from the pack. Couple any of these with our e-commerce plugin features, marketing automation tools, or rigorous SEO workmanship and you are all set.
+<br></br>We understand how pivotal a successful website is not just for getting leads but showcasing what sets you apart. You want customers to be engaged when they visit your site so it has style and flair but also functionality.
+<br></br>The DEV.co team goes above and beyond to create a website that will resonate with your customers. They’ll use their expertise in design, usability, content creation and more to make sure you’re putting your best foot forward online—and connecting with the right audience in the process. With no upfront design fees or long-term contracts required, our intuitive site builder can help you get going fast without taking bank from day one.`,
+            }
+            ]
+           
+           
+          },
+        
+
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: `Every government entity has its own unique needs and applications.
+Popular technologies used by government entities include Python,Java, C#, Javascript, SQL, HTML, jQuey, sql-server, C++, and CSS.
+State and local governments often need software that’s able to perform functions like:`,
+            card_datas: [
+                {
+                    title: "Simplicity is the Ultimate Sophistication",
+                    description: "Every website we create is designed to shape your brand and delight your clients with a unique, clean, and powerfully simple design. We rely on the power of simplicity to deliver high-value solutions that solve complex challenges... so you’re never left searching for answers.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Extensible Templates and Formatting",
+                    description:
+                        "Building a website is an investment of time, money and energy. So why not get it right the first time? Don't struggle with DIY software that produces generic results or outsource your project to overseas providers who don't speak your language. Websites have tied our businesses together and there's no reason to accept anything less than 100% perfection on work orders for these physical representations of you and your company.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Sites Built for Desktop and Mobile",
+                    description: "Get ready for an intelligent web experience. Creators of innovative mobile website design, we offer a fully responsive platform that can access your required information effortlessly from any device with internet connection — including tablets and smartphones. Based on industry-leading technologies like AngularJS and jQuery Mobile, our scalable solutions are crafted to perform just as well on your desktop as they do on the move. It’s a fact, the world is going mobile. To be successful in today’s market you need to have an optimized and responsive website for desktops and mobile devices. WE can set up a site specifically for your company that will allow potential customers to land on the page they are looking for regardless of their device or browser preferences. Graphics often change with each screen size so what looks good on big-screen TV might not look as great when sized down for viewing on a phone. That's why our sites are fully responsive!",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Custom IDX Search for Enhanced Conversions",
+                    description: "DEV.co has been building custom web-based IDX search portals for real estate brokers, agents, and clients since 2008. We understand the importance of user-friendly product tailored to your needs. Our passionate team will work with you from beginning to end - designing a solution that will fit not only your unique business requirements but also your budget as well! It’s key we stay in constant communication so expectations are set appropriately before moving forward getting things done at the rate you need them to get done.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+                {
+                    title: "Affordable Web Development Solutions for Real Estate Websites",
+                    description: "DEV.co provides affordable website design that integrates on-page content optimizations, digital media strategy, video blogs and informative blog posts using only the best SEO practices to increase rankings for your site. Alongside affordable service rates, our team offers a variety of ancillary link building packages so you can choose which one suits your needs. Contact us today about how we can help you improve your online presence.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            
+            ],
+        },
+    
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your real estate web dev project and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+    },
+
     
 ];
