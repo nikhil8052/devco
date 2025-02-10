@@ -195,6 +195,7 @@ const Careerpage = () => {
                             className="file-input hidden"
                             onChange={handleFileChange}
                           />
+                          
                           <p className="text-red-500">{fileError}</p>
                           <label htmlFor="resume" className="file-upload-label w-full p-2 border border-gray-300 rounded-md flex justify-center items-center cursor-pointer">
                             <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
