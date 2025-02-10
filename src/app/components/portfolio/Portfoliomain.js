@@ -1,32 +1,28 @@
-"use client";
+'use client';
 
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
+const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({});
   const [errors, setErrors] = useState({});
 
-  // Dynamic form fields
   const fields = [
     { id: "firstName", label: "First Name", type: "text", required: true },
     { id: "lastName", label: "Last Name", type: "text", required: true },
     { id: "email", label: "Email", type: "email", required: true },
   ];
 
-  // Convert title to match filename format
   const getPdfFilename = (title) => title.replace(/\s+/g, "-");
 
-  // Handle form input changes
   const handleInputChange = (e) => {
     const { id, value } = e.target;
-    setFormData({ ...formData, [id]: value });
-    setErrors({ ...errors, [id]: "" }); // Clear error on input change
+    setFormData((prev) => ({ ...prev, [id]: value }));
+    setErrors((prev) => ({ ...prev, [id]: "" }));
   };
 
-  // Validate form fields
   const validateForm = () => {
     const newErrors = {};
     fields.forEach((field) => {
@@ -38,12 +34,11 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Handle form submission
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    const payload = {
+    const FormData = {
       ...formData,
       pdfTitle: selectedItem.title,
       data_type: "portfolio",
@@ -55,14 +50,14 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
+          body: JSON.stringify(FormData),
         }
       );
+      if (!response.ok) throw new Error("Failed to send email");
 
-      if (!response.ok) throw new Error("Failed to send form data");
-      // Open PDF dynamically
       const pdfFilename = getPdfFilename(selectedItem.title);
       const pdfPath = `/images/pdf/${pdfFilename}.pdf`;
+
       const link = document.createElement("a");
       link.href = pdfPath;
       link.target = "_blank";
@@ -70,7 +65,6 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
       link.click();
       document.body.removeChild(link);
 
-      // Reset form and close modal
       setFormData({});
       setShowModal(false);
     } catch (error) {
@@ -79,7 +73,6 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
     }
   };
 
-  // Close modal on outside click
   const handleOutsideClick = (e) => {
     if (e.target.classList.contains("pdf-model")) {
       setShowModal(false);
@@ -90,87 +83,42 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
     <div className="portfolio_section py-10 md:py-20">
       <div className="container mx-auto">
         <div className="portfolio_grid flex justify-between gap-5">
-          {/* Portfolio Column 1 */}
-          <div className="portfolio_col portfolio_col1 md:w-[50%] w-[100%]">
-            {portfolioCol1.map((item, index) => (
-              <div className="portfolio_box" key={index}>
-                <div className="box_inner">
-                  {item.logo && (
-                    <div className="box_logo">
-                      <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                    </div>
-                  )}
-                  {item.gridLogo && (
-                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-                    </div>
-                  )}
-                  <div className="box_text">
-                    <h3>{item.title}</h3>
-                    <div className="download_div">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          setSelectedItem(item);
-                          setShowModal(true);
-                        }}
-                      >
-                        <Image
-                          src="/images/downloadcaseimage.svg"
-                          width={100}
-                          height={100}
-                          alt="Download Case Study"
-                        />
-                      </a>
+          {[portfolioCol1, portfolioCol2].map((col, i) => (
+            <div key={i} className={`portfolio_col md:w-[50%] w-[100%]`}>
+              {col.map((item, index) => (
+                <div className="portfolio_box" key={index}>
+                  <div className="box_inner">
+                    {item.logo && (
+                      <div className="box_logo">
+                        <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
+                      </div>
+                    )}
+                    {item.gridLogo && (
+                      <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
+                        <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
+                      </div>
+                    )}
+                    <div className="box_text">
+                      <h3>{item.title}</h3>
+                      <div className="download_div">
+                        <a
+                          href="#"
+                          onClick={() => {
+                            setSelectedItem(item);
+                            setShowModal(true);
+                          }}
+                        >
+                          <Image src="/images/downloadcaseimage.svg" width={100} height={100} alt="Download Case Study" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Portfolio Column 2 */}
-          <div className="portfolio_col portfolio_col2 lg:w-[50%] w-[100%]">
-            {portfolioCol2.map((item, index) => (
-              <div className="portfolio_box" key={index}>
-                <div className="box_inner">
-                  {item.logo && (
-                    <div className="box_logo">
-                      <Image src={item.logo} width={100} height={100} alt="Portfolio Logo" />
-                    </div>
-                  )}
-                  {item.gridLogo && (
-                    <div className="grid_logo" style={{ backgroundImage: `url(/images/gridbg.svg)` }}>
-                      <Image src={item.gridLogo} width={100} height={100} alt="Portfolio Grid Logo" />
-                    </div>
-                  )}
-                  <div className="box_text">
-                    <h3>{item.title}</h3>
-                    <div className="download_div">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          setSelectedItem(item);
-                          setShowModal(true);
-                        }}
-                      >
-                        <Image
-                          src="/images/downloadcaseimage.svg"
-                          width={100}
-                          height={100}
-                          alt="Download Case Study"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
-
-      {/* Modal */}
       {showModal && selectedItem && (
         <div className="pdf-model fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50" onClick={handleOutsideClick}>
           <div className="model_div bg-gray-950 rounded-lg shadow-lg p-8 max-w-lg w-full relative">
@@ -182,7 +130,9 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             <form onSubmit={handleFormSubmit}>
               {fields.map((field) => (
                 <div className="mb-4" key={field.id}>
-                  <label htmlFor={field.id} className="block text-sm font-medium text-gray-400">{field.label}</label>
+                  <label htmlFor={field.id} className="block text-sm font-medium text-gray-400">
+                    {field.label}
+                  </label>
                   <input
                     type={field.type}
                     id={field.id}
@@ -207,4 +157,4 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   );
 };
 
-export default Portfoliomain;
+export default Portfoliomain1;
