@@ -24,23 +24,26 @@ export const portfolioCol1 = {
             logo: '/images/pepsi_logo.svg',
             gridLogo: '/images/pepsi_round.svg',
             title: 'Pepsi Case Study',
-            pdf_file_name :'first_pdf'
+            pdfLink: "/images/pdf/Pepsi-Case-Study.pdf",
         },
         {
             logo: '/images/Monumetric1.svg',
             gridLogo: '/images/monumetric_round.svg',
             title: 'Monumetric Case Study',
             downloadIcon: '/images/downloadcaseimage.svg',
+            pdfLink: "/images/pdf/Monumetric-Case-Study.pdf",
         },
         {
             logo: '/images/lawcologo.svg',
             gridLogo: '',
             title: 'Law.co Case Study',
+            pdfLink: "/images/pdf/Law.co-Case-Study.pdf",
         },
         {
             logo: '/images/logo_stapple.svg',
             gridLogo: '',
             title: 'Staples Case Study',
+            pdfLink: "/images/pdf/Staples-Case-Study.pdf",
         },
     ],
 };
@@ -51,21 +54,25 @@ export const portfolioCol2 = {
             logo: '/images/emoov-white.svg',
             gridLogo: '/images/emoov.svg',
             title: 'Emoov Case Study',
+            pdfLink: "/images/pdf/Emoov-Case-Study.pdf",
         },
         {
             logo: '/images/Groupon_Logo 1.svg',
             gridLogo: '',
             title: 'Groupon Case Study',
+            pdfLink: "/images/pdf/Groupon-Case-Study.pdf",
         },
         {
             logo: '/images/logo_sales.svg',
             gridLogo: '/images/salesforce.svg',
             title: 'Salesforce Case Study',
+            pdfLink: "/images/pdf/Salesforce-Case-Study.pdf",
         },
         {
             logo: '',
             gridLogo: '',
             title: 'Automated Trading Platform',
+            pdfLink: "/images/pdf/Automated-Trading-Platform.pdf",
         },
     ],
 };
