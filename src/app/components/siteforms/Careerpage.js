@@ -37,45 +37,41 @@ const Careerpage = () => {
   };
 
   const onSubmit = async (data) => {
-    if (resume == null) {
+    if (!resume) {
       setFileError("Resume is required");
       return;
     }
-
+  
     const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-career?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
-    const payload = { ...data, resume };
-
+  
+    const formData = new FormData();
+    formData.append("firstName", data.firstName);
+    formData.append("lastName", data.lastName);
+    formData.append("email", data.email);
+    formData.append("phone", data.phone);
+    formData.append("CodingSkills", data.CodingSkills);
+    formData.append("resume", resume);
+  
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(payload),
+        body: formData,
       });
-
-      const result = await response.json();
-
+  
       if (response.ok) {
-        setSuccessMessage("Thank you for reaching out! Your request has been received, and our team will get back to you within 24 hours.");
+        setSuccessMessage("Your request has been received!");
         setErrorMessage('');
-        reset(); // Clear form fields
+        reset();
         setFileName('');
         setResume(null);
-
-        // Hide success message after 5 seconds
-        setTimeout(() => {
-          setSuccessMessage("");
-        }, 5000);
       } else {
-        setErrorMessage('Error submitting form. Please try again.');
-        console.error('Error submitting form:', result);
+        setErrorMessage("Error submitting form.");
       }
     } catch (error) {
-      setErrorMessage('Unexpected error occurred. Please try again.');
-      console.error('Unexpected error:', error);
+      setErrorMessage("Unexpected error occurred.");
     }
   };
+  
 
   return (
     <div className="form_page py-20" style={{
