@@ -51,7 +51,11 @@ const Careerpage = () => {
     formData.append("phone", data.phone);
     formData.append("CodingSkills", data.CodingSkills);
     formData.append("resume", resume);
+    formData.append("additionalInfo", data.additionalInfo);
+
   
+  
+
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -213,6 +217,7 @@ const Careerpage = () => {
                         <textarea
                           id="additionalInfo"
                           name="additionalInfo"
+                          {...register('additionalInfo')}
                           rows="4"
                           className="w-full p-2 border border-gray-300 rounded-md"
                         ></textarea>

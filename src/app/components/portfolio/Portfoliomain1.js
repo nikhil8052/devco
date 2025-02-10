@@ -1,8 +1,49 @@
 'use client';
 
+import { useState } from "react";
 import Image from "next/image";
 
 const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const apiUrl = "https://devco1.wpenginepowered.com/wp-json/custom/v1/portfolio";
+    const credentials = btoa("devdotco:MnFI4eZLxMDNSWF0WZa6AmiX"); // Base64 encode username:password
+
+    try {
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Basic ${credentials}`,
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      console.log("Response:", result);
+
+      if (response.ok) {
+        alert("Form submitted successfully!");
+        setFormData({ name: "", email: "", message: "" }); // Reset form after submission
+      } else {
+        alert("Error submitting form.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Something went wrong.");
+    }
+  };
   
 
   return (

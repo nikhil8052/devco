@@ -1,25 +1,23 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
 
 const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
-  const [selectedItem, setSelectedItem] = useState(null); // Track selected portfolio item
-  const [showModal, setShowModal] = useState(false); // Control modal visibility
-  const [formData, setFormData] = useState({}); // Store form data
-  const [errors, setErrors] = useState({}); // Store validation errors
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const [formData, setFormData] = useState({});
+  const [errors, setErrors] = useState({});
 
-  // Define dynamic form fields
+  // Dynamic form fields
   const fields = [
     { id: "firstName", label: "First Name", type: "text", required: true },
     { id: "lastName", label: "Last Name", type: "text", required: true },
     { id: "email", label: "Email", type: "email", required: true },
   ];
 
-  // Convert title to match the filename format
-  const getPdfFilename = (title) => {
-    return title.replace(/\s+/g, "-"); // Replace spaces with "-"
-  };
+  // Convert title to match filename format
+  const getPdfFilename = (title) => title.replace(/\s+/g, "-");
 
   // Handle form input changes
   const handleInputChange = (e) => {
@@ -43,37 +41,28 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   // Handle form submission
   const handleFormSubmit = async (e) => {
     e.preventDefault();
-
     if (!validateForm()) return;
 
-    const FormData = {
+    const payload = {
       ...formData,
       pdfTitle: selectedItem.title,
-      data_type:'portfolio'
-    } ; 
+      data_type: "portfolio",
+    };
 
     try {
-      // Send form data to the API
       const response = await fetch(
-        "https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI4eZLxMDNSWF0WZa6AmiX",
+        "https://devco1.wpenginepowered.com/wp-json/custom/v1/portfolio?username=devdotco&password=MnFI4eZLxMDNSWF0WZa6AmiX",
         {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(FormData),
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
         }
       );
 
-      if (!response.ok) {
-        throw new Error("Failed to send email");
-      }
-
-      // Generate the PDF filename dynamically
+      if (!response.ok) throw new Error("Failed to send form data");
+      // Open PDF dynamically
       const pdfFilename = getPdfFilename(selectedItem.title);
       const pdfPath = `/images/pdf/${pdfFilename}.pdf`;
-
-      // Open the PDF in a new tab
       const link = document.createElement("a");
       link.href = pdfPath;
       link.target = "_blank";
@@ -81,7 +70,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
       link.click();
       document.body.removeChild(link);
 
-      // Reset form data and close modal
+      // Reset form and close modal
       setFormData({});
       setShowModal(false);
     } catch (error) {
@@ -90,7 +79,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
     }
   };
 
-  // Close modal on clicking outside the modal content
+  // Close modal on outside click
   const handleOutsideClick = (e) => {
     if (e.target.classList.contains("pdf-model")) {
       setShowModal(false);
@@ -122,8 +111,8 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
                       <a
                         href="#"
                         onClick={() => {
-                          setSelectedItem(item); // Set selected item
-                          setShowModal(true); // Show modal
+                          setSelectedItem(item);
+                          setShowModal(true);
                         }}
                       >
                         <Image
@@ -161,8 +150,8 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
                       <a
                         href="#"
                         onClick={() => {
-                          setSelectedItem(item); // Set selected item
-                          setShowModal(true); // Show modal
+                          setSelectedItem(item);
+                          setShowModal(true);
                         }}
                       >
                         <Image
@@ -183,15 +172,9 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
 
       {/* Modal */}
       {showModal && selectedItem && (
-        <div
-          className="pdf-model fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
-          onClick={handleOutsideClick}
-        >
+        <div className="pdf-model fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50" onClick={handleOutsideClick}>
           <div className="model_div bg-gray-950 rounded-lg shadow-lg p-8 max-w-lg w-full relative">
-            <button
-              className="close_popup absolute top-4 right-4 text-white text-2xl font-bold"
-              onClick={() => setShowModal(false)}
-            >
+            <button className="close_popup absolute top-4 right-4 text-white text-2xl font-bold" onClick={() => setShowModal(false)}>
               &times;
             </button>
             <h5 className="text-white mb-4">Please fill the below form to download the PDF</h5>
@@ -199,9 +182,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             <form onSubmit={handleFormSubmit}>
               {fields.map((field) => (
                 <div className="mb-4" key={field.id}>
-                  <label htmlFor={field.id} className="block text-sm font-medium text-gray-400">
-                    {field.label}
-                  </label>
+                  <label htmlFor={field.id} className="block text-sm font-medium text-gray-400">{field.label}</label>
                   <input
                     type={field.type}
                     id={field.id}
@@ -210,16 +191,11 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
                     value={formData[field.id] || ""}
                     onChange={handleInputChange}
                   />
-                  {errors[field.id] && (
-                    <p className="text-red-500 text-sm mt-1">{errors[field.id]}</p>
-                  )}
+                  {errors[field.id] && <p className="text-red-500 text-sm mt-1">{errors[field.id]}</p>}
                 </div>
               ))}
               <div className="button_wrap flex justify-end space-x-4">
-                <button
-                  type="submit"
-                  className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black"
-                >
+                <button type="submit" className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
                   Submit
                 </button>
               </div>
