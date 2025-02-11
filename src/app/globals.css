@@ -543,8 +543,13 @@ img.top_left_blue {
     transition: all 0.3s linear;
     position: relative;
 }
-.portfolio_tablock.cursor-pointer {
-    pointer-events: none;
+.portfolio_tab_row .case_name {
+    width: calc(100% - 18px);
+    max-width: 380px;
+    padding-right: 20px;
+}
+.portfolio_tab_row .case_button img {
+    max-width: 90px;
 }
 .portfolio_tab_row {
     width: 100%;
