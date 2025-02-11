@@ -42,10 +42,11 @@ export default function BlogDetail() {
             authorName: data.Author_ID?.Name || "Unknown Author",
             authorImage: data.Author_ID?.Author_Image || "/default-author.jpg",
             authorId: data.Author_ID?.ID,
-            authorDescription: data.Author_ID?.Description,
-            authorDesignation: data.Author_ID?.Job_title,  // Adding author description
-            excerpt: data.Description?.substring(0, 160) || "No excerpt available", // Adding excerpt for meta description
+            authorDescription: data.Author_ID?.Description || "No author description available", // Ensure fallback value
+            authorDesignation: data.Author_ID?.Job_title,
+            excerpt: data.Description?.substring(0, 160) || "No excerpt available",
           });
+          
 
           // Fetch author data once the blog data is available
           if (data.Author_ID?.ID) {

@@ -9,7 +9,7 @@ export const skills = [
         bannericon: "/images/Java.svg",
         sub_title: "Skills",
         top_title: `Java <br>Developer Services`,
-        top_description: `Even after 25 years of advancement, JavJavaScript Development Servicesa remains one of the most popular development languages in the world. Currently, there are billions of applications relying on Java code to operate. Over the years, it has seen the introduction of new frameworks and wider third-party support, but its core infrastructure and principles remain intact.<br></br>
+        top_description: `Even after 25 years of advancement, Java remains one of the most popular development languages in the world. Currently, there are billions of applications relying on Java code to operate. Over the years, it has seen the introduction of new frameworks and wider third-party support, but its core infrastructure and principles remain intact.<br></br>
 
             If you’re planning a development project that relies on Java, you’ll need the help of a professional Java developer to get the job done`,
 
@@ -2127,7 +2127,7 @@ Here’s what our React developer process looks like:`,
                 },
                 {
                     question: "How do I started with React.js?",
-                    answer: `f you’re new to React.js, don’t worry – we can help you get started as a React developer quickly and easily. Here are a few steps to get you started: 1. Install Node.js. Node.js is a platform that lets you run JavaScript code on your computer. You’ll need it to install React.js like other React developers. 2. Install React.js. You can install React.js by using the Node Package Manager (NPM) for React development. Just type the following command into your terminal: npm install react. 3. Create a new project. You can create a new React developer project by using the following command: react create myproject. This will create a new project called “myproject” that uses React.js. Once you have installed Node.js and React.js, you’re ready to start building your project with a React library! We recommend starting with the “Hello World” example on the React website: https://react.dev/learn`,
+                    answer: `If you’re new to React.js, don’t worry – we can help you get started as a React developer quickly and easily. Here are a few steps to get you started: 1. Install Node.js. Node.js is a platform that lets you run JavaScript code on your computer. You’ll need it to install React.js like other React developers. 2. Install React.js. You can install React.js by using the Node Package Manager (NPM) for React development. Just type the following command into your terminal: npm install react. 3. Create a new project. You can create a new React developer project by using the following command: react create myproject. This will create a new project called “myproject” that uses React.js. Once you have installed Node.js and React.js, you’re ready to start building your project with a React library! We recommend starting with the “Hello World” example on the React website: https://react.dev/learn`,
 
                 },
                 {

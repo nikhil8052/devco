@@ -1,13 +1,14 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
+const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({});
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState(""); // New state for success message
 
   const fields = [
     { id: "firstName", label: "First Name", type: "text", required: true },
@@ -15,12 +16,11 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
     { id: "email", label: "Email", type: "email", required: true },
   ];
 
-  const getPdfFilename = (title) => title.replace(/\s+/g, "-");
-
   const handleInputChange = (e) => {
     const { id, value } = e.target;
     setFormData((prev) => ({ ...prev, [id]: value }));
     setErrors((prev) => ({ ...prev, [id]: "" }));
+    setSuccessMessage(""); // Reset success message on input change
   };
 
   const validateForm = () => {
@@ -38,9 +38,9 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    const FormData = {
+    const requestData = {
       ...formData,
-      pdfTitle: selectedItem.title,
+      documentTitle: selectedItem?.title,
       data_type: "portfolio",
     };
 
@@ -50,23 +50,26 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(FormData),
+          body: JSON.stringify(requestData),
         }
       );
+
       if (!response.ok) throw new Error("Failed to send email");
 
-      const pdfFilename = getPdfFilename(selectedItem.title);
-      const pdfPath = `/images/pdf/${pdfFilename}.pdf`;
+      const result = await response.json();
+      console.log("API Response:", result);
 
-      const link = document.createElement("a");
-      link.href = pdfPath;
-      link.target = "_blank";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // Display success message
+      setSuccessMessage("Form submitted successfully!");
 
+      // Open PDF if available
+      if (selectedItem?.pdfLink) {
+        window.open(selectedItem.pdfLink, "_blank");
+      }
+
+      // Reset form
       setFormData({});
-      setShowModal(false);
+      setErrors({});
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Failed to submit form. Please try again.");
@@ -76,6 +79,7 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
   const handleOutsideClick = (e) => {
     if (e.target.classList.contains("pdf-model")) {
       setShowModal(false);
+      setSuccessMessage(""); // Reset success message when modal is closed
     }
   };
 
@@ -84,7 +88,7 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
       <div className="container mx-auto">
         <div className="portfolio_grid flex justify-between gap-5">
           {[portfolioCol1, portfolioCol2].map((col, i) => (
-            <div key={i} className={`portfolio_col md:w-[50%] w-[100%]`}>
+            <div key={i} className="portfolio_col md:w-[50%] w-[100%]">
               {col.map((item, index) => (
                 <div className="portfolio_box" key={index}>
                   <div className="box_inner">
@@ -108,7 +112,7 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
                             setShowModal(true);
                           }}
                         >
-                          <Image src="/images/downloadcaseimage.svg" width={100} height={100} alt="Download Case Study" />
+                          <Image src={item.buttnimage} width={100} height={100} alt="Download Case Study" />
                         </a>
                       </div>
                     </div>
@@ -119,13 +123,14 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
           ))}
         </div>
       </div>
+
       {showModal && selectedItem && (
         <div className="pdf-model fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50" onClick={handleOutsideClick}>
           <div className="model_div bg-gray-950 rounded-lg shadow-lg p-8 max-w-lg w-full relative">
             <button className="close_popup absolute top-4 right-4 text-white text-2xl font-bold" onClick={() => setShowModal(false)}>
               &times;
             </button>
-            <h5 className="text-white mb-4">Please fill the below form to download the PDF</h5>
+            <h5 className="text-white mb-4">Please fill out the form below to download the PDF</h5>
             <h3 className="text-xl font-bold mb-4 text-white">{selectedItem.title}</h3>
             <form onSubmit={handleFormSubmit}>
               {fields.map((field) => (
@@ -144,10 +149,11 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
                   {errors[field.id] && <p className="text-red-500 text-sm mt-1">{errors[field.id]}</p>}
                 </div>
               ))}
-              <div className="button_wrap flex justify-end space-x-4">
+              <div className="button_wrap flex flex-col items-end space-y-2">
                 <button type="submit" className="bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition flex items-center hover:bg-[#ffffff] hover:text-black">
                   Submit
                 </button>
+                {successMessage && <p className="text-green-500 text-sm mt-2">{successMessage}</p>}
               </div>
             </form>
           </div>
@@ -157,4 +163,4 @@ const Portfoliomain1 = ({ portfolioCol1, portfolioCol2 }) => {
   );
 };
 
-export default Portfoliomain1;
+export default Portfoliomain;

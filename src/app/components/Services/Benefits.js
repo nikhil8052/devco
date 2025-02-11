@@ -59,7 +59,7 @@ export default function Benefits({ title = "", description = "", benefits = [], 
             </div>
              )}
           </div>
-          <div className="divider flex items-center content-center h-[70px] mt-10 md:h-[150px] w-[100%] mx-auto md:mt-20">
+          <div className="divider flex items-center content-center h-[70px] mt-10 xl:h-[70px] md:h-[70px] w-[100%] mx-auto md:mt-20">
             <div className="divider_line h-[1px] w-[100%] bg-[#ffffff] opacity-10"></div>
           </div>
         </div>
