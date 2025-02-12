@@ -9016,4 +9016,283 @@ Before delivering any code to our valued software development clients in Virgini
             ],
         }
     },
+
+    {
+        id: 101,
+        meta_title: "Virginia Beach Custom Software Development Company | DEV.co",
+        meta_description: "Our Virginia Beach custom software development services help you design and develop your ideal website, mobile app or custom project.",
+        og_image: "/images/Group-1.png",
+        slug: "virginia",
+        top_title: "Virginia Beach Web Design & Development Company",
+        top_description: `Virginia Beach Web Design & Development Company is a web design & web development company located in Virginia Beach, VA. We have been designing and building best-in-class websites for businesses and non-profits. Our current web team is made up of people from diverse backgrounds and we all share a passion for creating sites that deliver results.
+<br></br>Virginia Beach Web Design & Development Company was founded in 2009 by two passionate web designers, who are skilled at creating exceptional and innovative web solutions for their clients.<br>/br>Our Company specializes in rich content-driven websites that inspire emotion. Due to the fact of the outstanding search engine optimization capabilities, many companies in this area accept our proposals day after day. Our experts provide quality service, innovative functionality, and high-end websites that market their business in an efficient manner.<br></br>At DEV.co, we’re committed to creating outstanding marketing solutions for your business. For more than 10 years, our team has been serving a variety of clients throughout the area. That is why we stay ahead of the curve in constantly designing new, exciting, and useful websites and online software.`,
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `What's Best About This<br>  <span class="text-headingBlue">Firm</span>`,
+                    paragraph: `We are an affordable Internet marketing company offering a wide range of solutions to small businesses looking for more exposure and business. Whether you need a website, domain hosting, SEO, or Pay-Per-Click (PPC) management we can help. Virginia Beach Web Design and Internet Marketing Company specializes in creating effective web solutions for small businesses. Our Company is experienced in creating websites that are simple for an individual to use yet provide interactive features which enhance the business’s online presence.<br></br>
+
+                   As a full-service internet marketing agency, we can streamline the process of managing your online presence. We believe in partnering with you to find solutions for your business and your audience. Your success is our success. We know that business is all about your customers finding you in this growing digital world. We take care of everything as an extension of your team, implementing processes and marketing strategies to help your business succeed in a crowded market.`,
+                    imageSrc: "/images/virginia.jpeg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Origin of Virginia Beach Web Design & Development Company`,
+                    paragraph: `Virginia Beach Web Design & Development Company was found in the year 2009 under the parent company, Mid Atlantic Networks LLC. The company is located in Virginia Beach, VA. and serves clients all over the USA and abroad, including Canada, Mexico, Nepal.
+                   <br></br>
+From its original focus as a web design and development company to an IT Services provider for small businesses, Virginia Beach Web Design & Development Company has been able to work with Business-to-business, Business-to-consumer marketing organizations to build their online presence with cost-effective solutions that are predictable and reliable.`,
+                    imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+
+
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `List of Services Offer`,
+                    paragraph: `Let us help grow your business through targeted internet marketing, including but not limited to:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        `Search Engine Optimization`,
+                        `Pay-Per-Click Advertising`,
+                        `Social Media Campaigns`,
+                        `Email Marketing`,
+                        `Graphic Design`,
+                        `Web Design`,
+                        `WordPress Website`,
+                        `Corporate Identity`,
+                        `Logo Design`,
+                        `Advertising Campaigns`,
+                        `Social Media Management<br></br>At DEV.co, we focus on creating websites that are functional and beautiful. We make sure our designs look good but also help you meet the goals of your business.`,
+                   ],
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `Collaborate<br><span class="text-headingBlue">With Us</span> `,
+            paracontent: `Whether you are looking for a web design, website redesign, or search engine optimization solution, we have the resources needed to cater to all your needs.
+<br></br>Contact us today or email us for more information!`,
+        }, 
+    },
+
+    {
+        id: 102,
+        meta_title: "Wichita Custom Software Development Company | Dev.c",
+        meta_description: "Take one look at what we’ve achieved; when it comes down to creating results-driven sites, no-one does better than Wichita based, Dev.co!",
+        og_image: "/images/Wichita-Custom-Software-Development.jpg",
+        slug: "wichita",
+        top_title: "Wichita Custom Software Development Company",
+        top_description: `Wichita is gaining global fame. For businesses here, a strong online image is key. The city hosts diverse local firms and big Fortune 500 companies – it’s quite the battlefield.
+<br></br>How can you stand out? Start by polishing your digital footprint in partnership with savvy software engineers. This will not only demonstrate your prowess but also place you ahead of rivals.
+<br></br>That said, why not partner up with our Wichita-based team that specializes in all things software development and engineering? We can help bring to life whatever tech-related project ideas you might have – be it a website for your business, custom-made apps or unique virtual experiences for clients— we’re ready to cater to each one of them!`,
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `A Wichita Software Engineer Team & <br>  <span class="text-headingBlue">Web Development Company</span>`,
+                    paragraph: `Wichita is known as a hotspot for both local and big tech companies. In this digital era, how we look up businesses has changed – Google or Bing are the new directories.<br></br>
+
+                   Our Wichita software team is made of experienced professionals who can create custom engineering solutions that match your needs perfectly. Our work starts with in-depth business analysis using well-known frameworks to build our software designs on solid principles. We’ll make your next app sing by picking the right programming language that resonates best with user experiences – be it Node.js, React, Angular, Electron, Laravel or others!<br></br>
+                   In need of top-notch software engineers? Or maybe looking out for job offers in this field? Look no further; you’re at the right place! By choosing us- a professional Wichita-based Software Development Company; rest assured you will end up crafting the perfect web product flow/software application/mobile experience suitable to represent your brand.`,
+                    imageSrc: "/images/Wichita-Custom-Software.jpg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `The Importance of Software Dev Quality`,
+                    paragraph: `A substandard digital experience just won’t do. You need a full-on digital overhaul, that’s why we ensure each custom software project is rigorously tested for quality.
+                   <br></br>
+Our commitment to top-tier testing standards means the code delivered to our clients is always of the highest caliber. Skimping on key agile development principles could spell disaster from your project’s start if not taken care of by your web developers or software engineers.
+                    <br></br>
+                 Your best bet lies in building products internally with assistance from an expert developer team rather than doing it yourself and hiring individual coders – this can lead to low-quality output, wasting precious time and money. To avoid common mistakes tied up with bespoke development projects, we implement unique test strategies.
+<br></br>
+                 In this scenario, maintaining high levels of coding excellence cannot be stressed enough. If you’re looking out for Wichita-based firms proficient in programming languages but also committed towards betterment through regular updates – look no further! This approach guarantees triumphs over trials, ensuring flawless delivery every single time while keeping things short yet precise.`,   
+                 imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+
+
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `How We Can Help with Your Custom Software Development Project`,
+                    paragraph: `At Dev.co, we’re more than just developers – we shape dreams into digital reality. Our Wichita-based software engineer will work with you intricately to create top-notch websites and apps tailored for your goals.<br></br>Why pick us? Let’s show you:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        `Extensive Team: We are a family of over 250 seasoned developers custom-picked to cater specifically to your industry needs.`,
+                        `Large Teams at Your Disposal: For bigger web development tasks, our army can expand up to 500 strong.`,
+                        `Well-Honed Developers: Every developer on our team has undergone rigorous training in their field so that the best service is guaranteed in Wichita.`,
+
+`Customized Services for All Business Sizes: Be it a small-scale local business or an international conglomerate – everyone gets red carpet treatment here!`,
+`Dedicated Project Manager: One project manager stays right by your side from start to finish ensuring seamless coordination and execution.`,
+`Solid Experience: The proof’s all there! Take one look at what we’ve achieved before; when it comes down to creating results-driven sites, no-one does better than us!`,
+                    ],
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `What We Bring to <br><span class="text-headingBlue">the Table</span> `,
+            paracontent: `We’ve been in the web and software design game for over a decade. Looking to boost your online visibility or attract more leads to your Wichita, Kansas, website? We’re here for you. Our years of experience mean we can deliver high-quality results time after time.
+<br></br>Looking for top-notch software development services right here in Wichita, Kansas? Look no further! From prototypes all the way through full production runs, our team has got it covered – with skills across different programming languages and platforms tailored just as per what you need!
+
+<br></br>Plus, being smack dab in downtown Wichita lets us tap into some really great regional tech talent, too. So get on board! Send us an email today!`,
+        },
+
+        faqs: {
+            title: "Frequently Asked Questions",
+            description: "",
+            faqs: [
+                {
+                    question: "Why should I consider custom software development in Wichita?",
+                    answer: `Custom software development in Wichita allows you to have software solutions that are precisely aligned with your business goals and operations. They match your business targets and processes perfectly. This can make you stand out from competitors and boost work productivity too. Plus, it makes things smoother for your customers when using the system.`,
+                },
+                {
+                    question: "How do I know if custom software development is right for my business in Wichita?",
+                    answer: `If your business has unique needs that pre-made software just can’t meet, custom software development is a good option. Need special features? How about connecting it to systems you already use or even getting a tailor-made user interface? If yes, then customized solutions are the way forward.`,
+
+
+                },
+                {
+                    question: "What industries benefit from custom software development in Wichita?",
+                    answer: `Many sectors gain from tailor-made software. Healthcare and finance are among them. So are manufacturing, logistics, and retail fields. If a sector needs specific solutions, custom development can help.`,
+
+
+                },
+                {
+                    question: "How much does custom software development in Wichita cost?",
+                    answer: `Custom software development prices depend on how big or tricky your project is, and what you need it to do. For a clear idea of costs, have a chat with the developers about what you want.`,
+                    
+
+                },
+                {
+                    question: "Do I need to be tech-savvy to engage in a custom software development project in Wichita?",
+                    answer: `No, you don’t need to be tech-savvy to engage in custom software development. A reputable development firm will work closely with you to understand your needs and provide guidance throughout the project.`,
+                },
+
+                {
+                    question: "What should I look for in a custom software development company in Wichita?",
+                    answer: `Looking for a custom software development company? Keep these things in mind. First, look at their experience and portfolio – what have they done before? Next, consider their skills with relevant technologies. Don’t forget to read client reviews too! Lastly, make sure they’re good communicators that can work well with your team.`,
+                }, 
+               
+            ],
+        }
+    },
+
+    {
+        id: 103,
+        meta_title: "Winston-Salem Custom Software Development Company | Dev.co",
+        meta_description: "Having served many clients over time only showcases our know-how and dedication. It's all about meeting high service benchmarks for Winston-Salem, NC clients.",
+        og_image: "/images/Winstone.jpg",
+        slug: "winston-salem",
+        top_title: "Winston-Salem Custom Software Development Company",
+        top_description: `Winston-Salem is a bustling city teeming with various businesses. In this competitive world, having a solid online footprint can make or break your business.
+<br></br>Boosting your internet presence begins by teaming up with skilled software engineers to create unique digital products. These tools won’t just highlight what you do best but also set you apart from the competition.
+<br></br>That’s why getting help from our Winston-Salem-based developers and engineers is key to success in web development. Need an attractive website? A custom app? Or maybe a unique online customer experience? You’re at the right spot.`,
+        Locationheadtextsection: {
+            contentData: [
+                {
+                    title: `Winston-Salem Software Engineering Team &<br>  <span class="text-headingBlue">Web Development Company</span>`,
+                    paragraph: `Winston-Salem is brimming with tech enterprises of all types. People have ditched old-school ways to search for businesses, now using Google or Bing instead.<br></br>
+
+                   Our software crew in Winston-Salem? They know their stuff and can whip up bespoke engineering solutions that match your needs just right! We start by getting a handle on your business, then use top-notch frameworks to make the magic happen with cutting-edge software ideas. The result: apps tailor-made in the best programming language fit for you – think Node.js, React, Angular…you name it!<br></br>
+                   Looking for ace engineers or aspiring to land an engineering job yourself? You’re at the right place! Partnering up with our professional team guarantees success as we help build stellar web products and mobile experiences that truly reflect what your brand stands for.`,
+                    imageSrc: "/images/Winston-Salem-Custom.jpg",
+                    imageAlt: "Software Development in Albuquerque",
+                },
+                {
+                    title: `Significance of Software Development Quality in Winston-Salem`,
+                    paragraph: `You can’t compromise on digital experience – you need a complete digital overhaul. We focus strongly on quality assurance (QA) testing with every custom software project to ensure top-notch results.
+                   <br></br>
+We strictly follow the best practices of software testing before delivering any code. If your web developers or engineers don’t stick to agile development principles, it could create early issues for your project.
+                    <br></br>
+                 The smartest way is to develop your product in-house under an experienced team’s guidance. Attempting a DIY approach when recruiting tech talent compromises quality and wastes time and resources significantly. Our test strategies prevent common mistakes often seen in customized software developments.
+<br></br>
+                 In terms of engineering high-quality solutions, nothing matters more than that! The primary goal becomes continuous improvement if you’re looking for exceptional coding skills from Winston-Salem Software Development Company.`,   
+                 imageSrc: "",
+                    imageAlt: "The Importance of Website Quality",
+                },
+
+
+            ],
+        },
+        Loctextmedia: {
+            contentData: [
+
+                {
+                    title: `How We Can Help with Your Custom Software Development Project`,
+                    paragraph: `At Dev.co, we’re experts in creating tailor-made software solutions. We’ll assign a committed engineer to your project who will craft top-notch websites, mobile apps and digital platforms.<br></br>Here’s why you should choose us for your software engineering needs:`,
+                    imageSrc: "/images/loc_code.svg",
+                    imageAlt: "",
+                    listTitle: "",
+                    listItems: [
+                        `Our team is made up of more than 250 expert developers. You can relax knowing that one of our talented devs has the skills needed for your industry.`,
+                        `Need a big website job done? No problem! We have extra teams ready to join forces on projects with over 500 members.`,
+                        `Every developer goes through tough training in their field which guarantees excellent web development services here in Winston-Salem.`,
+
+`Local business or global corporation—we’re dedicated to giving every client an outstanding website they’ll be proud of!`,
+`A personal project manager keeps things running smoothly from start to finish during the whole web development process.`,
+`With years under our belt developing successful websites; experience does make a difference!`,
+                    ],
+                },
+            ],
+        },
+
+        codeheadingsection: {
+            headingContent: `What We Bring to <br><span class="text-headingBlue">the Table</span> `,
+            paracontent: `Having served many clients over time only showcases our know-how and dedication. It’s all about meeting high service benchmarks!
+<br></br>Looking around Winston-Salem for skilled software developers? Your search ends here! Our experienced crew is ready to help with everything from first drafts to full production runs. We have experts well versed on multiple platforms – rest assured we’ll meet your specific needs.
+
+<br></br>The cherry on top: our prime location smack dab at the center of Winston-Salem – easy access couldn’t be truer! Exceptional regional programming talent sits just within arm’s reach.
+<br></br>So don’t hold back, get that dial going, or hit us up now—it’s never too soon to step onto that exciting road towards creating digital artistry!`,
+        },
+
+        faqs: {
+            title: "Frequently Asked Questions",
+            description: "",
+            faqs: [
+                {
+                    question: "What is custom software development, and why is it important for businesses in Winston-Salem?",
+                    answer: `Creating custom software is all about crafting solutions specially designed for a business or organization. In Winston-Salem, it’s vital that companies have tailor-made programs in place. This way, they can smooth out their processes and boost effectiveness. Plus, with digital competition on the rise, these special tools help businesses hold their own and succeed.`,
+                },
+                {
+                    question: "How can custom software benefit my Winston-Salem business?",
+                    answer: `Custom software can do wonders. It boosts efficiency and takes customer service to a new level. Your data stays safer, too! Plus, it helps you make smart decisions by analyzing your information.<br></br>Want to grow or adapt your business? Custom software is key here – something ordinary out-of-the-box programs just can’t match.`,
+
+
+                },
+                {
+                    question: "What industries can benefit from custom software development in Winston-Salem?",
+                    answer: `Multiple businesses across sectors reap the benefits of custom software. This includes healthcare, finance, or manufacturing firms to name just a few! It also works wonders in e-commerce, logistics, and education fields among others. The beauty of it? Custom software is flexible – you can fit it exactly to any industry’s unique needs.`,
+
+
+                },
+                {
+                    question: "How do I choose the right custom software development company in Winston-Salem?",
+                    answer: `When you’re picking a software development company, keep some things in mind. Look at their experience level and skills. Review what they’ve done before. Read reviews from past clients, too! Make sure they grasp your business requirements well enough as well.<br></br>Being local to Winston-Salem? That’s just icing on the cake – it makes communication and teamwork much easier.`,
+                    
+
+                },
+                {
+                    question: "What is the typical timeline for a custom software development project in Winston-Salem?",
+                    answer: `Sure, the duration for making custom software isn’t fixed. It changes based on how complex or big the project is. Some could take just several months; others might need a whole year! Always talk about this with your development team before starting.`,
+                },
+
+                {
+                    question: "How can I ensure the security of my custom software in Winston-Salem?",
+                    answer: `Ensuring security is essential in tailored software development. Prioritize choosing a team that values cybersecurity highly. Conduct frequent security checks and always keep the software up-to-date to fend off new threats. Observing specific industry rules closely, too, is key.`,
+                }, 
+               
+            ],
+        }
+    },
 ];
