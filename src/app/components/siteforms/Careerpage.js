@@ -63,7 +63,7 @@ const Careerpage = () => {
       });
   
       if (response.ok) {
-        setSuccessMessage("Your request has been received!");
+        setSuccessMessage("Thank you for reaching out! Your request has been received, and our team will get back to you within 24 hours!");
         setErrorMessage('');
         reset();
         setFileName('');
@@ -71,7 +71,7 @@ const Careerpage = () => {
       } else {
         setErrorMessage("Error submitting form.");
       }
-    } catch (error) {
+    } catch {
       setErrorMessage("Unexpected error occurred.");
     }
   };
