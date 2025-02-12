@@ -1729,6 +1729,13 @@ a.post_title_link:hover {
 .Skill_banner.locationbanner {
     padding-top: 170px;
 }
+.author_description a {
+    color: #4353FF;
+}
+.blog_detail_page .content a{
+    color: #4353FF;
+    text-decoration: underline;
+}
 
 
 
@@ -2324,12 +2331,12 @@ a.post_title_link:hover {
     gap: 9px;
 }
 .pagination {
-    gap: 4px;
+    gap: 6px;
 }
 
 .pagination button {
-    width: 25px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     font-size: 10px;
 }
 }

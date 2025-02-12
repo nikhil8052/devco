@@ -91,10 +91,7 @@ export default function Blog({ params }) {
           <div className="author_name text-xl font-semibold">{blogs[0]?.authorName || "Unknown Author"}</div>
           <div className="author_designation">{blogs[0]?.authorDesignation || "Unknown Designation"} at <Link href="/">Software Development Company</Link></div>
 
-          <div 
-            className="authr_description"
-            dangerouslySetInnerHTML={{ __html: blogs[0]?.authorDescription || "No description available" }}
-          ></div>
+          <div className="authr_description">{blogs[0]?.authorDescription}</div>
         </div>
 
         </div>
@@ -119,7 +116,7 @@ export default function Blog({ params }) {
         )}
 
         {!loading && blogs.length > 0 && (
-          <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
+          <div className="pagination flex justify-center items-center gap-2 mt-2 relative z-10">
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
