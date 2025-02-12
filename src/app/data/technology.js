@@ -1958,6 +1958,353 @@ To accomplish this, we follow a consistent process for custom software developme
 
             
     },
+    {
+        id: 12,
+        meta_title:"SugarCRM Development Services | DEV.co | SugarCRM Developer",
+        meta_description: "SugarCRM is one of the top customer service management systems and is currently serving approximately 50,000 organizations with their sales",
+        og_image:"/images/SugarCRM-Development-Services.webp",
+        slug: "surgarcrm",
+        bannericon: "/images/Cybersecurity.svg",
+        sub_title: "Techonology",
+        top_title: "SugarCRM Development Services",
+        top_description: `SugarCRM is a popular client resource management solution that was founded in 2004. It now has more than 2 million users in 120 countries and is expanding every year.
 
+</br></br>
+
+       SugarCRM offers business insights that you can use to predict sales and offer customers fast updates.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "SugarCRM Plans",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `SugarCRM offers plans that are both cloud and onsite-based, so you can select which platform is better for your needs.
+           <br></br>
+           This page highlights what makes SugarCRM such a powerful tool for many small businesses. If you need a cloud-based CRM to improve your communication and customer service, keep reading.`,
+            }
+            ]
+           
+           
+          },
+          benefits: {
+            title: `SugarCRM Benefits`,
+            description: "What makes SugarCRM a smart business decision for many companies?",
+            benefits: [
+                {
+                    title: "Engagement",
+                    description: "The CRM is very effective at bundling and managing customer support operations in the most efficient manner. Everyone in the customer service team can access all customer service functions so they can deal with all types of problems.<br></br>This is beneficial for customers and your bottom line because you don’t have to keep rerouting callers through the entire organization.<br></br>All support team staff is working on the same customer service platform and gets their customer data from the same place. It’s a seamless data transition that provides your customers with a better experience.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Marketing Campaigns Run Seamlessly",
+                    description: "SugarCRM has a Campaign Wizard in the dashboard that makes it simple to understand your marketing campaigns.<br></br>This Wizard allows you to collect sales leads and give out forms in various engagement programs. It also allows you to rate your sales leads, evaluate them, and assign leads to sales agents.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+                {
+                    title: "Mega Development Resources",
+                    description: "Most of the top CRMs offer open source APIs, but SugarCRM offers a massive number of development resources for customizations and integrations.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+                {
+                    title: "Modular Design",
+                    description: "SugarCRM is made to be modular, which is a big benefit, as it is for any software platform. All parts of the software - contact management, campaigns, calendaring, account management - are individual modules.<br></br>The modules can interact with each other with data relationships. For instance, a SugarCRM account can have many associated contacts or you can set up a call for a contact if you want.<br></br>The great thing about this platform is you can build on this foundation by performing module customization. You can add new fields, more relationships between the modules, as well as business logic.<br></br>You also can go the next step and devise new modules with the included Modular Builder using available module design templates.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+                {
+                    title: "Excellent Customer Support",
+                    description: "If anything goes amiss, you can access customer support 24/7. The SugarCRM team is well known for having the best customer service training. The company also offers a huge database of CRM information known as Sugar University.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+                {
+                    title: "Many Integrations Available",
+                    description: "SugarCRM is a fantastic choice for big organizations with large IT staff. You cannot integrate it with some of the simpler business programs on the market, but there’s public API code available in the SugarExchange.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 40,
+                },
+
+            ],
+        },
+        Benefitslider: {
+            title: "5 Pricing Plans",
+            description: `SugarCRM has five pricing tiers that cater to companies of different sizes and needs:`,
+            card_datas: [
+                {
+                    title: "Sugar Professional",
+                    description: "Often the best choice for small businesses, Sugar Professional provides a cloud-based system that is easy to upgrade. This CRM helps you manage your customer relationships via integrations, customer data management, and sales automation.",
+                    
+                },
+                {
+                    title: "Sugar Enterprise",
+                    description:
+                        "Provides flexibility to large companies that need total control of their client resource management with deployment onsite, which gives you more customization. This means staying compliant with any relevant policies that affect your industry.Sugar Enterprise also includes SugarBPM. This is a tool that lets you make automations according to the needs of your business.",   
+                                },
+                {
+                    title: "Sugar Serve",
+                    description: "Features SugarLive, which interfaces with Amazon Connect to provide a multifaceted approach to connect you with your customers. It also features self-service portals that let customers find answers quickly without needing to call customer support.",
+                 
+                },
+                {
+                    title: "Sugar Sell",
+                    description: "Helps keep your customer data organized and uses artificial intelligence features including SugarPredict to review data and direct your organization’s employees on how to boost sales. Sugar Sell integrates seamlessly with several apps and will manage your leads, transactions and sales, all of which improve customer relations.",
+                    
+                },
+                {
+                    title: "Sugar Market",
+                    description: "Offers innovative features such as a drag and drop campaign builder and analytics features that rate customer interactions and collate leads. These are helpful features that ensure your staff handles leads quickly and properly so you boost your conversion rates.",
+                    
+                },
+            ],
+        },
+
+     Textblockfull:{
+        sectionData:[
+            {
+              title: "What’s SugarCRM Like To Use?",
+              description: `SugarCRM has many features so it’s easy to get overwhelmed. That’s why many people think it’s best for organizations with large IT teams. The dashboards and interface aren’t as user-friendly as they could be; they take a while to learn. If you are in a small business and lack IT experience, it may be too much for you to handle.
+              <br></br>
+              However, finding important information at Sugar University isn’t difficult, if, as a small business owner, you have the resources and time for it. That said, if your organization has a robust tech team, you’ll be able to handle SugarCRM easily. Some say even one person with extensive IT experience should be able to handle the training and implementation.`,
+            },
+          ],
+        },
+
+        Subheadingtext:{
+            heading: "SugarCRM Overview",
+            subText:
+                "SugarCRM is one of the top customer service management systems and is currently serving approximately 50,000 organizations with their sales and marketing needs. It also has had about 7 million downloads in 9 different languages.<br></br>One of the biggest assets of the CRM is it’s an open-source platform so you can tailor it to your needs. If you have the team to program it, SugarCRM can be tweaked to give you the most vital data for your company.",
+           
+           
+        },
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Are you ready to learn more about SugarCRM development?",
+                    description: `SugarCRM is a fantastic choice for managing your customers and sales leads.
+                    <br>
+                   It offers many tools for organizations with the IT staff to handle integrations,
+                    <br>
+                   but it’s not as intuitive for small business owners without technical chops.
+<br>Reach out to a SugarCRM developer if your team is interested in
+<br>deploying this product for your organization.`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+    },
     
+    {
+        id: 13,
+        meta_title:"Custom Software Development Services for Fintech | DEV.co",
+        meta_description: "Our Fintech custom software development services allow you to scale your engineering teams for websites, custom software or mobile apps.",
+        og_image:"/images/Group-1.png",
+        slug: "fintech",
+        bannericon: "/images/Artificial Intelligence.svg",
+        sub_title: "Techonology",
+        top_title: "Custom Development Services for Fintech",
+        top_description: `Fintech, or as some call it digital finance, isn’t new to us. We’ve been building miracles in the world’s top three financial capitals – New York, London and Singapore. Every business today depends on software developers just like they need air to breathe!</br></br>
+
+        In this high-speed time we live in you can rely on our partnerships for your fintech needs. Our team of expert Fintech developers are here with innovative solutions that get results fast and revamp old procedures.
+<br></br>At its core? It’s all about the digital transformation brought by software engineer actively innovating within the finance sector.
+<br></br>We’re a Fintech developer team hailing from the heart of San Francisco, specializing in crafting tailor-made digital solutions for those in finance. 
+<br></br>In this fast-paced world, having software developers at your side can make or break one’s success. That’s where cloud computing and artificial intelligence come into play – two major tools that are changing how businesses operate today!`,
+
+
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Simplifying the Complexities of Fintech Websites",
+                description: ""
+                
+            },
+            {
+                title: "",
+            description: `Feeling dizzy thinking about fintech or blockchain? Don’t sweat! We’re here to guide you. DEV.Co helps both fresh tech startups and established firms swiftly scale up, all while maintaining top-notch quality.
+
+ <br></br>
+            Think of us as your ultimate supermarket for Fintech products and services. With our global network packed with talented developers, we have a huge variety in store – from secure web applications to mobile apps designed exclusively for nimble startups, big corporations or emerging markets.
+
+<br></br>
+            Our technical prowess goes beyond programming language proficiency; it runs deep into the realm of Google cloud mastery too. Plus each developer brings their own unique set of soft skills required in today’s digital domain- an indispensable part of any modern computer science journey.
+
+`,
+            }
+            ]
+           
+           
+          },
+          benefits: {
+            title: ``,
+            description: "",
+            benefits: [
+                {
+                    title: "Enforcing a Safe and Reliable Website for Fintech",
+                    description: "At DEV.co we specialize in providing web development services for the following financial verticals: Banking, Payments, Insurance, Exchange, Trading and Financial Data.<br></br>With a proven track record in banking and fintech, we build web and mobile applications that have high usability, are secure, and scale. For over 25 years our team has been building custom software solutions.<br></br>Our modular design process allows you to quickly bring ideas to life in ways that are unique to your company. With a focus on security, we build solutions that allow you to better grow your business and provide more value to clients.",
+                    imageSrc: "",
+                    imageHeight: 27,
+                    imageWidth: 30,
+                },
+                {
+                    title: "Expanding your Fintech Business",
+                    description: "To find the perfect software development company for your fintech startup, you want a developer-led company with a proven engineering culture that delivers great products on time. You also want to work directly with people who have experience in the financial sector; an understanding of what you do and how you do it.<br></br>From client onboarding to trade execution, we work with financial institutions to build beautiful products that maximize efficiency and performance. As a company, we partner with fintech startups and established companies to help them stay competitive. We design your customized software solutions and integrate cutting-edge technologies into your finance and banking apps.<br></br>Our multidisciplinary team of software engineers and designers is committed to making life easier for financial software companies (Fintech) around the world. Their goal? To help drive revenue, streamline business processes, enhance customer relationships and increase their competitiveness.",
+                    imageSrc: "",
+                    imageHeight: 30,
+                    imageWidth: 28,
+                },
+            
+
+            ],
+        },
+
+
+
+       
+
+     Textblockfull:{
+        sectionData:[
+            {
+              title: "Why Choose Us?",
+              description: `Dev.co is not just a management consulting firm. We’re also your custom software development partner, working with top financial giants like Bank of America Merrill Lynch and UBS Wealth Management around the world.
+              <br></br>
+              But we do more than that! Have you thought about using open source fintech software? Whether it’s for startups or established banks, DEV.co can help. From creating peer-to-peer lending platforms to designing bitcoin payment solutions — even developing smart contracts!
+              <br></br>
+             We pride ourselves in staying ahead by leveraging blockchain technology while integrating machine learning into our services; operating on public cloud infrastructure due to its high demand & new opportunities it presents.
+              <br></br>
+             The past time has seen us collaborating with some of the best developers globally so why wait any longer? Let’s build your dream software together today- have a look at our case studies and let’s get started!`
+            },
+          ],
+        },
+        
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: "Partner With Dev.co",
+                    description: `At DEV.co, we strive for improvement every single day.
+                    <br>
+                    For more information, please reach out today!`,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+    },
 ];
