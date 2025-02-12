@@ -26,6 +26,7 @@ export const portfolioCol1 = {
             title: 'Pepsi Case Study',
             pdfLink: "/images/pdf/Pepsi-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Pepsi-Case-Study.pdf",
         },
         {
             logo: '/images/Monumetric1.svg',
@@ -34,6 +35,7 @@ export const portfolioCol1 = {
             downloadIcon: '/images/downloadcaseimage.svg',
             pdfLink: "/images/pdf/Monumetric-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Monumetric-Case-Study.pdf",
         },
         {
             logo: '/images/lawcologo.svg',
@@ -41,6 +43,7 @@ export const portfolioCol1 = {
             title: 'Law.co Case Study',
             pdfLink: "",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Law.co-Case-Study.pdf",
         },
         {
             logo: '/images/logo_stapple.svg',
@@ -48,6 +51,7 @@ export const portfolioCol1 = {
             title: 'Staples Case Study',
             pdfLink: "/images/pdf/Staples-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Staples-Case-Study.pdf",
         },
     ],
 };
@@ -60,6 +64,7 @@ export const portfolioCol2 = {
             title: 'Emoov Case Study',
             pdfLink: "/images/pdf/Emoov-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Emoov-Case-Study.pdf",
         },
         {
             logo: '/images/Groupon_Logo 1.svg',
@@ -67,6 +72,7 @@ export const portfolioCol2 = {
             title: 'Groupon Case Study',
             pdfLink: "/images/pdf/Groupon-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Groupon-Case-Study.pdf",
         },
         {
             logo: '/images/logo_sales.svg',
@@ -74,6 +80,7 @@ export const portfolioCol2 = {
             title: 'Salesforce Case Study',
             pdfLink: "/images/pdf/Salesforce-Case-Study.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Salesforce-Case-Study.pdf",
         },
         {
             logo: '',
@@ -81,6 +88,7 @@ export const portfolioCol2 = {
             title: 'Automated Trading Platform',
             pdfLink: "/images/pdf/Automated-Trading-Platform.pdf",
             buttnimage:"/images/downloadcaseimage.svg",
+            pdfLink: "/images/pdf/Automated-Trading-Platform.pdf",
         },
     ],
 };
