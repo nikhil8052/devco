@@ -1964,7 +1964,7 @@ To accomplish this, we follow a consistent process for custom software developme
         meta_description: "SugarCRM is one of the top customer service management systems and is currently serving approximately 50,000 organizations with their sales",
         og_image:"/images/SugarCRM-Development-Services.webp",
         slug: "surgarcrm",
-        bannericon: "/images/Cybersecurity.svg",
+        bannericon: "/images/SugarCRM Development Services.png",
         sub_title: "Techonology",
         top_title: "SugarCRM Development Services",
         top_description: `SugarCRM is a popular client resource management solution that was founded in 2004. It now has more than 2 million users in 120 countries and is expanding every year.
@@ -2168,7 +2168,7 @@ To accomplish this, we follow a consistent process for custom software developme
         meta_description: "Our Fintech custom software development services allow you to scale your engineering teams for websites, custom software or mobile apps.",
         og_image:"/images/Group-1.png",
         slug: "fintech",
-        bannericon: "/images/Artificial Intelligence.svg",
+        bannericon: "/images/Custom Development Services for Fintech.png",
         sub_title: "Techonology",
         top_title: "Custom Development Services for Fintech",
         top_description: `Fintech, or as some call it digital finance, isn’t new to us. We’ve been building miracles in the world’s top three financial capitals – New York, London and Singapore. Every business today depends on software developers just like they need air to breathe!</br></br>
