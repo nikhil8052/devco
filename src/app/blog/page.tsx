@@ -10,17 +10,13 @@ export default function Blog() {
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 10;
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredBlogs, setFilteredBlogs] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        // const cachedBlogs = localStorage.getItem("blogs");
-        // if (cachedBlogs) {
-        //   setBlogs(JSON.parse(cachedBlogs));
-        //   setLoading(false);
-        //   return;
-        // }
-
         const response = await fetch(
           "https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX"
         );
@@ -43,7 +39,7 @@ export default function Blog() {
         }));
 
         setBlogs(formattedBlogs);
-        // localStorage.setItem("blogs", JSON.stringify(formattedBlogs));
+        setFilteredBlogs(formattedBlogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
       } finally {
@@ -52,14 +48,10 @@ export default function Blog() {
     };
 
     fetchBlogs();
-  },[blogs]);
+  }, []);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
-  
-  // First 5 blogs to show in BlogGrid
-  const firstFiveBlogs = blogs.slice(0, 5);
-  
-  // Paginated blogs for BlogGridlist
+  const firstFiveBlogs = isSearching ? filteredBlogs : blogs.slice(0, 5);
   const paginatedBlogs = blogs.slice(
     5 + (currentPage - 1) * blogsPerPage,
     5 + currentPage * blogsPerPage
@@ -67,6 +59,75 @@ export default function Blog() {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+  };
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim() === "") {
+      resetSearch();
+    } else {
+      setIsSearching(true);
+      const filtered = blogs.filter((blog) =>
+        blog.title.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+      setFilteredBlogs(filtered);
+    }
+  };
+  
+  // Reset search when clearing the input
+  const resetSearch = () => {
+    setIsSearching(false);
+    setSearchQuery("");
+    setFilteredBlogs(blogs);
+  };
+
+  const renderPagination = () => {
+    const pageNumbers = [];
+    const maxPagesToShow = 4;
+    let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+    let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+
+    if (endPage - startPage < maxPagesToShow - 1) {
+      startPage = Math.max(1, endPage - maxPagesToShow + 1);
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      pageNumbers.push(
+        <button
+          key={i}
+          onClick={() => handlePageChange(i)}
+          className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+            currentPage === i ? "bg-customBlue text-white" : "hover:bg-gray-700 text-gray-300"
+          }`}
+        >
+          {i}
+        </button>
+      );
+    }
+
+    return (
+      <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
+        <button
+          onClick={() => handlePageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+            currentPage === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"
+          }`}
+        >
+          ←
+        </button>
+        {pageNumbers}
+        <button
+          onClick={() => handlePageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className={`w-10 h-10 rounded-full flex justify-center items-center border ${
+            currentPage === totalPages ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"
+          }`}
+        >
+          →
+        </button>
+      </div>
+    );
   };
 
   return (
@@ -84,7 +145,8 @@ export default function Blog() {
           alt=""
         />
 
-        {loading && (
+          <div className="blogs_wrap_div relative z-10">
+          {loading && (
           <p className="text-center py-20 section_head_title font-semibold text-[20px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
             Loading blogs...
           </p>
@@ -92,73 +154,52 @@ export default function Blog() {
 
         {!loading && blogs.length > 0 && (
           <>
-            {/* Display first five blogs */}
-            <BlogGrid blogs={firstFiveBlogs} />
 
-            {/* Display paginated blogs starting from the 6th blog */}
-            <BlogGridlist blogs={paginatedBlogs} />
+            <div className="serch_block md:pt-20 pt-10 relative z-10">
+              <div className="container mx-auto">
+               <div className="blogs_head_wrap">
+                <div className="blogs_head_row flex">
+                <div className="blogs_headingmain">
+                  <h1 className="section_head_title font-semibold text-[34px] 2xl:text-[55px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
+                      Web Development Blog
+                  </h1>
+                </div>
+               <div className="search_filter_col">
+               <div className="search_filter">
+                  <form onSubmit={handleSearch}>
+                  <input type="text"
+                      className="p-2 border rounded color-[black]"
+                      placeholder="Search blogs..."
+                      value={searchQuery}
+                      onChange={(e) => {
+                        setSearchQuery(e.target.value);
+                        if (e.target.value.trim() === "") {
+                          resetSearch();
+                        }
+                      }}
+                    />
 
-            <div className="pagination flex justify-center items-center gap-2 mt-10 relative z-10">
-              <button
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
-              >
-                ←
-              </button>
-
-              {currentPage > 2 && (
-                <>
-                  <button
-                    onClick={() => handlePageChange(1)}
-                    className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
-                  >
-                    1
-                  </button>
-                  {/* {currentPage > 3 && <span className="text-gray-300 px-2"></span>} */}
-                </>
-              )}
-
-              {Array.from({ length: 3 }, (_, index) => currentPage - 1 + index)
-                .filter((page) => page > 0 && page <= totalPages)
-                .map((pageNumber) => (
-                  <button
-                    key={pageNumber}
-                    onClick={() => handlePageChange(pageNumber)}
-                    className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === pageNumber ? "bg-customBlue text-white" : "hover:bg-gray-700 text-gray-300"}`}
-                  >
-                    {pageNumber}
-                  </button>
-                ))}
-
-              {currentPage < totalPages - 1 && (
-                <>
-                  {/* {currentPage < totalPages - 2 && <span className="text-gray-300 px-2"></span>} */}
-                  <button
-                    onClick={() => handlePageChange(totalPages)}
-                    className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
-                  >
-                    {totalPages}
-                  </button>
-                </>
-              )}
-
-              <button
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className={`w-10 h-10 rounded-full flex justify-center items-center border ${currentPage === totalPages ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-700"}`}
-              >
-                →
-              </button>
+                    <button
+                      type="submit"
+                      className="ml-2 p-2 bg-blue-500 text-white rounded"
+                    >
+                      Search
+                    </button>
+                  </form>
+                </div>
+               </div>
+                </div>
+               </div>
+              </div>
             </div>
+
+            <BlogGrid blogs={firstFiveBlogs} />
+            {!isSearching && <BlogGridlist blogs={paginatedBlogs} />}
+
+            {!isSearching && renderPagination()}
           </>
         )}
-
-        {!loading && blogs.length === 0 && (
-          <p className="text-center py-20 section_head_title font-semibold text-[20px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite">
-            No blogs available.
-          </p>
-        )}
+          </div>
       </div>
     </UserLayout>
   );

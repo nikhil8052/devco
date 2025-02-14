@@ -1736,6 +1736,33 @@ a.post_title_link:hover {
     color: #4353FF;
     text-decoration: underline;
 }
+.search_filter {
+    color: #000000b8;
+}
+.search_filter button {
+    background-color: #4353ff;
+    padding: 10px 22px;
+    transition: all 0.3s linear;
+}
+.search_filter button:hover {
+    background-color: #ffffff;
+    color: #4353ff;
+}
+.blogs_head_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogs_head_row h1 {
+    margin: 0px;
+}
+.blogs_head_row .search_filter_col {
+    min-width: 332px;
+    width: 332px;
+    margin-left: auto;
+}
+
+.blogs_head_row .blogs_headingmain {width: calc(100% - 332px);}
 
 
 
@@ -2078,6 +2105,22 @@ a.post_title_link:hover {
 .slick-slider .slick-prev:before, .slick-slider .slick-next:before {
     font-size: 14px;
 }
+.blogs_head_row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.blogs_head_row .blogs_headingmain {
+    width: 100%;
+}
+
+.blogs_head_row .search_filter_col {
+    width: 100%;
+    margin: auto;
+}
 
 }
 
@@ -2294,6 +2337,25 @@ a.post_title_link:hover {
 
 
 @media(max-width:575px){
+    .blogs_head_row .search_filter_col {
+        min-width: 90px;
+    }
+    
+    .search_filter input {
+        width: calc(100% - 80px);
+    }
+    
+    .search_filter button {
+        width: 80px;
+        margin: 0px;
+        padding: 6px 13px;
+        font-size: 14px;
+    }
+    
+    .search_filter form {
+        display: flex;
+        gap: 8px;
+    }
     .team_info {
         flex-direction: column;
         justify-content: center;
