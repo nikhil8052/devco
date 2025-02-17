@@ -23,6 +23,7 @@
     "jquery": "3.7.1",
     "linearicons": "1.0.1",
     "next": "14.2.20",
+    "next-sitemap": "^4.2.3",
     "postcss-loader": "8.1.1",
     "react": "18",
     "react-countup": "^6.5.3",

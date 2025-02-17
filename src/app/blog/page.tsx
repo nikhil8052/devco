@@ -15,40 +15,45 @@ export default function Blog() {
   const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
-    const fetchBlogs = async () => {
-      try {
-        const response = await fetch(
-          "https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX"
-        );
-
-        const data = await response.json();
-        const new_data = data.data;
-        const formattedBlogs = new_data.map((post) => ({
-          id: post.ID,
-          slug: post.Slug,
-          link: `${post.Slug}`,
-          image: post.Image || "/default-image.jpg",
-          authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
-          authorName: post.Author_ID?.Name || "Unknown Author",
-          date: new Date(post.Created_At).toLocaleDateString(),
-          title: post.Title,
-          description: post.Description || "No description available",
-          category: post.Category || "Uncategorized",
-          authorDescription: post.Author_ID?.Description,
-          authorDesignation: post.Author_ID?.Job_title,
-        }));
-
-        setBlogs(formattedBlogs);
-        setFilteredBlogs(formattedBlogs);
-      } catch (error) {
-        console.error("Error fetching blogs:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchBlogs();
+    const cachedBlogs = localStorage.getItem('blogs');
+    if (cachedBlogs) {
+      setBlogs(JSON.parse(cachedBlogs));
+      setFilteredBlogs(JSON.parse(cachedBlogs));
+      setLoading(false);
+    } else {
+      const fetchBlogs = async () => {
+        try {
+          const response = await fetch("https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX");
+          const data = await response.json();
+          const new_data = data.data;
+          const formattedBlogs = new_data.map((post) => ({
+            id: post.ID,
+            slug: post.Slug,
+            link: `${post.Slug}`,
+            image: post.Image || "/default-image.jpg",
+            authorImage: post.Author_ID?.Author_Image || "/default-author.jpg",
+            authorName: post.Author_ID?.Name || "Unknown Author",
+            date: new Date(post.Created_At).toLocaleDateString(),
+            title: post.Title,
+            description: post.Description || "No description available",
+            category: post.Category || "Uncategorized",
+            authorDescription: post.Author_ID?.Description,
+            authorDesignation: post.Author_ID?.Job_title,
+          }));
+          setBlogs(formattedBlogs);
+          setFilteredBlogs(formattedBlogs);
+          localStorage.setItem('blogs', JSON.stringify(formattedBlogs));
+        } catch (error) {
+          console.error("Error fetching blogs:", error);
+        } finally {
+          setLoading(false);
+        }
+      };
+  
+      fetchBlogs();
+    }
   }, []);
+  
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
   const firstFiveBlogs = isSearching ? filteredBlogs : blogs.slice(0, 5);
