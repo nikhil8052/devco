@@ -36,9 +36,10 @@ export default function Blog({ params }) {
           title: post.Title,
           description: post.Description || "No description available",
           category: post.Category || "Uncategorized",
-          authorDescription: post.Author_ID?.Description,
+          authorDescription: post.Author_Description || "No description available", // Fix here
           authorDesignation: post.Author_ID?.Job_title,
         }));
+        
 
         setBlogs(formattedBlogs);
       } catch (error) {
