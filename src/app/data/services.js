@@ -258,20 +258,12 @@ export const services = [
                     backgroundImage: "/images/code_crbg.svg",
                     mainImage: "/images/code_creative.svg",
                     heading: "Stand out with a DEV.co custom website",
-                    description: `A custom website from the best web development company will make your company stand out in a sea of template-based designs.<br>
-                    There’s virtually no limit to what we can accomplish for you with a custom design.<br>
-                    Whether you prefer the familiarity of WordPress, the versatility of Drupal, or want<br>
-                    a completely custom content management system (CMS), we can bring your vision to life.<br></br>
+                    description: `A custom website from the best web development company will make your company stand out in a sea of template-based designs.There’s virtually no limit to what we can accomplish for you with a custom design.<br></br>
+                    Whether you prefer the familiarity of WordPress, the versatility of Drupal, or want a completely custom content management system (CMS), we can bring your vision to life.<br></br>
 
-                    When you work with DEV.co, your custom website will be attractive,<br>
-                    well-organized, and will draw visitors back like a magnet.<br></br>
+                    When you work with DEV.co, your custom website will be attractive, well-organized, and will draw visitors back like a magnet.<br></br>
 
-                    Let’s talk about your web development project – contact us today to learn more<br>
-                    about how our web developer services can make your business more profitable.<br></br>
-
-                    Or, if you’re one of many experienced, but aspiring professional web developers that is well beyond just learning programming languages or you already know multiple coding languages and are looking for a new career path, get in touch! As one of the best web development companies on the market, there is likely a fit for your dev services and abilities. `,
-                    buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    Let’s talk about your web development project – contact us today to learn more about how our web developer services can make your business more profitable Or, if you’re one of many experienced, but aspiring professional web developers that is well beyond just learning programming languages or you already know multiple coding languages and are looking for a new career path, get in touch! As one of the best web development companies on the market, there is likely a fit for your dev services and abilities. `,
                 }
             ],
         },

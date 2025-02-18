@@ -9,7 +9,7 @@ export default function Benefits({ title = "", description = "", benefits = [], 
   return (
     <>
       {hasContent && ( // Conditionally render `benefits_section` if there's data
-        <div className="new_section benefits_section pt-20 relative">
+        <div className="new_section benefits_box_section benefits_section pt-20 relative">
        <Image
         className="right_eclipsebg absolute bottom-0 right-0 w-1/2"
         src="/images/right_eclopse.svg"
@@ -38,9 +38,9 @@ export default function Benefits({ title = "", description = "", benefits = [], 
             )}
 
             {benefits.length > 0 && (
-              <div className="benefits-container grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10">
+              <div className="benefits-container benefits_box_row flex flex-wrap gap-y-[30px]">
                 {benefits.map((obj, index) => (
-                  <div key={index}>
+                  <div className='benefits_card_col w-full lg:w-[50%] px-10px' key={index}>
                     <Benefit
                       title={obj.title}
                       description={obj.description}
