@@ -1059,13 +1059,15 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                 
             },
             {
-                title: "",
-            description: `Our CRM software development services include:<br>
-                          CRM consultationss<br>
-                          CRM feature development<br>
-                          CRM integrations<br>
-                          Product configuration<br>
-                          Updates and maintenance`,
+                title: "Our CRM software development services include:",
+            description: ``,
+              sitelist: [
+                            "CRM consultations", 
+                            "CRM feature development",
+                            " CRM integrations",
+                            " Product configuration",
+                            "Updates and maintenance",
+                        ]
             }
             ]
            
@@ -1424,15 +1426,18 @@ When choosing an online storage development partner, consider:`,
                 
             },
             {
-                title: "",
-            description: `Our big data development services include:<br>
-            Data architecture analysis<br>
-            Cleaning and processing data<br>
-            Transforming data into different formats<br>
-            Big data model development<br>
-            Data pipeline development<br>
-            Big data analysis consulting<br>
-            Big data software design and development`,
+                title: "Our big data development services include:",
+            description: ``,
+
+              sitelist: [
+                "Data architecture analysis", 
+                "Cleaning and processing data",
+                "Transforming data into different formats",
+                "Big data model development",
+                "Data pipeline development",
+                "Big data analysis consulting",
+                "Big data software design and development",
+            ]
             }
             ]
           },
@@ -1553,17 +1558,15 @@ To accomplish this, we follow a consistent process for custom software developme
             sectionData:[
                 {
                   title: "What Is Big Data?",
-                  description: `Big data is a general term for any enormous quantity of data. Data sets can eventually become so large, or so complex, that traditional data processing applications simply can’t handle them. They require a much more advanced system, capable of accurate data capturing, secure data storage, sophisticated data analysis, and further features like data visualization and methods of sharing and transferring information.
-                  <br></br>
-               These days, big data analytics are used by a wide variety of organizations, to solve a number of different problems.
-                  <br></br>
-                 Despite its practically unlimited potential, big data presents a number of challenges to organizations:
-                  <br>
-                 How can you collect data consistently and accurately?<br>
-                 How can you ensure the security and integrity of your data?<br>
-                 How can you analyze and visualize your most complex data sets?<br>
-                 How can you turn big data into actionable insights?<br>
-                 Big data software development partners can help you answer these questions and solve some of your biggest data-driven paint points.`,
+                  description: `Big data is a general term for any enormous quantity of data. Data sets can eventually become so large, or so complex, that traditional data processing applications simply can’t handle them. They require a much more advanced system, capable of accurate data capturing, secure data storage, sophisticated data analysis, and further features like data visualization and methods of sharing and transferring information. These days, big data analytics are used by a wide variety of organizations, to solve a number of different problems. Despite its practically unlimited potential, big data presents a number of challenges to organizations:`,
+
+                 sitelist: [
+                    "How can you collect data consistently and accurately?",
+                    "How can you ensure the security and integrity of your data?",
+                    "How can you analyze and visualize your most complex data sets?",
+                    "How can you turn big data into actionable insights?",
+                    "Big data software development partners can help you answer these questions and solve some of your biggest data-driven paint points."
+                  ]
                 },
               ],
             },

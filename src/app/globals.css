@@ -451,7 +451,8 @@ img.top_left_blue {
 .benefit-box ul li {
     position: relative;
     padding-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    color: #adaeae;
 }
 
 .benefit-box ul li:before {
@@ -464,8 +465,41 @@ img.top_left_blue {
     top: 7px;
     border-radius: 50%;
 }
-.skills_page .text-section {
-    max-width: 540px;
+.benefits-container.benefits_box_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.benefits_box_row  .benefit-box {
+    height: 100%;
+    background-color: #050506;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.benefits_box_row  .benefits_card_col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.benefit_box_icon {
+    background-color: rgba(67, 83, 255, 0.04);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.section_ulli.list_full_double li {
+    margin-bottom: 5px;
+    width: 50%;
+    padding-right: 20px;
+}
+.section_ulli.list_full_double {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .banner_row {
@@ -1851,6 +1885,13 @@ a.post_title_link:hover {
 }
 
 
+@media(max-width:1279px){
+.section_ulli li:before {
+    top: 5px;
+}
+}
+
+
 
 @media(max-width:1199px){
     .box_header h4 {
@@ -2128,6 +2169,14 @@ a.post_title_link:hover {
     .author_info {
         flex-direction: column;
         gap: 20px 0px;
+    }
+    .section_ulli.list_full_double li {
+        width: 100%;
+        padding-right: 0px;
+    }
+    
+    .section_ulli li {
+        padding-left: 19px;
     }
     
     .author_info_detsil {
