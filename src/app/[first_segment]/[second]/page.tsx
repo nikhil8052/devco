@@ -45,8 +45,10 @@ type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationDa
 
 export default function Page({ params }) {
 
-  // const second = params.first_segment;
-  const first_segment = params.second;
+  const second = params.second;
+  const first_segment = params.first_segment;
+  const url_path=`${first_segment}/${second}`
+
   // let foundData = null;
 
   const [blog, setBlog] = useState(false);
@@ -58,7 +60,7 @@ export default function Page({ params }) {
 
   const fetchBlogDetails = async () => {
     try {
-      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
+      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${url_path}`;
       const response = await fetch(url);
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
@@ -105,15 +107,15 @@ export default function Page({ params }) {
     let foundData: Data | null = null;
     let matchedComponent: React.ComponentType<any> | null = null;
 
-    if ((foundData = industries.find((item) => item.slug === first_segment))) {
+    if ((foundData = industries.find((item) => item.slug === url_path))) {
       matchedComponent = Industry;
-    } else if ((foundData = skills.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = skills.find((item) => item.slug === url_path))) {
       matchedComponent = Skill;
-    } else if ((foundData = services.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = services.find((item) => item.slug === url_path))) {
       matchedComponent = Service;
-    } else if ((foundData = technologies.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = technologies.find((item) => item.slug === url_path))) {
       matchedComponent = Technology;
-    } else if ((foundData = locationsdata.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = locationsdata.find((item) => item.slug === url_path))) {
       matchedComponent = Locations;
     }
 
