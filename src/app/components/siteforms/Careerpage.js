@@ -26,9 +26,9 @@ const Careerpage = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleFileChange = (event) => {
-    const file = event.target.files;
-    if (file.length > 0) {
-      setFileName(file[0].name);
+    const file = event.target.files[0];
+    if (file) {
+      setFileName(file.name);
       setResume(file);
       setFileError("");
     } else {
@@ -53,6 +53,10 @@ const Careerpage = () => {
     formData.append("resume", resume);
     formData.append("additionalInfo", data.additionalInfo);
 
+    for (const [key, value] of formData.entries()) {
+      console.log(key, value);
+    }
+    
   
   
 
