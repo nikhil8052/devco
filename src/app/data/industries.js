@@ -311,6 +311,7 @@ We’d be happy to walk you through our process and answer any questions you may
         og_image:"/images/Software-Development-for-Education-300x150-1.jpg",
         slug: "education",
         bannericon: "/images/Education.svg",
+        sub_title: "Industries",
         top_title: "Software Development for Education",
         top_description: "Colleges and universities drive progress worldwide. The quality and reach of education shape all parts of society. As an educational software development company, we craft unique solutions tailored to help these institutions flourish further. Our custom services in education software development pave the way for more students to access top-notch learning experiences crucial for their growth.",
         startups: {
@@ -468,6 +469,7 @@ Please contact us today to find out more about our custom software development s
         og_image:"/images/Small-Business-Custom-Software-Development-Services.jpg",
         slug: "small-business",
         bannericon: "/images/Small Business.svg",
+        sub_title: "Industries",
         top_title: "Small Business Custom Software Development Services",
         top_description: "The small business world is more competitive than it’s ever been. And along with this competition comes the need for rapid technological innovation and adoption.Sometimes canned solutions and off-the-shelf software can do the job. But for businesses that have unique needs, requirements, and objectives, custom software is the way to go.",
 
@@ -610,6 +612,7 @@ Contact us today and we’ll be happy to chat about your software development pr
         og_image:"/images/Software-Development-for-Marketing-300x150-1.jpg",
         slug: "marketing",
         bannericon: "/images/Marketing.svg",
+        sub_title: "Industries",
         top_title: "Software Development for Marketing",
         top_description: `The success of every marketing campaign depends on a number of factors including reaching the right market, using convincing messages, and utilizing advanced marketing strategies. While all of these factors are important, they couldn’t be executed without marketing software
         <br></br>
@@ -758,6 +761,7 @@ Contact us today and we’ll be happy to chat about your software development pr
         og_image:"/images/Software-Development-for-Finance-300x150-1.jpg",
         slug: "finance",
         bannericon: "/images/Finance.svg",
+        sub_title: "Industries",
         top_title: "Software Development for Finance",
         top_description: `The value of the FinTech industry now reaches tens of billions! And guess what? More growth is coming with advancements in data analytics, blockchain, and cloud computing!
         <br></br>
@@ -912,6 +916,7 @@ Contact us today and we’ll be happy to chat about your software development pr
         og_image:"/images/Software-Development-for-Healthcare-300x150-1.jpg",
         slug: "healthcare",
         bannericon: "/images/Healthcare.svg",
+        sub_title: "Industries",
         top_title: "Software Development for Healthcare",
         top_description: `Healthcare firms rely on technology every day to save lives. That life-saving technology includes the software that runs everything behind the scenes. From websites and data storage to invoices and patient health records, healthcare firms rely on healthcare software development services to provide optimal patient care.
         <br></br>
@@ -1085,6 +1090,7 @@ Contact us today and we’ll be happy to chat about your software development pr
         og_image:"/images/Custom-Software-Development-for-Agriculture.jpg",
         slug: "agriculture",
         bannericon: "/images/Agriculture.svg",
+        sub_title: "Industries",
         top_title: "Custom Software Development for Agriculture",
         top_description: `From the outside looking in, people often assume the agricultural industry is old, archaic, and stubborn. But as you know, it’s actually one of the more sophisticated and technologically-advanced sectors of the American economy.
         <br></br>
@@ -1747,5 +1753,559 @@ Here are some of the common types of software we develop for our clients:`,
 
       
     },
+    {
+        id: 12,
+        meta_title:"Real Estate Web Design | Web Development for Real Estate Agents & Brokers",
+        meta_description: "We build great websites for real estate companies, agents and brokers. Engage our website design & development for your real estate firm.",
+        og_image:"/images/Group-1.png",
+        slug: "real-estate",
+        sub_title: "Industries",
+        bannericon: "/images/Government.svg",
+        top_title: "Custom Website & Software Development Services for Real Estate Agents & Brokers",
+        top_description: `Our real estate website design service was specifically crafted to help you grow your business. These professionally designed, user-friendly platforms delight, engage and convert with a responsive mobile experience that is tailored for the real estate niche. We also provide streamlined lead capturing tools with best-in-class customer support so that no matter where you are, we are right there by your side.`,
+
+        BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Limitless Possibilities and Options",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `We’ve got a few options for web design that will lead your business to success. You can choose from professional designs with tailored functionality, minimalistic projects made for modern web users, and flat design templates that will make your real estate site stand out from the pack. Couple any of these with our e-commerce plugin features, marketing automation tools, or rigorous SEO workmanship and you are all set.
+<br></br>We understand how pivotal a successful website is not just for getting leads but showcasing what sets you apart. You want customers to be engaged when they visit your site so it has style and flair but also functionality.
+<br></br>The DEV.co team goes above and beyond to create a website that will resonate with your customers. They’ll use their expertise in design, usability, content creation and more to make sure you’re putting your best foot forward online—and connecting with the right audience in the process. With no upfront design fees or long-term contracts required, our intuitive site builder can help you get going fast without taking bank from day one.`,
+            }
+            ]
+           
+           
+          },
+        
+
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: `Every government entity has its own unique needs and applications.
+Popular technologies used by government entities include Python,Java, C#, Javascript, SQL, HTML, jQuey, sql-server, C++, and CSS.
+State and local governments often need software that’s able to perform functions like:`,
+            card_datas: [
+                {
+                    title: "Simplicity is the Ultimate Sophistication",
+                    description: "Every website we create is designed to shape your brand and delight your clients with a unique, clean, and powerfully simple design. We rely on the power of simplicity to deliver high-value solutions that solve complex challenges... so you’re never left searching for answers.",
+                    imgSrc: "/images/Benefits1.svg",
+                },
+                {
+                    title: "Extensible Templates and Formatting",
+                    description:
+                        "Building a website is an investment of time, money and energy. So why not get it right the first time? Don't struggle with DIY software that produces generic results or outsource your project to overseas providers who don't speak your language. Websites have tied our businesses together and there's no reason to accept anything less than 100% perfection on work orders for these physical representations of you and your company.",
+                    imgSrc: "/images/Benefits2.svg",
+                },
+                {
+                    title: "Sites Built for Desktop and Mobile",
+                    description: "Get ready for an intelligent web experience. Creators of innovative mobile website design, we offer a fully responsive platform that can access your required information effortlessly from any device with internet connection — including tablets and smartphones. Based on industry-leading technologies like AngularJS and jQuery Mobile, our scalable solutions are crafted to perform just as well on your desktop as they do on the move. It’s a fact, the world is going mobile. To be successful in today’s market you need to have an optimized and responsive website for desktops and mobile devices. WE can set up a site specifically for your company that will allow potential customers to land on the page they are looking for regardless of their device or browser preferences. Graphics often change with each screen size so what looks good on big-screen TV might not look as great when sized down for viewing on a phone. That's why our sites are fully responsive!",
+                    imgSrc: "/images/Benefits3.svg",
+                },
+                {
+                    title: "Custom IDX Search for Enhanced Conversions",
+                    description: "DEV.co has been building custom web-based IDX search portals for real estate brokers, agents, and clients since 2008. We understand the importance of user-friendly product tailored to your needs. Our passionate team will work with you from beginning to end - designing a solution that will fit not only your unique business requirements but also your budget as well! It’s key we stay in constant communication so expectations are set appropriately before moving forward getting things done at the rate you need them to get done.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+                {
+                    title: "Affordable Web Development Solutions for Real Estate Websites",
+                    description: "DEV.co provides affordable website design that integrates on-page content optimizations, digital media strategy, video blogs and informative blog posts using only the best SEO practices to increase rankings for your site. Alongside affordable service rates, our team offers a variety of ancillary link building packages so you can choose which one suits your needs. Contact us today about how we can help you improve your online presence.",
+                    imgSrc: "/images/Benefits4.svg",
+                },
+            
+            ],
+        },
     
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your real estate web dev project and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                    onButtonClick: () => alert("Button clicked!"),
+                }
+            ],
+        },
+    },
+
+    {
+        id: 13,
+        meta_title:"Veterinarian Website Design | Web Development for Veterinarians",
+        meta_description: "Looking for custom website design and development for your veterinarian practice? You've come to the right place. Let us design your veterinarian website.",
+        og_image:"/images/Custom-Web-Design-Services.jpg",
+        slug: "veterinarian",
+        bannericon: "/images/e Commerce.svg",
+        sub_title: "Industries",
+        top_title: "Custom Website Design & Development Services for Veterinarians",
+        top_description: `Website design and development is often overlooked in the veterinary practice. Our custom development service will get you going. Aside from the latest technology, your veterinarian website will also impress with its visual appeal to visitors. The site design will be done by a professional with experience in website design and veterinarians’ content management system needs.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Custom Website Design for Vets",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `Our team of veterinary experts can help you design and create an impactful website that speaks to your clients, patients, and community. Our veterinarians know what works–and what doesn’t–when it comes to website design for veterinarians.<br></br>When it comes to choosing a web company to handle your veterinary website, you want to work with a marketing and technology company that understands the veterinary industry. We create customized websites for veterinarians that are stunning and easy to use, so you can build long-lasting relationships with your patients and keep your practice growing.
+`,
+            }
+            ]
+           
+           
+          },
+
+
+     
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Why you need new design",
+                    description: "The new website design transforms customers into clients, and clients into happy patients by continuing the client relationship beyond the point of sale. This is achieved by a user-friendly website that consists of proven tools and techniques that set new standards in veterinary practice websites. This unique approach to website development is designed specifically to enhance the quality of patient communication and patient interaction.A professional and branded website for your veterinary practice has never been easier. Not only will it enhance your online presence, but it also builds trust with clients and potential clients, increasing conversions. Our team works with you every step of the way to make sure every detail is exactly how you envisioned it. From creating stunning graphics to developing search engine optimization techniques, we know what it takes to create a successful website that grows your business!",
+                    imgSrc: "",
+                    
+                },
+                {
+                    title: "Graphic Design",
+                    description:
+                        "It is clear that when people should choose a graphic design for veterinarians. As a rule, the client and the designer are confident that the results of their cooperation will only be positive, without surprises and unpleasant things. We offer customers the best solutions in a short time, always meeting customer requirements.The majority of graphics design for veterinary practices is highly geared toward the veterinarians, and they are not always what pet owners expect. We provide real-world graphic design for veterinary practices that are geared toward clients and patients. We develop graphics that help a practice actually get clients in their doors.",   
+                        imgSrc: "",
+                },
+                {
+                    title: "Technical Content",
+                    description: "With the help of wireframing, we’ll put together an introductory design for your weVeterinary practice owners often struggle to get good professional content writers for their practice and blogs. So, we made an informational site for veterinary clinics and pet hospitals. It allows them to get examples, step by step instructions, and provides a checklist to ensure they have veterinary friendly information on their websites. We also include case studies for success stories that show them how well it works.Our job is to serve your veterinary practice with an abundance of highly relevant and useful content.b app.",
+                    imgSrc: "",
+                 
+                },
+                {
+                    title: "Veterinarian Development Experts",
+                    description: "Veterinarian custom software development for your practice. Building and customizing your veterinary software is our main mission. It's the core of what we do and it's the reason we're here — because we know how hard it is to run a successful pet practice. Are you a veterinarian who needs custom software to run your business? Would you like a software developer specializing in veterinarians to work with you on developing solutions for your business problems? Our team has provided web-based software development for veterinarians with popular features such as digital radiology, e-learning and practice management. This customized software is developed to specific client needs by a team your needs in surgery, animal husbandry and general practice management.",
+                    imgSrc: "",
+                    
+                },
+                {
+                    title: "Reasonable Pricing and Delivery",
+                    description: "Affordably priced web design for veterinarians is our specialty. Veterinarian websites created by us boost your business and help you attain the high visibility that you want in a competitive market like yours, as well as making you more internet search engine friendly. In doing so, we ensure we deliver a superior service at a reasonable cost. Each veterinarian has a burning desire to make people and animal's lives better. This desire sparks the drive to hard work, passion, and motivation needed to be successful. This strong connection to purpose allows you to work in a way that reflects your values. When you are committed to your veterinarian practice, it has a ripple effect on the lives of the humans and animals you come in contact with.",
+                    imgSrc: "",
+                    
+                },
+            ],
+        },
+
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your veterinary<br>
+                            web design project and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+    },
+
+    {
+        id: 14,
+        meta_title:"Custom Software & Web Development for Banks & Credit Unions | DEV.co",
+        meta_description: "We provide custom software development and website development for banks, credit unions and other financial institutions. Contact us today.",
+        og_image:"/images/Custom-Website-Design-Services-for-Banks.jpg",
+        slug: "banks",
+        bannericon: "/images/e Commerce.svg",
+        sub_title: "Industries",
+        top_title: "Custom Website Design & Development Services for Banks & Credit Unions",
+        top_description: `We specialize in custom software and website development for banks and credit unions. We have extensive experience in banking technology, specifically the integration of third-party vendor applications with core banking systems.
+        <br></br>
+     At DEV.co, we create custom software development and website design and development solutions specifically for banks and credit unions. Our solutions are tailored to your unique needs and will help you streamline operations, create a competitive advantage over the competition and reach your target audience.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Custom Website Design for Banks, Credit Unions & Financial Institutions",
+                description: ``,
+                
+            },
+            {
+                title: "",
+            description: `DEV.co offers website development services for banks and credit unions. Our Web developers are trained across a number of banking-related sectors, so they have experience in meeting your needs for both technology and usability. Our expertise includes developing websites coded using the latest standards and compliant with the most current security measures. The result is a secure, dynamic site that performs at exceptional levels while remaining easy for your customers to use. Our customizable design tools make it easy for you to control the look and feel while maintaining compliance with your branding campaign. With DEV.co, your online presence is well-positioned to succeed today and evolve<br></br>We build beautiful, high-conversion websites for banks and credit unions that perform. Our team of experts will provide insights that lead to better design and strong functionality to help you hit your goals. We’ll optimize your new site for search engines, handle all hosting, and create a content strategy that makes sure your users have the information they need.
+
+`,
+            }
+            ]
+           
+           
+          },
+
+      
+                  benefits: {
+            title: ``,
+            description: `The website is a critical component of your overall Internet marketing strategy. Looking to bank online? Offering internet access to your members? Channeling customers to your commercial banking, credit card or debit card transactional sites? Bank & Trust Solutions offers custom web development services for banks and credit unions. We build and maintain websites with emphasis on usability, navigation and design. We also offer Internet marketing services such as search engine optimization, reputation management and social media integration.
+<br></br>In today’s competitive marketplace, banks and credit unions must have a digital presence to attract and retain customers. DEV.co’s team of banking website design experts can help you create or update your online presence to engage with customers, improve customer retention and drive revenue through customer acquisition.
+<br></br>Web expertise for banks. We build tailored website solutions for every stage in the life of your business, from conception to repair and redesign. With code and design led by banking sector experts, our sites win awards for their customer-focused approach, seamlessly merging functionality with presentation and security with usability.
+`,
+            benefits: [
+             
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Secure Content Management for Banks",
+                    description: "The DEV.co Content Management Solution for Banks and Credit Unions is a complete content management platform that enables banking institutions to publish, manage, share, and protect their digital assets throughout an organization while enabling collaboration with their partners. This scalable solution allows your institution to own your digital presence and eliminate expensive outsourcing fees.The Content Management solution for banks and credit unions helps to keep your web site up to date, accurate, and relevant. Use content modules to display your products, services, branches and more with features that include: editable templates on page; sitewide updates performed in one location; approval workflow; validation of content before posting to your site; reporting tools; page layout templates.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Graphic Design for Financial Institutions",
+                    description:
+                        "Banks and credit unions have unique images, cultures and attributes that set them apart from their competitors. They are also subject to the same concerns as other businesses, including attracting new employees, cultivating business relationships, and maintaining customer loyalty. Banks look for employees who can understand their culture and help develop a unique marketing strategy that will produce results. The goal is to find someone who thinks like a banker and has the background to support it.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Technical Financial Content",
+                    description: "Content is the lifeblood of your organization. It allows you to attract, engage, and convert customers. Our content is informed by our deep expertise in technology-enabled financial services. It’s written in plain English. We make it easy for you to create engaging and effective content that will connect with your customers.Whether you are trying to get more customers in the door, or you are hoping to increase sales & service revenue per customer, we can help. We have written and designed for some of the best-known financial institutions and consumer product companies in the country.Our specialists take content produced by analysts and turn it into accessible, easy-to-understand language using our proprietary editorial process. With a background in banking and finance, our writers understand key bank terms, processes, and procedures that are unique to financial institutions.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Custom Software Development",
+                    description: "We provide custom software development for banks and credit unions. Financial institutions face complex challenges every day as they balance the requirements of various stakeholders, including customers, regulators, and shareholders. At Pacesetter, we have experience in creating custom financial software that delivers results and excels in this important environment. Our approach to developing technology solutions for financial organizations is unique and effective -- delivering proven results that keep your business competitive. Whether you need a new core system or a point-of-sale application, benefit from our hands-on approach to design, development, implementation, and lifecycle management. Custom software development for banks and credit unions. Make your customers' experience more seamless with digital apps that give them access to their accounts, can help them deposit checks, make transfers between accounts, locate the nearest branches or ATMs, and more.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Reasonable Development Pricing",
+                    description: "At DEV.co we can develop software applications that address classic banking issues. We have honed our skills developing cost-effective and high quality secure software for financial institutions. Our software development process includes project management to guide our clients through the entire development lifecycle from concept to launch, quality assurance and testing, as well as the deployment of the final product. Banks gain access to leading edge technology at competitive pricing. DEV.co can transform your legacy core banking system into a state-of-the-art platform for growth while minimizing risk to your organization.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your bank software<br>
+or web design needs and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+    
+    },
+
+    {
+        id: 15,
+        meta_title:"Custom Software & Web Development for Banks & Credit Unions | DEV.co",
+        meta_description: "We provide custom software development and website development for banks, credit unions and other financial institutions. Contact us today.",
+        og_image:"/images/Custom-Website-Design-Services-for-Banks.jpg",
+        slug: "chiropractors",
+        bannericon: "/images/e Commerce.svg",
+        sub_title: "Industries",
+        top_title: "Custom Website Design & Development Services for Chiropractors",
+        top_description: `DEV.co offers web design for chiropractic software and chiropractic management software that will boost your online presence and make you look just as good offline or on the go with our responsive designs, providing maximum views from any device—Desktop, Tablet, Laptop, Phone!
+        <br></br>
+     Our site-builder features an easy drag-and-drop interface and flexible CMS (Content Management System) allowing you to update your business information at any time.`,
+        
+         BorderTextbox:{
+            BorderTextdata:[
+                {
+                title: "Custom Website Design for Chiropractors",
+                description: `Websites for chiropractic software and chiropractic management software can be tricky because their sites need to contain multiple skills. For example, they often include web design, SEO marketing strategies, graphic design work in the brand look and feel of the company’s logos and ads, as well as other image-based content to provide a solid foundation on which to present scholarship information. If you’re looking at improving your online presence for chiropractic software and chiropractic management software, consider hiring an agency or consultant who has expertise in all things digital marketing – from both an analytics perspective (e.g., Google Analytics) and with conversion optimization tactics that improve customer experience while making it easier for them to edit on-site content.
+
+<br></br>Chiropractic software and chiropractic management software websites require a unique blend of skills to effectively reach their target audience. These websites must not only showcase the features and benefits of the software but also provide valuable information to potential users. This means incorporating elements of web design that are both visually appealing and user-friendly. SEO marketing strategies are essential to ensure that these websites rank well in search engine results, driving organic traffic and increasing visibility.`,
+                
+            },
+            {
+                title: "",
+            description: `Additionally, the graphic design work for chiropractic software and chiropractic management software websites should align with the brand’s identity, conveying professionalism and trustworthiness. This extends to the creation of logos and ads that establish a strong and memorable brand presence. The inclusion of image-based content enhances the overall user experience and aids in conveying complex information in a visually engaging manner.
+<br></br>For those in the chiropractic software and chiropractic management software industry, it’s crucial to consider the expertise of an agency or consultant who can navigate the digital marketing landscape. Such professionals can employ analytics tools like Google Analytics to gather data and insights into website performance, enabling data-driven decision-making for continuous improvement. Moreover, they can implement conversion optimization tactics that make it easier for users to interact with the site, ensuring a seamless and user-friendly experience.
+<br></br>In summary, a well-rounded approach to web development and digital marketing is essential for chiropractic software and chiropractic management software websites. These sites require a combination of web design, SEO, graphic design, and content creation to establish a strong online presence and effectively convey the value of the software solutions they offer. Consulting experts who understand these intricacies and have a proven track record in the field can greatly enhance the success of these websites.
+`,
+            }
+            ]
+           
+           
+          },
+
+      
+                  benefits: {
+                    title: "Let Us Help You ",
+                    description: `Let us take away all of the hassle from designing and maintaining your homepage and on-site content by creating one for you using basic information about your chiropractic software and chiropractic management software business. You’ll be able to update content anytime—without resorting to hiring a developer every time you need a basic tweak.
+        <br></br>A website design for chiropractic software and chiropractic management software is one of the best ways your software solutions can be seen by potential users. A website will help alleviate common questions like “Is this software local?” and “How much does it cost?”. We also offer every service associated with marketing chiropractic software and chiropractic management software, including SEO services and social media management.
+        <br></br>Websites are important to any chiropractic software and chiropractic management software provider to have an attractive website that attracts clients, provide beautiful photos which showcase your software’s capabilities, articulate details about what your software solutions offer, and educate people on why they should choose your software.
+        <br></br>Creating an effective online presence for chiropractic software and chiropractic management software is crucial in today’s digital age. Having a user-friendly website that showcases the features and benefits of your software can make a significant difference in attracting and retaining users. It not only answers important questions but also presents your software in a professional and engaging manner. Additionally, offering services like SEO and social media management can further enhance the visibility and reach of your chiropractic software and chiropractic management software, ensuring that your solutions are easily discoverable by potential users.
+        <br></br>In conclusion, a well-designed website and a comprehensive digital marketing strategy are essential for chiropractic software and chiropractic management software providers. These tools help create a strong online presence, showcase the value of your software solutions, and make it easy for potential users to learn more and engage with your offerings.
+        `,
+            benefits: [
+             
+
+            ],
+        },
+
+        Benefitslider: {
+            title: "The DEV.CO Development Process",
+            description: ``,
+            card_datas: [
+                {
+                    title: "Graphic Design",
+                    description: "We make it easy for chiropractors, chiropractic businesses, and providers of other software, such as the atlas chiropractic system and management software, to create an amazing online presence. Whether you need a website design, brand identity, or even brochures printed and shipped from one single location, our flexible Graphic Design Plans offer everything your medical practice, chiropractic business, or software company needs. Our goal is to provide quieter and more effective treatments, improved patient care, and better awareness of your chiropractic practice, atlas chiropractic system, or management software through the latest in digital marketing services. We understand the importance of reaching your target audience and conveying the benefits of your services effectively. For chiropractors using the atlas chiropractic system or offering management software solutions, a strong online presence is essential. Our services not only cater to the chiropractic business but also extend to providers of other software, ensuring that your brand identity, website, and marketing materials align with your unique offerings. Whether you need to create chart notes for patients or promote your services, our comprehensive graphic design and digital marketing solutions can help you achieve your goals. In summary, our Graphic Design Plans are designed to meet the diverse needs of chiropractors, chiropractic businesses, and providers of atlas chiropractic system, management software, or other software. We are committed to enhancing your online presence, raising awareness, and improving patient care through effective digital marketing strategies and tailored design solutions.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Technical Content",
+                    description:
+                        "Welcome to our unique site dedicated to providing specialized technical writing services tailored specifically for chiropractors. At Creative Chiropractic Content, we pride ourselves on our ability to create and promote exceptionally creative and memorable content for websites and general articles in the chiropractic field. We understand that quality is what truly sets us apart, and we are committed to helping you establish a strong online presence for your atlas chiropractic system, chiropractic business, and other software needs. Our range of services encompasses various aspects of content creation and promotion, ensuring that your chiropractic business receives the attention it deserves. We offer comprehensive keyword research services that are instrumental in boosting your web presence, making sure your content is easily discoverable by your target audience. Our marketing tactics are designed to specifically cater to the chiropractic field, allowing you to effectively promote your services and expertise, whether you're a practitioner using management software or an enthusiast looking to dive into chart notes. We take your content to the next level by offering additional features such as interviews and videos that delve into common beliefs and practices within the chiropractic community. These extra elements can provide valuable insights for your audience and set your content apart from the rest. With our user-friendly platform, you can access all these services through a single, easy-to-use account. Our dedicated and friendly support team is always ready to assist you, ensuring your experience with us is smooth and hassle-free. At Creative Chiropractic Content, we are committed to delivering outstanding technical writing services that cater to your unique needs in the chiropractic field. Whether you're looking to enhance your atlas chiropractic system, manage your chiropractic business more effectively, or explore other software solutions, we are here to assist you every step of the way. We understand the importance of chart notes and how they contribute to the success of your practice. By partnering with us, you can be confident that your content will be top-notch and stand out in the competitive world of chiropractic care.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Complete Programming Capabilities",
+                    description: "The software programming range for chiropractors consists of a variety of web-based patient management systems that have been designed to meet the needs and requests from Chiropractors. These include professional programs such as our award-winning Integrated Client Billing System, Patient Receipts Program, and Auto Invoicing Software plus other tailor-made POS systems for Laboratory billing and scheduling, Massage Therapy Management Programs, and more! With your own unique programs created by our team, you will be able to serve your patients better than ever before, all within the context of real people practice management. Our software solutions go beyond the standard management systems, offering specialized tools for chiropractors. In addition to comprehensive patient management, our software includes features specifically designed for the chiropractic practice, such as soap notes. These detailed and customizable notes are essential for documenting patient care, ensuring that every aspect of the patient's treatment is accurately recorded and easily accessible. The incorporation of soap notes into your practice management software streamlines the documentation process, allowing you to focus on providing top-notch care to your patients. Our commitment to providing real people practice management solutions means that our software is not just about automation but also about enhancing the personal touch in your chiropractic practice. We understand that each patient is unique, and our software is designed to support your efforts in delivering personalized care. With our integrated client billing system, patient receipts program, and other tailored tools, you can efficiently manage your practice, ensuring that both administrative and clinical aspects are well taken care of. By utilizing our software programming range, you're equipping your chiropractic practice with the tools it needs to thrive. Our solutions empower you to deliver high-quality care, streamline your administrative tasks, and improve patient communication. With our integrated soap notes and real people practice management features, you can enhance the patient experience, build stronger relationships, and focus on what truly matters in chiropractic care.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Chiropractic Development Experts",
+                    description: "We do web development. We use these latest technologies to help your website and company flourish online: HTML5 - Creating clean code that can be read on any device, regardless of the browser used. Developing without JavaScript? No problem. HTML5 is done by hand without requiring a compiler, so it doesn’t matter if it misses some cross-browser testing in the process. CSS3 – Embracing CSS3 will give you many new benefits like access to custom fonts and border styles as well as media queries for high-resolution displays such as Apple Retina LCD. As a chiropractic business owner, you might be excited to get your website up and running ASAP. You also know that there are many well-established web development companies that can help you create an alluring online presence for your business. However, the expenses of going with one of these more established firms may seem prohibitively expensive now but often pay off later in the form of increased customers over time.",
+                    imgSrc: "",
+                },
+                {
+                    title: "Reasonable Cost and Delivery",
+                    description: "When you are developing a website, it is important to keep in mind the budget. At DEV.co, we understand the significance of budget-conscious decisions, and that's why we offer web design services at an affordable price, with reasonable prices for hosting and maintenance. Web design and development are our specialties, but we also offer other means of code production so that your business will get the best option(s) and pricing available online. In addition to our expertise in web design, we recognize the importance of a well-rounded online presence. Whether you're in the healthcare field, such as chiropractic, and require features like soap notes for patient documentation or need to enhance your real people practice management, we have the technical capabilities to cater to these specific needs. Our team is experienced in tailoring web solutions that align with your industry's requirements, ensuring that your website not only looks fantastic but also functions seamlessly. We understand that businesses in various industries may have unique demands, and that's why we offer a versatile range of web solutions to accommodate different needs. From e-commerce websites to healthcare-specific platforms that incorporate features like soap notes and real people practice management, we provide an array of options and pricing structures designed to meet your business goals. Our goal is to make sure you receive the best value for your investment, providing you with a website that not only fits your budget but also aligns with your business objectives. At DEV.co, we are committed to delivering high-quality web design and development services that are both cost-effective and customized to your specific requirements. Your website should be a reflection of your business, and our team is dedicated to ensuring that it not only looks appealing but also operates smoothly. Whether you're looking to incorporate soap notes for your chiropractic practice or seeking real people practice management features, we have the expertise to make your vision a reality without breaking the bank.",
+                    imgSrc: "",
+                },
+            ],
+        },
+
+
+
+        processes: {
+            title: "Our Development <br> Process",
+            description: "",
+            processes: [
+                {
+                    title: "Understanding",
+                    description: `Background details<br>
+                                    Vision & values<br>
+                                    Target personas<br>
+                                    Stakeholder insights`,
+                    imageSrc: "/images/num-1.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Research",
+                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+                    imageSrc: "/images/num-2.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Strategy",
+                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+                    imageSrc: "/images/num-3.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Creative",
+                    description: `Naming<br>
+                                Logo development<br>
+                                Graphics standards<br>
+                                Verify function<br>
+                                Messaging framework`,
+                    imageSrc: "/images/num-4.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+                {
+                    title: "Deliver",
+                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+                    imageSrc: "/images/num-5.svg",
+                    imageHeight: 100,
+                    imageWidth: 100,
+                },
+            ],
+        },
+
+        CombiningCodedatas: {
+            CombiningCodedata: [
+                {
+                    backgroundImage: "/images/code_crbg.svg",
+                    mainImage: "/images/code_creative.svg",
+                    heading: `Tell us about your chiropractor<br>
+web design project and get a quote`,
+                    description: ``,
+                    buttonText: "Tell Us About Your Next Project",
+                }
+            ],
+        },
+
+    
+    },
 ];

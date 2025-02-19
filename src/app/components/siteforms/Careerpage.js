@@ -37,45 +37,45 @@ const Careerpage = () => {
   };
 
   const onSubmit = async (data) => {
-    if (resume == null) {
+    if (!resume) {
       setFileError("Resume is required");
       return;
     }
+  
+    const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-career?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
+  
+    const formData = new FormData();
+    formData.append("firstName", data.firstName);
+    formData.append("lastName", data.lastName);
+    formData.append("email", data.email);
+    formData.append("phone", data.phone);
+    formData.append("CodingSkills", data.CodingSkills);
+    formData.append("resume", resume);
+    formData.append("additionalInfo", data.additionalInfo);
 
-    const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-mail?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
-    const payload = { ...data, resume };
+  
+  
 
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(payload),
+        body: formData,
       });
-
-      const result = await response.json();
-
+  
       if (response.ok) {
-        setSuccessMessage("Thank you for reaching out! Your request has been received, and our team will get back to you within 24 hours.");
+        setSuccessMessage("Thank you for reaching out! Your request has been received, and our team will get back to you within 24 hours!");
         setErrorMessage('');
-        reset(); // Clear form fields
+        reset();
         setFileName('');
         setResume(null);
-
-        // Hide success message after 5 seconds
-        setTimeout(() => {
-          setSuccessMessage("");
-        }, 5000);
       } else {
-        setErrorMessage('Error submitting form. Please try again.');
-        console.error('Error submitting form:', result);
+        setErrorMessage("Error submitting form.");
       }
-    } catch (error) {
-      setErrorMessage('Unexpected error occurred. Please try again.');
-      console.error('Unexpected error:', error);
+    } catch {
+      setErrorMessage("Unexpected error occurred.");
     }
   };
+  
 
   return (
     <div className="form_page py-20" style={{
@@ -195,6 +195,7 @@ const Careerpage = () => {
                             className="file-input hidden"
                             onChange={handleFileChange}
                           />
+                          
                           <p className="text-red-500">{fileError}</p>
                           <label htmlFor="resume" className="file-upload-label w-full p-2 border border-gray-300 rounded-md flex justify-center items-center cursor-pointer">
                             <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -216,6 +217,7 @@ const Careerpage = () => {
                         <textarea
                           id="additionalInfo"
                           name="additionalInfo"
+                          {...register('additionalInfo')}
                           rows="4"
                           className="w-full p-2 border border-gray-300 rounded-md"
                         ></textarea>

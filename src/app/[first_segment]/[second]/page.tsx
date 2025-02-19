@@ -45,8 +45,10 @@ type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationDa
 
 export default function Page({ params }) {
 
-  // const second = params.first_segment;
-  const first_segment = params.second;
+  const second = params.second;
+  const first_segment = params.first_segment;
+  const url_path=`${first_segment}/${second}`
+
   // let foundData = null;
 
   const [blog, setBlog] = useState(false);
@@ -58,12 +60,18 @@ export default function Page({ params }) {
 
   const fetchBlogDetails = async () => {
     try {
-      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
+      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${url_path}`;
       const response = await fetch(url);
       if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
 
       const response_data = await response.json();
-      console.log(response_data, "This is the response data");
+
+      if (response_data.data.length <= 0) {
+        setComponent(null);
+        setLoading(false)
+        return;
+      }
+      
       const blog_data_res = response_data.data[0];
 
       if (blog_data_res?.Title && blog_data_res?.Created_At) {
@@ -99,15 +107,15 @@ export default function Page({ params }) {
     let foundData: Data | null = null;
     let matchedComponent: React.ComponentType<any> | null = null;
 
-    if ((foundData = industries.find((item) => item.slug === first_segment))) {
+    if ((foundData = industries.find((item) => item.slug === url_path))) {
       matchedComponent = Industry;
-    } else if ((foundData = skills.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = skills.find((item) => item.slug === url_path))) {
       matchedComponent = Skill;
-    } else if ((foundData = services.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = services.find((item) => item.slug === url_path))) {
       matchedComponent = Service;
-    } else if ((foundData = technologies.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = technologies.find((item) => item.slug === url_path))) {
       matchedComponent = Technology;
-    } else if ((foundData = locationsdata.find((item) => item.slug === first_segment))) {
+    } else if ((foundData = locationsdata.find((item) => item.slug === url_path))) {
       matchedComponent = Locations;
     }
 
@@ -123,31 +131,30 @@ export default function Page({ params }) {
 
 
 
+  const updateMetaTags = (title, description, image) => {
+      const setMetaTag = (name, content) => {
+          let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
+          tag.setAttribute("name", name);
+          tag.setAttribute("content", content);
+          document.head.appendChild(tag);
+      };
 
-  // const updateMetaTags = (title, description, image) => {
-  //     const setMetaTag = (name, content) => {
-  //         let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
-  //         tag.setAttribute("name", name);
-  //         tag.setAttribute("content", content);
-  //         document.head.appendChild(tag);
-  //     };
-
-  //     setMetaTag("description", description || "Default meta description");
-  //     setMetaTag("og:title", title || "Default Title");
-  //     setMetaTag("og:description", description || "Default meta description");
-  //     setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
-  // };
+      setMetaTag("description", description || "Default meta description");
+      setMetaTag("og:title", title || "Default Title");
+      setMetaTag("og:description", description || "Default meta description");
+      setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
+  };
 
 
-  // useEffect(() => {
-  //     if (blog && blogData) {
-  //         document.title = blogData.title;
-  //         updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
-  //     } else if (data) {
-  //         document.title = data.meta_title || "Default Title";
-  //         updateMetaTags(data.meta_title, data.meta_description, data.og_image);
-  //     }
-  // }, [ blogData, blog]);
+  useEffect(() => {
+      if (blog && blogData) {
+          document.title = blogData.title;
+          updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
+      } else if (data) {
+          document.title = data.meta_title || "Default Title";
+          updateMetaTags(data.meta_title, data.meta_description, data.og_image);
+      }
+  }, [ blogData, blog]);
 
 
 

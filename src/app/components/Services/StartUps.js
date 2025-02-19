@@ -8,6 +8,7 @@ export default function StartUps({ title = "", description = "", images = [], im
 
   const settings = {
     infinite: true,
+    arrows:false,
     speed: 3000, // Smooth speed
     slidesToShow: Math.min(images.length, 5),
     // slidesToShow:5,

@@ -22,6 +22,6 @@
     }
   },
   
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/blog/page.js", "src/app/blog_page/BlogPage.js", "src/app/blog_test/blog_page_test/[[...slug]]/page.js", "src/app/map/layout.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/blog/page.js", "src/app/blog_page/BlogPage.js", "src/app/blog_test/blog_page_test/[[...slug]]/page.js", "src/app/map/layout.tsx"],
   "exclude": ["node_modules"]
 }
