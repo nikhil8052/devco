@@ -66,9 +66,9 @@ const HeroBanner = () => {
       {/* Banner Image Animation - coming from top-right */}
       <motion.div
         className="banner_image mt-[-10rem] xl:mt-[-20rem] lg:mt-[-10rem] relative z-1"
-        initial={{ opacity: 0, x: 200, y: -300 }} 
-        animate={{ opacity: 1, x: 0, y: 0 }}    
-        transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}   
+        // initial={{ opacity: 0, x: 200, y: -300 }} 
+        // animate={{ opacity: 1, x: 0, y: 0 }}    
+        // transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}   
       >
         <Image
           src="/images/banner_incl_screen.svg"
