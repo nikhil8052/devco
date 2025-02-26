@@ -10,7 +10,7 @@ const TextAnimated = () => {
 
   useEffect(() => {
     const lines = gsap.utils.toArray(".text-line");
-    lines.forEach((line, index) => {
+    lines.forEach((line) => {
       const overlay = line.querySelector(".overlay");
 
       gsap.fromTo(

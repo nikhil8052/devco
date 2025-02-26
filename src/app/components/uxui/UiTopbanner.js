@@ -66,9 +66,19 @@ const UiTopbanner = () => {
           </div>
         </div>
         <div className="full_video py-[50px]">
-          <div className="media_wrap w-full leading-none">
-            <img src="/images/as.png" width="100" height="50" alt="Download Case Study" className="rounded-2xl w-full banner_vid_image" />
+        <div className="media_wrap w-full leading-none relative">
+            <video
+              className="w-full rounded-2xl"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src="/images/banner_video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
+
         </div>
       </div>
     </div>
