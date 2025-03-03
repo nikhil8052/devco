@@ -54,10 +54,6 @@ const Careerpage = () => {
     formData.append("resume", resume);
     formData.append("additionalInfo", data.additionalInfo);
 
-    for (const [key, value] of formData.entries()) {
-      console.log(key, value);
-    }
-  
 
     try {
       const response = await fetch(apiUrl, {

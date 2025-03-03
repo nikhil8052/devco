@@ -36,9 +36,10 @@ export default function Blog({ params }) {
           title: post.Title,
           description: post.Description || "No description available",
           category: post.Category || "Uncategorized",
-          authorDescription: post.Author_Description || "No description available", // Fix here
+          authorDescription: post.Author_ID?.Description, // ✅ Fixed
           authorDesignation: post.Author_ID?.Job_title,
         }));
+        
         
 
         setBlogs(formattedBlogs);
@@ -134,7 +135,6 @@ export default function Blog({ params }) {
                 >
                   1
                 </button>
-                {currentPage > 3 && <span className="text-gray-300 px-2">...</span>}
               </>
             )}
 
@@ -152,7 +152,6 @@ export default function Blog({ params }) {
 
             {currentPage < totalPages - 1 && (
               <>
-                {currentPage < totalPages - 2 && <span className="text-gray-300 px-2">...</span>}
                 <button
                   onClick={() => handlePageChange(totalPages)}
                   className="w-10 h-10 rounded-full flex justify-center items-center border hover:bg-gray-700 text-gray-300"
