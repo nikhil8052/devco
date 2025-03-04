@@ -1829,7 +1829,13 @@ a.post_title_link:hover {
   .reset-position {
     animation: resetPosition 0.6s ease-in-out forwards;
   }
-  
+  .logo_box_col:not(:last-child) {
+    border-right: 1px solid #ffffff21;
+}
+.logo_box img {
+    max-height: 130px;
+    object-fit: contain;
+}  
 
 
 

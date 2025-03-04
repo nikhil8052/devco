@@ -43,7 +43,7 @@ export const portfolioCol1 = {
             title: 'Law.co Case Study',
             pdfLink: "",
             buttnimage:"/images/downloadcaseimage.svg",
-            pdfLink: "/images/pdf/Law.co-Case-Study.pdf",
+            pdfLink: "",
         },
         {
             logo: '/images/logo_stapple.svg',
@@ -102,6 +102,7 @@ export const portfolioItems = {
             category: 'Development',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV prepared Ornament Anchor for their debut on ABC's Shark Tank",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -110,6 +111,7 @@ export const portfolioItems = {
             category: 'Development',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV designed a Shopify site for NightCap in preparation for massive scale and influx of traffic for their debut on ABC's Shark Tan where they were able to garner an investment from Lori Greiner. ",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -118,6 +120,7 @@ export const portfolioItems = {
             category: 'Development',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -126,6 +129,7 @@ export const portfolioItems = {
             category: 'Development',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV was engaged by Premier Exterior Lighting to create a custom website for their Florida-based lighting installation company.",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -134,6 +138,7 @@ export const portfolioItems = {
             category: 'Development',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"",
+            pdfLink: "",
             
         },
         {
@@ -143,6 +148,7 @@ export const portfolioItems = {
             category: 'Design',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV performed custom Shopify development, including deep site alterations for improved performance and SEO tuning. ",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -151,6 +157,7 @@ export const portfolioItems = {
             category: 'Design',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV created a custom real estate showing and scheduling application for Houston-based property management group, GreenResidential ",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -159,6 +166,7 @@ export const portfolioItems = {
             category: 'Design',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV created custom landing page designs for the company's new website. ",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -167,6 +175,7 @@ export const portfolioItems = {
             category: 'Design',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV performed a complete website redesign and MLS integration for Phoenix based real estate agency RealPatriotic ",
+            pdfLink: "",
         },
         {
             href: '#',
@@ -175,6 +184,7 @@ export const portfolioItems = {
             category: 'Design',
             buttnimage:"/images/learnmore.svg",
             case_discreption:"DEV performed custom site optimizations for ABC Shark Tank contestant BuyQBall. ",
+            pdfLink: "",
         },
     ],
 };
