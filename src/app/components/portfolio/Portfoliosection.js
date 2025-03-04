@@ -91,7 +91,7 @@ const Portfoliosection = ({ portfolioItems, portfoliotabs }) => {
             setShowModal(false);
             setSelectedItem(null);
           }}
-          onSubmit={(e) => {
+          onSubmit={() => {
             // Handle form submission if needed
           }}
         />

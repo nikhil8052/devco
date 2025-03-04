@@ -56,7 +56,7 @@ const Portfoliomain = ({ portfolioCol1, portfolioCol2 }) => {
             setShowModal(false);
             setSelectedItem(null);
           }}
-          onSubmit={(e) => {
+          onSubmit={() => {
             // Handle form submission if needed
           }}
         />

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const Protfolioform = ({ selectedItem, onClose, onSubmit }) => {
+const Protfolioform = ({ selectedItem, onClose }) => {
   const [formData, setFormData] = useState({});
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
