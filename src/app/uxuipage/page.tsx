@@ -5,7 +5,7 @@ import TextAnimated from '@/app/components/uxui/TextAnimated';
 import Swappinglogos from '@/app/components/uxui/Swappinglogos';
 import Textanimatedleft from '@/app/components/uxui/Textanimatedleft';
 import CenterAnimatedtext from '@/app/components/uxui/CenterAnimatedtext';
-
+import NewSlider from '@/app/components/uxui/NewSlider';
 
 export default function Home() {   
   return (
@@ -22,6 +22,7 @@ export default function Home() {
           <Swappinglogos />
           <TextAnimated />
         </div>
+        <NewSlider />
         <CenterAnimatedtext />
         <Textanimatedleft />
       </div>

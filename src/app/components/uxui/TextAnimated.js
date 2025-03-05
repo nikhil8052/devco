@@ -22,7 +22,7 @@ const TextAnimated = () => {
           duration: 2.5, // Slower effect
           scrollTrigger: {
             trigger: line,
-            start: "top 30%", // Effect starts when the element reaches the middle of the screen
+            start: "top 50%", // Effect starts when the element reaches the middle of the screen
             end: "top 20%", // Ends slightly lower for longer visibility
             scrub: 2, // Makes the effect smoother and slower
           },
