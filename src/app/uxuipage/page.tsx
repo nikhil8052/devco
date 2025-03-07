@@ -6,6 +6,10 @@ import Swappinglogos from '@/app/components/uxui/Swappinglogos';
 import Textanimatedleft from '@/app/components/uxui/Textanimatedleft';
 import CenterAnimatedtext from '@/app/components/uxui/CenterAnimatedtext';
 import NewSlider from '@/app/components/uxui/NewSlider';
+import Centeranimtetextbottom from '@/app/components/uxui/Centeranimtetextbottom';
+import ParrlexScrolltemp from '@/app/components/uxui/ParrlexScrolltemp';
+
+
 
 export default function Home() {   
   return (
@@ -17,14 +21,31 @@ export default function Home() {
       >
 
       <UiTopbanner />
-      <div className="section_wrap relative">
-        <div className="sectyion_inner relative z-10">
-          <Swappinglogos />
-          <TextAnimated />
+      <div className="section_wrap ">
+        <div className="sectyion_inner relative ">
+          <img src="/images/left_eclip_ux_video.svg" className="absolute left-[0] bottom-[0] z-2 w-[50%]"></img>
+          <div className="div_wrap relative z-10">
+            <Swappinglogos />
+            <TextAnimated />
+          </div>
         </div>
-        <NewSlider />
+        <div className="slider_sectux relative">
+        <img src="/images/slider_right_exux.png" className="absolute right-[0] bottom-[-20%] z-2 w-[50%]"></img>
+          <div className="sect_slider_wrap relative z-10">
+            <NewSlider />
+          </div>
+        </div>
         <CenterAnimatedtext />
         <Textanimatedleft />
+      </div>
+      <div className="parel_sectionb relative z-10">
+      <ParrlexScrolltemp />
+      </div>
+      <div className="bottom_section relative">
+        <img src="/images/faz_bg.png" className="absolute bottom-[0] w-full"></img>
+        <div className="div_z relative z-10">
+        <Centeranimtetextbottom />
+        </div>
       </div>
 
       </div>
