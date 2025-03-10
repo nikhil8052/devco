@@ -1984,9 +1984,12 @@ a.post_title_link:hover {
 
 .parelex_grid_text {
     width: 100%;
-    max-width: 414px;
 }
-
+.parelec_image_col img {
+    height: 250px;
+    object-fit: contain;
+    object-position: top right;
+}
 .parelex_slide_card {
     background-color: #4253ff;
     padding: 40px;
@@ -1999,6 +2002,12 @@ a.post_title_link:hover {
  .parelex_slide_card {
     background-image: none !important;
     background-color: #23184f;
+}
+
+
+/* parelex style 8*/
+.parelex_slide {
+    margin-bottom: 50px;
 }
 
 
