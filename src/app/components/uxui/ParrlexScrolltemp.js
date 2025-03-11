@@ -4,7 +4,15 @@ import { slidesData } from "@/app/data/uxui";
 const ParrlexScrolltemp = () => {
   return (
     <div className="parelex_section py-20">
-            {slidesData.map((slide) => (
+      <div className="section_head mb-5">
+        <div className="container mx-auto">
+        `<div class="head_border" bis_skin_checked="1">
+              <h3 class="text-[22px] uppercase">Why Dev.co</h3>
+            </div>
+        </div>
+      </div>
+          <div className="parelex_slider_wrapper">
+          {slidesData.map((slide) => (
               <div className="parelex_slide" key={slide.id}>
                <div className="container mx-auto">
                <div
@@ -46,6 +54,7 @@ const ParrlexScrolltemp = () => {
                </div>
               </div>
             ))}
+          </div>
 
     </div>
   );

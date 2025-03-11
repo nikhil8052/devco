@@ -8,6 +8,8 @@ import CenterAnimatedtext from '@/app/components/uxui/CenterAnimatedtext';
 import NewSlider from '@/app/components/uxui/NewSlider';
 import Centeranimtetextbottom from '@/app/components/uxui/Centeranimtetextbottom';
 import ParrlexScrolltemp from '@/app/components/uxui/ParrlexScrolltemp';
+import Testimonials from '@/app/components/uxui/Testimonials';
+
 
 
 
@@ -39,6 +41,7 @@ export default function Home() {
         <Textanimatedleft />
       </div>
       <ParrlexScrolltemp />
+      <Testimonials />
 
       <div className="bottom_section relative">
         <img src="/images/faz_bg.png" className="absolute bottom-[0] h-full w-full"></img>

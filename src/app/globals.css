@@ -1919,6 +1919,8 @@ a.post_title_link:hover {
     background-color: transparent !important;
     border-radius: 50% !important;
 }
+
+
 .project_slider .slick-arrow.slick-prev {
     right: 60px !important;
     left: auto !important;
@@ -1927,6 +1929,7 @@ a.post_title_link:hover {
 .project_slider .slick-arrow::before {
     color: #4353FF !important;
 }
+
 .project_slider .slick-arrow:hover::before{
     color:#ffffff !important;
 }
@@ -1992,7 +1995,7 @@ a.post_title_link:hover {
 }
 .parelex_slide_card {
     background-color: #4253ff;
-    padding: 40px;
+    padding: 80px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position: left top;
@@ -2004,11 +2007,80 @@ a.post_title_link:hover {
     background-color: #23184f;
 }
 
+.test_slider_row {
+    display: flex;
+    align-items: center;
+}
+
+.test_slider_row .client_img {
+    width: 343px;
+    min-width: 343px;
+}
+
+.test_slider_row .client_content {
+    width: calc(100% - 343px);
+    padding-left: 90px;
+}
+
+.testimonial .testimonial_inner {
+    width: 100%;
+    max-width: 1026px;
+    margin: auto;
+}
+
+.client_quote {
+    margin: 0px 0px 50px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.client_quote img {
+    margin-bottom: -41px;
+}
+.client_footer h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px 0px 5px;
+}
+
+.client_footer p {
+    color: #444444;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.client_img  img {
+    width: 100%;
+}
+.testimonial_slider_wrap .slick-arrow {
+    border: 1px solid #4353FF;
+    background-color: transparent !important;
+    border-radius: 50% !important;   
+    top: auto;
+    transform: translateY(0px);
+    bottom: 40px;
+}
+.testimonial_slider_wrap .slick-arrow.slick-prev::before {
+    content: "\f053";
+}
+.testimonial_slider_wrap .slick-arrow.slick-next::before {
+    content: "\f054";
+}
+.testimonial_slider_wrap .slick-arrow::before{
+    color: #4353FF !important;
+}
+.testimonial_slider_wrap .slick-arrow:hover::before{
+    color:#ffffff !important;
+}
+.testimonial_slider_wrap .slick-arrow.slick-prev {
+    left: auto;
+    right: 50px;
+}
+
 
 /* parelex style 8*/
-.parelex_slide {
-    margin-bottom: 50px;
-}
+
 
 
 
