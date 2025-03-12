@@ -3,7 +3,7 @@ import { slidesData } from "@/app/data/uxui";
 
 const ParrlexScrolltemp = () => {
   return (
-    <div className="parelex_section py-20">
+    <div className="parelex_section lg:py-20 py-10">
       <div className="section_head mb-5">
         <div className="container mx-auto">
         `<div class="head_border" bis_skin_checked="1">

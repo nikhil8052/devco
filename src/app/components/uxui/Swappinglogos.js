@@ -63,13 +63,13 @@ export default function SwappingLogos() {
   }, [currentCol]); // Depend on currentCol to change only one at a time
 
   return (
-    <div className="swap_logo_section relative z-10 py-20">
+    <div className="swap_logo_section relative z-10 lg:py-20 py-10">
       <div className="container mx-auto">
-        <div className="logo_grid grid grid-cols-4 w-full max-w-[1108px] mx-auto">
+        <div className="logo_grid grid md:grid-cols-4 grid-cols-2 w-full max-w-[1108px] mx-auto">
           {columns.map((image, colIndex) => (
             <div
               key={colIndex}
-              className="logo_box_col flex justify-center items-center h-[100px]"
+              className="logo_box_col flex justify-center items-center lg:h-[100px] h-[80px]"
             >
               <div className="logo_box overflow-hidden">
                 <Image src={image} width={100} height={100} alt={`Logo ${colIndex}`} />

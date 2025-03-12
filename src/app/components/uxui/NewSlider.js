@@ -13,7 +13,7 @@ const sliderSettings = {
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1441,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -31,9 +31,9 @@ const sliderSettings = {
 
 const NewSlider = () => {
   return (
-    <div className="new_slider p-20 relative z-10">
+    <div className="new_slider lg:py-20 py-10 relative z-10">
       <div className="section_inner relative z-10">
-        <div className="section_head_block mb-20">
+        <div className="section_head_block lg:mb-20 mb-10">
           <div className="container mx-auto">
             <div className="section_head_row">
               <div className="section_head_col">

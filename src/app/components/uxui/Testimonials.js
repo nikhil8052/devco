@@ -12,13 +12,13 @@ const Testimonials = () => {
     speed: 500, // Slide transition speed
     slidesToShow: 1, // Show only one slide at a time
     slidesToScroll: 1, // Scroll one slide at a time
-    autoplay: true, // Auto slide
+    autoplay: false, // Auto slide
     autoplaySpeed: 3000, // Slide every 3 seconds
     arrows: true, // Hide prev/next arrows
   };
 
   return (
-    <div className="testimonial py-20">
+    <div className="testimonial lg:py-20 py-10">
       <div className="container mx-auto">
         <div className="testimonial_inner">
           <div className="section_head mb-5">
