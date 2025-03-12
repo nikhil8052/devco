@@ -826,173 +826,173 @@ which typically includes these phases:`,
             ],
         },
     },
-    {
-        id: 4,
-        meta_title:"UX/UI Design Consulting | UX/UI Designers | DEV.co",
-        meta_description: "Work with an experienced UX/UI Design Consulting team to deliver clients a premier digital experience. Strong user experience (UX/UI) design",
-        og_image:"/images/Allbuquerque-Custom-Software-Development-Company-Dev.co_.jpg",
-        slug: "ux-ui",
-        sub_title: "services",
-        bannericon: "/images/Ui & Ux Design.svg",
-        bannerImage:"/images/webdevelopmenservicesnewimage.png",
-        top_title: "UX/UI Design Consulting",
-        top_description: "User experience (UX) plays a direct role in retaining and converting website visitors. Users respond best to an effortless, intuitive experience. However, creating a seamless user experience requires more than having a beautifully designed website. An attractive design is only part of the equation. If you want your visitors to convert, you have to take them on a journey. That journey is guided by a strong user interface (UI).",
-        startups: {
-            title: "User-Centered Design",
-            description: "Our designs prioritize usability and aesthetics to deliver seamless user experiences.",
-            imageHeight: 100,
-            imageWidth: 100,
-            images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
-        },
-        BorderTextbox:{
-            BorderTextdata:[
-                {
-                title: "UX/UI design nurtures the customer journey",
-                description: ``,
+    // {
+    //     id: 4,
+    //     meta_title:"UX/UI Design Consulting | UX/UI Designers | DEV.co",
+    //     meta_description: "Work with an experienced UX/UI Design Consulting team to deliver clients a premier digital experience. Strong user experience (UX/UI) design",
+    //     og_image:"/images/Allbuquerque-Custom-Software-Development-Company-Dev.co_.jpg",
+    //     slug: "ux-ui",
+    //     sub_title: "services",
+    //     bannericon: "/images/Ui & Ux Design.svg",
+    //     bannerImage:"/images/webdevelopmenservicesnewimage.png",
+    //     top_title: "UX/UI Design Consulting",
+    //     top_description: "User experience (UX) plays a direct role in retaining and converting website visitors. Users respond best to an effortless, intuitive experience. However, creating a seamless user experience requires more than having a beautifully designed website. An attractive design is only part of the equation. If you want your visitors to convert, you have to take them on a journey. That journey is guided by a strong user interface (UI).",
+    //     startups: {
+    //         title: "User-Centered Design",
+    //         description: "Our designs prioritize usability and aesthetics to deliver seamless user experiences.",
+    //         imageHeight: 100,
+    //         imageWidth: 100,
+    //         images: ["/images/php.svg", "/images/unity.svg", "/images/python.svg", "/images/reactjs1.svg", "/images/java1.svg", "/images/nodejs1.svg"],
+    //     },
+    //     BorderTextbox:{
+    //         BorderTextdata:[
+    //             {
+    //             title: "UX/UI design nurtures the customer journey",
+    //             description: ``,
                 
-            },
-            {
-                title: "",
-            description: `Website visitors who land on your site will be at varying points in the customer journey. Some visitors will be first-timers, while others will be familiar with your brand.
-            <br></br>
-            A strong user interface makes it easy for any visitor at any point in the journey to find what they came for. When users can find what they came for, they’ll develop a positive impression of your brand.`,
-            }
-            ]
-          },
-        benefits: {
-            title: "Why invest in UX/UI design?",
-            description: "",
-            benefits: [
-                {
-                    title: "Influence visitor behavior",
-                    description: "Every aspect of UX/UI design – from colors to typography – can be used to influence visitor behavior. Do you want visitors to click on a link? Download a report? Watch a video? Sign up for a newsletter? Anything you want visitors to do can be guided by good UX/UI design.",
-                    imageSrc: "",
-                    imageHeight: 27,
-                    imageWidth: 30,
-                },
-                {
-                    title: "Eliminate barriers to conversion",
-                    description: "Strong UX/UI design eliminates unnecessary barriers that stifle and divert otherwise easy conversions. Barriers can include poor navigation, cluttered design elements, intrusive popups that bombard return visitors, and elements that make a site hard to use.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 28,
-                },
-                {
-                    title: "Deliver a branded experience online",
-                    description: "Website visitors experience your brand through your user interface. If your website was built with a template, the user experience might not represent your brand. A custom UX/UI design will align the user experience with your brand.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 40,
-                },
-                {
-                    title: "Clear calls to action",
-                    description: "A strong UI/UX includes CTAs that align with your business goals. There are a variety of actions you can instruct visitors to take, but you need to focus on the actions that support your goals.",
-                    imageSrc: "",
-                    imageHeight: 30,
-                    imageWidth: 35,
-                },
-            ],
-        },
-        Benefitslider: {
-            title: "The DEV.co UX/UI design process",
-            description: ``,
-            card_datas: [
-                {
-                    title: "Goal Identification",
-                    description: "The Dev.co UX/UI design process begins by understanding the goals, objectives, and constraints of your business.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Research & Discovery",
-                    description:
-                        "We’ll perform extensive research to find out what your visitors want and expect. We’ll also analyze your competitors and create an overall strategy to achieve your goals.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Prototyping",
-                    description: "Next, our innovative design team will craft a user interface prototype that represents your brand, aligns with your business goals, and delivers a satisfying, intuitive user experience.",
-                    imgSrc: "",
-                },
-                {
-                    title: "Testing & Review",
-                    description: "You’ll review all concepts and strategies and test prototypes before anything is finalized.",
-                    imgSrc: "",
-                },
-            ],
-        },
-        Textblockfull:{
-            sectionData:[
-                {
-                  title: "Strong UX/UI design by Dev.co delivers ROI",
-                  description: `A great product with poor UX/UI won’t reach its full potential. Companies that haven’t invested in UX optimization are being eclipsed by competitors with UX/UI-optimized websites.
-                  <br></br>
-                  In other words, you need intentional UX/UI design to generate ROI at your highest potential.
-                  <br>
-                 Dev.co understands what it takes to create an exceptional user experience through a powerful user interface. Our team is committed to creating an exceptional, intuitive user experience for our clients.`,
-                },
-              ],
-            },
-        processes: {
-            title: "Our Development <br> Process",
-            description: "",
-            processes: [
-                {
-                    title: "Understanding",
-                    description: `Background details<br>
-                                    Vision & values<br>
-                                    Target personas<br>
-                                    Stakeholder insights`,
-                    imageSrc: "/images/num-1.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Research",
-                    description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
-                    imageSrc: "/images/num-2.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Strategy",
-                    description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
-                    imageSrc: "/images/num-3.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Creative",
-                    description: `Naming<br>
-                                Logo development<br>
-                                Graphics standards<br>
-                                Verify function<br>
-                                Messaging framework`,
-                    imageSrc: "/images/num-4.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-                {
-                    title: "Deliver",
-                    description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
-                    imageSrc: "/images/num-5.svg",
-                    imageHeight: 100,
-                    imageWidth: 100,
-                },
-            ],
-        },
-        CombiningCodedatas: {
-            CombiningCodedata: [
-                {
-                    backgroundImage: "/images/code_crbg.svg",
-                    mainImage: "/images/code_creative.svg",
-                    heading: "Ready to launch a stellar user experience?",
-                    description: `We want to partner with you to create a user experience your visitors will love.<br>
-                    Contact us to discuss your project with a Dev.co UX/UI expert and let us help make your digital project a success.`,
-                    buttonText: "Tell Us About Your Next Project",
-                }
-            ],
-        },
-    },
+    //         },
+    //         {
+    //             title: "",
+    //         description: `Website visitors who land on your site will be at varying points in the customer journey. Some visitors will be first-timers, while others will be familiar with your brand.
+    //         <br></br>
+    //         A strong user interface makes it easy for any visitor at any point in the journey to find what they came for. When users can find what they came for, they’ll develop a positive impression of your brand.`,
+    //         }
+    //         ]
+    //       },
+    //     benefits: {
+    //         title: "Why invest in UX/UI design?",
+    //         description: "",
+    //         benefits: [
+    //             {
+    //                 title: "Influence visitor behavior",
+    //                 description: "Every aspect of UX/UI design – from colors to typography – can be used to influence visitor behavior. Do you want visitors to click on a link? Download a report? Watch a video? Sign up for a newsletter? Anything you want visitors to do can be guided by good UX/UI design.",
+    //                 imageSrc: "",
+    //                 imageHeight: 27,
+    //                 imageWidth: 30,
+    //             },
+    //             {
+    //                 title: "Eliminate barriers to conversion",
+    //                 description: "Strong UX/UI design eliminates unnecessary barriers that stifle and divert otherwise easy conversions. Barriers can include poor navigation, cluttered design elements, intrusive popups that bombard return visitors, and elements that make a site hard to use.",
+    //                 imageSrc: "",
+    //                 imageHeight: 30,
+    //                 imageWidth: 28,
+    //             },
+    //             {
+    //                 title: "Deliver a branded experience online",
+    //                 description: "Website visitors experience your brand through your user interface. If your website was built with a template, the user experience might not represent your brand. A custom UX/UI design will align the user experience with your brand.",
+    //                 imageSrc: "",
+    //                 imageHeight: 30,
+    //                 imageWidth: 40,
+    //             },
+    //             {
+    //                 title: "Clear calls to action",
+    //                 description: "A strong UI/UX includes CTAs that align with your business goals. There are a variety of actions you can instruct visitors to take, but you need to focus on the actions that support your goals.",
+    //                 imageSrc: "",
+    //                 imageHeight: 30,
+    //                 imageWidth: 35,
+    //             },
+    //         ],
+    //     },
+    //     Benefitslider: {
+    //         title: "The DEV.co UX/UI design process",
+    //         description: ``,
+    //         card_datas: [
+    //             {
+    //                 title: "Goal Identification",
+    //                 description: "The Dev.co UX/UI design process begins by understanding the goals, objectives, and constraints of your business.",
+    //                 imgSrc: "",
+    //             },
+    //             {
+    //                 title: "Research & Discovery",
+    //                 description:
+    //                     "We’ll perform extensive research to find out what your visitors want and expect. We’ll also analyze your competitors and create an overall strategy to achieve your goals.",
+    //                 imgSrc: "",
+    //             },
+    //             {
+    //                 title: "Prototyping",
+    //                 description: "Next, our innovative design team will craft a user interface prototype that represents your brand, aligns with your business goals, and delivers a satisfying, intuitive user experience.",
+    //                 imgSrc: "",
+    //             },
+    //             {
+    //                 title: "Testing & Review",
+    //                 description: "You’ll review all concepts and strategies and test prototypes before anything is finalized.",
+    //                 imgSrc: "",
+    //             },
+    //         ],
+    //     },
+    //     Textblockfull:{
+    //         sectionData:[
+    //             {
+    //               title: "Strong UX/UI design by Dev.co delivers ROI",
+    //               description: `A great product with poor UX/UI won’t reach its full potential. Companies that haven’t invested in UX optimization are being eclipsed by competitors with UX/UI-optimized websites.
+    //               <br></br>
+    //               In other words, you need intentional UX/UI design to generate ROI at your highest potential.
+    //               <br>
+    //              Dev.co understands what it takes to create an exceptional user experience through a powerful user interface. Our team is committed to creating an exceptional, intuitive user experience for our clients.`,
+    //             },
+    //           ],
+    //         },
+    //     processes: {
+    //         title: "Our Development <br> Process",
+    //         description: "",
+    //         processes: [
+    //             {
+    //                 title: "Understanding",
+    //                 description: `Background details<br>
+    //                                 Vision & values<br>
+    //                                 Target personas<br>
+    //                                 Stakeholder insights`,
+    //                 imageSrc: "/images/num-1.svg",
+    //                 imageHeight: 100,
+    //                 imageWidth: 100,
+    //             },
+    //             {
+    //                 title: "Research",
+    //                 description:`Customer research<br>Competitive analysis<br>Expert audits & insights<br>Current market positioning`,
+    //                 imageSrc: "/images/num-2.svg",
+    //                 imageHeight: 100,
+    //                 imageWidth: 100,
+    //             },
+    //             {
+    //                 title: "Strategy",
+    //                 description: `Story & personality<br>Market opportunities<br>Positioning & messaging<br>Creative brief development`,
+    //                 imageSrc: "/images/num-3.svg",
+    //                 imageHeight: 100,
+    //                 imageWidth: 100,
+    //             },
+    //             {
+    //                 title: "Creative",
+    //                 description: `Naming<br>
+    //                             Logo development<br>
+    //                             Graphics standards<br>
+    //                             Verify function<br>
+    //                             Messaging framework`,
+    //                 imageSrc: "/images/num-4.svg",
+    //                 imageHeight: 100,
+    //                 imageWidth: 100,
+    //             },
+    //             {
+    //                 title: "Deliver",
+    //                 description: `Brand book & styleguide<br>Print integration<br>Online & mobile<br>Further brand extension`,
+    //                 imageSrc: "/images/num-5.svg",
+    //                 imageHeight: 100,
+    //                 imageWidth: 100,
+    //             },
+    //         ],
+    //     },
+    //     CombiningCodedatas: {
+    //         CombiningCodedata: [
+    //             {
+    //                 backgroundImage: "/images/code_crbg.svg",
+    //                 mainImage: "/images/code_creative.svg",
+    //                 heading: "Ready to launch a stellar user experience?",
+    //                 description: `We want to partner with you to create a user experience your visitors will love.<br>
+    //                 Contact us to discuss your project with a Dev.co UX/UI expert and let us help make your digital project a success.`,
+    //                 buttonText: "Tell Us About Your Next Project",
+    //             }
+    //         ],
+    //     },
+    // },
     {
         id: 5,
         meta_title:"Technology Architecture Consulting for Custom Software Development",

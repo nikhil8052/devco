@@ -2081,7 +2081,27 @@ a.post_title_link:hover {
 
 /* parelex style 8*/
 
+.paradiv ul {
+    margin: 20px 0px;
+}
 
+.paradiv ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 23px;
+    color: #797a7a;
+}
+
+.paradiv ul li:before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #4252ff;
+    position: absolute;
+    left: 0px;
+    top: 11px;
+    border-radius: 50%;
+}
 
 
 
