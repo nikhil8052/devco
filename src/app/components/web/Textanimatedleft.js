@@ -52,7 +52,7 @@ const Textanimatedleft = () => {
               "needs to be as good as your design. In short, you need ",
               "software programmers with the ability to create dynamic",
               "websites. Without these elements your users, and especially ",
-              `your new visitors, won’t likely return. As one of the top web `,
+              "your new visitors, won’t likely return. As one of the top web",
               "development companies, other digital agencies look to our",
               "technical expertise in building their own custom web",
               "applications."        
