@@ -68,7 +68,7 @@ const Textanimatedleft = () => {
              <ul>
               <li>It takes website visitors 50 milliseconds to form an opinion about your company based on your website design.</li>
               <li>38% of visitors will bounce if your site design is unattractive. </li>
-              <li>44% of visitors will bounce if they can't find your contact information.</li>
+              <li>{`44% of visitors will bounce if they can't find your contact information.`}</li>
               </ul>
             </div>
           </div>
