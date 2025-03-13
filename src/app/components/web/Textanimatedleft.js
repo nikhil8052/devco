@@ -46,7 +46,7 @@ const Textanimatedleft = () => {
             </h2>
             <div className="mt-5 paradiv text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite text-opacity-70">
 
-              {[`A successful web developer is very different and more than `, 
+              {[`AA successful web developer is very different and more than `, 
               `just a web designer. Your custom web application will also`,
               `needs user-friendly navigation and well-organized content `,
               `and an unmatched user flow. Your back end development `,
