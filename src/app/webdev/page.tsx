@@ -2,12 +2,13 @@
 import UserLayout from "../user_layout/UserLayout";
 import UiTopbanner from '@/app/components/web/UiTopbanner';
 import TextAnimated from '@/app/components/web/TextAnimated';
+import TextAnimated2 from '@/app/components/web/TextAnimated2';
 import Swappinglogos from '@/app/components/uxui/Swappinglogos';
 import Textanimatedleft from '@/app/components/web/Textanimatedleft';
 import CenterAnimatedtext from '@/app/components/uxui/CenterAnimatedtext';
 import NewSlider from '@/app/components/uxui/NewSlider';
-import Centeranimtetextbottom from '@/app/components/uxui/Centeranimtetextbottom';
-// import ParrlexScrolltemp from '@/app/components/uxui/ParrlexScrolltemp';
+import Centeranimtetextbottom from '@/app/components/web/Centeranimtetextbottom';
+import ParrlexScrolltemp from '@/app/components/web/ParrlexScrolltemp';
 import Testimonials from '@/app/components/uxui/Testimonials';
 import Logofloat from "@/app/components/Logofloat";
 import { mainservicedata } from "@/app/data/mainservice";
@@ -42,14 +43,16 @@ export default function Home() {
         <CenterAnimatedtext />
         <Textanimatedleft />
       </div>
-      {/* <ParrlexScrolltemp /> */}
-              {/* Logo Float Component */}
+      <ParrlexScrolltemp />
+      <TextAnimated2 />
+
         <Logofloat
           firstrowimages={logofloatData.firstrowimages.imagesdata}
           secondrowimages={logofloatData.secondrowimages.imagesdata}
           thirdrowimages={logofloatData.thirdrowimages.imagesdata}
           fourthrowimages={logofloatData.fourthrowimages.imagesdata}
         />
+
       <Testimonials />
 
       <div className="bottom_section relative">

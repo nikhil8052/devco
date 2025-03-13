@@ -2102,6 +2102,9 @@ a.post_title_link:hover {
     top: 11px;
     border-radius: 50%;
 }
+.header.paradiv {
+    padding-left: 24px;
+}
 
 
 

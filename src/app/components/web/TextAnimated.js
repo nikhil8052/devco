@@ -44,7 +44,9 @@ const TextAnimated = () => {
             ))}
           </h2>
           <div className="mt-5 paradiv text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite text-opacity-70">
-            {["From next-gen startups to established enterprises", "From next-gen startups to established enterprises. Mobile and web development company, DEV.co, offers web development services that include website development, web design, digital marketing, and SEO. Our team of experienced web developers can help you create a website that meets your needs and exceeds your highest expectations."].map((text, index) => (
+            {[
+              "From next-gen startups to established enterprises", 
+            "From next-gen startups to established enterprises. Mobile and web development company, DEV.co, offers web development services that include website development, web design, digital marketing, and SEO. Our team of experienced web developers can help you create a website that meets your needs and exceeds your highest expectations."].map((text, index) => (
               <p key={index} className="relative overflow-hidden text-line mb-5">
                 <span className="relative">{text}</span>
                 <div className="overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-70"></div>
