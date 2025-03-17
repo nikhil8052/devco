@@ -2105,6 +2105,24 @@ a.post_title_link:hover {
 .header.paradiv {
     padding-left: 24px;
 }
+.section_head.heading_description_head {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section_head.heading_description_head .header_div {
+    width: 50%;
+}
+
+.section_head.heading_description_head .description_div_right {
+    width: 50%;
+}
+.description_div_para {
+    width: 100%;
+    max-width: 392px;
+    margin-left: auto;
+}
 
 
 
@@ -2820,6 +2838,19 @@ a.post_title_link:hover {
     
     .parelex_card_header .parelec_image_col img.w-full {
         height: auto;
+    }
+    .section_head.heading_description_head {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section_head.heading_description_head .header_div {
+        width: 100%;
+    }
+    .section_head.heading_description_head .description_div_right {
+        width: 100%;
+    }
+    .description_div_para {
+        margin-left: 0px;
     }
 }
 
