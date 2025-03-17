@@ -45,17 +45,18 @@ const Textanimatedleft = () => {
               ))}
             </h2>
             <div className="mt-5 paradiv text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite text-opacity-70">
-
-              {[`AA successful web developer is very different and more than `, 
-              `just a web designer. Your custom web application will also`,
-              `needs user-friendly navigation and well-organized content `,
-              `and an unmatched user flow. Your back end development `,
-              `needs to be as good as your design. In short, you need `,
-              `software programmers with the ability to create dynamic`,
-              `websites. Without these elements your users, and especially `,
-              `development companies, other digital agencies look to our`,
-              `technical expertise in building their own custom web`,
-              `applications.`     
+              {[
+                `A successful web developer is very different and more than `,
+                `just a web designer. Your custom web application will also`,
+                `need user-friendly navigation and well-organized content `,
+                `and an unmatched user flow. Your back-end development `,
+                `needs to be as good as your design. In short, you need `,
+                `software programmers with the ability to create dynamic`,
+                `websites. Without these elements your users, and especially `,
+                `your new visitors, will not likely return. As one of the top web`,
+                `development companies, other digital agencies look to our`,
+                `technical expertise in building their own custom web`,
+                `applications.`,
               ].map((text, index) => (
                 <p key={index} className="relative overflow-hidden text-line mb-0">
                   <span className="relative">{text}</span>
@@ -64,11 +65,13 @@ const Textanimatedleft = () => {
               ))}
             </div>
             <div className="mt-5 paradiv text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite">
-              <p className="text-opacity-70">Consider the following stats on web development agencies regarding the important of a quality web experience:</p>
-             <ul>
-              <li>It takes website visitors 50 milliseconds to form an opinion about your company based on your website design.</li>
-              <li>38% of visitors will bounce if your site design is unattractive. </li>
-              <li>{`44% of visitors will bounce if they can't find your contact information.`}</li>
+              <p className="text-opacity-70">
+                Consider the following stats on web development agencies regarding the importance of a quality web experience:
+              </p>
+              <ul>
+                <li>It takes website visitors 50 milliseconds to form an opinion about your company based on your website design.</li>
+                <li>38% of visitors will bounce if your site design is unattractive.</li>
+                <li>{`44% of visitors will bounce if they can't find your contact information.`}</li>
               </ul>
             </div>
           </div>

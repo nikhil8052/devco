@@ -1,4 +1,4 @@
-import { metadata as importedMetadata } from "@/app/data/uxui";
+import { metadata as importedMetadata } from "@/app/data/web";
 
 export const metadata = {
   title: importedMetadata.title,
