@@ -36,7 +36,7 @@ const TextAnimated = () => {
       <div className="container mx-auto relative z-10">
         <div ref={textRef} className="animated_text_wrap text-center w-full max-w-[850px] mx-auto">
           <h2 className="text-[34px] 2xl:text-[70px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold text-white-800">
-            {["UX/UI design", "nurtures the", "customer journey"].map((text, index) => (
+            {["Web", "Development ", "& Software ","Engineering"].map((text, index) => (
               <div key={index} className="relative overflow-hidden text-line">
                 <span className="relative">{text}</span>
                 <div className="overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-70"></div>
@@ -44,7 +44,9 @@ const TextAnimated = () => {
             ))}
           </h2>
           <div className="mt-5 paradiv text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite text-opacity-70">
-            {["Website visitors who land on your site will be at varying points in the customer journey. Some visitors will be first-timers, while others will be familiar with your brand.", "A strong user interface makes it easy for any visitor at any point in the journey to find what they came for. When users can find what they came for, they’ll develop a positive impression of your brand."].map((text, index) => (
+            {[
+              "From next-gen startups to established enterprises", 
+            "From next-gen startups to established enterprises. Mobile and web development company, DEV.co, offers web development services that include website development, web design, digital marketing, and SEO. Our team of experienced web developers can help you create a website that meets your needs and exceeds your highest expectations."].map((text, index) => (
               <p key={index} className="relative overflow-hidden text-line mb-5">
                 <span className="relative">{text}</span>
                 <div className="overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-70"></div>
