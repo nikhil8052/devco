@@ -2,9 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link'; // Use Next.js Link for navigation
+import BlogGrid from "@/app/components/blog/BlogGrid";
 
 export default function BlogGridlist({ blogs }) {
     return (
+        <>
         <div className="blog_grid_wrap relative z-10 md:pt-14 lg:pt-20 pt-10 pb-0">
             <div className="section_head mb-2">
                 <div className="container mx-auto">
@@ -53,5 +55,6 @@ export default function BlogGridlist({ blogs }) {
                 </div>
             </div>
         </div>
+    </>
     );
 }
