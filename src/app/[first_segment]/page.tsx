@@ -13,14 +13,6 @@ import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
 
 
-// Define types for data
-// interface BaseData {
-//   slug: string;
-//   meta_title?: string;
-//   meta_description?: string;
-//   og_image?: string;
-// }
-
 interface BlogData {
   title: string;
   image: string;
@@ -37,82 +29,18 @@ interface BlogData {
 }
 
 
-// interface IndustryData extends BaseData {
-//   bannericon?: string;
-//   sub_title?: string;
-//   top_title?: string;
-//   top_description?: string;
-//   BorderTextbox?: { BorderTextdata: { text: string }[] };
-//   BorderTextbox2?: { BorderTextdata: { text: string }[] }; 
-//   faqs?: { question: string; answer: string }[];
-// }
 
-// interface SkillData extends BaseData {
-//   additionalInfo?: string;
-// }
-
-// interface ServiceData extends BaseData {
-//   details?: string;
-// }
-
-// interface TechnologyData extends BaseData {
-//   features?: string[];
-// }
-
-// interface LocationData extends BaseData {
-//   address?: string;
-// }
-
-// type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
-
-// interface PageProps {
-//   params: {
-//     first_segment: string;
-//   };
-// }
-
-export async function generateMetadata({ params }): Promise<Metadata> {
-  const { first_segment, second } = params;
-  const url_path = `${first_segment}/${second}`;
-
-  // Check if it exists in static data
-  const foundData =
-    industries.find((item) => item.slug === url_path) ||
-    skills.find((item) => item.slug === url_path) ||
-    services.find((item) => item.slug === url_path) ||
-    technologies.find((item) => item.slug === url_path) ||
-    locationsdata.find((item) => item.slug === url_path);
-
-    
-  if (foundData) {
-    return {
-      title: foundData.meta_title || "Default Title",
-      description: foundData.meta_description || "Default Description",
-      openGraph: {
-        title: foundData.meta_title || "Default Title",
-        description: foundData.meta_description || "Default Description",
-        images: foundData.og_image ? [foundData.og_image] : [],
-      },
-    };
+export async function generateMetadata({ params }){
+  let { title, description } = params;
+  if(title==undefined || title==""){
+    title="No Title Found";
   }
-
-  // Fetch blog details server-side
-  const blogData = await fetchBlogDetails(url_path);
-  if (blogData) {
-    return {
-      title: blogData.meta_title || blogData.title,
-      description: blogData.meta_description || "Default Blog Description",
-      openGraph: {
-        title: blogData.meta_title || blogData.title,
-        description: blogData.meta_description || "Default Blog Description",
-        images: blogData.og_image ? [blogData.og_image] : [],
-      },
-    };
+  if(description==undefined || description==""){
+    description="No Title Found";
   }
-
   return {
-    title: "Page Not Found",
-    description: "This page does not exist.",
+    title,
+    description,
   };
 }
 
@@ -122,10 +50,8 @@ async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
     const response = await fetch(url, { cache: "no-store" }); // No caching to always get fresh data
 
     if (!response.ok) return null;
-
     const response_data = await response.json();
     if (!response_data.data.length) return null;
-
     const blog_data_res = response_data.data[0];
     return {
       title: blog_data_res.Title,
@@ -150,8 +76,6 @@ async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
 export default async function Page({ params }) {
   const { first_segment} = params;
   const url_path = `${first_segment}`;
-
-  // Try to find the static page component
     let matchedComponent = null;
     let foundData = null;
     if ((foundData = industries.find((item) => item.slug === url_path))) {
@@ -168,6 +92,12 @@ export default async function Page({ params }) {
 
   if (foundData) {
     const Component = matchedComponent;
+    const meta = {
+      title: " You got ",
+      description: " You got ",
+    }
+    
+    
     return (
       <UserLayout>
         <Component data={foundData} />
