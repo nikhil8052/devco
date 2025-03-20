@@ -152,21 +152,22 @@ export default async function Page({ params }) {
   const url_path = `${first_segment}/${second}`;
 
   // Try to find the static page component
-  const foundData =
-    industries.find((item) => item.slug === url_path) ||
-    skills.find((item) => item.slug === url_path) ||
-    services.find((item) => item.slug === url_path) ||
-    technologies.find((item) => item.slug === url_path) ||
-    locationsdata.find((item) => item.slug === url_path);
+    let matchedComponent = null;
+    let foundData = null;
+    if ((foundData = industries.find((item) => item.slug === url_path))) {
+      matchedComponent = Industry;
+    } else if ((foundData = skills.find((item) => item.slug === url_path))) {
+      matchedComponent = Skill;
+    } else if ((foundData = services.find((item) => item.slug === url_path))) {
+      matchedComponent = Service;
+    } else if ((foundData = technologies.find((item) => item.slug === url_path))) {
+      matchedComponent = Technology;
+    } else if ((foundData = locationsdata.find((item) => item.slug === url_path))) {
+      matchedComponent = Locations;
+    }
 
   if (foundData) {
-    let Component = null;
-    if (industries.includes(foundData)) Component = Industry;
-    else if (skills.includes(foundData)) Component = Skill;
-    else if (services.includes(foundData)) Component = Service;
-    else if (technologies.includes(foundData)) Component = Technology;
-    else if (locationsdata.includes(foundData)) Component = Locations;
-
+    const Component = matchedComponent;
     return (
       <UserLayout>
         <Component data={foundData} />
@@ -180,11 +181,27 @@ export default async function Page({ params }) {
   if (blogData) {
     return (
       <UserLayout>
-        <BlogPage blog={blogData} />
+        <BlogPage blog={blogData} author={null} />
       </UserLayout>
     );
   }
 
-  // If no static page or blog found, return 404
-  notFound();
+  return (
+    <UserLayout>
+      <div className="text-center text-white py-20">
+        <div className="container">
+          <div className="fourzero_div flex items-center content-center direction-column py-10">
+            <div className="404wrap">
+              <h1>404 - Page Not Found</h1>
+              <p>The requested page could not be found.</p>
+              <a href="/" className="mt-5 text-center bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition inline-block hover:bg-[#ffffff] hover:text-black">
+                Go Back to Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </UserLayout>
+  );
+  
 }

@@ -1,23 +1,25 @@
+import { Metadata } from "next";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
 import { technologies } from "@/app/data/technology";
 import { locationsdata } from "@/app/data/locations";
+import BlogPage from "@/app/posts/Post";
+import UserLayout from "../user_layout/UserLayout";
 import Industry from "@/app/industry/Industry";
 import Skill from "@/app/skills/Skill";
 import Service from "@/app/ourservices/Service";
 import Technology from "@/app/technology/Technology";
 import Locations from "@/app/locations/Locations";
-import UserLayout from "../user_layout/UserLayout";
-import BlogPage from "@/app/posts/Post";
+
 
 // Define types for data
-interface BaseData {
-  slug: string;
-  meta_title?: string;
-  meta_description?: string;
-  og_image?: string;
-}
+// interface BaseData {
+//   slug: string;
+//   meta_title?: string;
+//   meta_description?: string;
+//   og_image?: string;
+// }
 
 interface BlogData {
   title: string;
@@ -35,64 +37,109 @@ interface BlogData {
 }
 
 
-interface IndustryData extends BaseData {
-  bannericon?: string;
-  sub_title?: string;
-  top_title?: string;
-  top_description?: string;
-  BorderTextbox?: { BorderTextdata: { text: string }[] };
-  BorderTextbox2?: { BorderTextdata: { text: string }[] }; 
-  faqs?: { question: string; answer: string }[];
-}
+// interface IndustryData extends BaseData {
+//   bannericon?: string;
+//   sub_title?: string;
+//   top_title?: string;
+//   top_description?: string;
+//   BorderTextbox?: { BorderTextdata: { text: string }[] };
+//   BorderTextbox2?: { BorderTextdata: { text: string }[] }; 
+//   faqs?: { question: string; answer: string }[];
+// }
 
-interface SkillData extends BaseData {
-  additionalInfo?: string;
-}
+// interface SkillData extends BaseData {
+//   additionalInfo?: string;
+// }
 
-interface ServiceData extends BaseData {
-  details?: string;
-}
+// interface ServiceData extends BaseData {
+//   details?: string;
+// }
 
-interface TechnologyData extends BaseData {
-  features?: string[];
-}
+// interface TechnologyData extends BaseData {
+//   features?: string[];
+// }
 
-interface LocationData extends BaseData {
-  address?: string;
-}
+// interface LocationData extends BaseData {
+//   address?: string;
+// }
 
-type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
+// type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
 
-interface PageProps {
-  params: {
-    first_segment: string;
+// interface PageProps {
+//   params: {
+//     first_segment: string;
+//   };
+// }
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+  const { first_segment, second } = params;
+  const url_path = `${first_segment}/${second}`;
+
+  // Check if it exists in static data
+  const foundData =
+    industries.find((item) => item.slug === url_path) ||
+    skills.find((item) => item.slug === url_path) ||
+    services.find((item) => item.slug === url_path) ||
+    technologies.find((item) => item.slug === url_path) ||
+    locationsdata.find((item) => item.slug === url_path);
+
+    
+  if (foundData) {
+    return {
+      title: foundData.meta_title || "Default Title",
+      description: foundData.meta_description || "Default Description",
+      openGraph: {
+        title: foundData.meta_title || "Default Title",
+        description: foundData.meta_description || "Default Description",
+        images: foundData.og_image ? [foundData.og_image] : [],
+      },
+    };
+  }
+
+  // Fetch blog details server-side
+  const blogData = await fetchBlogDetails(url_path);
+  if (blogData) {
+    return {
+      title: blogData.meta_title || blogData.title,
+      description: blogData.meta_description || "Default Blog Description",
+      openGraph: {
+        title: blogData.meta_title || blogData.title,
+        description: blogData.meta_description || "Default Blog Description",
+        images: blogData.og_image ? [blogData.og_image] : [],
+      },
+    };
+  }
+
+  return {
+    title: "Page Not Found",
+    description: "This page does not exist.",
   };
 }
 
-async function fetchBlogDetails(slug: string): Promise<BlogData | null> {
+async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
   try {
-    const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${slug}`;
-    const response = await fetch(url, { cache: "no-store" }); // Ensure fresh data
+    const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${url_path}`;
+    const response = await fetch(url, { cache: "no-store" }); // No caching to always get fresh data
 
     if (!response.ok) return null;
-    const responseData = await response.json();
-    if (responseData.data.length === 0) return null;
 
-    const blogData = responseData.data[0];
+    const response_data = await response.json();
+    if (!response_data.data.length) return null;
 
+    const blog_data_res = response_data.data[0];
     return {
-      title: blogData.Title,
-      image: blogData.Image || "/default-image.jpg",
-      date: new Date(blogData.Created_At).toLocaleDateString(),
-      content: blogData.Description || "No content available",
-      authorName: blogData.Author_ID?.Name || "Unknown Author",
-      authorImage: blogData.Author_ID?.Author_Image || "/default-author.jpg",
-      authorId: blogData.Author_ID?.ID,
-      authorDescription: blogData.Author_ID?.Description || "",
-      authorDesignation: blogData.Author_ID?.Job_title || "",
-      meta_title: blogData.Title,
-      meta_description: blogData.Description,
-      og_image: blogData.Image,
+      title: blog_data_res.Title,
+      image: blog_data_res.Image || "/default-image.jpg",
+      date: new Date(blog_data_res.Created_At).toLocaleDateString(),
+      content: blog_data_res.Description || "No content available",
+      authorName: blog_data_res.Author_ID?.Name || "Unknown Author",
+      authorImage: blog_data_res.Author_ID?.Author_Image || "/default-author.jpg",
+      authorId: blog_data_res.Author_ID?.ID,
+      authorDescription: blog_data_res.Author_ID?.Description,
+      authorDesignation: blog_data_res.Author_ID?.Job_title,
+      meta_title: blog_data_res.Meta_title,
+      meta_description: blog_data_res.Meta_description,
+      og_image: blog_data_res.Og_image,
     };
   } catch (error) {
     console.error("Error fetching blog details:", error);
@@ -100,62 +147,61 @@ async function fetchBlogDetails(slug: string): Promise<BlogData | null> {
   }
 }
 
-export default async function Page({ params }: PageProps) {
-  const first_segment = params.first_segment;
+export default async function Page({ params }) {
+  const { first_segment} = params;
+  const url_path = `${first_segment}`;
 
-  // Check if the slug matches predefined categories
-  const matchedData: Data | undefined =
-    industries.find((item) => item.slug === first_segment) ||
-    skills.find((item) => item.slug === first_segment) ||
-    services.find((item) => item.slug === first_segment) ||
-    technologies.find((item) => item.slug === first_segment) ||
-    locationsdata.find((item) => item.slug === first_segment);
-
-  // Check for corresponding component
-  let Component: React.ComponentType<any> | null = null;
-
-  if (matchedData) {
-    if (industries.includes(matchedData)) Component = Industry;
-    else if (skills.includes(matchedData)) Component = Skill;
-    else if (services.includes(matchedData)) Component = Service;
-    else if (technologies.includes(matchedData)) Component = Technology;
-    else if (locationsdata.includes(matchedData)) Component = Locations;
-  } else {
-    // If not found in predefined categories, try fetching a blog post
-    const blogData = await fetchBlogDetails(first_segment);
-    if (blogData) {
-      return (
-        <UserLayout>
-          <BlogPage blog={blogData} author={{ description: blogData.authorDescription }} />
-        </UserLayout>
-      );
+  // Try to find the static page component
+    let matchedComponent = null;
+    let foundData = null;
+    if ((foundData = industries.find((item) => item.slug === url_path))) {
+      matchedComponent = Industry;
+    } else if ((foundData = skills.find((item) => item.slug === url_path))) {
+      matchedComponent = Skill;
+    } else if ((foundData = services.find((item) => item.slug === url_path))) {
+      matchedComponent = Service;
+    } else if ((foundData = technologies.find((item) => item.slug === url_path))) {
+      matchedComponent = Technology;
+    } else if ((foundData = locationsdata.find((item) => item.slug === url_path))) {
+      matchedComponent = Locations;
     }
-  }
 
-  // If no blog and no predefined content found, return 404 page
-  if (!Component) {
+  if (foundData) {
+    const Component = matchedComponent;
     return (
       <UserLayout>
-        <div className="text-center text-white py-20">
-          <div className="container">
-            <div className="fourzero_div flex items-center content-center direction-column py-10">
-              <div className="404wrap">
-                <h1>404 - Page Not Found</h1>
-                <p>The requested page could not be found.</p>
-                <a href="/" className="mt-5 text-center bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition inline-block hover:bg-[#ffffff] hover:text-black">
-                  Go Back to Homepage
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Component data={foundData} />
+      </UserLayout>
+    );
+  }
+
+  // Fetch blog details
+  const blogData = await fetchBlogDetails(url_path);
+
+  if (blogData) {
+    return (
+      <UserLayout>
+        <BlogPage blog={blogData} author={null} />
       </UserLayout>
     );
   }
 
   return (
     <UserLayout>
-      <Component data={matchedData} />
+      <div className="text-center text-white py-20">
+        <div className="container">
+          <div className="fourzero_div flex items-center content-center direction-column py-10">
+            <div className="404wrap">
+              <h1>404 - Page Not Found</h1>
+              <p>The requested page could not be found.</p>
+              <a href="/" className="mt-5 text-center bg-customBlue text-customwhite px-6 py-3 rounded-md shadow-md transition inline-block hover:bg-[#ffffff] hover:text-black">
+                Go Back to Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </UserLayout>
   );
+  
 }
