@@ -1,26 +1,25 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 
 export default function StartUps() {
-  // Image sets
-  const imagesSet1 = [
+  const imagesSet1 = useMemo(() => [
     '/images/php.svg',
     '/images/unity.svg',
     '/images/python.svg',
     '/images/reactjs1.svg',
     '/images/java1.svg',
     '/images/nodejs1.svg',
-  ];
+  ], []);
 
-  const imagesSet2 = [
+  const imagesSet2 = useMemo(() => [
     '/images/unity.svg',
     '/images/reactjs1.svg',
     '/images/nodejs1.svg',
     '/images/php.svg',
     '/images/python.svg',
     '/images/java1.svg',
-  ];
+  ], []);
 
   // State to manage current image set and animation trigger
   const [currentImages, setCurrentImages] = useState(imagesSet1);
@@ -40,8 +39,7 @@ export default function StartUps() {
     }, 2000); // Change every 2 seconds
 
     return () => clearInterval(intervalId); // Cleanup on unmount
-  }, []);
-
+  }, [imagesSet1, imagesSet2]);
   return (
     <div className='startup_section pt-5 md:pt-0 pb-10 md:pb-20 xl:mt-[-200px] lg:mt-[-100px] md:mt-[-50px] relative z-10'>
       <div className="container mx-auto">

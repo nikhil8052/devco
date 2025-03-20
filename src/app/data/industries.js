@@ -143,7 +143,7 @@ export const industries = [
                     
                     We look forward to helping you develop and optimize for the future!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -299,7 +299,7 @@ Government entities leverage our custom software development services to quickly
                    Interested in learning more? Don’t hesitate to contact us today.
 We’d be happy to walk you through our process and answer any questions you may have.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -457,7 +457,7 @@ Here are some of the different education software development services we freque
                     description: `At DEV.co, we’re proud to design custom software solutions that empower educational organizations to thrive in today’s dynamic marketplace.
 Please contact us today to find out more about our custom software development services!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -600,7 +600,7 @@ Please contact us today to find out more about our custom software development s
                     We understand what small businesses want with custom software development, because we are a small business.
 Contact us today and we’ll be happy to chat about your software development project and provide a quote!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -749,7 +749,7 @@ Contact us today and we’ll be happy to chat about your software development pr
                     description: `If you’re ready to build an application your clients will love, contact us to discuss your project in-depth.
                     We’d love to be your software development partner.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -904,7 +904,7 @@ Contact us today and we’ll be happy to chat about your software development pr
                     description: `There are plenty of software development services, but at Dev.co, we’re proud to be one of the top software development companies for finance.
                     Our focus on FinTech ensures you get top value and maximum ROI each step of the way. Please connect with us to learn more!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1078,7 +1078,7 @@ Contact us today and we’ll be happy to chat about your software development pr
                     <br>
                     Contact us today to learn more about how our custom software development services can help.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1268,7 +1268,7 @@ Here are some of the common types of software we develop for our clients:`,
                     heading: `Connect With Dev.co`,
                     description: `For additional information on our custom agriculture software development services, don’t hesitate to reach out and contact us today! We look forward to getting to know you.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1876,7 +1876,7 @@ State and local governments often need software that’s able to perform functio
                     heading: `Tell us about your real estate web dev project and get a quote`,
                     description: ``,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },

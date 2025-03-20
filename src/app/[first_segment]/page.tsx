@@ -1,6 +1,3 @@
-'use client';
-
-import { useEffect, useState } from "react";
 import { industries } from "@/app/data/industries";
 import { skills } from "@/app/data/skills";
 import { services } from "@/app/data/services";
@@ -37,11 +34,32 @@ interface BlogData {
   og_image?: string;
 }
 
-type IndustryData = BaseData & { industrySpecificProp?: string };
-type SkillData = BaseData & { skillSpecificProp?: string };
-type ServiceData = BaseData & { serviceSpecificProp?: string };
-type TechnologyData = BaseData & { technologySpecificProp?: string };
-type LocationData = BaseData & { locationSpecificProp?: string };
+
+interface IndustryData extends BaseData {
+  bannericon?: string;
+  sub_title?: string;
+  top_title?: string;
+  top_description?: string;
+  BorderTextbox?: { BorderTextdata: { text: string }[] };
+  BorderTextbox2?: { BorderTextdata: { text: string }[] }; 
+  faqs?: { question: string; answer: string }[];
+}
+
+interface SkillData extends BaseData {
+  additionalInfo?: string;
+}
+
+interface ServiceData extends BaseData {
+  details?: string;
+}
+
+interface TechnologyData extends BaseData {
+  features?: string[];
+}
+
+interface LocationData extends BaseData {
+  address?: string;
+}
 
 type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
 
@@ -51,124 +69,71 @@ interface PageProps {
   };
 }
 
-export default function Page({ params }: PageProps) {
-  const first_segment = params.first_segment;
-  const [blog, setBlog] = useState(false);
-  const [blogData, setBlogData] = useState<BlogData | null>(null);
-  const [blogAuthor, setBlogAuthor] = useState({});
-  const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
-  const [data, setData] = useState<Data | null>(null);
-  const [loading, setLoading] = useState(true);
+async function fetchBlogDetails(slug: string): Promise<BlogData | null> {
+  try {
+    const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${slug}`;
+    const response = await fetch(url, { cache: "no-store" }); // Ensure fresh data
 
+    if (!response.ok) return null;
+    const responseData = await response.json();
+    if (responseData.data.length === 0) return null;
 
-  useEffect(() => {
-    let foundData: Data | null = null;
-    let matchedComponent: React.ComponentType<any> | null = null;
+    const blogData = responseData.data[0];
 
-    if ((foundData = industries.find((item) => item.slug === first_segment))) {
-      matchedComponent = Industry;
-    } else if ((foundData = skills.find((item) => item.slug === first_segment))) {
-      matchedComponent = Skill;
-    } else if ((foundData = services.find((item) => item.slug === first_segment))) {
-      matchedComponent = Service;
-    } else if ((foundData = technologies.find((item) => item.slug === first_segment))) {
-      matchedComponent = Technology;
-    } else if ((foundData = locationsdata.find((item) => item.slug === first_segment))) {
-      matchedComponent = Locations;
-    }
-
-    if (foundData) {
-      setData(foundData);
-      setComponent(() => matchedComponent);
-      setBlog(false);
-    } else {
-      fetchBlogDetails();
-    }
-  }, [first_segment]);
-
-  const fetchBlogDetails = async () => {
-    try {
-      const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${first_segment}`;
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
-
-      const response_data = await response.json();
-
-      if (response_data.data.length <= 0) {
-        setComponent(null);
-        setLoading(false)
-        return;
-      }
-      const blog_data_res = response_data.data[0];
-      if (blog_data_res?.Title && blog_data_res?.Created_At) {
-        setBlog(true);
-        setBlogData({
-          title: blog_data_res.Title,
-          image: blog_data_res.Image || "/default-image.jpg",
-          date: new Date(blog_data_res.Created_At).toLocaleDateString(),
-          content: blog_data_res.Description || "No content available",
-          authorName: blog_data_res.Author_ID?.Name || "Unknown Author",
-          authorImage: blog_data_res.Author_ID?.Author_Image || "/default-author.jpg",
-          authorId: blog_data_res.Author_ID?.ID,
-          authorDescription: blog_data_res.Author_ID?.Description,
-          authorDesignation: blog_data_res.Author_ID?.Job_title,
-        });
-
-        if (blog_data_res.Author_Recent_Posts && blog_data_res.Author_ID) {
-          setBlogAuthor({
-            description: blog_data_res.Author_ID.Description || "No description available",
-            recentPosts: blog_data_res.Author_Recent_Posts || [],
-          });
-        }
-        setComponent(() => BlogPage);
-        setLoading(false)
-      }
-    } catch (error) {
-      console.error("Error fetching blog details:", error);
-    }
-  };
-
-  useEffect(() => {
-    if (blog && blogData) {
-      document.title = blogData.title;
-      updateMetaTags(blogData.meta_title, blogData.meta_description, blogData.og_image);
-    } else if (data) {
-      document.title = data.meta_title || "Default Title";
-      updateMetaTags(data.meta_title, data.meta_description, data.og_image);
-    }
-  }, [data, blogData, blog]);
-
-  const updateMetaTags = (title?: string, description?: string, image?: string) => {
-    const setMetaTag = (name: string, content: string) => {
-      let tag = document.querySelector(`meta[name="${name}"]`) || document.createElement("meta");
-      tag.setAttribute("name", name);
-      tag.setAttribute("content", content);
-      document.head.appendChild(tag);
+    return {
+      title: blogData.Title,
+      image: blogData.Image || "/default-image.jpg",
+      date: new Date(blogData.Created_At).toLocaleDateString(),
+      content: blogData.Description || "No content available",
+      authorName: blogData.Author_ID?.Name || "Unknown Author",
+      authorImage: blogData.Author_ID?.Author_Image || "/default-author.jpg",
+      authorId: blogData.Author_ID?.ID,
+      authorDescription: blogData.Author_ID?.Description || "",
+      authorDesignation: blogData.Author_ID?.Job_title || "",
+      meta_title: blogData.Title,
+      meta_description: blogData.Description,
+      og_image: blogData.Image,
     };
+  } catch (error) {
+    console.error("Error fetching blog details:", error);
+    return null;
+  }
+}
 
-    setMetaTag("description", description || "Default meta description");
-    setMetaTag("og:title", title || "Default Title");
-    setMetaTag("og:description", description || "Default meta description");
-    setMetaTag("og:image", image || "/images/Custom-Website-Development-Services-Icon.png");
-  };
+export default async function Page({ params }: PageProps) {
+  const first_segment = params.first_segment;
 
-  if (blog) {
-    return (
-      <UserLayout>
-        {Component && <Component blog={blogData} author={blogAuthor} />}
-      </UserLayout>
-    );
+  // Check if the slug matches predefined categories
+  const matchedData: Data | undefined =
+    industries.find((item) => item.slug === first_segment) ||
+    skills.find((item) => item.slug === first_segment) ||
+    services.find((item) => item.slug === first_segment) ||
+    technologies.find((item) => item.slug === first_segment) ||
+    locationsdata.find((item) => item.slug === first_segment);
+
+  // Check for corresponding component
+  let Component: React.ComponentType<any> | null = null;
+
+  if (matchedData) {
+    if (industries.includes(matchedData)) Component = Industry;
+    else if (skills.includes(matchedData)) Component = Skill;
+    else if (services.includes(matchedData)) Component = Service;
+    else if (technologies.includes(matchedData)) Component = Technology;
+    else if (locationsdata.includes(matchedData)) Component = Locations;
+  } else {
+    // If not found in predefined categories, try fetching a blog post
+    const blogData = await fetchBlogDetails(first_segment);
+    if (blogData) {
+      return (
+        <UserLayout>
+          <BlogPage blog={blogData} author={{ description: blogData.authorDescription }} />
+        </UserLayout>
+      );
+    }
   }
 
-  if (Component) {
-    return (
-      <UserLayout>
-        {Component && <Component data={data} />}
-      </UserLayout>
-    );
-  }
-
-  if (!Component && loading == false) {
+  // If no blog and no predefined content found, return 404 page
+  if (!Component) {
     return (
       <UserLayout>
         <div className="text-center text-white py-20">
@@ -188,4 +153,9 @@ export default function Page({ params }: PageProps) {
     );
   }
 
+  return (
+    <UserLayout>
+      <Component data={matchedData} />
+    </UserLayout>
+  );
 }
