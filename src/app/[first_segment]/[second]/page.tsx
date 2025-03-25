@@ -36,40 +36,17 @@ interface BlogData {
   og_image?: string;
 }
 
+interface AuthorData {
+  description: string;
+  recentPosts: any[];
+}
 
-// interface IndustryData extends BaseData {
-//   bannericon?: string;
-//   sub_title?: string;
-//   top_title?: string;
-//   top_description?: string;
-//   BorderTextbox?: { BorderTextdata: { text: string }[] };
-//   BorderTextbox2?: { BorderTextdata: { text: string }[] }; 
-//   faqs?: { question: string; answer: string }[];
-// }
+interface BlogResponse {
+  blog: BlogData;
+  author: AuthorData;
+}
 
-// interface SkillData extends BaseData {
-//   additionalInfo?: string;
-// }
 
-// interface ServiceData extends BaseData {
-//   details?: string;
-// }
-
-// interface TechnologyData extends BaseData {
-//   features?: string[];
-// }
-
-// interface LocationData extends BaseData {
-//   address?: string;
-// }
-
-// type Data = IndustryData | SkillData | ServiceData | TechnologyData | LocationData | BlogData;
-
-// interface PageProps {
-//   params: {
-//     first_segment: string;
-//   };
-// }
 
 export async function generateMetadata({ params }): Promise<Metadata> {
   const { first_segment, second } = params;
@@ -100,12 +77,12 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   const blogData = await fetchBlogDetails(url_path);
   if (blogData) {
     return {
-      title: blogData.meta_title || blogData.title,
-      description: blogData.meta_description || "Default Blog Description",
+      title: blogData.blog.title || "",
+      description: blogData.blog.meta_description || "Default Blog Description",
       openGraph: {
-        title: blogData.meta_title || blogData.title,
-        description: blogData.meta_description || "Default Blog Description",
-        images: blogData.og_image ? [blogData.og_image] : [],
+        title: blogData.blog.title || "" ,
+        description: blogData.blog.meta_description || "Default Blog Description",
+        images: blogData.blog.image || "" ,
       },
     };
   }
@@ -116,7 +93,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   };
 }
 
-async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
+async function fetchBlogDetails(url_path: string): Promise<BlogResponse | null>{
   try {
     const url = `https://devco1.wpenginepowered.com/wp-json/custom/v1/blog-details?username=devdotco&password=MnFI%204eZL%20xMDN%20SWF0%20WZa6%20AmiX&post_slug=${url_path}`;
     const response = await fetch(url, { cache: "no-store" }); // No caching to always get fresh data
@@ -127,7 +104,8 @@ async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
     if (!response_data.data.length) return null;
 
     const blog_data_res = response_data.data[0];
-    return {
+
+    return { "blog":{
       title: blog_data_res.Title,
       image: blog_data_res.Image || "/default-image.jpg",
       date: new Date(blog_data_res.Created_At).toLocaleDateString(),
@@ -140,7 +118,14 @@ async function fetchBlogDetails(url_path: string): Promise<BlogData | null> {
       meta_title: blog_data_res.Meta_title,
       meta_description: blog_data_res.Meta_description,
       og_image: blog_data_res.Og_image,
-    };
+    },
+    "author":{
+      description: blog_data_res.Author_ID.Description || "No description available",
+      recentPosts: blog_data_res.Author_Recent_Posts || [],
+    }
+  };
+  
+    
   } catch (error) {
     console.error("Error fetching blog details:", error);
     return null;
@@ -181,7 +166,7 @@ export default async function Page({ params }) {
   if (blogData) {
     return (
       <UserLayout>
-        <BlogPage blog={blogData} author={null} />
+        <BlogPage blog={blogData.blog} author={blogData.author} />
       </UserLayout>
     );
   }
