@@ -183,7 +183,7 @@ export const technologies = [
                     <br>
                     Contact DEV.co for a free quote, or a free consultation today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -316,7 +316,7 @@ Furthermore, we ensure that computer networking aspects are not overlooked durin
                     <br>
                    Contact us today and let’s delve into how customized “software engineering” techniques coupled with cutting-edge cybersecurity development services can protect your company’s data and virtual assets. Trust us – you won’t regret choosing Dev. co’s talented pool which includes highly skilled Security Software Architect who have honed their craft meticulously over years delivering nothing less than stellar performances consistently striking a balance between functionality & safety!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -460,7 +460,7 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                     heading: "Contact DEV.CO Today!",
                     description: `DEV.co can help. Contact us today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -659,7 +659,7 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                     Or are you looking for a consultant who can help you identify your blockchain technology needs?<br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -856,7 +856,7 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                     <br></br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1030,7 +1030,7 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                     <br></br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1215,7 +1215,7 @@ This is often called RPA, and it can be a huge timesaver for companies that need
                     Or are you need in a custom development solution for your existing CRM software?<br>
                     Contact us today for a free quote, or to learn more about our CRM development services!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1379,7 +1379,7 @@ When choosing an online storage development partner, consider:`,
                     heading: "Is your business ready for its next web application?",
                     description: `DEV.co can help. Contact us today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1579,7 +1579,7 @@ To accomplish this, we follow a consistent process for custom software developme
                         description: `Are you ready to begin work on your next big data project? Or are you interested in learning more about our development process?
                         Contact DEV.co today for a free quote, or a free consultation!`,
                         buttonText: "Tell Us About Your Next Project",
-                        onButtonClick: () => alert("Button clicked!"),
+                        
                     }
                 ],
             },
@@ -1777,7 +1777,7 @@ To accomplish this, we follow a consistent process for custom software developme
                         Are you ready for a quote for business intelligence software development?<br>
                         Contact DEV.co today for a free quote, or a free consultation!`,
                         buttonText: "Tell Us About Your Next Project",
-                        onButtonClick: () => alert("Button clicked!"),
+                        
                     }
                 ],
             },
@@ -1954,7 +1954,7 @@ To accomplish this, we follow a consistent process for custom software developme
                         Or do you want to learn more about the IoT work we’ve done in the past?<br>
                         Contact DEV.co today for a free quote, or a free consultation!`,
                         buttonText: "Tell Us About Your Next Project",
-                        onButtonClick: () => alert("Button clicked!"),
+                        
                     }
                 ],
             },
@@ -2159,7 +2159,7 @@ To accomplish this, we follow a consistent process for custom software developme
 <br>Reach out to a SugarCRM developer if your team is interested in
 <br>deploying this product for your organization.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -2305,7 +2305,7 @@ To accomplish this, we follow a consistent process for custom software developme
                     <br>
                     For more information, please reach out today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },

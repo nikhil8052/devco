@@ -579,7 +579,6 @@ We feel agile development lends itself to more innovative mobile apps, while als
                     Or do you need advice on your current mobile technology?<br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
                 }
             ],
         },

@@ -52,7 +52,7 @@ export default function Blog({ params }) {
     };
 
     fetchBlogs();
-  }, [author]);
+  }, [author, slug]);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
 

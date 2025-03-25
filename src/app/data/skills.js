@@ -194,7 +194,7 @@ export const skills = [
                     description: `Or are you interested in a free quote?<br>
                                    Contact DEV.co for more information or a free consultation today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -411,7 +411,7 @@ Here are a few of the key benefits:`,
                     Our team is passionate about Apple devices, and we understand the importance of designing and developing for iOS. We will create an app that looks great and functions perfectly on all of Apple’s devices.
 If you’d like to learn more about how we develop iOS apps, please reach out!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1267,7 +1267,7 @@ We streamline the process to ensure efficiency, quality, and client satisfaction
                     description: `Or are you interested in a free quote?<br>
                     Contact DEV.co for more information or a free consultation today!<br>`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1480,7 +1480,7 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
                     heading: "Partner With Dev.co",
                     description: `Whether you no longer have the time and internal resources to handle design work, or you need a more experienced SolidWorks development and engineering service to fill some of the voids in your processes, we can help.Contact Dev.co today to learn more!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1652,7 +1652,7 @@ should tell you something about its features and reliability.`,
 
                     Contact us today and we’ll be happy to discuss in further detail.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -1884,7 +1884,7 @@ should tell you something about its features and reliability.`,
                     description: `At Dev.co, Azure development and engineering services are one of our specialties.
                     If you’d like to learn more about how the Azure cloud platform can be leveraged to grow your business and/or expand your service offerings, please don’t hesitate to contact us!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -2102,7 +2102,7 @@ Here’s what our React developer process looks like:`,
                     Want to learn more about our process and how we can help you achieve your goals for your next software project?<br>
                     Please don’t hesitate to contact us today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -2491,7 +2491,7 @@ Here’s what our React developer process looks like:`,
 We do so through world-class development, frictionless communication, and a collaborative spirit that believes in working together to innovate and advance new ideas.<br>
                     We’d be happy to work together, or to steer you in the direction that’s most appropriate.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -2666,7 +2666,7 @@ We do so through world-class development, frictionless communication, and a coll
                     description: `At Dev.co, it’s our mission to help clients develop solutions that meet their needs – and the needs of their clients – in an efficient and cost-effective manner.
                     For further information on our OpenCV development services, please contact us today!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -2837,7 +2837,7 @@ We do so through world-class development, frictionless communication, and a coll
                     description: `IWant to learn more about how Dev.co can help your business leverage Node.js to reach your goals?<br>
                     Contact us today and we’ll be happy to discuss in further detail.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -3017,7 +3017,7 @@ We do so through world-class development, frictionless communication, and a coll
                     description: `We want to partner with you on your custom HTML5 project!
 Contact us today to discuss your project and start using HTML5 to impress and convert your website visitors.`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -3220,7 +3220,7 @@ Contact us today to discuss your project and start using HTML5 to impress and co
                     description: `AWS is a place where you can go to develop custom applications. You can use different programming languages and tools to make your applications work well. AWS has many security features to make sure your applications are safe. It also has a pricing model that lets you pay for the resources you use.<br>
                     At Dev.co, we’re proud to offer a cutting-edge AWS certified developer that meets and exceeds our client’s high expectations every step of the way. Contact us today to learn more about the process!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
@@ -3673,7 +3673,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
                     Are you ready for a quote for business intelligence software development?<br>
                     Contact DEV.co today for a free quote, or a free consultation!`,
                     buttonText: "Tell Us About Your Next Project",
-                    onButtonClick: () => alert("Button clicked!"),
+                    
                 }
             ],
         },
