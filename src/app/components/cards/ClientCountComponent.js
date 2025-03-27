@@ -19,7 +19,7 @@ export default function ClientCount({ title, description, counttitle }) {
   return (
     <div
       ref={ref}
-      className="w-full p-5 md:p-10 sm:p-7 border-2 border-lightBlue rounded-md bg-white/3 backdrop-blur-lg h-full"
+      className="w-full p-12 md:p-12 sm:p-7 border-2 border-lightBlue rounded-[10px] bg-white/3 backdrop-blur-lg h-full"
     >
       {/* Animated Counter */}
       <div className="mb-2">
@@ -34,7 +34,7 @@ export default function ClientCount({ title, description, counttitle }) {
 
       {/* Dynamic Title */}
       <div>
-        <h5 className="text-customWhite font-semibold text-[18px] xl:text-[25px] lg:text-20px] md:text-[18px] sm:text-[18px] mb-2 md:mb-5 sm:mb-3">
+        <h5 className="text-customWhite font-semibold text-[18px] xl:text-[25px] lg:text-20px] md:text-[18px] sm:text-[18px] mb-2">
           {title}
         </h5>
 

@@ -8,7 +8,7 @@ export default function ClientCount() {
 
   return (
     <div
-      className="clint_count_section py-10 md:py-20"
+      className="clint_count_section py-24  border-b"
       style={{
         backgroundImage: "url('/images/clients_bg.png')",
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ export default function ClientCount() {
       }}
     >
       <div className="container mx-auto">
-        <div className="section_head grid md:grid-cols-2 xl:gap-20 md:gap-10 lg:mb-20 md:mb-10 mb-5">
+        <div className="section_head items-end grid md:grid-cols-2 xl:gap-20 md:gap-10 lg:mb-20 md:mb-10 mb-5">
           <div className="left_text_col">
             <h2 className="text-white text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] md:mb-0 mb-5">
               Our Web <br />
@@ -32,7 +32,7 @@ export default function ClientCount() {
         </div>
 
         {/* Dynamically render client columns */}
-        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-7">
           {clientData.map((client, index) => (
             <div key={index} className="client_col h-full">
               <ClientCountComponent

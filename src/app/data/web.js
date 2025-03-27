@@ -1,6 +1,6 @@
 export const metadata = {
-  meta_title:"Web Development Company | Web Developer | DEV",
-  meta_description: "We provide web development and design for nearly any project, through nearly any platform. Trust us with your next website dev project!",
+  meta_title:"Web Development Company | DEV",
+  meta_description: "Contract with DEV.co for all your web development and web design needs. We are a the premier web development agency top brands trust. Engage with us today!",
   og_image:"/images/How-Much-Should-WordPress-Custom-Development-Cost.jpg",
 };
 

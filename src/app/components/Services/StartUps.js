@@ -37,13 +37,13 @@ export default function StartUps({ title = "", description = "", images = [], im
   };
 
   return (
-    <div className="startup_section pb-10 md:pb-20 relative z-2">
+    <div className="startup_section  relative z-2">
       <div className="container mx-auto">
         <div className="text-center mb-6">
           <h2 className="text-[20px] md:text-[24px] sm:text-[22px] text-customwhite font-semibold mb-1">
             {title}
           </h2>
-          <p className="text-[14px] md:text-[22px] sm:text-[18px] font-normal text-customwhite">
+          <p className="text-[14px] md:text-[24px] sm:text-[18px] font-normal text-customwhite">
             {description}
           </p>
         </div>

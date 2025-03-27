@@ -19,8 +19,8 @@ const DeveloperDo = ({ data, repeatCount = 1 }) => {
             {index % 2 === 0 ? (
               <>
                 {/* For even index: Text content first */}
-                <div className="Developerdo-box Developerdo-col max-w-[520px] md:mt-10 flex flex-col gap-5">
-                  <h2 className="section_head_title font-semibold text-[34px] 2xl:text-[40px] xl:text-[30px] md:text-[28px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
+                <div className="Developerdo-box Developerdo-col max-w-[470px] md:mt-16 flex flex-col gap-5">
+                  <h2 className="section_head_title font-semibold max-w-[420px] text-[34px] 2xl:text-[40px] xl:text-[30px] md:text-[28px] sm:text-[24px] md:mb-3 mb-2 text-customwhite">
                     {item.title}
                   </h2>
                   <div className="w-full">

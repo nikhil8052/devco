@@ -14,7 +14,7 @@ const Newbannerskills = ({ subtitle = "", title = "", description = "", banneric
           animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <div className="banner_row flex flex-col lg:flex-row mb-5 lg:mb-20 md:mb-10">
+          <div className="banner_row flex flex-col lg:flex-row mb-5 lg:mb-20 md:mb-10 md:mt-8">
             {/* Banner Text Column */}
             <div className="banner_text_col flex-1">
               {subtitle && (

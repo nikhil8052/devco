@@ -19,7 +19,7 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                 {validData.map((data, index) => (
                     <div
                         key={index}
-                        className="combine_code_wrapper overflow-hidden shadow-lg border-lightBlue border rounded-[15px] lg:rounded-[60px] md:rounded-[30px] sm:rounded-[25px] p-5 sm:p-12 mb-10"
+                        className="combine_code_wrapper max-w-[1250px] m-auto overflow-hidden shadow-lg border-lightBlue border rounded-[15px] lg:rounded-[60px] md:rounded-[30px] sm:rounded-[25px] p-5 sm:p-20 mb-10"
                         style={{
                             backgroundImage: `url('/images/code_crbg.svg')`,
                             backgroundSize: 'cover',
@@ -40,11 +40,11 @@ export default function CombiningCode({ CombiningCodedata = [] }) {
                                 <div className="code_content">
                                     <div className="relative w-full">
                                         <h2
-                                            className="text-[26px] 2xl:text-[54px] xl:text-[34px] md:text-[30px] sm:text-[30px] font-semibold mb-2"
+                                            className="text-[26px] 2xl:text-[54px] xl:text-[54px] md:text-[30px] sm:text-[30px] font-semibold mb-4 max-w-[630px]"
                                             dangerouslySetInnerHTML={{ __html: data.heading }}
                                         />
                                         <p
-                                            className="text-[14px] xl:text-[22px] lg:text-[18px] md:text-[15px] font-normal text-customwhite mb-5"
+                                            className="text-[14px] xl:text-[22px] lg:text-[18px] md:text-[15px] font-normal text-customwhite mb-9 max-w-[630px]"
                                             dangerouslySetInnerHTML={{ __html: data.description }}
                                         />
                                         <div className="btn_wrapper flex gap-x-4">

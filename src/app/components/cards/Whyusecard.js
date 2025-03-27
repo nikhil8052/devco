@@ -12,7 +12,7 @@ const Whyusecard = ({ data, sectionHeading, imageWidth, imageHeight }) => {
         {/* Dynamic Section Heading */}
         {sectiontitle && (
           <div className="section_headnew section_head_half">
-            <h2 dangerouslySetInnerHTML={{ __html: sectiontitle }}></h2>
+            <h2 className="mb-3" dangerouslySetInnerHTML={{ __html: sectiontitle }}></h2>
             <div className="section_head_description">
               <p dangerouslySetInnerHTML={{ __html: sectiondescription }}></p>
             </div>
@@ -24,7 +24,7 @@ const Whyusecard = ({ data, sectionHeading, imageWidth, imageHeight }) => {
           {data?.map((item, index) => (
             <div
               key={index}
-              className="w-full rounded overflow-hidden shadow-lg border-lightBlue border p-5 data_card bg-white/4 backdrop-blur-lg"
+              className="w-full rounded-[10px] overflow-hidden shadow-lg border-lightBlue border p-5 data_card bg-white/4 backdrop-blur-lg"
             >
               {/* Image */}
               <div className="image_div">

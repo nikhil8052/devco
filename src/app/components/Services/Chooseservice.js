@@ -111,10 +111,10 @@ nextArrow: `<button type="button" class="slick-next custom-arrow right-[-50px] a
         <div className="dev_card_row flex gap-6">
           {chooseData.map((card, index) => (
             <div key={index} className="dev_card_col w-full ">
-              <div className="dev_card rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 data_card bg-white/5 backdrop-blur-lg h-full">
+              <div className="dev_card rounded-2xl overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 data_card bg-white/5 backdrop-blur-lg h-full">
                 <div className="thumb relative mb-2 md:mb-5 h-[175px] flex flex-col">
                   <Image
-                    className="w-full block mt-auto"
+                    className="w-full block mt-auto rounded-3xl"
                     src={card.imgSrc}
                     alt={card.title}
                     width={500}

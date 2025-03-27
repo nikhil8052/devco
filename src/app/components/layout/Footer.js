@@ -100,7 +100,7 @@ subCategories: [
   ];
 
   return (
-    <footer className="bg-black text-white pt-5 lg:pt-20 md:pt-10">
+    <footer className="bg-black text-white pt-5 lg:pt-20 md:pt-10 border-t">
       
       <div className='footer_wrapper'>
         <div className='container mx-auto'>
@@ -108,15 +108,18 @@ subCategories: [
             <div className='footer_grid flex flex-wrap w-full'>
               <div className='footer_col 2xl:basis-1/5 basis-full xl:pr-10 lg:pr-0 md:pr-0 pr-0 '>
                 <div className='footer_logo_col mb-8 2xl:mb-0 flex 2xl:flex-col 2xl: justify-between justify-between flex-row gap-5 2xl:gap-20'>
-                  <Image
+                <a href='/'> 
+                <Image
                           className='footer_logo'
                           src="/images/footer_logo.svg"
                           alt="Banner Image"
                           width={115}
                           height={75}
                         />
+                </a>
+
                    <div className='footer_logo_text'>
-                    <Link href="#" className='tel_link inline-block text-[14px] md:text-[18px] font-normal text-customwhite'>+1 (206) 438-9789</Link>
+                    <Link href="tel:+12062102954" className='tel_link inline-block text-[14px] md:text-[18px] font-normal text-customwhite'>+12062102954</Link>
                     <p className='text-[14px] md:text-[18px] font-normal text-customwhite mt-2 2xl:mt-10 lg:mt-2 '>© 2024 Nead, LLC. All Rights Reserved</p>
                    </div>
                 </div>
@@ -146,15 +149,15 @@ subCategories: [
         <div className='container mx-auto'>
           <div className='footer_copy_right text-center py-10 mt-5 2xl:mt-10 lg:mt-7 border-t border-lightBlue' >
             <ul className="flex flex-wrap justify-center w-full xl:gap-6 gap-4">
-              <Link href="/about" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">About Us</Link>
-              <Link href="/portfolio" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Our Work</Link>
-              <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Locations</Link>
-              <Link href="https://web.dev.co/" target="_blank" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Web Design</Link>
-              <Link href="/blog" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Dev Blog</Link>
-              <Link href="/careers" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Careers</Link>
-              <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit">Contact Us</Link>
-              <Link href="/privacy-policy" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit">Privacy Policy</Link>
-              <Link href="/terms" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit">Terms of Service</Link>
+              <Link href="/about" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit hover:text-customBlue">About Us</Link>
+              <Link href="/portfolio" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit hover:text-customBlue">Our Work</Link>
+              <Link href="/locations" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit hover:text-customBlue">Locations</Link>
+              <Link href="https://web.dev.co/" target="_blank" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit hover:text-customBlue">Web Design</Link>
+              <Link href="/blog" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit hover:text-customBlue">Dev Blog</Link>
+              <Link href="/careers" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit hover:text-customBlue">Careers</Link>
+              <Link href="/contact" class="lg:text-[18px] md:text-[16px] font-normal text-customwhit hover:text-customBlue">Contact Us</Link>
+              <Link href="/privacy-policy" class="lg:text-[18px] md:text-[16px]  font-normal text-customwhit hover:text-customBlue">Privacy Policy</Link>
+              <Link href="/terms" class="lg:text-[18px]  md:text-[16px] font-normal text-customwhit hover:text-customBlue">Terms of Service</Link>
             </ul>
           </div>
         </div>

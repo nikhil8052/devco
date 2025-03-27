@@ -11,7 +11,7 @@ export default function Innovative() {
       </div>
 
       {/* Image Section */}
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center mb-32">
         <Image src='/images/innovate.webp' width={1000} height={800} alt="Innovative" className="rounded-lg shadow-lg"/>
       </div>
 

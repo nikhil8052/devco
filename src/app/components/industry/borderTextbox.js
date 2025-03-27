@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function BorderTextbox({ title = "", description = "", sitelist = [] }) {
   return (
-    <div className="benefit-box flex flex-col gap-2 md:gap-5">
-      <div className="text-section w-full max-w-[514px]">
+    <div className="benefit-box flex flex-col gap-2 md:gap-5 w-auto">
+      <div className="text-section">
         {/* Display title only if it exists */}
         {title && (
-          <h4 className="text-[22px] md:text-[25px] font-semibold mb-2">
+          <h4 className="text-[22px] md:text-[25px] font-semibold mb-2 w-max">
             {title}
           </h4>
         )}
@@ -14,7 +14,7 @@ export default function BorderTextbox({ title = "", description = "", sitelist =
         {/* Display description only if it exists */}
         {description && (
           <p
-            className="text-sm md:text-base text-customwhite"
+            className="text-sm md:text-base text-customwhite max-w-[520px]"
             dangerouslySetInnerHTML={{ __html: description }}
           />
         )}
