@@ -7,7 +7,7 @@ const Animatedhead = ({ sectionHeading = [] }) => {
   const { sectiontitle = "", sectiondescription = "" } = sectionHeading[0];
 
   return (
-    <div className="Animatedhead-sec py-10 md:pt-20 relative">
+    <div className="Animatedhead-sec py-10 pt-24 relative">
       <div className="container mx-auto relative z-10">
         <div className="section_headnanimated">
           {/* Animated Title */}

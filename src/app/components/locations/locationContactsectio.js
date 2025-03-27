@@ -14,7 +14,7 @@ export default function locationContactsectio({ CombiningCodedata = [] }) {
     }
 
     return (
-        <div className="code_combine_section py-10 md:py-20">
+        <div className="code_combine_section py-10 md:py-20 md:pt-32">
             <div className="container mx-auto">
                 {validData.map((data, index) => (
                     <div
@@ -40,11 +40,11 @@ export default function locationContactsectio({ CombiningCodedata = [] }) {
                                 <div className="code_content">
                                     <div className="relative w-full">
                                         <h2
-                                            className="text-[26px] 2xl:text-[54px] xl:text-[34px] md:text-[30px] sm:text-[30px] font-semibold mb-2"
+                                            className="text-[26px] 2xl:text-[54px] xl:text-[34px] md:text-[30px] sm:text-[30px] font-semibold mb-4"
                                             dangerouslySetInnerHTML={{ __html: data.heading }}
                                         />
                                         <p
-                                            className="text-[14px] xl:text-[22px] lg:text-[18px] md:text-[15px] font-normal text-customwhite mb-5"
+                                            className="text-[14px] xl:text-[22px] lg:text-[18px] md:text-[15px] font-normal text-customwhite mb-10"
                                             dangerouslySetInnerHTML={{ __html: data.description }}
                                         />
                                         <div className="btn_wrapper flex gap-x-4">

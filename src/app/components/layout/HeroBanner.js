@@ -27,7 +27,7 @@ const HeroBanner = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 1, delay: 0.7 }}>
           <motion.p
-            className="text-[14px]xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8 text-opacity-70" 
+            className="text-[14px]xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-12 text-opacity-70" 
           >
             We design, develop & deploy across the tech stack, maximizing your software development project team with expert technical talent. Get in touch regarding your next software or web development project!
           </motion.p>
@@ -65,7 +65,7 @@ const HeroBanner = () => {
 
       {/* Banner Image Animation - coming from top-right */}
       <motion.div
-        className="banner_image mt-[-10rem] xl:mt-[-20rem] lg:mt-[-10rem] relative z-1"
+        className="banner_image mt-[-10rem] xl:mt-[-20rem] lg:mt-[-16rem] relative z-1"
         // initial={{ opacity: 0, x: 200, y: -300 }} 
         // animate={{ opacity: 1, x: 0, y: 0 }}    
         // transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}   

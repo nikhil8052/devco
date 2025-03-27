@@ -9,9 +9,9 @@ const ParrlexScrolltemp = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
+    if (window.innerWidth > 767) {
     let swipePanels = gsap.utils.toArray(".parelex_slide");
     gsap.set(swipePanels, { zIndex: (i) => swipePanels.length - i });
-
     let timeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".parelex_slider_wrapper",
@@ -34,6 +34,7 @@ const ParrlexScrolltemp = () => {
 
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
+  }
   }, []);
 
   return (

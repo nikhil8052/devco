@@ -33,7 +33,7 @@ const Aboutbanner = ({ dynamicData }) => {
                 transition={{ duration: 1, delay: 0.7 }}
               >
                 <p
-                  className="text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-8 text-opacity-70"
+                  className="text-[14px] xl:text-[22px] lg:text-[20px] md:text-[15px] sm:text-[14px] font-normal text-customwhite mb-14 text-opacity-70"
                   dangerouslySetInnerHTML={{ __html: banner.description }}
                 />
               </motion.div>
@@ -46,7 +46,7 @@ const Aboutbanner = ({ dynamicData }) => {
               >
                 <a
                   href="/services"
-                  className="bg-white text-black px-3 md:px-6 text-[15px] py-2 rounded-md shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white"
+                  className="bg-white text-black px-8 md:px-8 text-[15px] py-2 rounded-md shadow-md transition flex items-center hover:bg-[#4353FF] hover:text-white"
                 >
                   Our Partners
                 </a>
@@ -57,7 +57,7 @@ const Aboutbanner = ({ dynamicData }) => {
                   Our Projects
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="ml-1 w-5 h-5"
+                    className="ml-1 w-3 h-3"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

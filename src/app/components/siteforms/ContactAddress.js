@@ -16,7 +16,7 @@ const ContactAddress = () => {
           icon: '/images/phnvectrkjkjh.svg', // Replace with actual icon path
           title: '',
           description: '',
-          phnlink: '+1 (206) 438-9789',
+          phnlink: '+12062102954',
         },
       ];
       

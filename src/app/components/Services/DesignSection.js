@@ -12,7 +12,7 @@ const DesignSection = ({ title, description, servicesProps, sideImage }) => {
             <div className='card_col_flex flex w-full gap-y-10'>
 
               {/* Left Side Content */}
-              <div className='left_side lg:pb-20 md:pb-5 min-w-[65%]  relative z-10'>
+              <div className='left_side min-w-[65%]  relative z-10'>
                 <div className="grid-head w-full">
                   <h2 className='section_head_title font-semibold text-[34px] 2xl:text-[64px] xl:text-[45px] md:text-[36px] sm:text-[34px] mb-5 text-customwhite'>{title}</h2>
                   <div className='w-full max-w-[590px]'>
@@ -42,7 +42,7 @@ const DesignSection = ({ title, description, servicesProps, sideImage }) => {
               {/* Sticky Image Section */}
               <div className='animated_frame_wrap hidden lg-mr-[-4rem] md:mr-[0px] sticky top-[50px] self-start md:block  show_desktop  '>
                 <Image
-                  className='service_frame w-full xl:scale-[1.5] lg:scale-[1.3] md:scale-[1.3] sm:scale[1] origin-top-right lg:max-w-[800px]'
+                  className='service_frame w-full xl:scale-[1.5] lg:scale-[1.3] md:scale-[1.3] sm:scale[1] origin-top-right lg:max-w-[800px] rounded-[10px]'
                   src={sideImage}
                   alt="Banner Image"
                   width={879}

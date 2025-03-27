@@ -54,14 +54,14 @@ export const skills = [
                     imageWidth: 28,
                 },
                 {
-                    title: "Full error handling",
+                    title: "Full error handling.",
                     description: "Runtime errors are always a problem, but in the Java programming language, applications can seamlessly switch to an alternative set of instructions—allowing execution to continue, uninterrupted.",
                     imageSrc: "",
                     imageHeight: 30,
                     imageWidth: 28,
                 },
                 {
-                    title: "Frameworks and libraries",
+                    title: "Frameworks and libraries.",
                     description: "You can choose from any number of frameworks for your next development project, but Laravel is popular for a reason. And if you’re looking for high-level functionality without long delays, it’s an option worth considering.",
                     imageSrc: "",
                     imageHeight: 30,

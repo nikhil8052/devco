@@ -19,7 +19,7 @@ export default function Teamsection({ teamData = [] }) {
         {/* Section Heading */}
         <div className="team_section_head">
           <div className="container">
-            <div className="head_grid">
+            <div className="head_grid ml-32">
               <div className="head_text_col">
                 <h2>The Team</h2>
                 <div className="texty_div">

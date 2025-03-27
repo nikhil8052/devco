@@ -18,10 +18,10 @@ const schema = yup.object().shape({
 const formFields = [
   { id: "firstName", label: "First Name", type: "text" },
   { id: "lastName", label: "Last Name", type: "text" },
-  { id: "email", label: "Email", type: "email" },
-  { id: "phone", label: "Phone", type: "tel" },
+  { id: "email", label: "Email*", type: "email" },
+  { id: "phone", label: "Phone*", type: "tel" },
   {
-    id: "help", label: "How Can We Help", type: "select", options: [
+    id: "help", label: "How Can We Help ?", type: "select", options: [
       { value: "web development", label: "I need custom web development" },
       { value: "app development", label: "I need custom app development" },
       { value: "IT staffing assistance", label: "I am looking for IT staffing assistance" },
@@ -78,9 +78,9 @@ const Formpage = () => {
     <div className="form_page py-20">
       <div className="container">
         <div className="page_row flex gap-8">
-          <div className="page_col w-[50%]">
+          <div className="page_col w-[50%] ml-32">
             <div className="text_col_left">
-              <h1 className="text-[34px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold mb-4">
+              <h1 className="text-[34px] 2xl:text-[50px] xl:text-[45px] md:text-[36px] mt-2 sm:text-[34px] font-semibold mb-4">
                 Contact Us
               </h1>
               <ContactAddress />

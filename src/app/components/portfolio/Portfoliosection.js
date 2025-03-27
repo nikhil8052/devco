@@ -20,7 +20,7 @@ const Portfoliosection = ({ portfolioItems, portfoliotabs }) => {
           <div className="section_head mb-8 text-center">
             <h4>Software Development Work Portfolio</h4>
           </div>
-          <div className="mb-10 tab_btn_wrapper border-gray-200 dark:border-gray-700">
+          <div className="mb-16 tab_btn_wrapper border-gray-200 dark:border-gray-700">
             <div className="tab_list_wrapper">
               <ul className="tab_list flex flex-wrap -mb-px text-sm font-medium text-center">
                 {portfoliotabs.map((tab, index) => (

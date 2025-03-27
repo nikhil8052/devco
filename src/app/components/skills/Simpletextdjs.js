@@ -5,7 +5,7 @@ const Simpletextdjs = ({ data }) => {
   const { title, paragraphs } = data;
 
   return (
-    <div className="simple-text-sec pb-10 lg:pb-20 md:pb-10">
+    <div className="simple-text-sec pb-10 lg:pb-20 md:pb-10 border-b">
       <div className="container">
         <div className="simple-text text-center">
           {title && (
@@ -14,12 +14,12 @@ const Simpletextdjs = ({ data }) => {
               dangerouslySetInnerHTML={{ __html: title }}
             ></h2>
           )}
-          <div className="w-full">
+          <div className="max-w-[1250px]">
             {Array.isArray(paragraphs) &&
               paragraphs.map((paragraph, index) => (
                 <p
                   key={index}
-                  className="section_head_para text-[14px] 2xl:text-[22px] xl:text-[18px] md:text-[14px] sm:text-[14px] font-normal text-customwhite md:mb-4"
+                  className="section_head_para font-semibold text-[14px] 2xl:text-[22px] xl:text-[22px] md:text-[14px] sm:text-[14px] text-customwhite md:mb-4"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 ></p>
               ))}

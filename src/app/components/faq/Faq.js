@@ -124,7 +124,7 @@ export default function Faq() {
       backgroundRepeat: "no-repeat",
     }}>
       <div className="container mx-auto">
-        <div className="section_head grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-5 lg:gap-20 mb-20">
+        <div className="section_head items-end grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-5 lg:gap-20 mb-20">
           <div className='left_text_col'>
             <div className="blue_subhead flex items-center gap-2 mb-5">
               <span className="inline-block bg-[#4353FF] w-[14px] h-[6px] rounded-[7px]"></span>
@@ -142,7 +142,7 @@ export default function Faq() {
               <h2>
                 <button
                   type="button"
-                  className="flex items-center justify-between w-full py-5 font-semibold text-[18px] md:text[25px] sm:text-[20px] text-white gap-3 text-left"
+                  className="flex items-center justify-between w-full pt-12 pb-6 font-semibold text-[18px] md:text[25px] sm:text-[20px] text-white gap-3 text-left"
                   onClick={() => toggleAccordion(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}
