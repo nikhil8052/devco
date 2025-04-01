@@ -15,6 +15,7 @@ export default function BlogDetail() {
   const [loading, setLoading] = useState(true); // Loading state
   const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
 
+
   useEffect(() => {
     const currentUrl = window.location.href;
     const urlParams = new URLSearchParams(currentUrl);

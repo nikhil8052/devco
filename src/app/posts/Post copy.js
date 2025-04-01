@@ -1,14 +1,25 @@
+'use client';
 
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import UserLayout from "../user_layout/UserLayout";
+import { useRouter } from "next/navigation";
 
 const BlogPage = ({ blog, author } ) => {
-  const activeTab = "Authorinfo1";
-  const loading= false;
+  
+  const [activeTab, setActiveTab] = useState("Authorinfo1"); // State to manage active tab
+  const [loading, setLoading] = useState(true); // Loading state
+  const router = useRouter(); 
+
   const sections = blog.content.split('\n');
   
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000); 
+  }, []);
 
   if (loading) {
     return (
@@ -33,6 +44,11 @@ const BlogPage = ({ blog, author } ) => {
 
   const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
 
+  // Handle tab switching
+  const handleTabSwitch = (tab) => {
+    setActiveTab(tab);
+  };
+
   return (
     <div className="blog_detail_page bg-black relative z-10 text-customwhite">
       <div className="blog_detail_top">
@@ -43,7 +59,7 @@ const BlogPage = ({ blog, author } ) => {
                 <FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" /> Blogs
               </a>
             </div>
-            <div className="blog_autordetail" >
+            <div className="blog_autordetail" onClick={() => router.push(`/author/${authName}`)}>
               <span className="author_name">{blog.authorName}</span>
               <div className="author_image">
                 <img src={blog.authorImage} alt="Author" />
@@ -74,13 +90,13 @@ const BlogPage = ({ blog, author } ) => {
             <div className="author_tab_nav">
               <div
                 className={`author_tab_link ${activeTab === 'Authorinfo1' ? 'active' : ''}`}
-               
+                onClick={() => handleTabSwitch('Authorinfo1')}
               >
                 Author
               </div>
               <div
                 className={`author_tab_link ${activeTab === 'Authorinfo2' ? 'active' : ''}`}
-               
+                onClick={() => handleTabSwitch('Authorinfo2')}
               >
                 Recent Posts
               </div>
@@ -90,11 +106,11 @@ const BlogPage = ({ blog, author } ) => {
               {activeTab === 'Authorinfo1' && author && (
                 <div className="author_data AuthorData1">
                   <div className="author_info flex">
-                    <div className="author_image" >
+                    <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold" >{blog.authorName}</div>
+                      <div className="author_name text-xl font-semibold" onClick={() => router.push(`/author/${authName}`)}>{blog.authorName}</div>
                       <div className="author_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
                     </div>
                   </div>
@@ -104,7 +120,7 @@ const BlogPage = ({ blog, author } ) => {
               {activeTab === 'Authorinfo2' && author && (
                 <div className="author_data AuthorData2">
                   <div className="author_info flex">
-                    <div className="author_image" >
+                    <div className="author_image" onClick={() => router.push(`/author/${authName}`)}>
                       <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
                     </div>
                     <div className="author_info_detsil">
