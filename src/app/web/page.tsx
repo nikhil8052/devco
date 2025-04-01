@@ -61,8 +61,8 @@ export default function Home() {
 
         <ParrlexScrolltemp />
         <TextAnimated2 />
-        
-        <Developmentprocess />
+
+
         <Logofloat
           firstrowimages={logofloatData.firstrowimages.imagesdata}
           secondrowimages={logofloatData.secondrowimages.imagesdata}
@@ -73,6 +73,7 @@ export default function Home() {
         <Testimonials />
         <Standout />
         <NewfaqSection
+        subtitle={faqsData.faqs.subtitle}
           title={faqsData.faqs.title}
           description={faqsData.faqs.description}
           faqs={faqsData.faqs.faqs}

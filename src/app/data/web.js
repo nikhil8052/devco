@@ -111,7 +111,8 @@ export const slidesData = [
 ];
 
 export const faqsData = {
-  faqs: {
+  faqs:{
+    subtitle:"FAQS",
     title: "Frequently Asked Questions",
     description:
       "Here are some of our more common questions regarding our web dev services. If you have more questions not answered here, feel free to get in touch!",

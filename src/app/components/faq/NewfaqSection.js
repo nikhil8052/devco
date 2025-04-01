@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useRef } from 'react';
 
-export default function NewfaqSection({ title, description, faqs = [] }) {
+export default function NewfaqSection({ subtitle, title, description, faqs = [] }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const contentRefs = useRef([]);
 
@@ -14,9 +14,14 @@ export default function NewfaqSection({ title, description, faqs = [] }) {
       className="faq_section w-full lg:py-20 md:py-10 sm:py-5 relative z-10">
       <div className="container mx-auto">
         {/* Render section_head only if title or description exists */}
-        {(title || description) && (
+        
           <div className="section_head heading_description_head mb-4 xl:mb-20 md:mb-10">
           <div className='header_div'>
+          {subtitle && (
+             <div class="head_border" bis_skin_checked="1"><h3 class="text-[22px] uppercase" dangerouslySetInnerHTML={{ __html: subtitle }}></h3></div>
+
+            )}
+            
           {title && (
               <h2
                 className="text-[34px] 2xl:text-[70px] xl:text-[45px] md:text-[36px] sm:text-[34px] font-semibold text-white-800"
@@ -35,7 +40,7 @@ export default function NewfaqSection({ title, description, faqs = [] }) {
             )}
             </div>
           </div>
-        )}
+       
         <div
           id="accordion-collapse"
           className="accordion max-w-[1064px] mx-auto pb-16"
