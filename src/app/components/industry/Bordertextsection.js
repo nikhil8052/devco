@@ -10,9 +10,9 @@ export default function Bordertextsection({ BorderTextdata = [] }) {
   return (
     <div className='new_section benefits_section border-sectionmain'>
       <div className='container'>
-        <div className="benefits-container justify-between max-w-[1000px] m-auto lg:flex grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 md:gap-y-10 rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 h-full">
+        <div className="benefits-container border_section_bnfits justify-between m-auto flex lg:flex-row flex-col  gap-x-6 gap-y-2 md:gap-y-5 rounded overflow-hidden shadow-lg border-lightBlue border p-5 lg:p-8 md:p-6 h-full">
           {BorderTextdata.map((obj, index) => (
-            <div key={index}>
+            <div className='w-full lg:w-[50%]' key={index}>
               <BorderTextbox 
                 title={obj.title} 
                 description={obj.description} 
