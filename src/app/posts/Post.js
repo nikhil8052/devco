@@ -1,14 +1,12 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import UserLayout from "../user_layout/UserLayout";
+import AuthorTabs from "@/app/components/blog/AuthorTabs";
+import AuthorDetailLink from "@/app/components/blog/AuthorDetailLink"; // Import the new client component
 
-const BlogPage = ({ blog, author } ) => {
-  const activeTab = "Authorinfo1";
-  const loading= false;
-  const sections = blog.content.split('\n');
-  
+const BlogPage = ({ blog, author }) => {
+  const loading = false;
+  const sections = blog.content.split("\n");
 
   if (loading) {
     return (
@@ -31,10 +29,9 @@ const BlogPage = ({ blog, author } ) => {
     );
   }
 
-  const authName = blog.authorName.split(" ")[0].toLowerCase().trim();
-
   return (
     <div className="blog_detail_page bg-black relative z-10 text-customwhite">
+      {/* Blog Top Section */}
       <div className="blog_detail_top">
         <div className="container mx-auto">
           <div className="blog_det_top">
@@ -43,15 +40,15 @@ const BlogPage = ({ blog, author } ) => {
                 <FontAwesomeIcon icon={faChevronLeft} className="text-customWhite text-[12px]" /> Blogs
               </a>
             </div>
-            <div className="blog_autordetail" >
-              <span className="author_name">{blog.authorName}</span>
-              <div className="author_image">
-                <img src={blog.authorImage} alt="Author" />
-              </div>
-            </div>
+            <AuthorDetailLink 
+              authorName={blog.authorName} 
+              authorImage={blog.authorImage} 
+            />
           </div>
         </div>
       </div>
+
+      {/* Rest of your component remains the same */}
       <div className="container mx-auto">
         <div className="blog_card_image">
           <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
@@ -59,83 +56,22 @@ const BlogPage = ({ blog, author } ) => {
         <div className="blog_meta mt-4">
           <span className="blog_date text-[16px] text-gray-400">{blog.date}</span>
         </div>
-        <h1 className="post_title text-[32px] md:text-[40px] font-semibold my-6"
-          dangerouslySetInnerHTML={{ __html: blog.title }}></h1>
-        {
-          sections.map((section, index) => (
-            <div key={index}
-              className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
-              dangerouslySetInnerHTML={{ __html: section }}
-            ></div>
-          ))
-        }
-        <div className="author_section">
-          <div className="author_tab_block">
-            <div className="author_tab_nav">
-              <div
-                className={`author_tab_link ${activeTab === 'Authorinfo1' ? 'active' : ''}`}
-               
-              >
-                Author
-              </div>
-              <div
-                className={`author_tab_link ${activeTab === 'Authorinfo2' ? 'active' : ''}`}
-               
-              >
-                Recent Posts
-              </div>
-            </div>
-            <div className="author_tab_content">
-              {/* Author Info */}
-              {activeTab === 'Authorinfo1' && author && (
-                <div className="author_data AuthorData1">
-                  <div className="author_info flex">
-                    <div className="author_image" >
-                      <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
-                    </div>
-                    <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold" >{blog.authorName}</div>
-                      <div className="author_description" dangerouslySetInnerHTML={{ __html: blog.authorDescription }}></div>
-                    </div>
-                  </div>
-                </div>
-              )}
-              {/* Recent Posts */}
-              {activeTab === 'Authorinfo2' && author && (
-                <div className="author_data AuthorData2">
-                  <div className="author_info flex">
-                    <div className="author_image" >
-                      <img src={blog.authorImage} alt="Author" className="rounded-full w-16 h-16" />
-                    </div>
-                    <div className="author_info_detsil">
-                      <div className="author_name text-xl font-semibold">Recent posts by {blog.authorName}</div>
-                      <div className="author_designation">{blog.authorDesignation} at <Link href="/">Software Development Company</Link></div>
-                      <ul className="recent_posts_list">
-                        {Array.isArray(author.recentPosts) && author.recentPosts.length > 0 ? (
-                          author.recentPosts.map((post, index) => (
-                            <li key={index}>
-                              <Link
-                                href={`../${post.Slug}`}
-                                className="post_title_link"
-                                dangerouslySetInnerHTML={{ __html: post.Title }}>
-                              </Link>
-                            </li>
-                          ))
-                        ) : (
-                          <li>No recent posts available.</li>
-                        )}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
+        <h1
+          className="post_title text-[32px] md:text-[40px] font-semibold my-6"
+          dangerouslySetInnerHTML={{ __html: blog.title }}
+        ></h1>
+        {sections.map((section, index) => (
+          <div
+            key={index}
+            className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
+            dangerouslySetInnerHTML={{ __html: section }}
+          ></div>
+        ))}
+
+        <AuthorTabs blog={blog} author={author} />
       </div>
     </div>
   );
-}
+};
 
 export default BlogPage;
-
