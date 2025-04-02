@@ -1,7 +1,16 @@
 export const metadata = {
-  meta_title:"Web Development Company | DEV",
-  meta_description: "Contract with DEV.co for all your web development and web design needs. We are a the premier web development agency top brands trust. Engage with us today!",
-  og_image:"/images/How-Much-Should-WordPress-Custom-Development-Cost.jpg",
+  title: "Web Development Company | DEV",
+  description: "Contract with DEV.co for all your web development and web design needs...",
+  openGraph: {
+    images: [
+      {
+        url: "/images/How-Much-Should-WordPress-Custom-Development-Cost.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Software Development Company",
+      },
+    ],
+  },
 };
 
 export const slidesData = [

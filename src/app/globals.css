@@ -2658,6 +2658,9 @@ footer,.simple-text-sec  {
 .form_row > div:nth-child(1), .form_row > div:nth-child(2) {
     width: 50% !important;
 }
+.author_info_detail {
+    padding-left: 15px;
+}
 /*--------- responsive css start ---------*/
 
 @media(min-width:1024px) {
