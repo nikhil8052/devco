@@ -1,63 +1,64 @@
+// app/layout.tsx or app/layout.js
+
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import "slick-carousel/slick/slick.css"; // Import Slick CSS
-import "slick-carousel/slick/slick-theme.css"; // Import Slick theme CSS";
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome CSS
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Script from "next/script";
-import Head from "next/head";
 
 config.autoAddCss = false;
 
+export const metadata = {
+  title: "Your Site Title",
+  description: "Your site description",
+  icons: {
+    icon: "/cropped-favicon44.png",
+    apple: "/cropped-favicon44.png",
+  },
+  manifest: "/site.webmanifest",
+  viewport: "width=device-width, initial-scale=1.0",
+  charset: "UTF-8",
+  other: {
+    "google-site-verification": "KtPvzJjqtT9qrm75U0lpt6_CNkLPF2K4SzYE7ktKKuk",
+    "http-equiv": "Content-Security-Policy",
+    "content": "default-src 'self'; img-src https://*; child-src 'none';",
+  },
+};
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <Head>
-        {/* Add favicon */}
-        <link rel="icon" href="/cropped-favicon44.png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/cropped-favicon44.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        {/* Add meta tags for charset and viewport */}
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="KtPvzJjqtT9qrm75U0lpt6_CNkLPF2K4SzYE7ktKKuk" />
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';"></meta>
-      </Head>
       <body>
-        {/* Chatbot script */}
         <Script
           id="chatbot-script"
-          strategy="afterInteractive" // Ensures script is loaded after page content
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               setTimeout(() => {
-                // Clear the cookie
                 document.cookie = "collect_chat_page_load=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-                (function(w, d) { 
-                  w.CollectId = "5ed144e1f906363bd69e66cf"; 
-                  var h = d.head || d.getElementsByTagName("head")[0]; 
-                  var s = d.createElement("script"); 
-                  s.setAttribute("type", "text/javascript"); 
-                  s.async = true; 
-                  // Add a unique query string to prevent caching
-                  s.setAttribute("src", "https://collectcdn.com/launcher.js?v=" + new Date().getTime()); 
-                  h.appendChild(s); 
+                (function(w, d) {
+                  w.CollectId = "5ed144e1f906363bd69e66cf";
+                  var h = d.head || d.getElementsByTagName("head")[0];
+                  var s = d.createElement("script");
+                  s.setAttribute("type", "text/javascript");
+                  s.async = true;
+                  s.setAttribute("src", "https://collectcdn.com/launcher.js?v=" + new Date().getTime());
+                  h.appendChild(s);
                 })(window, document);
               }, 500);
             `,
           }}
         />
-        {/* External script */}
-        <Script 
+        <Script
           src="https://mm-uxrv.com/js/business_8851188b-aaec-4481-83a4-c53237e6c804-46897532.js"
-          strategy="afterInteractive" // Ensures script is loaded after page content
+          strategy="afterInteractive"
         />
-
         <div className="main-wrapper">{children}</div>
       </body>
     </html>
