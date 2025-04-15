@@ -14,6 +14,20 @@ const nextConfig = {
     return config;
   },
   trailingSlash: false, // Ensures URLs do not end with slashes
+
+  async headers() {
+    return [
+      {
+        source: "/(.*)", // Applies headers to all routes
+        headers: [
+          {
+            key: "X-Content-Type-Options",
+            value: "nosniff",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
