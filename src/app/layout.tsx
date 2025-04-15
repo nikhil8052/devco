@@ -24,6 +24,7 @@ export default function RootLayout({
         {/* Add meta tags for charset and viewport */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="KtPvzJjqtT9qrm75U0lpt6_CNkLPF2K4SzYE7ktKKuk" />
       </Head>
       <body>
         {/* Chatbot script */}
