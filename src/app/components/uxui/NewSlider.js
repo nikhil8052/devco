@@ -42,7 +42,7 @@ const NewSlider = () => {
                 </div>
               </div>
               <div className="head_btnm_col">
-                <a className="blue_arrow_cta" href="/portfolio">Recent Projects <img src="/images/round_arrow.svg"></img></a>
+                <a className="blue_arrow_cta" href="/portfolio">Recent Projects <img src="/images/round_arrow.svg" alt="round arrow"></img></a>
               </div>
             </div>
           </div>
