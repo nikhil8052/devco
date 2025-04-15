@@ -14,7 +14,6 @@ import Logofloat from '@/app/components/Logofloat';
 import { mainservicedata } from '@/app/data/mainservice';
 import NewfaqSection from '@/app/components/faq/NewfaqSection';
 import { faqsData } from '@/app/data/web'; // Added missing import
-import Developmentprocess from '@/app/components/web/Developmentprocess';
 import Standout from '@/app/components/web/Standout';
 
 export default function Home() {   
