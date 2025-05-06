@@ -790,7 +790,7 @@ These qualities are some of the most important to consider:`,
     },
     {
         id: 7,
-        meta_title:"DevOps Services | staging.dev.co",
+        meta_title:"DevOps Services | DEV.co",
         meta_description: "staging.dev.co offers impactful DevOps services that ensure regular, continuous delivery with faster time to market. Hire our DevOps engineers today.",
         og_image:"/images/DevOps-Services-300x150-1.jpg",
         slug: "devops",
