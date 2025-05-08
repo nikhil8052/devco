@@ -2,7 +2,7 @@ export const skills = [
 
     {
         id: 3,
-        meta_title: "Java Developer | Java Development Services | staging.dev.co",
+        meta_title: "Java Developer | Java Development Services |  DEV.co",
         meta_description: "Hire custom Java developers for your website or software development project. Engage our Java development teams for your next big idea!",
         og_image: "/images/Java-Development-Services.png",
         slug: "java",
@@ -18,7 +18,7 @@ export const skills = [
             BorderTextdata: [
                 {
                     title: "Experts in Custom Software Development",
-                    description: `Our expert Java developers are highly skilled; making staging.dev.co the best choice for your custom project.`,
+                    description: `Our expert Java developers are highly skilled; making  DEV.co the best choice for your custom project.`,
 
                 },
                 {
@@ -228,7 +228,7 @@ export const skills = [
         // }
     },
     {
-        meta_title: "iOS Developer | iOS Development Services | staging.dev.co",
+        meta_title: "iOS Developer | iOS Development Services |  DEV.co",
         meta_description: "iOS development & engineering services for your next custom mobile app development project. Contact us today to hire our iOS team!",
         og_image: "/images/ios-Development-services-1.png",
         slug: "ios",
@@ -784,7 +784,7 @@ Our adept software development team is trained to develop mobile applications an
 
     {
         id: 5,
-        meta_title: "Android Developer | Android Development Services | staging.dev.co",
+        meta_title: "Android Developer | Android Development Services |  DEV.co",
         meta_description: "Custom Android development & engineering for your next mobile app development project. Contact us today to hire an expert Android developer!",
         og_image: "/images/icons8-android-os-50.png",
         slug: "android",
@@ -1315,7 +1315,7 @@ We streamline the process to ensure efficiency, quality, and client satisfaction
     },
     {
         id: 7,
-        meta_title: "SolidWorks Developer | SolidWorks Development Services | staging.dev.co",
+        meta_title: "SolidWorks Developer | SolidWorks Development Services |  DEV.co",
         meta_description: "SolidWorks development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/SolidWorks-Development-Services-2.png",
         slug: "solidworks",
@@ -1489,7 +1489,7 @@ It has a massive user base, hundreds of thousands of loyal, lifetime customers, 
     },
     {
         id: 8,
-        meta_title: "Node.js Developer | Node.js Development Services | staging.dev.co",
+        meta_title: "Node.js Developer | Node.js Development Services |  DEV.co",
         meta_description: "Hire Node.js programmers. Our knowledgeable Node.js development services will help you scale your next software development project.",
         og_image: "/images/NodeJs-Development-Services.png",
         slug: "nodejs",
@@ -1681,7 +1681,7 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 9,
-        meta_title: "Azure Developer | Best Azure Development Services | staging.dev.co",
+        meta_title: "Azure Developer | Best Azure Development Services |  DEV.co",
         meta_description: "Azure Developer - Azure cloud development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/Azure-Development-Services-1.png",
         slug: "azure",
@@ -1932,7 +1932,7 @@ should tell you something about its features and reliability.`,
     },
     {
         id: 10,
-        meta_title: "React Developer | React Development Services | staging.dev.co",
+        meta_title: "React Developer | React Development Services |  DEV.co",
         meta_description: "Hire React.js developers for your next custom web or software project. Our exper React developers are ready for your next custom project!",
         og_image: "/images/React-Development-Services.png",
         slug: "react",
@@ -2148,7 +2148,7 @@ Here’s what our React developer process looks like:`,
 
     {
         id: 11,
-        meta_title: "Sitefinity Developer | Sitefinity Development Services | staging.dev.co",
+        meta_title: "Sitefinity Developer | Sitefinity Development Services |  DEV.co",
         meta_description: "Sitefinity development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/Sitefinity-Development-Services-1.png",
         slug: "sitefinity",
@@ -2321,7 +2321,7 @@ Here’s what our React developer process looks like:`,
     },
     {
         id: 12,
-        meta_title: "Electron Developer | Electron Development Services | staging.dev.co",
+        meta_title: "Electron Developer | Electron Development Services |  DEV.co",
         meta_description: "Looking for an Electron.js developer? You've come to the right place. Our Electron.js programmers and project managers can help. Contact us!",
         og_image: "/images/Electron-Development-Services.png",
         slug: "electron",
@@ -2499,7 +2499,7 @@ We do so through world-class development, frictionless communication, and a coll
 
     {
         id: 13,
-        meta_title: "OpenCV Developer | OpenCV Development Services | staging.dev.co",
+        meta_title: "OpenCV Developer | OpenCV Development Services |  DEV.co",
         meta_description: "OpenCV development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/OpenCv-Development-Services.png",
         slug: "opencv",
@@ -2673,7 +2673,7 @@ We do so through world-class development, frictionless communication, and a coll
     },
     {
         id: 14,
-        meta_title: "Laravel Developer | Laravel Development Services | staging.dev.co",
+        meta_title: "Laravel Developer | Laravel Development Services |  DEV.co",
         meta_description: "Laravel development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/icons8-laravel-50.png",
         slug: "laravel",
@@ -3227,7 +3227,7 @@ Contact us today to discuss your project and start using HTML5 to impress and co
     },
     {
         id: 18,
-        meta_title: "PHP Developer | PHP Development Services | staging.dev.co",
+        meta_title: "PHP Developer | PHP Development Services | DEV.co",
         meta_description: "PHP development & engineering services for your next custom software development project. Contact us today to hire one of our PHP developers!",
         og_image: "/images/PHP-Development-Services-1.png",
         slug: "php",
@@ -3753,7 +3753,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 18,
-        meta_title: "Python Developer | Python Development Services | staging.dev.co",
+        meta_title: "Python Developer | Python Development Services | DEV.co ",
         meta_description: "Python development & engineering services for your next custom software development project. Contact us today to hire our Python team!",
         og_image: "/images/Python-Development-Services.png",
         slug: "python",
@@ -4010,7 +4010,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 19,
-        meta_title: "Salesforce Developer | Custom Salesforce Development Services | staging.dev.co",
+        meta_title: "Salesforce Developer | Custom Salesforce Development Services | DEV.co ",
         meta_description: "Salesforce development & engineering services for customizing your sales team's CRM processes and reporting. Contact us today!",
         og_image: "/images/SalesForces-Development-Services.png",
         slug: "salesforce",
@@ -4240,7 +4240,7 @@ Here are just some ways you'll benefit from custom PHP web development with Dev.
 
     {
         id: 19,
-        meta_title: "C#/.NET Developer | C#/.NET Development Services | staging.dev.co",
+        meta_title: "C#/.NET Developer | C#/.NET Development Services |  DEV.co ",
         meta_description: "C# & .NET development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/C-Sharp-Dot-NET-Development-Services.png",
         slug: "c-sharp-dot-net",
@@ -4417,7 +4417,7 @@ you may consider selecting this framework for your next project:`,
     },
     {
         id: 20,
-        meta_title: "Oracle Developer | Oracle Development Services | staging.dev.co",
+        meta_title: "Oracle Developer | Oracle Development Services | DEV.co ",
         meta_description: "Oracle development & engineering services for your next custom SQL software development project. Contact us today!",
         og_image: "/images/Oracle-logo.png",
         slug: "oracle",
@@ -4592,7 +4592,7 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 21,
-        meta_title: "LabVIEW Developer | LabVIEW Development Services | staging.dev.co",
+        meta_title: "LabVIEW Developer | LabVIEW Development Services | DEV.co ",
         meta_description: "LabVIEW development & engineering services for your next custom software development project. Contact us today!",
         og_image: "/images/LabVIEW-Development-Services.png",
         slug: "labview",
@@ -4756,7 +4756,7 @@ you may consider selecting this framework for your next project:`,
 
     {
         id: 22,
-        meta_title: "Nextcloud Developer | Nextcloud Development Services | staging.dev.co",
+        meta_title: "Nextcloud Developer | Nextcloud Development Services | DEV.co ",
         meta_description: "Nextcloud development & engineering services for your next online storage software development project. Contact us today!",
         og_image: "/images/NextCloud-Development-Services.png",
         slug: "nextcloud",
@@ -5330,7 +5330,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 25,
-        meta_title: "Netsuite Developer | Netsuite Development Services | staging.dev.co",
+        meta_title: "Netsuite Developer | Netsuite Development Services | DEV.co ",
         meta_description: "Netsuite development & engineering services for your next custom finance & accounting platform project. Contact us today!",
         og_image: "/images/NetSuite-Development-Services.jpg",
         slug: "netsuite",
@@ -5860,7 +5860,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 28,
-        meta_title: "SQL Server Developer | SQL Server Development Services | staging.dev.co",
+        meta_title: "SQL Server Developer | SQL Server Development Services |  DEV.co",
         meta_description: "SQL Server development & engineering services for your next custom back-end software development project. Contact us today!",
         og_image: "/images/SQL-Server-Development-Services.png",
         slug: "sql-server",
@@ -6040,7 +6040,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 29,
-        meta_title: "SAP Developer | SAP Development Services | staging.dev.co",
+        meta_title: "SAP Developer | SAP Development Services |  DEV.co",
         meta_description: "SAP development & engineering services for your next complex software development project. Contact us today to hire an SAP developer!",
         og_image: "/images/Sap-Development-Services-1.png",
         slug: "sap",
@@ -6199,7 +6199,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
         sub_title: "Skills",
         bannericon: "/images/Kubernetes.svg",
         top_title: "Kubernetes Development Services",
-        top_description: `Are you looking for a container management services solution using Kubernetes? Perhaps you require custom Kubernetes container development?  You’ve come to the right place. At staging.dev.co, our team of Kubernetes professionals can help you design, develop, and deploy the Kubernetes solutions you need.`,
+        top_description: `Are you looking for a container management services solution using Kubernetes? Perhaps you require custom Kubernetes container development?  You’ve come to the right place. At  DEV.co, our team of Kubernetes professionals can help you design, develop, and deploy the Kubernetes solutions you need.`,
 
         BorderTextbox: {
             BorderTextdata: [
@@ -6403,7 +6403,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
 
     {
         id: 31,
-        meta_title: "Tableau Developer | Tableau Development Services | staging.dev.co",
+        meta_title: "Tableau Developer | Tableau Development Services |  DEV.co",
         meta_description: "Tableau development & engineering services for your next custom business development software development project. Contact us today!",
         og_image: "/images/Tableau-Development-services-1.png",
         slug: "tableau",
@@ -6577,7 +6577,7 @@ Contact us today and we’d be happy to answer any questions you might have.`,
     },
     {
         id: 32,
-        meta_title: " ElasticSearch Consulting Services / ElasticSearch Developers / staging.dev.co",
+        meta_title: " ElasticSearch Consulting Services / ElasticSearch Developers /  DEV.co",
         meta_description: "Looking for experts in ElasticSearch? Our software developers are well-versed in ElasticSearch and can provide customized solutions to database search needs.",
         og_image: "/images/icons8-elasticsearch-50.png",
         slug: "elasticsearch",
