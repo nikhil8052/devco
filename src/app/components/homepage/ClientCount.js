@@ -1,20 +1,23 @@
-import React from "react";
+'use client';
+import React, { useState, useRef } from 'react';
 import ClientCountComponent from "../cards/ClientCountComponent";
 import { clientCountData1, clientCountData2, clientCountData3 } from "../../data/home";
+import LazyBackgroundSection from '../LazyBackgroundSection'
 
 export default function ClientCount() {
   // Combine all client data into an array
   const clientData = [clientCountData1, clientCountData2, clientCountData3];
 
   return (
-    <div
-      className="clint_count_section py-24  border-b"
-      style={{
-        backgroundImage: "url('/images/clients_bg.png')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover", // Add backgroundSize if you want it to cover the area properly
-      }}
-    >
+    // <div
+    //   className="clint_count_section py-24  border-b"
+    //   style={{
+    //     backgroundImage: "url('/images/clients_bg.webp')",
+    //     backgroundRepeat: "no-repeat",
+    //     backgroundSize: "cover", // Add backgroundSize if you want it to cover the area properly
+    //   }}
+    // >
+    <LazyBackgroundSection image="/images/clients_bg.webp" className="clint_count_section py-24  border-b"> 
       <div className="container mx-auto">
         <div className="section_head items-end grid md:grid-cols-2 xl:gap-20 md:gap-10 lg:mb-20 md:mb-10 mb-5">
           <div className="left_text_col">
@@ -44,6 +47,7 @@ export default function ClientCount() {
           ))}
         </div>
       </div>
-    </div>
+    </LazyBackgroundSection>   
+    // </div>
   );
 }
