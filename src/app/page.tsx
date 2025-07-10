@@ -4,7 +4,6 @@ import { service1, service2, service3, metadata } from "@/app/data/home";
 import { mainservicedata } from "@/app/data/mainservice";
 import { Combinecode } from '@/app/data/home';
 import UserLayout from './user_layout/UserLayout';
-import LazyBackgroundSection from '@/app/components/LazyBackgroundSection'
 
 // SSR ENABLED (visible above the fold)
 import StartUps from '@/app/components/homepage/StartUps';
