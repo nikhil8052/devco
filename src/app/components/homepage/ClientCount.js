@@ -1,5 +1,4 @@
 'use client';
-import React, { useState, useRef } from 'react';
 import ClientCountComponent from "../cards/ClientCountComponent";
 import { clientCountData1, clientCountData2, clientCountData3 } from "../../data/home";
 import LazyBackgroundSection from '../LazyBackgroundSection'
