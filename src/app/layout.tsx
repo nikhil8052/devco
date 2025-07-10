@@ -1,13 +1,11 @@
-// app/layout.tsx or app/layout.js
-
+// app/layout.tsx
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import "@fortawesome/fontawesome-svg-core/styles.css"; // Required if using FontAwesomeIcon
 import Script from "next/script";
+import Head from "next/head";
 
+// Disable automatic addition of CSS for FontAwesome
 config.autoAddCss = false;
 
 export const metadata = {
@@ -34,10 +32,39 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        {/* Lazy-load slick-carousel styles */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+          media="print"
+          onLoad={(e) => {
+            (e.currentTarget as HTMLLinkElement).media = "all";
+          }}
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+          media="print"
+          onLoad={(e) => {
+            (e.currentTarget as HTMLLinkElement).media = "all";
+          }}
+        />
+
+        {/* If you really need FontAwesome all.min.css (not recommended) */}
+        {/* 
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          media="print"
+          onLoad="this.media='all'"
+        /> 
+        */}
+      </Head>
       <body>
         <Script
           id="chatbot-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               setTimeout(() => {
@@ -57,7 +84,7 @@ export default function RootLayout({
         />
         <Script
           src="https://mm-uxrv.com/js/business_8851188b-aaec-4481-83a4-c53237e6c804-46897532.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <div className="main-wrapper">{children}</div>
       </body>

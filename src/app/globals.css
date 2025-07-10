@@ -14,6 +14,7 @@
         url('/fonts/SFProDisplay-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -26,6 +27,7 @@
         url('/fonts/SFProDisplay-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -38,6 +40,7 @@
         url('/fonts/SFProDisplay-Light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -50,6 +53,7 @@
         url('/fonts/SFProDisplay-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -62,6 +66,7 @@
         url('/fonts/SFProDisplay-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -74,6 +79,7 @@
         url('/fonts/SFProDisplay-Ultralight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -86,6 +92,7 @@
         url('/fonts/SFProDisplay-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -98,6 +105,7 @@
         url('/fonts/SFProDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
