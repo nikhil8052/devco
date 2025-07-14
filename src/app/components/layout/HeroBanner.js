@@ -87,15 +87,25 @@ const HeroBanner = () => {
         />
       </div> */}
       <div className="banner_image mt-[-10rem] xl:mt-[-20rem] lg:mt-[-16rem] relative z-1">
+        {/* <Image
+          src="/images/banner_incl_screen.webp"
+          alt="Banner Image"
+          priority
+          width={1920}
+          height={300}
+          className="w-full h-auto object-cover"
+        /> */}
         <Image
           src="/images/banner_incl_screen.webp"
           alt="Banner Image"
           priority
-          // loading="lazy"
-          width={1920}
-          height={300}
+          width={1920} 
+          height={300} 
+          sizes="(max-width: 768px) 100vw, 1920px" 
+          srcSet="/images/banner_incl_screen.webp 1920w, /images/banner_incl_screen_mobile.webp 768w" 
           className="w-full h-auto object-cover"
         />
+
       </div>
 
     </div>
