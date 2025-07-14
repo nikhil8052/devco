@@ -4,6 +4,9 @@ import Image from 'next/image';
 import BasicCard from '../cards/BasicCard';
 
 const DesignSection = ({ title, description, servicesProps, sideImage }) => {
+  // Check if the sideImage is a video (MP4) or an image (like GIF)
+  const isVideo = sideImage.endsWith('.mp4');
+
   return (
     <div className='service_section py-10 lg:py-20 md:py-5 relative bg-right'>
       <div className='services_grid_wrapper'>
@@ -19,15 +22,31 @@ const DesignSection = ({ title, description, servicesProps, sideImage }) => {
                     <p className='section_head_para text[14px]  2xl:text-[22px] xl:text-[18px] md:text[14px] sm:text[14px]  font-normal text-customwhite'>{description}</p>
                   </div>
                 </div>
+
+                {/* Conditional rendering for GIF or Video */}
                 <div className='animated_frame_wrap my-5 md:hidden sm:block'>
-                <Image
-                  className='service_frame w-full'
-                  src={sideImage}
-                  alt="Banner Image"
-                  width={879}
-                  height={500}
-                />
-              </div>
+                  {isVideo ? (
+                    <video 
+                      className="service_frame w-full" 
+                      src={sideImage} 
+                      autoPlay 
+                      loop 
+                      muted 
+                      type="video/mp4"
+                      width={879} 
+                      height={500}
+                    />
+                  ) : (
+                    <Image
+                      className="service_frame w-full"
+                      src={sideImage}
+                      alt="Banner Image"
+                      width={879}
+                      height={500}
+                    />
+                  )}
+                </div>
+
                 <div className='w-full mt-10 card_col relative z-10'>
                   <div className='card_grid grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-[25px]'>
                     {servicesProps.map((cardData, index) => (
@@ -39,23 +58,38 @@ const DesignSection = ({ title, description, servicesProps, sideImage }) => {
                 </div>
               </div>
 
-              {/* Sticky Image Section */}
-              <div className='animated_frame_wrap hidden lg-mr-[-4rem] md:mr-[0px] sticky top-[50px] self-start md:block  show_desktop  '>
-                <Image
-                  className='service_frame w-full xl:scale-[1.5] lg:scale-[1.3] md:scale-[1.3] sm:scale[1] origin-top-right lg:max-w-[800px] rounded-[10px]'
-                  src={sideImage}
-                  alt="Banner Image"
-                  width={879}
-                  height={500}
-                />
+              {/* Sticky Image or Video Section for Larger Screens */}
+              <div className='animated_frame_wrap hidden lg-mr-[-4rem] md:mr-[0px] sticky top-[50px] self-start md:block  show_desktop'>
+                {isVideo ? (
+                  <video 
+                    className="service_frame w-full xl:scale-[1.5] lg:scale-[1.3] md:scale-[1.3] sm:scale[1] origin-top-right lg:max-w-[800px] rounded-[10px]"
+                    src={sideImage}
+                    autoPlay
+                    loop
+                    muted
+                    type="video/mp4"
+                    width={879}
+                    height={500}
+                  />
+                ) : (
+                  <Image
+                    className="service_frame w-full xl:scale-[1.5] lg:scale-[1.3] md:scale-[1.3] sm:scale[1] origin-top-right lg:max-w-[800px] rounded-[10px]"
+                    src={sideImage}
+                    alt="Banner Image"
+                    width={879}
+                    height={500}
+                  />
+                )}
               </div>
 
             </div>
           </div>
         </div>
       </div>
+
+      {/* Background Image */}
       <Image 
-      className='absolute z-1 right-0 top-[-10%] w-[70%]'
+        className='absolute z-1 right-0 top-[-10%] w-[70%]'
         src="images/design_patterns.svg" 
         alt="Description of image" 
         width={500} 

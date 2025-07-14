@@ -269,7 +269,7 @@ export const techCard2 = {
 export const service1={
     title:"Design",
     description:'The best custom software development companies include the best UX design. The best UX starts with strategic planning. By aligning our digital transformation solutions with your vision and goals, we become a true partner, starting at UX/UI design.',
-    sideImage:'/images/design_gf.gif',
+    sideImage:'/images/design_gf.mp4',
     serviceProps:homeCard1,
     backgroundImage:'/images/right_circle.svg'
 }
@@ -277,7 +277,7 @@ export const service1={
 export const service2={
     title:"Develop",
     description:'From product design mock-ups & MVP sprints to product iteration & QA (quality assurance) testing, our expert project management team and software development services have you covered. ',
-    sideImage:'/images/developgf.gif',
+    sideImage:'/images/developgf.mp4',
     serviceProps:homeCard2,
     backgroundImage:'/images/right_circle.svg'
 }
@@ -285,7 +285,7 @@ export const service2={
 export const service3={
     title:"Deploy",
     description:'Delivery of a product ready for “prime time” also means you have the custom software development support team to shepherd you through training, upgrades and feature add-ons. Software deployment is only the beginning of a journey. ',
-    sideImage:'/images/deploygf.gif',
+    sideImage:'/images/deploygf.mp4',
     serviceProps:homeCard3,
     backgroundImage:'/images/right_circle.svg'
 }
