@@ -1,18 +1,23 @@
+import dynamic from 'next/dynamic';
 import HeroBanner from "@/app/components/layout/HeroBanner";
-import Faq from "@/app/components/faq/Faq";
-import DesignSection from '@/app/components/Services/DesignSection';
-import ClientCount from '@/app/components/homepage/ClientCount';
-import { service1, service2, service3,metadata } from "@/app/data/home";
+import { service1, service2, service3, metadata } from "@/app/data/home";
+import { mainservicedata } from "@/app/data/mainservice";
+import { Combinecode } from '@/app/data/home';
+import UserLayout from './user_layout/UserLayout';
+
+// SSR ENABLED (visible above the fold)
 import StartUps from '@/app/components/homepage/StartUps';
+import DesignSection from '@/app/components/Services/DesignSection';
 import Innovative from '@/app/components/homepage/Innovative';
 import Development from '@/app/components/homepage/Development';
-import CustomDevelopement from '@/app/components/homepage/CustomDevelopement';
-import CustomsofSection from '@/app/components/homepage/CustomsofSection';
-import CombiningCode from '@/app/components/homepage/CombiningCode';
-import Logofloat from "@/app/components/Logofloat";
-import { mainservicedata } from "@/app/data/mainservice";
-import {Combinecode} from '@/app/data/home'
-import UserLayout from './user_layout/UserLayout';
+
+// SSR DISABLED (below the fold)
+const ClientCount = dynamic(() => import('@/app/components/homepage/ClientCount'), { ssr: false });
+const CustomsofSection = dynamic(() => import('@/app/components/homepage/CustomsofSection'), { ssr: false });
+const CustomDevelopement = dynamic(() => import('@/app/components/homepage/CustomDevelopement'), { ssr: false });
+const CombiningCode = dynamic(() => import('@/app/components/homepage/CombiningCode'), { ssr: false });
+const Logofloat = dynamic(() => import('@/app/components/Logofloat'), { ssr: false });
+const Faq = dynamic(() => import('@/app/components/faq/Faq'), { ssr: false });
 
 export default function Home() {
   const serviceData1 = mainservicedata[0]; 
@@ -25,7 +30,7 @@ export default function Home() {
       <div
         className="home_page bg-black relative text-customwhite items-center pt-20"
         style={{
-          backgroundImage: "url('/images/banner_bg.png')",
+          backgroundImage: "url('/images/banner_bg1.webp')",
           backgroundRepeat: "no-repeat",
         }}
       >
@@ -50,6 +55,7 @@ export default function Home() {
          <Faq /> 
 
     </div>
+    
     </UserLayout>
     
     </>

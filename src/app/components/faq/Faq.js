@@ -1,5 +1,7 @@
 'use client';
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react'
+
+import LazyBackgroundSection from '../LazyBackgroundSection'
 
 export default function Faq() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -119,10 +121,12 @@ export default function Faq() {
   };
 
   return (
-    <div className="faq_section w-full lg:py-20 md:py-10 sm:py-5 relative z-10" style={{
-      backgroundImage: "url('/images/faz_bg.png')",
+    <LazyBackgroundSection image="/images/faz_bg.webp" className="faq_section w-full lg:py-20 md:py-10 sm:py-5 relative z-10">
+
+    {/* <div className="faq_section w-full lg:py-20 md:py-10 sm:py-5 relative z-10" style={{
+      backgroundImage: "url('/images/faz_bg.webp')",
       backgroundRepeat: "no-repeat",
-    }}>
+    }}> */}
       <div className="container mx-auto">
         <div className="section_head items-end grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 gap-5 lg:gap-20 mb-20">
           <div className='left_text_col'>
@@ -188,6 +192,8 @@ export default function Faq() {
           ))}
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </LazyBackgroundSection>
+
   );
 }

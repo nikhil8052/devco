@@ -43,7 +43,8 @@ export default function StartUps() {
     return () => clearInterval(intervalId); // Cleanup on unmount
   }, [imagesSet1, imagesSet2]);
   return (
-    <div className='startup_section pt-5 md:pt-0 pb-10 md:pb-20 xl:mt-[-200px] lg:mt-[-100px] md:mt-[-50px] relative z-10'>
+    // <div className='startup_section pt-5 md:pt-0 pb-10 md:pb-20 xl:mt-[-200px] lg:mt-[-100px] md:mt-[-50px] relative z-10'>
+     <div className='startup_section pt-5 md:pt-0 pb-10 md:pb-20 xl:-mt-24 lg:-mt-20 md:-mt-12 relative z-10'>
       <div className="container mx-auto">
         <div className="text-center mb-6">
           <h2 className="lg:text-[24px] md:text-[20px] sm:text[18px] text-customwhite font-semibold">Web Development & Software Engineering</h2>
