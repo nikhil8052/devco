@@ -77,7 +77,7 @@ export default function Faq() {
           <div>
             <div className='pl-10'>
               <Image
-                src="/images/custom_devkjhk.png"
+                src="/images/custom_devkjhk.webp"
                 height={400}
                 width={400}
                 alt="Custom Development Illustration"
@@ -88,7 +88,7 @@ export default function Faq() {
         </div>
       </div>
       <Image
-        src="/images/New-imgm.svg"
+        src="/images/New-imgm.webp"
         height={512}
         width={1920}
         alt=""
