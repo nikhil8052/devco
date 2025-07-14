@@ -12,6 +12,8 @@ export default function StartUps() {
     '/images/nodejs1.svg',
   ], []);
 
+  
+
   const imagesSet2 = useMemo(() => [
     '/images/unity.svg',
     '/images/reactjs1.svg',
