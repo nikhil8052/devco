@@ -1,4 +1,6 @@
 'use client';
+import { useState, useRef } from 'react'
+
 import LazyBackgroundSection from '../LazyBackgroundSection'
 
 export default function Faq() {
