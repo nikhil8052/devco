@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 
 @font-face {
     font-family: 'SF Pro Display';
@@ -106,7 +106,27 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+} */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+         url('/fonts/SFProDisplay-Regular.woff') format('woff'),
+         url('/fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+         url('/fonts/SFProDisplay-Bold.woff') format('woff'),
+         url('/fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body {
     @apply font-sf-pro;
