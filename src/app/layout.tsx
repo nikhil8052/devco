@@ -1,7 +1,7 @@
 // app/layout.tsx
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css"; // Required if using FontAwesomeIcon
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import Script from "next/script";
 import Head from "next/head";
 

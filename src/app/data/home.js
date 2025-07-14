@@ -243,7 +243,7 @@ export const homeCard3 = [
 export const techCard1 = {
     title: "Mobile Application w/3M+ downloads",
     description: "Built for Android & Apple iOS",
-    imageSrc: "/images/mob_applic.png",
+    imageSrc: "/images/mob_applic.webp",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "Fortune 100 Retailer Manages $1B+ in Sales",
@@ -255,7 +255,7 @@ export const techCard2 = {
     title: "Strategic software development support",
     description:
         "As an end-to-end service provider, we deliver in-depth strategic support and custom software developer services to corporations, government entities and small/medium businesses across the globe, ensuring your digital success.",
-    imageSrc: "/images/mob_applic2.png",
+    imageSrc: "/images/mob_applic2.webp",
     imageWidth: 500,
     imageHeight: 350,
     subTitle: "We aim to deliver on time and under budget",
