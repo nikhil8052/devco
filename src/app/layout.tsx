@@ -60,8 +60,7 @@ export default function RootLayout({
           onLoad="this.media='all'"
         /> 
         */}
-      </Head>
-      <body>
+
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-E6FYK5PYXZ"
           strategy="afterInteractive"
@@ -74,6 +73,9 @@ export default function RootLayout({
             gtag('config', 'G-E6FYK5PYXZ');
           `}
         </Script>
+        
+      </Head>
+      <body>
         
         <Script
           id="chatbot-script"
