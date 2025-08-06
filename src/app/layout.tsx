@@ -63,6 +63,19 @@ export default function RootLayout({
       </Head>
       <body>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-E6FYK5PYXZ"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-E6FYK5PYXZ');
+          `}
+        </Script>
+        
+        <Script
           id="chatbot-script"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
