@@ -33,6 +33,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-E6FYK5PYXZ"
+      strategy="afterInteractive"
+    />
+    <Script
+      id="gtag-init"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-E6FYK5PYXZ');
+        `,
+      }}
+    />
+        
         {/* Lazy-load slick-carousel styles */}
         <link
           rel="stylesheet"
@@ -59,20 +76,7 @@ export default function RootLayout({
           media="print"
           onLoad="this.media='all'"
         /> 
-        */}
-
-
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6FYK5PYXZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-E6FYK5PYXZ');
-</script>
-          
-        
+        */}        
       </Head>
       <body>
         
