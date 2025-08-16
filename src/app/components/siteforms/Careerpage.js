@@ -42,6 +42,7 @@ const Careerpage = () => {
       return;
     }
   
+ 
     const apiUrl = 'https://devco1.wpenginepowered.com/wp-json/custom/v1/send-career?username=devdotco&password=MnFI 4eZL xMDN SWF0 WZa6 AmiX';
   
     const formData = new FormData();
@@ -53,12 +54,6 @@ const Careerpage = () => {
     formData.append("resume", resume);
     formData.append("additionalInfo", data.additionalInfo);
 
-    for (const [key, value] of formData.entries()) {
-      console.log(key, value);
-    }
-    
-  
-  
 
     try {
       const response = await fetch(apiUrl, {
