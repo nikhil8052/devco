@@ -266,11 +266,11 @@ const Header = () => {
                     Login
                   </a>
                   <a
-                    href="https://account.dev.co/login"
+                    href="https://client.dev.co/widget/bookings/ericlamannadev"
                     target="_blank"
                     className="video_popup_button bg-white text-black px-3 2xl:px-5 md:px-3 py-2 text-[13px] 2xl:text-[16px] xl:text-[13px] 2xl:font-semibold md:font-normal sm:font-normal rounded-md transition hover:bg-[#4353FF] hover:text-white"
                   >
-                    Sign up
+                    Book a Demo
                   </a>
                 </div>
                 <div className="mobile_toggle block lg:hidden ml-auto">
