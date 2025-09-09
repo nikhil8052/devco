@@ -190,7 +190,7 @@ export const technologies = [
     },
     {
         id: 2,
-        meta_title:"Cybersecurity Developer | Cybersecurity Development Services | staging.dev.co",
+        meta_title:"Cybersecurity Developer | Cybersecurity Development Services | DEV.co",
         meta_description: "Custom developers for enhanced cybersecurity. Our cybersecurity audit, response & deployment teams will assist you in securing your network.",
         og_image:"/images/Cybersecurity-Development-Services.png",
         slug: "cybersecurity",
