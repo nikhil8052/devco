@@ -3706,3 +3706,59 @@ footer,.simple-text-sec  {
         width: 100% !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Blog Table Styling */
+.blog_detail_page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #050506;
+  overflow: hidden;
+}
+
+.blog_detail_page table thead {
+  background-color: #050506;
+}
+
+.blog_detail_page table th,
+.blog_detail_page table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e5e5e5;
+}
+.blog_detail_page table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.blog_detail_page table tbody tr:hover {
+  background-color: #05050680;
+}
+
+.blog_detail_page table tbody tr:nth-child(even) {
+  background-color: #050506;
+}
+
+/* WordPress Dynamic Table Wrapper */
+.blog_detail_page .wp-table-wrapper {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.blog_detail_page .wp-dynamic-table {
+  min-width: 500px;
+}
