@@ -2,11 +2,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import UserLayout from "../user_layout/UserLayout";
 import AuthorTabs from "@/app/components/blog/AuthorTabs";
-import AuthorDetailLink from "@/app/components/blog/AuthorDetailLink"; // Import the new client component
+import AuthorDetailLink from "@/app/components/blog/AuthorDetailLink";
+import DynamicContent from "@/app/posts/DynamicContent"; 
 
 const BlogPage = ({ blog, author }) => {
   const loading = false;
-  const sections = blog.content.split("\n");
 
   if (loading) {
     return (
@@ -48,7 +48,6 @@ const BlogPage = ({ blog, author }) => {
         </div>
       </div>
 
-      {/* Rest of your component remains the same */}
       <div className="container mx-auto">
         <div className="blog_card_image">
           <img src={blog.image} alt="Blog Thumbnail" className="w-full h-auto" />
@@ -60,14 +59,10 @@ const BlogPage = ({ blog, author }) => {
           className="post_title text-[32px] md:text-[40px] font-semibold my-6"
           dangerouslySetInnerHTML={{ __html: blog.title }}
         ></h1>
-        {sections.map((section, index) => (
-          <div
-            key={index}
-            className="content text-[14px] md:text-[18px] leading-relaxed text-gray-300"
-            dangerouslySetInnerHTML={{ __html: section }}
-          ></div>
-        ))}
-
+        
+        {/* Use a client component for the dynamic content */}
+        <DynamicContent content={blog.content} />
+        
         <AuthorTabs blog={blog} author={author} />
       </div>
     </div>
