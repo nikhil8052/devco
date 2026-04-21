@@ -60,7 +60,7 @@ const NewSlider = () => {
                     >
                       <div className="proj_box_head">
                         <img className="proj_logo" src={project.logo} alt={`${project.altText} Logo`} />
-                        <div className="proj_description">{project.description}</div>
+                        {/* <div className="proj_description">{project.description}</div> */}
                       </div>
                       <div className="project_image">
                         <img className="proj_logo" src={project.projectImage} alt={project.altText} />
